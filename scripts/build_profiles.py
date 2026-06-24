@@ -353,7 +353,7 @@ def html_page() -> str:
         }).join('') || '<p class="empty">No lanes found.</p>'}`;
       document.getElementById('back').addEventListener('click', () => { history.pushState(null, '', location.pathname); renderHome(); });
     }
-    fetch('profiles.json').then(r => r.json()).then(payload => {
+    fetch(`profiles.json?v=${Date.now()}`, { cache: 'no-store' }).then(r => r.json()).then(payload => {
       data = payload;
       const params = new URLSearchParams(location.search);
       const q = params.get('q');
