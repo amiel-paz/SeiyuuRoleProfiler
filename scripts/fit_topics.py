@@ -141,7 +141,7 @@ def allowed_descriptor_sequence(tagged_tokens: list[tuple[str, str]]) -> bool:
     if any(tag not in ALLOWED_DESCRIPTOR_POS_TAGS for tag in tags):
         return False
     if len(tags) == 1:
-        return tags[0] in ALLOWED_DESCRIPTOR_POS_TAGS
+        return tags[0] in COMMON_NOUN_POS_TAGS | ADJECTIVE_POS_TAGS
     if "VBG" in tags:
         return any(tag in COMMON_NOUN_POS_TAGS for tag in tags)
     return all(tag in COMMON_NOUN_POS_TAGS | ADJECTIVE_POS_TAGS for tag in tags)
@@ -323,6 +323,7 @@ def main() -> None:
             "topic_counts": topic_counts,
             "feature_mode": "pos_gated_descriptor_ngrams",
             "proper_nouns": "excluded",
+            "standalone_gerunds": "excluded",
             "subgram_suppression": "document-level longest-match; lower-order n-grams contained in any valid longer n-gram are omitted for that character",
             "ngram_range": [args.ngram_min, args.ngram_max],
             "min_df": args.min_df,

@@ -348,7 +348,7 @@ def html_page() -> str:
             <div class="laneTitle"><div class="terms">${esc(laneTerms(topic))}</div><div class="score">${lane.enrichment.toFixed(2)}x</div></div>
             <div class="meta">support ${lane.support} · mean ${lane.mean.toFixed(3)} · global ${lane.global_mean.toFixed(3)} · topic ${lane.topic_index}</div>
             <details><summary>${topic.mass_term_count} n-grams cover ${(topic.mass_covered * 100).toFixed(1)}% of lane mass</summary><div class="termList">${esc(topic.mass_terms.join(', '))}</div></details>
-            <div class="chars">${lane.characters.map(c => `<a class="char" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\\n' + c.anime_title)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('')}</div>
+            <div class="chars">${lane.characters.map(c => `<a class="char" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\n' + c.anime_title)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('')}</div>
           </section>`;
         }).join('') || '<p class="empty">No lanes found.</p>'}`;
       document.getElementById('back').addEventListener('click', () => { history.pushState(null, '', location.pathname); renderHome(); });

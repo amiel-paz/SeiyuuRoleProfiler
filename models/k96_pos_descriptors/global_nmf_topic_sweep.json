@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T20:29:32.264431Z",
+  "generated_at": "2026-06-24T20:33:50.329087Z",
   "source": "fit_topics.py",
   "parameters": {
     "topic_counts": [
@@ -7,6 +7,7 @@
     ],
     "feature_mode": "pos_gated_descriptor_ngrams",
     "proper_nouns": "excluded",
+    "standalone_gerunds": "excluded",
     "subgram_suppression": "document-level longest-match; lower-order n-grams contained in any valid longer n-gram are omitted for that character",
     "ngram_range": [
       1,
@@ -23,16 +24,16 @@
     "corpus_documents": 7579,
     "matrix_shape": [
       7579,
-      3970
+      3590
     ],
-    "nonzero_entries": 92756
+    "nonzero_entries": 83902
   },
   "fits": [
     {
       "k": 96,
       "summary_file": "nmf_k096_summary.json",
       "matrix_file": "nmf_k096_matrices.npz",
-      "relative_reconstruction_error": 0.897137
+      "relative_reconstruction_error": 0.888902
     }
   ]
 }
