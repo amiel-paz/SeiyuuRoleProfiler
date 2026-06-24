@@ -88,16 +88,25 @@ def compact_topic_catalog(model_dir: Path, k: int, label_mass: float) -> dict[st
     summary = read_json(model_dir / f"nmf_k{k:03d}_summary.json")
     matrices = np.load(model_dir / f"nmf_k{k:03d}_matrices.npz")
     components = matrices["topic_ngram_components"]
+    label_path = model_dir / "topic_labels.json"
+    labels = {}
+    if label_path.exists():
+        labels = {str(row["topic_index"]): row for row in read_json(label_path).get("labels", [])}
     topics: dict[str, dict] = {}
     for topic in summary["topics"]:
         topic_index = int(topic["topic_index"])
         mass_terms, cumulative = topic_terms_for_mass(components[topic_index], vocab, label_mass)
+        label = labels.get(str(topic_index), {})
         topics[str(topic_index)] = {
             "topic_index": topic_index,
             "top_terms": [term["ngram"] for term in topic["top_terms"]],
             "mass_terms": mass_terms,
             "mass_term_count": len(mass_terms),
             "mass_covered": round(cumulative, 4),
+            "label": label.get("label") or "",
+            "description": label.get("description") or "",
+            "label_confidence": label.get("confidence") or "",
+            "label_evidence_terms": label.get("evidence_terms") or [],
         }
     return topics
 
@@ -330,7 +339,7 @@ def html_page() -> str:
       wireSearch();
     }
     function laneTerms(topic) {
-      return topic.top_terms.slice(0, 8).join(' / ');
+      return topic.label || topic.top_terms.slice(0, 8).join(' / ');
     }
     function renderProfile(profile) {
       if (!profile) {
@@ -346,6 +355,7 @@ def html_page() -> str:
           const topic = data.topics[String(lane.topic_index)];
           return `<section class="lane">
             <div class="laneTitle"><div class="terms">${esc(laneTerms(topic))}</div><div class="score">${lane.enrichment.toFixed(2)}x</div></div>
+            ${topic.description ? `<div class="meta">${esc(topic.description)}</div>` : ''}
             <div class="meta">support ${lane.support} · mean ${lane.mean.toFixed(3)} · global ${lane.global_mean.toFixed(3)} · topic ${lane.topic_index}</div>
             <details><summary>${topic.mass_term_count} n-grams cover ${(topic.mass_covered * 100).toFixed(1)}% of lane mass</summary><div class="termList">${esc(topic.mass_terms.join(', '))}</div></details>
             <div class="chars">${lane.characters.map(c => `<a class="char" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\n' + c.anime_title)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('')}</div>

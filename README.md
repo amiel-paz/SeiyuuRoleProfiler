@@ -65,6 +65,15 @@ Refit topics from raw AniList character and description dumps:
   --topic-counts 96
 ```
 
+Generate cached semantic labels for the fitted topics with a local Ollama model.
+This uses only topic n-grams and weights, not exemplar characters:
+
+```sh
+ollama pull qwen3.5:4b
+.venv/bin/python scripts/label_topics.py
+.venv/bin/python scripts/build_profiles.py
+```
+
 Recreate the compact credit cache from the large research dumps:
 
 ```sh
