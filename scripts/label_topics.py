@@ -27,6 +27,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--timeout", type=float, default=90.0)
     parser.add_argument("--temperature", type=float, default=0.0)
     parser.add_argument("--seed", type=int, default=13)
+    parser.add_argument("--num-predict", type=int, default=1024)
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
@@ -120,6 +121,7 @@ def call_ollama(args: argparse.Namespace, prompt: str) -> dict:
         "options": {
             "temperature": args.temperature,
             "seed": args.seed,
+            "num_predict": args.num_predict,
         },
     }
     request = urllib.request.Request(
@@ -192,6 +194,7 @@ def main() -> None:
                 "top_terms": args.top_terms,
                 "temperature": args.temperature,
                 "seed": args.seed,
+                "num_predict": args.num_predict,
                 "characters_in_prompt": False,
             },
             "labels": labels,
