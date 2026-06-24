@@ -42,13 +42,14 @@ HTML_TAG_RE = re.compile(r"<[^>]+>")
 MARKDOWN_LINK_RE = re.compile(r"\[([^\]]+)\]\(https?://[^)]+\)")
 BBCODE_TAG_RE = re.compile(r"\[/?(?:b|i|u|s|center|spoiler|url(?:=[^\]]+)?)\]", re.IGNORECASE)
 URL_RE = re.compile(r"https?://\S+")
-DESCRIPTOR_TOKEN_RE = re.compile(r"[a-z][a-z0-9]*")
-NOUN_POS_TAGS = {"NN", "NNS", "NNP", "NNPS"}
+DESCRIPTOR_TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z0-9]*")
+COMMON_NOUN_POS_TAGS = {"NN", "NNS"}
+PROPER_NOUN_POS_TAGS = {"NNP", "NNPS"}
 ADJECTIVE_POS_TAGS = {"JJ", "JJR", "JJS"}
 GERUND_POS_TAGS = {"VBG"}
 PRONOUN_POS_TAGS = {"PRP", "PRP$", "WP", "WP$"}
 FINITE_VERB_POS_TAGS = {"VB", "VBD", "VBN", "VBP", "VBZ"}
-ALLOWED_DESCRIPTOR_POS_TAGS = NOUN_POS_TAGS | ADJECTIVE_POS_TAGS | GERUND_POS_TAGS
+ALLOWED_DESCRIPTOR_POS_TAGS = COMMON_NOUN_POS_TAGS | ADJECTIVE_POS_TAGS | GERUND_POS_TAGS
 PRONOUN_TOKENS = {
     "he", "her", "hers", "herself", "him", "himself", "his", "i", "it", "its", "itself",
     "me", "my", "myself", "our", "ours", "ourselves", "she", "their", "theirs", "them",
@@ -95,15 +96,16 @@ def write_json(path: Path, payload: Any) -> None:
     tmp.replace(path)
 
 
-def normalize_description(value: str) -> str:
+def normalize_description(value: str, *, lowercase: bool = True) -> str:
     text = html.unescape(value or "")
     text = MARKDOWN_LINK_RE.sub(r"\1", text)
     text = BBCODE_TAG_RE.sub(" ", text)
     text = HTML_TAG_RE.sub(" ", text)
     text = URL_RE.sub(" ", text)
     text = unicodedata.normalize("NFKD", text)
-    text = text.encode("ascii", "ignore").decode("ascii").lower()
-    return text.replace("\\n", " ").replace("\n", " ").replace("\r", " ")
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.replace("\\n", " ").replace("\n", " ").replace("\r", " ")
+    return text.lower() if lowercase else text
 
 
 def import_nltk():
@@ -118,7 +120,7 @@ def import_nltk():
 def descriptor_tokens(value: str) -> list[str]:
     return [
         token
-        for token in DESCRIPTOR_TOKEN_RE.findall(normalize_description(value))
+        for token in DESCRIPTOR_TOKEN_RE.findall(normalize_description(value, lowercase=False))
         if len(token) > 1 and not token.isdigit()
     ]
 
@@ -126,7 +128,7 @@ def descriptor_tokens(value: str) -> list[str]:
 def allowed_descriptor_sequence(tagged_tokens: list[tuple[str, str]]) -> bool:
     if not tagged_tokens:
         return False
-    tokens = [token for token, _ in tagged_tokens]
+    tokens = [token.lower() for token, _ in tagged_tokens]
     if any(token in DESCRIPTOR_STOPWORDS for token in tokens):
         return False
     tags = [tag for _, tag in tagged_tokens]
@@ -134,25 +136,39 @@ def allowed_descriptor_sequence(tagged_tokens: list[tuple[str, str]]) -> bool:
         return False
     if any(tag in FINITE_VERB_POS_TAGS for tag in tags):
         return False
+    if any(tag in PROPER_NOUN_POS_TAGS for tag in tags):
+        return False
     if any(tag not in ALLOWED_DESCRIPTOR_POS_TAGS for tag in tags):
         return False
     if len(tags) == 1:
         return tags[0] in ALLOWED_DESCRIPTOR_POS_TAGS
     if "VBG" in tags:
-        return any(tag in NOUN_POS_TAGS for tag in tags)
-    return all(tag in NOUN_POS_TAGS | ADJECTIVE_POS_TAGS for tag in tags)
+        return any(tag in COMMON_NOUN_POS_TAGS for tag in tags)
+    return all(tag in COMMON_NOUN_POS_TAGS | ADJECTIVE_POS_TAGS for tag in tags)
 
 
 def descriptor_analyzer_factory(nltk: Any, ngram_min: int, ngram_max: int):
     def analyzer(value: str) -> list[str]:
         tagged = nltk.pos_tag(descriptor_tokens(value))
-        terms: list[str] = []
+        candidates: list[tuple[str, ...]] = []
         for size in range(ngram_min, ngram_max + 1):
             for index in range(0, len(tagged) - size + 1):
                 window = tagged[index : index + size]
                 if allowed_descriptor_sequence(window):
-                    terms.append(" ".join(token for token, _ in window))
-        return terms
+                    candidates.append(tuple(token.lower() for token, _ in window))
+
+        longer_candidates = [candidate for candidate in candidates if len(candidate) > 1]
+        output: list[str] = []
+        for candidate in candidates:
+            candidate_size = len(candidate)
+            if any(
+                candidate_size < len(longer)
+                and any(candidate == longer[start : start + candidate_size] for start in range(0, len(longer) - candidate_size + 1))
+                for longer in longer_candidates
+            ):
+                continue
+            output.append(" ".join(candidate))
+        return output
 
     return analyzer
 
@@ -173,6 +189,18 @@ def media_title(media: object) -> str:
     return str(title or "")
 
 
+def media_year(media: object) -> int | None:
+    if not isinstance(media, dict):
+        return None
+    value = media.get("startDate") or media.get("start_date") or {}
+    if isinstance(value, dict) and value.get("year"):
+        return int(value["year"])
+    for key in ("seasonYear", "season_year", "year"):
+        if media.get(key):
+            return int(media[key])
+    return None
+
+
 def description_for_character(character: dict, descriptions: dict) -> str:
     key = str(character["id"])
     value = descriptions.get(key, "")
@@ -181,18 +209,30 @@ def description_for_character(character: dict, descriptions: dict) -> str:
     return str(value or "")
 
 
+def description_lookup(descriptions_payload: dict) -> dict[str, object]:
+    if isinstance(descriptions_payload.get("characters"), list):
+        return {
+            str(row["id"]): row.get("description") or row.get("description_plain") or row.get("description_text") or ""
+            for row in descriptions_payload["characters"]
+            if isinstance(row, dict) and row.get("id") is not None
+        }
+    return descriptions_payload
+
+
 def build_corpus(characters_payload: dict, descriptions: dict) -> tuple[list[dict], list[str], dict]:
     rows: list[dict] = []
     corpus: list[str] = []
+    description_by_id = description_lookup(descriptions)
     characters = characters_payload.get("characters", [])
     characters_with_description = 0
     for character in characters:
-        description = description_for_character(character, descriptions).strip()
+        description = description_for_character(character, description_by_id).strip()
         if description:
             characters_with_description += 1
         if len(normalize_description(description).split()) < 5:
             continue
         first_anime = character.get("window_first_anime") or character.get("first_anime") or {}
+        normalized_description = normalize_description(description)
         rows.append(
             {
                 "character_id": int(character["id"]),
@@ -202,6 +242,9 @@ def build_corpus(characters_payload: dict, descriptions: dict) -> tuple[list[dic
                 "site_url": character.get("site_url") or f"https://anilist.co/character/{character['id']}",
                 "image": character.get("image") or "",
                 "first_anime": media_title(first_anime),
+                "first_anime_year": media_year(first_anime),
+                "description_chars": len(description),
+                "description_words": len(normalized_description.split()),
             }
         )
         corpus.append(description)
@@ -279,6 +322,8 @@ def main() -> None:
         "parameters": {
             "topic_counts": topic_counts,
             "feature_mode": "pos_gated_descriptor_ngrams",
+            "proper_nouns": "excluded",
+            "subgram_suppression": "document-level longest-match; lower-order n-grams contained in any valid longer n-gram are omitted for that character",
             "ngram_range": [args.ngram_min, args.ngram_max],
             "min_df": args.min_df,
             "max_df": args.max_df,

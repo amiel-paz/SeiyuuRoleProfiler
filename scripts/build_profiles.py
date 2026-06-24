@@ -154,7 +154,7 @@ def build_profiles(args: argparse.Namespace) -> dict:
             evidence = [
                 character_payload(roles[int(position)], float(local[int(position), topic_index]))
                 for position in evidence_order[: args.top_characters]
-                if float(local[int(position), topic_index]) > 0
+                if float(local[int(position), topic_index]) >= args.min_topic_proportion
             ]
             lanes.append(
                 {

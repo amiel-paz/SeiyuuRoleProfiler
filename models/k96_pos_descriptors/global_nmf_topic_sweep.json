@@ -1,55 +1,38 @@
 {
-  "generated_at": "2026-06-24T07:29:37.095426Z",
+  "generated_at": "2026-06-24T20:29:32.264431Z",
   "source": "fit_topics.py",
   "parameters": {
     "topic_counts": [
       96
     ],
     "feature_mode": "pos_gated_descriptor_ngrams",
+    "proper_nouns": "excluded",
+    "subgram_suppression": "document-level longest-match; lower-order n-grams contained in any valid longer n-gram are omitted for that character",
     "ngram_range": [
       1,
       3
     ],
-    "allowed_pos": {
-      "unigrams": [
-        "JJ",
-        "JJR",
-        "JJS",
-        "NN",
-        "NNP",
-        "NNPS",
-        "NNS",
-        "VBG"
-      ],
-      "multiword": "nouns/adjectives only, or gerund phrases that also include a noun",
-      "rejected": "pronouns, finite verbs, contractions, stopwords"
-    },
     "min_df": 5,
     "max_df": 0.45,
     "max_features": 30000,
-    "max_iter": 600,
-    "random_state": 13,
-    "top_terms": 18,
-    "top_characters": 10
+    "random_state": 13
   },
   "tfidf": {
     "characters_input_count": 7961,
     "characters_with_description": 7645,
-    "corpus_documents": 7215,
+    "corpus_documents": 7579,
     "matrix_shape": [
-      7215,
-      8051
+      7579,
+      3970
     ],
-    "nonzero_entries": 199006
+    "nonzero_entries": 92756
   },
   "fits": [
     {
       "k": 96,
-      "reconstruction_error": 78.799572,
-      "relative_reconstruction_error": 0.927696,
-      "n_iter": 147,
       "summary_file": "nmf_k096_summary.json",
-      "matrix_file": "nmf_k096_matrices.npz"
+      "matrix_file": "nmf_k096_matrices.npz",
+      "relative_reconstruction_error": 0.897137
     }
   ]
 }
