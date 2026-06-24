@@ -24,6 +24,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--top-lanes", type=int, default=16)
     parser.add_argument("--top-characters", type=int, default=16)
     parser.add_argument("--min-topic-proportion", type=float, default=0.03)
+    parser.add_argument("--min-lane-support", type=int, default=2)
+    parser.add_argument("--min-sample-characters", type=int, default=10)
+    parser.add_argument("--min-sample-roles", type=int, default=20)
     parser.add_argument("--smoothing", type=float, default=0.0025)
     parser.add_argument("--label-mass", type=float, default=0.90)
     return parser.parse_args()
@@ -143,7 +146,7 @@ def build_profiles(args: argparse.Namespace) -> dict:
         for topic_index in range(local.shape[1]):
             support_mask = local[:, topic_index] >= args.min_topic_proportion
             support = int(support_mask.sum())
-            if support == 0:
+            if support < args.min_lane_support:
                 continue
             enrichment = (float(local_mean[topic_index]) + args.smoothing) / (float(global_mean[topic_index]) + args.smoothing)
             lane_score = enrichment * math.log1p(support)
@@ -189,11 +192,14 @@ def build_profiles(args: argparse.Namespace) -> dict:
                 "image": profile["image"],
                 "top_score": profile["top_score"],
                 "role_count": profile["role_count"],
+                "character_count": profile["character_count"],
             }
             for profile in profiles
             if profile["lanes"]
+            and profile["character_count"] >= args.min_sample_characters
+            and profile["role_count"] >= args.min_sample_roles
         ],
-        key=lambda row: (row["top_score"], row["role_count"]),
+        key=lambda row: (row["top_score"], row["character_count"], row["role_count"]),
         reverse=True,
     )[:40]
 
@@ -205,6 +211,11 @@ def build_profiles(args: argparse.Namespace) -> dict:
             "topic_ranking": "(seiyuu mean topic proportion + smoothing) / (global mean topic proportion + smoothing) * log1p(support)",
             "label_mass": args.label_mass,
             "min_topic_proportion": args.min_topic_proportion,
+            "min_lane_support": args.min_lane_support,
+            "sample_floor": {
+                "min_characters": args.min_sample_characters,
+                "min_roles": args.min_sample_roles,
+            },
         },
         "counts": {
             "profiles": len(profiles),

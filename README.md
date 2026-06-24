@@ -14,6 +14,12 @@ The pipeline is intentionally explainable:
 The checked-in compact cache and fitted K=96 model are enough to build and
 serve the profiler without the large research dumps.
 
+The source character pool is filtered to AniList characters with at least 100
+favourites, but seiyuu profiles are still portfolio-scored. Homepage samples
+require at least 10 described characters and 20 roles, and displayed lanes
+require at least two supporting characters for the seiyuu. This keeps
+single-role outliers from ranking above real seiyuu portfolios.
+
 ## Quick Start
 
 ```sh
