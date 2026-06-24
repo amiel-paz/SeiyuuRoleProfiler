@@ -1,0 +1,69 @@
+# SeiyuuRoleProfiler
+
+Interactive seiyuu lookup built from character-description language.
+
+The pipeline is intentionally explainable:
+
+1. collect popular AniList characters and Japanese voice credits;
+2. clean character descriptions into POS-gated descriptor n-grams;
+3. fit a global TF-IDF matrix over character descriptions;
+4. decompose that matrix with global K=96 NMF topics;
+5. aggregate each seiyuu's characters over those shared topic lanes;
+6. rank lanes by enrichment against the global character-topic baseline.
+
+The checked-in compact cache and fitted K=96 model are enough to build and
+serve the profiler without the large research dumps.
+
+## Quick Start
+
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/build_profiles.py
+.venv/bin/python scripts/serve.py
+```
+
+Then open `http://127.0.0.1:8765/`.
+
+## Data
+
+- `data/role_edges.json`: compact seiyuu-character-anime credit cache.
+- `models/k96_pos_descriptors/`: POS-gated global TF-IDF + K=96 NMF artifacts.
+- `site/profiles.json`: generated seiyuu profile payload for the page.
+
+The compact cache links anime to MAL when a MAL anime id is available. Character
+and seiyuu pages currently link to AniList because this cache does not include
+MAL character/person ids.
+
+## Rebuild
+
+Build the profile payload and static page:
+
+```sh
+.venv/bin/python scripts/build_profiles.py
+```
+
+Refit topics from raw AniList character and description dumps:
+
+```sh
+.venv/bin/python scripts/fit_topics.py \
+  --characters-input path/to/characters.json \
+  --descriptions-input path/to/descriptions.json \
+  --topic-counts 96
+```
+
+Recreate the compact credit cache from the large research dumps:
+
+```sh
+.venv/bin/python scripts/prepare_compact_cache.py \
+  --credit-splits-input path/to/credit-splits.json \
+  --characters-input path/to/characters.json \
+  --output data/role_edges.json
+```
+
+## Deferred
+
+When explaining why a character belongs under a lane, display the intersection
+between that character's own descriptor n-grams and the lane's high-weight
+n-grams. This avoids implying that a full global topic label applies when only
+the topic's generic head noun matched.
