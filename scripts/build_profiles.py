@@ -13,12 +13,13 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
+from scipy import sparse
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build the SeiyuuRoleProfiler web payload.")
     parser.add_argument("--role-cache", type=Path, default=Path("data/role_edges.json"))
-    parser.add_argument("--model-dir", type=Path, default=Path("models/k96_pos_descriptors"))
+    parser.add_argument("--model-dir", type=Path, default=Path("models/k96_pos_adj1to6_descriptors"))
     parser.add_argument("--k", type=int, default=96)
     parser.add_argument("--output-dir", type=Path, default=Path("site"))
     parser.add_argument("--top-lanes", type=int, default=16)
@@ -29,6 +30,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--min-sample-roles", type=int, default=20)
     parser.add_argument("--smoothing", type=float, default=0.0025)
     parser.add_argument("--label-mass", type=float, default=0.90)
+    parser.add_argument("--top-descriptors", type=int, default=14)
+    parser.add_argument("--descriptor-characters", type=int, default=8)
     return parser.parse_args()
 
 
@@ -130,12 +133,81 @@ def character_payload(role: dict, score: float) -> dict:
     }
 
 
+def lane_descriptor_payload(
+    topic_index: int,
+    support_positions: np.ndarray,
+    roles: list[dict],
+    global_indices: np.ndarray,
+    tfidf,
+    components: np.ndarray,
+    vocab: list[str],
+    args: argparse.Namespace,
+) -> list[dict]:
+    if len(support_positions) == 0:
+        return []
+    support_global_indices = global_indices[support_positions]
+    support_matrix = tfidf[support_global_indices].tocsc()
+    component = components[topic_index]
+    present_columns = np.unique(support_matrix.nonzero()[1])
+    if len(present_columns) == 0:
+        return []
+
+    descriptor_rows = []
+    for column in present_columns:
+        topic_weight = float(component[int(column)])
+        if topic_weight <= 0:
+            continue
+        column_values = support_matrix[:, int(column)].toarray().ravel()
+        local_contribution = topic_weight * float(column_values.sum())
+        if local_contribution <= 0:
+            continue
+        matched = []
+        for support_offset, value in enumerate(column_values):
+            if float(value) <= 0:
+                continue
+            local_position = int(support_positions[int(support_offset)])
+            matched.append((local_position, float(value)))
+        matched.sort(key=lambda item: item[1], reverse=True)
+        descriptor_rows.append(
+            {
+                "term": str(vocab[int(column)]),
+                "topic_weight": topic_weight,
+                "local_tfidf_sum": float(column_values.sum()),
+                "contribution": local_contribution,
+                "matches": matched,
+            }
+        )
+
+    total_contribution = sum(row["contribution"] for row in descriptor_rows)
+    if total_contribution <= 0:
+        return []
+    descriptor_rows.sort(key=lambda row: row["contribution"], reverse=True)
+    output = []
+    for row in descriptor_rows[: args.top_descriptors]:
+        output.append(
+            {
+                "term": row["term"],
+                "share": round(float(row["contribution"] / total_contribution), 5),
+                "topic_weight": round(float(row["topic_weight"]), 6),
+                "local_tfidf_sum": round(float(row["local_tfidf_sum"]), 6),
+                "characters": [
+                    character_payload(roles[local_position], value)
+                    for local_position, value in row["matches"][: args.descriptor_characters]
+                ],
+            }
+        )
+    return output
+
+
 def build_profiles(args: argparse.Namespace) -> dict:
     role_cache = read_json(args.role_cache)
     rows = read_json(args.model_dir / "character_rows.json")
     matrices = np.load(args.model_dir / f"nmf_k{args.k:03d}_matrices.npz")
     proportions = matrices["character_topic_proportions"]
+    components = matrices["topic_ngram_components"]
     character_ids = matrices["character_ids"]
+    tfidf = sparse.load_npz(args.model_dir / "character_ngram_tfidf.npz").tocsr()
+    vocab = [row["ngram"] for row in read_json(args.model_dir / "tfidf_vocabulary.json")]
     character_index = {int(character_id): index for index, character_id in enumerate(character_ids)}
     global_mean = proportions.mean(axis=0)
     topics = compact_topic_catalog(args.model_dir, args.k, args.label_mass)
@@ -154,6 +226,7 @@ def build_profiles(args: argparse.Namespace) -> dict:
         lanes = []
         for topic_index in range(local.shape[1]):
             support_mask = local[:, topic_index] >= args.min_topic_proportion
+            support_positions = np.flatnonzero(support_mask)
             support = int(support_mask.sum())
             if support < args.min_lane_support:
                 continue
@@ -173,6 +246,16 @@ def build_profiles(args: argparse.Namespace) -> dict:
                     "mean": round(float(local_mean[topic_index]), 5),
                     "global_mean": round(float(global_mean[topic_index]), 5),
                     "support": support,
+                    "descriptors": lane_descriptor_payload(
+                        topic_index,
+                        support_positions,
+                        roles,
+                        indices,
+                        tfidf,
+                        components,
+                        vocab,
+                        args,
+                    ),
                     "characters": evidence,
                 }
             )
@@ -219,6 +302,7 @@ def build_profiles(args: argparse.Namespace) -> dict:
             "k": args.k,
             "topic_ranking": "(seiyuu mean topic proportion + smoothing) / (global mean topic proportion + smoothing) * log1p(support)",
             "label_mass": args.label_mass,
+            "descriptor_graph": "topic-weighted n-grams present in this seiyuu lane's supporting characters; share is normalized local contribution",
             "min_topic_proportion": args.min_topic_proportion,
             "min_lane_support": args.min_lane_support,
             "sample_floor": {
@@ -271,13 +355,24 @@ def html_page() -> str:
     .topbar { margin-bottom: 26px; }
     .topbar button { border:1px solid var(--line); background:white; border-radius:8px; padding:10px 14px; cursor:pointer; color:var(--muted); }
     .lane { border-top:1px solid var(--line); padding:28px 0; }
-    .laneTitle { display:grid; grid-template-columns: 1fr auto; gap:16px; align-items:end; }
-    .terms { font-size: clamp(26px, 4vw, 44px); font-weight:850; line-height:1.05; }
+    .laneTitle { display:grid; grid-template-columns: 1fr auto; gap:16px; align-items:start; }
+    .terms { font-size: clamp(24px, 3vw, 36px); font-weight:850; line-height:1.08; }
     .score { color:var(--accent); font-size:34px; font-weight:850; white-space:nowrap; }
     .meta { color:var(--muted); margin:10px 0 18px; font-size:18px; }
     details { margin: 8px 0 16px; color:var(--muted); }
     summary { cursor:pointer; }
     .termList { margin-top:8px; font-size:14px; line-height:1.5; }
+    .overlapMap { display:grid; gap:10px; margin:18px 0 18px; }
+    .descriptorRow { display:grid; grid-template-columns:minmax(132px, 220px) 70px 1fr; gap:12px; align-items:center; }
+    .descriptorName { font-size:18px; font-weight:800; line-height:1.1; overflow-wrap:anywhere; }
+    .descriptorShare { color:var(--accent); font-size:18px; font-weight:850; text-align:right; }
+    .descriptorTrack { min-height:46px; position:relative; display:flex; align-items:center; gap:8px; padding:6px 8px; border-left:1px solid var(--line); }
+    .descriptorBar { position:absolute; left:0; top:6px; bottom:6px; width:calc(var(--share) * 1%); min-width:3px; max-width:100%; background:var(--soft); border-radius:6px; }
+    .descriptorChars { position:relative; z-index:1; display:flex; flex-wrap:wrap; gap:6px; }
+    .descriptorChar { position:relative; width:42px; height:42px; display:block; }
+    .descriptorChar img { width:42px; height:42px; object-fit:cover; border-radius:6px; border:1px solid var(--line); background:white; display:block; }
+    .descriptorChar:after { content:attr(data-tooltip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); background:#15201b; color:white; padding:8px 10px; border-radius:6px; width:max-content; max-width:260px; white-space:pre-line; opacity:0; pointer-events:none; transition:opacity .12s ease; font-size:13px; z-index:12; }
+    .descriptorChar:hover:after { opacity:1; }
     .chars { display:flex; flex-wrap:wrap; gap:14px; }
     .char { position:relative; width:92px; }
     .char img { width:92px; height:92px; object-fit:cover; border-radius:8px; border:1px solid var(--line); background:var(--soft); display:block; }
@@ -291,6 +386,8 @@ def html_page() -> str:
       .chip { font-size:16px; }
       .char, .char img { width:74px; height:74px; }
       .score { font-size:26px; }
+      .descriptorRow { grid-template-columns:1fr 58px; gap:8px; }
+      .descriptorTrack { grid-column:1 / -1; }
     }
   </style>
 </head>
@@ -338,8 +435,26 @@ def html_page() -> str:
       app.innerHTML = searchMarkup();
       wireSearch();
     }
-    function laneTerms(topic) {
-      return topic.label || topic.top_terms.slice(0, 8).join(' / ');
+    function laneTerms(lane, topic) {
+      const terms = (lane.descriptors && lane.descriptors.length ? lane.descriptors.map(d => d.term) : topic.top_terms).slice(0, 6);
+      return terms.join(' / ');
+    }
+    function descriptorGraph(lane) {
+      const descriptors = lane.descriptors || [];
+      if (!descriptors.length) return '';
+      const fmtShare = share => {
+        const pct = share * 100;
+        return pct > 0 && pct < 0.1 ? '<0.1%' : `${pct.toFixed(1)}%`;
+      };
+      return `<div class="overlapMap">${descriptors.map(d => {
+        const width = Math.max(2, Math.min(100, d.share * 100));
+        const chars = (d.characters || []).map(c => `<a class="descriptorChar" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\n' + c.anime_title + '\n' + d.term)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('');
+        return `<div class="descriptorRow">
+          <div class="descriptorName">${esc(d.term)}</div>
+          <div class="descriptorShare">${fmtShare(d.share)}</div>
+          <div class="descriptorTrack"><div class="descriptorBar" style="--share:${width}"></div><div class="descriptorChars">${chars}</div></div>
+        </div>`;
+      }).join('')}</div>`;
     }
     function renderProfile(profile) {
       if (!profile) {
@@ -354,9 +469,10 @@ def html_page() -> str:
         ${profile.lanes.map(lane => {
           const topic = data.topics[String(lane.topic_index)];
           return `<section class="lane">
-            <div class="laneTitle"><div class="terms">${esc(laneTerms(topic))}</div><div class="score">${lane.enrichment.toFixed(2)}x</div></div>
+            <div class="laneTitle"><div class="terms">${esc(laneTerms(lane, topic))}</div><div class="score">${lane.enrichment.toFixed(2)}x</div></div>
             ${topic.description ? `<div class="meta">${esc(topic.description)}</div>` : ''}
             <div class="meta">support ${lane.support} · mean ${lane.mean.toFixed(3)} · global ${lane.global_mean.toFixed(3)} · topic ${lane.topic_index}</div>
+            ${descriptorGraph(lane)}
             <details><summary>${topic.mass_term_count} n-grams cover ${(topic.mass_covered * 100).toFixed(1)}% of lane mass</summary><div class="termList">${esc(topic.mass_terms.join(', '))}</div></details>
             <div class="chars">${lane.characters.map(c => `<a class="char" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\n' + c.anime_title)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('')}</div>
           </section>`;

@@ -16,18 +16,20 @@ import numpy as np
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate cached English labels for NMF topics using Ollama.")
-    parser.add_argument("--model-dir", type=Path, default=Path("models/k96_pos_descriptors"))
+    parser.add_argument("--model-dir", type=Path, default=Path("models/k96_pos_adj1to6_descriptors"))
     parser.add_argument("--k", type=int, default=96)
     parser.add_argument("--output", type=Path, default=None)
     parser.add_argument("--ollama-url", default="http://127.0.0.1:11434")
     parser.add_argument("--ollama-model", default="qwen3.5:4b")
-    parser.add_argument("--top-terms", type=int, default=30)
+    parser.add_argument("--top-terms", type=int, default=8)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--topic-index", type=int, action="append", default=None)
     parser.add_argument("--timeout", type=float, default=90.0)
     parser.add_argument("--temperature", type=float, default=0.0)
     parser.add_argument("--seed", type=int, default=13)
-    parser.add_argument("--num-predict", type=int, default=1024)
+    parser.add_argument("--num-predict", type=int, default=4096)
+    parser.add_argument("--num-ctx", type=int, default=8192)
+    parser.add_argument("--min-term-chars", type=int, default=3)
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
@@ -47,7 +49,13 @@ def write_json(path: Path, payload: Any) -> None:
     tmp.replace(path)
 
 
-def weighted_terms(model_dir: Path, k: int, top_terms: int) -> dict[int, list[dict[str, float | str]]]:
+def has_informative_token(ngram: str, min_chars: int) -> bool:
+    return any(len(token) >= min_chars for token in ngram.split())
+
+
+def weighted_terms(
+    model_dir: Path, k: int, top_terms: int, min_term_chars: int
+) -> dict[int, list[dict[str, float | str]]]:
     vocab = [row["ngram"] for row in read_json(model_dir / "tfidf_vocabulary.json")]
     matrices = np.load(model_dir / f"nmf_k{k:03d}_matrices.npz")
     components = matrices["topic_ngram_components"]
@@ -56,17 +64,22 @@ def weighted_terms(model_dir: Path, k: int, top_terms: int) -> dict[int, list[di
         order = np.argsort(component)[::-1]
         max_weight = float(component[int(order[0])]) if len(order) else 0.0
         terms = []
-        for term_index in order[:top_terms]:
+        for term_index in order:
             weight = float(component[int(term_index)])
             if weight <= 0:
                 break
+            ngram = vocab[int(term_index)]
+            if not has_informative_token(ngram, min_term_chars):
+                continue
             terms.append(
                 {
-                    "ngram": vocab[int(term_index)],
+                    "ngram": ngram,
                     "weight": round(weight, 6),
                     "relative_weight": round(weight / max_weight, 6) if max_weight > 0 else 0.0,
                 }
             )
+            if len(terms) >= top_terms:
+                break
         output[topic_index] = terms
     return output
 
@@ -80,6 +93,12 @@ def prompt_for_topic(topic_index: int, terms: list[dict[str, float | str]]) -> s
 
 Only use the weighted n-grams below. Do not infer from anime titles, character names, voice actors, or outside knowledge.
 Write a compact semantic description of the shared descriptor pattern.
+Prefer concrete, distinctive phrase labels that preserve the unusual enriched n-grams.
+Avoid generic label words such as dynamics, context, profile, traits, roles, structure, archetype, attributes, social, character, member, relationship, or identity unless that exact word appears in a top n-gram and is essential.
+Bad label style: "Student Leadership and Social Dynamics". Good label style: "student council president classmates".
+Bad label style: "Maternal Roles and Sibling Ties". Good label style: "mother baby half sister".
+Bad label style: "Organizational Leadership Roles". Good label style: "commander current head subordinates".
+Think briefly, then produce the final JSON. Keep reasoning short enough that the final JSON is always emitted.
 
 Topic index: {topic_index}
 Weighted n-grams:
@@ -87,7 +106,7 @@ Weighted n-grams:
 
 Return only JSON with this shape:
 {{
-  "label": "2 to 6 words, noun phrase, no colon",
+  "label": "2 to 6 concrete words, noun phrase, no colon",
   "description": "one plain-English sentence under 24 words",
   "confidence": "high|medium|low",
   "evidence_terms": ["3 to 8 exact n-grams from the input"]
@@ -106,13 +125,33 @@ def parse_json_object(value: str) -> dict:
         raise
 
 
+def parse_last_topic_json(value: str) -> dict:
+    decoder = json.JSONDecoder()
+    matches = []
+    for start, char in enumerate(value):
+        if char != "{":
+            continue
+        try:
+            parsed, _ = decoder.raw_decode(value[start:])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(parsed, dict) and {"label", "description", "confidence", "evidence_terms"} <= parsed.keys():
+            matches.append(parsed)
+    if not matches:
+        raise json.JSONDecodeError("No topic label JSON object found", value, 0)
+    return matches[-1]
+
+
 def call_ollama(args: argparse.Namespace, prompt: str) -> dict:
     payload = {
         "model": args.ollama_model,
         "messages": [
             {
                 "role": "system",
-                "content": "You are a precise data-labeling assistant. Return valid JSON only.",
+                "content": (
+                    "You are a precise data-labeling assistant. Use brief internal reasoning, "
+                    "then return valid JSON only in the final answer."
+                ),
             },
             {"role": "user", "content": prompt},
         ],
@@ -122,6 +161,7 @@ def call_ollama(args: argparse.Namespace, prompt: str) -> dict:
             "temperature": args.temperature,
             "seed": args.seed,
             "num_predict": args.num_predict,
+            "num_ctx": args.num_ctx,
         },
     }
     request = urllib.request.Request(
@@ -137,7 +177,10 @@ def call_ollama(args: argparse.Namespace, prompt: str) -> dict:
         raise RuntimeError(
             f"Could not reach Ollama at {args.ollama_url}. Start Ollama and run `ollama pull {args.ollama_model}`."
         ) from error
-    content = result.get("message", {}).get("content", "")
+    message = result.get("message", {})
+    content = message.get("content", "")
+    if not content and message.get("thinking"):
+        return parse_last_topic_json(str(message["thinking"]))
     if not content:
         raise RuntimeError(f"Ollama returned no message content: {result}")
     return parse_json_object(content)
@@ -168,7 +211,7 @@ def selected_topics(all_terms: dict[int, list[dict[str, float | str]]], args: ar
 def main() -> None:
     args = parse_args()
     output = args.output or args.model_dir / "topic_labels.json"
-    all_terms = weighted_terms(args.model_dir, args.k, args.top_terms)
+    all_terms = weighted_terms(args.model_dir, args.k, args.top_terms, args.min_term_chars)
     topics = selected_topics(all_terms, args)
     if args.dry_run:
         topic_index = topics[0]
@@ -176,30 +219,31 @@ def main() -> None:
         return
 
     labels = []
+    payload = {
+        "generated_at": utc_now(),
+        "source": "label_topics.py",
+        "parameters": {
+            "k": args.k,
+            "ollama_model": args.ollama_model,
+            "top_terms": args.top_terms,
+            "temperature": args.temperature,
+            "seed": args.seed,
+            "num_predict": args.num_predict,
+            "num_ctx": args.num_ctx,
+            "min_term_chars": args.min_term_chars,
+            "characters_in_prompt": False,
+        },
+        "labels": labels,
+    }
     for topic_index in topics:
         terms = all_terms[topic_index]
         prompt = prompt_for_topic(topic_index, terms)
         label = validate_label(call_ollama(args, prompt), terms)
         labels.append({"topic_index": topic_index, "weighted_terms": terms, **label})
+        payload["generated_at"] = utc_now()
+        write_json(output, payload)
         print(f"T{topic_index:02d}: {label['label']}", flush=True)
 
-    write_json(
-        output,
-        {
-            "generated_at": utc_now(),
-            "source": "label_topics.py",
-            "parameters": {
-                "k": args.k,
-                "ollama_model": args.ollama_model,
-                "top_terms": args.top_terms,
-                "temperature": args.temperature,
-                "seed": args.seed,
-                "num_predict": args.num_predict,
-                "characters_in_prompt": False,
-            },
-            "labels": labels,
-        },
-    )
     print(f"wrote {output}")
 
 
