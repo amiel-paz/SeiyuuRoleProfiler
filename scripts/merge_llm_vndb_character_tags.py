@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from cache_llm_character_tags import canonical_tag
+from cache_llm_character_tags import canonical_tag, canonical_tag_values
 from fit_topics import import_nltk
 
 
@@ -75,6 +75,17 @@ def llm_tag_payload(tag: dict) -> dict:
     }
 
 
+def llm_tag_payloads(tag: dict, nltk: Any) -> list[dict]:
+    payloads = []
+    for value in canonical_tag_values(str(tag.get("tag") or ""), nltk):
+        payload = llm_tag_payload({**tag, "tag": value})
+        raw_tag = str(tag.get("tag") or "").strip()
+        if raw_tag and raw_tag.lower() != value:
+            payload["canonicalized_from"] = raw_tag
+        payloads.append(payload)
+    return payloads
+
+
 def vndb_category(group: str) -> str:
     return "personality" if group == "Personality" else "traits"
 
@@ -87,9 +98,10 @@ def merge_character(
     exclude_groups: set[str],
 ) -> dict:
     tags = empty_tags()
-    for category in ("personality", "traits"):
+    for category in ("role", "personality", "traits"):
         for tag in llm_character.get("llm_tags", {}).get(category, []):
-            add_tag(tags, category, llm_tag_payload(tag))
+            for payload in llm_tag_payloads(tag, nltk):
+                add_tag(tags, category, payload)
 
     rejected_vndb = []
     accepted_vndb = []
@@ -155,9 +167,9 @@ def main() -> None:
 
     source_counts = Counter()
     vndb_group_counts = Counter()
-    descriptor_counts = {"personality": Counter(), "traits": Counter()}
+    descriptor_counts = {"role": Counter(), "personality": Counter(), "traits": Counter()}
     for character in characters:
-        for category in ("personality", "traits"):
+        for category in ("role", "personality", "traits"):
             for tag in character.get("llm_tags", {}).get(category, []):
                 descriptor_counts[category][tag["tag"]] += 1
                 for source in tag.get("sources", []):
@@ -182,11 +194,12 @@ def main() -> None:
             ),
             "source_tag_counts": dict(source_counts),
             "vndb_group_counts": dict(vndb_group_counts),
+            "role_descriptors": len(descriptor_counts["role"]),
             "personality_descriptors": len(descriptor_counts["personality"]),
             "trait_descriptors": len(descriptor_counts["traits"]),
         },
         "descriptor_counts": {
-            category: descriptor_counts[category].most_common() for category in ("personality", "traits")
+            category: descriptor_counts[category].most_common() for category in ("role", "personality", "traits")
         },
         "characters": characters,
     }

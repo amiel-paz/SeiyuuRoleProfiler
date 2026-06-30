@@ -9,6 +9,7 @@
     * { box-sizing: border-box; }
     body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
     a { color: inherit; text-decoration: none; }
+    button, input { font: inherit; }
     .shell { max-width: 1120px; margin: 0 auto; padding: 32px 22px 64px; }
     .searchHome { min-height: 78vh; display:grid; place-items:center; }
     .searchBox { width:min(720px, 100%); position:relative; }
@@ -22,37 +23,42 @@
     .suggestion img { width:42px; height:42px; border-radius:6px; object-fit:cover; background:var(--soft); }
     .samples { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
     .sample { border:1px solid var(--line); background:white; border-radius:999px; padding:7px 12px; font-size:14px; color:var(--muted); cursor:pointer; }
+    .topbar { margin-bottom: 26px; }
+    .topbar button { border:1px solid var(--line); background:white; border-radius:8px; padding:10px 14px; cursor:pointer; color:var(--muted); }
     .profileHead { display:grid; grid-template-columns: 140px 1fr; gap:28px; align-items:center; margin: 12px 0 34px; }
     .profileHead img { width:140px; height:140px; border-radius:8px; object-fit:cover; border:1px solid var(--line); background:var(--soft); }
     .profileHead h2 { font-size: clamp(42px, 7vw, 76px); margin:0 0 14px; line-height:.95; letter-spacing:0; }
     .native { color:var(--muted); }
     .chips { display:flex; flex-wrap:wrap; gap:10px; }
     .chip { background:var(--soft); border-radius:999px; padding:9px 14px; color:var(--muted); font-size:20px; }
-    .topbar { margin-bottom: 26px; }
-    .topbar button { border:1px solid var(--line); background:white; border-radius:8px; padding:10px 14px; cursor:pointer; color:var(--muted); }
-    .lane { border-top:1px solid var(--line); padding:28px 0; }
-    .laneTitle { display:grid; grid-template-columns: 1fr auto; gap:16px; align-items:start; }
-    .terms { font-size: clamp(24px, 3vw, 36px); font-weight:850; line-height:1.08; }
+    .majorLane { border-top:1px solid var(--line); padding-top:30px; }
+    .laneHead { display:grid; grid-template-columns: 1fr auto; gap:16px; align-items:end; margin-bottom:10px; }
+    .laneHead h3 { font-size: clamp(30px, 4vw, 48px); margin:0; line-height:1; }
     .score { color:var(--accent); font-size:34px; font-weight:850; white-space:nowrap; }
-    .meta { color:var(--muted); margin:10px 0 18px; font-size:18px; }
-    details { margin: 8px 0 16px; color:var(--muted); }
-    summary { cursor:pointer; }
-    .termList { margin-top:8px; font-size:14px; line-height:1.5; }
-    .overlapMap { display:grid; gap:10px; margin:18px 0 18px; }
-    .descriptorRow { display:grid; grid-template-columns:minmax(132px, 220px) 70px 1fr; gap:12px; align-items:center; }
-    .descriptorName { font-size:18px; font-weight:800; line-height:1.1; overflow-wrap:anywhere; }
-    .descriptorShare { color:var(--accent); font-size:18px; font-weight:850; text-align:right; }
-    .descriptorTrack { min-height:46px; position:relative; display:flex; align-items:center; gap:8px; padding:6px 8px; border-left:1px solid var(--line); }
-    .descriptorBar { position:absolute; left:0; top:6px; bottom:6px; width:calc(var(--share) * 1%); min-width:3px; max-width:100%; background:var(--soft); border-radius:6px; }
-    .descriptorChars { position:relative; z-index:1; display:flex; flex-wrap:wrap; gap:6px; }
-    .descriptorChar { position:relative; width:42px; height:42px; display:block; }
-    .descriptorChar img { width:42px; height:42px; object-fit:cover; border-radius:6px; border:1px solid var(--line); background:white; display:block; }
-    .descriptorChar:after { content:attr(data-tooltip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); background:#15201b; color:white; padding:8px 10px; border-radius:6px; width:max-content; max-width:260px; white-space:pre-line; opacity:0; pointer-events:none; transition:opacity .12s ease; font-size:13px; z-index:12; }
-    .descriptorChar:hover:after { opacity:1; }
-    .chars { display:flex; flex-wrap:wrap; gap:14px; }
-    .char { position:relative; width:92px; }
-    .char img { width:92px; height:92px; object-fit:cover; border-radius:8px; border:1px solid var(--line); background:var(--soft); display:block; }
-    .char:after { content:attr(data-tooltip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); background:#15201b; color:white; padding:8px 10px; border-radius:6px; width:max-content; max-width:260px; white-space:pre-line; opacity:0; pointer-events:none; transition:opacity .12s ease; font-size:13px; z-index:10; }
+    .meta { color:var(--muted); margin:0 0 22px; font-size:18px; }
+    .note { color:var(--muted); margin: 0; padding: 0 18px 14px; font-size:15px; line-height:1.35; }
+    details { border:1px solid var(--line); border-radius:8px; background:white; margin:16px 0; overflow:hidden; }
+    summary { cursor:pointer; padding:16px 18px; font-size:22px; font-weight:850; color:#174f49; background:var(--soft); }
+    .componentList { display:grid; gap:0; }
+    .componentRow { display:grid; grid-template-columns:minmax(150px, 1.1fr) 96px 92px minmax(180px, 2fr); gap:12px; align-items:center; padding:11px 18px; border-top:1px solid #edf2ef; }
+    .componentName { font-weight:850; overflow-wrap:anywhere; line-height:1.1; }
+    .componentEvidence { grid-column:1 / -1; display:flex; flex-wrap:wrap; gap:8px; margin-top:2px; }
+    .miniChar { display:grid; grid-template-columns:28px minmax(0, 1fr); align-items:center; gap:7px; max-width:220px; padding:5px 7px; border:1px solid #edf2ef; border-radius:8px; background:#fbfdfc; }
+    .miniChar img, .miniFallback { width:28px; height:28px; border-radius:6px; object-fit:cover; background:var(--soft); display:grid; place-items:center; color:var(--muted); font-size:13px; font-weight:850; border:1px solid var(--line); }
+    .miniName { font-size:13px; font-weight:800; line-height:1.05; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+    .miniMeta { font-size:11px; color:var(--muted); line-height:1.05; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-top:2px; }
+    .amp { color:var(--muted); font-variant-numeric:tabular-nums; text-align:right; }
+    .pct { color:var(--accent); font-weight:850; font-variant-numeric:tabular-nums; text-align:right; }
+    .barTrack { height:12px; background:#f3f6f5; border-radius:999px; overflow:hidden; border:1px solid #e7eeeb; }
+    .bar { height:100%; width:calc(var(--pct) * 1%); background:var(--accent); border-radius:999px; }
+    .characters { display:grid; grid-template-columns: repeat(auto-fill, minmax(126px, 1fr)); gap:16px; margin-top:18px; }
+    .char { position:relative; display:block; min-width:0; }
+    .char img, .charFallback { width:100%; aspect-ratio:1; object-fit:cover; border-radius:8px; border:1px solid var(--line); background:var(--soft); display:grid; place-items:center; color:var(--muted); font-size:34px; font-weight:850; }
+    .charName { margin-top:7px; font-weight:850; line-height:1.1; overflow-wrap:anywhere; }
+    .charMeta { color:var(--muted); font-size:13px; line-height:1.2; margin-top:3px; }
+    .charPct { color:var(--accent); font-weight:850; margin-top:4px; }
+    .char:after, .suggestion:after { white-space:pre-line; }
+    .char:after { content:attr(data-tooltip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); background:#15201b; color:white; padding:8px 10px; border-radius:6px; width:max-content; max-width:280px; opacity:0; pointer-events:none; transition:opacity .12s ease; font-size:13px; z-index:10; }
     .char:hover:after { opacity:1; }
     .empty { color:var(--muted); font-size:20px; margin-top:22px; }
     @media (max-width: 640px) {
@@ -60,10 +66,11 @@
       .profileHead img { width:92px; height:92px; }
       input { font-size:22px; }
       .chip { font-size:16px; }
-      .char, .char img { width:74px; height:74px; }
       .score { font-size:26px; }
-      .descriptorRow { grid-template-columns:1fr 58px; gap:8px; }
-      .descriptorTrack { grid-column:1 / -1; }
+      .componentRow { grid-template-columns:1fr 76px 70px; }
+      .barTrack { grid-column:1 / -1; }
+      .miniChar { max-width:100%; }
+      .characters { grid-template-columns: repeat(auto-fill, minmax(94px, 1fr)); }
     }
   </style>
 </head>
@@ -74,17 +81,27 @@
     let data;
     const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     const norm = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const pct = value => `${Number(value || 0).toFixed(value && value < 0.01 ? 4 : 2)}%`;
+    const amp = value => `${Number(value || 0) >= 0 ? '+' : ''}${Number(value || 0).toFixed(4)}`;
+    const intFmt = new Intl.NumberFormat('en-US');
+    const dateOnly = value => value ? String(value).slice(0, 10) : '';
     const findProfile = q => {
       const nq = norm(q);
       if (!nq) return null;
       return data.profiles.find(p => p.aliases.includes(nq)) || data.profiles.find(p => p.aliases.some(a => a.includes(nq) || nq.includes(a)));
     };
-    function setQuery(name) {
+    async function loadProfile(profileIndex) {
+      if (profileIndex.major_lane) return profileIndex;
+      const response = await fetch(`${profileIndex.profile_path}?v=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Could not load ${profileIndex.profile_path}`);
+      return response.json();
+    }
+    async function setQuery(name) {
       history.pushState(null, '', `?q=${encodeURIComponent(name)}`);
-      renderProfile(findProfile(name));
+      await renderProfile(findProfile(name));
     }
     function searchMarkup() {
-      return `<section class="searchHome"><div class="searchBox"><h1>SeiyuuRoleProfiler</h1><input id="search" autocomplete="off" placeholder="Seiyuu name" autofocus><div id="suggestions" class="suggestions" hidden></div><div class="samples">${data.samples.slice(0,16).map(s => `<button class="sample" data-name="${esc(s.name)}">${esc(s.name)}</button>`).join('')}</div></div></section>`;
+      return `<section class="searchHome"><div class="searchBox"><h1>SeiyuuRoleProfiler</h1><input id="search" autocomplete="off" placeholder="Seiyuu name" autofocus><div id="suggestions" class="suggestions" hidden></div><div class="samples">${data.samples.slice(0,18).map(s => `<button class="sample" data-name="${esc(s.name)}">${esc(s.name)}</button>`).join('')}</div></div></section>`;
     }
     function wireSearch() {
       const input = document.getElementById('search');
@@ -98,8 +115,8 @@
       input.addEventListener('input', update);
       input.addEventListener('keydown', event => {
         if (event.key === 'Enter') {
-          const p = findProfile(input.value);
-          if (p) setQuery(p.name);
+          const profile = findProfile(input.value);
+          if (profile) setQuery(profile.name);
         }
       });
       app.addEventListener('click', event => {
@@ -111,48 +128,124 @@
       app.innerHTML = searchMarkup();
       wireSearch();
     }
-    function laneTerms(lane, topic) {
-      const terms = (lane.descriptors && lane.descriptors.length ? lane.descriptors.map(d => d.term) : topic.top_terms).slice(0, 6);
-      return terms.join(' / ');
+    function miniCharacterImage(character) {
+      if (character.image) return `<img src="${esc(character.image)}" alt="${esc(character.name)}">`;
+      return `<div class="miniFallback">${esc((character.name || '?').slice(0, 1))}</div>`;
     }
-    function descriptorGraph(lane) {
-      const descriptors = lane.descriptors || [];
-      if (!descriptors.length) return '';
-      const fmtShare = share => {
-        const pct = share * 100;
-        return pct > 0 && pct < 0.1 ? '<0.1%' : `${pct.toFixed(1)}%`;
+    function componentEvidence(row) {
+      const characters = (row.top_characters || []).filter(character => Number(character.projection || 0) > 0);
+      if (!characters.length) return '';
+      const meta = character => {
+        const match = character.matched_descriptor ? `via ${character.matched_descriptor}` : character.anime || '';
+        return character.similarity ? `${match} · sim ${Number(character.similarity).toFixed(2)}` : match;
       };
-      return `<div class="overlapMap">${descriptors.map(d => {
-        const width = Math.max(2, Math.min(100, d.share * 100));
-        const chars = (d.characters || []).map(c => `<a class="descriptorChar" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\n' + c.anime_title + '\n' + d.term)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('');
-        return `<div class="descriptorRow">
-          <div class="descriptorName">${esc(d.term)}</div>
-          <div class="descriptorShare">${fmtShare(d.share)}</div>
-          <div class="descriptorTrack"><div class="descriptorBar" style="--share:${width}"></div><div class="descriptorChars">${chars}</div></div>
+      return `<div class="componentEvidence">${characters.map(character => `
+        <a class="miniChar" href="${esc(character.site_url)}" target="_blank" rel="noreferrer" title="${esc(`${character.name} · ${character.anime || ''} · projection ${Number(character.projection || 0).toFixed(3)}${character.matched_descriptor ? ` · matched ${character.matched_descriptor}` : ''}`)}">
+          ${miniCharacterImage(character)}
+          <div>
+            <div class="miniName">${esc(character.name)}</div>
+            <div class="miniMeta">${esc(meta(character))}</div>
+          </div>
+        </a>`).join('')}</div>`;
+    }
+    function componentRows(rows, labelKey) {
+      const maxPercent = Math.max(...rows.map(row => row.percent), 1);
+      return `<div class="componentList">${rows.map(row => {
+        const width = Math.max(1, row.percent / maxPercent * 100);
+        const details = [];
+        if (row.support) details.push(`${row.support} character${row.support === 1 ? '' : 's'}`);
+        if (row.member_count && row.member_count > 1) details.push(`${row.member_count} descriptors`);
+        if (row.coverage_percent) details.push(`${pct(row.coverage_percent)} cumulative`);
+        const support = details.length ? `<div class="charMeta">${esc(details.join(' · '))}</div>` : '';
+        return `<div class="componentRow">
+          <div><div class="componentName">${esc(row[labelKey])}</div>${support}</div>
+          <div class="amp">${amp(row.amplitude)}</div>
+          <div class="pct">${pct(row.percent)}</div>
+          <div class="barTrack"><div class="bar" style="--pct:${width}"></div></div>
+          ${componentEvidence(row)}
         </div>`;
       }).join('')}</div>`;
     }
-    function renderProfile(profile) {
-      if (!profile) {
+    function breadthChips(lane) {
+      const basis = lane.basis_participation || {};
+      const characters = lane.character_participation || {};
+      if (!basis.effective_count && !characters.effective_count) return '';
+      return `<div class="chips spectrum">
+        <span class="chip">basis breadth ${Number(basis.effective_count || 0).toFixed(1)}</span>
+        <span class="chip">basis top 10 ${pct(basis.top10_mass_percent)}</span>
+        <span class="chip">character breadth ${Number(characters.effective_count || 0).toFixed(1)}</span>
+      </div>`;
+    }
+    function rangeChips(lane) {
+      const range = lane.range_metrics || {};
+      if (!range.role_range && !range.semantic_spread) return '';
+      return `<div class="chips spectrum">
+        <span class="chip">role range ${Number(range.role_range || 0).toFixed(2)}</span>
+        <span class="chip">semantic spread ${Number(range.semantic_spread || 0).toFixed(2)}</span>
+        <span class="chip">range axis ${pct(range.axis_concentration_percent || 0)}</span>
+        <span class="chip">lane count ${Number(range.lane_count || 0).toFixed(1)}</span>
+      </div>`;
+    }
+    function characterImage(character) {
+      if (character.image) return `<img src="${esc(character.image)}" alt="${esc(character.name)}">`;
+      return `<div class="charFallback">${esc((character.name || '?').slice(0, 1))}</div>`;
+    }
+    function characterGrid(characters) {
+      if (!characters || !characters.length) return '<p class="empty">No characters on this side.</p>';
+      return `<div class="characters">${characters.map(character => {
+        const favourites = Number(character.favourites || 0);
+        const tooltip = `${character.name}\n${character.anime || ''}\n${amp(character.amplitude)} amplitude\n${pct(character.percent)} of dominant profile\n${intFmt.format(favourites)} AniList favs`;
+        return `<a class="char" href="${esc(character.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(tooltip)}">
+          ${characterImage(character)}
+          <div class="charName">${esc(character.name)}</div>
+          <div class="charMeta">${esc(character.anime || '')}</div>
+          <div class="charPct">${amp(character.amplitude)} · ${pct(character.percent)} · ${intFmt.format(favourites)} favs</div>
+        </a>`;
+      }).join('')}</div>`;
+    }
+    async function renderProfile(profileIndex) {
+      if (!profileIndex) {
         renderHome();
         return;
       }
+      app.innerHTML = '<p class="empty">Loading profile...</p>';
+      const profile = await loadProfile(profileIndex);
+      const lane = profile.major_lane;
+      const favMeta = profile.favourite_metadata || data.parameters?.character_favourites || {};
+      const favDate = dateOnly(favMeta.cached_at);
+      const sharedWeight = lane.shared_role_weight_mode || data.parameters?.shared_role_weight || 'none';
       app.innerHTML = `<div class="topbar"><button id="back">Search</button></div>
         <section class="profileHead">
           <a href="${esc(profile.site_url)}" target="_blank" rel="noreferrer"><img src="${esc(profile.image)}" alt="${esc(profile.name)}"></a>
-          <div><h2>${esc(profile.name)} <span class="native">${esc(profile.native_name)}</span></h2><div class="chips"><span class="chip">roles ${profile.role_count}</span><span class="chip">characters ${profile.character_count}</span><span class="chip">first year ${profile.first_year || ''}</span></div></div>
+          <div><h2>${esc(profile.name)} <span class="native">${esc(profile.native_name)}</span></h2><div class="chips"><span class="chip">roles ${profile.role_count}</span><span class="chip">supported chars ${profile.character_count}</span><span class="chip">first year ${profile.first_year || ''}</span></div></div>
         </section>
-        ${profile.lanes.map(lane => {
-          const topic = data.topics[String(lane.topic_index)];
-          return `<section class="lane">
-            <div class="laneTitle"><div class="terms">${esc(laneTerms(lane, topic))}</div><div class="score">${lane.enrichment.toFixed(2)}x</div></div>
-            ${topic.description ? `<div class="meta">${esc(topic.description)}</div>` : ''}
-            <div class="meta">support ${lane.support} · mean ${lane.mean.toFixed(3)} · global ${lane.global_mean.toFixed(3)} · topic ${lane.topic_index}</div>
-            ${descriptorGraph(lane)}
-            <details><summary>${topic.mass_term_count} n-grams cover ${(topic.mass_covered * 100).toFixed(1)}% of lane mass</summary><div class="termList">${esc(topic.mass_terms.join(', '))}</div></details>
-            <div class="chars">${lane.characters.map(c => `<a class="char" href="${esc(c.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(c.name + '\n' + c.anime_title)}"><img src="${esc(c.image)}" alt="${esc(c.name)}"></a>`).join('')}</div>
-          </section>`;
-        }).join('') || '<p class="empty">No lanes found.</p>'}`;
+        <section class="majorLane">
+          <div class="laneHead"><h3>${esc(profile.name)} tends to voice characters across this role/personality range</h3></div>
+          <p class="meta">Role range measures the longest semantic continuum across this seiyuu's characters. Semantic spread measures total dispersion; range axis shows how much of that spread lies on one main continuum; lane count estimates how many independent directions carry the spread.</p>
+          ${rangeChips(lane)}
+          ${breadthChips(lane)}
+          <details open>
+            <summary>One Side Of The Main Contrast</summary>
+            <p class="note">Rows are deterministic semantic clusters of original role/personality descriptors on one side of the dominant contrast. Character evidence uses exact or mutual local-99th-percentile semantic matches; clusters are shown until they cover about 95% of displayed descriptor mass.</p>
+            ${componentRows(lane.display_descriptor_components || [], 'descriptor')}
+          </details>
+          <details>
+            <summary>Opposite Side Of The Main Contrast</summary>
+            <p class="note">This is the other pole of the same dominant contrast. A negative amplitude means a character fits this side, not that the character is weak or unimportant.</p>
+            ${componentRows(lane.opposite_display_descriptor_components || [], 'descriptor')}
+          </details>
+          <h3>Character Contributions</h3>
+          <p class="meta">The most representative characters of this distribution, based on their AniList description profiles, are shown below. Favorites are ${esc(favMeta.source || 'AniList')} character favorites${favDate ? ` cached ${esc(favDate)}` : ''} and are shown for context. Shared/recast character edges are weighted by ${esc(sharedWeight)}.</p>
+          <details open>
+            <summary>One Side Characters</summary>
+            ${characterGrid(lane.positive_characters || [])}
+          </details>
+          <details open>
+            <summary>Opposite Side Characters</summary>
+            <p class="note">Signed amplitudes are shown as negative because this is the opposite pole of the same contrast.</p>
+            ${characterGrid(lane.negative_characters || [])}
+          </details>
+        </section>`;
       document.getElementById('back').addEventListener('click', () => { history.pushState(null, '', location.pathname); renderHome(); });
     }
     fetch(`profiles.json?v=${Date.now()}`, { cache: 'no-store' }).then(r => r.json()).then(payload => {

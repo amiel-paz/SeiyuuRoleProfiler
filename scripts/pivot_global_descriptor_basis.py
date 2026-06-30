@@ -4,11 +4,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 import numpy as np
+
+ADJECTIVE_POS_TAGS = {"JJ", "JJR", "JJS"}
 
 
 DEFAULT_GLOSSES_JSON = Path(
@@ -48,6 +51,12 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument("--nearest-mode", choices=["centered_cosine", "raw_cosine"], default="centered_cosine")
+    parser.add_argument(
+        "--descriptor-filter",
+        choices=["all", "pure_adjective"],
+        default="all",
+        help="Optionally restrict the descriptor rows before forming the Gram matrix.",
+    )
     return parser.parse_args()
 
 
@@ -64,6 +73,45 @@ def write_json(path: Path, payload: Any) -> None:
     tmp = path.with_name(f"{path.name}.tmp")
     tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     tmp.replace(path)
+
+
+def import_nltk() -> Any:
+    try:
+        import nltk
+        from nltk.corpus import wordnet as wn
+    except ImportError as error:
+        raise RuntimeError("Install nltk to use --descriptor-filter pure_adjective.") from error
+    nltk.pos_tag(["a", "shy", "character"])
+    return nltk, wn
+
+
+def descriptor_tokens(value: str) -> list[str]:
+    return re.findall(r"[a-z]+(?:-[a-z]+)*", value.lower())
+
+
+def wordnet_has_adjective(wn: Any, token: str) -> bool:
+    normalized = token.replace("-", "_")
+    return bool(wn.synsets(normalized, pos=wn.ADJ) or wn.synsets(normalized, pos=wn.ADJ_SAT))
+
+
+def wordnet_has_noun(wn: Any, token: str) -> bool:
+    return bool(wn.synsets(token.replace("-", "_"), pos=wn.NOUN))
+
+
+def pure_adjective_descriptor(value: str, nltk: Any, wn: Any) -> bool:
+    tokens = descriptor_tokens(value)
+    if not tokens:
+        return False
+    tagged = nltk.pos_tag(["a", *tokens, "character"])[1:-1]
+    if len(tokens) == 1 and wordnet_has_adjective(wn, tokens[0]):
+        return True
+    if len(tokens) == 1 and "-" in tokens[0] and tagged[0][1] in ADJECTIVE_POS_TAGS:
+        return True
+    if not all(tag in ADJECTIVE_POS_TAGS for _, tag in tagged):
+        return False
+    if not all(wordnet_has_adjective(wn, token) or "-" in token for token in tokens):
+        return False
+    return not wordnet_has_noun(wn, tokens[-1])
 
 
 def descriptor_matrix(variant_embeddings: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
@@ -162,9 +210,19 @@ def raw_off_diagonal_row_sums(E: np.ndarray) -> np.ndarray:
 def main() -> None:
     args = parse_args()
     gloss_payload = read_json(args.glosses_json)
-    descriptors = [row["descriptor"] for row in gloss_payload["rows"]]
-    glosses_by_descriptor = {row["descriptor"]: row.get("glosses", []) for row in gloss_payload["rows"]}
+    source_rows = list(gloss_payload["rows"])
     variant_embeddings = np.load(args.glosses_npz)["variant_embeddings"].astype(np.float64)
+    if args.descriptor_filter == "pure_adjective":
+        nltk, wn = import_nltk()
+        keep_indices = [
+            index for index, row in enumerate(source_rows) if pure_adjective_descriptor(row["descriptor"], nltk, wn)
+        ]
+        source_rows = [source_rows[index] for index in keep_indices]
+        variant_embeddings = variant_embeddings[np.asarray(keep_indices, dtype=np.int64)]
+    else:
+        keep_indices = list(range(len(source_rows)))
+    descriptors = [row["descriptor"] for row in source_rows]
+    glosses_by_descriptor = {row["descriptor"]: row.get("glosses", []) for row in source_rows}
     E_raw, E_centered = descriptor_matrix(variant_embeddings)
     E_basis = E_centered if args.basis_centering == "mean" else E_raw
     priority_values = raw_off_diagonal_row_sums(E_raw)
@@ -187,7 +245,7 @@ def main() -> None:
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     suffix = (
-        f"center{args.basis_centering}_priority{args.pivot_priority}_"
+        f"filter{args.descriptor_filter}_center{args.basis_centering}_priority{args.pivot_priority}_"
         f"r{len(pivots)}_trace{args.relative_trace_tol:g}_pivot{args.absolute_pivot_tol:g}"
     )
     json_path = args.output_dir / f"global_qwen_gloss_descriptor_pivoted_cholesky_{suffix}.json"
@@ -256,8 +314,10 @@ def main() -> None:
                     "row_sum_residual multiplies that normalized row sum by the current residual diagonal."
                 ),
                 "nearest_mode": args.nearest_mode,
+                "descriptor_filter": args.descriptor_filter,
             },
             "counts": {
+                "source_descriptors": len(gloss_payload["rows"]),
                 "descriptors": len(descriptors),
                 "embedding_dim": int(E_basis.shape[1]),
                 "pivot_count": len(pivots),
@@ -290,6 +350,7 @@ def main() -> None:
         E_centered=E_centered,
         E_basis=E_basis,
         cholesky_L=L,
+        source_descriptor_indices=np.asarray(keep_indices, dtype=np.int64),
         initial_diagonal=initial_diagonal,
         residual_diagonal=residual_diagonal,
         raw_off_diagonal_row_sums=raw_off_diagonal_row_sums(E_raw),

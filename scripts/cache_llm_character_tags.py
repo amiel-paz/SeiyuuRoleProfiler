@@ -317,6 +317,13 @@ def tag_tokens(value: str) -> list[str]:
     return [token.lower() for token in re.findall(r"[A-Za-z][A-Za-z'-]*", value)]
 
 
+def coordinated_tag_parts(value: str) -> list[str]:
+    value = re.sub(r"\s+", " ", value.strip())
+    value = re.sub(r"^(?:both|either)\s+", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"\s*(?:,|;|&|\band\b|\bor\b)\s*", "|", value, flags=re.IGNORECASE)
+    return [part.strip(" |") for part in value.split("|") if part.strip(" |")]
+
+
 def adjective_like_token(token: str) -> bool:
     try:
         from nltk.corpus import wordnet as wn
@@ -353,13 +360,17 @@ def has_possessive_descriptor_token(tokens: list[str]) -> bool:
     return any(token.endswith("'s") or token.endswith("’s") for token in tokens)
 
 
+def has_contraction_descriptor_token(tokens: list[str]) -> bool:
+    return any("'" in token or "’" in token for token in tokens)
+
+
 def canonical_tag(value: str, nltk: Any) -> str | None:
     if re.search(r"\d", value):
         return None
     tokens = tag_tokens(value)
     if not tokens or len(tokens) > 4:
         return None
-    if has_possessive_descriptor_token(tokens):
+    if has_possessive_descriptor_token(tokens) or has_contraction_descriptor_token(tokens):
         return None
     if finite_verb_like_descriptor_head(tokens):
         return None
@@ -375,6 +386,24 @@ def canonical_tag(value: str, nltk: Any) -> str | None:
     return " ".join(tokens)
 
 
+def canonical_tag_values(value: str, nltk: Any) -> list[str]:
+    tag = canonical_tag(value, nltk)
+    if tag:
+        return [tag]
+
+    parts = coordinated_tag_parts(value)
+    if len(parts) < 2:
+        return []
+
+    tags = []
+    for part in parts:
+        part_tag = canonical_tag(part, nltk)
+        if not part_tag:
+            return []
+        tags.append(part_tag)
+    return list(dict.fromkeys(tags))
+
+
 def validate_tags(raw: dict, description: str, nltk: Any) -> dict[str, list[dict]]:
     output: dict[str, list[dict]] = {category: [] for category in TAG_CATEGORIES}
     seen: set[tuple[str, str]] = set()
@@ -385,18 +414,19 @@ def validate_tags(raw: dict, description: str, nltk: Any) -> dict[str, list[dict
         for value in values:
             if not isinstance(value, dict):
                 continue
-            tag = canonical_tag(str(value.get("tag", "")), nltk)
+            tags = canonical_tag_values(str(value.get("tag", "")), nltk)
             evidence = normalize_evidence(str(value.get("evidence", "")))
             confidence = str(value.get("confidence", "medium")).strip().lower()
             if confidence not in {"high", "medium", "low"}:
                 confidence = "medium"
-            if not tag or not evidence_supported(evidence, description):
+            if not tags or not evidence_supported(evidence, description):
                 continue
-            key = (category, tag)
-            if key in seen:
-                continue
-            seen.add(key)
-            output[category].append({"tag": tag, "evidence": evidence, "confidence": confidence})
+            for tag in tags:
+                key = (category, tag)
+                if key in seen:
+                    continue
+                seen.add(key)
+                output[category].append({"tag": tag, "evidence": evidence, "confidence": confidence})
     return output
 
 
