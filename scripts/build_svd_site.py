@@ -13,6 +13,8 @@ from typing import Any
 
 import numpy as np
 
+from comparative_personality import DEFAULT_INHERITANCE_WEIGHT, inherited_personality_descriptors
+
 ADJECTIVE_POS_TAGS = {"JJ", "JJR", "JJS"}
 
 
@@ -547,12 +549,18 @@ def cached_raw_tag_values(character: dict) -> list[str]:
     return re.findall(r'"tag"\s*:\s*"([^"]+)"', content)
 
 
-def add_if_known(output: list[str], value: str, descriptor_index: dict[str, int]) -> None:
-    output.extend(known_descriptor_values(value, descriptor_index))
+def add_if_known(output: dict[str, float], value: str, descriptor_index: dict[str, int], weight: float = 1.0) -> None:
+    for descriptor in known_descriptor_values(value, descriptor_index):
+        output[descriptor] = max(float(output.get(descriptor, 0.0)), float(weight))
 
 
-def descriptors_from_tag_row(character: dict, descriptor_index: dict[str, int], descriptor_scope: str) -> list[str]:
-    descriptors = []
+def descriptor_weights_from_tag_row(
+    character: dict,
+    descriptor_index: dict[str, int],
+    descriptor_scope: str,
+    inherited_by_character_id: dict[int, list[dict]] | None = None,
+) -> dict[str, float]:
+    descriptors: dict[str, float] = {}
     llm_categories = ["role", "personality", "traits"] if descriptor_scope == "kitchen_sink" else ["personality", "traits"]
     for category in llm_categories:
         for tag in character.get("llm_tags", {}).get(category, []):
@@ -574,7 +582,33 @@ def descriptors_from_tag_row(character: dict, descriptor_index: dict[str, int], 
             continue
         add_if_known(descriptors, str(tag.get("tag") or tag.get("name") or ""), descriptor_index)
 
-    return sorted(set(descriptors))
+    if "personality" in llm_categories and inherited_by_character_id:
+        character_id = int(character.get("anilist_character_id") or character.get("character_id"))
+        for tag in inherited_by_character_id.get(character_id, []):
+            add_if_known(
+                descriptors,
+                str(tag.get("tag") or ""),
+                descriptor_index,
+                float(tag.get("weight") or DEFAULT_INHERITANCE_WEIGHT),
+            )
+
+    return dict(sorted(descriptors.items()))
+
+
+def descriptors_from_tag_row(
+    character: dict,
+    descriptor_index: dict[str, int],
+    descriptor_scope: str,
+    inherited_by_character_id: dict[int, list[dict]] | None = None,
+) -> list[str]:
+    return sorted(
+        descriptor_weights_from_tag_row(
+            character,
+            descriptor_index,
+            descriptor_scope,
+            inherited_by_character_id,
+        )
+    )
 
 
 def descriptor_scope_description(descriptor_scope: str) -> str:
@@ -693,14 +727,20 @@ def projected_character_row(
     descriptor_to_basis_index: dict[str, int],
     projection: np.ndarray,
 ) -> tuple[np.ndarray, list[int]] | None:
-    descriptor_indices = [
-        descriptor_to_basis_index[descriptor]
-        for descriptor in character.get("descriptors", [])
-        if descriptor in descriptor_to_basis_index
-    ]
+    descriptor_weights = character.get("descriptor_weights") or {
+        descriptor: 1.0 for descriptor in character.get("descriptors", [])
+    }
+    descriptor_indices = []
+    weighted_vectors = []
+    for descriptor, weight in descriptor_weights.items():
+        if descriptor not in descriptor_to_basis_index:
+            continue
+        descriptor_index = descriptor_to_basis_index[descriptor]
+        descriptor_indices.append(descriptor_index)
+        weighted_vectors.append(float(weight) * projection[descriptor_index])
     if not descriptor_indices:
         return None
-    return np.sum(projection[descriptor_indices], axis=0), descriptor_indices
+    return np.sum(np.vstack(weighted_vectors), axis=0), descriptor_indices
 
 
 def sv1_profile(
@@ -888,6 +928,10 @@ def main() -> None:
     all_descriptor_rows = gloss_payload["rows"]
     all_descriptors = [row["descriptor"] for row in all_descriptor_rows]
     descriptor_to_basis_index = {descriptor: index for index, descriptor in enumerate(all_descriptors)}
+    inherited_by_character_id, comparative_edges = inherited_personality_descriptors(
+        tag_payload.get("characters", []),
+        DEFAULT_INHERITANCE_WEIGHT,
+    )
     seiyuu_to_characters: dict[str, list[dict]] = defaultdict(list)
     source_characters: list[dict] = []
     source_character_ids = set()
@@ -905,7 +949,13 @@ def main() -> None:
                 }
             )
             continue
-        descriptors = descriptors_from_tag_row(source, descriptor_to_basis_index, args.descriptor_scope)
+        descriptor_weights = descriptor_weights_from_tag_row(
+            source,
+            descriptor_to_basis_index,
+            args.descriptor_scope,
+            inherited_by_character_id,
+        )
+        descriptors = sorted(descriptor_weights)
         if not descriptors:
             continue
         character = {
@@ -915,6 +965,7 @@ def main() -> None:
             "favourites": int(source.get("favourites") or 0),
             "site_url": source.get("site_url") or "",
             "descriptors": descriptors,
+            "descriptor_weights": descriptor_weights,
             "role_edge_count": max(role_edge_count, 1),
         }
         character_id = int(character["character_id"])
@@ -1083,12 +1134,18 @@ def main() -> None:
                 "profile_dir": str(args.profile_dir),
                 "descriptor_scope": args.descriptor_scope,
                 "descriptor_input": descriptor_scope_description(args.descriptor_scope),
-                "model": "B @ G_P @ K^(-1/2), with G_P projecting all descriptor embeddings into the 384-descriptor Cholesky pivot basis; per-seiyuu profile components are combined with covariance range diagnostics",
+                "comparative_personality": (
+                    "explicit personality-similarity references to characters resolvable inside the corpus "
+                    f"inherit the target character's direct personality descriptors at weight {DEFAULT_INHERITANCE_WEIGHT}"
+                ),
+                "model": "B @ G_P @ K^(-1/2), where B is weighted descriptor incidence and G_P projects all descriptor embeddings into the 384-descriptor Cholesky pivot basis; per-seiyuu profile components are combined with covariance range diagnostics",
                 "row_weight": args.row_weight,
                 "shared_role_weight": args.shared_role_weight,
                 "max_role_edge_count": args.max_role_edge_count,
                 "excluded_shared_character_count": len(excluded_shared_characters),
                 "excluded_shared_characters": excluded_shared_characters[:25],
+                "comparative_personality_edge_count": len(comparative_edges),
+                "comparative_personality_edges": comparative_edges[:50],
                 "profile_center": effective_profile_center,
                 "character_space": args.character_space,
                 "character_favourites": favourite_metadata,

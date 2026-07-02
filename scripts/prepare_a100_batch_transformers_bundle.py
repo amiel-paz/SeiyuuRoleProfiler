@@ -208,7 +208,7 @@ RUN_FULL=1 bash run_a100_batch_tagging.sh
 ## Pull results
 
 ```bash
-scp -P <port> -i ~/.ssh/id_ed25519 \\
+scp -P <port> -i ~/.ssh/IDENTITY_FILE \\
   root@<host>:/root/seiyuu_a100_batch_transformers_bundle/output/artifacts/batch_transformers_prod_results.tar.gz \\
   run/gpu_llm_tagging/
 ```

@@ -13,6 +13,8 @@ from typing import Any
 import numpy as np
 from scipy import sparse
 
+from comparative_personality import DEFAULT_INHERITANCE_WEIGHT, inherited_personality_descriptors
+
 
 DEFAULT_CATEGORIES = ("personality", "traits")
 
@@ -71,39 +73,61 @@ def build_membership(
     rows: list[dict] = []
     descriptor_categories: dict[str, Counter] = {}
     descriptor_document_counts: Counter = Counter()
+    inherited_by_character_id, comparative_edges = inherited_personality_descriptors(
+        characters,
+        DEFAULT_INHERITANCE_WEIGHT,
+    )
 
     for character in characters:
-        descriptors: set[str] = set()
+        descriptor_weights: dict[str, float] = {}
         for category in categories:
             for tag in character.get("llm_tags", {}).get(category, []):
                 descriptor = str(tag.get("tag", "")).strip().lower()
                 if not descriptor:
                     continue
-                descriptors.add(descriptor)
+                descriptor_weights[descriptor] = max(descriptor_weights.get(descriptor, 0.0), 1.0)
                 descriptor_set.add(descriptor)
                 descriptor_categories.setdefault(descriptor, Counter())[category] += 1
-        if descriptors or include_empty:
-            sorted_descriptors = sorted(descriptors)
+        if "personality" in categories:
+            character_id = int(character.get("anilist_character_id") or character.get("character_id"))
+            for tag in inherited_by_character_id.get(character_id, []):
+                descriptor = str(tag.get("tag", "")).strip().lower()
+                if not descriptor:
+                    continue
+                descriptor_weights[descriptor] = max(
+                    descriptor_weights.get(descriptor, 0.0),
+                    float(tag.get("weight") or DEFAULT_INHERITANCE_WEIGHT),
+                )
+                descriptor_set.add(descriptor)
+                descriptor_categories.setdefault(descriptor, Counter())["comparative_personality"] += 1
+        if descriptor_weights or include_empty:
+            sorted_descriptors = sorted(descriptor_weights)
             rows.append(character_payload(character, sorted_descriptors))
+            rows[-1]["descriptor_weights"] = {
+                descriptor: round(float(descriptor_weights[descriptor]), 8) for descriptor in sorted_descriptors
+            }
             descriptor_document_counts.update(sorted_descriptors)
 
     descriptors = sorted(descriptor_set)
     descriptor_index = {descriptor: index for index, descriptor in enumerate(descriptors)}
     row_indices: list[int] = []
     col_indices: list[int] = []
+    values: list[float] = []
     for row_index, row in enumerate(rows):
         for descriptor in row["descriptors"]:
             row_indices.append(row_index)
             col_indices.append(descriptor_index[descriptor])
+            values.append(float(row.get("descriptor_weights", {}).get(descriptor, 1.0)))
 
     matrix = sparse.csr_matrix(
-        (np.ones(len(row_indices), dtype=np.float32), (row_indices, col_indices)),
+        (np.asarray(values, dtype=np.float32), (row_indices, col_indices)),
         shape=(len(rows), len(descriptors)),
         dtype=np.float32,
     )
     for descriptor in descriptors:
         descriptor_categories.setdefault(descriptor, Counter())
         descriptor_categories[descriptor]["character_count"] = descriptor_document_counts[descriptor]
+    descriptor_categories["_comparative_personality_edges"] = Counter({"count": len(comparative_edges)})
     return rows, descriptors, matrix, descriptor_categories
 
 
@@ -199,13 +223,19 @@ def main() -> None:
             "include_empty": args.include_empty,
             "embedding_model": args.embedding_model,
             "similarity_threshold": args.similarity_threshold,
-            "semantic_membership": "binary_membership @ thresholded_descriptor_cosine_similarity",
+            "membership_matrix": "character x descriptor weighted incidence matrix",
+            "semantic_membership": "weighted_membership @ thresholded_descriptor_cosine_similarity",
+            "comparative_personality": (
+                "direct descriptors are 1.0; explicit personality-similarity references to resolvable "
+                f"corpus characters inherit target personality descriptors at {DEFAULT_INHERITANCE_WEIGHT}"
+            ),
             "distance_matrix": "descriptor_cosine_distance = 1 - normalized_embedding_dot_product",
         },
         "counts": {
             "characters": len(rows),
             "descriptors": len(descriptors),
             "binary_nonzero_entries": int(binary_matrix.nnz),
+            "binary_value_sum": round(float(binary_matrix.sum()), 6),
             "binary_density": round(float(binary_matrix.nnz / np.prod(binary_matrix.shape)), 10),
             "thresholded_similarity_nonzero_entries": int(thresholded_similarity.nnz),
             "thresholded_similarity_nonzero_offdiag_entries": int(offdiag_similarity_nonzero),

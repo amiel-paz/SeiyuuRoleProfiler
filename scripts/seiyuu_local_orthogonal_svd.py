@@ -11,6 +11,8 @@ from typing import Any
 
 import numpy as np
 
+from comparative_personality import DEFAULT_INHERITANCE_WEIGHT, inherited_personality_descriptors
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run a seiyuu-local B @ G @ X SVD descriptor experiment.")
@@ -103,16 +105,37 @@ def has_possessive_descriptor_token(value: str) -> bool:
     return any(token.endswith("'s") or token.endswith("’s") for token in re.findall(r"[a-z][a-z'’-]*", value.lower()))
 
 
-def character_descriptors(character: dict, categories: set[str]) -> list[str]:
-    descriptors = []
+def character_descriptor_weights(
+    character: dict,
+    categories: set[str],
+    inherited_by_character_id: dict[int, list[dict]] | None = None,
+) -> dict[str, float]:
+    descriptors: dict[str, float] = {}
     for category in categories:
         for tag in character.get("llm_tags", {}).get(category, []):
             if category in {"personality", "traits"} and tag_supported_only_by_metadata_field(tag):
                 continue
             value = str(tag.get("tag") or "").strip().lower()
             if value and not finite_verb_like_descriptor_head(value) and not has_possessive_descriptor_token(value):
-                descriptors.append(value)
-    return sorted(set(descriptors))
+                descriptors[value] = max(descriptors.get(value, 0.0), 1.0)
+    if "personality" in categories and inherited_by_character_id:
+        character_id = int(character.get("anilist_character_id") or character.get("character_id"))
+        for tag in inherited_by_character_id.get(character_id, []):
+            value = str(tag.get("tag") or "").strip().lower()
+            if value and not finite_verb_like_descriptor_head(value) and not has_possessive_descriptor_token(value):
+                descriptors[value] = max(
+                    descriptors.get(value, 0.0),
+                    float(tag.get("weight") or DEFAULT_INHERITANCE_WEIGHT),
+                )
+    return dict(sorted(descriptors.items()))
+
+
+def character_descriptors(
+    character: dict,
+    categories: set[str],
+    inherited_by_character_id: dict[int, list[dict]] | None = None,
+) -> list[str]:
+    return sorted(character_descriptor_weights(character, categories, inherited_by_character_id))
 
 
 def character_payload(character: dict, amplitude: float | None = None) -> dict:
@@ -172,14 +195,20 @@ def orient_pair(u: np.ndarray, v: np.ndarray, G: np.ndarray, X: np.ndarray) -> t
     return u, v
 
 
-def seiyuu_characters(payload: dict, seiyuu: str, categories: set[str]) -> list[dict]:
+def seiyuu_characters(
+    payload: dict,
+    seiyuu: str,
+    categories: set[str],
+    inherited_by_character_id: dict[int, list[dict]],
+) -> list[dict]:
     requested = name_keys(seiyuu)
     output = []
     for character in payload.get("characters", []):
         if not any(requested.intersection(name_keys(row.get("name") or "")) for row in character.get("seiyuu", [])):
             continue
         row = dict(character)
-        row["_descriptors"] = character_descriptors(row, categories)
+        row["_descriptor_weights"] = character_descriptor_weights(row, categories, inherited_by_character_id)
+        row["_descriptors"] = sorted(row["_descriptor_weights"])
         output.append(row)
     return output
 
@@ -188,7 +217,11 @@ def main() -> None:
     args = parse_args()
     categories = {category.strip() for category in args.categories}
     tag_payload = read_json(args.tags_input)
-    all_characters = seiyuu_characters(tag_payload, args.seiyuu, categories)
+    inherited_by_character_id, comparative_edges = inherited_personality_descriptors(
+        tag_payload.get("characters", []),
+        DEFAULT_INHERITANCE_WEIGHT,
+    )
+    all_characters = seiyuu_characters(tag_payload, args.seiyuu, categories, inherited_by_character_id)
     rows = [character for character in all_characters if character["_descriptors"]]
     if not rows:
         raise RuntimeError(f"No descriptor-bearing characters found for {args.seiyuu!r}.")
@@ -197,8 +230,8 @@ def main() -> None:
     descriptor_index = {descriptor: index for index, descriptor in enumerate(descriptors)}
     B = np.zeros((len(rows), len(descriptors)), dtype=np.float64)
     for row_index, character in enumerate(rows):
-        for descriptor in character["_descriptors"]:
-            B[row_index, descriptor_index[descriptor]] = 1.0
+        for descriptor, weight in character.get("_descriptor_weights", {}).items():
+            B[row_index, descriptor_index[descriptor]] = float(weight)
 
     matrix_metadata = read_json(args.matrix_metadata)
     global_descriptors = matrix_metadata["descriptors"]
@@ -296,7 +329,11 @@ def main() -> None:
             "matrix_metadata": str(args.matrix_metadata),
             "embeddings": str(args.embeddings),
             "categories": sorted(categories),
-            "B": "seiyuu character x local descriptor binary incidence matrix",
+            "B": "seiyuu character x local descriptor weighted incidence matrix",
+            "comparative_personality": (
+                "direct descriptors are 1.0; explicit personality-similarity references to resolvable "
+                f"corpus characters inherit target personality descriptors at {DEFAULT_INHERITANCE_WEIGHT}"
+            ),
             "G": "local descriptor x descriptor unthresholded cosine Gram/overlap matrix from normalized embeddings",
             "X": "Lowdin orthogonalizer over positive eigenspace of G: U @ Lambda^(-1/2)",
             "M": "B @ G @ X",
@@ -308,7 +345,9 @@ def main() -> None:
             "seiyuu_characters_total": len(all_characters),
             "characters_with_descriptors": len(rows),
             "local_descriptors": len(descriptors),
-            "binary_nonzero_entries": int(B.sum()),
+            "membership_nonzero_entries": int(np.count_nonzero(B)),
+            "membership_value_sum": round(float(B.sum()), 6),
+            "comparative_personality_edge_count": len(comparative_edges),
             "G_rank_retained": int(keep.sum()),
             "G_rank_dropped": int((~keep).sum()),
         },

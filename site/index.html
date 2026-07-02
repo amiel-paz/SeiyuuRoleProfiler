@@ -60,6 +60,41 @@
     .char:after, .suggestion:after { white-space:pre-line; }
     .char:after { content:attr(data-tooltip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); background:#15201b; color:white; padding:8px 10px; border-radius:6px; width:max-content; max-width:280px; opacity:0; pointer-events:none; transition:opacity .12s ease; font-size:13px; z-index:10; }
     .char:hover:after { opacity:1; }
+    .axisCard { border:1px solid var(--line); border-radius:8px; background:white; margin:22px 0; padding:18px; overflow:hidden; }
+    .axisPlot { position:relative; height:calc(150px + var(--rows) * 20px); min-height:190px; }
+    .axisLine { position:absolute; left:0; right:0; bottom:70px; height:2px; background:#b8c7c1; }
+    .originLine { position:absolute; left:50%; bottom:50px; width:2px; height:calc(90px + var(--rows) * 20px); background:#7f918a; transform:translateX(-50%); }
+    .originLabel { position:absolute; left:50%; bottom:24px; transform:translateX(-50%); color:var(--ink); font-size:16px; font-weight:900; }
+    .axisEnd { position:absolute; bottom:44px; color:var(--muted); font-size:15px; font-weight:850; }
+    .axisEnd.neg { left:0; }
+    .axisEnd.pos { right:0; }
+    .positiveArrow { position:absolute; left:50%; right:0; bottom:0; display:grid; grid-template-columns:1fr auto auto; align-items:center; gap:10px; color:var(--accent); font-weight:900; }
+    .positiveArrow:before { content:""; display:block; height:3px; background:var(--accent); border-radius:999px; }
+    .positiveArrow:after { content:""; width:0; height:0; border-top:8px solid transparent; border-bottom:8px solid transparent; border-left:12px solid var(--accent); }
+    .axisDot { --diameter:38px; position:absolute; left:calc(var(--x) * 1%); bottom:calc(84px + var(--stack) * 20px); width:var(--diameter); height:var(--diameter); border-radius:999px; border:2px solid white; box-shadow:0 0 0 1px var(--line), 0 8px 18px rgba(18,27,23,.12); transform:translateX(-50%); background:var(--soft); overflow:hidden; z-index:2; }
+    .axisDot img, .axisDot .dotFallback { width:100%; height:100%; object-fit:cover; display:grid; place-items:center; color:var(--muted); font-size:14px; font-weight:900; }
+    .axisDot.negative { filter:saturate(.8); opacity:.86; }
+    .axisDot:hover { z-index:8; transform:translateX(-50%) scale(1.16); }
+    .spectrumList { display:flex; flex-wrap:wrap; gap:8px; margin: 8px 0 22px; }
+    .spectrumPill { border:1px solid var(--line); border-radius:999px; padding:6px 10px; color:var(--muted); font-size:14px; background:white; }
+    .spectrumPill strong { color:var(--ink); }
+    .variation { border-top:1px solid var(--line); padding-top:28px; margin-top:34px; }
+    .variationCard { border:1px solid var(--line); border-radius:8px; background:white; margin:18px 0; overflow:hidden; }
+    .variationHeader { display:grid; grid-template-columns:1fr; gap:12px; align-items:end; padding:16px 18px; background:var(--soft); }
+    .variationHeader h4 { margin:0; color:#174f49; font-size:26px; line-height:1.05; }
+    .poleGrid { display:grid; grid-template-columns:1fr 1fr; gap:0; border-top:1px solid var(--line); }
+    .pole { padding:16px 18px 20px; min-width:0; }
+    .pole + .pole { border-left:1px solid var(--line); }
+    .pole h5 { margin:0 0 8px; font-size:20px; }
+    .fit { color:var(--muted); font-size:15px; margin-bottom:12px; }
+    .descriptorLine { font-size:24px; font-weight:900; line-height:1.08; overflow-wrap:anywhere; margin-bottom:10px; }
+    .descriptorStep { color:var(--muted); font-size:13px; }
+    .descriptorList { display:flex; flex-wrap:wrap; gap:8px; padding:16px 18px; }
+    .descriptorToken { border:1px solid var(--line); border-radius:999px; padding:7px 11px; font-weight:850; background:#fbfdfc; }
+    .compactChars { display:grid; grid-template-columns:repeat(auto-fill, minmax(118px, 1fr)); gap:12px; margin-top:12px; }
+    .compactChars .charName { font-size:15px; }
+    .compactChars .charMeta { font-size:12px; }
+    .compactChars .charPct { font-size:13px; }
     .empty { color:var(--muted); font-size:20px; margin-top:22px; }
     @media (max-width: 640px) {
       .profileHead { grid-template-columns: 92px 1fr; gap:16px; }
@@ -71,6 +106,10 @@
       .barTrack { grid-column:1 / -1; }
       .miniChar { max-width:100%; }
       .characters { grid-template-columns: repeat(auto-fill, minmax(94px, 1fr)); }
+      .axisDot { --diameter:32px; bottom:calc(84px + var(--stack) * 17px); }
+      .axisPlot { height:calc(142px + var(--rows) * 17px); }
+      .poleGrid { grid-template-columns:1fr; }
+      .pole + .pole { border-left:0; border-top:1px solid var(--line); }
     }
   </style>
 </head>
@@ -148,6 +187,20 @@
           </div>
         </a>`).join('')}</div>`;
     }
+    function cleanDescriptorLabel(value) {
+      const seen = new Set();
+      const parts = String(value || '')
+        .split('/')
+        .map(part => part.trim())
+        .filter(part => part && !/^\+\d+$/.test(part))
+        .filter(part => {
+          const key = part.toLowerCase().replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      return parts.slice(0, 4).join(' / ');
+    }
     function componentRows(rows, labelKey) {
       const maxPercent = Math.max(...rows.map(row => row.percent), 1);
       return `<div class="componentList">${rows.map(row => {
@@ -158,13 +211,24 @@
         if (row.coverage_percent) details.push(`${pct(row.coverage_percent)} cumulative`);
         const support = details.length ? `<div class="charMeta">${esc(details.join(' · '))}</div>` : '';
         return `<div class="componentRow">
-          <div><div class="componentName">${esc(row[labelKey])}</div>${support}</div>
+          <div><div class="componentName">${esc(cleanDescriptorLabel(row[labelKey]))}</div>${support}</div>
           <div class="amp">${amp(row.amplitude)}</div>
           <div class="pct">${pct(row.percent)}</div>
           <div class="barTrack"><div class="bar" style="--pct:${width}"></div></div>
           ${componentEvidence(row)}
         </div>`;
       }).join('')}</div>`;
+    }
+    function descriptorList(rows) {
+      const values = (rows || []).map(row => cleanDescriptorLabel(row.descriptor)).filter(Boolean);
+      if (!values.length) return '<p class="empty" style="padding:0 18px 16px;">No compact descriptor read.</p>';
+      return `<div class="descriptorList">${values.slice(0, 10).map(value => `<span class="descriptorToken">${esc(value)}</span>`).join('')}</div>`;
+    }
+    function fitLabel(value) {
+      const fit = Number(value || 0);
+      if (fit >= 80) return 'strong descriptor read';
+      if (fit >= 50) return 'partial descriptor read';
+      return 'weak descriptor read';
     }
     function breadthChips(lane) {
       const basis = lane.basis_participation || {};
@@ -175,6 +239,13 @@
         <span class="chip">basis top 10 ${pct(basis.top10_mass_percent)}</span>
         <span class="chip">character breadth ${Number(characters.effective_count || 0).toFixed(1)}</span>
       </div>`;
+    }
+    function spectrumMarkup(profile) {
+      const spectrum = profile.singular_spectrum || [];
+      if (!spectrum.length) return '';
+      return `<div class="spectrumList">${spectrum.slice(0, 8).map(row => `
+        <span class="spectrumPill"><strong>SV${row.rank}</strong> ${Number(row.mass_percent || 0).toFixed(2)}%</span>
+      `).join('')}</div>`;
     }
     function rangeChips(lane) {
       const range = lane.range_metrics || {};
@@ -190,18 +261,123 @@
       if (character.image) return `<img src="${esc(character.image)}" alt="${esc(character.name)}">`;
       return `<div class="charFallback">${esc((character.name || '?').slice(0, 1))}</div>`;
     }
+    function favouriteInfo(character) {
+      const anilist = Number(character.anilist_favourites ?? character.favourites ?? 0);
+      const bangumi = Number(character.bangumi_collects || 0);
+      const combined = Number(character.combined_favourites || (anilist + bangumi));
+      return {
+        anilist,
+        bangumi,
+        combined,
+        label: `${intFmt.format(combined)} combined`,
+        tooltip: `${intFmt.format(anilist)} AniList favs` + (bangumi ? `\n${intFmt.format(bangumi)} Bangumi collects` : '')
+      };
+    }
     function characterGrid(characters) {
       if (!characters || !characters.length) return '<p class="empty">No characters on this side.</p>';
       return `<div class="characters">${characters.map(character => {
-        const favourites = Number(character.favourites || 0);
-        const tooltip = `${character.name}\n${character.anime || ''}\n${amp(character.amplitude)} amplitude\n${pct(character.percent)} of dominant profile\n${intFmt.format(favourites)} AniList favs`;
+        const favourites = favouriteInfo(character);
+        const tooltip = `${character.name}\n${character.anime || ''}\n${amp(character.amplitude)} amplitude\n${favourites.tooltip}`;
         return `<a class="char" href="${esc(character.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(tooltip)}">
           ${characterImage(character)}
           <div class="charName">${esc(character.name)}</div>
           <div class="charMeta">${esc(character.anime || '')}</div>
-          <div class="charPct">${amp(character.amplitude)} · ${pct(character.percent)} · ${intFmt.format(favourites)} favs</div>
+          <div class="charPct">${amp(character.amplitude)} · ${favourites.label}</div>
         </a>`;
       }).join('')}</div>`;
+    }
+    function compactCharacterGrid(characters) {
+      if (!characters || !characters.length) return '<p class="empty">No characters on this side.</p>';
+      return `<div class="compactChars">${characters.slice(0, 8).map(character => {
+        const favourites = favouriteInfo(character);
+        const tooltip = `${character.name}\n${character.anime || ''}\n${amp(character.amplitude)} amplitude\n${favourites.tooltip}`;
+        return `<a class="char" href="${esc(character.site_url)}" target="_blank" rel="noreferrer" data-tooltip="${esc(tooltip)}">
+          ${characterImage(character)}
+          <div class="charName">${esc(character.name)}</div>
+          <div class="charMeta">${esc(character.anime || '')}</div>
+          <div class="charPct">${amp(character.amplitude)}</div>
+        </a>`;
+      }).join('')}</div>`;
+    }
+    function descriptorPhrase(rows) {
+      const descriptors = (rows || []).map(row => cleanDescriptorLabel(row.descriptor)).filter(Boolean);
+      return descriptors.length ? descriptors.slice(0, 6).join(' / ') : 'weak descriptor read';
+    }
+    function marginalSteps(rows) {
+      const steps = (rows || []).filter(row => row.descriptor);
+      if (!steps.length) return '';
+      return `<div class="descriptorStep">${steps.slice(0, 4).map(row => esc(row.descriptor)).join(' · ')}</div>`;
+    }
+    function poleMarkup(pole, label) {
+      const descriptors = pole.display_descriptor_components || [];
+      return `<section class="pole">
+        <h5>${esc(label)}</h5>
+        <div class="fit">${fitLabel(pole.descriptor_fit_percent)}</div>
+        <div class="descriptorLine">${esc(descriptorPhrase(descriptors))}</div>
+        ${marginalSteps(pole.descriptor_steps)}
+        ${compactCharacterGrid(pole.characters || [])}
+      </section>`;
+    }
+    function variationAxisPlot(axis) {
+      return axisPlot({
+        positive_characters: axis.positive_pole?.characters || [],
+        negative_characters: axis.negative_pole?.characters || []
+      });
+    }
+    function variationMarkup(axes) {
+      if (!axes || !axes.length) return '';
+      return `<section class="variation">
+        <div class="laneHead"><h3>Role Variations</h3></div>
+        ${axes.map(axis => `<article class="variationCard">
+          <div class="variationHeader">
+            <h4>SV${axis.rank}</h4>
+          </div>
+          ${variationAxisPlot(axis)}
+          <div class="poleGrid">
+            ${poleMarkup(axis.positive_pole || {}, 'Positive pole')}
+            ${poleMarkup(axis.negative_pole || {}, 'Negative pole')}
+          </div>
+        </article>`).join('')}
+      </section>`;
+    }
+    function axisDotImage(character) {
+      if (character.image) return `<img src="${esc(character.image)}" alt="${esc(character.name)}">`;
+      return `<div class="dotFallback">${esc((character.name || '?').slice(0, 1))}</div>`;
+    }
+    function axisPlot(lane) {
+      const byId = new Map();
+      [...(lane.negative_characters || []), ...(lane.positive_characters || [])].forEach(character => {
+        byId.set(String(character.character_id || character.name), character);
+      });
+      const characters = [...byId.values()].filter(character => Number.isFinite(Number(character.amplitude)));
+      if (!characters.length) return '';
+      const maxAbs = Math.max(...characters.map(character => Math.abs(Number(character.amplitude))), 1.0e-9);
+      const bins = 17;
+      const stacks = Array.from({ length: bins }, () => 0);
+      const dots = characters
+        .sort((a, b) => Math.abs(Number(b.amplitude)) - Math.abs(Number(a.amplitude)))
+        .map(character => {
+          const amplitude = Number(character.amplitude);
+          const bin = Math.max(0, Math.min(bins - 1, Math.round(((amplitude / maxAbs) + 1) * 0.5 * (bins - 1))));
+          const stack = stacks[bin]++;
+          const x = bin / (bins - 1) * 100;
+          const favourites = favouriteInfo(character);
+          const tooltip = `${character.name}\n${character.anime || ''}\n${amp(amplitude)}\n${favourites.tooltip}`;
+          return `<a class="axisDot ${amplitude < 0 ? 'negative' : 'positive'}" style="--x:${x}; --stack:${stack}" href="${esc(character.site_url)}" target="_blank" rel="noreferrer" title="${esc(tooltip)}">${axisDotImage(character)}</a>`;
+        })
+        .join('');
+      const rows = Math.max(...stacks, 1);
+      return `<section class="axisCard">
+        <div class="axisPlot" style="--rows:${rows}">
+          <div class="originLine"></div>
+          <div class="axisLine"></div>
+          <div class="axisEnd neg">-</div>
+          <div class="axisEnd pos">+</div>
+          <div class="originLabel">origin</div>
+          ${dots}
+          <div class="positiveArrow"><span>positive</span></div>
+        </div>
+      </section>`;
     }
     async function renderProfile(profileIndex) {
       if (!profileIndex) {
@@ -211,41 +387,24 @@
       app.innerHTML = '<p class="empty">Loading profile...</p>';
       const profile = await loadProfile(profileIndex);
       const lane = profile.major_lane;
-      const favMeta = profile.favourite_metadata || data.parameters?.character_favourites || {};
-      const favDate = dateOnly(favMeta.cached_at);
-      const sharedWeight = lane.shared_role_weight_mode || data.parameters?.shared_role_weight || 'none';
       app.innerHTML = `<div class="topbar"><button id="back">Search</button></div>
         <section class="profileHead">
           <a href="${esc(profile.site_url)}" target="_blank" rel="noreferrer"><img src="${esc(profile.image)}" alt="${esc(profile.name)}"></a>
           <div><h2>${esc(profile.name)} <span class="native">${esc(profile.native_name)}</span></h2><div class="chips"><span class="chip">roles ${profile.role_count}</span><span class="chip">supported chars ${profile.character_count}</span><span class="chip">first year ${profile.first_year || ''}</span></div></div>
         </section>
         <section class="majorLane">
-          <div class="laneHead"><h3>${esc(profile.name)} tends to voice characters across this role/personality range</h3></div>
-          <p class="meta">Role range measures the longest semantic continuum across this seiyuu's characters. Semantic spread measures total dispersion; range axis shows how much of that spread lies on one main continuum; lane count estimates how many independent directions carry the spread.</p>
-          ${rangeChips(lane)}
-          ${breadthChips(lane)}
+          <div class="laneHead"><h3>Broad Role Cluster</h3></div>
+          ${axisPlot(lane)}
           <details open>
-            <summary>One Side Of The Main Contrast</summary>
-            <p class="note">Rows are deterministic semantic clusters of original role/personality descriptors on one side of the dominant contrast. Character evidence uses exact or mutual local-99th-percentile semantic matches; clusters are shown until they cover about 95% of displayed descriptor mass.</p>
-            ${componentRows(lane.display_descriptor_components || [], 'descriptor')}
-          </details>
-          <details>
-            <summary>Opposite Side Of The Main Contrast</summary>
-            <p class="note">This is the other pole of the same dominant contrast. A negative amplitude means a character fits this side, not that the character is weak or unimportant.</p>
-            ${componentRows(lane.opposite_display_descriptor_components || [], 'descriptor')}
-          </details>
-          <h3>Character Contributions</h3>
-          <p class="meta">The most representative characters of this distribution, based on their AniList description profiles, are shown below. Favorites are ${esc(favMeta.source || 'AniList')} character favorites${favDate ? ` cached ${esc(favDate)}` : ''} and are shown for context. Shared/recast character edges are weighted by ${esc(sharedWeight)}.</p>
-          <details open>
-            <summary>One Side Characters</summary>
-            ${characterGrid(lane.positive_characters || [])}
+            <summary>SV1 descriptors · ${fitLabel(lane.descriptor_fit_percent)}</summary>
+            ${descriptorList(lane.display_descriptor_components || [])}
           </details>
           <details open>
-            <summary>Opposite Side Characters</summary>
-            <p class="note">Signed amplitudes are shown as negative because this is the opposite pole of the same contrast.</p>
-            ${characterGrid(lane.negative_characters || [])}
+            <summary>Representative characters</summary>
+            ${characterGrid((lane.positive_characters && lane.positive_characters.length ? lane.positive_characters : lane.characters) || [])}
           </details>
-        </section>`;
+        </section>
+        ${variationMarkup(profile.variation_axes || [])}`;
       document.getElementById('back').addEventListener('click', () => { history.pushState(null, '', location.pathname); renderHome(); });
     }
     fetch(`profiles.json?v=${Date.now()}`, { cache: 'no-store' }).then(r => r.json()).then(payload => {

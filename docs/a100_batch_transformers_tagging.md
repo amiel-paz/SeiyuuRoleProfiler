@@ -43,11 +43,11 @@ run/a100_batch_transformers_tagging/seiyuu_a100_batch_transformers_bundle.tar.gz
 Use a pod image that already has CUDA PyTorch working. The script installs lightweight Python packages if missing, but it does not install PyTorch/CUDA.
 
 ```bash
-scp -P <port> -i ~/.ssh/id_ed25519 \
+scp -P <port> -i ~/.ssh/IDENTITY_FILE \
   run/a100_batch_transformers_tagging/seiyuu_a100_batch_transformers_bundle.tar.gz \
   root@<host>:/root/
 
-ssh -p <port> -i ~/.ssh/id_ed25519 root@<host>
+ssh -p <port> -i ~/.ssh/IDENTITY_FILE root@<host>
 tar -xzf seiyuu_a100_batch_transformers_bundle.tar.gz
 cd seiyuu_a100_batch_transformers_bundle
 AUTO_FULL_AFTER_SMOKE=1 bash run_a100_batch_tagging.sh
@@ -77,7 +77,7 @@ tail -n 20 logs/prod.log
 ## Pull Results
 
 ```bash
-scp -P <port> -i ~/.ssh/id_ed25519 \
+scp -P <port> -i ~/.ssh/IDENTITY_FILE \
   root@<host>:/root/seiyuu_a100_batch_transformers_bundle/output/artifacts/batch_transformers_prod_results.tar.gz \
   run/gpu_llm_tagging/
 ```
