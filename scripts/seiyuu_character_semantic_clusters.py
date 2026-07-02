@@ -18,6 +18,7 @@ from seiyuu_local_nmf_lane_svd import (
     descriptor_rows_from_character,
     enrich_character,
     find_profile,
+    is_non_personality_descriptor,
     is_pop_team_character,
     load_bangumi_collects,
     load_or_create_embeddings,
@@ -27,10 +28,16 @@ from seiyuu_local_nmf_lane_svd import (
     normalize_rows,
     read_json,
     shared_role_weight,
+    single_adjective_shape,
     slug,
     utc_now,
     write_json,
 )
+
+
+DESCRIPTOR_CANONICAL_OVERRIDES = {
+    "donkan": "dense",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -101,6 +108,24 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--descriptor-fit-target", type=float, default=0.95)
     parser.add_argument("--descriptor-fit-min-terms", type=int, default=6)
     parser.add_argument("--descriptor-fit-max-terms", type=int, default=12)
+    parser.add_argument(
+        "--fit-vocabulary",
+        choices=["local", "global-canonical"],
+        default="global-canonical",
+        help="Descriptor atoms used to name cluster centroids. Global atoms are projected into the local Lowdin space.",
+    )
+    parser.add_argument(
+        "--fit-min-global-character-count",
+        type=int,
+        default=3,
+        help="Minimum global character support for descriptors used in the global fit vocabulary.",
+    )
+    parser.add_argument(
+        "--fit-single-token-only",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Restrict global fit descriptors to single-token adjective-like strings; hyphenated strings are allowed.",
+    )
     parser.add_argument("--top-descriptors", type=int, default=16)
     parser.add_argument("--top-characters", type=int, default=16)
     parser.add_argument(
@@ -298,10 +323,17 @@ def build_seiyuu_character_rows(args: argparse.Namespace) -> tuple[dict, list[di
     return profile, characters
 
 
-def lowdin_coordinates(B: np.ndarray, G: np.ndarray, regularization: float) -> tuple[np.ndarray, np.ndarray, dict]:
+def lowdin_coordinates(B: np.ndarray, G: np.ndarray, regularization: float) -> tuple[np.ndarray, np.ndarray, np.ndarray, dict]:
     eigenvalues, eigenvectors = np.linalg.eigh((G + G.T) * 0.5)
     max_eval = max(float(eigenvalues.max(initial=0.0)), 1.0)
     reg = max_eval * regularization
+    inverse_factors = np.divide(
+        1.0,
+        np.sqrt(np.maximum(eigenvalues + reg, reg)),
+        out=np.zeros_like(eigenvalues),
+        where=eigenvalues > 0.0,
+    )
+    lowdin_transform = eigenvectors @ np.diag(inverse_factors)
     factors = np.divide(
         eigenvalues,
         np.sqrt(np.maximum(eigenvalues + reg, reg)),
@@ -312,7 +344,7 @@ def lowdin_coordinates(B: np.ndarray, G: np.ndarray, regularization: float) -> t
     Z = B @ descriptor_coordinates
     positive = eigenvalues[eigenvalues > 0.0]
     min_positive = float(positive.min()) if len(positive) else 0.0
-    return Z, descriptor_coordinates, {
+    return Z, descriptor_coordinates, lowdin_transform, {
         "rank": int(len(positive)),
         "regularization_absolute": reg,
         "min_positive_eigenvalue": min_positive,
@@ -455,11 +487,38 @@ def load_global_raw_to_canonical(path: Path) -> dict[str, str]:
     if not path.exists():
         return {}
     payload = read_json(path)
-    return {
+    raw_to_canonical = {
         str(raw): str(canonical)
         for raw, canonical in (payload.get("raw_to_canonical") or {}).items()
         if raw and canonical
     }
+    for raw, canonical in DESCRIPTOR_CANONICAL_OVERRIDES.items():
+        raw_to_canonical[raw] = canonical
+    return raw_to_canonical
+
+
+def load_global_fit_vocabulary(path: Path, min_character_count: int, single_token_only: bool) -> list[str]:
+    if not path.exists():
+        return []
+    payload = read_json(path)
+    descriptors = []
+    seen = set()
+    for row in payload.get("descriptors") or []:
+        descriptor = DESCRIPTOR_CANONICAL_OVERRIDES.get(
+            str(row.get("canonical") or "").strip().lower(),
+            str(row.get("canonical") or "").strip().lower(),
+        )
+        if not descriptor or descriptor in seen:
+            continue
+        if int(row.get("character_count") or 0) < min_character_count:
+            continue
+        if single_token_only and not single_adjective_shape(descriptor):
+            continue
+        if is_non_personality_descriptor(descriptor):
+            continue
+        seen.add(descriptor)
+        descriptors.append(descriptor)
+    return sorted(descriptors)
 
 
 def scan_kmeans(Z_unit: np.ndarray, args: argparse.Namespace, sample_weight: np.ndarray | None) -> tuple[np.ndarray, KMeans, list[dict]]:
@@ -703,6 +762,8 @@ def cluster_payloads(
     descriptors: list[str],
     descriptor_embeddings: np.ndarray,
     descriptor_atoms: np.ndarray,
+    fit_descriptors: list[str],
+    fit_atoms: np.ndarray,
     top_descriptors: int,
     top_characters: int,
     descriptor_fit_target: float,
@@ -732,13 +793,14 @@ def cluster_payloads(
         )
         positive_fit = positive_descriptor_fit(
             centroid,
-            descriptor_atoms,
-            descriptors,
+            fit_atoms,
+            fit_descriptors,
             stop_fit=descriptor_fit_target,
             min_terms=descriptor_fit_min_terms,
             max_terms=descriptor_fit_max_terms,
-            candidate_indices=descriptor_payload.pop("fit_candidate_indices"),
+            candidate_indices=None,
         )
+        descriptor_payload.pop("fit_candidate_indices")
         clusters.append(
             {
                 "cluster": int(cluster_id),
@@ -794,7 +856,7 @@ def main() -> None:
     for row_index, character in enumerate(characters):
         for descriptor, weight in character["descriptor_weights"].items():
             B[row_index, descriptor_index[descriptor]] = float(weight)
-    Z, descriptor_coordinates, lowdin = lowdin_coordinates(B, G, args.regularization)
+    Z, descriptor_coordinates, lowdin_transform, lowdin = lowdin_coordinates(B, G, args.regularization)
     Z_unit = normalize_rows(Z)
     semantic_overlap = np.clip(Z_unit @ Z_unit.T, -1.0, 1.0)
     cosine_distance = np.clip(1.0 - semantic_overlap, 0.0, 2.0)
@@ -818,6 +880,23 @@ def main() -> None:
     else:
         labels, model, scans = scan_kmeans(Z_unit, args, sample_weight)
 
+    fit_descriptors = descriptors
+    fit_atoms = descriptor_coordinates
+    if args.fit_vocabulary == "global-canonical":
+        global_fit_descriptors = load_global_fit_vocabulary(
+            args.global_canonicalization_input,
+            args.fit_min_global_character_count,
+            args.fit_single_token_only,
+        )
+        if global_fit_descriptors:
+            global_fit_embeddings = load_or_create_embeddings(
+                global_fit_descriptors,
+                args.output_dir,
+                args.embedding_model,
+            )
+            fit_descriptors = global_fit_descriptors
+            fit_atoms = (global_fit_embeddings @ E.T) @ lowdin_transform
+
     clusters = cluster_payloads(
         Z_unit,
         B,
@@ -827,6 +906,8 @@ def main() -> None:
         descriptors,
         E,
         descriptor_coordinates,
+        fit_descriptors,
+        fit_atoms,
         args.top_descriptors,
         args.top_characters,
         args.descriptor_fit_target,
@@ -848,7 +929,15 @@ def main() -> None:
             "global_canonicalization_input": str(args.global_canonicalization_input),
             "used_global_canonicalization": bool(global_raw_to_canonical),
             "k_selection": f"smallest K with radius_ratio <= {args.radius_ratio_threshold} and min cluster size >= {args.min_cluster_size}; fallback is lowest radius_ratio.",
-            "cluster_descriptor_fit": f"greedy nonnegative fit of each normalized cluster centroid using original local descriptor atoms; stop at cosine fit >= {args.descriptor_fit_target} or {args.descriptor_fit_max_terms} terms.",
+            "cluster_descriptor_fit": (
+                "greedy nonnegative fit of each normalized cluster centroid using the selected fit vocabulary "
+                f"projected into the seiyuu-local Lowdin descriptor space; stop at cosine fit >= "
+                f"{args.descriptor_fit_target} or {args.descriptor_fit_max_terms} terms."
+            ),
+            "fit_vocabulary": args.fit_vocabulary,
+            "fit_min_global_character_count": args.fit_min_global_character_count,
+            "fit_single_token_only": args.fit_single_token_only,
+            "fit_descriptor_count": len(fit_descriptors),
             "cluster_method": args.cluster_method,
             "recursive_split_rule": f"accept a 2-way split only if both children have >= {args.min_cluster_size} characters, mean cosine distance drops by >= {args.min_split_gain}, and child centroids are at least {args.min_split_distance} cosine-distance apart.",
             "trim_outliers_before_core_splitting": not args.no_trim_outliers,

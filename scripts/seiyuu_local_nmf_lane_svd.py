@@ -9,11 +9,17 @@ import math
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
 import numpy as np
 from sklearn.decomposition import NMF
+
+try:
+    from nltk.corpus import wordnet as wn
+except Exception:  # pragma: no cover - optional corpus guard for lean environments
+    wn = None
 
 
 def parse_args() -> argparse.Namespace:
@@ -149,6 +155,55 @@ def descriptor_tokens(value: str) -> list[str]:
     return re.findall(r"[a-z]+(?:-[a-z]+)*", (value or "").lower())
 
 
+@lru_cache(maxsize=4096)
+def is_nationality_or_demonym_token(token: str) -> bool:
+    token = (token or "").strip().lower()
+    if not token or wn is None:
+        return False
+    try:
+        synsets = wn.synsets(token, pos=wn.ADJ)
+    except LookupError:
+        return False
+    geography_terms = re.compile(
+        r"\b(country|countries|nation|national|state|states|continent|"
+        r"people|culture|language|citizen|ethnic|race|tribe)\b"
+    )
+    for synset in synsets:
+        if synset.lexname() != "adj.pert":
+            continue
+        definition = synset.definition().lower()
+        if geography_terms.search(definition):
+            return True
+        for lemma in synset.lemmas():
+            for pertainym in lemma.pertainyms():
+                if pertainym.synset().lexname() in {"noun.location", "noun.group"}:
+                    return True
+    return False
+
+
+def is_nationality_or_demonym_descriptor(value: str) -> bool:
+    tokens = descriptor_tokens(value)
+    return bool(tokens) and any(is_nationality_or_demonym_token(token) for token in tokens)
+
+
+SPEECH_REGISTER_DESCRIPTORS = {
+    "atashi",
+    "boku",
+    "ore",
+    "ssu",
+    "watashi",
+}
+
+
+def is_speech_register_descriptor(value: str) -> bool:
+    normalized = normalized_tag(value)
+    return normalized in SPEECH_REGISTER_DESCRIPTORS
+
+
+def is_non_personality_descriptor(value: str) -> bool:
+    return is_nationality_or_demonym_descriptor(value) or is_speech_register_descriptor(value)
+
+
 def normalized_tag(value: str) -> str:
     value = re.sub(r"\s+", " ", (value or "").strip().lower())
     return value
@@ -204,7 +259,7 @@ def load_safe_llm_personality(paths: list[Path]) -> dict[int, list[dict]]:
                 tags = ((row.get("tags") or {}).get("personality") or [])
                 for tag in tags:
                     descriptor = normalized_tag(tag.get("tag") or "")
-                    if not descriptor:
+                    if not descriptor or is_non_personality_descriptor(descriptor):
                         continue
                     source_key = str(tag.get("source_key") or tag.get("source_url") or path)
                     key = (character_id, descriptor, source_key)
@@ -230,7 +285,7 @@ def descriptor_rows_from_character(source: dict, safe_tags: dict[int, list[dict]
     rows: list[dict] = []
     for tag in ((source.get("llm_tags") or {}).get("personality") or []):
         descriptor = normalized_tag(tag.get("tag") or "")
-        if descriptor:
+        if descriptor and not is_non_personality_descriptor(descriptor):
             rows.append(
                 {
                     "tag": descriptor,
