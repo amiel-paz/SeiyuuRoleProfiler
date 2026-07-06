@@ -80,8 +80,14 @@ def parse_args() -> argparse.Namespace:
         help="Optional global raw-to-canonical descriptor map. If present, it is used before local fallback canonicalization.",
     )
     parser.add_argument("--embedding-model", default="BAAI/bge-small-en-v1.5")
-    parser.add_argument("--min-k", type=int, default=2)
-    parser.add_argument("--max-k", type=int, default=8)
+    parser.add_argument(
+        "--k",
+        type=int,
+        choices=range(1, 5),
+        default=2,
+        metavar="{1,2,3,4}",
+        help="Exact number of character clusters to compute. No automatic K selection is performed.",
+    )
     parser.add_argument("--regularization", type=float, default=1.0e-6)
     parser.add_argument("--max-role-edge-count", type=int, default=20)
     parser.add_argument(
@@ -98,13 +104,6 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--random-state", type=int, default=13)
     parser.add_argument("--n-init", type=int, default=100)
-    parser.add_argument("--cluster-method", choices=["recursive", "kmeans-scan"], default="recursive")
-    parser.add_argument("--radius-ratio-threshold", type=float, default=2.0)
-    parser.add_argument("--min-cluster-size", type=int, default=3)
-    parser.add_argument("--min-split-gain", type=float, default=0.10)
-    parser.add_argument("--min-split-distance", type=float, default=0.04)
-    parser.add_argument("--max-recursive-depth", type=int, default=4)
-    parser.add_argument("--no-trim-outliers", action="store_true")
     parser.add_argument("--descriptor-fit-target", type=float, default=0.95)
     parser.add_argument("--descriptor-fit-min-terms", type=int, default=6)
     parser.add_argument("--descriptor-fit-max-terms", type=int, default=12)
@@ -521,55 +520,25 @@ def load_global_fit_vocabulary(path: Path, min_character_count: int, single_toke
     return sorted(descriptors)
 
 
-def scan_kmeans(Z_unit: np.ndarray, args: argparse.Namespace, sample_weight: np.ndarray | None) -> tuple[np.ndarray, KMeans, list[dict]]:
-    scans = []
-    best_model = None
-    best_output_labels = None
-    fallback_model = None
-    fallback_labels = None
-    fallback_score = (np.inf, 0)
-    upper = max(args.min_k, min(args.max_k, len(Z_unit) - 1))
-    for k in range(args.min_k, upper + 1):
-        model = KMeans(n_clusters=k, random_state=args.random_state, n_init=args.n_init)
-        labels = model.fit_predict(Z_unit, sample_weight=sample_weight)
-        counts = np.bincount(labels, minlength=k)
-        if len(set(labels)) > 1 and min(counts) > 0:
-            silhouette = float(silhouette_score(Z_unit, labels, metric="cosine"))
-        else:
-            silhouette = -1.0
-        centroids = normalize_rows(model.cluster_centers_)
-        assigned_similarity = np.asarray([float(Z_unit[i] @ centroids[labels[i]]) for i in range(len(Z_unit))])
-        assigned_distance = np.clip(1.0 - assigned_similarity, 0.0, 2.0)
-        mean_distance = float(assigned_distance.mean())
-        max_distance = float(assigned_distance.max())
-        radius_ratio = max_distance / max(mean_distance, 1.0e-12)
-        valid_by_radius = bool(radius_ratio <= args.radius_ratio_threshold and int(counts.min()) >= args.min_cluster_size)
-        scans.append(
-            {
-                "k": k,
-                "silhouette_cosine": round(silhouette, 8),
-                "inertia": round(float(model.inertia_), 8),
-                "mean_cosine_distance_to_centroid": round(mean_distance, 8),
-                "max_cosine_distance_to_centroid": round(max_distance, 8),
-                "radius_ratio": round(radius_ratio, 8),
-                "valid_by_radius_rule": valid_by_radius,
-                "cluster_sizes": [int(value) for value in counts],
-            }
-        )
-        if valid_by_radius and best_model is None:
-            best_model = model
-            best_output_labels = labels
-        fallback_candidate = (radius_ratio, k)
-        if fallback_model is None or fallback_candidate < fallback_score:
-            fallback_model = model
-            fallback_labels = labels
-            fallback_score = fallback_candidate
-    if best_model is None:
-        best_model = fallback_model
-        best_output_labels = fallback_labels
-    assert best_model is not None
-    assert best_output_labels is not None
-    return best_output_labels, best_model, scans
+def fixed_kmeans(Z_unit: np.ndarray, k: int, args: argparse.Namespace, sample_weight: np.ndarray | None) -> tuple[np.ndarray, KMeans, dict]:
+    if k > len(Z_unit):
+        raise RuntimeError(f"Requested k={k}, but only {len(Z_unit)} described characters are available.")
+    model = KMeans(n_clusters=k, random_state=args.random_state, n_init=args.n_init)
+    labels = model.fit_predict(Z_unit, sample_weight=sample_weight)
+    counts = np.bincount(labels, minlength=k)
+    silhouette = float(silhouette_score(Z_unit, labels, metric="cosine")) if k > 1 and int(counts.min()) > 0 else None
+    centroids = normalize_rows(model.cluster_centers_)
+    assigned_similarity = np.asarray([float(Z_unit[i] @ centroids[labels[i]]) for i in range(len(Z_unit))])
+    assigned_distance = np.clip(1.0 - assigned_similarity, 0.0, 2.0)
+    diagnostics = {
+        "k": k,
+        "silhouette_cosine": round(silhouette, 8) if silhouette is not None else None,
+        "inertia": round(float(model.inertia_), 8),
+        "mean_cosine_distance_to_centroid": round(float(assigned_distance.mean()), 8),
+        "max_cosine_distance_to_centroid": round(float(assigned_distance.max()), 8),
+        "cluster_sizes": [int(value) for value in counts],
+    }
+    return labels, model, diagnostics
 
 
 def centroid_for_rows(rows: np.ndarray, sample_weight: np.ndarray | None = None) -> np.ndarray:
@@ -589,126 +558,6 @@ def mean_distance_to_centroid(rows: np.ndarray, sample_weight: np.ndarray | None
     else:
         mean_distance = float(np.average(distances, weights=sample_weight))
     return mean_distance, float(distances.max()), centroid
-
-
-def recursive_split_clusters(
-    Z_unit: np.ndarray,
-    args: argparse.Namespace,
-    sample_weight: np.ndarray | None,
-) -> tuple[np.ndarray, dict]:
-    leaves: list[np.ndarray] = []
-    trimmed: list[np.ndarray] = []
-    split_log: list[dict] = []
-
-    def split_node(indices: np.ndarray, depth: int) -> None:
-        local_weights = sample_weight[indices] if sample_weight is not None else None
-        parent_mean, parent_max, _ = mean_distance_to_centroid(Z_unit[indices], local_weights)
-        if (
-            depth >= args.max_recursive_depth
-            or len(indices) < args.min_cluster_size * 2
-            or len(leaves) + 1 >= args.max_k
-        ):
-            leaves.append(indices)
-            return
-
-        model = KMeans(n_clusters=2, random_state=args.random_state + depth, n_init=args.n_init)
-        local_labels = model.fit_predict(Z_unit[indices], sample_weight=local_weights)
-        child_positions = [np.flatnonzero(local_labels == child_id) for child_id in range(2)]
-        child_sizes = [int(len(position)) for position in child_positions]
-        child_indices = [indices[position] for position in child_positions]
-        child_means = []
-        child_centroids = []
-        child_maxes = []
-        for child_index in child_indices:
-            child_weights = sample_weight[child_index] if sample_weight is not None else None
-            mean_distance, max_distance, centroid = mean_distance_to_centroid(Z_unit[child_index], child_weights)
-            child_means.append(mean_distance)
-            child_maxes.append(max_distance)
-            child_centroids.append(centroid)
-
-        if sample_weight is None:
-            child_mean = float(sum(len(child) * mean for child, mean in zip(child_indices, child_means)) / len(indices))
-        else:
-            total_weight = float(np.sum(sample_weight[indices]))
-            child_mean = float(
-                sum(float(np.sum(sample_weight[child])) * mean for child, mean in zip(child_indices, child_means))
-                / max(total_weight, 1.0e-12)
-            )
-        split_gain = (parent_mean - child_mean) / max(parent_mean, 1.0e-12)
-        child_centroid_distance = float(np.clip(1.0 - child_centroids[0] @ child_centroids[1], 0.0, 2.0))
-        accepted = (
-            min(child_sizes) >= args.min_cluster_size
-            and split_gain >= args.min_split_gain
-            and child_centroid_distance >= args.min_split_distance
-        )
-        small_child_id = int(np.argmin(child_sizes))
-        large_child_id = int(np.argmax(child_sizes))
-        can_trim = (
-            not args.no_trim_outliers
-            and not accepted
-            and child_sizes[small_child_id] < args.min_cluster_size
-            and child_sizes[large_child_id] >= args.min_cluster_size * 2
-            and split_gain >= args.min_split_gain
-            and child_centroid_distance >= args.min_split_distance
-        )
-        split_log.append(
-            {
-                "depth": depth,
-                "size": int(len(indices)),
-                "parent_mean_cosine_distance": round(parent_mean, 8),
-                "parent_max_cosine_distance": round(parent_max, 8),
-                "child_sizes": child_sizes,
-                "child_mean_cosine_distances": [round(value, 8) for value in child_means],
-                "child_max_cosine_distances": [round(value, 8) for value in child_maxes],
-                "weighted_child_mean_cosine_distance": round(child_mean, 8),
-                "split_gain": round(split_gain, 8),
-                "child_centroid_cosine_distance": round(child_centroid_distance, 8),
-                "accepted": accepted,
-                "trimmed_outlier_child": bool(can_trim),
-            }
-        )
-        if can_trim:
-            trimmed.append(child_indices[small_child_id])
-            split_node(child_indices[large_child_id], depth + 1)
-            return
-        if not accepted:
-            leaves.append(indices)
-            return
-
-        order = np.argsort([-len(child) for child in child_indices])
-        for child_offset in order:
-            split_node(child_indices[int(child_offset)], depth + 1)
-
-    split_node(np.arange(len(Z_unit)), 0)
-    if trimmed and leaves:
-        leaf_centroids = [
-            centroid_for_rows(Z_unit[indices], sample_weight[indices] if sample_weight is not None else None)
-            for indices in leaves
-        ]
-        for trim_group in trimmed:
-            for index in trim_group:
-                similarities = [float(Z_unit[int(index)] @ centroid) for centroid in leaf_centroids]
-                leaf_id = int(np.argmax(similarities))
-                leaves[leaf_id] = np.concatenate([leaves[leaf_id], np.asarray([int(index)], dtype=np.int64)])
-                leaf_centroids[leaf_id] = centroid_for_rows(
-                    Z_unit[leaves[leaf_id]],
-                    sample_weight[leaves[leaf_id]] if sample_weight is not None else None,
-                )
-    leaves.sort(key=lambda row: (-len(row), int(row.min()) if len(row) else 0))
-    labels = np.empty(len(Z_unit), dtype=np.int64)
-    for cluster_id, indices in enumerate(leaves):
-        labels[indices] = cluster_id
-    centers = np.vstack([centroid_for_rows(Z_unit[indices], sample_weight[indices] if sample_weight is not None else None) for indices in leaves])
-    model = KMeans(n_clusters=len(leaves), random_state=args.random_state, n_init=1)
-    model.cluster_centers_ = centers
-    model.labels_ = labels
-    model.inertia_ = float(
-        sum(
-            np.sum((Z_unit[indices] - centers[cluster_id]) ** 2)
-            for cluster_id, indices in enumerate(leaves)
-        )
-    )
-    return labels, {"model": model, "split_log": split_log, "trimmed_count": int(sum(len(row) for row in trimmed))}
 
 
 def descriptor_rows_for_cluster(
@@ -869,16 +718,7 @@ def main() -> None:
             ],
             dtype=np.float64,
         )
-    split_log = []
-    trimmed_count = 0
-    if args.cluster_method == "recursive":
-        labels, recursive = recursive_split_clusters(Z_unit, args, sample_weight)
-        model = recursive["model"]
-        split_log = recursive["split_log"]
-        trimmed_count = recursive["trimmed_count"]
-        _, _, scans = scan_kmeans(Z_unit, args, sample_weight)
-    else:
-        labels, model, scans = scan_kmeans(Z_unit, args, sample_weight)
+    labels, model, cluster_diagnostics = fixed_kmeans(Z_unit, args.k, args, sample_weight)
 
     fit_descriptors = descriptors
     fit_atoms = descriptor_coordinates
@@ -928,7 +768,8 @@ def main() -> None:
             "canonicalize_contained_distance_threshold": args.canonicalize_contained_distance_threshold,
             "global_canonicalization_input": str(args.global_canonicalization_input),
             "used_global_canonicalization": bool(global_raw_to_canonical),
-            "k_selection": f"smallest K with radius_ratio <= {args.radius_ratio_threshold} and min cluster size >= {args.min_cluster_size}; fallback is lowest radius_ratio.",
+            "k": args.k,
+            "k_selection": "none; K is supplied explicitly by the user and must be 1, 2, 3, or 4.",
             "cluster_descriptor_fit": (
                 "greedy nonnegative fit of each normalized cluster centroid using the selected fit vocabulary "
                 f"projected into the seiyuu-local Lowdin descriptor space; stop at cosine fit >= "
@@ -938,12 +779,9 @@ def main() -> None:
             "fit_min_global_character_count": args.fit_min_global_character_count,
             "fit_single_token_only": args.fit_single_token_only,
             "fit_descriptor_count": len(fit_descriptors),
-            "cluster_method": args.cluster_method,
-            "recursive_split_rule": f"accept a 2-way split only if both children have >= {args.min_cluster_size} characters, mean cosine distance drops by >= {args.min_split_gain}, and child centroids are at least {args.min_split_distance} cosine-distance apart.",
-            "trim_outliers_before_core_splitting": not args.no_trim_outliers,
+            "cluster_method": "fixed-kmeans",
             "row_weight": args.row_weight,
             "shared_role_weight": args.shared_role_weight,
-            "k_scan": [args.min_k, args.max_k],
             "random_state": args.random_state,
         },
         "counts": {
@@ -954,9 +792,7 @@ def main() -> None:
             **lowdin,
         },
         "canonical_descriptor_groups": canonical_groups,
-        "kmeans_scan": scans,
-        "recursive_split_log": split_log,
-        "recursive_trimmed_count": trimmed_count,
+        "cluster_diagnostics": cluster_diagnostics,
         "chosen_k": int(model.n_clusters),
         "semantic_overlap_matrix": [
             [round(float(value), 8) for value in row]
@@ -969,10 +805,10 @@ def main() -> None:
         "characters": [character_payload(character) for character in characters],
         "clusters": clusters,
     }
-    output_path = args.output_dir / f"{slug(profile['name'])}_character_semantic_clusters.json"
+    output_path = args.output_dir / f"{slug(profile['name'])}_k{args.k}_character_semantic_clusters.json"
     write_json(output_path, output)
     print(f"wrote {output_path}")
-    print(json.dumps({"counts": output["counts"], "chosen_k": output["chosen_k"], "scan": scans}, indent=2))
+    print(json.dumps({"counts": output["counts"], "chosen_k": output["chosen_k"], "diagnostics": cluster_diagnostics}, indent=2))
     for cluster in clusters:
         print()
         print(

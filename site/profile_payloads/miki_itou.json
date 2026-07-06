@@ -11,2680 +11,1967 @@
     "itou miki",
     "miki itou"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/miki_itou.json",
+  "sv1_mass_percent": 82.004898,
+  "sv1_descriptor_fit_percent": 99.040062,
+  "variation_axis_count": 2,
+  "supported_character_count": 6,
   "major_lane": {
     "rank": 1,
-    "singular_value": 20.2019169342,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 20.2019169342,
-        "mass_percent": 87.319299
-      },
-      {
-        "rank": 2,
-        "singular_value": 5.204103626,
-        "mass_percent": 5.794513
-      },
-      {
-        "rank": 3,
-        "singular_value": 3.492634051,
-        "mass_percent": 2.609944
-      },
-      {
-        "rank": 4,
-        "singular_value": 3.0019926254,
-        "mass_percent": 1.928166
-      },
-      {
-        "rank": 5,
-        "singular_value": 2.6327799259,
-        "mass_percent": 1.483045
-      },
-      {
-        "rank": 6,
-        "singular_value": 2.0107302129,
-        "mass_percent": 0.865033
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 288.503638,
-      "normalized_entanglement": 0.751312,
-      "top5_mass_percent": 4.270609,
-      "top10_mass_percent": 7.836365
-    },
-    "character_participation": {
-      "effective_count": 3.878571,
-      "normalized_entanglement": 0.646428,
-      "top5_mass_percent": 98.483988,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.269108,
-      "semantic_spread": 2.696192,
-      "axis_concentration_percent": 70.828593,
-      "lane_count": 2.658115,
-      "direction_range": 0.737873,
-      "direction_spread": 0.82426,
-      "direction_axis_concentration_percent": 80.137448,
-      "direction_lane_count": 2.142477
-    },
-    "explained_sv_l2_percent": 87.319299,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 5.0992920301,
+    "mass_percent": 79.851844,
+    "descriptor_fit_percent": 95.68033,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "energetic / exuberant / cheerful / spirited / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0477935514,
-        "abs_amplitude": 0.0477935514,
-        "raw_amplitude": 0.0883954233,
-        "percent": 5.204434,
-        "raw_percent": 4.168893,
-        "coverage_percent": 5.204434,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "cheerful",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous"
-        ],
-        "support": 3,
-        "effective_support": 1.622037,
-        "support_factor": 0.540679,
-        "top_characters": [
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0662426249,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          },
+        "descriptor": "hostile",
+        "amplitude": 0.3468012512,
+        "abs_amplitude": 0.3468012512,
+        "percent": 30.884399,
+        "weighted_support": 2.6671487,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 14049,
             "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
             "anime": "Umineko: When They Cry",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
             "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.0206625072,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0014902912,
-            "similarity": 0.881148,
-            "matched_descriptor": "optimist"
+            "combined_favourites": 451
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "upbeat / cheery / optimistic / perky / +11",
-        "descriptor_index": 8253,
-        "amplitude": 0.043900687,
-        "abs_amplitude": 0.043900687,
-        "raw_amplitude": 0.0734227537,
-        "percent": 4.780525,
-        "raw_percent": 3.462754,
-        "coverage_percent": 9.984959,
-        "member_count": 15,
-        "members": [
-          "upbeat",
-          "cheery",
-          "optimistic",
-          "perky",
-          "sunny",
-          "encouraging",
-          "joyous",
-          "happy",
-          "smiling",
-          "gleeful",
-          "joyful",
-          "giddy",
-          "jocular",
-          "jovial",
-          "lighthearted"
-        ],
-        "support": 3,
-        "effective_support": 1.79375,
-        "support_factor": 0.597917,
-        "top_characters": [
+        "descriptor": "domineering",
+        "amplitude": 0.2924416426,
+        "abs_amplitude": 0.2924416426,
+        "percent": 26.043402,
+        "weighted_support": 2.6671487,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 14049,
             "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
             "anime": "Umineko: When They Cry",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
             "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.052186145,
-            "similarity": 0.97539,
-            "matched_descriptor": "cheerful"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0159328963,
-            "similarity": 0.92381,
-            "matched_descriptor": "optimist"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0053037122,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
+            "combined_favourites": 451
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "stubborn / strong-willed / strong-minded / tenacious / +10",
-        "descriptor_index": 7402,
-        "amplitude": 0.0403769351,
-        "abs_amplitude": 0.0403769351,
-        "raw_amplitude": 0.117862303,
-        "percent": 4.396809,
-        "raw_percent": 5.558606,
-        "coverage_percent": 14.381768,
-        "member_count": 14,
-        "members": [
-          "stubborn",
-          "strong-willed",
-          "strong-minded",
-          "tenacious",
-          "unyielding",
-          "refractory",
-          "headstrong",
-          "tough",
-          "resolute",
-          "persistent",
-          "unbending",
-          "inflexible",
-          "unshakable",
-          "persevering"
-        ],
-        "support": 3,
-        "effective_support": 1.027732,
-        "support_factor": 0.342577,
-        "top_characters": [
+        "descriptor": "stubborn",
+        "amplitude": 0.2731561966,
+        "abs_amplitude": 0.2731561966,
+        "percent": 24.325936,
+        "weighted_support": 2.51934665,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 1486,
             "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
             "anime": "Shuffle! Memories",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
             "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.1162508997,
-            "similarity": 1.0,
-            "matched_descriptor": "stubborn"
-          },
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.001552076,
-            "similarity": 0.871308,
-            "matched_descriptor": "hostile"
-          },
-          {
-            "character_id": 4934,
-            "name": "Miyo Takano",
-            "native_name": "鷹野三四",
-            "anime": "When They Cry Kai",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-            "site_url": "https://anilist.co/character/4934",
-            "anime_url": "https://myanimelist.net/anime/1889",
-            "role": "MAIN",
-            "favourites": 404,
-            "row_weight": 1.87134805,
-            "projection": 5.93274e-05,
-            "similarity": 0.853843,
-            "matched_descriptor": "hard worker"
+            "combined_favourites": 209
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.0364454216,
-        "abs_amplitude": 0.0364454216,
-        "raw_amplitude": 0.1058402848,
-        "percent": 3.96869,
-        "raw_percent": 4.991625,
-        "coverage_percent": 18.350458,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
-        "support": 3,
-        "effective_support": 1.033031,
-        "support_factor": 0.344344,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.1041206862,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0016921599,
-            "similarity": 0.885165,
-            "matched_descriptor": "tomboy"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 2.74387e-05,
-            "similarity": 0.867003,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "relaxed / laid-back / easygoing / composed / +11",
-        "descriptor_index": 6207,
-        "amplitude": 0.0328753333,
-        "abs_amplitude": 0.0328753333,
-        "raw_amplitude": 0.0637363159,
-        "percent": 3.579929,
-        "raw_percent": 3.005924,
-        "coverage_percent": 21.930387,
-        "member_count": 15,
-        "members": [
-          "relaxed",
-          "laid-back",
-          "easygoing",
-          "composed",
-          "nonchalant",
-          "mellow",
-          "restrained",
-          "amiable",
-          "care-free",
-          "carefree",
-          "agreeable",
-          "calmer",
-          "stoic",
-          "gentle",
-          "stiff"
-        ],
-        "support": 4,
-        "effective_support": 1.547407,
-        "support_factor": 0.515802,
-        "top_characters": [
-          {
-            "character_id": 4934,
-            "name": "Miyo Takano",
-            "native_name": "鷹野三四",
-            "anime": "When They Cry Kai",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-            "site_url": "https://anilist.co/character/4934",
-            "anime_url": "https://myanimelist.net/anime/1889",
-            "role": "MAIN",
-            "favourites": 404,
-            "row_weight": 1.87134805,
-            "projection": 0.0504026193,
-            "similarity": 1.0,
-            "matched_descriptor": "relaxed"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0083909486,
-            "similarity": 0.894787,
-            "matched_descriptor": "outgoing / tomboy"
-          },
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0035190438,
-            "similarity": 0.891494,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.0324560141,
-        "abs_amplitude": 0.0324560141,
-        "raw_amplitude": 0.0528597419,
-        "percent": 3.534267,
-        "raw_percent": 2.492964,
-        "coverage_percent": 25.464654,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 2,
-        "effective_support": 1.842008,
-        "support_factor": 0.614003,
-        "top_characters": [
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0341703448,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          },
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.0186893971,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "paranoid / over-protective / wary",
-        "descriptor_index": 5460,
-        "amplitude": 0.0250380855,
-        "abs_amplitude": 0.0250380855,
-        "raw_amplitude": 0.0271420252,
-        "percent": 2.726499,
-        "raw_percent": 1.280069,
-        "coverage_percent": 28.191154,
-        "member_count": 3,
-        "members": [
-          "paranoid",
-          "over-protective",
-          "wary"
-        ],
-        "support": 4,
-        "effective_support": 2.767452,
-        "support_factor": 0.922484,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0112729768,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0108666269,
-            "similarity": 0.897502,
-            "matched_descriptor": "distrustful"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0045654358,
-            "similarity": 0.856841,
-            "matched_descriptor": "secretive"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "chilling / soothing / calmest / calm / +10",
-        "descriptor_index": 1103,
-        "amplitude": 0.0226012578,
-        "abs_amplitude": 0.0226012578,
-        "raw_amplitude": 0.0665269647,
-        "percent": 2.461143,
-        "raw_percent": 3.137536,
-        "coverage_percent": 30.652296,
-        "member_count": 14,
-        "members": [
-          "chilling",
-          "soothing",
-          "calmest",
-          "calm",
-          "non-violent",
-          "low-energy",
-          "non-combative",
-          "easy-going",
-          "untroubled",
-          "non-hostile",
-          "serene",
-          "tranquil",
-          "mild-mannered",
-          "peaceful"
-        ],
-        "support": 2,
-        "effective_support": 1.019192,
-        "support_factor": 0.339731,
-        "top_characters": [
-          {
-            "character_id": 4934,
-            "name": "Miyo Takano",
-            "native_name": "鷹野三四",
-            "anime": "When They Cry Kai",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-            "site_url": "https://anilist.co/character/4934",
-            "anime_url": "https://myanimelist.net/anime/1889",
-            "role": "MAIN",
-            "favourites": 404,
-            "row_weight": 1.87134805,
-            "projection": 0.0658945706,
-            "similarity": 1.0,
-            "matched_descriptor": "chilling"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.000632394,
-            "similarity": 0.885002,
-            "matched_descriptor": "outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "sarcastic / sardonic / joking / teasing",
-        "descriptor_index": 6463,
-        "amplitude": 0.0216367008,
-        "abs_amplitude": 0.0216367008,
-        "raw_amplitude": 0.0366633435,
-        "percent": 2.356108,
-        "raw_percent": 1.729112,
-        "coverage_percent": 33.008405,
-        "member_count": 4,
-        "members": [
-          "sarcastic",
-          "sardonic",
-          "joking",
-          "teasing"
-        ],
-        "support": 2,
-        "effective_support": 1.770436,
-        "support_factor": 0.590145,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0249327347,
-            "similarity": 0.903513,
-            "matched_descriptor": "taunting"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0117306088,
-            "similarity": 0.905524,
-            "matched_descriptor": "funny"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "funny / comical / humorous / amusing / +3",
-        "descriptor_index": 2859,
-        "amplitude": 0.0210847035,
-        "abs_amplitude": 0.0210847035,
-        "raw_amplitude": 0.058154392,
-        "percent": 2.295999,
-        "raw_percent": 2.74267,
-        "coverage_percent": 35.304404,
-        "member_count": 7,
-        "members": [
-          "funny",
-          "comical",
-          "humorous",
-          "amusing",
-          "pun-loving",
-          "witty",
-          "amused"
-        ],
-        "support": 3,
-        "effective_support": 1.087693,
-        "support_factor": 0.362564,
-        "top_characters": [
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0557345907,
-            "similarity": 1.0,
-            "matched_descriptor": "funny"
-          },
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.001222421,
-            "similarity": 0.871859,
-            "matched_descriptor": "mischievous / cheerful"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0011973802,
-            "similarity": 0.819352,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "outgoing / social / extroverted / gregarious / +2",
-        "descriptor_index": 5383,
-        "amplitude": 0.019657959,
-        "abs_amplitude": 0.019657959,
-        "raw_amplitude": 0.0556326919,
-        "percent": 2.140635,
-        "raw_percent": 2.623742,
-        "coverage_percent": 37.445039,
-        "member_count": 6,
-        "members": [
-          "outgoing",
-          "social",
-          "extroverted",
-          "gregarious",
-          "sociable",
-          "affable"
-        ],
-        "support": 2,
-        "effective_support": 1.060058,
-        "support_factor": 0.353353,
-        "top_characters": [
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0540093806,
-            "similarity": 1.0,
-            "matched_descriptor": "outgoing"
-          },
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0016233113,
-            "similarity": 0.868446,
-            "matched_descriptor": "narcissist"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "cruel / brutal / merciless / harsh",
-        "descriptor_index": 1520,
-        "amplitude": 0.0187190631,
-        "abs_amplitude": 0.0187190631,
-        "raw_amplitude": 0.0561571893,
-        "percent": 2.038395,
-        "raw_percent": 2.648478,
-        "coverage_percent": 39.483434,
-        "member_count": 4,
-        "members": [
-          "cruel",
-          "brutal",
-          "merciless",
-          "harsh"
-        ],
+        "descriptor": "outgoing",
+        "amplitude": 0.2105020038,
+        "abs_amplitude": 0.2105020038,
+        "percent": 18.746264,
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0561571893,
-            "similarity": 1.0,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +7",
-        "descriptor_index": 4133,
-        "amplitude": 0.0181458694,
-        "abs_amplitude": 0.0181458694,
-        "raw_amplitude": 0.0544376082,
-        "percent": 1.975978,
-        "raw_percent": 2.567379,
-        "coverage_percent": 41.459412,
-        "member_count": 11,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0544376081,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "mocking / taunting / derisive",
-        "descriptor_index": 4882,
-        "amplitude": 0.0179681585,
-        "abs_amplitude": 0.0179681585,
-        "raw_amplitude": 0.0539044755,
-        "percent": 1.956626,
-        "raw_percent": 2.542236,
-        "coverage_percent": 43.416038,
-        "member_count": 3,
-        "members": [
-          "mocking",
-          "taunting",
-          "derisive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0539044755,
-            "similarity": 1.0,
-            "matched_descriptor": "mocking / taunting"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "manipulative",
-        "descriptor_index": 4586,
-        "amplitude": 0.0169098084,
-        "abs_amplitude": 0.0169098084,
-        "raw_amplitude": 0.0291227329,
-        "percent": 1.841378,
-        "raw_percent": 1.373482,
-        "coverage_percent": 45.257416,
-        "member_count": 1,
-        "members": [
-          "manipulative"
-        ],
-        "support": 2,
-        "effective_support": 1.741918,
-        "support_factor": 0.580639,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0201662516,
-            "similarity": 1.0,
-            "matched_descriptor": "manipulative"
-          },
-          {
-            "character_id": 4934,
-            "name": "Miyo Takano",
-            "native_name": "鷹野三四",
-            "anime": "When They Cry Kai",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-            "site_url": "https://anilist.co/character/4934",
-            "anime_url": "https://myanimelist.net/anime/1889",
-            "role": "MAIN",
-            "favourites": 404,
-            "row_weight": 1.87134805,
-            "projection": 0.0089564813,
-            "similarity": 1.0,
-            "matched_descriptor": "manipulative"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "distrustful / mistrustful / untrustworthy / cautious / +1",
-        "descriptor_index": 1887,
-        "amplitude": 0.0158118707,
-        "abs_amplitude": 0.0158118707,
-        "raw_amplitude": 0.0398437135,
-        "percent": 1.721819,
-        "raw_percent": 1.879104,
-        "coverage_percent": 46.979235,
-        "member_count": 5,
-        "members": [
-          "distrustful",
-          "mistrustful",
-          "untrustworthy",
-          "cautious",
-          "suspicious"
-        ],
-        "support": 2,
-        "effective_support": 1.190542,
-        "support_factor": 0.396847,
-        "top_characters": [
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0363487198,
-            "similarity": 1.0,
-            "matched_descriptor": "distrustful"
-          },
+        "supporting_characters": [
           {
             "character_id": 1486,
             "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
             "anime": "Shuffle! Memories",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
             "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0034949937,
-            "similarity": 0.858307,
-            "matched_descriptor": "secretive"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.013710333,
-        "abs_amplitude": 0.013710333,
-        "raw_amplitude": 0.013710333,
-        "percent": 1.492974,
-        "raw_percent": 0.646605,
-        "coverage_percent": 48.472209,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 4,
-        "effective_support": 3.609338,
-        "support_factor": 1.0,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0047834998,
-            "similarity": 0.874509,
-            "matched_descriptor": "manipulative"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0042810692,
-            "similarity": 0.88262,
-            "matched_descriptor": "secretive"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0025212578,
-            "similarity": 0.873586,
-            "matched_descriptor": "distrustful"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "goofy / clownish / frivolous",
-        "descriptor_index": 3110,
-        "amplitude": 0.0120426045,
-        "abs_amplitude": 0.0120426045,
-        "raw_amplitude": 0.0143021764,
-        "percent": 1.311368,
-        "raw_percent": 0.674517,
-        "coverage_percent": 49.783577,
-        "member_count": 3,
-        "members": [
-          "goofy",
-          "clownish",
-          "frivolous"
-        ],
-        "support": 3,
-        "effective_support": 2.526036,
-        "support_factor": 0.842012,
-        "top_characters": [
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.00744803,
-            "similarity": 0.884045,
-            "matched_descriptor": "funny / airhead"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0044307546,
-            "similarity": 0.883043,
-            "matched_descriptor": "mischievous"
-          },
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.0024233918,
-            "similarity": 0.883043,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "trash-talking / snide / insulting / irreverent",
-        "descriptor_index": 7972,
-        "amplitude": 0.0119535353,
-        "abs_amplitude": 0.0119535353,
-        "raw_amplitude": 0.0341042993,
-        "percent": 1.301669,
-        "raw_percent": 1.608422,
-        "coverage_percent": 51.085246,
-        "member_count": 4,
-        "members": [
-          "trash-talking",
-          "snide",
-          "insulting",
-          "irreverent"
-        ],
-        "support": 3,
-        "effective_support": 1.051498,
-        "support_factor": 0.350499,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0332531616,
-            "similarity": 0.929926,
-            "matched_descriptor": "taunting"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0004713056,
-            "similarity": 0.865524,
-            "matched_descriptor": "tomboy"
-          },
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.000379832,
-            "similarity": 0.867598,
-            "matched_descriptor": "hostile"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.011256502,
-        "abs_amplitude": 0.011256502,
-        "raw_amplitude": 0.0199843944,
-        "percent": 1.225766,
-        "raw_percent": 0.942501,
-        "coverage_percent": 52.311012,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 3,
-        "effective_support": 1.689794,
-        "support_factor": 0.563265,
-        "top_characters": [
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0149422951,
-            "similarity": 1.0,
-            "matched_descriptor": "secretive"
-          },
-          {
-            "character_id": 4934,
-            "name": "Miyo Takano",
-            "native_name": "鷹野三四",
-            "anime": "When They Cry Kai",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-            "site_url": "https://anilist.co/character/4934",
-            "anime_url": "https://myanimelist.net/anime/1889",
-            "role": "MAIN",
-            "favourites": 404,
-            "row_weight": 1.87134805,
-            "projection": 0.0029467485,
-            "similarity": 0.884028,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0020953507,
-            "similarity": 0.858307,
-            "matched_descriptor": "distrustful"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "domineering / oppressive / commanding / authoritative / +4",
-        "descriptor_index": 1920,
-        "amplitude": 0.0108676613,
-        "abs_amplitude": 0.0108676613,
-        "raw_amplitude": 0.0310840601,
-        "percent": 1.183424,
-        "raw_percent": 1.465982,
-        "coverage_percent": 53.494436,
-        "member_count": 8,
-        "members": [
-          "domineering",
-          "oppressive",
-          "commanding",
-          "authoritative",
-          "disciplined",
-          "leader-like",
-          "overbearing",
-          "dominant"
-        ],
-        "support": 2,
-        "effective_support": 1.048865,
-        "support_factor": 0.349622,
-        "top_characters": [
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.0303422788,
-            "similarity": 1.0,
-            "matched_descriptor": "domineering"
-          },
-          {
-            "character_id": 505,
-            "name": "Taiga Fujimura",
-            "native_name": "藤村大河",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-            "site_url": "https://anilist.co/character/505",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 258,
-            "row_weight": 1.81063912,
-            "projection": 0.0007417814,
-            "similarity": 0.85946,
-            "matched_descriptor": "immature"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "vicious / offensive / threatening / dangerous",
-        "descriptor_index": 8337,
-        "amplitude": 0.0093981415,
-        "abs_amplitude": 0.0093981415,
-        "raw_amplitude": 0.0157261966,
-        "percent": 1.023402,
-        "raw_percent": 0.741677,
-        "coverage_percent": 54.517838,
-        "member_count": 4,
-        "members": [
-          "vicious",
-          "offensive",
-          "threatening",
-          "dangerous"
-        ],
-        "support": 2,
-        "effective_support": 1.792832,
-        "support_factor": 0.597611,
-        "top_characters": [
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.0105360157,
-            "similarity": 0.922926,
-            "matched_descriptor": "hostile / sinister"
-          },
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0051901809,
-            "similarity": 0.874893,
-            "matched_descriptor": "cruel / taunting"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "resistant / rebellious / defiant",
-        "descriptor_index": 6256,
-        "amplitude": 0.0093365474,
-        "abs_amplitude": 0.0093365474,
-        "raw_amplitude": 0.0102499079,
-        "percent": 1.016695,
-        "raw_percent": 0.483405,
-        "coverage_percent": 55.534533,
-        "member_count": 3,
-        "members": [
-          "resistant",
-          "rebellious",
-          "defiant"
-        ],
-        "support": 4,
-        "effective_support": 2.732673,
-        "support_factor": 0.910891,
-        "top_characters": [
-          {
-            "character_id": 14049,
-            "name": "Eva Ushiromiya",
-            "native_name": "右代宮絵羽",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-            "site_url": "https://anilist.co/character/14049",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 406,
-            "row_weight": 2.64741632,
-            "projection": 0.0051509514,
-            "similarity": 0.891538,
-            "matched_descriptor": "hostile"
-          },
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.0030460136,
-            "similarity": 0.877446,
-            "matched_descriptor": "stubborn"
-          },
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0015404346,
-            "similarity": 0.853459,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.009146568,
-        "abs_amplitude": 0.009146568,
-        "raw_amplitude": 0.0166581874,
-        "percent": 0.996007,
-        "raw_percent": 0.785631,
-        "coverage_percent": 56.53054,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 2,
-        "effective_support": 1.64722,
-        "support_factor": 0.549073,
-        "top_characters": [
-          {
-            "character_id": 1486,
-            "name": "Asa Shigure",
-            "native_name": "時雨亜沙",
-            "anime": "Shuffle! Memories",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
-            "site_url": "https://anilist.co/character/1486",
-            "anime_url": "https://myanimelist.net/anime/1836",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 2.47823799,
-            "projection": 0.012183644,
-            "similarity": 0.909697,
-            "matched_descriptor": "secretive"
-          },
-          {
-            "character_id": 4934,
-            "name": "Miyo Takano",
-            "native_name": "鷹野三四",
-            "anime": "When They Cry Kai",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-            "site_url": "https://anilist.co/character/4934",
-            "anime_url": "https://myanimelist.net/anime/1889",
-            "role": "MAIN",
-            "favourites": 404,
-            "row_weight": 1.87134805,
-            "projection": 0.0044745434,
-            "similarity": 0.896958,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "narcissistic / egotistic / egotistical / self-centered / +1",
-        "descriptor_index": 5042,
-        "amplitude": 0.0090501227,
-        "abs_amplitude": 0.0090501227,
-        "raw_amplitude": 0.0271503682,
-        "percent": 0.985505,
-        "raw_percent": 1.280462,
-        "coverage_percent": 57.516044,
-        "member_count": 5,
-        "members": [
-          "narcissistic",
-          "egotistic",
-          "egotistical",
-          "self-centered",
-          "egoistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21257,
-            "name": "Eva-Beatrice",
-            "native_name": "エヴァ・ベアトリーチェ ",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-            "site_url": "https://anilist.co/character/21257",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 155,
-            "row_weight": 2.4596455,
-            "projection": 0.0271503683,
-            "similarity": 0.928846,
-            "matched_descriptor": "narcissist"
+            "combined_favourites": 209
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.0101178999,
-        "abs_amplitude": 0.0101178999,
-        "raw_amplitude": 0.0303536997,
-        "percent": 24.652464,
-        "raw_percent": 24.652464,
-        "coverage_percent": 24.652464,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
+        "step": 1,
+        "descriptor": "hostile",
+        "weighted_support": 2.6671487,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0303536995,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          }
-        ]
+        "fit_percent": 86.169461,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0085260018,
-        "abs_amplitude": 0.0085260018,
-        "raw_amplitude": 0.0255780055,
-        "percent": 20.773773,
-        "raw_percent": 20.773773,
-        "coverage_percent": 45.426237,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
+        "step": 2,
+        "descriptor": "domineering",
+        "weighted_support": 2.6671487,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0255780053,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          }
-        ]
+        "fit_percent": 92.150577,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "loud / loud-voiced / noisy / tough-talking",
-        "descriptor_index": 4401,
-        "amplitude": 0.0048917487,
-        "abs_amplitude": 0.0048917487,
-        "raw_amplitude": 0.014675246,
-        "percent": 11.918843,
-        "raw_percent": 11.918843,
-        "coverage_percent": 57.34508,
-        "member_count": 4,
-        "members": [
-          "loud",
-          "loud-voiced",
-          "noisy",
-          "tough-talking"
-        ],
+        "step": 3,
+        "descriptor": "stubborn",
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0146752461,
-            "similarity": 1.0,
-            "matched_descriptor": "loud"
-          }
-        ]
+        "fit_percent": 94.505111,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "vocal / outspoken",
-        "descriptor_index": 8396,
-        "amplitude": 0.0012416149,
-        "abs_amplitude": 0.0012416149,
-        "raw_amplitude": 0.0037248446,
-        "percent": 3.025219,
-        "raw_percent": 3.025219,
-        "coverage_percent": 60.370299,
-        "member_count": 2,
-        "members": [
-          "vocal",
-          "outspoken"
-        ],
+        "step": 4,
+        "descriptor": "outgoing",
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0037248446,
-            "similarity": 0.896227,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "modest / coy / self-effacing / reticent / +3",
-        "descriptor_index": 4896,
-        "amplitude": 0.0011685002,
-        "abs_amplitude": 0.0011685002,
-        "raw_amplitude": 0.0035055005,
-        "percent": 2.847074,
-        "raw_percent": 2.847074,
-        "coverage_percent": 63.217373,
-        "member_count": 7,
-        "members": [
-          "modest",
-          "coy",
-          "self-effacing",
-          "reticent",
-          "aloof",
-          "taciturn",
-          "non-arrogant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0035055006,
-            "similarity": 0.8786,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "straightforward / straight-forward",
-        "descriptor_index": 7284,
-        "amplitude": 0.0009974633,
-        "abs_amplitude": 0.0009974633,
-        "raw_amplitude": 0.0029923898,
-        "percent": 2.430339,
-        "raw_percent": 2.430339,
-        "coverage_percent": 65.647712,
-        "member_count": 2,
-        "members": [
-          "straightforward",
-          "straight-forward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0029923898,
-            "similarity": 0.898051,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "plain / simple",
-        "descriptor_index": 5633,
-        "amplitude": 0.000984962,
-        "abs_amplitude": 0.000984962,
-        "raw_amplitude": 0.0029548859,
-        "percent": 2.399879,
-        "raw_percent": 2.399879,
-        "coverage_percent": 68.047591,
-        "member_count": 2,
-        "members": [
-          "plain",
-          "simple"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0029548859,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "flatulent",
-        "descriptor_index": 2602,
-        "amplitude": 0.0007929967,
-        "abs_amplitude": 0.0007929967,
-        "raw_amplitude": 0.0023789902,
-        "percent": 1.932152,
-        "raw_percent": 1.932152,
-        "coverage_percent": 69.979744,
-        "member_count": 1,
-        "members": [
-          "flatulent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0023789902,
-            "similarity": 0.891084,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "delicate-voice / soft-spoken",
-        "descriptor_index": 1668,
-        "amplitude": 0.0007828725,
-        "abs_amplitude": 0.0007828725,
-        "raw_amplitude": 0.0023486176,
-        "percent": 1.907485,
-        "raw_percent": 1.907485,
-        "coverage_percent": 71.887228,
-        "member_count": 2,
-        "members": [
-          "delicate-voice",
-          "soft-spoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0023486176,
-            "similarity": 0.87806,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "whiney",
-        "descriptor_index": 8541,
-        "amplitude": 0.0007136217,
-        "abs_amplitude": 0.0007136217,
-        "raw_amplitude": 0.0021408652,
-        "percent": 1.738754,
-        "raw_percent": 1.738754,
-        "coverage_percent": 73.625982,
-        "member_count": 1,
-        "members": [
-          "whiney"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0021408652,
-            "similarity": 0.899097,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0006731306,
-        "abs_amplitude": 0.0006731306,
-        "raw_amplitude": 0.0020193918,
-        "percent": 1.640096,
-        "raw_percent": 1.640096,
-        "coverage_percent": 75.266078,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0020193918,
-            "similarity": 0.899785,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "silent / voiceless",
-        "descriptor_index": 6854,
-        "amplitude": 0.0005982439,
-        "abs_amplitude": 0.0005982439,
-        "raw_amplitude": 0.0017947318,
-        "percent": 1.457633,
-        "raw_percent": 1.457633,
-        "coverage_percent": 76.723711,
-        "member_count": 2,
-        "members": [
-          "silent",
-          "voiceless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0017947317,
-            "similarity": 0.851427,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "genuine / openhearted",
-        "descriptor_index": 2971,
-        "amplitude": 0.0005796979,
-        "abs_amplitude": 0.0005796979,
-        "raw_amplitude": 0.0017390938,
-        "percent": 1.412446,
-        "raw_percent": 1.412446,
-        "coverage_percent": 78.136157,
-        "member_count": 2,
-        "members": [
-          "genuine",
-          "openhearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0017390939,
-            "similarity": 0.885905,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cocky / vain",
-        "descriptor_index": 1214,
-        "amplitude": 0.0005505607,
-        "abs_amplitude": 0.0005505607,
-        "raw_amplitude": 0.0016516822,
-        "percent": 1.341452,
-        "raw_percent": 1.341452,
-        "coverage_percent": 79.477609,
-        "member_count": 2,
-        "members": [
-          "cocky",
-          "vain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0016516822,
-            "similarity": 0.892557,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "informal / casual",
-        "descriptor_index": 3871,
-        "amplitude": 0.0005452478,
-        "abs_amplitude": 0.0005452478,
-        "raw_amplitude": 0.0016357434,
-        "percent": 1.328507,
-        "raw_percent": 1.328507,
-        "coverage_percent": 80.806116,
-        "member_count": 2,
-        "members": [
-          "informal",
-          "casual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0016357434,
-            "similarity": 0.883141,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "sensible / careful / reasonable",
-        "descriptor_index": 6701,
-        "amplitude": 0.000468365,
-        "abs_amplitude": 0.000468365,
-        "raw_amplitude": 0.0014050949,
-        "percent": 1.141181,
-        "raw_percent": 1.141181,
-        "coverage_percent": 81.947297,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "careful",
-          "reasonable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0014050949,
-            "similarity": 0.873757,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "candid",
-        "descriptor_index": 922,
-        "amplitude": 0.000451112,
-        "abs_amplitude": 0.000451112,
-        "raw_amplitude": 0.001353336,
-        "percent": 1.099143,
-        "raw_percent": 1.099143,
-        "coverage_percent": 83.04644,
-        "member_count": 1,
-        "members": [
-          "candid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.001353336,
-            "similarity": 0.89222,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "uninhibited / composed",
-        "descriptor_index": 8148,
-        "amplitude": 0.0004477186,
-        "abs_amplitude": 0.0004477186,
-        "raw_amplitude": 0.0013431559,
-        "percent": 1.090875,
-        "raw_percent": 1.090875,
-        "coverage_percent": 84.137315,
-        "member_count": 2,
-        "members": [
-          "uninhibited",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0013431559,
-            "similarity": 0.893679,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "naive / simple-minded",
-        "descriptor_index": 5027,
-        "amplitude": 0.0004025592,
-        "abs_amplitude": 0.0004025592,
-        "raw_amplitude": 0.0012076776,
-        "percent": 0.980844,
-        "raw_percent": 0.980844,
-        "coverage_percent": 85.118159,
-        "member_count": 2,
-        "members": [
-          "naive",
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0012076776,
-            "similarity": 0.875924,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "loud enigmatic",
-        "descriptor_index": 4402,
-        "amplitude": 0.0004012022,
-        "abs_amplitude": 0.0004012022,
-        "raw_amplitude": 0.0012036066,
-        "percent": 0.977537,
-        "raw_percent": 0.977537,
-        "coverage_percent": 86.095696,
-        "member_count": 1,
-        "members": [
-          "loud enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0012036066,
-            "similarity": 0.854507,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "confident / convinced",
-        "descriptor_index": 1359,
-        "amplitude": 0.0003863021,
-        "abs_amplitude": 0.0003863021,
-        "raw_amplitude": 0.0011589064,
-        "percent": 0.941233,
-        "raw_percent": 0.941233,
-        "coverage_percent": 87.036929,
-        "member_count": 2,
-        "members": [
-          "confident",
-          "convinced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0011589064,
-            "similarity": 0.884851,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "sassy / conceited",
-        "descriptor_index": 6466,
-        "amplitude": 0.0003850739,
-        "abs_amplitude": 0.0003850739,
-        "raw_amplitude": 0.0011552216,
-        "percent": 0.93824,
-        "raw_percent": 0.93824,
-        "coverage_percent": 87.975169,
-        "member_count": 2,
-        "members": [
-          "sassy",
-          "conceited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0011552216,
-            "similarity": 0.886085,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "judgmental",
-        "descriptor_index": 4072,
-        "amplitude": 0.0003813505,
-        "abs_amplitude": 0.0003813505,
-        "raw_amplitude": 0.0011440514,
-        "percent": 0.929168,
-        "raw_percent": 0.929168,
-        "coverage_percent": 88.904337,
-        "member_count": 1,
-        "members": [
-          "judgmental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0011440514,
-            "similarity": 0.897498,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "brusque",
-        "descriptor_index": 848,
-        "amplitude": 0.0003310854,
-        "abs_amplitude": 0.0003310854,
-        "raw_amplitude": 0.0009932561,
-        "percent": 0.806696,
-        "raw_percent": 0.806696,
-        "coverage_percent": 89.711033,
-        "member_count": 1,
-        "members": [
-          "brusque"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0009932561,
-            "similarity": 0.883645,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "unsympathetic / icy / air-head",
-        "descriptor_index": 8231,
-        "amplitude": 0.0002987369,
-        "abs_amplitude": 0.0002987369,
-        "raw_amplitude": 0.0008962107,
-        "percent": 0.727878,
-        "raw_percent": 0.727878,
-        "coverage_percent": 90.438911,
-        "member_count": 3,
-        "members": [
-          "unsympathetic",
-          "icy",
-          "air-head"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 149796,
-            "name": "Jaguar Man",
-            "native_name": "ジャガーマン",
-            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-            "site_url": "https://anilist.co/character/149796",
-            "anime_url": "https://myanimelist.net/anime/38084",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0008962107,
-            "similarity": 0.889107,
-            "matched_descriptor": "arrogant"
-          }
-        ]
+        "fit_percent": 95.68033,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 21257,
-        "name": "Eva-Beatrice",
-        "native_name": "エヴァ・ベアトリーチェ ",
+        "character_id": 14049,
+        "name": "Eva Ushiromiya",
         "anime": "Umineko: When They Cry",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-        "site_url": "https://anilist.co/character/21257",
-        "anime_url": "https://myanimelist.net/anime/4896",
-        "role": "SUPPORTING",
-        "favourites": 155,
-        "row_weight": 2.4596455,
-        "amplitude": 0.5858367268,
-        "abs_amplitude": 0.5858367268,
-        "percent": 34.320467
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+        "site_url": "https://anilist.co/character/14049",
+        "favourites": 406,
+        "anilist_favourites": 406,
+        "bangumi_collects": 45,
+        "bangumi_comments": 26,
+        "bangumi_character_id": 928,
+        "bangumi_url": "https://bgm.tv/character/928",
+        "combined_favourites": 451,
+        "role_edge_count": 1,
+        "descriptors": [
+          "domineering",
+          "hostile"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.6671487,
+        "row_weight": 2.6671487,
+        "unweighted_row_norm": 1.79628373,
+        "amplitude": 0.4799042687,
+        "abs_amplitude": 0.4799042687,
+        "percent": 23.030811
       },
       {
         "character_id": 1486,
         "name": "Asa Shigure",
-        "native_name": "時雨亜沙",
         "anime": "Shuffle! Memories",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
         "site_url": "https://anilist.co/character/1486",
-        "anime_url": "https://myanimelist.net/anime/1836",
-        "role": "MAIN",
         "favourites": 170,
-        "row_weight": 2.47823799,
-        "amplitude": 0.5607279242,
-        "abs_amplitude": 0.5607279242,
-        "percent": 31.44158
-      },
-      {
-        "character_id": 505,
-        "name": "Taiga Fujimura",
-        "native_name": "藤村大河",
-        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-        "site_url": "https://anilist.co/character/505",
-        "anime_url": "https://myanimelist.net/anime/6922",
-        "role": "SUPPORTING",
-        "favourites": 258,
-        "row_weight": 1.81063912,
-        "amplitude": 0.4095779133,
-        "abs_amplitude": 0.4095779133,
-        "percent": 16.775407
-      },
-      {
-        "character_id": 14049,
-        "name": "Eva Ushiromiya",
-        "native_name": "右代宮絵羽",
-        "anime": "Umineko: When They Cry",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-        "site_url": "https://anilist.co/character/14049",
-        "anime_url": "https://myanimelist.net/anime/4896",
-        "role": "SUPPORTING",
-        "favourites": 406,
-        "row_weight": 2.64741632,
-        "amplitude": 0.2942793309,
-        "abs_amplitude": 0.2942793309,
-        "percent": 8.660032
-      },
-      {
-        "character_id": 4934,
-        "name": "Miyo Takano",
-        "native_name": "鷹野三四",
-        "anime": "When They Cry Kai",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
-        "site_url": "https://anilist.co/character/4934",
-        "anime_url": "https://myanimelist.net/anime/1889",
-        "role": "MAIN",
-        "favourites": 404,
-        "row_weight": 1.87134805,
-        "amplitude": 0.2699352044,
-        "abs_amplitude": 0.2699352044,
-        "percent": 7.286501
+        "anilist_favourites": 170,
+        "bangumi_collects": 39,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 1747,
+        "bangumi_url": "https://bgm.tv/character/1747",
+        "combined_favourites": 209,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mischievous",
+          "outgoing",
+          "stubborn"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.51934665,
+        "row_weight": 2.51934665,
+        "unweighted_row_norm": 2.61977382,
+        "amplitude": 0.4596863707,
+        "abs_amplitude": 0.4596863707,
+        "percent": 21.131156
       },
       {
         "character_id": 149796,
         "name": "Jaguar Man",
-        "native_name": "ジャガーマン",
         "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
         "site_url": "https://anilist.co/character/149796",
-        "anime_url": "https://myanimelist.net/anime/38084",
-        "role": "SUPPORTING",
         "favourites": 123,
-        "row_weight": 2.41252597,
-        "amplitude": -0.1231264328,
-        "abs_amplitude": 0.1231264328,
-        "percent": 1.516012
+        "anilist_favourites": 123,
+        "bangumi_collects": 6,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 72082,
+        "bangumi_url": "https://bgm.tv/character/72082",
+        "combined_favourites": 129,
+        "role_edge_count": 1,
+        "descriptors": [
+          "aggressive",
+          "blunt"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42229941,
+        "row_weight": 2.42229941,
+        "unweighted_row_norm": 1.84179721,
+        "amplitude": 0.4328562825,
+        "abs_amplitude": 0.4328562825,
+        "percent": 18.736456
+      },
+      {
+        "character_id": 21257,
+        "name": "Eva-Beatrice",
+        "anime": "Umineko: When They Cry",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+        "site_url": "https://anilist.co/character/21257",
+        "favourites": 155,
+        "anilist_favourites": 155,
+        "bangumi_collects": 33,
+        "bangumi_comments": 5,
+        "bangumi_character_id": 9636,
+        "bangumi_url": "https://bgm.tv/character/9636",
+        "combined_favourites": 188,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cruel",
+          "mocking"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49834886,
+        "row_weight": 2.49834886,
+        "unweighted_row_norm": 1.80902855,
+        "amplitude": 0.4304946103,
+        "abs_amplitude": 0.4304946103,
+        "percent": 18.532561
+      },
+      {
+        "character_id": 4934,
+        "name": "Miyo Takano",
+        "anime": "When They Cry Kai",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
+        "site_url": "https://anilist.co/character/4934",
+        "favourites": 404,
+        "anilist_favourites": 404,
+        "bangumi_collects": 85,
+        "bangumi_comments": 65,
+        "bangumi_character_id": 3193,
+        "bangumi_url": "https://bgm.tv/character/3193",
+        "combined_favourites": 489,
+        "role_edge_count": 2,
+        "descriptors": [
+          "mysterious",
+          "refined"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.68223888,
+        "row_weight": 1.8966293,
+        "unweighted_row_norm": 1.77917578,
+        "amplitude": 0.3177091799,
+        "abs_amplitude": 0.3177091799,
+        "percent": 10.093912
+      },
+      {
+        "character_id": 505,
+        "name": "Taiga Fujimura",
+        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+        "site_url": "https://anilist.co/character/505",
+        "favourites": 258,
+        "anilist_favourites": 258,
+        "bangumi_collects": 69,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 15075,
+        "bangumi_url": "https://bgm.tv/character/15075",
+        "combined_favourites": 327,
+        "role_edge_count": 2,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.60634104,
+        "row_weight": 1.84296142,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.2911203182,
+        "abs_amplitude": 0.2911203182,
+        "percent": 8.475104
       }
     ],
     "positive_characters": [
       {
-        "character_id": 21257,
-        "name": "Eva-Beatrice",
-        "native_name": "エヴァ・ベアトリーチェ ",
+        "character_id": 14049,
+        "name": "Eva Ushiromiya",
         "anime": "Umineko: When They Cry",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
-        "site_url": "https://anilist.co/character/21257",
-        "anime_url": "https://myanimelist.net/anime/4896",
-        "role": "SUPPORTING",
-        "favourites": 155,
-        "row_weight": 2.4596455,
-        "amplitude": 0.5858367268,
-        "abs_amplitude": 0.5858367268,
-        "percent": 34.320467
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+        "site_url": "https://anilist.co/character/14049",
+        "favourites": 406,
+        "anilist_favourites": 406,
+        "bangumi_collects": 45,
+        "bangumi_comments": 26,
+        "bangumi_character_id": 928,
+        "bangumi_url": "https://bgm.tv/character/928",
+        "combined_favourites": 451,
+        "role_edge_count": 1,
+        "descriptors": [
+          "domineering",
+          "hostile"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.6671487,
+        "row_weight": 2.6671487,
+        "unweighted_row_norm": 1.79628373,
+        "amplitude": 0.4799042687,
+        "abs_amplitude": 0.4799042687,
+        "percent": 23.030811
       },
       {
         "character_id": 1486,
         "name": "Asa Shigure",
-        "native_name": "時雨亜沙",
         "anime": "Shuffle! Memories",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
         "site_url": "https://anilist.co/character/1486",
-        "anime_url": "https://myanimelist.net/anime/1836",
-        "role": "MAIN",
         "favourites": 170,
-        "row_weight": 2.47823799,
-        "amplitude": 0.5607279242,
-        "abs_amplitude": 0.5607279242,
-        "percent": 31.44158
+        "anilist_favourites": 170,
+        "bangumi_collects": 39,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 1747,
+        "bangumi_url": "https://bgm.tv/character/1747",
+        "combined_favourites": 209,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mischievous",
+          "outgoing",
+          "stubborn"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.51934665,
+        "row_weight": 2.51934665,
+        "unweighted_row_norm": 2.61977382,
+        "amplitude": 0.4596863707,
+        "abs_amplitude": 0.4596863707,
+        "percent": 21.131156
       },
       {
-        "character_id": 505,
-        "name": "Taiga Fujimura",
-        "native_name": "藤村大河",
-        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
-        "site_url": "https://anilist.co/character/505",
-        "anime_url": "https://myanimelist.net/anime/6922",
-        "role": "SUPPORTING",
-        "favourites": 258,
-        "row_weight": 1.81063912,
-        "amplitude": 0.4095779133,
-        "abs_amplitude": 0.4095779133,
-        "percent": 16.775407
+        "character_id": 149796,
+        "name": "Jaguar Man",
+        "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
+        "site_url": "https://anilist.co/character/149796",
+        "favourites": 123,
+        "anilist_favourites": 123,
+        "bangumi_collects": 6,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 72082,
+        "bangumi_url": "https://bgm.tv/character/72082",
+        "combined_favourites": 129,
+        "role_edge_count": 1,
+        "descriptors": [
+          "aggressive",
+          "blunt"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42229941,
+        "row_weight": 2.42229941,
+        "unweighted_row_norm": 1.84179721,
+        "amplitude": 0.4328562825,
+        "abs_amplitude": 0.4328562825,
+        "percent": 18.736456
       },
       {
-        "character_id": 14049,
-        "name": "Eva Ushiromiya",
-        "native_name": "右代宮絵羽",
+        "character_id": 21257,
+        "name": "Eva-Beatrice",
         "anime": "Umineko: When They Cry",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
-        "site_url": "https://anilist.co/character/14049",
-        "anime_url": "https://myanimelist.net/anime/4896",
-        "role": "SUPPORTING",
-        "favourites": 406,
-        "row_weight": 2.64741632,
-        "amplitude": 0.2942793309,
-        "abs_amplitude": 0.2942793309,
-        "percent": 8.660032
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+        "site_url": "https://anilist.co/character/21257",
+        "favourites": 155,
+        "anilist_favourites": 155,
+        "bangumi_collects": 33,
+        "bangumi_comments": 5,
+        "bangumi_character_id": 9636,
+        "bangumi_url": "https://bgm.tv/character/9636",
+        "combined_favourites": 188,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cruel",
+          "mocking"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49834886,
+        "row_weight": 2.49834886,
+        "unweighted_row_norm": 1.80902855,
+        "amplitude": 0.4304946103,
+        "abs_amplitude": 0.4304946103,
+        "percent": 18.532561
       },
       {
         "character_id": 4934,
         "name": "Miyo Takano",
-        "native_name": "鷹野三四",
         "anime": "When They Cry Kai",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
         "site_url": "https://anilist.co/character/4934",
-        "anime_url": "https://myanimelist.net/anime/1889",
-        "role": "MAIN",
         "favourites": 404,
-        "row_weight": 1.87134805,
-        "amplitude": 0.2699352044,
-        "abs_amplitude": 0.2699352044,
-        "percent": 7.286501
+        "anilist_favourites": 404,
+        "bangumi_collects": 85,
+        "bangumi_comments": 65,
+        "bangumi_character_id": 3193,
+        "bangumi_url": "https://bgm.tv/character/3193",
+        "combined_favourites": 489,
+        "role_edge_count": 2,
+        "descriptors": [
+          "mysterious",
+          "refined"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.68223888,
+        "row_weight": 1.8966293,
+        "unweighted_row_norm": 1.77917578,
+        "amplitude": 0.3177091799,
+        "abs_amplitude": 0.3177091799,
+        "percent": 10.093912
+      },
+      {
+        "character_id": 505,
+        "name": "Taiga Fujimura",
+        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+        "site_url": "https://anilist.co/character/505",
+        "favourites": 258,
+        "anilist_favourites": 258,
+        "bangumi_collects": 69,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 15075,
+        "bangumi_url": "https://bgm.tv/character/15075",
+        "combined_favourites": 327,
+        "role_edge_count": 2,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.60634104,
+        "row_weight": 1.84296142,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.2911203182,
+        "abs_amplitude": 0.2911203182,
+        "percent": 8.475104
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 149796,
-        "name": "Jaguar Man",
-        "native_name": "ジャガーマン",
-        "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
-        "site_url": "https://anilist.co/character/149796",
-        "anime_url": "https://myanimelist.net/anime/38084",
-        "role": "SUPPORTING",
-        "favourites": 123,
-        "row_weight": 2.41252597,
-        "amplitude": -0.1231264328,
-        "abs_amplitude": 0.1231264328,
-        "percent": 1.516012
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 5.419558,
+      "top5_mass_percent": 91.524896,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "outgoing / aggressive / hostile / +9",
+          "support": 6,
+          "variance": 0.2440135823,
+          "seed_descriptor": "outgoing",
+          "components": [
+            {
+              "descriptor": "outgoing",
+              "weight": 0.20177291,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "aggressive",
+              "weight": 0.08945307,
+              "similarity_to_seed": 0.66583434,
+              "support": 1
+            },
+            {
+              "descriptor": "hostile",
+              "weight": 0.08843645,
+              "similarity_to_seed": 0.66203999,
+              "support": 1
+            },
+            {
+              "descriptor": "mysterious",
+              "weight": 0.08267944,
+              "similarity_to_seed": 0.64012876,
+              "support": 1
+            },
+            {
+              "descriptor": "mischievous",
+              "weight": 0.07862407,
+              "similarity_to_seed": 0.62423244,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.0754361,
+              "similarity_to_seed": 0.6114461,
+              "support": 1
+            },
+            {
+              "descriptor": "stubborn",
+              "weight": 0.07284189,
+              "similarity_to_seed": 0.60084046,
+              "support": 1
+            },
+            {
+              "descriptor": "refined",
+              "weight": 0.07269842,
+              "similarity_to_seed": 0.60024847,
+              "support": 1
+            },
+            {
+              "descriptor": "blunt",
+              "weight": 0.06779804,
+              "similarity_to_seed": 0.57966507,
+              "support": 1
+            },
+            {
+              "descriptor": "domineering",
+              "weight": 0.06448454,
+              "similarity_to_seed": 0.56532263,
+              "support": 1
+            },
+            {
+              "descriptor": "mocking",
+              "weight": 0.05393217,
+              "similarity_to_seed": 0.51700236,
+              "support": 1
+            },
+            {
+              "descriptor": "cruel",
+              "weight": 0.05184289,
+              "similarity_to_seed": 0.50688936,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.2440135823,
+          "minimum_y_projection_variance": 0.0610033956,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 12,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0244013582,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0610033956,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1220067912,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 14049,
+            "name": "Eva Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+            "site_url": "https://anilist.co/character/14049",
+            "favourites": 406,
+            "anilist_favourites": 406,
+            "bangumi_collects": 45,
+            "bangumi_comments": 26,
+            "bangumi_character_id": 928,
+            "bangumi_url": "https://bgm.tv/character/928",
+            "combined_favourites": 451,
+            "role_edge_count": 1,
+            "descriptors": [
+              "domineering",
+              "hostile"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.6671487,
+            "row_weight": 2.6671487,
+            "unweighted_row_norm": 1.79628373,
+            "x_raw_score": 1.607201177,
+            "x_score": 0.0018414332,
+            "amplitude": 0.0018414332,
+            "x_direct": true
+          },
+          {
+            "character_id": 4934,
+            "name": "Miyo Takano",
+            "anime": "When They Cry Kai",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
+            "site_url": "https://anilist.co/character/4934",
+            "favourites": 404,
+            "anilist_favourites": 404,
+            "bangumi_collects": 85,
+            "bangumi_comments": 65,
+            "bangumi_character_id": 3193,
+            "bangumi_url": "https://bgm.tv/character/3193",
+            "combined_favourites": 489,
+            "role_edge_count": 2,
+            "descriptors": [
+              "mysterious",
+              "refined"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68223888,
+            "row_weight": 1.8966293,
+            "unweighted_row_norm": 1.77917578,
+            "x_raw_score": 1.556685877,
+            "x_score": -0.0486738668,
+            "amplitude": -0.0486738668,
+            "x_direct": true
+          },
+          {
+            "character_id": 505,
+            "name": "Taiga Fujimura",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+            "site_url": "https://anilist.co/character/505",
+            "favourites": 258,
+            "anilist_favourites": 258,
+            "bangumi_collects": 69,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 15075,
+            "bangumi_url": "https://bgm.tv/character/15075",
+            "combined_favourites": 327,
+            "role_edge_count": 2,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.60634104,
+            "row_weight": 1.84296142,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.8025445676,
+            "x_score": -0.8028151761,
+            "amplitude": -0.8028151761,
+            "x_direct": true
+          },
+          {
+            "character_id": 1486,
+            "name": "Asa Shigure",
+            "anime": "Shuffle! Memories",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
+            "site_url": "https://anilist.co/character/1486",
+            "favourites": 170,
+            "anilist_favourites": 170,
+            "bangumi_collects": 39,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 1747,
+            "bangumi_url": "https://bgm.tv/character/1747",
+            "combined_favourites": 209,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mischievous",
+              "outgoing",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.51934665,
+            "row_weight": 2.51934665,
+            "unweighted_row_norm": 2.61977382,
+            "x_raw_score": 2.5025602903,
+            "x_score": 0.8972005465,
+            "amplitude": 0.8972005465,
+            "x_direct": true
+          },
+          {
+            "character_id": 21257,
+            "name": "Eva-Beatrice",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+            "site_url": "https://anilist.co/character/21257",
+            "favourites": 155,
+            "anilist_favourites": 155,
+            "bangumi_collects": 33,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 9636,
+            "bangumi_url": "https://bgm.tv/character/9636",
+            "combined_favourites": 188,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cruel",
+              "mocking"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.49834886,
+            "row_weight": 2.49834886,
+            "unweighted_row_norm": 1.80902855,
+            "x_raw_score": 1.5070940511,
+            "x_score": -0.0982656927,
+            "amplitude": -0.0982656927,
+            "x_direct": true
+          },
+          {
+            "character_id": 149796,
+            "name": "Jaguar Man",
+            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
+            "site_url": "https://anilist.co/character/149796",
+            "favourites": 123,
+            "anilist_favourites": 123,
+            "bangumi_collects": 6,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 72082,
+            "bangumi_url": "https://bgm.tv/character/72082",
+            "combined_favourites": 129,
+            "role_edge_count": 1,
+            "descriptors": [
+              "aggressive",
+              "blunt"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.42229941,
+            "row_weight": 2.42229941,
+            "unweighted_row_norm": 1.84179721,
+            "x_raw_score": 1.6560724995,
+            "x_score": 0.0507127558,
+            "amplitude": 0.0507127558,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.6053597437
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "stubborn / unwilling / reluctant / +9",
+          "support": 2,
+          "variance": 0.2523274772,
+          "seed_descriptor": "stubborn",
+          "components": [
+            {
+              "descriptor": "stubborn",
+              "weight": 0.13813902,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "unwilling",
+              "weight": 0.08702289,
+              "similarity_to_seed": 0.79370397,
+              "support": 0
+            },
+            {
+              "descriptor": "reluctant",
+              "weight": 0.08645747,
+              "similarity_to_seed": 0.7911213,
+              "support": 0
+            },
+            {
+              "descriptor": "defiant",
+              "weight": 0.08041762,
+              "similarity_to_seed": 0.76298751,
+              "support": 0
+            },
+            {
+              "descriptor": "assertive",
+              "weight": 0.07840035,
+              "similarity_to_seed": 0.75335695,
+              "support": 0
+            },
+            {
+              "descriptor": "strong-willed",
+              "weight": 0.07801317,
+              "similarity_to_seed": 0.75149445,
+              "support": 0
+            },
+            {
+              "descriptor": "aggressive",
+              "weight": 0.07748021,
+              "similarity_to_seed": 0.74892305,
+              "support": 1
+            },
+            {
+              "descriptor": "forceful",
+              "weight": 0.0754797,
+              "similarity_to_seed": 0.7391914,
+              "support": 0
+            },
+            {
+              "descriptor": "confrontational",
+              "weight": 0.07506292,
+              "similarity_to_seed": 0.73714773,
+              "support": 0
+            },
+            {
+              "descriptor": "antagonistic",
+              "weight": 0.07457597,
+              "similarity_to_seed": 0.73475284,
+              "support": 0
+            },
+            {
+              "descriptor": "self-willed",
+              "weight": 0.07455929,
+              "similarity_to_seed": 0.73467066,
+              "support": 0
+            },
+            {
+              "descriptor": "spiteful",
+              "weight": 0.07439139,
+              "similarity_to_seed": 0.73384298,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.2523274772,
+          "minimum_y_projection_variance": 0.0630818693,
+          "best_rejected_correlation": 0.9795547497,
+          "best_rejected_lane_cosine": 0.8448315976,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9788738128,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0252327477,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0630818693,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1261637386,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "spontaneous / erratic / quirky / +9",
+            "variance": 0.2200088932,
+            "correlation": 0.9845453008,
+            "abs_correlation": 0.9845453008,
+            "lane_cosine": 0.8381180024,
+            "orthogonality_score": 0.297558214,
+            "objective": 0.0654654533,
+            "components": [
+              {
+                "descriptor": "spontaneous",
+                "weight": 0.15001764,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "erratic",
+                "weight": 0.08522469,
+                "similarity_to_seed": 0.75372261,
+                "support": 0
+              },
+              {
+                "descriptor": "quirky",
+                "weight": 0.08246899,
+                "similarity_to_seed": 0.74143689,
+                "support": 0
+              },
+              {
+                "descriptor": "chaotic",
+                "weight": 0.07986017,
+                "similarity_to_seed": 0.72961536,
+                "support": 0
+              },
+              {
+                "descriptor": "peculiar",
+                "weight": 0.07912743,
+                "similarity_to_seed": 0.72626041,
+                "support": 0
+              },
+              {
+                "descriptor": "mischievous",
+                "weight": 0.07620676,
+                "similarity_to_seed": 0.7127309,
+                "support": 1
+              },
+              {
+                "descriptor": "foolish",
+                "weight": 0.07611018,
+                "similarity_to_seed": 0.7122791,
+                "support": 0
+              },
+              {
+                "descriptor": "unstable",
+                "weight": 0.07558447,
+                "similarity_to_seed": 0.70981493,
+                "support": 0
+              },
+              {
+                "descriptor": "ominous",
+                "weight": 0.07495602,
+                "similarity_to_seed": 0.70685788,
+                "support": 0
+              },
+              {
+                "descriptor": "disruptive",
+                "weight": 0.07434217,
+                "similarity_to_seed": 0.70395751,
+                "support": 0
+              },
+              {
+                "descriptor": "bizarre",
+                "weight": 0.07325217,
+                "similarity_to_seed": 0.69877778,
+                "support": 0
+              },
+              {
+                "descriptor": "outgoing",
+                "weight": 0.07284932,
+                "similarity_to_seed": 0.69685367,
+                "support": 1
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 14049,
+            "name": "Eva Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+            "site_url": "https://anilist.co/character/14049",
+            "favourites": 406,
+            "anilist_favourites": 406,
+            "bangumi_collects": 45,
+            "bangumi_comments": 26,
+            "bangumi_character_id": 928,
+            "bangumi_url": "https://bgm.tv/character/928",
+            "combined_favourites": 451,
+            "role_edge_count": 1,
+            "descriptors": [
+              "domineering",
+              "hostile"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.6671487,
+            "row_weight": 2.6671487,
+            "unweighted_row_norm": 1.79628373,
+            "x_raw_score": 1.522326846,
+            "x_score": 0.0269336609,
+            "amplitude": 0.0269336609,
+            "x_direct": false
+          },
+          {
+            "character_id": 4934,
+            "name": "Miyo Takano",
+            "anime": "When They Cry Kai",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
+            "site_url": "https://anilist.co/character/4934",
+            "favourites": 404,
+            "anilist_favourites": 404,
+            "bangumi_collects": 85,
+            "bangumi_comments": 65,
+            "bangumi_character_id": 3193,
+            "bangumi_url": "https://bgm.tv/character/3193",
+            "combined_favourites": 489,
+            "role_edge_count": 2,
+            "descriptors": [
+              "mysterious",
+              "refined"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68223888,
+            "row_weight": 1.8966293,
+            "unweighted_row_norm": 1.77917578,
+            "x_raw_score": 1.3291538775,
+            "x_score": -0.1662393075,
+            "amplitude": -0.1662393075,
+            "x_direct": false
+          },
+          {
+            "character_id": 505,
+            "name": "Taiga Fujimura",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+            "site_url": "https://anilist.co/character/505",
+            "favourites": 258,
+            "anilist_favourites": 258,
+            "bangumi_collects": 69,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 15075,
+            "bangumi_url": "https://bgm.tv/character/15075",
+            "combined_favourites": 327,
+            "role_edge_count": 2,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.60634104,
+            "row_weight": 1.84296142,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.6991461908,
+            "x_score": -0.7962469942,
+            "amplitude": -0.7962469942,
+            "x_direct": false
+          },
+          {
+            "character_id": 1486,
+            "name": "Asa Shigure",
+            "anime": "Shuffle! Memories",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
+            "site_url": "https://anilist.co/character/1486",
+            "favourites": 170,
+            "anilist_favourites": 170,
+            "bangumi_collects": 39,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 1747,
+            "bangumi_url": "https://bgm.tv/character/1747",
+            "combined_favourites": 209,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mischievous",
+              "outgoing",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.51934665,
+            "row_weight": 2.51934665,
+            "unweighted_row_norm": 2.61977382,
+            "x_raw_score": 2.413906237,
+            "x_score": 0.9185130519,
+            "amplitude": 0.9185130519,
+            "x_direct": true
+          },
+          {
+            "character_id": 21257,
+            "name": "Eva-Beatrice",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+            "site_url": "https://anilist.co/character/21257",
+            "favourites": 155,
+            "anilist_favourites": 155,
+            "bangumi_collects": 33,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 9636,
+            "bangumi_url": "https://bgm.tv/character/9636",
+            "combined_favourites": 188,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cruel",
+              "mocking"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.49834886,
+            "row_weight": 2.49834886,
+            "unweighted_row_norm": 1.80902855,
+            "x_raw_score": 1.4415300579,
+            "x_score": -0.0538631272,
+            "amplitude": -0.0538631272,
+            "x_direct": false
+          },
+          {
+            "character_id": 149796,
+            "name": "Jaguar Man",
+            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
+            "site_url": "https://anilist.co/character/149796",
+            "favourites": 123,
+            "anilist_favourites": 123,
+            "bangumi_collects": 6,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 72082,
+            "bangumi_url": "https://bgm.tv/character/72082",
+            "combined_favourites": 129,
+            "role_edge_count": 1,
+            "descriptors": [
+              "aggressive",
+              "blunt"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.42229941,
+            "row_weight": 2.42229941,
+            "unweighted_row_norm": 1.84179721,
+            "x_raw_score": 1.5662959012,
+            "x_score": 0.0709027161,
+            "amplitude": 0.0709027161,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.4953931851
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
       }
-    ]
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "outgoing / aggressive / hostile / +9",
+        "support": 6,
+        "variance": 0.2440135823,
+        "seed_descriptor": "outgoing",
+        "components": [
+          {
+            "descriptor": "outgoing",
+            "weight": 0.20177291,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "aggressive",
+            "weight": 0.08945307,
+            "similarity_to_seed": 0.66583434,
+            "support": 1
+          },
+          {
+            "descriptor": "hostile",
+            "weight": 0.08843645,
+            "similarity_to_seed": 0.66203999,
+            "support": 1
+          },
+          {
+            "descriptor": "mysterious",
+            "weight": 0.08267944,
+            "similarity_to_seed": 0.64012876,
+            "support": 1
+          },
+          {
+            "descriptor": "mischievous",
+            "weight": 0.07862407,
+            "similarity_to_seed": 0.62423244,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.0754361,
+            "similarity_to_seed": 0.6114461,
+            "support": 1
+          },
+          {
+            "descriptor": "stubborn",
+            "weight": 0.07284189,
+            "similarity_to_seed": 0.60084046,
+            "support": 1
+          },
+          {
+            "descriptor": "refined",
+            "weight": 0.07269842,
+            "similarity_to_seed": 0.60024847,
+            "support": 1
+          },
+          {
+            "descriptor": "blunt",
+            "weight": 0.06779804,
+            "similarity_to_seed": 0.57966507,
+            "support": 1
+          },
+          {
+            "descriptor": "domineering",
+            "weight": 0.06448454,
+            "similarity_to_seed": 0.56532263,
+            "support": 1
+          },
+          {
+            "descriptor": "mocking",
+            "weight": 0.05393217,
+            "similarity_to_seed": 0.51700236,
+            "support": 1
+          },
+          {
+            "descriptor": "cruel",
+            "weight": 0.05184289,
+            "similarity_to_seed": 0.50688936,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.2440135823,
+        "minimum_y_projection_variance": 0.0610033956,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 12,
+        "x_component_count": 12,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0244013582,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0610033956,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1220067912,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 14049,
+          "name": "Eva Ushiromiya",
+          "anime": "Umineko: When They Cry",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+          "site_url": "https://anilist.co/character/14049",
+          "favourites": 406,
+          "anilist_favourites": 406,
+          "bangumi_collects": 45,
+          "bangumi_comments": 26,
+          "bangumi_character_id": 928,
+          "bangumi_url": "https://bgm.tv/character/928",
+          "combined_favourites": 451,
+          "role_edge_count": 1,
+          "descriptors": [
+            "domineering",
+            "hostile"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.6671487,
+          "row_weight": 2.6671487,
+          "unweighted_row_norm": 1.79628373,
+          "x_raw_score": 1.607201177,
+          "x_score": 0.0018414332,
+          "amplitude": 0.0018414332,
+          "x_direct": true
+        },
+        {
+          "character_id": 4934,
+          "name": "Miyo Takano",
+          "anime": "When They Cry Kai",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
+          "site_url": "https://anilist.co/character/4934",
+          "favourites": 404,
+          "anilist_favourites": 404,
+          "bangumi_collects": 85,
+          "bangumi_comments": 65,
+          "bangumi_character_id": 3193,
+          "bangumi_url": "https://bgm.tv/character/3193",
+          "combined_favourites": 489,
+          "role_edge_count": 2,
+          "descriptors": [
+            "mysterious",
+            "refined"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.68223888,
+          "row_weight": 1.8966293,
+          "unweighted_row_norm": 1.77917578,
+          "x_raw_score": 1.556685877,
+          "x_score": -0.0486738668,
+          "amplitude": -0.0486738668,
+          "x_direct": true
+        },
+        {
+          "character_id": 505,
+          "name": "Taiga Fujimura",
+          "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+          "site_url": "https://anilist.co/character/505",
+          "favourites": 258,
+          "anilist_favourites": 258,
+          "bangumi_collects": 69,
+          "bangumi_comments": 24,
+          "bangumi_character_id": 15075,
+          "bangumi_url": "https://bgm.tv/character/15075",
+          "combined_favourites": 327,
+          "role_edge_count": 2,
+          "descriptors": [
+            "kind"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.60634104,
+          "row_weight": 1.84296142,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.8025445676,
+          "x_score": -0.8028151761,
+          "amplitude": -0.8028151761,
+          "x_direct": true
+        },
+        {
+          "character_id": 1486,
+          "name": "Asa Shigure",
+          "anime": "Shuffle! Memories",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
+          "site_url": "https://anilist.co/character/1486",
+          "favourites": 170,
+          "anilist_favourites": 170,
+          "bangumi_collects": 39,
+          "bangumi_comments": 9,
+          "bangumi_character_id": 1747,
+          "bangumi_url": "https://bgm.tv/character/1747",
+          "combined_favourites": 209,
+          "role_edge_count": 1,
+          "descriptors": [
+            "mischievous",
+            "outgoing",
+            "stubborn"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.51934665,
+          "row_weight": 2.51934665,
+          "unweighted_row_norm": 2.61977382,
+          "x_raw_score": 2.5025602903,
+          "x_score": 0.8972005465,
+          "amplitude": 0.8972005465,
+          "x_direct": true
+        },
+        {
+          "character_id": 21257,
+          "name": "Eva-Beatrice",
+          "anime": "Umineko: When They Cry",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+          "site_url": "https://anilist.co/character/21257",
+          "favourites": 155,
+          "anilist_favourites": 155,
+          "bangumi_collects": 33,
+          "bangumi_comments": 5,
+          "bangumi_character_id": 9636,
+          "bangumi_url": "https://bgm.tv/character/9636",
+          "combined_favourites": 188,
+          "role_edge_count": 1,
+          "descriptors": [
+            "cruel",
+            "mocking"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.49834886,
+          "row_weight": 2.49834886,
+          "unweighted_row_norm": 1.80902855,
+          "x_raw_score": 1.5070940511,
+          "x_score": -0.0982656927,
+          "amplitude": -0.0982656927,
+          "x_direct": true
+        },
+        {
+          "character_id": 149796,
+          "name": "Jaguar Man",
+          "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
+          "site_url": "https://anilist.co/character/149796",
+          "favourites": 123,
+          "anilist_favourites": 123,
+          "bangumi_collects": 6,
+          "bangumi_comments": 1,
+          "bangumi_character_id": 72082,
+          "bangumi_url": "https://bgm.tv/character/72082",
+          "combined_favourites": 129,
+          "role_edge_count": 1,
+          "descriptors": [
+            "aggressive",
+            "blunt"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.42229941,
+          "row_weight": 2.42229941,
+          "unweighted_row_norm": 1.84179721,
+          "x_raw_score": 1.6560724995,
+          "x_score": 0.0507127558,
+          "amplitude": 0.0507127558,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.6053597437
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3350091701,
+      "mass_percent": 5.473104,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 45.998751,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "mocking",
+            "amplitude": 0.3104855707,
+            "abs_amplitude": 0.3104855707,
+            "percent": 61.405595
+          },
+          {
+            "rank": 2,
+            "descriptor": "cruel",
+            "amplitude": 0.195145177,
+            "abs_amplitude": 0.195145177,
+            "percent": 38.594405
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "mocking",
+            "fit_percent": 43.465491,
+            "residual_gain_percent": 18.892489
+          },
+          {
+            "step": 2,
+            "descriptor": "cruel",
+            "fit_percent": 45.998751,
+            "residual_gain_percent": 2.794268
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 21257,
+            "name": "Eva-Beatrice",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+            "site_url": "https://anilist.co/character/21257",
+            "favourites": 155,
+            "anilist_favourites": 155,
+            "bangumi_collects": 33,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 9636,
+            "bangumi_url": "https://bgm.tv/character/9636",
+            "combined_favourites": 188,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cruel",
+              "mocking"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.49834886,
+            "row_weight": 2.49834886,
+            "unweighted_row_norm": 1.80902855,
+            "amplitude": 0.8558895687,
+            "abs_amplitude": 0.8558895687,
+            "percent": 73.254695
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 30.595175,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "sophisticated",
+            "amplitude": 0.1526415348,
+            "abs_amplitude": 0.1526415348,
+            "percent": 43.76641
+          },
+          {
+            "rank": 2,
+            "descriptor": "outgoing",
+            "amplitude": 0.118833296,
+            "abs_amplitude": 0.118833296,
+            "percent": 34.072684
+          },
+          {
+            "rank": 3,
+            "descriptor": "dependable",
+            "amplitude": 0.0772892898,
+            "abs_amplitude": 0.0772892898,
+            "percent": 22.160906
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "sophisticated",
+            "fit_percent": 27.787726,
+            "residual_gain_percent": 7.721577
+          },
+          {
+            "step": 2,
+            "descriptor": "outgoing",
+            "fit_percent": 30.086029,
+            "residual_gain_percent": 1.441414
+          },
+          {
+            "step": 3,
+            "descriptor": "dependable",
+            "fit_percent": 30.595175,
+            "residual_gain_percent": 0.339705
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 1486,
+            "name": "Asa Shigure",
+            "anime": "Shuffle! Memories",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
+            "site_url": "https://anilist.co/character/1486",
+            "favourites": 170,
+            "anilist_favourites": 170,
+            "bangumi_collects": 39,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 1747,
+            "bangumi_url": "https://bgm.tv/character/1747",
+            "combined_favourites": 209,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mischievous",
+              "outgoing",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.51934665,
+            "row_weight": 2.51934665,
+            "unweighted_row_norm": 2.61977382,
+            "amplitude": -0.3369872669,
+            "abs_amplitude": 0.3369872669,
+            "percent": 11.356042
+          },
+          {
+            "character_id": 4934,
+            "name": "Miyo Takano",
+            "anime": "When They Cry Kai",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
+            "site_url": "https://anilist.co/character/4934",
+            "favourites": 404,
+            "anilist_favourites": 404,
+            "bangumi_collects": 85,
+            "bangumi_comments": 65,
+            "bangumi_character_id": 3193,
+            "bangumi_url": "https://bgm.tv/character/3193",
+            "combined_favourites": 489,
+            "role_edge_count": 2,
+            "descriptors": [
+              "mysterious",
+              "refined"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68223888,
+            "row_weight": 1.8966293,
+            "unweighted_row_norm": 1.77917578,
+            "amplitude": -0.2920685367,
+            "abs_amplitude": 0.2920685367,
+            "percent": 8.530403
+          },
+          {
+            "character_id": 505,
+            "name": "Taiga Fujimura",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+            "site_url": "https://anilist.co/character/505",
+            "favourites": 258,
+            "anilist_favourites": 258,
+            "bangumi_collects": 69,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 15075,
+            "bangumi_url": "https://bgm.tv/character/15075",
+            "combined_favourites": 327,
+            "role_edge_count": 2,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.60634104,
+            "row_weight": 1.84296142,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.2347515762,
+            "abs_amplitude": 0.2347515762,
+            "percent": 5.51083
+          },
+          {
+            "character_id": 149796,
+            "name": "Jaguar Man",
+            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
+            "site_url": "https://anilist.co/character/149796",
+            "favourites": 123,
+            "anilist_favourites": 123,
+            "bangumi_collects": 6,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 72082,
+            "bangumi_url": "https://bgm.tv/character/72082",
+            "combined_favourites": 129,
+            "role_edge_count": 1,
+            "descriptors": [
+              "aggressive",
+              "blunt"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.42229941,
+            "row_weight": 2.42229941,
+            "unweighted_row_norm": 1.84179721,
+            "amplitude": -0.1160144675,
+            "abs_amplitude": 0.1160144675,
+            "percent": 1.345936
+          },
+          {
+            "character_id": 14049,
+            "name": "Eva Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+            "site_url": "https://anilist.co/character/14049",
+            "favourites": 406,
+            "anilist_favourites": 406,
+            "bangumi_collects": 45,
+            "bangumi_comments": 26,
+            "bangumi_character_id": 928,
+            "bangumi_url": "https://bgm.tv/character/928",
+            "combined_favourites": 451,
+            "role_edge_count": 1,
+            "descriptors": [
+              "domineering",
+              "hostile"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.6671487,
+            "row_weight": 2.6671487,
+            "unweighted_row_norm": 1.79628373,
+            "amplitude": -0.0045758974,
+            "abs_amplitude": 0.0045758974,
+            "percent": 0.002094
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "kind": "variation_axis",
+      "singular_value": 1.2703526877,
+      "mass_percent": 4.9558,
+      "relative_to_sv2_percent": 95.156851,
+      "positive_pole": {
+        "descriptor_fit_percent": 34.83888,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "domineering",
+            "amplitude": 0.2719162026,
+            "abs_amplitude": 0.2719162026,
+            "percent": 71.658626
+          },
+          {
+            "rank": 2,
+            "descriptor": "hostile",
+            "amplitude": 0.1075443272,
+            "abs_amplitude": 0.1075443272,
+            "percent": 28.341374
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "domineering",
+            "fit_percent": 33.787503,
+            "residual_gain_percent": 11.415954
+          },
+          {
+            "step": 2,
+            "descriptor": "hostile",
+            "fit_percent": 34.83888,
+            "residual_gain_percent": 0.814505
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 14049,
+            "name": "Eva Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14049-IPsDXqSqNZIu.png",
+            "site_url": "https://anilist.co/character/14049",
+            "favourites": 406,
+            "anilist_favourites": 406,
+            "bangumi_collects": 45,
+            "bangumi_comments": 26,
+            "bangumi_character_id": 928,
+            "bangumi_url": "https://bgm.tv/character/928",
+            "combined_favourites": 451,
+            "role_edge_count": 1,
+            "descriptors": [
+              "domineering",
+              "hostile"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.6671487,
+            "row_weight": 2.6671487,
+            "unweighted_row_norm": 1.79628373,
+            "amplitude": 0.7155409062,
+            "abs_amplitude": 0.7155409062,
+            "percent": 51.199879
+          },
+          {
+            "character_id": 1486,
+            "name": "Asa Shigure",
+            "anime": "Shuffle! Memories",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1486-PQVr1y0UffVi.jpg",
+            "site_url": "https://anilist.co/character/1486",
+            "favourites": 170,
+            "anilist_favourites": 170,
+            "bangumi_collects": 39,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 1747,
+            "bangumi_url": "https://bgm.tv/character/1747",
+            "combined_favourites": 209,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mischievous",
+              "outgoing",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.51934665,
+            "row_weight": 2.51934665,
+            "unweighted_row_norm": 2.61977382,
+            "amplitude": 0.0461550451,
+            "abs_amplitude": 0.0461550451,
+            "percent": 0.213029
+          },
+          {
+            "character_id": 149796,
+            "name": "Jaguar Man",
+            "anime": "Fate/Grand Order: Himuro no Tenchi - 7-nin no Saikyou Gijin-hen",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b149796-64L1331jrhqB.jpg",
+            "site_url": "https://anilist.co/character/149796",
+            "favourites": 123,
+            "anilist_favourites": 123,
+            "bangumi_collects": 6,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 72082,
+            "bangumi_url": "https://bgm.tv/character/72082",
+            "combined_favourites": 129,
+            "role_edge_count": 1,
+            "descriptors": [
+              "aggressive",
+              "blunt"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.42229941,
+            "row_weight": 2.42229941,
+            "unweighted_row_norm": 1.84179721,
+            "amplitude": 0.0052266452,
+            "abs_amplitude": 0.0052266452,
+            "percent": 0.002732
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 40.261136,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.40261136,
+            "abs_amplitude": 0.40261136,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 40.261136,
+            "residual_gain_percent": 16.209591
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 505,
+            "name": "Taiga Fujimura",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b505-QL0cNIE6Q0RI.png",
+            "site_url": "https://anilist.co/character/505",
+            "favourites": 258,
+            "anilist_favourites": 258,
+            "bangumi_collects": 69,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 15075,
+            "bangumi_url": "https://bgm.tv/character/15075",
+            "combined_favourites": 327,
+            "role_edge_count": 2,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.60634104,
+            "row_weight": 1.84296142,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.5840875623,
+            "abs_amplitude": 0.5840875623,
+            "percent": 34.115828
+          },
+          {
+            "character_id": 4934,
+            "name": "Miyo Takano",
+            "anime": "When They Cry Kai",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4934-hyXYSNh1Yqtu.jpg",
+            "site_url": "https://anilist.co/character/4934",
+            "favourites": 404,
+            "anilist_favourites": 404,
+            "bangumi_collects": 85,
+            "bangumi_comments": 65,
+            "bangumi_character_id": 3193,
+            "bangumi_url": "https://bgm.tv/character/3193",
+            "combined_favourites": 489,
+            "role_edge_count": 2,
+            "descriptors": [
+              "mysterious",
+              "refined"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68223888,
+            "row_weight": 1.8966293,
+            "unweighted_row_norm": 1.77917578,
+            "amplitude": -0.296244938,
+            "abs_amplitude": 0.296244938,
+            "percent": 8.776106
+          },
+          {
+            "character_id": 21257,
+            "name": "Eva-Beatrice",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21257-ruLFLTy95Zne.jpg",
+            "site_url": "https://anilist.co/character/21257",
+            "favourites": 155,
+            "anilist_favourites": 155,
+            "bangumi_collects": 33,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 9636,
+            "bangumi_url": "https://bgm.tv/character/9636",
+            "combined_favourites": 188,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cruel",
+              "mocking"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.49834886,
+            "row_weight": 2.49834886,
+            "unweighted_row_norm": 1.80902855,
+            "amplitude": -0.2385880588,
+            "abs_amplitude": 0.2385880588,
+            "percent": 5.692426
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 5.0992920301,
+      "mass_percent": 79.851844,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3350091701,
+      "mass_percent": 5.473104,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.2703526877,
+      "mass_percent": 4.9558,
+      "relative_to_sv2_percent": 95.156851
+    },
+    {
+      "rank": 4,
+      "singular_value": 1.1241039356,
+      "mass_percent": 3.880414,
+      "relative_to_sv2_percent": 84.201964
+    },
+    {
+      "rank": 5,
+      "singular_value": 0.9952026876,
+      "mass_percent": 3.041503,
+      "relative_to_sv2_percent": 74.546506
+    },
+    {
+      "rank": 6,
+      "singular_value": 0.9544202347,
+      "mass_percent": 2.797335,
+      "relative_to_sv2_percent": 71.491661
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

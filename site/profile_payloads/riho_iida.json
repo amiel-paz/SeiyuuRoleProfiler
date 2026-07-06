@@ -5,1918 +5,353 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n112207-FZGGO2a34Wqt.png",
   "site_url": "https://anilist.co/staff/112207",
   "role_count": 15,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2010,
   "aliases": [
     "iida riho",
     "riho iida"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/riho_iida.json",
+  "sv1_mass_percent": 91.916322,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.2427864904,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.2427864904,
-        "mass_percent": 73.755108
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.3656273427,
-        "mass_percent": 15.926223
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.7090776892,
-        "mass_percent": 10.318668
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 182.588278,
-      "normalized_entanglement": 0.47549,
-      "top5_mass_percent": 7.644785,
-      "top10_mass_percent": 12.992611
-    },
-    "character_participation": {
-      "effective_count": 1.482063,
-      "normalized_entanglement": 0.494021,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.903991,
-      "semantic_spread": 2.055933,
-      "axis_concentration_percent": 85.765319,
-      "lane_count": 1.505614,
-      "direction_range": 0.912928,
-      "direction_spread": 1.060787,
-      "direction_axis_concentration_percent": 74.06561,
-      "direction_lane_count": 1.772462
-    },
-    "explained_sv_l2_percent": 73.755108,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.5083690433,
+    "mass_percent": 94.678318,
+    "descriptor_fit_percent": 98.16164,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / taciturn / reticent / untalkative / +9",
-        "descriptor_index": 6837,
-        "amplitude": 0.0625842756,
-        "abs_amplitude": 0.0625842756,
-        "raw_amplitude": 0.1877528269,
-        "percent": 15.234014,
-        "raw_percent": 17.639731,
-        "coverage_percent": 15.234014,
-        "member_count": 13,
-        "members": [
-          "shy",
-          "taciturn",
-          "reticent",
-          "untalkative",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "unassertive",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "descriptor": "refined",
+        "amplitude": 0.6554183307,
+        "abs_amplitude": 0.6554183307,
+        "percent": 59.76272,
+        "weighted_support": 5.09605263,
+        "support": 2,
+        "supporting_characters": [
+          {
+            "character_id": 204523,
+            "name": "Miho Shirakawa",
+            "anime": "ODDTAXI",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
+            "site_url": "https://anilist.co/character/204523",
+            "combined_favourites": 383
+          },
           {
             "character_id": 169799,
             "name": "Akira Toudou",
-            "native_name": "東堂晶",
             "anime": "World's End Harem",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
             "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.187752827,
-            "similarity": 1.0,
-            "matched_descriptor": "shy / taciturn"
+            "combined_favourites": 155
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "smart / brainy / intelligent / clever / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0543983393,
-        "abs_amplitude": 0.0543983393,
-        "raw_amplitude": 0.1580221096,
-        "percent": 13.241426,
-        "raw_percent": 14.846474,
-        "coverage_percent": 28.47544,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "clever",
-          "astute",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
-        "support": 2,
-        "effective_support": 1.032735,
-        "support_factor": 0.344245,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.155476637,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0025454728,
-            "similarity": 0.869325,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "low-energy / calmest / calm / subdued / +8",
-        "descriptor_index": 4439,
-        "amplitude": 0.0450287208,
-        "abs_amplitude": 0.0450287208,
-        "raw_amplitude": 0.0713253187,
-        "percent": 10.960711,
-        "raw_percent": 6.701148,
-        "coverage_percent": 39.43615,
-        "member_count": 12,
-        "members": [
-          "low-energy",
-          "calmest",
-          "calm",
-          "subdued",
-          "cool-headed",
-          "soothing",
-          "chilling",
-          "non-violent",
-          "non-hostile",
-          "mild-mannered",
-          "easy-going",
-          "casual"
-        ],
-        "support": 2,
-        "effective_support": 1.893944,
-        "support_factor": 0.631315,
-        "top_characters": [
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0441017895,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
-          },
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0272235292,
-            "similarity": 0.910386,
-            "matched_descriptor": "taciturn"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "refined / clean-cut",
-        "descriptor_index": 6177,
-        "amplitude": 0.029323186,
-        "abs_amplitude": 0.029323186,
-        "raw_amplitude": 0.0554631188,
-        "percent": 7.137732,
-        "raw_percent": 5.210864,
-        "coverage_percent": 46.573883,
-        "member_count": 2,
-        "members": [
-          "refined",
-          "clean-cut"
-        ],
-        "support": 2,
-        "effective_support": 1.586091,
-        "support_factor": 0.528697,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0418980614,
-            "similarity": 1.0,
-            "matched_descriptor": "refined"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0135650575,
-            "similarity": 1.0,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "quiet / voiceless / mute / unsociable",
-        "descriptor_index": 6084,
-        "amplitude": 0.0219776547,
-        "abs_amplitude": 0.0219776547,
-        "raw_amplitude": 0.0659329642,
-        "percent": 5.349713,
-        "raw_percent": 6.194526,
-        "coverage_percent": 51.923596,
-        "member_count": 4,
-        "members": [
-          "quiet",
-          "voiceless",
-          "mute",
-          "unsociable"
-        ],
+        "descriptor": "mischievous",
+        "amplitude": 0.4412826465,
+        "abs_amplitude": 0.4412826465,
+        "percent": 40.23728,
+        "weighted_support": 2.63640713,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.065932964,
-            "similarity": 0.956699,
-            "matched_descriptor": "taciturn / shy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "aloof / standoffish / unsocial / detached / +1",
-        "descriptor_index": 177,
-        "amplitude": 0.0100641591,
-        "abs_amplitude": 0.0100641591,
-        "raw_amplitude": 0.0301924773,
-        "percent": 2.449777,
-        "raw_percent": 2.83664,
-        "coverage_percent": 54.373373,
-        "member_count": 5,
-        "members": [
-          "aloof",
-          "standoffish",
-          "unsocial",
-          "detached",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0301924774,
-            "similarity": 0.90054,
-            "matched_descriptor": "taciturn / shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.0099881395,
-        "abs_amplitude": 0.0099881395,
-        "raw_amplitude": 0.0289440226,
-        "percent": 2.431273,
-        "raw_percent": 2.719345,
-        "coverage_percent": 56.804646,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
-        "support": 2,
-        "effective_support": 1.035254,
-        "support_factor": 0.345085,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0284425089,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          },
+        "supporting_characters": [
           {
             "character_id": 204523,
             "name": "Miho Shirakawa",
-            "native_name": "白川美保",
             "anime": "ODDTAXI",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
             "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0005015137,
-            "similarity": 0.838938,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "elegant / sophisticated",
-        "descriptor_index": 2102,
-        "amplitude": 0.0099775302,
-        "abs_amplitude": 0.0099775302,
-        "raw_amplitude": 0.0188719242,
-        "percent": 2.42869,
-        "raw_percent": 1.773053,
-        "coverage_percent": 59.233336,
-        "member_count": 2,
-        "members": [
-          "elegant",
-          "sophisticated"
-        ],
-        "support": 2,
-        "effective_support": 1.586091,
-        "support_factor": 0.528697,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0142562672,
-            "similarity": 0.892461,
-            "matched_descriptor": "refined"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0046156571,
-            "similarity": 0.892461,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0094808396,
-        "abs_amplitude": 0.0094808396,
-        "raw_amplitude": 0.0284425188,
-        "percent": 2.307788,
-        "raw_percent": 2.672228,
-        "coverage_percent": 61.541124,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0284425188,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "sensible / prudent / deliberative / careful / +1",
-        "descriptor_index": 6701,
-        "amplitude": 0.0072462129,
-        "abs_amplitude": 0.0072462129,
-        "raw_amplitude": 0.0217386388,
-        "percent": 1.763844,
-        "raw_percent": 2.042386,
-        "coverage_percent": 63.304968,
-        "member_count": 5,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "careful",
-          "no-nonsense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0217386387,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0071895319,
-        "abs_amplitude": 0.0071895319,
-        "raw_amplitude": 0.0199580498,
-        "percent": 1.750047,
-        "raw_percent": 1.875096,
-        "coverage_percent": 65.055015,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 2,
-        "effective_support": 1.080697,
-        "support_factor": 0.360232,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.019182793,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0007752568,
-            "similarity": 0.855142,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.007019515,
-        "abs_amplitude": 0.007019515,
-        "raw_amplitude": 0.021058545,
-        "percent": 1.708662,
-        "raw_percent": 1.97849,
-        "coverage_percent": 66.763678,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.021058545,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "serene / tranquil / untroubled / peaceful / +3",
-        "descriptor_index": 6707,
-        "amplitude": 0.0068868458,
-        "abs_amplitude": 0.0068868458,
-        "raw_amplitude": 0.0206605375,
-        "percent": 1.676368,
-        "raw_percent": 1.941096,
-        "coverage_percent": 68.440046,
-        "member_count": 7,
-        "members": [
-          "serene",
-          "tranquil",
-          "untroubled",
-          "peaceful",
-          "non-combative",
-          "calmer",
-          "reassuring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0206605375,
-            "similarity": 0.936556,
-            "matched_descriptor": "calm"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.006674813,
-        "abs_amplitude": 0.006674813,
-        "raw_amplitude": 0.0200244391,
-        "percent": 1.624756,
-        "raw_percent": 1.881334,
-        "coverage_percent": 70.064802,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0200244391,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "artistic / aesthetic",
-        "descriptor_index": 376,
-        "amplitude": 0.0064395443,
-        "abs_amplitude": 0.0064395443,
-        "raw_amplitude": 0.0121800276,
-        "percent": 1.567488,
-        "raw_percent": 1.144336,
-        "coverage_percent": 71.63229,
-        "member_count": 2,
-        "members": [
-          "artistic",
-          "aesthetic"
-        ],
-        "support": 2,
-        "effective_support": 1.586091,
-        "support_factor": 0.528697,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0092010611,
-            "similarity": 0.876625,
-            "matched_descriptor": "refined"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0029789665,
-            "similarity": 0.876625,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "inventive / crafty",
-        "descriptor_index": 3986,
-        "amplitude": 0.0057080439,
-        "abs_amplitude": 0.0057080439,
-        "raw_amplitude": 0.014403885,
-        "percent": 1.389429,
-        "raw_percent": 1.353272,
-        "coverage_percent": 73.02172,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "crafty"
-        ],
-        "support": 2,
-        "effective_support": 1.188855,
-        "support_factor": 0.396285,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0131508116,
-            "similarity": 0.890893,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0012530733,
-            "similarity": 0.84206,
-            "matched_descriptor": "refined / mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0052998177,
-        "abs_amplitude": 0.0052998177,
-        "raw_amplitude": 0.015899453,
-        "percent": 1.29006,
-        "raw_percent": 1.493783,
-        "coverage_percent": 74.31178,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.015899453,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0046426366,
-        "abs_amplitude": 0.0046426366,
-        "raw_amplitude": 0.0139279098,
-        "percent": 1.130092,
-        "raw_percent": 1.308553,
-        "coverage_percent": 75.441872,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0139279098,
-            "similarity": 0.884867,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "attractive / good-looking",
-        "descriptor_index": 466,
-        "amplitude": 0.0045400987,
-        "abs_amplitude": 0.0045400987,
-        "raw_amplitude": 0.0085873356,
-        "percent": 1.105133,
-        "raw_percent": 0.806796,
-        "coverage_percent": 76.547005,
-        "member_count": 2,
-        "members": [
-          "attractive",
-          "good-looking"
-        ],
-        "support": 2,
-        "effective_support": 1.586091,
-        "support_factor": 0.528697,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0064870624,
-            "similarity": 0.882025,
-            "matched_descriptor": "refined"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0021002731,
-            "similarity": 0.882025,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0042998429,
-        "abs_amplitude": 0.0042998429,
-        "raw_amplitude": 0.0128995287,
-        "percent": 1.046651,
-        "raw_percent": 1.211935,
-        "coverage_percent": 77.593655,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0128995287,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "mature / matured",
-        "descriptor_index": 4666,
-        "amplitude": 0.0042915802,
-        "abs_amplitude": 0.0042915802,
-        "raw_amplitude": 0.0128747407,
-        "percent": 1.044639,
-        "raw_percent": 1.209606,
-        "coverage_percent": 78.638294,
-        "member_count": 2,
-        "members": [
-          "mature",
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0128747407,
-            "similarity": 1.0,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "glamorous / gorgeous",
-        "descriptor_index": 3009,
-        "amplitude": 0.0040272669,
-        "abs_amplitude": 0.0040272669,
-        "raw_amplitude": 0.0076173436,
-        "percent": 0.980301,
-        "raw_percent": 0.715664,
-        "coverage_percent": 79.618596,
-        "member_count": 2,
-        "members": [
-          "glamorous",
-          "gorgeous"
-        ],
-        "support": 2,
-        "effective_support": 1.586091,
-        "support_factor": 0.528697,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0057543091,
-            "similarity": 0.859585,
-            "matched_descriptor": "refined"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0018630345,
-            "similarity": 0.859585,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "pretentious",
-        "descriptor_index": 5837,
-        "amplitude": 0.0039265357,
-        "abs_amplitude": 0.0039265357,
-        "raw_amplitude": 0.0074268163,
-        "percent": 0.955782,
-        "raw_percent": 0.697763,
-        "coverage_percent": 80.574377,
-        "member_count": 1,
-        "members": [
-          "pretentious"
-        ],
-        "support": 2,
-        "effective_support": 1.586091,
-        "support_factor": 0.528697,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0056103806,
-            "similarity": 0.881453,
-            "matched_descriptor": "refined"
-          },
-          {
-            "character_id": 204523,
-            "name": "Miho Shirakawa",
-            "native_name": "白川美保",
-            "anime": "ODDTAXI",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
-            "site_url": "https://anilist.co/character/204523",
-            "anime_url": "https://myanimelist.net/anime/46102",
-            "role": "SUPPORTING",
-            "favourites": 192,
-            "row_weight": 2.50253675,
-            "projection": 0.0018164357,
-            "similarity": 0.881453,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0033771548,
-        "abs_amplitude": 0.0033771548,
-        "raw_amplitude": 0.0101314645,
-        "percent": 0.822054,
-        "raw_percent": 0.95187,
-        "coverage_percent": 81.396431,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0101314645,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0033695677,
-        "abs_amplitude": 0.0033695677,
-        "raw_amplitude": 0.0101087031,
-        "percent": 0.820207,
-        "raw_percent": 0.949732,
-        "coverage_percent": 82.216637,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169799,
-            "name": "Akira Toudou",
-            "native_name": "東堂晶",
-            "anime": "World's End Harem",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-            "site_url": "https://anilist.co/character/169799",
-            "anime_url": "https://myanimelist.net/anime/41946",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0101087031,
-            "similarity": 0.872835,
-            "matched_descriptor": "smart"
+            "combined_favourites": 383
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +2",
-        "descriptor_index": 2170,
-        "amplitude": 0.0364118754,
-        "abs_amplitude": 0.0364118754,
-        "raw_amplitude": 0.1092356261,
-        "percent": 26.629154,
-        "raw_percent": 26.629154,
-        "coverage_percent": 26.629154,
-        "member_count": 6,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.1092356261,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 1,
+        "descriptor": "refined",
+        "weighted_support": 5.09605263,
+        "support": 2,
+        "fit_percent": 91.423563,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "active / hyper-active / rambunctious / bouncy / +2",
-        "descriptor_index": 62,
-        "amplitude": 0.0354410216,
-        "abs_amplitude": 0.0354410216,
-        "raw_amplitude": 0.1063230647,
-        "percent": 25.919138,
-        "raw_percent": 25.919138,
-        "coverage_percent": 52.548291,
-        "member_count": 6,
-        "members": [
-          "active",
-          "hyper-active",
-          "rambunctious",
-          "bouncy",
-          "hyperactive",
-          "spunky"
-        ],
+        "step": 2,
+        "descriptor": "mischievous",
+        "weighted_support": 2.63640713,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.1063230647,
-            "similarity": 1.0,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.020813362,
-        "abs_amplitude": 0.020813362,
-        "raw_amplitude": 0.0624400859,
-        "percent": 15.221468,
-        "raw_percent": 15.221468,
-        "coverage_percent": 67.76976,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.062440086,
-            "similarity": 1.0,
-            "matched_descriptor": "hard-working"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "perky / boisterous / upbeat",
-        "descriptor_index": 5537,
-        "amplitude": 0.0061973915,
-        "abs_amplitude": 0.0061973915,
-        "raw_amplitude": 0.0185921745,
-        "percent": 4.532348,
-        "raw_percent": 4.532348,
-        "coverage_percent": 72.302108,
-        "member_count": 3,
-        "members": [
-          "perky",
-          "boisterous",
-          "upbeat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0185921745,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic / active"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "enthusiastic / fervent",
-        "descriptor_index": 2207,
-        "amplitude": 0.005219078,
-        "abs_amplitude": 0.005219078,
-        "raw_amplitude": 0.0156572341,
-        "percent": 3.816876,
-        "raw_percent": 3.816876,
-        "coverage_percent": 76.118984,
-        "member_count": 2,
-        "members": [
-          "enthusiastic",
-          "fervent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0156572341,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "emphatic / theatrical",
-        "descriptor_index": 2155,
-        "amplitude": 0.0033188894,
-        "abs_amplitude": 0.0033188894,
-        "raw_amplitude": 0.0099566683,
-        "percent": 2.427209,
-        "raw_percent": 2.427209,
-        "coverage_percent": 78.546193,
-        "member_count": 2,
-        "members": [
-          "emphatic",
-          "theatrical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0099566683,
-            "similarity": 0.869257,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "excitable",
-        "descriptor_index": 2294,
-        "amplitude": 0.0026055434,
-        "abs_amplitude": 0.0026055434,
-        "raw_amplitude": 0.0078166302,
-        "percent": 1.905516,
-        "raw_percent": 1.905516,
-        "coverage_percent": 80.451709,
-        "member_count": 1,
-        "members": [
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0078166302,
-            "similarity": 0.879347,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0025213282,
-        "abs_amplitude": 0.0025213282,
-        "raw_amplitude": 0.0075639845,
-        "percent": 1.843927,
-        "raw_percent": 1.843927,
-        "coverage_percent": 82.295636,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0075639845,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "strong",
-        "descriptor_index": 7332,
-        "amplitude": 0.0024135339,
-        "abs_amplitude": 0.0024135339,
-        "raw_amplitude": 0.0072406017,
-        "percent": 1.765094,
-        "raw_percent": 1.765094,
-        "coverage_percent": 84.060729,
-        "member_count": 1,
-        "members": [
-          "strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0072406017,
-            "similarity": 0.886438,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "excited",
-        "descriptor_index": 2295,
-        "amplitude": 0.0022744122,
-        "abs_amplitude": 0.0022744122,
-        "raw_amplitude": 0.0068232366,
-        "percent": 1.663349,
-        "raw_percent": 1.663349,
-        "coverage_percent": 85.724079,
-        "member_count": 1,
-        "members": [
-          "excited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0068232366,
-            "similarity": 0.873269,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0021976089,
-        "abs_amplitude": 0.0021976089,
-        "raw_amplitude": 0.0065928267,
-        "percent": 1.607181,
-        "raw_percent": 1.607181,
-        "coverage_percent": 87.331259,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0065928267,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "passionate / intense",
-        "descriptor_index": 5478,
-        "amplitude": 0.0020575704,
-        "abs_amplitude": 0.0020575704,
-        "raw_amplitude": 0.0061727111,
-        "percent": 1.504766,
-        "raw_percent": 1.504766,
-        "coverage_percent": 88.836026,
-        "member_count": 2,
-        "members": [
-          "passionate",
-          "intense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0061727111,
-            "similarity": 0.850985,
-            "matched_descriptor": "energetic / active"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "trade-skilled",
-        "descriptor_index": 7936,
-        "amplitude": 0.0017845811,
-        "abs_amplitude": 0.0017845811,
-        "raw_amplitude": 0.0053537433,
-        "percent": 1.30512,
-        "raw_percent": 1.30512,
-        "coverage_percent": 90.141146,
-        "member_count": 1,
-        "members": [
-          "trade-skilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0053537433,
-            "similarity": 0.851298,
-            "matched_descriptor": "hard-working"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "crazy / insane",
-        "descriptor_index": 1485,
-        "amplitude": 0.001581494,
-        "abs_amplitude": 0.001581494,
-        "raw_amplitude": 0.004744482,
-        "percent": 1.156596,
-        "raw_percent": 1.156596,
-        "coverage_percent": 91.297743,
-        "member_count": 2,
-        "members": [
-          "crazy",
-          "insane"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.004744482,
-            "similarity": 0.866151,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.0015637586,
-        "abs_amplitude": 0.0015637586,
-        "raw_amplitude": 0.0046912757,
-        "percent": 1.143626,
-        "raw_percent": 1.143626,
-        "coverage_percent": 92.441369,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0046912757,
-            "similarity": 0.855438,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "elastic",
-        "descriptor_index": 2071,
-        "amplitude": 0.0015182021,
-        "abs_amplitude": 0.0015182021,
-        "raw_amplitude": 0.0045546062,
-        "percent": 1.110309,
-        "raw_percent": 1.110309,
-        "coverage_percent": 93.551678,
-        "member_count": 1,
-        "members": [
-          "elastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0045546062,
-            "similarity": 0.866746,
-            "matched_descriptor": "active"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0014809609,
-        "abs_amplitude": 0.0014809609,
-        "raw_amplitude": 0.0044428828,
-        "percent": 1.083073,
-        "raw_percent": 1.083073,
-        "coverage_percent": 94.634751,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0044428828,
-            "similarity": 0.856006,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "sparkling",
-        "descriptor_index": 7119,
-        "amplitude": 0.0013911768,
-        "abs_amplitude": 0.0013911768,
-        "raw_amplitude": 0.0041735303,
-        "percent": 1.017411,
-        "raw_percent": 1.017411,
-        "coverage_percent": 95.652163,
-        "member_count": 1,
-        "members": [
-          "sparkling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46011,
-            "name": "Rin Hoshizora",
-            "native_name": "星空凛",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-            "site_url": "https://anilist.co/character/46011",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 858,
-            "row_weight": 2.78491812,
-            "projection": 0.0041735303,
-            "similarity": 0.852617,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "fit_percent": 98.16164,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 169799,
-        "name": "Akira Toudou",
-        "native_name": "東堂晶",
-        "anime": "World's End Harem",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-        "site_url": "https://anilist.co/character/169799",
-        "anime_url": "https://myanimelist.net/anime/41946",
-        "role": "SUPPORTING",
-        "favourites": 134,
-        "row_weight": 2.43007711,
-        "amplitude": 0.8963854211,
-        "abs_amplitude": 0.8963854211,
-        "percent": 80.350682
-      },
-      {
-        "character_id": 46011,
-        "name": "Rin Hoshizora",
-        "native_name": "星空凛",
-        "anime": "Bokura no LIVE Kimi to no LIFE",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-        "site_url": "https://anilist.co/character/46011",
-        "anime_url": "https://myanimelist.net/anime/9907",
-        "role": "MAIN",
-        "favourites": 858,
-        "row_weight": 2.78491812,
-        "amplitude": -0.4102106572,
-        "abs_amplitude": 0.4102106572,
-        "percent": 16.827278
-      },
-      {
         "character_id": 204523,
         "name": "Miho Shirakawa",
-        "native_name": "白川美保",
         "anime": "ODDTAXI",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
         "site_url": "https://anilist.co/character/204523",
-        "anime_url": "https://myanimelist.net/anime/46102",
-        "role": "SUPPORTING",
         "favourites": 192,
-        "row_weight": 2.50253675,
-        "amplitude": 0.1679892661,
-        "abs_amplitude": 0.1679892661,
-        "percent": 2.822039
+        "anilist_favourites": 192,
+        "bangumi_collects": 191,
+        "bangumi_comments": 93,
+        "bangumi_character_id": 94172,
+        "bangumi_url": "https://bgm.tv/character/94172",
+        "combined_favourites": 383,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mischievous",
+          "refined"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.63640713,
+        "row_weight": 2.63640713,
+        "unweighted_row_norm": 1.78129806,
+        "amplitude": 0.7340101009,
+        "abs_amplitude": 0.7340101009,
+        "percent": 53.877083
+      },
+      {
+        "character_id": 169799,
+        "name": "Akira Toudou",
+        "anime": "World's End Harem",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
+        "site_url": "https://anilist.co/character/169799",
+        "favourites": 134,
+        "anilist_favourites": 134,
+        "bangumi_collects": 21,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 99546,
+        "bangumi_url": "https://bgm.tv/character/99546",
+        "combined_favourites": 155,
+        "role_edge_count": 1,
+        "descriptors": [
+          "refined",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4596455,
+        "row_weight": 2.4596455,
+        "unweighted_row_norm": 1.77670184,
+        "amplitude": 0.6791385512,
+        "abs_amplitude": 0.6791385512,
+        "percent": 46.122917
       }
     ],
     "positive_characters": [
       {
-        "character_id": 169799,
-        "name": "Akira Toudou",
-        "native_name": "東堂晶",
-        "anime": "World's End Harem",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
-        "site_url": "https://anilist.co/character/169799",
-        "anime_url": "https://myanimelist.net/anime/41946",
-        "role": "SUPPORTING",
-        "favourites": 134,
-        "row_weight": 2.43007711,
-        "amplitude": 0.8963854211,
-        "abs_amplitude": 0.8963854211,
-        "percent": 80.350682
-      },
-      {
         "character_id": 204523,
         "name": "Miho Shirakawa",
-        "native_name": "白川美保",
         "anime": "ODDTAXI",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
         "site_url": "https://anilist.co/character/204523",
-        "anime_url": "https://myanimelist.net/anime/46102",
-        "role": "SUPPORTING",
         "favourites": 192,
-        "row_weight": 2.50253675,
-        "amplitude": 0.1679892661,
-        "abs_amplitude": 0.1679892661,
-        "percent": 2.822039
+        "anilist_favourites": 192,
+        "bangumi_collects": 191,
+        "bangumi_comments": 93,
+        "bangumi_character_id": 94172,
+        "bangumi_url": "https://bgm.tv/character/94172",
+        "combined_favourites": 383,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mischievous",
+          "refined"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.63640713,
+        "row_weight": 2.63640713,
+        "unweighted_row_norm": 1.78129806,
+        "amplitude": 0.7340101009,
+        "abs_amplitude": 0.7340101009,
+        "percent": 53.877083
+      },
+      {
+        "character_id": 169799,
+        "name": "Akira Toudou",
+        "anime": "World's End Harem",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
+        "site_url": "https://anilist.co/character/169799",
+        "favourites": 134,
+        "anilist_favourites": 134,
+        "bangumi_collects": 21,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 99546,
+        "bangumi_url": "https://bgm.tv/character/99546",
+        "combined_favourites": 155,
+        "role_edge_count": 1,
+        "descriptors": [
+          "refined",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4596455,
+        "row_weight": 2.4596455,
+        "unweighted_row_norm": 1.77670184,
+        "amplitude": 0.6791385512,
+        "abs_amplitude": 0.6791385512,
+        "percent": 46.122917
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 46011,
-        "name": "Rin Hoshizora",
-        "native_name": "星空凛",
-        "anime": "Bokura no LIVE Kimi to no LIFE",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46011-UNG2CkZtHKLU.png",
-        "site_url": "https://anilist.co/character/46011",
-        "anime_url": "https://myanimelist.net/anime/9907",
-        "role": "MAIN",
-        "favourites": 858,
-        "row_weight": 2.78491812,
-        "amplitude": -0.4102106572,
-        "abs_amplitude": 0.4102106572,
-        "percent": 16.827278
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.988046,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 0.8317723342,
+      "mass_percent": 5.321682,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 43.002331,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "shy",
+            "amplitude": 0.4300233143,
+            "abs_amplitude": 0.4300233143,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "shy",
+            "fit_percent": 43.002331,
+            "residual_gain_percent": 18.492005
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 169799,
+            "name": "Akira Toudou",
+            "anime": "World's End Harem",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169799-ADVm5CPWDwDK.png",
+            "site_url": "https://anilist.co/character/169799",
+            "favourites": 134,
+            "anilist_favourites": 134,
+            "bangumi_collects": 21,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 99546,
+            "bangumi_url": "https://bgm.tv/character/99546",
+            "combined_favourites": 155,
+            "role_edge_count": 1,
+            "descriptors": [
+              "refined",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.4596455,
+            "row_weight": 2.4596455,
+            "unweighted_row_norm": 1.77670184,
+            "amplitude": 0.7340101009,
+            "abs_amplitude": 0.7340101009,
+            "percent": 53.877083
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 39.265586,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "mischievous",
+            "amplitude": 0.3926558644,
+            "abs_amplitude": 0.3926558644,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "mischievous",
+            "fit_percent": 39.265586,
+            "residual_gain_percent": 15.417863
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 204523,
+            "name": "Miho Shirakawa",
+            "anime": "ODDTAXI",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204523-ayTzvGGt1AiT.jpg",
+            "site_url": "https://anilist.co/character/204523",
+            "favourites": 192,
+            "anilist_favourites": 192,
+            "bangumi_collects": 191,
+            "bangumi_comments": 93,
+            "bangumi_character_id": 94172,
+            "bangumi_url": "https://bgm.tv/character/94172",
+            "combined_favourites": 383,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mischievous",
+              "refined"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.63640713,
+            "row_weight": 2.63640713,
+            "unweighted_row_norm": 1.78129806,
+            "amplitude": -0.6791385512,
+            "abs_amplitude": 0.6791385512,
+            "percent": 46.122917
+          }
+        ]
       }
-    ]
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.5083690433,
+      "mass_percent": 94.678318,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 0.8317723342,
+      "mass_percent": 5.321682,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

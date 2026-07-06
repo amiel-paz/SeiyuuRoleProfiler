@@ -11,566 +11,98 @@
     "keisuke oda",
     "oda keisuke"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/keisuke_oda.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.5633891658,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.5633891658,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 147.077706,
-      "normalized_entanglement": 0.383015,
-      "top5_mass_percent": 8.130863,
-      "top10_mass_percent": 14.569649
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.628323218,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "devout / pious",
-        "descriptor_index": 1792,
-        "amplitude": 0.1396518378,
-        "abs_amplitude": 0.1396518378,
-        "raw_amplitude": 0.4189555135,
-        "percent": 41.895551,
-        "raw_percent": 41.895551,
-        "coverage_percent": 41.895551,
-        "member_count": 2,
-        "members": [
-          "devout",
-          "pious"
-        ],
+        "descriptor": "independent",
+        "amplitude": 0.5635429809,
+        "abs_amplitude": 0.5635429809,
+        "percent": 50.0,
+        "weighted_support": 2.62832322,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 14019,
             "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
             "anime": "Soul Eater",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
             "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.4189555135,
-            "similarity": 1.0,
-            "matched_descriptor": "devout"
+            "combined_favourites": 367
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "religious / catholic / christian",
-        "descriptor_index": 6220,
-        "amplitude": 0.0986496401,
-        "abs_amplitude": 0.0986496401,
-        "raw_amplitude": 0.2959489202,
-        "percent": 29.594892,
-        "raw_percent": 29.594892,
-        "coverage_percent": 71.490443,
-        "member_count": 3,
-        "members": [
-          "religious",
-          "catholic",
-          "christian"
-        ],
+        "descriptor": "devout",
+        "amplitude": 0.5635429809,
+        "abs_amplitude": 0.5635429809,
+        "percent": 50.0,
+        "weighted_support": 2.62832322,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 14019,
             "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
             "anime": "Soul Eater",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
             "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.2959489202,
-            "similarity": 0.898657,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "saint-like / angelic / righteous",
-        "descriptor_index": 6445,
-        "amplitude": 0.0364058938,
-        "abs_amplitude": 0.0364058938,
-        "raw_amplitude": 0.1092176814,
-        "percent": 10.921768,
-        "raw_percent": 10.921768,
-        "coverage_percent": 82.412212,
-        "member_count": 3,
-        "members": [
-          "saint-like",
-          "angelic",
-          "righteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.1092176814,
-            "similarity": 0.871002,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fanatic",
-        "descriptor_index": 2434,
-        "amplitude": 0.0204494963,
-        "abs_amplitude": 0.0204494963,
-        "raw_amplitude": 0.0613484888,
-        "percent": 6.134849,
-        "raw_percent": 6.134849,
-        "coverage_percent": 88.54706,
-        "member_count": 1,
-        "members": [
-          "fanatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0613484888,
-            "similarity": 0.860151,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "book-reading",
-        "descriptor_index": 756,
-        "amplitude": 0.0120504672,
-        "abs_amplitude": 0.0120504672,
-        "raw_amplitude": 0.0361514017,
-        "percent": 3.61514,
-        "raw_percent": 3.61514,
-        "coverage_percent": 92.162201,
-        "member_count": 1,
-        "members": [
-          "book-reading"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0361514017,
-            "similarity": 0.801426,
-            "matched_descriptor": "lip reader"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "adoring",
-        "descriptor_index": 96,
-        "amplitude": 0.0086096697,
-        "abs_amplitude": 0.0086096697,
-        "raw_amplitude": 0.0258290092,
-        "percent": 2.582901,
-        "raw_percent": 2.582901,
-        "coverage_percent": 94.745101,
-        "member_count": 1,
-        "members": [
-          "adoring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0258290092,
-            "similarity": 0.846436,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sword-wielding",
-        "descriptor_index": 7613,
-        "amplitude": 0.0079110878,
-        "abs_amplitude": 0.0079110878,
-        "raw_amplitude": 0.0237332635,
-        "percent": 2.373326,
-        "raw_percent": 2.373326,
-        "coverage_percent": 97.118428,
-        "member_count": 1,
-        "members": [
-          "sword-wielding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0237332635,
-            "similarity": 0.832457,
-            "matched_descriptor": "youngest scythe"
+            "combined_favourites": 367
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "devout / pious",
-        "descriptor_index": 1792,
-        "amplitude": 0.1396518378,
-        "abs_amplitude": 0.1396518378,
-        "raw_amplitude": 0.4189555135,
-        "percent": 41.895551,
-        "raw_percent": 41.895551,
-        "coverage_percent": 41.895551,
-        "member_count": 2,
-        "members": [
-          "devout",
-          "pious"
-        ],
+        "step": 1,
+        "descriptor": "independent",
+        "weighted_support": 2.62832322,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.4189555135,
-            "similarity": 1.0,
-            "matched_descriptor": "devout"
-          }
-        ]
+        "fit_percent": 88.724377,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "religious / catholic / christian",
-        "descriptor_index": 6220,
-        "amplitude": 0.0986496401,
-        "abs_amplitude": 0.0986496401,
-        "raw_amplitude": 0.2959489202,
-        "percent": 29.594892,
-        "raw_percent": 29.594892,
-        "coverage_percent": 71.490443,
-        "member_count": 3,
-        "members": [
-          "religious",
-          "catholic",
-          "christian"
-        ],
+        "step": 2,
+        "descriptor": "devout",
+        "weighted_support": 2.62832322,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.2959489202,
-            "similarity": 0.898657,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "saint-like / angelic / righteous",
-        "descriptor_index": 6445,
-        "amplitude": 0.0364058938,
-        "abs_amplitude": 0.0364058938,
-        "raw_amplitude": 0.1092176814,
-        "percent": 10.921768,
-        "raw_percent": 10.921768,
-        "coverage_percent": 82.412212,
-        "member_count": 3,
-        "members": [
-          "saint-like",
-          "angelic",
-          "righteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.1092176814,
-            "similarity": 0.871002,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fanatic",
-        "descriptor_index": 2434,
-        "amplitude": 0.0204494963,
-        "abs_amplitude": 0.0204494963,
-        "raw_amplitude": 0.0613484888,
-        "percent": 6.134849,
-        "raw_percent": 6.134849,
-        "coverage_percent": 88.54706,
-        "member_count": 1,
-        "members": [
-          "fanatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0613484888,
-            "similarity": 0.860151,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "book-reading",
-        "descriptor_index": 756,
-        "amplitude": 0.0120504672,
-        "abs_amplitude": 0.0120504672,
-        "raw_amplitude": 0.0361514017,
-        "percent": 3.61514,
-        "raw_percent": 3.61514,
-        "coverage_percent": 92.162201,
-        "member_count": 1,
-        "members": [
-          "book-reading"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0361514017,
-            "similarity": 0.801426,
-            "matched_descriptor": "lip reader"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "adoring",
-        "descriptor_index": 96,
-        "amplitude": 0.0086096697,
-        "abs_amplitude": 0.0086096697,
-        "raw_amplitude": 0.0258290092,
-        "percent": 2.582901,
-        "raw_percent": 2.582901,
-        "coverage_percent": 94.745101,
-        "member_count": 1,
-        "members": [
-          "adoring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0258290092,
-            "similarity": 0.846436,
-            "matched_descriptor": "devout"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sword-wielding",
-        "descriptor_index": 7613,
-        "amplitude": 0.0079110878,
-        "abs_amplitude": 0.0079110878,
-        "raw_amplitude": 0.0237332635,
-        "percent": 2.373326,
-        "raw_percent": 2.373326,
-        "coverage_percent": 97.118428,
-        "member_count": 1,
-        "members": [
-          "sword-wielding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 14019,
-            "name": "Justin Law",
-            "native_name": "ジャスティン＝ロウ",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
-            "site_url": "https://anilist.co/character/14019",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "SUPPORTING",
-            "favourites": 362,
-            "row_weight": 2.62571949,
-            "projection": 0.0237332635,
-            "similarity": 0.832457,
-            "matched_descriptor": "youngest scythe"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 14019,
         "name": "Justin Law",
-        "native_name": "ジャスティン＝ロウ",
         "anime": "Soul Eater",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
         "site_url": "https://anilist.co/character/14019",
-        "anime_url": "https://myanimelist.net/anime/3588",
-        "role": "SUPPORTING",
         "favourites": 362,
-        "row_weight": 2.62571949,
+        "anilist_favourites": 362,
+        "bangumi_collects": 5,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 11681,
+        "bangumi_url": "https://bgm.tv/character/11681",
+        "combined_favourites": 367,
+        "role_edge_count": 1,
+        "descriptors": [
+          "devout",
+          "independent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.62832322,
+        "row_weight": 2.62832322,
+        "unweighted_row_norm": 1.77448754,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -580,19 +112,68 @@
       {
         "character_id": 14019,
         "name": "Justin Law",
-        "native_name": "ジャスティン＝ロウ",
         "anime": "Soul Eater",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b14019-2x7ljMevKv4V.png",
         "site_url": "https://anilist.co/character/14019",
-        "anime_url": "https://myanimelist.net/anime/3588",
-        "role": "SUPPORTING",
         "favourites": 362,
-        "row_weight": 2.62571949,
+        "anilist_favourites": 362,
+        "bangumi_collects": 5,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 11681,
+        "bangumi_url": "https://bgm.tv/character/11681",
+        "combined_favourites": 367,
+        "role_edge_count": 1,
+        "descriptors": [
+          "devout",
+          "independent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.62832322,
+        "row_weight": 2.62832322,
+        "unweighted_row_norm": 1.77448754,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.628323218,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1909 +11,334 @@
     "kuramochi wakana",
     "wakana kuramochi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/wakana_kuramochi.json",
+  "sv1_mass_percent": 90.964701,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.9434336643,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.9434336643,
-        "mass_percent": 81.454624
-      },
-      {
-        "rank": 2,
-        "singular_value": 1.8816311281,
-        "mass_percent": 18.545376
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 199.803228,
-      "normalized_entanglement": 0.520321,
-      "top5_mass_percent": 5.652735,
-      "top10_mass_percent": 10.433308
-    },
-    "character_participation": {
-      "effective_count": 1.076835,
-      "normalized_entanglement": 0.538417,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.170883,
-      "semantic_spread": 1.170883,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.84121,
-      "direction_spread": 0.84121,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 81.454624,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.8569988882,
+    "mass_percent": 88.394069,
+    "descriptor_fit_percent": 97.907812,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.064175607,
-        "abs_amplitude": 0.064175607,
-        "raw_amplitude": 0.1925268209,
-        "percent": 16.402272,
-        "raw_percent": 16.402272,
-        "coverage_percent": 16.402272,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.9790781209,
+        "abs_amplitude": 0.9790781209,
+        "percent": 100.0,
+        "weighted_support": 2.53123918,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 266629,
             "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
             "anime": "Vermeil in Gold",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
             "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1925268209,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0456743859,
-        "abs_amplitude": 0.0456743859,
-        "raw_amplitude": 0.1370231578,
-        "percent": 11.673652,
-        "raw_percent": 11.673652,
-        "coverage_percent": 28.075924,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1370231578,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-reliant / solitary / self-sufficient / lone / +1",
-        "descriptor_index": 6664,
-        "amplitude": 0.0404995722,
-        "abs_amplitude": 0.0404995722,
-        "raw_amplitude": 0.1214987167,
-        "percent": 10.351051,
-        "raw_percent": 10.351051,
-        "coverage_percent": 38.426976,
-        "member_count": 5,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "lone",
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1214987168,
-            "similarity": 0.855444,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "rich / wealthy",
-        "descriptor_index": 6301,
-        "amplitude": 0.0383149862,
-        "abs_amplitude": 0.0383149862,
-        "raw_amplitude": 0.1149449586,
-        "percent": 9.792706,
-        "raw_percent": 9.792706,
-        "coverage_percent": 48.219681,
-        "member_count": 2,
-        "members": [
-          "rich",
-          "wealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1149449587,
-            "similarity": 0.902183,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "foolish / stupid / empty-headed / unintelligent / +3",
-        "descriptor_index": 2646,
-        "amplitude": 0.0379959658,
-        "abs_amplitude": 0.0379959658,
-        "raw_amplitude": 0.1139878975,
-        "percent": 9.711169,
-        "raw_percent": 9.711169,
-        "coverage_percent": 57.930851,
-        "member_count": 7,
-        "members": [
-          "foolish",
-          "stupid",
-          "empty-headed",
-          "unintelligent",
-          "mindless",
-          "daft",
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.1139878976,
-            "similarity": 1.0,
-            "matched_descriptor": "foolish"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "noble",
-        "descriptor_index": 5156,
-        "amplitude": 0.0165030832,
-        "abs_amplitude": 0.0165030832,
-        "raw_amplitude": 0.0495092496,
-        "percent": 4.217928,
-        "raw_percent": 4.217928,
-        "coverage_percent": 62.148778,
-        "member_count": 1,
-        "members": [
-          "noble"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0495092496,
-            "similarity": 0.871906,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.0154055905,
-        "abs_amplitude": 0.0154055905,
-        "raw_amplitude": 0.0462167716,
-        "percent": 3.937426,
-        "raw_percent": 3.937426,
-        "coverage_percent": 66.086204,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0462167715,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0148775204,
-        "abs_amplitude": 0.0148775204,
-        "raw_amplitude": 0.0446325611,
-        "percent": 3.802459,
-        "raw_percent": 3.802459,
-        "coverage_percent": 69.888663,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.044632561,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "privileged",
-        "descriptor_index": 5877,
-        "amplitude": 0.0113315088,
-        "abs_amplitude": 0.0113315088,
-        "raw_amplitude": 0.0339945263,
-        "percent": 2.896155,
-        "raw_percent": 2.896155,
-        "coverage_percent": 72.784818,
-        "member_count": 1,
-        "members": [
-          "privileged"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0339945263,
-            "similarity": 0.866991,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0091689796,
-        "abs_amplitude": 0.0091689796,
-        "raw_amplitude": 0.0275069388,
-        "percent": 2.343446,
-        "raw_percent": 2.343446,
-        "coverage_percent": 75.128265,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0275069388,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0083244975,
-        "abs_amplitude": 0.0083244975,
-        "raw_amplitude": 0.0249734924,
-        "percent": 2.12761,
-        "raw_percent": 2.12761,
-        "coverage_percent": 77.255875,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0249734924,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "extravagant",
-        "descriptor_index": 2341,
-        "amplitude": 0.0077063113,
-        "abs_amplitude": 0.0077063113,
-        "raw_amplitude": 0.023118934,
-        "percent": 1.969612,
-        "raw_percent": 1.969612,
-        "coverage_percent": 79.225486,
-        "member_count": 1,
-        "members": [
-          "extravagant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.023118934,
-            "similarity": 0.839186,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "ojou-sama",
-        "descriptor_index": 5289,
-        "amplitude": 0.0076683676,
-        "abs_amplitude": 0.0076683676,
-        "raw_amplitude": 0.0230051027,
-        "percent": 1.959914,
-        "raw_percent": 1.959914,
-        "coverage_percent": 81.1854,
-        "member_count": 1,
-        "members": [
-          "ojou-sama"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0230051027,
-            "similarity": 0.830103,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "collected",
-        "descriptor_index": 1242,
-        "amplitude": 0.0075779133,
-        "abs_amplitude": 0.0075779133,
-        "raw_amplitude": 0.02273374,
-        "percent": 1.936795,
-        "raw_percent": 1.936795,
-        "coverage_percent": 83.122195,
-        "member_count": 1,
-        "members": [
-          "collected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.02273374,
-            "similarity": 0.816196,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "brainless / idiotic",
-        "descriptor_index": 796,
-        "amplitude": 0.00701727,
-        "abs_amplitude": 0.00701727,
-        "raw_amplitude": 0.02105181,
-        "percent": 1.793503,
-        "raw_percent": 1.793503,
-        "coverage_percent": 84.915698,
-        "member_count": 2,
-        "members": [
-          "brainless",
-          "idiotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.02105181,
-            "similarity": 0.897897,
-            "matched_descriptor": "foolish"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "raffish",
-        "descriptor_index": 6106,
-        "amplitude": 0.0056562373,
-        "abs_amplitude": 0.0056562373,
-        "raw_amplitude": 0.0169687118,
-        "percent": 1.445645,
-        "raw_percent": 1.445645,
-        "coverage_percent": 86.361343,
-        "member_count": 1,
-        "members": [
-          "raffish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0169687118,
-            "similarity": 0.821108,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "isolated",
-        "descriptor_index": 4019,
-        "amplitude": 0.0054113415,
-        "abs_amplitude": 0.0054113415,
-        "raw_amplitude": 0.0162340246,
-        "percent": 1.383053,
-        "raw_percent": 1.383053,
-        "coverage_percent": 87.744397,
-        "member_count": 1,
-        "members": [
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0162340246,
-            "similarity": 0.834537,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "solo",
-        "descriptor_index": 7081,
-        "amplitude": 0.004887767,
-        "abs_amplitude": 0.004887767,
-        "raw_amplitude": 0.014663301,
-        "percent": 1.249236,
-        "raw_percent": 1.249236,
-        "coverage_percent": 88.993633,
-        "member_count": 1,
-        "members": [
-          "solo"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.014663301,
-            "similarity": 0.802118,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "superior",
-        "descriptor_index": 7507,
-        "amplitude": 0.0047383642,
-        "abs_amplitude": 0.0047383642,
-        "raw_amplitude": 0.0142150925,
-        "percent": 1.211051,
-        "raw_percent": 1.211051,
-        "coverage_percent": 90.204684,
-        "member_count": 1,
-        "members": [
-          "superior"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0142150925,
-            "similarity": 0.832693,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "elite-educated",
-        "descriptor_index": 2126,
-        "amplitude": 0.0045198564,
-        "abs_amplitude": 0.0045198564,
-        "raw_amplitude": 0.0135595692,
-        "percent": 1.155204,
-        "raw_percent": 1.155204,
-        "coverage_percent": 91.359888,
-        "member_count": 1,
-        "members": [
-          "elite-educated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0135595692,
-            "similarity": 0.816028,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "colder",
-        "descriptor_index": 1238,
-        "amplitude": 0.0041866856,
-        "abs_amplitude": 0.0041866856,
-        "raw_amplitude": 0.0125600568,
-        "percent": 1.070051,
-        "raw_percent": 1.070051,
-        "coverage_percent": 92.429939,
-        "member_count": 1,
-        "members": [
-          "colder"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.0125600568,
-            "similarity": 0.902818,
-            "matched_descriptor": "cold sensitive"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "materialistic",
-        "descriptor_index": 4655,
-        "amplitude": 0.0039402831,
-        "abs_amplitude": 0.0039402831,
-        "raw_amplitude": 0.0118208493,
-        "percent": 1.007074,
-        "raw_percent": 1.007074,
-        "coverage_percent": 93.437013,
-        "member_count": 1,
-        "members": [
-          "materialistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0118208493,
-            "similarity": 0.819191,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "simple-minded / naive",
-        "descriptor_index": 6870,
-        "amplitude": 0.0030995745,
-        "abs_amplitude": 0.0030995745,
-        "raw_amplitude": 0.0092987235,
-        "percent": 0.792202,
-        "raw_percent": 0.792202,
-        "coverage_percent": 94.229215,
-        "member_count": 2,
-        "members": [
-          "simple-minded",
-          "naive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.0092987235,
-            "similarity": 0.895856,
-            "matched_descriptor": "foolish"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "money-obsessed",
-        "descriptor_index": 4902,
-        "amplitude": 0.0030069219,
-        "abs_amplitude": 0.0030069219,
-        "raw_amplitude": 0.0090207658,
-        "percent": 0.768522,
-        "raw_percent": 0.768522,
-        "coverage_percent": 94.997737,
-        "member_count": 1,
-        "members": [
-          "money-obsessed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0090207658,
-            "similarity": 0.809265,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "air-headed",
-        "descriptor_index": 142,
-        "amplitude": 0.0029764914,
-        "abs_amplitude": 0.0029764914,
-        "raw_amplitude": 0.0089294742,
-        "percent": 0.760744,
-        "raw_percent": 0.760744,
-        "coverage_percent": 95.758481,
-        "member_count": 1,
-        "members": [
-          "air-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.0089294742,
-            "similarity": 0.883951,
-            "matched_descriptor": "foolish"
+            "combined_favourites": 222
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.064175607,
-        "abs_amplitude": 0.064175607,
-        "raw_amplitude": 0.1925268209,
-        "percent": 16.402272,
-        "raw_percent": 16.402272,
-        "coverage_percent": 16.402272,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
+        "step": 1,
+        "descriptor": "jealous",
+        "weighted_support": 2.53123918,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1925268209,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0456743859,
-        "abs_amplitude": 0.0456743859,
-        "raw_amplitude": 0.1370231578,
-        "percent": 11.673652,
-        "raw_percent": 11.673652,
-        "coverage_percent": 28.075924,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1370231578,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-reliant / solitary / self-sufficient / lone / +1",
-        "descriptor_index": 6664,
-        "amplitude": 0.0404995722,
-        "abs_amplitude": 0.0404995722,
-        "raw_amplitude": 0.1214987167,
-        "percent": 10.351051,
-        "raw_percent": 10.351051,
-        "coverage_percent": 38.426976,
-        "member_count": 5,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "lone",
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1214987168,
-            "similarity": 0.855444,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "rich / wealthy",
-        "descriptor_index": 6301,
-        "amplitude": 0.0383149862,
-        "abs_amplitude": 0.0383149862,
-        "raw_amplitude": 0.1149449586,
-        "percent": 9.792706,
-        "raw_percent": 9.792706,
-        "coverage_percent": 48.219681,
-        "member_count": 2,
-        "members": [
-          "rich",
-          "wealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.1149449587,
-            "similarity": 0.902183,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "foolish / stupid / empty-headed / unintelligent / +3",
-        "descriptor_index": 2646,
-        "amplitude": 0.0379959658,
-        "abs_amplitude": 0.0379959658,
-        "raw_amplitude": 0.1139878975,
-        "percent": 9.711169,
-        "raw_percent": 9.711169,
-        "coverage_percent": 57.930851,
-        "member_count": 7,
-        "members": [
-          "foolish",
-          "stupid",
-          "empty-headed",
-          "unintelligent",
-          "mindless",
-          "daft",
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.1139878976,
-            "similarity": 1.0,
-            "matched_descriptor": "foolish"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "noble",
-        "descriptor_index": 5156,
-        "amplitude": 0.0165030832,
-        "abs_amplitude": 0.0165030832,
-        "raw_amplitude": 0.0495092496,
-        "percent": 4.217928,
-        "raw_percent": 4.217928,
-        "coverage_percent": 62.148778,
-        "member_count": 1,
-        "members": [
-          "noble"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0495092496,
-            "similarity": 0.871906,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.0154055905,
-        "abs_amplitude": 0.0154055905,
-        "raw_amplitude": 0.0462167716,
-        "percent": 3.937426,
-        "raw_percent": 3.937426,
-        "coverage_percent": 66.086204,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0462167715,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0148775204,
-        "abs_amplitude": 0.0148775204,
-        "raw_amplitude": 0.0446325611,
-        "percent": 3.802459,
-        "raw_percent": 3.802459,
-        "coverage_percent": 69.888663,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.044632561,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "privileged",
-        "descriptor_index": 5877,
-        "amplitude": 0.0113315088,
-        "abs_amplitude": 0.0113315088,
-        "raw_amplitude": 0.0339945263,
-        "percent": 2.896155,
-        "raw_percent": 2.896155,
-        "coverage_percent": 72.784818,
-        "member_count": 1,
-        "members": [
-          "privileged"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0339945263,
-            "similarity": 0.866991,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0091689796,
-        "abs_amplitude": 0.0091689796,
-        "raw_amplitude": 0.0275069388,
-        "percent": 2.343446,
-        "raw_percent": 2.343446,
-        "coverage_percent": 75.128265,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0275069388,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0083244975,
-        "abs_amplitude": 0.0083244975,
-        "raw_amplitude": 0.0249734924,
-        "percent": 2.12761,
-        "raw_percent": 2.12761,
-        "coverage_percent": 77.255875,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0249734924,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "extravagant",
-        "descriptor_index": 2341,
-        "amplitude": 0.0077063113,
-        "abs_amplitude": 0.0077063113,
-        "raw_amplitude": 0.023118934,
-        "percent": 1.969612,
-        "raw_percent": 1.969612,
-        "coverage_percent": 79.225486,
-        "member_count": 1,
-        "members": [
-          "extravagant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.023118934,
-            "similarity": 0.839186,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "ojou-sama",
-        "descriptor_index": 5289,
-        "amplitude": 0.0076683676,
-        "abs_amplitude": 0.0076683676,
-        "raw_amplitude": 0.0230051027,
-        "percent": 1.959914,
-        "raw_percent": 1.959914,
-        "coverage_percent": 81.1854,
-        "member_count": 1,
-        "members": [
-          "ojou-sama"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0230051027,
-            "similarity": 0.830103,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "collected",
-        "descriptor_index": 1242,
-        "amplitude": 0.0075779133,
-        "abs_amplitude": 0.0075779133,
-        "raw_amplitude": 0.02273374,
-        "percent": 1.936795,
-        "raw_percent": 1.936795,
-        "coverage_percent": 83.122195,
-        "member_count": 1,
-        "members": [
-          "collected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.02273374,
-            "similarity": 0.816196,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "brainless / idiotic",
-        "descriptor_index": 796,
-        "amplitude": 0.00701727,
-        "abs_amplitude": 0.00701727,
-        "raw_amplitude": 0.02105181,
-        "percent": 1.793503,
-        "raw_percent": 1.793503,
-        "coverage_percent": 84.915698,
-        "member_count": 2,
-        "members": [
-          "brainless",
-          "idiotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.02105181,
-            "similarity": 0.897897,
-            "matched_descriptor": "foolish"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "raffish",
-        "descriptor_index": 6106,
-        "amplitude": 0.0056562373,
-        "abs_amplitude": 0.0056562373,
-        "raw_amplitude": 0.0169687118,
-        "percent": 1.445645,
-        "raw_percent": 1.445645,
-        "coverage_percent": 86.361343,
-        "member_count": 1,
-        "members": [
-          "raffish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0169687118,
-            "similarity": 0.821108,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "isolated",
-        "descriptor_index": 4019,
-        "amplitude": 0.0054113415,
-        "abs_amplitude": 0.0054113415,
-        "raw_amplitude": 0.0162340246,
-        "percent": 1.383053,
-        "raw_percent": 1.383053,
-        "coverage_percent": 87.744397,
-        "member_count": 1,
-        "members": [
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0162340246,
-            "similarity": 0.834537,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "solo",
-        "descriptor_index": 7081,
-        "amplitude": 0.004887767,
-        "abs_amplitude": 0.004887767,
-        "raw_amplitude": 0.014663301,
-        "percent": 1.249236,
-        "raw_percent": 1.249236,
-        "coverage_percent": 88.993633,
-        "member_count": 1,
-        "members": [
-          "solo"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.014663301,
-            "similarity": 0.802118,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "superior",
-        "descriptor_index": 7507,
-        "amplitude": 0.0047383642,
-        "abs_amplitude": 0.0047383642,
-        "raw_amplitude": 0.0142150925,
-        "percent": 1.211051,
-        "raw_percent": 1.211051,
-        "coverage_percent": 90.204684,
-        "member_count": 1,
-        "members": [
-          "superior"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0142150925,
-            "similarity": 0.832693,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "elite-educated",
-        "descriptor_index": 2126,
-        "amplitude": 0.0045198564,
-        "abs_amplitude": 0.0045198564,
-        "raw_amplitude": 0.0135595692,
-        "percent": 1.155204,
-        "raw_percent": 1.155204,
-        "coverage_percent": 91.359888,
-        "member_count": 1,
-        "members": [
-          "elite-educated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0135595692,
-            "similarity": 0.816028,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "colder",
-        "descriptor_index": 1238,
-        "amplitude": 0.0041866856,
-        "abs_amplitude": 0.0041866856,
-        "raw_amplitude": 0.0125600568,
-        "percent": 1.070051,
-        "raw_percent": 1.070051,
-        "coverage_percent": 92.429939,
-        "member_count": 1,
-        "members": [
-          "colder"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.0125600568,
-            "similarity": 0.902818,
-            "matched_descriptor": "cold sensitive"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "materialistic",
-        "descriptor_index": 4655,
-        "amplitude": 0.0039402831,
-        "abs_amplitude": 0.0039402831,
-        "raw_amplitude": 0.0118208493,
-        "percent": 1.007074,
-        "raw_percent": 1.007074,
-        "coverage_percent": 93.437013,
-        "member_count": 1,
-        "members": [
-          "materialistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0118208493,
-            "similarity": 0.819191,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "simple-minded / naive",
-        "descriptor_index": 6870,
-        "amplitude": 0.0030995745,
-        "abs_amplitude": 0.0030995745,
-        "raw_amplitude": 0.0092987235,
-        "percent": 0.792202,
-        "raw_percent": 0.792202,
-        "coverage_percent": 94.229215,
-        "member_count": 2,
-        "members": [
-          "simple-minded",
-          "naive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.0092987235,
-            "similarity": 0.895856,
-            "matched_descriptor": "foolish"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "money-obsessed",
-        "descriptor_index": 4902,
-        "amplitude": 0.0030069219,
-        "abs_amplitude": 0.0030069219,
-        "raw_amplitude": 0.0090207658,
-        "percent": 0.768522,
-        "raw_percent": 0.768522,
-        "coverage_percent": 94.997737,
-        "member_count": 1,
-        "members": [
-          "money-obsessed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266629,
-            "name": "Lilia Kudelfate",
-            "native_name": "リリア・クーデルフェイト",
-            "anime": "Vermeil in Gold",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
-            "site_url": "https://anilist.co/character/266629",
-            "anime_url": "https://myanimelist.net/anime/51213",
-            "role": "MAIN",
-            "favourites": 195,
-            "row_weight": 2.50561662,
-            "projection": 0.0090207658,
-            "similarity": 0.809265,
-            "matched_descriptor": "high class"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "air-headed",
-        "descriptor_index": 142,
-        "amplitude": 0.0029764914,
-        "abs_amplitude": 0.0029764914,
-        "raw_amplitude": 0.0089294742,
-        "percent": 0.760744,
-        "raw_percent": 0.760744,
-        "coverage_percent": 95.758481,
-        "member_count": 1,
-        "members": [
-          "air-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142802,
-            "name": "Tsubasa Shiki",
-            "native_name": "四季翼",
-            "anime": "Hokkaido Gals Are Super Adorable!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
-            "site_url": "https://anilist.co/character/142802",
-            "anime_url": "https://myanimelist.net/anime/53421",
-            "role": "MAIN",
-            "favourites": 102,
-            "row_weight": 1.67850067,
-            "projection": 0.0089294742,
-            "similarity": 0.883951,
-            "matched_descriptor": "foolish"
-          }
-        ]
+        "fit_percent": 97.907812,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 266629,
         "name": "Lilia Kudelfate",
-        "native_name": "リリア・クーデルフェイト",
         "anime": "Vermeil in Gold",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
         "site_url": "https://anilist.co/character/266629",
-        "anime_url": "https://myanimelist.net/anime/51213",
-        "role": "MAIN",
         "favourites": 195,
-        "row_weight": 2.50561662,
-        "amplitude": 0.9813007725,
-        "abs_amplitude": 0.9813007725,
-        "percent": 96.295121
+        "anilist_favourites": 195,
+        "bangumi_collects": 27,
+        "bangumi_comments": 14,
+        "bangumi_character_id": 107740,
+        "bangumi_url": "https://bgm.tv/character/107740",
+        "combined_favourites": 222,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53123918,
+        "row_weight": 2.53123918,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.8674420236,
+        "abs_amplitude": 0.8674420236,
+        "percent": 75.245566
       },
       {
         "character_id": 142802,
         "name": "Tsubasa Shiki",
-        "native_name": "四季翼",
         "anime": "Hokkaido Gals Are Super Adorable!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
         "site_url": "https://anilist.co/character/142802",
-        "anime_url": "https://myanimelist.net/anime/53421",
-        "role": "MAIN",
         "favourites": 102,
-        "row_weight": 1.67850067,
-        "amplitude": 0.1924806327,
-        "abs_amplitude": 0.1924806327,
-        "percent": 3.704879
+        "anilist_favourites": 102,
+        "bangumi_collects": 2,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 121952,
+        "bangumi_url": "https://bgm.tv/character/121952",
+        "combined_favourites": 104,
+        "role_edge_count": 2,
+        "descriptors": [
+          "foolish",
+          "honest",
+          "kind"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.37780578,
+        "row_weight": 1.68136259,
+        "unweighted_row_norm": 2.58558699,
+        "amplitude": 0.4975382755,
+        "abs_amplitude": 0.4975382755,
+        "percent": 24.754434
       }
     ],
     "positive_characters": [
       {
         "character_id": 266629,
         "name": "Lilia Kudelfate",
-        "native_name": "リリア・クーデルフェイト",
         "anime": "Vermeil in Gold",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
         "site_url": "https://anilist.co/character/266629",
-        "anime_url": "https://myanimelist.net/anime/51213",
-        "role": "MAIN",
         "favourites": 195,
-        "row_weight": 2.50561662,
-        "amplitude": 0.9813007725,
-        "abs_amplitude": 0.9813007725,
-        "percent": 96.295121
+        "anilist_favourites": 195,
+        "bangumi_collects": 27,
+        "bangumi_comments": 14,
+        "bangumi_character_id": 107740,
+        "bangumi_url": "https://bgm.tv/character/107740",
+        "combined_favourites": 222,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53123918,
+        "row_weight": 2.53123918,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.8674420236,
+        "abs_amplitude": 0.8674420236,
+        "percent": 75.245566
       },
       {
         "character_id": 142802,
         "name": "Tsubasa Shiki",
-        "native_name": "四季翼",
         "anime": "Hokkaido Gals Are Super Adorable!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
         "site_url": "https://anilist.co/character/142802",
-        "anime_url": "https://myanimelist.net/anime/53421",
-        "role": "MAIN",
         "favourites": 102,
-        "row_weight": 1.67850067,
-        "amplitude": 0.1924806327,
-        "abs_amplitude": 0.1924806327,
-        "percent": 3.704879
+        "anilist_favourites": 102,
+        "bangumi_collects": 2,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 121952,
+        "bangumi_url": "https://bgm.tv/character/121952",
+        "combined_favourites": 104,
+        "role_edge_count": 2,
+        "descriptors": [
+          "foolish",
+          "honest",
+          "kind"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.37780578,
+        "row_weight": 1.68136259,
+        "unweighted_row_norm": 2.58558699,
+        "amplitude": 0.4975382755,
+        "abs_amplitude": 0.4975382755,
+        "percent": 24.754434
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.593707,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.0352339347,
+      "mass_percent": 11.605931,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 56.409498,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "no-nonsense",
+            "amplitude": 0.3006314158,
+            "abs_amplitude": 0.3006314158,
+            "percent": 46.426033
+          },
+          {
+            "rank": 2,
+            "descriptor": "kind",
+            "amplitude": 0.2350508481,
+            "abs_amplitude": 0.2350508481,
+            "percent": 36.29853
+          },
+          {
+            "rank": 3,
+            "descriptor": "foolish",
+            "amplitude": 0.1118669615,
+            "abs_amplitude": 0.1118669615,
+            "percent": 17.275437
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "no-nonsense",
+            "fit_percent": 51.410108,
+            "residual_gain_percent": 26.429992
+          },
+          {
+            "step": 2,
+            "descriptor": "kind",
+            "fit_percent": 55.877778,
+            "residual_gain_percent": 6.515248
+          },
+          {
+            "step": 3,
+            "descriptor": "foolish",
+            "fit_percent": 56.409498,
+            "residual_gain_percent": 0.868105
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 142802,
+            "name": "Tsubasa Shiki",
+            "anime": "Hokkaido Gals Are Super Adorable!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142802-Enti0ea1Q8Tg.png",
+            "site_url": "https://anilist.co/character/142802",
+            "favourites": 102,
+            "anilist_favourites": 102,
+            "bangumi_collects": 2,
+            "bangumi_comments": 4,
+            "bangumi_character_id": 121952,
+            "bangumi_url": "https://bgm.tv/character/121952",
+            "combined_favourites": 104,
+            "role_edge_count": 2,
+            "descriptors": [
+              "foolish",
+              "honest",
+              "kind"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.37780578,
+            "row_weight": 1.68136259,
+            "unweighted_row_norm": 2.58558699,
+            "amplitude": 0.8674420236,
+            "abs_amplitude": 0.8674420236,
+            "percent": 75.245566
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 20.348472,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "jealous",
+            "amplitude": 0.2034847245,
+            "abs_amplitude": 0.2034847245,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "jealous",
+            "fit_percent": 20.348472,
+            "residual_gain_percent": 4.140603
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 266629,
+            "name": "Lilia Kudelfate",
+            "anime": "Vermeil in Gold",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266629-B3tVe1pjp0D6.jpg",
+            "site_url": "https://anilist.co/character/266629",
+            "favourites": 195,
+            "anilist_favourites": 195,
+            "bangumi_collects": 27,
+            "bangumi_comments": 14,
+            "bangumi_character_id": 107740,
+            "bangumi_url": "https://bgm.tv/character/107740",
+            "combined_favourites": 222,
+            "role_edge_count": 1,
+            "descriptors": [
+              "jealous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.53123918,
+            "row_weight": 2.53123918,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.4975382755,
+            "abs_amplitude": 0.4975382755,
+            "percent": 24.754434
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.8569988882,
+      "mass_percent": 88.394069,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.0352339347,
+      "mass_percent": 11.605931,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

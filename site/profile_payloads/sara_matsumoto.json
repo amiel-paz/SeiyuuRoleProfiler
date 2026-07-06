@@ -11,1012 +11,98 @@
     "matsumoto sara",
     "sara matsumoto"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/sara_matsumoto.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 2.7988813446,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 2.7988813446,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 185.943737,
-      "normalized_entanglement": 0.484228,
-      "top5_mass_percent": 6.21266,
-      "top10_mass_percent": 11.156156
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4270041467,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "capable / competent / experienced / gifted / +1",
-        "descriptor_index": 927,
-        "amplitude": 0.1185846885,
-        "abs_amplitude": 0.1185846885,
-        "raw_amplitude": 0.3557540655,
-        "percent": 35.575407,
-        "raw_percent": 35.575407,
-        "coverage_percent": 35.575407,
-        "member_count": 5,
-        "members": [
-          "capable",
-          "competent",
-          "experienced",
-          "gifted",
-          "proficient"
-        ],
+        "descriptor": "rebellious",
+        "amplitude": 0.558830674,
+        "abs_amplitude": 0.558830674,
+        "percent": 50.0,
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.3557540655,
-            "similarity": 1.0,
-            "matched_descriptor": "capable"
+            "character_id": 169510,
+            "name": "Towa Higurashi",
+            "anime": "Yashahime: Princess Half-Demon",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169510-OD4XFyNkRY2L.png",
+            "site_url": "https://anilist.co/character/169510",
+            "combined_favourites": 132
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "reliable / dependable / trustworthy / steady",
-        "descriptor_index": 6210,
-        "amplitude": 0.0844178343,
-        "abs_amplitude": 0.0844178343,
-        "raw_amplitude": 0.2532535028,
-        "percent": 25.32535,
-        "raw_percent": 25.32535,
-        "coverage_percent": 60.900757,
-        "member_count": 4,
-        "members": [
-          "reliable",
-          "dependable",
-          "trustworthy",
-          "steady"
-        ],
+        "descriptor": "brave",
+        "amplitude": 0.558830674,
+        "abs_amplitude": 0.558830674,
+        "percent": 50.0,
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.2532535027,
-            "similarity": 1.0,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "skill-oriented / accomplished / skilled / expert / +1",
-        "descriptor_index": 6905,
-        "amplitude": 0.0284401208,
-        "abs_amplitude": 0.0284401208,
-        "raw_amplitude": 0.0853203623,
-        "percent": 8.532036,
-        "raw_percent": 8.532036,
-        "coverage_percent": 69.432793,
-        "member_count": 5,
-        "members": [
-          "skill-oriented",
-          "accomplished",
-          "skilled",
-          "expert",
-          "talented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0853203623,
-            "similarity": 0.894785,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "wise / smart",
-        "descriptor_index": 8578,
-        "amplitude": 0.0160902002,
-        "abs_amplitude": 0.0160902002,
-        "raw_amplitude": 0.0482706007,
-        "percent": 4.82706,
-        "raw_percent": 4.82706,
-        "coverage_percent": 74.259853,
-        "member_count": 2,
-        "members": [
-          "wise",
-          "smart"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0482706006,
-            "similarity": 0.887569,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "brainy / intelligent / clever / shrewd",
-        "descriptor_index": 797,
-        "amplitude": 0.0143912364,
-        "abs_amplitude": 0.0143912364,
-        "raw_amplitude": 0.0431737091,
-        "percent": 4.317371,
-        "raw_percent": 4.317371,
-        "coverage_percent": 78.577224,
-        "member_count": 4,
-        "members": [
-          "brainy",
-          "intelligent",
-          "clever",
-          "shrewd"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.043173709,
-            "similarity": 0.861596,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "non-criminal / non-combatant / goody-two-shoes",
-        "descriptor_index": 5178,
-        "amplitude": 0.0128142156,
-        "abs_amplitude": 0.0128142156,
-        "raw_amplitude": 0.0384426467,
-        "percent": 3.844265,
-        "raw_percent": 3.844265,
-        "coverage_percent": 82.421489,
-        "member_count": 3,
-        "members": [
-          "non-criminal",
-          "non-combatant",
-          "goody-two-shoes"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0384426466,
-            "similarity": 0.89566,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "rule-abiding / subservient",
-        "descriptor_index": 6391,
-        "amplitude": 0.0096921705,
-        "abs_amplitude": 0.0096921705,
-        "raw_amplitude": 0.0290765116,
-        "percent": 2.907651,
-        "raw_percent": 2.907651,
-        "coverage_percent": 85.32914,
-        "member_count": 2,
-        "members": [
-          "rule-abiding",
-          "subservient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0290765116,
-            "similarity": 0.884748,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "well-rounded",
-        "descriptor_index": 8532,
-        "amplitude": 0.0093058365,
-        "abs_amplitude": 0.0093058365,
-        "raw_amplitude": 0.0279175094,
-        "percent": 2.791751,
-        "raw_percent": 2.791751,
-        "coverage_percent": 88.120891,
-        "member_count": 1,
-        "members": [
-          "well-rounded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0279175094,
-            "similarity": 0.883842,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "responsible",
-        "descriptor_index": 6266,
-        "amplitude": 0.0069293379,
-        "abs_amplitude": 0.0069293379,
-        "raw_amplitude": 0.0207880137,
-        "percent": 2.078801,
-        "raw_percent": 2.078801,
-        "coverage_percent": 90.199692,
-        "member_count": 1,
-        "members": [
-          "responsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0207880137,
-            "similarity": 0.873211,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "consistent",
-        "descriptor_index": 1386,
-        "amplitude": 0.0065721526,
-        "abs_amplitude": 0.0065721526,
-        "raw_amplitude": 0.0197164577,
-        "percent": 1.971646,
-        "raw_percent": 1.971646,
-        "coverage_percent": 92.171338,
-        "member_count": 1,
-        "members": [
-          "consistent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0197164577,
-            "similarity": 0.874646,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "respectable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0035082216,
-        "abs_amplitude": 0.0035082216,
-        "raw_amplitude": 0.0105246647,
-        "percent": 1.052466,
-        "raw_percent": 1.052466,
-        "coverage_percent": 93.223804,
-        "member_count": 1,
-        "members": [
-          "respectable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0105246647,
-            "similarity": 0.865644,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.003378249,
-        "abs_amplitude": 0.003378249,
-        "raw_amplitude": 0.010134747,
-        "percent": 1.013475,
-        "raw_percent": 1.013475,
-        "coverage_percent": 94.237279,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.010134747,
-            "similarity": 0.858984,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "trade-skilled",
-        "descriptor_index": 7936,
-        "amplitude": 0.0028838095,
-        "abs_amplitude": 0.0028838095,
-        "raw_amplitude": 0.0086514285,
-        "percent": 0.865143,
-        "raw_percent": 0.865143,
-        "coverage_percent": 95.102422,
-        "member_count": 1,
-        "members": [
-          "trade-skilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0086514285,
-            "similarity": 0.840426,
-            "matched_descriptor": "capable"
+            "character_id": 169510,
+            "name": "Towa Higurashi",
+            "anime": "Yashahime: Princess Half-Demon",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169510-OD4XFyNkRY2L.png",
+            "site_url": "https://anilist.co/character/169510",
+            "combined_favourites": 132
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "capable / competent / experienced / gifted / +1",
-        "descriptor_index": 927,
-        "amplitude": 0.1185846885,
-        "abs_amplitude": 0.1185846885,
-        "raw_amplitude": 0.3557540655,
-        "percent": 35.575407,
-        "raw_percent": 35.575407,
-        "coverage_percent": 35.575407,
-        "member_count": 5,
-        "members": [
-          "capable",
-          "competent",
-          "experienced",
-          "gifted",
-          "proficient"
-        ],
+        "step": 1,
+        "descriptor": "rebellious",
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.3557540655,
-            "similarity": 1.0,
-            "matched_descriptor": "capable"
-          }
-        ]
+        "fit_percent": 89.47254,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "reliable / dependable / trustworthy / steady",
-        "descriptor_index": 6210,
-        "amplitude": 0.0844178343,
-        "abs_amplitude": 0.0844178343,
-        "raw_amplitude": 0.2532535028,
-        "percent": 25.32535,
-        "raw_percent": 25.32535,
-        "coverage_percent": 60.900757,
-        "member_count": 4,
-        "members": [
-          "reliable",
-          "dependable",
-          "trustworthy",
-          "steady"
-        ],
+        "step": 2,
+        "descriptor": "brave",
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.2532535027,
-            "similarity": 1.0,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "skill-oriented / accomplished / skilled / expert / +1",
-        "descriptor_index": 6905,
-        "amplitude": 0.0284401208,
-        "abs_amplitude": 0.0284401208,
-        "raw_amplitude": 0.0853203623,
-        "percent": 8.532036,
-        "raw_percent": 8.532036,
-        "coverage_percent": 69.432793,
-        "member_count": 5,
-        "members": [
-          "skill-oriented",
-          "accomplished",
-          "skilled",
-          "expert",
-          "talented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0853203623,
-            "similarity": 0.894785,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "wise / smart",
-        "descriptor_index": 8578,
-        "amplitude": 0.0160902002,
-        "abs_amplitude": 0.0160902002,
-        "raw_amplitude": 0.0482706007,
-        "percent": 4.82706,
-        "raw_percent": 4.82706,
-        "coverage_percent": 74.259853,
-        "member_count": 2,
-        "members": [
-          "wise",
-          "smart"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0482706006,
-            "similarity": 0.887569,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "brainy / intelligent / clever / shrewd",
-        "descriptor_index": 797,
-        "amplitude": 0.0143912364,
-        "abs_amplitude": 0.0143912364,
-        "raw_amplitude": 0.0431737091,
-        "percent": 4.317371,
-        "raw_percent": 4.317371,
-        "coverage_percent": 78.577224,
-        "member_count": 4,
-        "members": [
-          "brainy",
-          "intelligent",
-          "clever",
-          "shrewd"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.043173709,
-            "similarity": 0.861596,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "non-criminal / non-combatant / goody-two-shoes",
-        "descriptor_index": 5178,
-        "amplitude": 0.0128142156,
-        "abs_amplitude": 0.0128142156,
-        "raw_amplitude": 0.0384426467,
-        "percent": 3.844265,
-        "raw_percent": 3.844265,
-        "coverage_percent": 82.421489,
-        "member_count": 3,
-        "members": [
-          "non-criminal",
-          "non-combatant",
-          "goody-two-shoes"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0384426466,
-            "similarity": 0.89566,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "rule-abiding / subservient",
-        "descriptor_index": 6391,
-        "amplitude": 0.0096921705,
-        "abs_amplitude": 0.0096921705,
-        "raw_amplitude": 0.0290765116,
-        "percent": 2.907651,
-        "raw_percent": 2.907651,
-        "coverage_percent": 85.32914,
-        "member_count": 2,
-        "members": [
-          "rule-abiding",
-          "subservient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0290765116,
-            "similarity": 0.884748,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "well-rounded",
-        "descriptor_index": 8532,
-        "amplitude": 0.0093058365,
-        "abs_amplitude": 0.0093058365,
-        "raw_amplitude": 0.0279175094,
-        "percent": 2.791751,
-        "raw_percent": 2.791751,
-        "coverage_percent": 88.120891,
-        "member_count": 1,
-        "members": [
-          "well-rounded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0279175094,
-            "similarity": 0.883842,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "responsible",
-        "descriptor_index": 6266,
-        "amplitude": 0.0069293379,
-        "abs_amplitude": 0.0069293379,
-        "raw_amplitude": 0.0207880137,
-        "percent": 2.078801,
-        "raw_percent": 2.078801,
-        "coverage_percent": 90.199692,
-        "member_count": 1,
-        "members": [
-          "responsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0207880137,
-            "similarity": 0.873211,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "consistent",
-        "descriptor_index": 1386,
-        "amplitude": 0.0065721526,
-        "abs_amplitude": 0.0065721526,
-        "raw_amplitude": 0.0197164577,
-        "percent": 1.971646,
-        "raw_percent": 1.971646,
-        "coverage_percent": 92.171338,
-        "member_count": 1,
-        "members": [
-          "consistent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0197164577,
-            "similarity": 0.874646,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "respectable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0035082216,
-        "abs_amplitude": 0.0035082216,
-        "raw_amplitude": 0.0105246647,
-        "percent": 1.052466,
-        "raw_percent": 1.052466,
-        "coverage_percent": 93.223804,
-        "member_count": 1,
-        "members": [
-          "respectable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0105246647,
-            "similarity": 0.865644,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.003378249,
-        "abs_amplitude": 0.003378249,
-        "raw_amplitude": 0.010134747,
-        "percent": 1.013475,
-        "raw_percent": 1.013475,
-        "coverage_percent": 94.237279,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.010134747,
-            "similarity": 0.858984,
-            "matched_descriptor": "capable"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "trade-skilled",
-        "descriptor_index": 7936,
-        "amplitude": 0.0028838095,
-        "abs_amplitude": 0.0028838095,
-        "raw_amplitude": 0.0086514285,
-        "percent": 0.865143,
-        "raw_percent": 0.865143,
-        "coverage_percent": 95.102422,
-        "member_count": 1,
-        "members": [
-          "trade-skilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 121109,
-            "name": "Helck",
-            "native_name": "ヘルク",
-            "anime": "Helck",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-            "site_url": "https://anilist.co/character/121109",
-            "anime_url": "https://myanimelist.net/anime/51020",
-            "role": "MAIN",
-            "favourites": 268,
-            "row_weight": 1.81586224,
-            "projection": 0.0086514285,
-            "similarity": 0.840426,
-            "matched_descriptor": "capable"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 121109,
-        "name": "Helck",
-        "native_name": "ヘルク",
-        "anime": "Helck",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-        "site_url": "https://anilist.co/character/121109",
-        "anime_url": "https://myanimelist.net/anime/51020",
-        "role": "MAIN",
-        "favourites": 268,
-        "row_weight": 1.81586224,
+        "character_id": 169510,
+        "name": "Towa Higurashi",
+        "anime": "Yashahime: Princess Half-Demon",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169510-OD4XFyNkRY2L.png",
+        "site_url": "https://anilist.co/character/169510",
+        "favourites": 128,
+        "anilist_favourites": 128,
+        "bangumi_collects": 4,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 86133,
+        "bangumi_url": "https://bgm.tv/character/86133",
+        "combined_favourites": 132,
+        "role_edge_count": 1,
+        "descriptors": [
+          "brave",
+          "rebellious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42700415,
+        "row_weight": 2.42700415,
+        "unweighted_row_norm": 1.78945081,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1024,21 +110,70 @@
     ],
     "positive_characters": [
       {
-        "character_id": 121109,
-        "name": "Helck",
-        "native_name": "ヘルク",
-        "anime": "Helck",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b121109-S0JrxCikKbAV.png",
-        "site_url": "https://anilist.co/character/121109",
-        "anime_url": "https://myanimelist.net/anime/51020",
-        "role": "MAIN",
-        "favourites": 268,
-        "row_weight": 1.81586224,
+        "character_id": 169510,
+        "name": "Towa Higurashi",
+        "anime": "Yashahime: Princess Half-Demon",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169510-OD4XFyNkRY2L.png",
+        "site_url": "https://anilist.co/character/169510",
+        "favourites": 128,
+        "anilist_favourites": 128,
+        "bangumi_collects": 4,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 86133,
+        "bangumi_url": "https://bgm.tv/character/86133",
+        "combined_favourites": 132,
+        "role_edge_count": 1,
+        "descriptors": [
+          "brave",
+          "rebellious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42700415,
+        "row_weight": 2.42700415,
+        "unweighted_row_norm": 1.78945081,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4270041467,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

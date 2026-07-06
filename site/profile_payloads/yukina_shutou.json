@@ -11,1012 +11,114 @@
     "shutou yukina",
     "yukina shutou"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yukina_shutou.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.7172565697,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.7172565697,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 268.372575,
-      "normalized_entanglement": 0.698887,
-      "top5_mass_percent": 4.12014,
-      "top10_mass_percent": 7.480864
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.1265563588,
-        "abs_amplitude": 0.1265563588,
-        "raw_amplitude": 0.3796690765,
-        "percent": 37.966908,
-        "raw_percent": 37.966908,
-        "coverage_percent": 37.966908,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
+        "descriptor": "optimistic",
+        "amplitude": 0.5401813211,
+        "abs_amplitude": 0.5401813211,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 211768,
             "name": "Haru Urara",
-            "native_name": "ハルウララ",
             "anime": "Umamusume: Pretty Derby",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
             "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.3796690765,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
+            "combined_favourites": 502
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "optimistic / positive-thinking / hopeful / upbeat / +2",
-        "descriptor_index": 5344,
-        "amplitude": 0.0964977834,
-        "abs_amplitude": 0.0964977834,
-        "raw_amplitude": 0.2894933502,
-        "percent": 28.949335,
-        "raw_percent": 28.949335,
-        "coverage_percent": 66.916243,
-        "member_count": 6,
-        "members": [
-          "optimistic",
-          "positive-thinking",
-          "hopeful",
-          "upbeat",
-          "sunny",
-          "cheery"
-        ],
+        "descriptor": "energetic",
+        "amplitude": 0.54018132,
+        "abs_amplitude": 0.54018132,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 211768,
             "name": "Haru Urara",
-            "native_name": "ハルウララ",
             "anime": "Umamusume: Pretty Derby",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
             "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.2894933501,
-            "similarity": 1.0,
-            "matched_descriptor": "optimistic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "encouraging / inspiring / inspirational",
-        "descriptor_index": 2163,
-        "amplitude": 0.0179795258,
-        "abs_amplitude": 0.0179795258,
-        "raw_amplitude": 0.0539385775,
-        "percent": 5.393858,
-        "raw_percent": 5.393858,
-        "coverage_percent": 72.3101,
-        "member_count": 3,
-        "members": [
-          "encouraging",
-          "inspiring",
-          "inspirational"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0539385775,
-            "similarity": 0.889028,
-            "matched_descriptor": "optimistic"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "enthusiastic / fervent",
-        "descriptor_index": 2207,
-        "amplitude": 0.014316783,
-        "abs_amplitude": 0.014316783,
-        "raw_amplitude": 0.0429503489,
-        "percent": 4.295035,
-        "raw_percent": 4.295035,
-        "coverage_percent": 76.605135,
-        "member_count": 2,
-        "members": [
-          "enthusiastic",
-          "fervent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0429503489,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "boisterous / perky",
-        "descriptor_index": 743,
-        "amplitude": 0.0142892995,
-        "abs_amplitude": 0.0142892995,
-        "raw_amplitude": 0.0428678984,
-        "percent": 4.28679,
-        "raw_percent": 4.28679,
-        "coverage_percent": 80.891925,
-        "member_count": 2,
-        "members": [
-          "boisterous",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0428678984,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "hyperactive / active",
-        "descriptor_index": 3662,
-        "amplitude": 0.0140805269,
-        "abs_amplitude": 0.0140805269,
-        "raw_amplitude": 0.0422415807,
-        "percent": 4.224158,
-        "raw_percent": 4.224158,
-        "coverage_percent": 85.116083,
-        "member_count": 2,
-        "members": [
-          "hyperactive",
-          "active"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0422415807,
-            "similarity": 0.875966,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0069164148,
-        "abs_amplitude": 0.0069164148,
-        "raw_amplitude": 0.0207492443,
-        "percent": 2.074924,
-        "raw_percent": 2.074924,
-        "coverage_percent": 87.191008,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0207492443,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0060284,
-        "abs_amplitude": 0.0060284,
-        "raw_amplitude": 0.0180851999,
-        "percent": 1.80852,
-        "raw_percent": 1.80852,
-        "coverage_percent": 88.999528,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0180851999,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "excitable",
-        "descriptor_index": 2294,
-        "amplitude": 0.0050992984,
-        "abs_amplitude": 0.0050992984,
-        "raw_amplitude": 0.0152978953,
-        "percent": 1.52979,
-        "raw_percent": 1.52979,
-        "coverage_percent": 90.529317,
-        "member_count": 1,
-        "members": [
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0152978953,
-            "similarity": 0.867799,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "passionate / intense",
-        "descriptor_index": 5478,
-        "amplitude": 0.0045593006,
-        "abs_amplitude": 0.0045593006,
-        "raw_amplitude": 0.0136779017,
-        "percent": 1.36779,
-        "raw_percent": 1.36779,
-        "coverage_percent": 91.897107,
-        "member_count": 2,
-        "members": [
-          "passionate",
-          "intense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0136779017,
-            "similarity": 0.849707,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.004289645,
-        "abs_amplitude": 0.004289645,
-        "raw_amplitude": 0.012868935,
-        "percent": 1.286893,
-        "raw_percent": 1.286893,
-        "coverage_percent": 93.184001,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.012868935,
-            "similarity": 0.855438,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "promising",
-        "descriptor_index": 5940,
-        "amplitude": 0.0042647401,
-        "abs_amplitude": 0.0042647401,
-        "raw_amplitude": 0.0127942203,
-        "percent": 1.279422,
-        "raw_percent": 1.279422,
-        "coverage_percent": 94.463423,
-        "member_count": 1,
-        "members": [
-          "promising"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0127942203,
-            "similarity": 0.860632,
-            "matched_descriptor": "optimistic"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0040625176,
-        "abs_amplitude": 0.0040625176,
-        "raw_amplitude": 0.0121875528,
-        "percent": 1.218755,
-        "raw_percent": 1.218755,
-        "coverage_percent": 95.682178,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0121875528,
-            "similarity": 0.856006,
-            "matched_descriptor": "energetic"
+            "combined_favourites": 502
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.1265563588,
-        "abs_amplitude": 0.1265563588,
-        "raw_amplitude": 0.3796690765,
-        "percent": 37.966908,
-        "raw_percent": 37.966908,
-        "coverage_percent": 37.966908,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.3796690765,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 1,
+        "descriptor": "energetic",
+        "fit_percent": 92.561512,
+        "residual_gain_percent": 85.676336
       },
       {
-        "rank": 2,
-        "descriptor": "optimistic / positive-thinking / hopeful / upbeat / +2",
-        "descriptor_index": 5344,
-        "amplitude": 0.0964977834,
-        "abs_amplitude": 0.0964977834,
-        "raw_amplitude": 0.2894933502,
-        "percent": 28.949335,
-        "raw_percent": 28.949335,
-        "coverage_percent": 66.916243,
-        "member_count": 6,
-        "members": [
-          "optimistic",
-          "positive-thinking",
-          "hopeful",
-          "upbeat",
-          "sunny",
-          "cheery"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.2894933501,
-            "similarity": 1.0,
-            "matched_descriptor": "optimistic"
-          }
-        ]
+        "step": 2,
+        "descriptor": "optimistic",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 3,
-        "descriptor": "encouraging / inspiring / inspirational",
-        "descriptor_index": 2163,
-        "amplitude": 0.0179795258,
-        "abs_amplitude": 0.0179795258,
-        "raw_amplitude": 0.0539385775,
-        "percent": 5.393858,
-        "raw_percent": 5.393858,
-        "coverage_percent": 72.3101,
-        "member_count": 3,
-        "members": [
-          "encouraging",
-          "inspiring",
-          "inspirational"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0539385775,
-            "similarity": 0.889028,
-            "matched_descriptor": "optimistic"
-          }
-        ]
+        "step": 3,
+        "descriptor": "quiet",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -671851903192534.9
       },
       {
-        "rank": 4,
-        "descriptor": "enthusiastic / fervent",
-        "descriptor_index": 2207,
-        "amplitude": 0.014316783,
-        "abs_amplitude": 0.014316783,
-        "raw_amplitude": 0.0429503489,
-        "percent": 4.295035,
-        "raw_percent": 4.295035,
-        "coverage_percent": 76.605135,
-        "member_count": 2,
-        "members": [
-          "enthusiastic",
-          "fervent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0429503489,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 4,
+        "descriptor": "scatterbrained",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -4.066612
       },
       {
-        "rank": 5,
-        "descriptor": "boisterous / perky",
-        "descriptor_index": 743,
-        "amplitude": 0.0142892995,
-        "abs_amplitude": 0.0142892995,
-        "raw_amplitude": 0.0428678984,
-        "percent": 4.28679,
-        "raw_percent": 4.28679,
-        "coverage_percent": 80.891925,
-        "member_count": 2,
-        "members": [
-          "boisterous",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0428678984,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 5,
+        "descriptor": "sociable",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 2.89003
       },
       {
-        "rank": 6,
-        "descriptor": "hyperactive / active",
-        "descriptor_index": 3662,
-        "amplitude": 0.0140805269,
-        "abs_amplitude": 0.0140805269,
-        "raw_amplitude": 0.0422415807,
-        "percent": 4.224158,
-        "raw_percent": 4.224158,
-        "coverage_percent": 85.116083,
-        "member_count": 2,
-        "members": [
-          "hyperactive",
-          "active"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0422415807,
-            "similarity": 0.875966,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0069164148,
-        "abs_amplitude": 0.0069164148,
-        "raw_amplitude": 0.0207492443,
-        "percent": 2.074924,
-        "raw_percent": 2.074924,
-        "coverage_percent": 87.191008,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0207492443,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0060284,
-        "abs_amplitude": 0.0060284,
-        "raw_amplitude": 0.0180851999,
-        "percent": 1.80852,
-        "raw_percent": 1.80852,
-        "coverage_percent": 88.999528,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0180851999,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "excitable",
-        "descriptor_index": 2294,
-        "amplitude": 0.0050992984,
-        "abs_amplitude": 0.0050992984,
-        "raw_amplitude": 0.0152978953,
-        "percent": 1.52979,
-        "raw_percent": 1.52979,
-        "coverage_percent": 90.529317,
-        "member_count": 1,
-        "members": [
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0152978953,
-            "similarity": 0.867799,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "passionate / intense",
-        "descriptor_index": 5478,
-        "amplitude": 0.0045593006,
-        "abs_amplitude": 0.0045593006,
-        "raw_amplitude": 0.0136779017,
-        "percent": 1.36779,
-        "raw_percent": 1.36779,
-        "coverage_percent": 91.897107,
-        "member_count": 2,
-        "members": [
-          "passionate",
-          "intense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0136779017,
-            "similarity": 0.849707,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.004289645,
-        "abs_amplitude": 0.004289645,
-        "raw_amplitude": 0.012868935,
-        "percent": 1.286893,
-        "raw_percent": 1.286893,
-        "coverage_percent": 93.184001,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.012868935,
-            "similarity": 0.855438,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "promising",
-        "descriptor_index": 5940,
-        "amplitude": 0.0042647401,
-        "abs_amplitude": 0.0042647401,
-        "raw_amplitude": 0.0127942203,
-        "percent": 1.279422,
-        "raw_percent": 1.279422,
-        "coverage_percent": 94.463423,
-        "member_count": 1,
-        "members": [
-          "promising"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0127942203,
-            "similarity": 0.860632,
-            "matched_descriptor": "optimistic"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0040625176,
-        "abs_amplitude": 0.0040625176,
-        "raw_amplitude": 0.0121875528,
-        "percent": 1.218755,
-        "raw_percent": 1.218755,
-        "coverage_percent": 95.682178,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 211768,
-            "name": "Haru Urara",
-            "native_name": "ハルウララ",
-            "anime": "Umamusume: Pretty Derby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
-            "site_url": "https://anilist.co/character/211768",
-            "anime_url": "https://myanimelist.net/anime/35249",
-            "role": "SUPPORTING",
-            "favourites": 417,
-            "row_weight": 2.6524482,
-            "projection": 0.0121875528,
-            "similarity": 0.856006,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 6,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 211768,
         "name": "Haru Urara",
-        "native_name": "ハルウララ",
         "anime": "Umamusume: Pretty Derby",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
         "site_url": "https://anilist.co/character/211768",
-        "anime_url": "https://myanimelist.net/anime/35249",
-        "role": "SUPPORTING",
         "favourites": 417,
-        "row_weight": 2.6524482,
+        "anilist_favourites": 417,
+        "bangumi_collects": 85,
+        "bangumi_comments": 32,
+        "bangumi_character_id": 60527,
+        "bangumi_url": "https://bgm.tv/character/60527",
+        "combined_favourites": 502,
+        "role_edge_count": 1,
+        "descriptors": [
+          "energetic",
+          "optimistic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.85123025,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1026,19 +128,63 @@
       {
         "character_id": 211768,
         "name": "Haru Urara",
-        "native_name": "ハルウララ",
         "anime": "Umamusume: Pretty Derby",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b211768-xdQZ0DeCRaB4.png",
         "site_url": "https://anilist.co/character/211768",
-        "anime_url": "https://myanimelist.net/anime/35249",
-        "role": "SUPPORTING",
         "favourites": 417,
-        "row_weight": 2.6524482,
+        "anilist_favourites": 417,
+        "bangumi_collects": 85,
+        "bangumi_comments": 32,
+        "bangumi_character_id": 60527,
+        "bangumi_url": "https://bgm.tv/character/60527",
+        "combined_favourites": 502,
+        "role_edge_count": 1,
+        "descriptors": [
+          "energetic",
+          "optimistic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.85123025,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 1501,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1552 +11,98 @@
     "kasai mina",
     "mina kasai"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/mina_kasai.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 2.979336311,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 2.979336311,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 129.154512,
-      "normalized_entanglement": 0.33634,
-      "top5_mass_percent": 9.906119,
-      "top10_mass_percent": 16.952433
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5432381212,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "angry / furious / enraged / mad / +3",
-        "descriptor_index": 240,
-        "amplitude": 0.0862580224,
-        "abs_amplitude": 0.0862580224,
-        "raw_amplitude": 0.2587740672,
-        "percent": 25.877407,
-        "raw_percent": 25.877407,
-        "coverage_percent": 25.877407,
-        "member_count": 7,
-        "members": [
-          "angry",
-          "furious",
-          "enraged",
-          "mad",
-          "ill-tempered",
-          "berserk",
-          "spiteful"
-        ],
+        "descriptor": "tsundere",
+        "amplitude": 0.5674114742,
+        "abs_amplitude": 0.5674114742,
+        "percent": 50.0,
+        "weighted_support": 2.54323812,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 23491,
             "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
             "anime": "Heaven's Lost Property",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
             "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.2587740673,
-            "similarity": 0.999999,
-            "matched_descriptor": "angry"
+            "combined_favourites": 236
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "quick-tempered / hot-headed / bad-tempered / irritable / +6",
-        "descriptor_index": 6081,
-        "amplitude": 0.0402462549,
-        "abs_amplitude": 0.0402462549,
-        "raw_amplitude": 0.1207387647,
-        "percent": 12.073876,
-        "raw_percent": 12.073876,
-        "coverage_percent": 37.951283,
-        "member_count": 10,
-        "members": [
-          "quick-tempered",
-          "hot-headed",
-          "bad-tempered",
-          "irritable",
-          "annoyed-prone",
-          "hot-tempered",
-          "prone-to-anger",
-          "cranky",
-          "short-temperedness",
-          "short-tempered"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.5674114742,
+        "abs_amplitude": 0.5674114742,
+        "percent": 50.0,
+        "weighted_support": 2.54323812,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 23491,
             "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
             "anime": "Heaven's Lost Property",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
             "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.1207387648,
-            "similarity": 0.889757,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0315279256,
-        "abs_amplitude": 0.0315279256,
-        "raw_amplitude": 0.0945837767,
-        "percent": 9.458378,
-        "raw_percent": 9.458378,
-        "coverage_percent": 47.409661,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0945837766,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "karate-chopper",
-        "descriptor_index": 4098,
-        "amplitude": 0.0224387226,
-        "abs_amplitude": 0.0224387226,
-        "raw_amplitude": 0.0673161677,
-        "percent": 6.731617,
-        "raw_percent": 6.731617,
-        "coverage_percent": 54.141278,
-        "member_count": 1,
-        "members": [
-          "karate-chopper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0673161677,
-            "similarity": 1.0,
-            "matched_descriptor": "karate-chopper"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "tsundere-like",
-        "descriptor_index": 8027,
-        "amplitude": 0.0214130625,
-        "abs_amplitude": 0.0214130625,
-        "raw_amplitude": 0.0642391875,
-        "percent": 6.423919,
-        "raw_percent": 6.423919,
-        "coverage_percent": 60.565196,
-        "member_count": 1,
-        "members": [
-          "tsundere-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0642391875,
-            "similarity": 0.993592,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "displeased / dissatisfied / grumpy / sad / +4",
-        "descriptor_index": 1874,
-        "amplitude": 0.0208369558,
-        "abs_amplitude": 0.0208369558,
-        "raw_amplitude": 0.0625108675,
-        "percent": 6.251087,
-        "raw_percent": 6.251087,
-        "coverage_percent": 66.816283,
-        "member_count": 8,
-        "members": [
-          "displeased",
-          "dissatisfied",
-          "grumpy",
-          "sad",
-          "aggravated",
-          "impatient",
-          "grouchy",
-          "irritated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0625108675,
-            "similarity": 0.886754,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "insane / deranged / crazy / daft / +1",
-        "descriptor_index": 3909,
-        "amplitude": 0.0156584109,
-        "abs_amplitude": 0.0156584109,
-        "raw_amplitude": 0.0469752326,
-        "percent": 4.697523,
-        "raw_percent": 4.697523,
-        "coverage_percent": 71.513806,
-        "member_count": 5,
-        "members": [
-          "insane",
-          "deranged",
-          "crazy",
-          "daft",
-          "unhinged"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0469752324,
-            "similarity": 0.880711,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "aggressive / offensive / belligerent / vicious / +2",
-        "descriptor_index": 124,
-        "amplitude": 0.0145833192,
-        "abs_amplitude": 0.0145833192,
-        "raw_amplitude": 0.0437499575,
-        "percent": 4.374996,
-        "raw_percent": 4.374996,
-        "coverage_percent": 75.888802,
-        "member_count": 6,
-        "members": [
-          "aggressive",
-          "offensive",
-          "belligerent",
-          "vicious",
-          "pushy",
-          "combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0437499576,
-            "similarity": 0.889977,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "indignant / resentful / bitter",
-        "descriptor_index": 3844,
-        "amplitude": 0.0121444092,
-        "abs_amplitude": 0.0121444092,
-        "raw_amplitude": 0.0364332276,
-        "percent": 3.643323,
-        "raw_percent": 3.643323,
-        "coverage_percent": 79.532125,
-        "member_count": 3,
-        "members": [
-          "indignant",
-          "resentful",
-          "bitter"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0364332276,
-            "similarity": 0.892353,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "romantic / amorous / loving / caring",
-        "descriptor_index": 6354,
-        "amplitude": 0.0095173117,
-        "abs_amplitude": 0.0095173117,
-        "raw_amplitude": 0.0285519352,
-        "percent": 2.855194,
-        "raw_percent": 2.855194,
-        "coverage_percent": 82.387318,
-        "member_count": 4,
-        "members": [
-          "romantic",
-          "amorous",
-          "loving",
-          "caring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0285519351,
-            "similarity": 0.885616,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.0075683945,
-        "abs_amplitude": 0.0075683945,
-        "raw_amplitude": 0.0227051835,
-        "percent": 2.270518,
-        "raw_percent": 2.270518,
-        "coverage_percent": 84.657837,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0227051835,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0073089664,
-        "abs_amplitude": 0.0073089664,
-        "raw_amplitude": 0.0219268992,
-        "percent": 2.19269,
-        "raw_percent": 2.19269,
-        "coverage_percent": 86.850527,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0219268992,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "contemptible / unpleasant",
-        "descriptor_index": 1396,
-        "amplitude": 0.0052874481,
-        "abs_amplitude": 0.0052874481,
-        "raw_amplitude": 0.0158623444,
-        "percent": 1.586234,
-        "raw_percent": 1.586234,
-        "coverage_percent": 88.436761,
-        "member_count": 2,
-        "members": [
-          "contemptible",
-          "unpleasant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0158623444,
-            "similarity": 0.86583,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0045044982,
-        "abs_amplitude": 0.0045044982,
-        "raw_amplitude": 0.0135134946,
-        "percent": 1.351349,
-        "raw_percent": 1.351349,
-        "coverage_percent": 89.788111,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0135134946,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0040896245,
-        "abs_amplitude": 0.0040896245,
-        "raw_amplitude": 0.0122688736,
-        "percent": 1.226887,
-        "raw_percent": 1.226887,
-        "coverage_percent": 91.014998,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0122688736,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "stand-offish / standoffish",
-        "descriptor_index": 7221,
-        "amplitude": 0.0033243524,
-        "abs_amplitude": 0.0033243524,
-        "raw_amplitude": 0.0099730573,
-        "percent": 0.997306,
-        "raw_percent": 0.997306,
-        "coverage_percent": 92.012304,
-        "member_count": 2,
-        "members": [
-          "stand-offish",
-          "standoffish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0099730573,
-            "similarity": 0.870443,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "coquettish",
-        "descriptor_index": 1440,
-        "amplitude": 0.0028188466,
-        "abs_amplitude": 0.0028188466,
-        "raw_amplitude": 0.0084565399,
-        "percent": 0.845654,
-        "raw_percent": 0.845654,
-        "coverage_percent": 92.857958,
-        "member_count": 1,
-        "members": [
-          "coquettish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0084565399,
-            "similarity": 0.87238,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "friendlier",
-        "descriptor_index": 2820,
-        "amplitude": 0.0025979501,
-        "abs_amplitude": 0.0025979501,
-        "raw_amplitude": 0.0077938503,
-        "percent": 0.779385,
-        "raw_percent": 0.779385,
-        "coverage_percent": 93.637343,
-        "member_count": 1,
-        "members": [
-          "friendlier"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0077938503,
-            "similarity": 0.887154,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "passive-aggressive",
-        "descriptor_index": 5487,
-        "amplitude": 0.0025794582,
-        "abs_amplitude": 0.0025794582,
-        "raw_amplitude": 0.0077383747,
-        "percent": 0.773837,
-        "raw_percent": 0.773837,
-        "coverage_percent": 94.41118,
-        "member_count": 1,
-        "members": [
-          "passive-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0077383747,
-            "similarity": 0.874659,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "cold-blooded",
-        "descriptor_index": 1235,
-        "amplitude": 0.0024991693,
-        "abs_amplitude": 0.0024991693,
-        "raw_amplitude": 0.0074975079,
-        "percent": 0.749751,
-        "raw_percent": 0.749751,
-        "coverage_percent": 95.160931,
-        "member_count": 1,
-        "members": [
-          "cold-blooded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0074975079,
-            "similarity": 0.873356,
-            "matched_descriptor": "angry"
+            "combined_favourites": 236
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "angry / furious / enraged / mad / +3",
-        "descriptor_index": 240,
-        "amplitude": 0.0862580224,
-        "abs_amplitude": 0.0862580224,
-        "raw_amplitude": 0.2587740672,
-        "percent": 25.877407,
-        "raw_percent": 25.877407,
-        "coverage_percent": 25.877407,
-        "member_count": 7,
-        "members": [
-          "angry",
-          "furious",
-          "enraged",
-          "mad",
-          "ill-tempered",
-          "berserk",
-          "spiteful"
-        ],
+        "step": 1,
+        "descriptor": "tsundere",
+        "weighted_support": 2.54323812,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.2587740673,
-            "similarity": 0.999999,
-            "matched_descriptor": "angry"
-          }
-        ]
+        "fit_percent": 88.119473,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "quick-tempered / hot-headed / bad-tempered / irritable / +6",
-        "descriptor_index": 6081,
-        "amplitude": 0.0402462549,
-        "abs_amplitude": 0.0402462549,
-        "raw_amplitude": 0.1207387647,
-        "percent": 12.073876,
-        "raw_percent": 12.073876,
-        "coverage_percent": 37.951283,
-        "member_count": 10,
-        "members": [
-          "quick-tempered",
-          "hot-headed",
-          "bad-tempered",
-          "irritable",
-          "annoyed-prone",
-          "hot-tempered",
-          "prone-to-anger",
-          "cranky",
-          "short-temperedness",
-          "short-tempered"
-        ],
+        "step": 2,
+        "descriptor": "jealous",
+        "weighted_support": 2.54323812,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.1207387648,
-            "similarity": 0.889757,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0315279256,
-        "abs_amplitude": 0.0315279256,
-        "raw_amplitude": 0.0945837767,
-        "percent": 9.458378,
-        "raw_percent": 9.458378,
-        "coverage_percent": 47.409661,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0945837766,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "karate-chopper",
-        "descriptor_index": 4098,
-        "amplitude": 0.0224387226,
-        "abs_amplitude": 0.0224387226,
-        "raw_amplitude": 0.0673161677,
-        "percent": 6.731617,
-        "raw_percent": 6.731617,
-        "coverage_percent": 54.141278,
-        "member_count": 1,
-        "members": [
-          "karate-chopper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0673161677,
-            "similarity": 1.0,
-            "matched_descriptor": "karate-chopper"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "tsundere-like",
-        "descriptor_index": 8027,
-        "amplitude": 0.0214130625,
-        "abs_amplitude": 0.0214130625,
-        "raw_amplitude": 0.0642391875,
-        "percent": 6.423919,
-        "raw_percent": 6.423919,
-        "coverage_percent": 60.565196,
-        "member_count": 1,
-        "members": [
-          "tsundere-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0642391875,
-            "similarity": 0.993592,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "displeased / dissatisfied / grumpy / sad / +4",
-        "descriptor_index": 1874,
-        "amplitude": 0.0208369558,
-        "abs_amplitude": 0.0208369558,
-        "raw_amplitude": 0.0625108675,
-        "percent": 6.251087,
-        "raw_percent": 6.251087,
-        "coverage_percent": 66.816283,
-        "member_count": 8,
-        "members": [
-          "displeased",
-          "dissatisfied",
-          "grumpy",
-          "sad",
-          "aggravated",
-          "impatient",
-          "grouchy",
-          "irritated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0625108675,
-            "similarity": 0.886754,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "insane / deranged / crazy / daft / +1",
-        "descriptor_index": 3909,
-        "amplitude": 0.0156584109,
-        "abs_amplitude": 0.0156584109,
-        "raw_amplitude": 0.0469752326,
-        "percent": 4.697523,
-        "raw_percent": 4.697523,
-        "coverage_percent": 71.513806,
-        "member_count": 5,
-        "members": [
-          "insane",
-          "deranged",
-          "crazy",
-          "daft",
-          "unhinged"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0469752324,
-            "similarity": 0.880711,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "aggressive / offensive / belligerent / vicious / +2",
-        "descriptor_index": 124,
-        "amplitude": 0.0145833192,
-        "abs_amplitude": 0.0145833192,
-        "raw_amplitude": 0.0437499575,
-        "percent": 4.374996,
-        "raw_percent": 4.374996,
-        "coverage_percent": 75.888802,
-        "member_count": 6,
-        "members": [
-          "aggressive",
-          "offensive",
-          "belligerent",
-          "vicious",
-          "pushy",
-          "combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0437499576,
-            "similarity": 0.889977,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "indignant / resentful / bitter",
-        "descriptor_index": 3844,
-        "amplitude": 0.0121444092,
-        "abs_amplitude": 0.0121444092,
-        "raw_amplitude": 0.0364332276,
-        "percent": 3.643323,
-        "raw_percent": 3.643323,
-        "coverage_percent": 79.532125,
-        "member_count": 3,
-        "members": [
-          "indignant",
-          "resentful",
-          "bitter"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0364332276,
-            "similarity": 0.892353,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "romantic / amorous / loving / caring",
-        "descriptor_index": 6354,
-        "amplitude": 0.0095173117,
-        "abs_amplitude": 0.0095173117,
-        "raw_amplitude": 0.0285519352,
-        "percent": 2.855194,
-        "raw_percent": 2.855194,
-        "coverage_percent": 82.387318,
-        "member_count": 4,
-        "members": [
-          "romantic",
-          "amorous",
-          "loving",
-          "caring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0285519351,
-            "similarity": 0.885616,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.0075683945,
-        "abs_amplitude": 0.0075683945,
-        "raw_amplitude": 0.0227051835,
-        "percent": 2.270518,
-        "raw_percent": 2.270518,
-        "coverage_percent": 84.657837,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0227051835,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0073089664,
-        "abs_amplitude": 0.0073089664,
-        "raw_amplitude": 0.0219268992,
-        "percent": 2.19269,
-        "raw_percent": 2.19269,
-        "coverage_percent": 86.850527,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0219268992,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "contemptible / unpleasant",
-        "descriptor_index": 1396,
-        "amplitude": 0.0052874481,
-        "abs_amplitude": 0.0052874481,
-        "raw_amplitude": 0.0158623444,
-        "percent": 1.586234,
-        "raw_percent": 1.586234,
-        "coverage_percent": 88.436761,
-        "member_count": 2,
-        "members": [
-          "contemptible",
-          "unpleasant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0158623444,
-            "similarity": 0.86583,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0045044982,
-        "abs_amplitude": 0.0045044982,
-        "raw_amplitude": 0.0135134946,
-        "percent": 1.351349,
-        "raw_percent": 1.351349,
-        "coverage_percent": 89.788111,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0135134946,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0040896245,
-        "abs_amplitude": 0.0040896245,
-        "raw_amplitude": 0.0122688736,
-        "percent": 1.226887,
-        "raw_percent": 1.226887,
-        "coverage_percent": 91.014998,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0122688736,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "stand-offish / standoffish",
-        "descriptor_index": 7221,
-        "amplitude": 0.0033243524,
-        "abs_amplitude": 0.0033243524,
-        "raw_amplitude": 0.0099730573,
-        "percent": 0.997306,
-        "raw_percent": 0.997306,
-        "coverage_percent": 92.012304,
-        "member_count": 2,
-        "members": [
-          "stand-offish",
-          "standoffish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0099730573,
-            "similarity": 0.870443,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "coquettish",
-        "descriptor_index": 1440,
-        "amplitude": 0.0028188466,
-        "abs_amplitude": 0.0028188466,
-        "raw_amplitude": 0.0084565399,
-        "percent": 0.845654,
-        "raw_percent": 0.845654,
-        "coverage_percent": 92.857958,
-        "member_count": 1,
-        "members": [
-          "coquettish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0084565399,
-            "similarity": 0.87238,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "friendlier",
-        "descriptor_index": 2820,
-        "amplitude": 0.0025979501,
-        "abs_amplitude": 0.0025979501,
-        "raw_amplitude": 0.0077938503,
-        "percent": 0.779385,
-        "raw_percent": 0.779385,
-        "coverage_percent": 93.637343,
-        "member_count": 1,
-        "members": [
-          "friendlier"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0077938503,
-            "similarity": 0.887154,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "passive-aggressive",
-        "descriptor_index": 5487,
-        "amplitude": 0.0025794582,
-        "abs_amplitude": 0.0025794582,
-        "raw_amplitude": 0.0077383747,
-        "percent": 0.773837,
-        "raw_percent": 0.773837,
-        "coverage_percent": 94.41118,
-        "member_count": 1,
-        "members": [
-          "passive-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0077383747,
-            "similarity": 0.874659,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "cold-blooded",
-        "descriptor_index": 1235,
-        "amplitude": 0.0024991693,
-        "abs_amplitude": 0.0024991693,
-        "raw_amplitude": 0.0074975079,
-        "percent": 0.749751,
-        "raw_percent": 0.749751,
-        "coverage_percent": 95.160931,
-        "member_count": 1,
-        "members": [
-          "cold-blooded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23491,
-            "name": "Sohara Mitsuki",
-            "native_name": "見月そはら",
-            "anime": "Heaven's Lost Property",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
-            "site_url": "https://anilist.co/character/23491",
-            "anime_url": "https://myanimelist.net/anime/5958",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0074975079,
-            "similarity": 0.873356,
-            "matched_descriptor": "angry"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 23491,
         "name": "Sohara Mitsuki",
-        "native_name": "見月そはら",
         "anime": "Heaven's Lost Property",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
         "site_url": "https://anilist.co/character/23491",
-        "anime_url": "https://myanimelist.net/anime/5958",
-        "role": "MAIN",
         "favourites": 150,
-        "row_weight": 2.45301444,
+        "anilist_favourites": 150,
+        "bangumi_collects": 86,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 10694,
+        "bangumi_url": "https://bgm.tv/character/10694",
+        "combined_favourites": 236,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "tsundere"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.54323812,
+        "row_weight": 2.54323812,
+        "unweighted_row_norm": 1.76238946,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1566,19 +112,68 @@
       {
         "character_id": 23491,
         "name": "Sohara Mitsuki",
-        "native_name": "見月そはら",
         "anime": "Heaven's Lost Property",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23491-8X5P0t25wvAO.png",
         "site_url": "https://anilist.co/character/23491",
-        "anime_url": "https://myanimelist.net/anime/5958",
-        "role": "MAIN",
         "favourites": 150,
-        "row_weight": 2.45301444,
+        "anilist_favourites": 150,
+        "bangumi_collects": 86,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 10694,
+        "bangumi_url": "https://bgm.tv/character/10694",
+        "combined_favourites": 236,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "tsundere"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.54323812,
+        "row_weight": 2.54323812,
+        "unweighted_row_norm": 1.76238946,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5432381212,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

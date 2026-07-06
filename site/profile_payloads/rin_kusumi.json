@@ -11,808 +11,98 @@
     "kusumi rin",
     "rin kusumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/rin_kusumi.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.9155885509,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.9155885509,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 173.421344,
-      "normalized_entanglement": 0.451618,
-      "top5_mass_percent": 6.967832,
-      "top10_mass_percent": 12.3386
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4828987039,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.2011622463,
-        "abs_amplitude": 0.2011622463,
-        "raw_amplitude": 0.603486739,
-        "percent": 60.348674,
-        "raw_percent": 60.348674,
-        "coverage_percent": 60.348674,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.5392327158,
+        "abs_amplitude": 0.5392327158,
+        "percent": 50.0,
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 200960,
             "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
             "anime": "Slow Loop",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
             "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.6034867391,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
+            "combined_favourites": 174
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "fly-fisher",
-        "descriptor_index": 2628,
-        "amplitude": 0.036476097,
-        "abs_amplitude": 0.036476097,
-        "raw_amplitude": 0.1094282911,
-        "percent": 10.942829,
-        "raw_percent": 10.942829,
-        "coverage_percent": 71.291503,
-        "member_count": 1,
-        "members": [
-          "fly-fisher"
-        ],
+        "descriptor": "innocent",
+        "amplitude": 0.5392327158,
+        "abs_amplitude": 0.5392327158,
+        "percent": 50.0,
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 200960,
             "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
             "anime": "Slow Loop",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
             "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.1094282911,
-            "similarity": 1.0,
-            "matched_descriptor": "fly-fisher"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.021770782,
-        "abs_amplitude": 0.021770782,
-        "raw_amplitude": 0.065312346,
-        "percent": 6.531235,
-        "raw_percent": 6.531235,
-        "coverage_percent": 77.822738,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0653123459,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0165429767,
-        "abs_amplitude": 0.0165429767,
-        "raw_amplitude": 0.0496289301,
-        "percent": 4.962893,
-        "raw_percent": 4.962893,
-        "coverage_percent": 82.785631,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0496289301,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0129930779,
-        "abs_amplitude": 0.0129930779,
-        "raw_amplitude": 0.0389792337,
-        "percent": 3.897923,
-        "raw_percent": 3.897923,
-        "coverage_percent": 86.683554,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0389792337,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0071673406,
-        "abs_amplitude": 0.0071673406,
-        "raw_amplitude": 0.0215020218,
-        "percent": 2.150202,
-        "raw_percent": 2.150202,
-        "coverage_percent": 88.833756,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0215020218,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0069778983,
-        "abs_amplitude": 0.0069778983,
-        "raw_amplitude": 0.0209336949,
-        "percent": 2.093369,
-        "raw_percent": 2.093369,
-        "coverage_percent": 90.927126,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0209336949,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0065816057,
-        "abs_amplitude": 0.0065816057,
-        "raw_amplitude": 0.0197448171,
-        "percent": 1.974482,
-        "raw_percent": 1.974482,
-        "coverage_percent": 92.901607,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0197448171,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0061237332,
-        "abs_amplitude": 0.0061237332,
-        "raw_amplitude": 0.0183711996,
-        "percent": 1.83712,
-        "raw_percent": 1.83712,
-        "coverage_percent": 94.738727,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0183711996,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0046855822,
-        "abs_amplitude": 0.0046855822,
-        "raw_amplitude": 0.0140567467,
-        "percent": 1.405675,
-        "raw_percent": 1.405675,
-        "coverage_percent": 96.144402,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0140567467,
-            "similarity": 0.885163,
-            "matched_descriptor": "shy"
+            "combined_favourites": 174
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.2011622463,
-        "abs_amplitude": 0.2011622463,
-        "raw_amplitude": 0.603486739,
-        "percent": 60.348674,
-        "raw_percent": 60.348674,
-        "coverage_percent": 60.348674,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.6034867391,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 92.724344,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "fly-fisher",
-        "descriptor_index": 2628,
-        "amplitude": 0.036476097,
-        "abs_amplitude": 0.036476097,
-        "raw_amplitude": 0.1094282911,
-        "percent": 10.942829,
-        "raw_percent": 10.942829,
-        "coverage_percent": 71.291503,
-        "member_count": 1,
-        "members": [
-          "fly-fisher"
-        ],
+        "step": 2,
+        "descriptor": "innocent",
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.1094282911,
-            "similarity": 1.0,
-            "matched_descriptor": "fly-fisher"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.021770782,
-        "abs_amplitude": 0.021770782,
-        "raw_amplitude": 0.065312346,
-        "percent": 6.531235,
-        "raw_percent": 6.531235,
-        "coverage_percent": 77.822738,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0653123459,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0165429767,
-        "abs_amplitude": 0.0165429767,
-        "raw_amplitude": 0.0496289301,
-        "percent": 4.962893,
-        "raw_percent": 4.962893,
-        "coverage_percent": 82.785631,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0496289301,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0129930779,
-        "abs_amplitude": 0.0129930779,
-        "raw_amplitude": 0.0389792337,
-        "percent": 3.897923,
-        "raw_percent": 3.897923,
-        "coverage_percent": 86.683554,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0389792337,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0071673406,
-        "abs_amplitude": 0.0071673406,
-        "raw_amplitude": 0.0215020218,
-        "percent": 2.150202,
-        "raw_percent": 2.150202,
-        "coverage_percent": 88.833756,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0215020218,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0069778983,
-        "abs_amplitude": 0.0069778983,
-        "raw_amplitude": 0.0209336949,
-        "percent": 2.093369,
-        "raw_percent": 2.093369,
-        "coverage_percent": 90.927126,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0209336949,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0065816057,
-        "abs_amplitude": 0.0065816057,
-        "raw_amplitude": 0.0197448171,
-        "percent": 1.974482,
-        "raw_percent": 1.974482,
-        "coverage_percent": 92.901607,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0197448171,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0061237332,
-        "abs_amplitude": 0.0061237332,
-        "raw_amplitude": 0.0183711996,
-        "percent": 1.83712,
-        "raw_percent": 1.83712,
-        "coverage_percent": 94.738727,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0183711996,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0046855822,
-        "abs_amplitude": 0.0046855822,
-        "raw_amplitude": 0.0140567467,
-        "percent": 1.405675,
-        "raw_percent": 1.405675,
-        "coverage_percent": 96.144402,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200960,
-            "name": "Hiyori Minagi",
-            "native_name": "海凪ひより",
-            "anime": "Slow Loop",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
-            "site_url": "https://anilist.co/character/200960",
-            "anime_url": "https://myanimelist.net/anime/45425",
-            "role": "MAIN",
-            "favourites": 112,
-            "row_weight": 2.39319615,
-            "projection": 0.0140567467,
-            "similarity": 0.885163,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 200960,
         "name": "Hiyori Minagi",
-        "native_name": "海凪ひより",
         "anime": "Slow Loop",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
         "site_url": "https://anilist.co/character/200960",
-        "anime_url": "https://myanimelist.net/anime/45425",
-        "role": "MAIN",
         "favourites": 112,
-        "row_weight": 2.39319615,
+        "anilist_favourites": 112,
+        "bangumi_collects": 62,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 99400,
+        "bangumi_url": "https://bgm.tv/character/99400",
+        "combined_favourites": 174,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4828987,
+        "row_weight": 2.4828987,
+        "unweighted_row_norm": 1.85448689,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -822,19 +112,68 @@
       {
         "character_id": 200960,
         "name": "Hiyori Minagi",
-        "native_name": "海凪ひより",
         "anime": "Slow Loop",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200960-LX7duE9rhNgW.png",
         "site_url": "https://anilist.co/character/200960",
-        "anime_url": "https://myanimelist.net/anime/45425",
-        "role": "MAIN",
         "favourites": 112,
-        "row_weight": 2.39319615,
+        "anilist_favourites": 112,
+        "bangumi_collects": 62,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 99400,
+        "bangumi_url": "https://bgm.tv/character/99400",
+        "combined_favourites": 174,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4828987,
+        "row_weight": 2.4828987,
+        "unweighted_row_norm": 1.85448689,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4828987039,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

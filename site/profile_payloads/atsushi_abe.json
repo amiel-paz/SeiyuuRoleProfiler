@@ -11,1692 +11,1154 @@
     "abe atsushi",
     "atsushi abe"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/atsushi_abe.json",
+  "sv1_mass_percent": 77.759193,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 3,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.6092350685,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.6092350685,
-        "mass_percent": 73.39614
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.7895341401,
-        "mass_percent": 18.203834
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.5742143579,
-        "mass_percent": 8.400026
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 219.360942,
-      "normalized_entanglement": 0.571252,
-      "top5_mass_percent": 6.003539,
-      "top10_mass_percent": 10.447614
-    },
-    "character_participation": {
-      "effective_count": 2.127675,
-      "normalized_entanglement": 0.709225,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.934381,
-      "semantic_spread": 2.12594,
-      "axis_concentration_percent": 82.790812,
-      "lane_count": 1.582788,
-      "direction_range": 0.949964,
-      "direction_spread": 1.125906,
-      "direction_axis_concentration_percent": 71.188516,
-      "direction_lane_count": 1.822948
-    },
-    "explained_sv_l2_percent": 73.39614,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.3021113126,
+    "mass_percent": 85.898391,
+    "descriptor_fit_percent": 95.222555,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0470131501,
-        "abs_amplitude": 0.0470131501,
-        "raw_amplitude": 0.1410394503,
-        "percent": 15.945786,
-        "raw_percent": 16.50357,
-        "coverage_percent": 15.945786,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "astute",
-          "clever",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
+        "descriptor": "justeous",
+        "amplitude": 0.3835940678,
+        "abs_amplitude": 0.3835940678,
+        "percent": 34.741466,
+        "weighted_support": 2.93834197,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 13700,
             "name": "Touma Kamijou",
-            "native_name": "上条当麻",
             "anime": "A Certain Magical Index",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
             "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.1410394503,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
+            "combined_favourites": 2066
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "cynical / unbelieving / doubting / pessimistic",
-        "descriptor_index": 1565,
-        "amplitude": 0.0209805565,
-        "abs_amplitude": 0.0209805565,
-        "raw_amplitude": 0.0629416696,
-        "percent": 7.116125,
-        "raw_percent": 7.365047,
-        "coverage_percent": 23.061912,
-        "member_count": 4,
-        "members": [
-          "cynical",
-          "unbelieving",
-          "doubting",
-          "pessimistic"
-        ],
+        "descriptor": "idealistic",
+        "amplitude": 0.3948268601,
+        "abs_amplitude": 0.3948268601,
+        "percent": 35.758801,
+        "weighted_support": 2.93834197,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 13700,
             "name": "Touma Kamijou",
-            "native_name": "上条当麻",
             "anime": "A Certain Magical Index",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
             "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0629416696,
-            "similarity": 1.0,
-            "matched_descriptor": "cynical"
+            "combined_favourites": 2066
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.0156117153,
-        "abs_amplitude": 0.0156117153,
-        "raw_amplitude": 0.046835146,
-        "percent": 5.295137,
-        "raw_percent": 5.480361,
-        "coverage_percent": 28.357049,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
+        "descriptor": "cynical",
+        "amplitude": 0.3257180569,
+        "abs_amplitude": 0.3257180569,
+        "percent": 29.499733,
+        "weighted_support": 2.93834197,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.0468351461,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "polite / openhearted / well-mannered / courteous / +8",
-        "descriptor_index": 5689,
-        "amplitude": 0.0152029494,
-        "abs_amplitude": 0.0152029494,
-        "raw_amplitude": 0.0375203555,
-        "percent": 5.156493,
-        "raw_percent": 4.390401,
-        "coverage_percent": 33.513542,
-        "member_count": 12,
-        "members": [
-          "polite",
-          "openhearted",
-          "well-mannered",
-          "courteous",
-          "respectful",
-          "formal",
-          "pleasant",
-          "gentle",
-          "good",
-          "admirable",
-          "warm",
-          "soft"
-        ],
-        "support": 2,
-        "effective_support": 1.215576,
-        "support_factor": 0.405192,
-        "top_characters": [
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.033830456,
-            "similarity": 1.0,
-            "matched_descriptor": "polite"
-          },
+        "supporting_characters": [
           {
             "character_id": 13700,
             "name": "Touma Kamijou",
-            "native_name": "上条当麻",
             "anime": "A Certain Magical Index",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
             "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0036898995,
-            "similarity": 0.882834,
-            "matched_descriptor": "justeous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "menacing / intimidating / ominous / fearsome / +3",
-        "descriptor_index": 4735,
-        "amplitude": 0.0104758414,
-        "abs_amplitude": 0.0104758414,
-        "raw_amplitude": 0.0314275242,
-        "percent": 3.553166,
-        "raw_percent": 3.677456,
-        "coverage_percent": 37.066708,
-        "member_count": 7,
-        "members": [
-          "menacing",
-          "intimidating",
-          "ominous",
-          "fearsome",
-          "threatening",
-          "imposing",
-          "formidable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.0314275241,
-            "similarity": 1.0,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "principled / moral / honorable / compliant / +1",
-        "descriptor_index": 5864,
-        "amplitude": 0.0086794393,
-        "abs_amplitude": 0.0086794393,
-        "raw_amplitude": 0.0235410727,
-        "percent": 2.943867,
-        "raw_percent": 2.754632,
-        "coverage_percent": 40.010575,
-        "member_count": 5,
-        "members": [
-          "principled",
-          "moral",
-          "honorable",
-          "compliant",
-          "by-the-book"
-        ],
-        "support": 2,
-        "effective_support": 1.10608,
-        "support_factor": 0.368693,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0223521562,
-            "similarity": 0.889369,
-            "matched_descriptor": "dogmatic / justeous"
-          },
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.0011889164,
-            "similarity": 0.887801,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sensible / prudent / careful / deliberative / +2",
-        "descriptor_index": 6701,
-        "amplitude": 0.0086473658,
-        "abs_amplitude": 0.0086473658,
-        "raw_amplitude": 0.0232450477,
-        "percent": 2.932989,
-        "raw_percent": 2.719993,
-        "coverage_percent": 42.943564,
-        "member_count": 6,
-        "members": [
-          "sensible",
-          "prudent",
-          "careful",
-          "deliberative",
-          "reasonable",
-          "no-nonsense"
-        ],
-        "support": 2,
-        "effective_support": 1.116027,
-        "support_factor": 0.372009,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0219663844,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart / justeous"
-          },
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.0012786632,
-            "similarity": 0.881233,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "idealistic",
-        "descriptor_index": 3687,
-        "amplitude": 0.0086004854,
-        "abs_amplitude": 0.0086004854,
-        "raw_amplitude": 0.0258014562,
-        "percent": 2.917088,
-        "raw_percent": 3.019128,
-        "coverage_percent": 45.860652,
-        "member_count": 1,
-        "members": [
-          "idealistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0258014562,
-            "similarity": 1.0,
-            "matched_descriptor": "idealistic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "dogmatic",
-        "descriptor_index": 1909,
-        "amplitude": 0.0086004718,
-        "abs_amplitude": 0.0086004718,
-        "raw_amplitude": 0.0258014155,
-        "percent": 2.917084,
-        "raw_percent": 3.019123,
-        "coverage_percent": 48.777736,
-        "member_count": 1,
-        "members": [
-          "dogmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0258014155,
-            "similarity": 1.0,
-            "matched_descriptor": "dogmatic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "righteous / virtuous / upstanding",
-        "descriptor_index": 6317,
-        "amplitude": 0.0074700604,
-        "abs_amplitude": 0.0074700604,
-        "raw_amplitude": 0.0212771237,
-        "percent": 2.533674,
-        "raw_percent": 2.489718,
-        "coverage_percent": 51.31141,
-        "member_count": 3,
-        "members": [
-          "righteous",
-          "virtuous",
-          "upstanding"
-        ],
-        "support": 2,
-        "effective_support": 1.053252,
-        "support_factor": 0.351084,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0207249066,
-            "similarity": 0.921989,
-            "matched_descriptor": "justeous"
-          },
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.0005522171,
-            "similarity": 0.883665,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "fair-minded / blunt / direct",
-        "descriptor_index": 2371,
-        "amplitude": 0.0065532038,
-        "abs_amplitude": 0.0065532038,
-        "raw_amplitude": 0.0194846183,
-        "percent": 2.222697,
-        "raw_percent": 2.27997,
-        "coverage_percent": 53.534107,
-        "member_count": 3,
-        "members": [
-          "fair-minded",
-          "blunt",
-          "direct"
-        ],
-        "support": 2,
-        "effective_support": 1.008981,
-        "support_factor": 0.336327,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0193975112,
-            "similarity": 0.918581,
-            "matched_descriptor": "justeous"
-          },
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 8.71072e-05,
-            "similarity": 0.867524,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "insecure / low self-esteem / self-consciousness-free / self-doubting",
-        "descriptor_index": 3916,
-        "amplitude": 0.0060670761,
-        "abs_amplitude": 0.0060670761,
-        "raw_amplitude": 0.0182012282,
-        "percent": 2.057814,
-        "raw_percent": 2.129796,
-        "coverage_percent": 55.59192,
-        "member_count": 4,
-        "members": [
-          "insecure",
-          "low self-esteem",
-          "self-consciousness-free",
-          "self-doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0182012282,
-            "similarity": 0.881441,
-            "matched_descriptor": "cynical"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0060550059,
-        "abs_amplitude": 0.0060550059,
-        "raw_amplitude": 0.0181650178,
-        "percent": 2.05372,
-        "raw_percent": 2.125559,
-        "coverage_percent": 57.64564,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0181650178,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0058005083,
-        "abs_amplitude": 0.0058005083,
-        "raw_amplitude": 0.017401525,
-        "percent": 1.9674,
-        "raw_percent": 2.036219,
-        "coverage_percent": 59.61304,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.017401525,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "skeptical / doubtful / suspicious / indecisive",
-        "descriptor_index": 6902,
-        "amplitude": 0.0057576997,
-        "abs_amplitude": 0.0057576997,
-        "raw_amplitude": 0.0172730991,
-        "percent": 1.95288,
-        "raw_percent": 2.021192,
-        "coverage_percent": 61.56592,
-        "member_count": 4,
-        "members": [
-          "skeptical",
-          "doubtful",
-          "suspicious",
-          "indecisive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0172730991,
-            "similarity": 0.867733,
-            "matched_descriptor": "cynical"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0042115325,
-        "abs_amplitude": 0.0042115325,
-        "raw_amplitude": 0.0126345976,
-        "percent": 1.428456,
-        "raw_percent": 1.478423,
-        "coverage_percent": 62.994376,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0126345976,
-            "similarity": 0.884867,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "bullheaded / willful",
-        "descriptor_index": 862,
-        "amplitude": 0.0040732736,
-        "abs_amplitude": 0.0040732736,
-        "raw_amplitude": 0.0122198209,
-        "percent": 1.381561,
-        "raw_percent": 1.429888,
-        "coverage_percent": 64.375937,
-        "member_count": 2,
-        "members": [
-          "bullheaded",
-          "willful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0122198209,
-            "similarity": 0.888114,
-            "matched_descriptor": "dogmatic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "inventive / crafty",
-        "descriptor_index": 3986,
-        "amplitude": 0.003976553,
-        "abs_amplitude": 0.003976553,
-        "raw_amplitude": 0.0119296589,
-        "percent": 1.348756,
-        "raw_percent": 1.395935,
-        "coverage_percent": 65.724693,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0119296589,
-            "similarity": 0.890893,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "guileless / ingenuous / forthright",
-        "descriptor_index": 3249,
-        "amplitude": 0.0037884111,
-        "abs_amplitude": 0.0037884111,
-        "raw_amplitude": 0.0113652332,
-        "percent": 1.284942,
-        "raw_percent": 1.32989,
-        "coverage_percent": 67.009635,
-        "member_count": 3,
-        "members": [
-          "guileless",
-          "ingenuous",
-          "forthright"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0113652332,
-            "similarity": 0.880032,
-            "matched_descriptor": "justeous"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "pacifistic / non-combative",
-        "descriptor_index": 5436,
-        "amplitude": 0.0035340032,
-        "abs_amplitude": 0.0035340032,
-        "raw_amplitude": 0.0053170787,
-        "percent": 1.198653,
-        "raw_percent": 0.622172,
-        "coverage_percent": 68.208289,
-        "member_count": 2,
-        "members": [
-          "pacifistic",
-          "non-combative"
-        ],
-        "support": 2,
-        "effective_support": 1.993954,
-        "support_factor": 0.664651,
-        "top_characters": [
-          {
-            "character_id": 126247,
-            "name": "Sougo Osaka",
-            "native_name": "逢坂壮五",
-            "anime": "MONSTER GENERATiON",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
-            "site_url": "https://anilist.co/character/126247",
-            "anime_url": "https://myanimelist.net/anime/32030",
-            "role": "MAIN",
-            "favourites": 330,
-            "row_weight": 2.60808711,
-            "projection": 0.0028049333,
-            "similarity": 0.888059,
-            "matched_descriptor": "calm"
-          },
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0025121453,
-            "similarity": 0.865744,
-            "matched_descriptor": "justeous"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "disbelieving",
-        "descriptor_index": 1834,
-        "amplitude": 0.0034618122,
-        "abs_amplitude": 0.0034618122,
-        "raw_amplitude": 0.0103854365,
-        "percent": 1.174168,
-        "raw_percent": 1.21524,
-        "coverage_percent": 69.382456,
-        "member_count": 1,
-        "members": [
-          "disbelieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0103854365,
-            "similarity": 0.89524,
-            "matched_descriptor": "cynical"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "delusional",
-        "descriptor_index": 1681,
-        "amplitude": 0.0033784638,
-        "abs_amplitude": 0.0033784638,
-        "raw_amplitude": 0.0101353913,
-        "percent": 1.145898,
-        "raw_percent": 1.185981,
-        "coverage_percent": 70.528354,
-        "member_count": 1,
-        "members": [
-          "delusional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0101353913,
-            "similarity": 0.889973,
-            "matched_descriptor": "cynical"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "disillusioned",
-        "descriptor_index": 1860,
-        "amplitude": 0.0032654633,
-        "abs_amplitude": 0.0032654633,
-        "raw_amplitude": 0.00979639,
-        "percent": 1.107571,
-        "raw_percent": 1.146313,
-        "coverage_percent": 71.635924,
-        "member_count": 1,
-        "members": [
-          "disillusioned"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.00979639,
-            "similarity": 0.891845,
-            "matched_descriptor": "cynical"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "grudge-free / lenient",
-        "descriptor_index": 3208,
-        "amplitude": 0.0031851445,
-        "abs_amplitude": 0.0031851445,
-        "raw_amplitude": 0.0095554334,
-        "percent": 1.080328,
-        "raw_percent": 1.118118,
-        "coverage_percent": 72.716253,
-        "member_count": 2,
-        "members": [
-          "grudge-free",
-          "lenient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0095554334,
-            "similarity": 0.88885,
-            "matched_descriptor": "justeous"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0030566778,
-        "abs_amplitude": 0.0030566778,
-        "raw_amplitude": 0.0091700333,
-        "percent": 1.036755,
-        "raw_percent": 1.073021,
-        "coverage_percent": 73.753008,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13700,
-            "name": "Touma Kamijou",
-            "native_name": "上条当麻",
-            "anime": "A Certain Magical Index",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
-            "site_url": "https://anilist.co/character/13700",
-            "anime_url": "https://myanimelist.net/anime/4654",
-            "role": "MAIN",
-            "favourites": 1731,
-            "row_weight": 2.90809768,
-            "projection": 0.0091700333,
-            "similarity": 0.872835,
-            "matched_descriptor": "smart"
+            "combined_favourites": 2066
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0753363532,
-        "abs_amplitude": 0.0753363532,
-        "raw_amplitude": 0.2260090597,
-        "percent": 31.433842,
-        "raw_percent": 31.433842,
-        "coverage_percent": 31.433842,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
+        "step": 1,
+        "descriptor": "justeous",
+        "weighted_support": 2.93834197,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.2260090597,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
+        "fit_percent": 82.898324,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "patient",
-        "descriptor_index": 5492,
-        "amplitude": 0.022898427,
-        "abs_amplitude": 0.022898427,
-        "raw_amplitude": 0.068695281,
-        "percent": 9.554292,
-        "raw_percent": 9.554292,
-        "coverage_percent": 40.988134,
-        "member_count": 1,
-        "members": [
-          "patient"
-        ],
+        "step": 2,
+        "descriptor": "idealistic",
+        "weighted_support": 2.93834197,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.068695281,
-            "similarity": 0.899208,
-            "matched_descriptor": "pneumothorax patient"
-          }
-        ]
+        "fit_percent": 91.965326,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "hurt / injured",
-        "descriptor_index": 3652,
-        "amplitude": 0.0218166692,
-        "abs_amplitude": 0.0218166692,
-        "raw_amplitude": 0.0654500075,
-        "percent": 9.102932,
-        "raw_percent": 9.102932,
-        "coverage_percent": 50.091067,
-        "member_count": 2,
-        "members": [
-          "hurt",
-          "injured"
-        ],
+        "step": 3,
+        "descriptor": "cynical",
+        "weighted_support": 2.93834197,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0654500075,
-            "similarity": 0.841686,
-            "matched_descriptor": "pneumothorax patient"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "searching",
-        "descriptor_index": 6536,
-        "amplitude": 0.0181249007,
-        "abs_amplitude": 0.0181249007,
-        "raw_amplitude": 0.0543747022,
-        "percent": 7.562554,
-        "raw_percent": 7.562554,
-        "coverage_percent": 57.653621,
-        "member_count": 1,
-        "members": [
-          "searching"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0543747022,
-            "similarity": 0.883101,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "inquisitive",
-        "descriptor_index": 3908,
-        "amplitude": 0.0165329367,
-        "abs_amplitude": 0.0165329367,
-        "raw_amplitude": 0.0495988101,
-        "percent": 6.898313,
-        "raw_percent": 6.898313,
-        "coverage_percent": 64.551934,
-        "member_count": 1,
-        "members": [
-          "inquisitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0495988101,
-            "similarity": 0.89419,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "informed / well-read / well-versed / knowledgeable",
-        "descriptor_index": 3881,
-        "amplitude": 0.0144661859,
-        "abs_amplitude": 0.0144661859,
-        "raw_amplitude": 0.0433985576,
-        "percent": 6.035968,
-        "raw_percent": 6.035968,
-        "coverage_percent": 70.587901,
-        "member_count": 4,
-        "members": [
-          "informed",
-          "well-read",
-          "well-versed",
-          "knowledgeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0433985576,
-            "similarity": 0.86032,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "interested",
-        "descriptor_index": 3956,
-        "amplitude": 0.0142065913,
-        "abs_amplitude": 0.0142065913,
-        "raw_amplitude": 0.0426197738,
-        "percent": 5.927653,
-        "raw_percent": 5.927653,
-        "coverage_percent": 76.515554,
-        "member_count": 1,
-        "members": [
-          "interested"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0426197738,
-            "similarity": 0.876043,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "doubtful / doubting",
-        "descriptor_index": 1938,
-        "amplitude": 0.0109014987,
-        "abs_amplitude": 0.0109014987,
-        "raw_amplitude": 0.0327044961,
-        "percent": 4.548614,
-        "raw_percent": 4.548614,
-        "coverage_percent": 81.064168,
-        "member_count": 2,
-        "members": [
-          "doubtful",
-          "doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.032704496,
-            "similarity": 0.842921,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "nosy",
-        "descriptor_index": 5208,
-        "amplitude": 0.0104417979,
-        "abs_amplitude": 0.0104417979,
-        "raw_amplitude": 0.0313253936,
-        "percent": 4.356805,
-        "raw_percent": 4.356805,
-        "coverage_percent": 85.420973,
-        "member_count": 1,
-        "members": [
-          "nosy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0313253936,
-            "similarity": 0.877923,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "asthmatic",
-        "descriptor_index": 435,
-        "amplitude": 0.0070779274,
-        "abs_amplitude": 0.0070779274,
-        "raw_amplitude": 0.0212337823,
-        "percent": 2.953242,
-        "raw_percent": 2.953242,
-        "coverage_percent": 88.374215,
-        "member_count": 1,
-        "members": [
-          "asthmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0212337823,
-            "similarity": 0.818654,
-            "matched_descriptor": "pneumothorax patient"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "damaged",
-        "descriptor_index": 1571,
-        "amplitude": 0.0052580567,
-        "abs_amplitude": 0.0052580567,
-        "raw_amplitude": 0.01577417,
-        "percent": 2.193907,
-        "raw_percent": 2.193907,
-        "coverage_percent": 90.568122,
-        "member_count": 1,
-        "members": [
-          "damaged"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.01577417,
-            "similarity": 0.816375,
-            "matched_descriptor": "pneumothorax patient"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "scarred",
-        "descriptor_index": 6479,
-        "amplitude": 0.0050256102,
-        "abs_amplitude": 0.0050256102,
-        "raw_amplitude": 0.0150768307,
-        "percent": 2.096919,
-        "raw_percent": 2.096919,
-        "coverage_percent": 92.665041,
-        "member_count": 1,
-        "members": [
-          "scarred"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0150768307,
-            "similarity": 0.818706,
-            "matched_descriptor": "pneumothorax patient"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "receptive",
-        "descriptor_index": 6156,
-        "amplitude": 0.003874966,
-        "abs_amplitude": 0.003874966,
-        "raw_amplitude": 0.0116248979,
-        "percent": 1.616817,
-        "raw_percent": 1.616817,
-        "coverage_percent": 94.281857,
-        "member_count": 1,
-        "members": [
-          "receptive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0116248979,
-            "similarity": 0.841992,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "intuitive / aware",
-        "descriptor_index": 3981,
-        "amplitude": 0.003841619,
-        "abs_amplitude": 0.003841619,
-        "raw_amplitude": 0.0115248571,
-        "percent": 1.602903,
-        "raw_percent": 1.602903,
-        "coverage_percent": 95.88476,
-        "member_count": 2,
-        "members": [
-          "intuitive",
-          "aware"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41400,
-            "name": "Kouichi Sakakibara",
-            "native_name": "榊原恒一",
-            "anime": "Another",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-            "site_url": "https://anilist.co/character/41400",
-            "anime_url": "https://myanimelist.net/anime/11111",
-            "role": "MAIN",
-            "favourites": 529,
-            "row_weight": 2.69682721,
-            "projection": 0.0115248571,
-            "similarity": 0.849405,
-            "matched_descriptor": "curious"
-          }
-        ]
+        "fit_percent": 95.222555,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 41400,
-        "name": "Kouichi Sakakibara",
-        "native_name": "榊原恒一",
-        "anime": "Another",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-        "site_url": "https://anilist.co/character/41400",
-        "anime_url": "https://myanimelist.net/anime/11111",
-        "role": "MAIN",
-        "favourites": 529,
-        "row_weight": 2.69682721,
-        "amplitude": -0.7189991597,
-        "abs_amplitude": 0.7189991597,
-        "percent": 51.695979
-      },
-      {
         "character_id": 13700,
         "name": "Touma Kamijou",
-        "native_name": "上条当麻",
         "anime": "A Certain Magical Index",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
         "site_url": "https://anilist.co/character/13700",
-        "anime_url": "https://myanimelist.net/anime/4654",
-        "role": "MAIN",
         "favourites": 1731,
-        "row_weight": 2.90809768,
-        "amplitude": 0.6700650638,
-        "abs_amplitude": 0.6700650638,
-        "percent": 44.898719
+        "anilist_favourites": 1731,
+        "bangumi_collects": 335,
+        "bangumi_comments": 130,
+        "bangumi_character_id": 3498,
+        "bangumi_url": "https://bgm.tv/character/3498",
+        "combined_favourites": 2066,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cynical",
+          "idealistic",
+          "justeous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.93834197,
+        "row_weight": 2.93834197,
+        "unweighted_row_norm": 2.58275628,
+        "amplitude": 0.6499546647,
+        "abs_amplitude": 0.6499546647,
+        "percent": 42.244107
       },
       {
         "character_id": 126247,
         "name": "Sougo Osaka",
-        "native_name": "逢坂壮五",
         "anime": "MONSTER GENERATiON",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
         "site_url": "https://anilist.co/character/126247",
-        "anime_url": "https://myanimelist.net/anime/32030",
-        "role": "MAIN",
         "favourites": 330,
-        "row_weight": 2.60808711,
-        "amplitude": 0.1845346001,
-        "abs_amplitude": 0.1845346001,
-        "percent": 3.405302
+        "anilist_favourites": 330,
+        "bangumi_collects": 23,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 43240,
+        "bangumi_url": "https://bgm.tv/character/43240",
+        "combined_favourites": 353,
+        "role_edge_count": 1,
+        "descriptors": [
+          "polite",
+          "thoughtful",
+          "unstable"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.62093436,
+        "row_weight": 2.62093436,
+        "unweighted_row_norm": 2.52325926,
+        "amplitude": 0.5771218958,
+        "abs_amplitude": 0.5771218958,
+        "percent": 33.306968
+      },
+      {
+        "character_id": 293201,
+        "name": "Hiraku Machio",
+        "anime": "Farming Life in Another World",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b293201-VoMIPmwpVgn9.jpg",
+        "site_url": "https://anilist.co/character/293201",
+        "favourites": 150,
+        "anilist_favourites": 150,
+        "bangumi_collects": 4,
+        "bangumi_comments": 10,
+        "bangumi_character_id": 121302,
+        "bangumi_url": "https://bgm.tv/character/121302",
+        "combined_favourites": 154,
+        "role_edge_count": 1,
+        "descriptors": [
+          "resilient"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.45833788,
+        "row_weight": 2.45833788,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4944585434,
+        "abs_amplitude": 0.4944585434,
+        "percent": 24.448925
       }
     ],
     "positive_characters": [
       {
         "character_id": 13700,
         "name": "Touma Kamijou",
-        "native_name": "上条当麻",
         "anime": "A Certain Magical Index",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
         "site_url": "https://anilist.co/character/13700",
-        "anime_url": "https://myanimelist.net/anime/4654",
-        "role": "MAIN",
         "favourites": 1731,
-        "row_weight": 2.90809768,
-        "amplitude": 0.6700650638,
-        "abs_amplitude": 0.6700650638,
-        "percent": 44.898719
+        "anilist_favourites": 1731,
+        "bangumi_collects": 335,
+        "bangumi_comments": 130,
+        "bangumi_character_id": 3498,
+        "bangumi_url": "https://bgm.tv/character/3498",
+        "combined_favourites": 2066,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cynical",
+          "idealistic",
+          "justeous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.93834197,
+        "row_weight": 2.93834197,
+        "unweighted_row_norm": 2.58275628,
+        "amplitude": 0.6499546647,
+        "abs_amplitude": 0.6499546647,
+        "percent": 42.244107
       },
       {
         "character_id": 126247,
         "name": "Sougo Osaka",
-        "native_name": "逢坂壮五",
         "anime": "MONSTER GENERATiON",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
         "site_url": "https://anilist.co/character/126247",
-        "anime_url": "https://myanimelist.net/anime/32030",
-        "role": "MAIN",
         "favourites": 330,
-        "row_weight": 2.60808711,
-        "amplitude": 0.1845346001,
-        "abs_amplitude": 0.1845346001,
-        "percent": 3.405302
+        "anilist_favourites": 330,
+        "bangumi_collects": 23,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 43240,
+        "bangumi_url": "https://bgm.tv/character/43240",
+        "combined_favourites": 353,
+        "role_edge_count": 1,
+        "descriptors": [
+          "polite",
+          "thoughtful",
+          "unstable"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.62093436,
+        "row_weight": 2.62093436,
+        "unweighted_row_norm": 2.52325926,
+        "amplitude": 0.5771218958,
+        "abs_amplitude": 0.5771218958,
+        "percent": 33.306968
+      },
+      {
+        "character_id": 293201,
+        "name": "Hiraku Machio",
+        "anime": "Farming Life in Another World",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b293201-VoMIPmwpVgn9.jpg",
+        "site_url": "https://anilist.co/character/293201",
+        "favourites": 150,
+        "anilist_favourites": 150,
+        "bangumi_collects": 4,
+        "bangumi_comments": 10,
+        "bangumi_character_id": 121302,
+        "bangumi_url": "https://bgm.tv/character/121302",
+        "combined_favourites": 154,
+        "role_edge_count": 1,
+        "descriptors": [
+          "resilient"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.45833788,
+        "row_weight": 2.45833788,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4944585434,
+        "abs_amplitude": 0.4944585434,
+        "percent": 24.448925
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 41400,
-        "name": "Kouichi Sakakibara",
-        "native_name": "榊原恒一",
-        "anime": "Another",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41400-R2RzXzBtXOfJ.png",
-        "site_url": "https://anilist.co/character/41400",
-        "anime_url": "https://myanimelist.net/anime/11111",
-        "role": "MAIN",
-        "favourites": 529,
-        "row_weight": 2.69682721,
-        "amplitude": -0.7189991597,
-        "abs_amplitude": 0.7189991597,
-        "percent": 51.695979
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 2.86396,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "polite / thoughtful / justeous / +4",
+          "support": 3,
+          "variance": 0.5998627472,
+          "seed_descriptor": "polite",
+          "components": [
+            {
+              "descriptor": "polite",
+              "weight": 0.29959205,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "thoughtful",
+              "weight": 0.14414106,
+              "similarity_to_seed": 0.69363135,
+              "support": 1
+            },
+            {
+              "descriptor": "justeous",
+              "weight": 0.13907816,
+              "similarity_to_seed": 0.68134069,
+              "support": 1
+            },
+            {
+              "descriptor": "idealistic",
+              "weight": 0.12603227,
+              "similarity_to_seed": 0.64859819,
+              "support": 1
+            },
+            {
+              "descriptor": "cynical",
+              "weight": 0.11344042,
+              "similarity_to_seed": 0.61534515,
+              "support": 1
+            },
+            {
+              "descriptor": "resilient",
+              "weight": 0.1067283,
+              "similarity_to_seed": 0.59686299,
+              "support": 1
+            },
+            {
+              "descriptor": "unstable",
+              "weight": 0.07098775,
+              "similarity_to_seed": 0.48677309,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.5998627472,
+          "minimum_y_projection_variance": 0.1499656868,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 7,
+          "x_component_count": 7,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0599862747,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1499656868,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2999313736,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 13700,
+            "name": "Touma Kamijou",
+            "anime": "A Certain Magical Index",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
+            "site_url": "https://anilist.co/character/13700",
+            "favourites": 1731,
+            "anilist_favourites": 1731,
+            "bangumi_collects": 335,
+            "bangumi_comments": 130,
+            "bangumi_character_id": 3498,
+            "bangumi_url": "https://bgm.tv/character/3498",
+            "combined_favourites": 2066,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cynical",
+              "idealistic",
+              "justeous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.93834197,
+            "row_weight": 2.93834197,
+            "unweighted_row_norm": 2.58275628,
+            "x_raw_score": 2.4374756596,
+            "x_score": 0.5491357152,
+            "amplitude": 0.5491357152,
+            "x_direct": true
+          },
+          {
+            "character_id": 126247,
+            "name": "Sougo Osaka",
+            "anime": "MONSTER GENERATiON",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
+            "site_url": "https://anilist.co/character/126247",
+            "favourites": 330,
+            "anilist_favourites": 330,
+            "bangumi_collects": 23,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 43240,
+            "bangumi_url": "https://bgm.tv/character/43240",
+            "combined_favourites": 353,
+            "role_edge_count": 1,
+            "descriptors": [
+              "polite",
+              "thoughtful",
+              "unstable"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62093436,
+            "row_weight": 2.62093436,
+            "unweighted_row_norm": 2.52325926,
+            "x_raw_score": 2.4345227162,
+            "x_score": 0.5461827718,
+            "amplitude": 0.5461827718,
+            "x_direct": true
+          },
+          {
+            "character_id": 293201,
+            "name": "Hiraku Machio",
+            "anime": "Farming Life in Another World",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b293201-VoMIPmwpVgn9.jpg",
+            "site_url": "https://anilist.co/character/293201",
+            "favourites": 150,
+            "anilist_favourites": 150,
+            "bangumi_collects": 4,
+            "bangumi_comments": 10,
+            "bangumi_character_id": 121302,
+            "bangumi_url": "https://bgm.tv/character/121302",
+            "combined_favourites": 154,
+            "role_edge_count": 1,
+            "descriptors": [
+              "resilient"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.45833788,
+            "row_weight": 2.45833788,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7930214575,
+            "x_score": -1.095318487,
+            "amplitude": -1.095318487,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.8883399444
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "formal / polite / proper / +9",
+          "support": 1,
+          "variance": 0.560220744,
+          "seed_descriptor": "formal",
+          "components": [
+            {
+              "descriptor": "formal",
+              "weight": 0.15049576,
+              "similarity_to_seed": 1.0,
+              "support": 0
+            },
+            {
+              "descriptor": "polite",
+              "weight": 0.08427612,
+              "similarity_to_seed": 0.74832481,
+              "support": 1
+            },
+            {
+              "descriptor": "proper",
+              "weight": 0.08132849,
+              "similarity_to_seed": 0.73512165,
+              "support": 0
+            },
+            {
+              "descriptor": "feminine",
+              "weight": 0.07959501,
+              "similarity_to_seed": 0.72724507,
+              "support": 0
+            },
+            {
+              "descriptor": "sophisticated",
+              "weight": 0.07830424,
+              "similarity_to_seed": 0.72132422,
+              "support": 0
+            },
+            {
+              "descriptor": "mannered",
+              "weight": 0.0769786,
+              "similarity_to_seed": 0.71519236,
+              "support": 0
+            },
+            {
+              "descriptor": "sensible",
+              "weight": 0.0766512,
+              "similarity_to_seed": 0.71366985,
+              "support": 0
+            },
+            {
+              "descriptor": "pure",
+              "weight": 0.07582116,
+              "similarity_to_seed": 0.70979521,
+              "support": 0
+            },
+            {
+              "descriptor": "composed",
+              "weight": 0.07514072,
+              "similarity_to_seed": 0.70660311,
+              "support": 0
+            },
+            {
+              "descriptor": "methodical",
+              "weight": 0.07457388,
+              "similarity_to_seed": 0.70393285,
+              "support": 0
+            },
+            {
+              "descriptor": "outspoken",
+              "weight": 0.07357931,
+              "similarity_to_seed": 0.699223,
+              "support": 0
+            },
+            {
+              "descriptor": "logical",
+              "weight": 0.07325551,
+              "similarity_to_seed": 0.69768277,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.560220744,
+          "minimum_y_projection_variance": 0.140055186,
+          "best_rejected_correlation": 0.9787750169,
+          "best_rejected_lane_cosine": 0.81892848,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9787750169,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0560220744,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.140055186,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.280110372,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "snobbish / snarky / pretentious / +9",
+            "variance": 0.5102099092,
+            "correlation": 0.9892908921,
+            "abs_correlation": 0.9892908921,
+            "lane_cosine": 0.808289822,
+            "orthogonality_score": 0.3466675637,
+            "objective": 0.1768732262,
+            "components": [
+              {
+                "descriptor": "snobbish",
+                "weight": 0.14626951,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "snarky",
+                "weight": 0.09398517,
+                "similarity_to_seed": 0.80159085,
+                "support": 0
+              },
+              {
+                "descriptor": "pretentious",
+                "weight": 0.08199739,
+                "similarity_to_seed": 0.74872631,
+                "support": 0
+              },
+              {
+                "descriptor": "obnoxious",
+                "weight": 0.0781637,
+                "similarity_to_seed": 0.73101393,
+                "support": 0
+              },
+              {
+                "descriptor": "ditzy",
+                "weight": 0.07727114,
+                "similarity_to_seed": 0.72682816,
+                "support": 0
+              },
+              {
+                "descriptor": "superstitious",
+                "weight": 0.076707,
+                "similarity_to_seed": 0.72417012,
+                "support": 0
+              },
+              {
+                "descriptor": "frivolous",
+                "weight": 0.0750427,
+                "similarity_to_seed": 0.71627092,
+                "support": 0
+              },
+              {
+                "descriptor": "grumpy",
+                "weight": 0.07486424,
+                "similarity_to_seed": 0.71541874,
+                "support": 0
+              },
+              {
+                "descriptor": "contemptuous",
+                "weight": 0.07455355,
+                "similarity_to_seed": 0.71393267,
+                "support": 0
+              },
+              {
+                "descriptor": "unpretentious",
+                "weight": 0.07451389,
+                "similarity_to_seed": 0.71374274,
+                "support": 0
+              },
+              {
+                "descriptor": "narcissistic",
+                "weight": 0.07357146,
+                "similarity_to_seed": 0.70921478,
+                "support": 0
+              },
+              {
+                "descriptor": "disdainful",
+                "weight": 0.07306024,
+                "similarity_to_seed": 0.70674647,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 13700,
+            "name": "Touma Kamijou",
+            "anime": "A Certain Magical Index",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
+            "site_url": "https://anilist.co/character/13700",
+            "favourites": 1731,
+            "anilist_favourites": 1731,
+            "bangumi_collects": 335,
+            "bangumi_comments": 130,
+            "bangumi_character_id": 3498,
+            "bangumi_url": "https://bgm.tv/character/3498",
+            "combined_favourites": 2066,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cynical",
+              "idealistic",
+              "justeous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.93834197,
+            "row_weight": 2.93834197,
+            "unweighted_row_norm": 2.58275628,
+            "x_raw_score": 2.2666836384,
+            "x_score": 0.4925585796,
+            "amplitude": 0.4925585796,
+            "x_direct": false
+          },
+          {
+            "character_id": 126247,
+            "name": "Sougo Osaka",
+            "anime": "MONSTER GENERATiON",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
+            "site_url": "https://anilist.co/character/126247",
+            "favourites": 330,
+            "anilist_favourites": 330,
+            "bangumi_collects": 23,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 43240,
+            "bangumi_url": "https://bgm.tv/character/43240",
+            "combined_favourites": 353,
+            "role_edge_count": 1,
+            "descriptors": [
+              "polite",
+              "thoughtful",
+              "unstable"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62093436,
+            "row_weight": 2.62093436,
+            "unweighted_row_norm": 2.52325926,
+            "x_raw_score": 2.3392461943,
+            "x_score": 0.5651211355,
+            "amplitude": 0.5651211355,
+            "x_direct": true
+          },
+          {
+            "character_id": 293201,
+            "name": "Hiraku Machio",
+            "anime": "Farming Life in Another World",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b293201-VoMIPmwpVgn9.jpg",
+            "site_url": "https://anilist.co/character/293201",
+            "favourites": 150,
+            "anilist_favourites": 150,
+            "bangumi_collects": 4,
+            "bangumi_comments": 10,
+            "bangumi_character_id": 121302,
+            "bangumi_url": "https://bgm.tv/character/121302",
+            "combined_favourites": 154,
+            "role_edge_count": 1,
+            "descriptors": [
+              "resilient"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.45833788,
+            "row_weight": 2.45833788,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7164453437,
+            "x_score": -1.0576797151,
+            "amplitude": -1.0576797151,
+            "x_direct": false
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.7741250588
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
       }
-    ]
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "polite / thoughtful / justeous / +4",
+        "support": 3,
+        "variance": 0.5998627472,
+        "seed_descriptor": "polite",
+        "components": [
+          {
+            "descriptor": "polite",
+            "weight": 0.29959205,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "thoughtful",
+            "weight": 0.14414106,
+            "similarity_to_seed": 0.69363135,
+            "support": 1
+          },
+          {
+            "descriptor": "justeous",
+            "weight": 0.13907816,
+            "similarity_to_seed": 0.68134069,
+            "support": 1
+          },
+          {
+            "descriptor": "idealistic",
+            "weight": 0.12603227,
+            "similarity_to_seed": 0.64859819,
+            "support": 1
+          },
+          {
+            "descriptor": "cynical",
+            "weight": 0.11344042,
+            "similarity_to_seed": 0.61534515,
+            "support": 1
+          },
+          {
+            "descriptor": "resilient",
+            "weight": 0.1067283,
+            "similarity_to_seed": 0.59686299,
+            "support": 1
+          },
+          {
+            "descriptor": "unstable",
+            "weight": 0.07098775,
+            "similarity_to_seed": 0.48677309,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.5998627472,
+        "minimum_y_projection_variance": 0.1499656868,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 7,
+        "x_component_count": 7,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0599862747,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1499656868,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.2999313736,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 13700,
+          "name": "Touma Kamijou",
+          "anime": "A Certain Magical Index",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
+          "site_url": "https://anilist.co/character/13700",
+          "favourites": 1731,
+          "anilist_favourites": 1731,
+          "bangumi_collects": 335,
+          "bangumi_comments": 130,
+          "bangumi_character_id": 3498,
+          "bangumi_url": "https://bgm.tv/character/3498",
+          "combined_favourites": 2066,
+          "role_edge_count": 1,
+          "descriptors": [
+            "cynical",
+            "idealistic",
+            "justeous"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.93834197,
+          "row_weight": 2.93834197,
+          "unweighted_row_norm": 2.58275628,
+          "x_raw_score": 2.4374756596,
+          "x_score": 0.5491357152,
+          "amplitude": 0.5491357152,
+          "x_direct": true
+        },
+        {
+          "character_id": 126247,
+          "name": "Sougo Osaka",
+          "anime": "MONSTER GENERATiON",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
+          "site_url": "https://anilist.co/character/126247",
+          "favourites": 330,
+          "anilist_favourites": 330,
+          "bangumi_collects": 23,
+          "bangumi_comments": 7,
+          "bangumi_character_id": 43240,
+          "bangumi_url": "https://bgm.tv/character/43240",
+          "combined_favourites": 353,
+          "role_edge_count": 1,
+          "descriptors": [
+            "polite",
+            "thoughtful",
+            "unstable"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.62093436,
+          "row_weight": 2.62093436,
+          "unweighted_row_norm": 2.52325926,
+          "x_raw_score": 2.4345227162,
+          "x_score": 0.5461827718,
+          "amplitude": 0.5461827718,
+          "x_direct": true
+        },
+        {
+          "character_id": 293201,
+          "name": "Hiraku Machio",
+          "anime": "Farming Life in Another World",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b293201-VoMIPmwpVgn9.jpg",
+          "site_url": "https://anilist.co/character/293201",
+          "favourites": 150,
+          "anilist_favourites": 150,
+          "bangumi_collects": 4,
+          "bangumi_comments": 10,
+          "bangumi_character_id": 121302,
+          "bangumi_url": "https://bgm.tv/character/121302",
+          "combined_favourites": 154,
+          "role_edge_count": 1,
+          "descriptors": [
+            "resilient"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.45833788,
+          "row_weight": 2.45833788,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7930214575,
+          "x_score": -1.095318487,
+          "amplitude": -1.095318487,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.8883399444
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.4285540388,
+      "mass_percent": 9.47142,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 49.752866,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "resilient",
+            "amplitude": 0.4975286567,
+            "abs_amplitude": 0.4975286567,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "resilient",
+            "fit_percent": 49.752866,
+            "residual_gain_percent": 24.753476
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 293201,
+            "name": "Hiraku Machio",
+            "anime": "Farming Life in Another World",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b293201-VoMIPmwpVgn9.jpg",
+            "site_url": "https://anilist.co/character/293201",
+            "favourites": 150,
+            "anilist_favourites": 150,
+            "bangumi_collects": 4,
+            "bangumi_comments": 10,
+            "bangumi_character_id": 121302,
+            "bangumi_url": "https://bgm.tv/character/121302",
+            "combined_favourites": 154,
+            "role_edge_count": 1,
+            "descriptors": [
+              "resilient"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.45833788,
+            "row_weight": 2.45833788,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.8561759012,
+            "abs_amplitude": 0.8561759012,
+            "percent": 73.303717
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 28.138833,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "pretentious",
+            "amplitude": 0.1232519055,
+            "abs_amplitude": 0.1232519055,
+            "percent": 38.106012
+          },
+          {
+            "rank": 2,
+            "descriptor": "cynical",
+            "amplitude": 0.1007465194,
+            "abs_amplitude": 0.1007465194,
+            "percent": 31.147982
+          },
+          {
+            "rank": 3,
+            "descriptor": "bizarre",
+            "amplitude": 0.0994463518,
+            "abs_amplitude": 0.0994463518,
+            "percent": 30.746006
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "pretentious",
+            "fit_percent": 25.356659,
+            "residual_gain_percent": 6.429601
+          },
+          {
+            "step": 2,
+            "descriptor": "bizarre",
+            "fit_percent": 27.292262,
+            "residual_gain_percent": 1.089099
+          },
+          {
+            "step": 3,
+            "descriptor": "cynical",
+            "fit_percent": 28.138833,
+            "residual_gain_percent": 0.507031
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 13700,
+            "name": "Touma Kamijou",
+            "anime": "A Certain Magical Index",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13700-UidPPlVkGJLP.jpg",
+            "site_url": "https://anilist.co/character/13700",
+            "favourites": 1731,
+            "anilist_favourites": 1731,
+            "bangumi_collects": 335,
+            "bangumi_comments": 130,
+            "bangumi_character_id": 3498,
+            "bangumi_url": "https://bgm.tv/character/3498",
+            "combined_favourites": 2066,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cynical",
+              "idealistic",
+              "justeous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.93834197,
+            "row_weight": 2.93834197,
+            "unweighted_row_norm": 2.58275628,
+            "amplitude": -0.4787112699,
+            "abs_amplitude": 0.4787112699,
+            "percent": 22.916448
+          },
+          {
+            "character_id": 126247,
+            "name": "Sougo Osaka",
+            "anime": "MONSTER GENERATiON",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126247-56SleuAnKbVJ.png",
+            "site_url": "https://anilist.co/character/126247",
+            "favourites": 330,
+            "anilist_favourites": 330,
+            "bangumi_collects": 23,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 43240,
+            "bangumi_url": "https://bgm.tv/character/43240",
+            "combined_favourites": 353,
+            "role_edge_count": 1,
+            "descriptors": [
+              "polite",
+              "thoughtful",
+              "unstable"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62093436,
+            "row_weight": 2.62093436,
+            "unweighted_row_norm": 2.52325926,
+            "amplitude": -0.1944179677,
+            "abs_amplitude": 0.1944179677,
+            "percent": 3.779835
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.3021113126,
+      "mass_percent": 85.898391,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.4285540388,
+      "mass_percent": 9.47142,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 0.9988229082,
+      "mass_percent": 4.630189,
+      "relative_to_sv2_percent": 69.918455
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

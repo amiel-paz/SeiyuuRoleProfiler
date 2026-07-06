@@ -11,1152 +11,98 @@
     "abe natsuko",
     "natsuko abe"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/natsuko_abe.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.685089855,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.685089855,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 282.353575,
-      "normalized_entanglement": 0.735296,
-      "top5_mass_percent": 3.822146,
-      "top10_mass_percent": 7.016274
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.8163730287,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "mocking / derisive / taunting",
-        "descriptor_index": 4882,
-        "amplitude": 0.0828299414,
-        "abs_amplitude": 0.0828299414,
-        "raw_amplitude": 0.2484898242,
-        "percent": 24.848982,
-        "raw_percent": 24.848982,
-        "coverage_percent": 24.848982,
-        "member_count": 3,
-        "members": [
-          "mocking",
-          "derisive",
-          "taunting"
-        ],
+        "descriptor": "supportive",
+        "amplitude": 0.581053236,
+        "abs_amplitude": 0.581053236,
+        "percent": 50.0,
+        "weighted_support": 1.81637303,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 261090,
             "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
             "anime": "Senpai is an Otokonoko",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
             "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.2484898243,
-            "similarity": 1.0,
-            "matched_descriptor": "mocking"
+            "combined_favourites": 269
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "loyal / trustful / trusted / friendship-oriented / +3",
-        "descriptor_index": 4442,
-        "amplitude": 0.0686852701,
-        "abs_amplitude": 0.0686852701,
-        "raw_amplitude": 0.2060558103,
-        "percent": 20.605581,
-        "raw_percent": 20.605581,
-        "coverage_percent": 45.454563,
-        "member_count": 7,
-        "members": [
-          "loyal",
-          "trustful",
-          "trusted",
-          "friendship-oriented",
-          "devoted",
-          "faithful",
-          "trusting"
-        ],
+        "descriptor": "mocking",
+        "amplitude": 0.581053236,
+        "abs_amplitude": 0.581053236,
+        "percent": 50.0,
+        "weighted_support": 1.81637303,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 261090,
             "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
             "anime": "Senpai is an Otokonoko",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
             "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.2060558102,
-            "similarity": 0.893847,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0410882279,
-        "abs_amplitude": 0.0410882279,
-        "raw_amplitude": 0.1232646836,
-        "percent": 12.326468,
-        "raw_percent": 12.326468,
-        "coverage_percent": 57.781032,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.1232646836,
-            "similarity": 1.0,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "collaborative / cooperative",
-        "descriptor_index": 1239,
-        "amplitude": 0.0220803887,
-        "abs_amplitude": 0.0220803887,
-        "raw_amplitude": 0.066241166,
-        "percent": 6.624117,
-        "raw_percent": 6.624117,
-        "coverage_percent": 64.405148,
-        "member_count": 2,
-        "members": [
-          "collaborative",
-          "cooperative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.066241166,
-            "similarity": 0.891476,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "demeaning / insulting",
-        "descriptor_index": 1693,
-        "amplitude": 0.0163586044,
-        "abs_amplitude": 0.0163586044,
-        "raw_amplitude": 0.0490758131,
-        "percent": 4.907581,
-        "raw_percent": 4.907581,
-        "coverage_percent": 69.31273,
-        "member_count": 2,
-        "members": [
-          "demeaning",
-          "insulting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0490758132,
-            "similarity": 0.869262,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "support-oriented / humanitarian",
-        "descriptor_index": 7531,
-        "amplitude": 0.0159281161,
-        "abs_amplitude": 0.0159281161,
-        "raw_amplitude": 0.0477843483,
-        "percent": 4.778435,
-        "raw_percent": 4.778435,
-        "coverage_percent": 74.091165,
-        "member_count": 2,
-        "members": [
-          "support-oriented",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0477843483,
-            "similarity": 0.894455,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sarcastic / teasing",
-        "descriptor_index": 6463,
-        "amplitude": 0.015567493,
-        "abs_amplitude": 0.015567493,
-        "raw_amplitude": 0.0467024791,
-        "percent": 4.670248,
-        "raw_percent": 4.670248,
-        "coverage_percent": 78.761412,
-        "member_count": 2,
-        "members": [
-          "sarcastic",
-          "teasing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0467024792,
-            "similarity": 0.871086,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "snide / trash-talking / irreverent",
-        "descriptor_index": 7024,
-        "amplitude": 0.0136207937,
-        "abs_amplitude": 0.0136207937,
-        "raw_amplitude": 0.0408623812,
-        "percent": 4.086238,
-        "raw_percent": 4.086238,
-        "coverage_percent": 82.847651,
-        "member_count": 3,
-        "members": [
-          "snide",
-          "trash-talking",
-          "irreverent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0408623812,
-            "similarity": 0.887947,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.012568209,
-        "abs_amplitude": 0.012568209,
-        "raw_amplitude": 0.037704627,
-        "percent": 3.770463,
-        "raw_percent": 3.770463,
-        "coverage_percent": 86.618113,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.037704627,
-            "similarity": 0.874443,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "irritating / annoying",
-        "descriptor_index": 4016,
-        "amplitude": 0.0079111279,
-        "abs_amplitude": 0.0079111279,
-        "raw_amplitude": 0.0237333837,
-        "percent": 2.373338,
-        "raw_percent": 2.373338,
-        "coverage_percent": 88.991452,
-        "member_count": 2,
-        "members": [
-          "irritating",
-          "annoying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0237333837,
-            "similarity": 0.858575,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "lecherous / lewd",
-        "descriptor_index": 4255,
-        "amplitude": 0.0061065573,
-        "abs_amplitude": 0.0061065573,
-        "raw_amplitude": 0.018319672,
-        "percent": 1.831967,
-        "raw_percent": 1.831967,
-        "coverage_percent": 90.823419,
-        "member_count": 2,
-        "members": [
-          "lecherous",
-          "lewd"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.018319672,
-            "similarity": 0.849482,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "suppressive",
-        "descriptor_index": 7542,
-        "amplitude": 0.0051649837,
-        "abs_amplitude": 0.0051649837,
-        "raw_amplitude": 0.0154949511,
-        "percent": 1.549495,
-        "raw_percent": 1.549495,
-        "coverage_percent": 92.372914,
-        "member_count": 1,
-        "members": [
-          "suppressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0154949511,
-            "similarity": 0.852991,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.004889432,
-        "abs_amplitude": 0.004889432,
-        "raw_amplitude": 0.014668296,
-        "percent": 1.46683,
-        "raw_percent": 1.46683,
-        "coverage_percent": 93.839744,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.014668296,
-            "similarity": 0.85142,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cold-blooded / cold",
-        "descriptor_index": 1235,
-        "amplitude": 0.0036316027,
-        "abs_amplitude": 0.0036316027,
-        "raw_amplitude": 0.0108948081,
-        "percent": 1.089481,
-        "raw_percent": 1.089481,
-        "coverage_percent": 94.929224,
-        "member_count": 2,
-        "members": [
-          "cold-blooded",
-          "cold"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0108948081,
-            "similarity": 0.86621,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "nosy",
-        "descriptor_index": 5208,
-        "amplitude": 0.0035080847,
-        "abs_amplitude": 0.0035080847,
-        "raw_amplitude": 0.0105242541,
-        "percent": 1.052425,
-        "raw_percent": 1.052425,
-        "coverage_percent": 95.98165,
-        "member_count": 1,
-        "members": [
-          "nosy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0105242541,
-            "similarity": 0.853453,
-            "matched_descriptor": "mocking"
+            "combined_favourites": 269
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "mocking / derisive / taunting",
-        "descriptor_index": 4882,
-        "amplitude": 0.0828299414,
-        "abs_amplitude": 0.0828299414,
-        "raw_amplitude": 0.2484898242,
-        "percent": 24.848982,
-        "raw_percent": 24.848982,
-        "coverage_percent": 24.848982,
-        "member_count": 3,
-        "members": [
-          "mocking",
-          "derisive",
-          "taunting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.2484898243,
-            "similarity": 1.0,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "loyal / trustful / trusted / friendship-oriented / +3",
-        "descriptor_index": 4442,
-        "amplitude": 0.0686852701,
-        "abs_amplitude": 0.0686852701,
-        "raw_amplitude": 0.2060558103,
-        "percent": 20.605581,
-        "raw_percent": 20.605581,
-        "coverage_percent": 45.454563,
-        "member_count": 7,
-        "members": [
-          "loyal",
-          "trustful",
-          "trusted",
-          "friendship-oriented",
-          "devoted",
-          "faithful",
-          "trusting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.2060558102,
-            "similarity": 0.893847,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
+        "step": 1,
         "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0410882279,
-        "abs_amplitude": 0.0410882279,
-        "raw_amplitude": 0.1232646836,
-        "percent": 12.326468,
-        "raw_percent": 12.326468,
-        "coverage_percent": 57.781032,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
+        "weighted_support": 1.81637303,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.1232646836,
-            "similarity": 1.0,
-            "matched_descriptor": "supportive"
-          }
-        ]
+        "fit_percent": 86.050635,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "collaborative / cooperative",
-        "descriptor_index": 1239,
-        "amplitude": 0.0220803887,
-        "abs_amplitude": 0.0220803887,
-        "raw_amplitude": 0.066241166,
-        "percent": 6.624117,
-        "raw_percent": 6.624117,
-        "coverage_percent": 64.405148,
-        "member_count": 2,
-        "members": [
-          "collaborative",
-          "cooperative"
-        ],
+        "step": 2,
+        "descriptor": "mocking",
+        "weighted_support": 1.81637303,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.066241166,
-            "similarity": 0.891476,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "demeaning / insulting",
-        "descriptor_index": 1693,
-        "amplitude": 0.0163586044,
-        "abs_amplitude": 0.0163586044,
-        "raw_amplitude": 0.0490758131,
-        "percent": 4.907581,
-        "raw_percent": 4.907581,
-        "coverage_percent": 69.31273,
-        "member_count": 2,
-        "members": [
-          "demeaning",
-          "insulting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0490758132,
-            "similarity": 0.869262,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "support-oriented / humanitarian",
-        "descriptor_index": 7531,
-        "amplitude": 0.0159281161,
-        "abs_amplitude": 0.0159281161,
-        "raw_amplitude": 0.0477843483,
-        "percent": 4.778435,
-        "raw_percent": 4.778435,
-        "coverage_percent": 74.091165,
-        "member_count": 2,
-        "members": [
-          "support-oriented",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0477843483,
-            "similarity": 0.894455,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sarcastic / teasing",
-        "descriptor_index": 6463,
-        "amplitude": 0.015567493,
-        "abs_amplitude": 0.015567493,
-        "raw_amplitude": 0.0467024791,
-        "percent": 4.670248,
-        "raw_percent": 4.670248,
-        "coverage_percent": 78.761412,
-        "member_count": 2,
-        "members": [
-          "sarcastic",
-          "teasing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0467024792,
-            "similarity": 0.871086,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "snide / trash-talking / irreverent",
-        "descriptor_index": 7024,
-        "amplitude": 0.0136207937,
-        "abs_amplitude": 0.0136207937,
-        "raw_amplitude": 0.0408623812,
-        "percent": 4.086238,
-        "raw_percent": 4.086238,
-        "coverage_percent": 82.847651,
-        "member_count": 3,
-        "members": [
-          "snide",
-          "trash-talking",
-          "irreverent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0408623812,
-            "similarity": 0.887947,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.012568209,
-        "abs_amplitude": 0.012568209,
-        "raw_amplitude": 0.037704627,
-        "percent": 3.770463,
-        "raw_percent": 3.770463,
-        "coverage_percent": 86.618113,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.037704627,
-            "similarity": 0.874443,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "irritating / annoying",
-        "descriptor_index": 4016,
-        "amplitude": 0.0079111279,
-        "abs_amplitude": 0.0079111279,
-        "raw_amplitude": 0.0237333837,
-        "percent": 2.373338,
-        "raw_percent": 2.373338,
-        "coverage_percent": 88.991452,
-        "member_count": 2,
-        "members": [
-          "irritating",
-          "annoying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0237333837,
-            "similarity": 0.858575,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "lecherous / lewd",
-        "descriptor_index": 4255,
-        "amplitude": 0.0061065573,
-        "abs_amplitude": 0.0061065573,
-        "raw_amplitude": 0.018319672,
-        "percent": 1.831967,
-        "raw_percent": 1.831967,
-        "coverage_percent": 90.823419,
-        "member_count": 2,
-        "members": [
-          "lecherous",
-          "lewd"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.018319672,
-            "similarity": 0.849482,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "suppressive",
-        "descriptor_index": 7542,
-        "amplitude": 0.0051649837,
-        "abs_amplitude": 0.0051649837,
-        "raw_amplitude": 0.0154949511,
-        "percent": 1.549495,
-        "raw_percent": 1.549495,
-        "coverage_percent": 92.372914,
-        "member_count": 1,
-        "members": [
-          "suppressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0154949511,
-            "similarity": 0.852991,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.004889432,
-        "abs_amplitude": 0.004889432,
-        "raw_amplitude": 0.014668296,
-        "percent": 1.46683,
-        "raw_percent": 1.46683,
-        "coverage_percent": 93.839744,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.014668296,
-            "similarity": 0.85142,
-            "matched_descriptor": "supportive"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cold-blooded / cold",
-        "descriptor_index": 1235,
-        "amplitude": 0.0036316027,
-        "abs_amplitude": 0.0036316027,
-        "raw_amplitude": 0.0108948081,
-        "percent": 1.089481,
-        "raw_percent": 1.089481,
-        "coverage_percent": 94.929224,
-        "member_count": 2,
-        "members": [
-          "cold-blooded",
-          "cold"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0108948081,
-            "similarity": 0.86621,
-            "matched_descriptor": "mocking"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "nosy",
-        "descriptor_index": 5208,
-        "amplitude": 0.0035080847,
-        "abs_amplitude": 0.0035080847,
-        "raw_amplitude": 0.0105242541,
-        "percent": 1.052425,
-        "raw_percent": 1.052425,
-        "coverage_percent": 95.98165,
-        "member_count": 1,
-        "members": [
-          "nosy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 261090,
-            "name": "Ryuuji Taiga",
-            "native_name": "大我竜二",
-            "anime": "Senpai is an Otokonoko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
-            "site_url": "https://anilist.co/character/261090",
-            "anime_url": "https://myanimelist.net/anime/54855",
-            "role": "MAIN",
-            "favourites": 228,
-            "row_weight": 1.79356098,
-            "projection": 0.0105242541,
-            "similarity": 0.853453,
-            "matched_descriptor": "mocking"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 261090,
         "name": "Ryuuji Taiga",
-        "native_name": "大我竜二",
         "anime": "Senpai is an Otokonoko",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
         "site_url": "https://anilist.co/character/261090",
-        "anime_url": "https://myanimelist.net/anime/54855",
-        "role": "MAIN",
         "favourites": 228,
-        "row_weight": 1.79356098,
+        "anilist_favourites": 228,
+        "bangumi_collects": 41,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 143666,
+        "bangumi_url": "https://bgm.tv/character/143666",
+        "combined_favourites": 269,
+        "role_edge_count": 2,
+        "descriptors": [
+          "mocking",
+          "supportive"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.56873937,
+        "row_weight": 1.81637303,
+        "unweighted_row_norm": 1.7210127,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1166,19 +112,68 @@
       {
         "character_id": 261090,
         "name": "Ryuuji Taiga",
-        "native_name": "大我竜二",
         "anime": "Senpai is an Otokonoko",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b261090-GByVofV9xqDE.png",
         "site_url": "https://anilist.co/character/261090",
-        "anime_url": "https://myanimelist.net/anime/54855",
-        "role": "MAIN",
         "favourites": 228,
-        "row_weight": 1.79356098,
+        "anilist_favourites": 228,
+        "bangumi_collects": 41,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 143666,
+        "bangumi_url": "https://bgm.tv/character/143666",
+        "combined_favourites": 269,
+        "role_edge_count": 2,
+        "descriptors": [
+          "mocking",
+          "supportive"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.56873937,
+        "row_weight": 1.81637303,
+        "unweighted_row_norm": 1.7210127,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.8163730287,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

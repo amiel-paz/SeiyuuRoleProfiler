@@ -11,728 +11,70 @@
     "maeda seiji",
     "seiji maeda"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/seiji_maeda.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.0129508172,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.0129508172,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 340.652869,
-      "normalized_entanglement": 0.887117,
-      "top5_mass_percent": 2.509336,
-      "top10_mass_percent": 4.818665
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4863192776,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.2431665399,
-        "abs_amplitude": 0.2431665399,
-        "raw_amplitude": 0.7294996196,
-        "percent": 72.949962,
-        "raw_percent": 72.949962,
-        "coverage_percent": 72.949962,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
+        "descriptor": "lazy",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.48631928,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 245515,
             "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
             "anime": "Oshi No Ko",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
             "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.7294996195,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0161775507,
-        "abs_amplitude": 0.0161775507,
-        "raw_amplitude": 0.0485326522,
-        "percent": 4.853265,
-        "raw_percent": 4.853265,
-        "coverage_percent": 77.803227,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0485326522,
-            "similarity": 0.899785,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "cocky / vain",
-        "descriptor_index": 1214,
-        "amplitude": 0.0132317925,
-        "abs_amplitude": 0.0132317925,
-        "raw_amplitude": 0.0396953775,
-        "percent": 3.969538,
-        "raw_percent": 3.969538,
-        "coverage_percent": 81.772765,
-        "member_count": 2,
-        "members": [
-          "cocky",
-          "vain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0396953775,
-            "similarity": 0.892557,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "uninhibited / composed",
-        "descriptor_index": 8148,
-        "amplitude": 0.0107601572,
-        "abs_amplitude": 0.0107601572,
-        "raw_amplitude": 0.0322804716,
-        "percent": 3.228047,
-        "raw_percent": 3.228047,
-        "coverage_percent": 85.000812,
-        "member_count": 2,
-        "members": [
-          "uninhibited",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0322804717,
-            "similarity": 0.893679,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "sassy / conceited",
-        "descriptor_index": 6466,
-        "amplitude": 0.0092545965,
-        "abs_amplitude": 0.0092545965,
-        "raw_amplitude": 0.0277637895,
-        "percent": 2.776379,
-        "raw_percent": 2.776379,
-        "coverage_percent": 87.777191,
-        "member_count": 2,
-        "members": [
-          "sassy",
-          "conceited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0277637895,
-            "similarity": 0.886085,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "judgmental",
-        "descriptor_index": 4072,
-        "amplitude": 0.0091651105,
-        "abs_amplitude": 0.0091651105,
-        "raw_amplitude": 0.0274953316,
-        "percent": 2.749533,
-        "raw_percent": 2.749533,
-        "coverage_percent": 90.526724,
-        "member_count": 1,
-        "members": [
-          "judgmental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0274953316,
-            "similarity": 0.897498,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "unsympathetic / icy / air-head",
-        "descriptor_index": 8231,
-        "amplitude": 0.0071796336,
-        "abs_amplitude": 0.0071796336,
-        "raw_amplitude": 0.0215389009,
-        "percent": 2.15389,
-        "raw_percent": 2.15389,
-        "coverage_percent": 92.680614,
-        "member_count": 3,
-        "members": [
-          "unsympathetic",
-          "icy",
-          "air-head"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0215389009,
-            "similarity": 0.889107,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "egotistic / egotistical",
-        "descriptor_index": 2068,
-        "amplitude": 0.0055344107,
-        "abs_amplitude": 0.0055344107,
-        "raw_amplitude": 0.0166032322,
-        "percent": 1.660323,
-        "raw_percent": 1.660323,
-        "coverage_percent": 94.340938,
-        "member_count": 2,
-        "members": [
-          "egotistic",
-          "egotistical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0166032322,
-            "similarity": 0.880209,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "contemptuous",
-        "descriptor_index": 1397,
-        "amplitude": 0.0037843942,
-        "abs_amplitude": 0.0037843942,
-        "raw_amplitude": 0.0113531826,
-        "percent": 1.135318,
-        "raw_percent": 1.135318,
-        "coverage_percent": 95.476256,
-        "member_count": 1,
-        "members": [
-          "contemptuous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0113531826,
-            "similarity": 0.882958,
-            "matched_descriptor": "arrogant"
+            "combined_favourites": 177
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.2431665399,
-        "abs_amplitude": 0.2431665399,
-        "raw_amplitude": 0.7294996196,
-        "percent": 72.949962,
-        "raw_percent": 72.949962,
-        "coverage_percent": 72.949962,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
+        "step": 1,
+        "descriptor": "lazy",
+        "weighted_support": 2.48631928,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.7294996195,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0161775507,
-        "abs_amplitude": 0.0161775507,
-        "raw_amplitude": 0.0485326522,
-        "percent": 4.853265,
-        "raw_percent": 4.853265,
-        "coverage_percent": 77.803227,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0485326522,
-            "similarity": 0.899785,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "cocky / vain",
-        "descriptor_index": 1214,
-        "amplitude": 0.0132317925,
-        "abs_amplitude": 0.0132317925,
-        "raw_amplitude": 0.0396953775,
-        "percent": 3.969538,
-        "raw_percent": 3.969538,
-        "coverage_percent": 81.772765,
-        "member_count": 2,
-        "members": [
-          "cocky",
-          "vain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0396953775,
-            "similarity": 0.892557,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "uninhibited / composed",
-        "descriptor_index": 8148,
-        "amplitude": 0.0107601572,
-        "abs_amplitude": 0.0107601572,
-        "raw_amplitude": 0.0322804716,
-        "percent": 3.228047,
-        "raw_percent": 3.228047,
-        "coverage_percent": 85.000812,
-        "member_count": 2,
-        "members": [
-          "uninhibited",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0322804717,
-            "similarity": 0.893679,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "sassy / conceited",
-        "descriptor_index": 6466,
-        "amplitude": 0.0092545965,
-        "abs_amplitude": 0.0092545965,
-        "raw_amplitude": 0.0277637895,
-        "percent": 2.776379,
-        "raw_percent": 2.776379,
-        "coverage_percent": 87.777191,
-        "member_count": 2,
-        "members": [
-          "sassy",
-          "conceited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0277637895,
-            "similarity": 0.886085,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "judgmental",
-        "descriptor_index": 4072,
-        "amplitude": 0.0091651105,
-        "abs_amplitude": 0.0091651105,
-        "raw_amplitude": 0.0274953316,
-        "percent": 2.749533,
-        "raw_percent": 2.749533,
-        "coverage_percent": 90.526724,
-        "member_count": 1,
-        "members": [
-          "judgmental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0274953316,
-            "similarity": 0.897498,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "unsympathetic / icy / air-head",
-        "descriptor_index": 8231,
-        "amplitude": 0.0071796336,
-        "abs_amplitude": 0.0071796336,
-        "raw_amplitude": 0.0215389009,
-        "percent": 2.15389,
-        "raw_percent": 2.15389,
-        "coverage_percent": 92.680614,
-        "member_count": 3,
-        "members": [
-          "unsympathetic",
-          "icy",
-          "air-head"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0215389009,
-            "similarity": 0.889107,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "egotistic / egotistical",
-        "descriptor_index": 2068,
-        "amplitude": 0.0055344107,
-        "abs_amplitude": 0.0055344107,
-        "raw_amplitude": 0.0166032322,
-        "percent": 1.660323,
-        "raw_percent": 1.660323,
-        "coverage_percent": 94.340938,
-        "member_count": 2,
-        "members": [
-          "egotistic",
-          "egotistical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0166032322,
-            "similarity": 0.880209,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "contemptuous",
-        "descriptor_index": 1397,
-        "amplitude": 0.0037843942,
-        "abs_amplitude": 0.0037843942,
-        "raw_amplitude": 0.0113531826,
-        "percent": 1.135318,
-        "raw_percent": 1.135318,
-        "coverage_percent": 95.476256,
-        "member_count": 1,
-        "members": [
-          "contemptuous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 245515,
-            "name": "Melt Narushima",
-            "native_name": "鳴嶋メルト",
-            "anime": "Oshi No Ko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
-            "site_url": "https://anilist.co/character/245515",
-            "anime_url": "https://myanimelist.net/anime/52034",
-            "role": "SUPPORTING",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0113531826,
-            "similarity": 0.882958,
-            "matched_descriptor": "arrogant"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 245515,
         "name": "Melt Narushima",
-        "native_name": "鳴嶋メルト",
         "anime": "Oshi No Ko",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
         "site_url": "https://anilist.co/character/245515",
-        "anime_url": "https://myanimelist.net/anime/52034",
-        "role": "SUPPORTING",
         "favourites": 172,
-        "row_weight": 2.48058291,
+        "anilist_favourites": 172,
+        "bangumi_collects": 5,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 102135,
+        "bangumi_url": "https://bgm.tv/character/102135",
+        "combined_favourites": 177,
+        "role_edge_count": 1,
+        "descriptors": [
+          "lazy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.48631928,
+        "row_weight": 2.48631928,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -742,19 +84,67 @@
       {
         "character_id": 245515,
         "name": "Melt Narushima",
-        "native_name": "鳴嶋メルト",
         "anime": "Oshi No Ko",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b245515-0fmOfMnyxQiZ.png",
         "site_url": "https://anilist.co/character/245515",
-        "anime_url": "https://myanimelist.net/anime/52034",
-        "role": "SUPPORTING",
         "favourites": 172,
-        "row_weight": 2.48058291,
+        "anilist_favourites": 172,
+        "bangumi_collects": 5,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 102135,
+        "bangumi_url": "https://bgm.tv/character/102135",
+        "combined_favourites": 177,
+        "role_edge_count": 1,
+        "descriptors": [
+          "lazy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.48631928,
+        "row_weight": 2.48631928,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4863192776,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

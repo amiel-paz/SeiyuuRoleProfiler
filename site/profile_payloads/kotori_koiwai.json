@@ -5,2051 +5,385 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n109131-IS92Cw9ldM2x.png",
   "site_url": "https://anilist.co/staff/109131",
   "role_count": 30,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2012,
   "aliases": [
     "koiwai kotori",
     "kotori koiwai"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/kotori_koiwai.json",
+  "sv1_mass_percent": 88.482643,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.8239994792,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.8239994792,
-        "mass_percent": 62.128639
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.0197512096,
-        "mass_percent": 24.345554
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.2508312055,
-        "mass_percent": 13.525807
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 236.74478,
-      "normalized_entanglement": 0.616523,
-      "top5_mass_percent": 4.733269,
-      "top10_mass_percent": 8.653114
-    },
-    "character_participation": {
-      "effective_count": 2.326114,
-      "normalized_entanglement": 0.775371,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.159655,
-      "semantic_spread": 1.317191,
-      "axis_concentration_percent": 77.510479,
-      "lane_count": 1.704095,
-      "direction_range": 0.870436,
-      "direction_spread": 0.971598,
-      "direction_axis_concentration_percent": 80.26016,
-      "direction_lane_count": 1.643412
-    },
-    "explained_sv_l2_percent": 62.128639,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.3977057606,
+    "mass_percent": 84.451567,
+    "descriptor_fit_percent": 98.141977,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "caring / soft-spotted / compassionate / loving / +13",
-        "descriptor_index": 958,
-        "amplitude": 0.0818534594,
-        "abs_amplitude": 0.0818534594,
-        "raw_amplitude": 0.2455603781,
-        "percent": 18.079175,
-        "raw_percent": 18.099876,
-        "coverage_percent": 18.079175,
-        "member_count": 17,
-        "members": [
-          "caring",
-          "soft-spotted",
-          "compassionate",
-          "loving",
-          "good-natured",
-          "soft-hearted",
-          "kindhearted",
-          "warm-hearted",
-          "kinder",
-          "tender-hearted",
-          "openhearted",
-          "cordial",
-          "gentle-hearted",
-          "romantic",
-          "sweet-natured",
-          "friendly-type",
-          "soft-side"
-        ],
+        "descriptor": "kind",
+        "amplitude": 0.4245037349,
+        "abs_amplitude": 0.4245037349,
+        "percent": 36.650235,
+        "weighted_support": 2.72545506,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 86681,
             "name": "Elaine",
-            "native_name": "エレイン",
             "anime": "The Seven Deadly Sins",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
             "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.245560378,
-            "similarity": 1.0,
-            "matched_descriptor": "caring"
+            "combined_favourites": 618
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +5",
-        "descriptor_index": 4133,
-        "amplitude": 0.0594281063,
-        "abs_amplitude": 0.0594281063,
-        "raw_amplitude": 0.1782843188,
-        "percent": 13.126032,
-        "raw_percent": 13.141062,
-        "coverage_percent": 31.205208,
-        "member_count": 9,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "pure-hearted",
-          "noble-spirited"
-        ],
+        "descriptor": "forgiving",
+        "amplitude": 0.3656161458,
+        "abs_amplitude": 0.3656161458,
+        "percent": 31.566077,
+        "weighted_support": 2.72545506,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 86681,
             "name": "Elaine",
-            "native_name": "エレイン",
             "anime": "The Seven Deadly Sins",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
             "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.1782843187,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
+            "combined_favourites": 618
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "downhearted / depressed / sorrowful / sad / +4",
-        "descriptor_index": 1946,
-        "amplitude": 0.0554727741,
-        "abs_amplitude": 0.0554727741,
-        "raw_amplitude": 0.1664183222,
-        "percent": 12.252408,
-        "raw_percent": 12.266437,
-        "coverage_percent": 43.457616,
-        "member_count": 8,
-        "members": [
-          "downhearted",
-          "depressed",
-          "sorrowful",
-          "sad",
-          "dejected",
-          "upset",
-          "miserable",
-          "despairing"
-        ],
+        "descriptor": "melancholic",
+        "amplitude": 0.3681366452,
+        "abs_amplitude": 0.3681366452,
+        "percent": 31.783688,
+        "weighted_support": 2.49834886,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 86175,
             "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
             "anime": "Gatchaman Crowds",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
             "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.1664183222,
-            "similarity": 0.894495,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "gloomy / grim / melancholic",
-        "descriptor_index": 3015,
-        "amplitude": 0.0487235563,
-        "abs_amplitude": 0.0487235563,
-        "raw_amplitude": 0.146170669,
-        "percent": 10.761692,
-        "raw_percent": 10.774014,
-        "coverage_percent": 54.219308,
-        "member_count": 3,
-        "members": [
-          "gloomy",
-          "grim",
-          "melancholic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.146170669,
-            "similarity": 1.0,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "forgiving / tolerant / grudge-free",
-        "descriptor_index": 2667,
-        "amplitude": 0.0251009707,
-        "abs_amplitude": 0.0251009707,
-        "raw_amplitude": 0.0753029121,
-        "percent": 5.544113,
-        "raw_percent": 5.550461,
-        "coverage_percent": 59.763421,
-        "member_count": 3,
-        "members": [
-          "forgiving",
-          "tolerant",
-          "grudge-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.075302912,
-            "similarity": 1.0,
-            "matched_descriptor": "forgiving"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "self-deprecating",
-        "descriptor_index": 6628,
-        "amplitude": 0.0240157999,
-        "abs_amplitude": 0.0240157999,
-        "raw_amplitude": 0.0720473997,
-        "percent": 5.304429,
-        "raw_percent": 5.310503,
-        "coverage_percent": 65.06785,
-        "member_count": 1,
-        "members": [
-          "self-deprecating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0720473997,
-            "similarity": 1.0,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "joking / sardonic / teasing / sarcastic",
-        "descriptor_index": 4062,
-        "amplitude": 0.0217925867,
-        "abs_amplitude": 0.0217925867,
-        "raw_amplitude": 0.0653777602,
-        "percent": 4.813382,
-        "raw_percent": 4.818894,
-        "coverage_percent": 69.881232,
-        "member_count": 4,
-        "members": [
-          "joking",
-          "sardonic",
-          "teasing",
-          "sarcastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0653777602,
-            "similarity": 0.878326,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "taunting / derisive / snide / mocking",
-        "descriptor_index": 7700,
-        "amplitude": 0.0136457385,
-        "abs_amplitude": 0.0136457385,
-        "raw_amplitude": 0.0409372155,
-        "percent": 3.013968,
-        "raw_percent": 3.017419,
-        "coverage_percent": 72.8952,
-        "member_count": 4,
-        "members": [
-          "taunting",
-          "derisive",
-          "snide",
-          "mocking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0409372156,
-            "similarity": 0.874649,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "prideful / smug / narcissistic / conceited / +1",
-        "descriptor_index": 5840,
-        "amplitude": 0.0111774817,
-        "abs_amplitude": 0.0111774817,
-        "raw_amplitude": 0.0319764064,
-        "percent": 2.468798,
-        "raw_percent": 2.356932,
-        "coverage_percent": 75.363998,
-        "member_count": 5,
-        "members": [
-          "prideful",
-          "smug",
-          "narcissistic",
-          "conceited",
-          "pompous"
-        ],
-        "support": 2,
-        "effective_support": 1.048662,
-        "support_factor": 0.349554,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0312164281,
-            "similarity": 0.880874,
-            "matched_descriptor": "self-deprecating"
-          },
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0007599784,
-            "similarity": 0.869214,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "self-indulgent / self-serving / selfish",
-        "descriptor_index": 6643,
-        "amplitude": 0.0090077846,
-        "abs_amplitude": 0.0090077846,
-        "raw_amplitude": 0.0270233538,
-        "percent": 1.989572,
-        "raw_percent": 1.99185,
-        "coverage_percent": 77.35357,
-        "member_count": 3,
-        "members": [
-          "self-indulgent",
-          "self-serving",
-          "selfish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0270233538,
-            "similarity": 0.863783,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "bonsai-tending",
-        "descriptor_index": 750,
-        "amplitude": 0.00874601,
-        "abs_amplitude": 0.00874601,
-        "raw_amplitude": 0.0262380299,
-        "percent": 1.931753,
-        "raw_percent": 1.933965,
-        "coverage_percent": 79.285322,
-        "member_count": 1,
-        "members": [
-          "bonsai-tending"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0262380299,
-            "similarity": 0.854017,
-            "matched_descriptor": "flower caretaker"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "good / soft / non-hostile / pleasant / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0076371291,
-        "abs_amplitude": 0.0076371291,
-        "raw_amplitude": 0.0229113874,
-        "percent": 1.686832,
-        "raw_percent": 1.688763,
-        "coverage_percent": 80.972154,
-        "member_count": 6,
-        "members": [
-          "good",
-          "soft",
-          "non-hostile",
-          "pleasant",
-          "polite",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0229113874,
-            "similarity": 0.901336,
-            "matched_descriptor": "kind / caring"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.007281761,
-        "abs_amplitude": 0.007281761,
-        "raw_amplitude": 0.0218452829,
-        "percent": 1.60834,
-        "raw_percent": 1.610182,
-        "coverage_percent": 82.580494,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0218452828,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "sullen / dismayed / unsmiling",
-        "descriptor_index": 7479,
-        "amplitude": 0.0050519164,
-        "abs_amplitude": 0.0050519164,
-        "raw_amplitude": 0.0151557492,
-        "percent": 1.115829,
-        "raw_percent": 1.117107,
-        "coverage_percent": 83.696324,
-        "member_count": 3,
-        "members": [
-          "sullen",
-          "dismayed",
-          "unsmiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0151557492,
-            "similarity": 0.877709,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "egoistic / self-absorbed",
-        "descriptor_index": 2067,
-        "amplitude": 0.0048452157,
-        "abs_amplitude": 0.0048452157,
-        "raw_amplitude": 0.0145356471,
-        "percent": 1.070175,
-        "raw_percent": 1.0714,
-        "coverage_percent": 84.766498,
-        "member_count": 2,
-        "members": [
-          "egoistic",
-          "self-absorbed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0145356471,
-            "similarity": 0.86021,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "boastful / show-off / bragging",
-        "descriptor_index": 735,
-        "amplitude": 0.0047125465,
-        "abs_amplitude": 0.0047125465,
-        "raw_amplitude": 0.0141376395,
-        "percent": 1.040872,
-        "raw_percent": 1.042064,
-        "coverage_percent": 85.80737,
-        "member_count": 3,
-        "members": [
-          "boastful",
-          "show-off",
-          "bragging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0141376394,
-            "similarity": 0.847008,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "ego-centric / self-centred / self-involved",
-        "descriptor_index": 2066,
-        "amplitude": 0.0042630345,
-        "abs_amplitude": 0.0042630345,
-        "raw_amplitude": 0.0127891034,
-        "percent": 0.941587,
-        "raw_percent": 0.942665,
-        "coverage_percent": 86.748957,
-        "member_count": 3,
-        "members": [
-          "ego-centric",
-          "self-centred",
-          "self-involved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0127891033,
-            "similarity": 0.844285,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "unrepentant",
-        "descriptor_index": 8209,
-        "amplitude": 0.0040751327,
-        "abs_amplitude": 0.0040751327,
-        "raw_amplitude": 0.0122253981,
-        "percent": 0.900085,
-        "raw_percent": 0.901115,
-        "coverage_percent": 87.649042,
-        "member_count": 1,
-        "members": [
-          "unrepentant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0122253981,
-            "similarity": 0.892641,
-            "matched_descriptor": "forgiving"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "big-hearted / bighearted",
-        "descriptor_index": 648,
-        "amplitude": 0.0040541261,
-        "abs_amplitude": 0.0040541261,
-        "raw_amplitude": 0.0121623783,
-        "percent": 0.895445,
-        "raw_percent": 0.89647,
-        "coverage_percent": 88.544487,
-        "member_count": 2,
-        "members": [
-          "big-hearted",
-          "bighearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0121623784,
-            "similarity": 0.899855,
-            "matched_descriptor": "caring"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "respectable / honorable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0032591778,
-        "abs_amplitude": 0.0032591778,
-        "raw_amplitude": 0.0097775335,
-        "percent": 0.719863,
-        "raw_percent": 0.720687,
-        "coverage_percent": 89.264349,
-        "member_count": 2,
-        "members": [
-          "respectable",
-          "honorable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0097775334,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "despair-inducing",
-        "descriptor_index": 1752,
-        "amplitude": 0.0032007209,
-        "abs_amplitude": 0.0032007209,
-        "raw_amplitude": 0.0096021626,
-        "percent": 0.706951,
-        "raw_percent": 0.707761,
-        "coverage_percent": 89.9713,
-        "member_count": 1,
-        "members": [
-          "despair-inducing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0096021626,
-            "similarity": 0.834669,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "contemptuous / snobbish",
-        "descriptor_index": 1397,
-        "amplitude": 0.0031389955,
-        "abs_amplitude": 0.0031389955,
-        "raw_amplitude": 0.0094169866,
-        "percent": 0.693318,
-        "raw_percent": 0.694112,
-        "coverage_percent": 90.664618,
-        "member_count": 2,
-        "members": [
-          "contemptuous",
-          "snobbish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0094169867,
-            "similarity": 0.869593,
-            "matched_descriptor": "self-deprecating"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "merciful",
-        "descriptor_index": 4761,
-        "amplitude": 0.0029316165,
-        "abs_amplitude": 0.0029316165,
-        "raw_amplitude": 0.0087948495,
-        "percent": 0.647513,
-        "raw_percent": 0.648255,
-        "coverage_percent": 91.312131,
-        "member_count": 1,
-        "members": [
-          "merciful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.0087948495,
-            "similarity": 0.887626,
-            "matched_descriptor": "forgiving"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "steady / consistent",
-        "descriptor_index": 7239,
-        "amplitude": 0.0029078137,
-        "abs_amplitude": 0.0029078137,
-        "raw_amplitude": 0.008723441,
-        "percent": 0.642256,
-        "raw_percent": 0.642991,
-        "coverage_percent": 91.954387,
-        "member_count": 2,
-        "members": [
-          "steady",
-          "consistent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86681,
-            "name": "Elaine",
-            "native_name": "エレイン",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
-            "site_url": "https://anilist.co/character/86681",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "SUPPORTING",
-            "favourites": 618,
-            "row_weight": 2.72545506,
-            "projection": 0.008723441,
-            "similarity": 0.883471,
-            "matched_descriptor": "forgiving"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "humorless",
-        "descriptor_index": 3644,
-        "amplitude": 0.0024842832,
-        "abs_amplitude": 0.0024842832,
-        "raw_amplitude": 0.0074528495,
-        "percent": 0.54871,
-        "raw_percent": 0.549338,
-        "coverage_percent": 92.503097,
-        "member_count": 1,
-        "members": [
-          "humorless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 86175,
-            "name": "Utsu-tsu Miya",
-            "native_name": "宮うつつ",
-            "anime": "Gatchaman Crowds",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
-            "site_url": "https://anilist.co/character/86175",
-            "anime_url": "https://myanimelist.net/anime/18229",
-            "role": "SUPPORTING",
-            "favourites": 113,
-            "row_weight": 2.39503621,
-            "projection": 0.0074528495,
-            "similarity": 0.851056,
-            "matched_descriptor": "gloomy"
+            "combined_favourites": 188
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "intelligent / brainy / smart / clever / +4",
-        "descriptor_index": 3945,
-        "amplitude": 0.0136499962,
-        "abs_amplitude": 0.0136499962,
-        "raw_amplitude": 0.0409499887,
-        "percent": 14.509098,
-        "raw_percent": 14.508612,
-        "coverage_percent": 14.509098,
-        "member_count": 8,
-        "members": [
-          "intelligent",
-          "brainy",
-          "smart",
-          "clever",
-          "quick-witted",
-          "astute",
-          "shrewd",
-          "inventive"
-        ],
+        "step": 1,
+        "descriptor": "kind",
+        "weighted_support": 2.72545506,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0409499887,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent"
-          }
-        ]
+        "fit_percent": 87.394741,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "beautiful / good-looking / cool / nice / +6",
-        "descriptor_index": 594,
-        "amplitude": 0.0134121767,
-        "abs_amplitude": 0.0134121767,
-        "raw_amplitude": 0.04023653,
-        "percent": 14.25631,
-        "raw_percent": 14.255833,
-        "coverage_percent": 28.765408,
-        "member_count": 10,
-        "members": [
-          "beautiful",
-          "good-looking",
-          "cool",
-          "nice",
-          "clean-cut",
-          "flashy",
-          "attractive",
-          "handsome",
-          "aesthetic",
-          "realistic"
-        ],
+        "step": 2,
+        "descriptor": "forgiving",
+        "weighted_support": 2.72545506,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.04023653,
-            "similarity": 1.0,
-            "matched_descriptor": "beautiful"
-          }
-        ]
+        "fit_percent": 93.83456,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "depressed / downhearted / sorrowful / despairing / +3",
-        "descriptor_index": 1736,
-        "amplitude": 0.0108093492,
-        "abs_amplitude": 0.0108093492,
-        "raw_amplitude": 0.0324280477,
-        "percent": 11.489666,
-        "raw_percent": 11.489282,
-        "coverage_percent": 40.255074,
-        "member_count": 7,
-        "members": [
-          "depressed",
-          "downhearted",
-          "sorrowful",
-          "despairing",
-          "dejected",
-          "miserable",
-          "upset"
-        ],
+        "step": 3,
+        "descriptor": "melancholic",
+        "weighted_support": 2.49834886,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0324280477,
-            "similarity": 1.0,
-            "matched_descriptor": "depressed"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "popular / famous / well-liked / familiar",
-        "descriptor_index": 5725,
-        "amplitude": 0.0073043325,
-        "abs_amplitude": 0.0073043325,
-        "raw_amplitude": 0.0219129974,
-        "percent": 7.764051,
-        "raw_percent": 7.763792,
-        "coverage_percent": 48.019125,
-        "member_count": 4,
-        "members": [
-          "popular",
-          "famous",
-          "well-liked",
-          "familiar"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0219129973,
-            "similarity": 1.0,
-            "matched_descriptor": "popular"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "lone / isolated / self-sufficient / self-reliant / +1",
-        "descriptor_index": 4369,
-        "amplitude": 0.0072631898,
-        "abs_amplitude": 0.0072631898,
-        "raw_amplitude": 0.0217895694,
-        "percent": 7.720319,
-        "raw_percent": 7.720061,
-        "coverage_percent": 55.739445,
-        "member_count": 5,
-        "members": [
-          "lone",
-          "isolated",
-          "self-sufficient",
-          "self-reliant",
-          "solitary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0217895694,
-            "similarity": 0.931854,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "reclusive / friendless / antisocial",
-        "descriptor_index": 6160,
-        "amplitude": 0.0029589019,
-        "abs_amplitude": 0.0029589019,
-        "raw_amplitude": 0.0088767057,
-        "percent": 3.145129,
-        "raw_percent": 3.145024,
-        "coverage_percent": 58.884574,
-        "member_count": 3,
-        "members": [
-          "reclusive",
-          "friendless",
-          "antisocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0088767057,
-            "similarity": 0.913703,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "gloomy / melancholic / grim",
-        "descriptor_index": 3015,
-        "amplitude": 0.0027059838,
-        "abs_amplitude": 0.0027059838,
-        "raw_amplitude": 0.0081179513,
-        "percent": 2.876293,
-        "raw_percent": 2.876196,
-        "coverage_percent": 61.760866,
-        "member_count": 3,
-        "members": [
-          "gloomy",
-          "melancholic",
-          "grim"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0081179514,
-            "similarity": 0.890581,
-            "matched_descriptor": "depressed"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "admired / idolized / respected / revered",
-        "descriptor_index": 79,
-        "amplitude": 0.0026445448,
-        "abs_amplitude": 0.0026445448,
-        "raw_amplitude": 0.0079336344,
-        "percent": 2.810987,
-        "raw_percent": 2.810893,
-        "coverage_percent": 64.571853,
-        "member_count": 4,
-        "members": [
-          "admired",
-          "idolized",
-          "respected",
-          "revered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0079336344,
-            "similarity": 0.870569,
-            "matched_descriptor": "popular"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "recluse / asocial",
-        "descriptor_index": 6159,
-        "amplitude": 0.0022078476,
-        "abs_amplitude": 0.0022078476,
-        "raw_amplitude": 0.0066235428,
-        "percent": 2.346805,
-        "raw_percent": 2.346726,
-        "coverage_percent": 66.918658,
-        "member_count": 2,
-        "members": [
-          "recluse",
-          "asocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0066235428,
-            "similarity": 0.916381,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "quick-thinking / quick-minded",
-        "descriptor_index": 6082,
-        "amplitude": 0.0019147787,
-        "abs_amplitude": 0.0019147787,
-        "raw_amplitude": 0.0057443361,
-        "percent": 2.035291,
-        "raw_percent": 2.035223,
-        "coverage_percent": 68.953948,
-        "member_count": 2,
-        "members": [
-          "quick-thinking",
-          "quick-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0057443361,
-            "similarity": 0.895359,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "heartless / cold-hearted / insensitive / empathy-less / +1",
-        "descriptor_index": 3423,
-        "amplitude": 0.0017503202,
-        "abs_amplitude": 0.0017503202,
-        "raw_amplitude": 0.0052509605,
-        "percent": 1.860482,
-        "raw_percent": 1.860419,
-        "coverage_percent": 70.81443,
-        "member_count": 5,
-        "members": [
-          "heartless",
-          "cold-hearted",
-          "insensitive",
-          "empathy-less",
-          "dispassionate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0052509604,
-            "similarity": 0.881731,
-            "matched_descriptor": "depressed"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "heartbroken / grieving",
-        "descriptor_index": 3420,
-        "amplitude": 0.0013542607,
-        "abs_amplitude": 0.0013542607,
-        "raw_amplitude": 0.0040627822,
-        "percent": 1.439495,
-        "raw_percent": 1.439447,
-        "coverage_percent": 72.253925,
-        "member_count": 2,
-        "members": [
-          "heartbroken",
-          "grieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0040627822,
-            "similarity": 0.879632,
-            "matched_descriptor": "depressed"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "works-alone",
-        "descriptor_index": 8614,
-        "amplitude": 0.0013428005,
-        "abs_amplitude": 0.0013428005,
-        "raw_amplitude": 0.0040284014,
-        "percent": 1.427313,
-        "raw_percent": 1.427266,
-        "coverage_percent": 73.681238,
-        "member_count": 1,
-        "members": [
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0040284014,
-            "similarity": 0.908936,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "smartest / brilliant",
-        "descriptor_index": 7002,
-        "amplitude": 0.0012287343,
-        "abs_amplitude": 0.0012287343,
-        "raw_amplitude": 0.0036862028,
-        "percent": 1.306068,
-        "raw_percent": 1.306024,
-        "coverage_percent": 74.987306,
-        "member_count": 2,
-        "members": [
-          "smartest",
-          "brilliant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0036862028,
-            "similarity": 0.87172,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "despair-inducing",
-        "descriptor_index": 1752,
-        "amplitude": 0.0011056163,
-        "abs_amplitude": 0.0011056163,
-        "raw_amplitude": 0.003316849,
-        "percent": 1.175201,
-        "raw_percent": 1.175162,
-        "coverage_percent": 76.162508,
-        "member_count": 1,
-        "members": [
-          "despair-inducing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.003316849,
-            "similarity": 0.896037,
-            "matched_descriptor": "depressed"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "shut-in",
-        "descriptor_index": 6836,
-        "amplitude": 0.0010841368,
-        "abs_amplitude": 0.0010841368,
-        "raw_amplitude": 0.0032524105,
-        "percent": 1.15237,
-        "raw_percent": 1.152332,
-        "coverage_percent": 77.314878,
-        "member_count": 1,
-        "members": [
-          "shut-in"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0032524105,
-            "similarity": 0.892015,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "sophisticated / elegant / pretentious",
-        "descriptor_index": 7097,
-        "amplitude": 0.0010444355,
-        "abs_amplitude": 0.0010444355,
-        "raw_amplitude": 0.0031333066,
-        "percent": 1.11017,
-        "raw_percent": 1.110133,
-        "coverage_percent": 78.425048,
-        "member_count": 3,
-        "members": [
-          "sophisticated",
-          "elegant",
-          "pretentious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0031333066,
-            "similarity": 0.890764,
-            "matched_descriptor": "beautiful"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "gorgeous / glamorous / seductive",
-        "descriptor_index": 3113,
-        "amplitude": 0.0010337445,
-        "abs_amplitude": 0.0010337445,
-        "raw_amplitude": 0.0031012336,
-        "percent": 1.098806,
-        "raw_percent": 1.098769,
-        "coverage_percent": 79.523854,
-        "member_count": 3,
-        "members": [
-          "gorgeous",
-          "glamorous",
-          "seductive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0031012336,
-            "similarity": 0.882829,
-            "matched_descriptor": "beautiful"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "adorable / sweet-faced / suave",
-        "descriptor_index": 94,
-        "amplitude": 0.0010254839,
-        "abs_amplitude": 0.0010254839,
-        "raw_amplitude": 0.0030764517,
-        "percent": 1.090026,
-        "raw_percent": 1.089989,
-        "coverage_percent": 80.61388,
-        "member_count": 3,
-        "members": [
-          "adorable",
-          "sweet-faced",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0030764517,
-            "similarity": 0.896265,
-            "matched_descriptor": "beautiful"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "individualistic",
-        "descriptor_index": 3847,
-        "amplitude": 0.0009583947,
-        "abs_amplitude": 0.0009583947,
-        "raw_amplitude": 0.0028751841,
-        "percent": 1.018714,
-        "raw_percent": 1.01868,
-        "coverage_percent": 81.632594,
-        "member_count": 1,
-        "members": [
-          "individualistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0028751841,
-            "similarity": 0.906924,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "independent / hands-off / self-motivated",
-        "descriptor_index": 3832,
-        "amplitude": 0.0009500946,
-        "abs_amplitude": 0.0009500946,
-        "raw_amplitude": 0.0028502839,
-        "percent": 1.009892,
-        "raw_percent": 1.009858,
-        "coverage_percent": 82.642485,
-        "member_count": 3,
-        "members": [
-          "independent",
-          "hands-off",
-          "self-motivated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0028502839,
-            "similarity": 0.879946,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "gifted / capable",
-        "descriptor_index": 2995,
-        "amplitude": 0.0009153904,
-        "abs_amplitude": 0.0009153904,
-        "raw_amplitude": 0.0027461711,
-        "percent": 0.973003,
-        "raw_percent": 0.972971,
-        "coverage_percent": 83.615488,
-        "member_count": 2,
-        "members": [
-          "gifted",
-          "capable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0027461712,
-            "similarity": 0.877143,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "dismayed / sullen",
-        "descriptor_index": 1867,
-        "amplitude": 0.0008965604,
-        "abs_amplitude": 0.0008965604,
-        "raw_amplitude": 0.0026896811,
-        "percent": 0.952988,
-        "raw_percent": 0.952956,
-        "coverage_percent": 84.568476,
-        "member_count": 2,
-        "members": [
-          "dismayed",
-          "sullen"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0026896811,
-            "similarity": 0.8915,
-            "matched_descriptor": "depressed"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "fashion-forward / fashionable",
-        "descriptor_index": 2458,
-        "amplitude": 0.0008894065,
-        "abs_amplitude": 0.0008894065,
-        "raw_amplitude": 0.0026682195,
-        "percent": 0.945384,
-        "raw_percent": 0.945352,
-        "coverage_percent": 85.51386,
-        "member_count": 2,
-        "members": [
-          "fashion-forward",
-          "fashionable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0026682195,
-            "similarity": 0.886863,
-            "matched_descriptor": "beautiful"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "sad",
-        "descriptor_index": 6428,
-        "amplitude": 0.0008753865,
-        "abs_amplitude": 0.0008753865,
-        "raw_amplitude": 0.0026261595,
-        "percent": 0.930481,
-        "raw_percent": 0.93045,
-        "coverage_percent": 86.444342,
-        "member_count": 1,
-        "members": [
-          "sad"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89790,
-            "name": "Shiraishi",
-            "native_name": "白石",
-            "anime": "Tanaka-kun is Always Listless",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-            "site_url": "https://anilist.co/character/89790",
-            "anime_url": "https://myanimelist.net/anime/32093",
-            "role": "SUPPORTING",
-            "favourites": 340,
-            "row_weight": 2.613787,
-            "projection": 0.0026261595,
-            "similarity": 0.892558,
-            "matched_descriptor": "depressed"
-          }
-        ]
+        "fit_percent": 98.141977,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 86681,
         "name": "Elaine",
-        "native_name": "エレイン",
         "anime": "The Seven Deadly Sins",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
         "site_url": "https://anilist.co/character/86681",
-        "anime_url": "https://myanimelist.net/anime/23755",
-        "role": "SUPPORTING",
         "favourites": 618,
+        "anilist_favourites": 618,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 25062,
+        "bangumi_url": "https://bgm.tv/character/25062",
+        "combined_favourites": 618,
+        "role_edge_count": 1,
+        "descriptors": [
+          "forgiving",
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.72545506,
         "row_weight": 2.72545506,
-        "amplitude": 0.6818486386,
-        "abs_amplitude": 0.6818486386,
-        "percent": 46.491757
+        "unweighted_row_norm": 1.79911139,
+        "amplitude": 0.7503180387,
+        "abs_amplitude": 0.7503180387,
+        "percent": 56.297716
       },
       {
         "character_id": 86175,
         "name": "Utsu-tsu Miya",
-        "native_name": "宮うつつ",
         "anime": "Gatchaman Crowds",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
         "site_url": "https://anilist.co/character/86175",
-        "anime_url": "https://myanimelist.net/anime/18229",
-        "role": "SUPPORTING",
         "favourites": 113,
-        "row_weight": 2.39503621,
-        "amplitude": 0.6748478258,
-        "abs_amplitude": 0.6748478258,
-        "percent": 45.541959
-      },
-      {
-        "character_id": 89790,
-        "name": "Shiraishi",
-        "native_name": "白石",
-        "anime": "Tanaka-kun is Always Listless",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-        "site_url": "https://anilist.co/character/89790",
-        "anime_url": "https://myanimelist.net/anime/32093",
-        "role": "SUPPORTING",
-        "favourites": 340,
-        "row_weight": 2.613787,
-        "amplitude": -0.2822460737,
-        "abs_amplitude": 0.2822460737,
-        "percent": 7.966285
+        "anilist_favourites": 113,
+        "bangumi_collects": 75,
+        "bangumi_comments": 29,
+        "bangumi_character_id": 20583,
+        "bangumi_url": "https://bgm.tv/character/20583",
+        "combined_favourites": 188,
+        "role_edge_count": 1,
+        "descriptors": [
+          "gloomy",
+          "melancholic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49834886,
+        "row_weight": 2.49834886,
+        "unweighted_row_norm": 1.802062,
+        "amplitude": 0.6610770309,
+        "abs_amplitude": 0.6610770309,
+        "percent": 43.702284
       }
     ],
     "positive_characters": [
       {
         "character_id": 86681,
         "name": "Elaine",
-        "native_name": "エレイン",
         "anime": "The Seven Deadly Sins",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
         "site_url": "https://anilist.co/character/86681",
-        "anime_url": "https://myanimelist.net/anime/23755",
-        "role": "SUPPORTING",
         "favourites": 618,
+        "anilist_favourites": 618,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 25062,
+        "bangumi_url": "https://bgm.tv/character/25062",
+        "combined_favourites": 618,
+        "role_edge_count": 1,
+        "descriptors": [
+          "forgiving",
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.72545506,
         "row_weight": 2.72545506,
-        "amplitude": 0.6818486386,
-        "abs_amplitude": 0.6818486386,
-        "percent": 46.491757
+        "unweighted_row_norm": 1.79911139,
+        "amplitude": 0.7503180387,
+        "abs_amplitude": 0.7503180387,
+        "percent": 56.297716
       },
       {
         "character_id": 86175,
         "name": "Utsu-tsu Miya",
-        "native_name": "宮うつつ",
         "anime": "Gatchaman Crowds",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
         "site_url": "https://anilist.co/character/86175",
-        "anime_url": "https://myanimelist.net/anime/18229",
-        "role": "SUPPORTING",
         "favourites": 113,
-        "row_weight": 2.39503621,
-        "amplitude": 0.6748478258,
-        "abs_amplitude": 0.6748478258,
-        "percent": 45.541959
+        "anilist_favourites": 113,
+        "bangumi_collects": 75,
+        "bangumi_comments": 29,
+        "bangumi_character_id": 20583,
+        "bangumi_url": "https://bgm.tv/character/20583",
+        "combined_favourites": 188,
+        "role_edge_count": 1,
+        "descriptors": [
+          "gloomy",
+          "melancholic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49834886,
+        "row_weight": 2.49834886,
+        "unweighted_row_norm": 1.802062,
+        "amplitude": 0.6610770309,
+        "abs_amplitude": 0.6610770309,
+        "percent": 43.702284
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 89790,
-        "name": "Shiraishi",
-        "native_name": "白石",
-        "anime": "Tanaka-kun is Always Listless",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89790-BXLb3zEV2zbv.jpg",
-        "site_url": "https://anilist.co/character/89790",
-        "anime_url": "https://myanimelist.net/anime/32093",
-        "role": "SUPPORTING",
-        "favourites": 340,
-        "row_weight": 2.613787,
-        "amplitude": -0.2822460737,
-        "abs_amplitude": 0.2822460737,
-        "percent": 7.966285
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.968767,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.4578915777,
+      "mass_percent": 15.548433,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 40.410484,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "forgiving",
+            "amplitude": 0.404104844,
+            "abs_amplitude": 0.404104844,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "forgiving",
+            "fit_percent": 40.410484,
+            "residual_gain_percent": 16.330072
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 86681,
+            "name": "Elaine",
+            "anime": "The Seven Deadly Sins",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/86681-6kx3mfwNhraK.png",
+            "site_url": "https://anilist.co/character/86681",
+            "favourites": 618,
+            "anilist_favourites": 618,
+            "bangumi_collects": 0,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 25062,
+            "bangumi_url": "https://bgm.tv/character/25062",
+            "combined_favourites": 618,
+            "role_edge_count": 1,
+            "descriptors": [
+              "forgiving",
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.72545506,
+            "row_weight": 2.72545506,
+            "unweighted_row_norm": 1.79911139,
+            "amplitude": 0.6610770309,
+            "abs_amplitude": 0.6610770309,
+            "percent": 43.702284
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 43.844106,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "melancholic",
+            "amplitude": 0.2693756906,
+            "abs_amplitude": 0.2693756906,
+            "percent": 55.434559
+          },
+          {
+            "rank": 2,
+            "descriptor": "gloomy",
+            "amplitude": 0.2165588845,
+            "abs_amplitude": 0.2165588845,
+            "percent": 44.565441
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "melancholic",
+            "fit_percent": 40.444644,
+            "residual_gain_percent": 16.357692
+          },
+          {
+            "step": 2,
+            "descriptor": "gloomy",
+            "fit_percent": 43.844106,
+            "residual_gain_percent": 3.425736
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 86175,
+            "name": "Utsu-tsu Miya",
+            "anime": "Gatchaman Crowds",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b86175-CSSqrEez0Iox.jpg",
+            "site_url": "https://anilist.co/character/86175",
+            "favourites": 113,
+            "anilist_favourites": 113,
+            "bangumi_collects": 75,
+            "bangumi_comments": 29,
+            "bangumi_character_id": 20583,
+            "bangumi_url": "https://bgm.tv/character/20583",
+            "combined_favourites": 188,
+            "role_edge_count": 1,
+            "descriptors": [
+              "gloomy",
+              "melancholic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.49834886,
+            "row_weight": 2.49834886,
+            "unweighted_row_norm": 1.802062,
+            "amplitude": -0.7503180387,
+            "abs_amplitude": 0.7503180387,
+            "percent": 56.297716
+          }
+        ]
       }
-    ]
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.3977057606,
+      "mass_percent": 84.451567,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.4578915777,
+      "mass_percent": 15.548433,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

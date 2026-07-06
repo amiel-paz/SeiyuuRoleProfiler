@@ -11,1156 +11,70 @@
     "eri suzuki",
     "suzuki eri"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/eri_suzuki.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.8476594112,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.8476594112,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 178.686154,
-      "normalized_entanglement": 0.465329,
-      "top5_mass_percent": 7.356491,
-      "top10_mass_percent": 13.146982
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5249313669,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "timid / withdrawn / inhibited / introverted / +1",
-        "descriptor_index": 7851,
-        "amplitude": 0.1212312953,
-        "abs_amplitude": 0.1212312953,
-        "raw_amplitude": 0.3636938858,
-        "percent": 36.369389,
-        "raw_percent": 36.369389,
-        "coverage_percent": 36.369389,
-        "member_count": 5,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited",
-          "introverted",
-          "bashful"
-        ],
+        "descriptor": "timid",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.52493137,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 175577,
             "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
             "anime": "Re:ZERO -Starting Life in Another World-",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
             "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.3636938858,
-            "similarity": 1.0,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "shy / demure / reticent / faint-hearted / +3",
-        "descriptor_index": 6837,
-        "amplitude": 0.0369973128,
-        "abs_amplitude": 0.0369973128,
-        "raw_amplitude": 0.1109919384,
-        "percent": 11.099194,
-        "raw_percent": 11.099194,
-        "coverage_percent": 47.468582,
-        "member_count": 7,
-        "members": [
-          "shy",
-          "demure",
-          "reticent",
-          "faint-hearted",
-          "discreet",
-          "modest",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.1109919384,
-            "similarity": 0.899131,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "beast-tamer / tamer",
-        "descriptor_index": 593,
-        "amplitude": 0.034168928,
-        "abs_amplitude": 0.034168928,
-        "raw_amplitude": 0.1025067839,
-        "percent": 10.250678,
-        "raw_percent": 10.250678,
-        "coverage_percent": 57.719261,
-        "member_count": 2,
-        "members": [
-          "beast-tamer",
-          "tamer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.102506784,
-            "similarity": 0.881807,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "self-doubting / poor self-esteem / insecure / low self-esteem / +1",
-        "descriptor_index": 6632,
-        "amplitude": 0.0268140663,
-        "abs_amplitude": 0.0268140663,
-        "raw_amplitude": 0.0804421989,
-        "percent": 8.04422,
-        "raw_percent": 8.04422,
-        "coverage_percent": 65.763481,
-        "member_count": 5,
-        "members": [
-          "self-doubting",
-          "poor self-esteem",
-          "insecure",
-          "low self-esteem",
-          "self-consciousness-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.080442199,
-            "similarity": 0.893941,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "half-demon / half-oni / half-youmu",
-        "descriptor_index": 3304,
-        "amplitude": 0.022779327,
-        "abs_amplitude": 0.022779327,
-        "raw_amplitude": 0.0683379809,
-        "percent": 6.833798,
-        "raw_percent": 6.833798,
-        "coverage_percent": 72.597279,
-        "member_count": 3,
-        "members": [
-          "half-demon",
-          "half-oni",
-          "half-youmu"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0683379808,
-            "similarity": 0.864721,
-            "matched_descriptor": "demon beast user"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "pet",
-        "descriptor_index": 5565,
-        "amplitude": 0.0185100747,
-        "abs_amplitude": 0.0185100747,
-        "raw_amplitude": 0.0555302241,
-        "percent": 5.553022,
-        "raw_percent": 5.553022,
-        "coverage_percent": 78.150301,
-        "member_count": 1,
-        "members": [
-          "pet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0555302241,
-            "similarity": 0.863505,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0108341808,
-        "abs_amplitude": 0.0108341808,
-        "raw_amplitude": 0.0325025423,
-        "percent": 3.250254,
-        "raw_percent": 3.250254,
-        "coverage_percent": 81.400555,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0325025423,
-            "similarity": 0.89704,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0095454604,
-        "abs_amplitude": 0.0095454604,
-        "raw_amplitude": 0.0286363813,
-        "percent": 2.863638,
-        "raw_percent": 2.863638,
-        "coverage_percent": 84.264194,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0286363813,
-            "similarity": 0.893055,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "stoic / composed / nonchalant",
-        "descriptor_index": 7270,
-        "amplitude": 0.0082218761,
-        "abs_amplitude": 0.0082218761,
-        "raw_amplitude": 0.0246656282,
-        "percent": 2.466563,
-        "raw_percent": 2.466563,
-        "coverage_percent": 86.730756,
-        "member_count": 3,
-        "members": [
-          "stoic",
-          "composed",
-          "nonchalant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0246656281,
-            "similarity": 0.889606,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "aspiring-demon-king",
-        "descriptor_index": 408,
-        "amplitude": 0.0061268165,
-        "abs_amplitude": 0.0061268165,
-        "raw_amplitude": 0.0183804496,
-        "percent": 1.838045,
-        "raw_percent": 1.838045,
-        "coverage_percent": 88.568801,
-        "member_count": 1,
-        "members": [
-          "aspiring-demon-king"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0183804496,
-            "similarity": 0.848883,
-            "matched_descriptor": "demon beast user"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "cat-player",
-        "descriptor_index": 988,
-        "amplitude": 0.0056548682,
-        "abs_amplitude": 0.0056548682,
-        "raw_amplitude": 0.0169646046,
-        "percent": 1.69646,
-        "raw_percent": 1.69646,
-        "coverage_percent": 90.265262,
-        "member_count": 1,
-        "members": [
-          "cat-player"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0169646046,
-            "similarity": 0.82109,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "animal-lover",
-        "descriptor_index": 251,
-        "amplitude": 0.0055874065,
-        "abs_amplitude": 0.0055874065,
-        "raw_amplitude": 0.0167622196,
-        "percent": 1.676222,
-        "raw_percent": 1.676222,
-        "coverage_percent": 91.941484,
-        "member_count": 1,
-        "members": [
-          "animal-lover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0167622196,
-            "similarity": 0.81619,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.0054065064,
-        "abs_amplitude": 0.0054065064,
-        "raw_amplitude": 0.0162195192,
-        "percent": 1.621952,
-        "raw_percent": 1.621952,
-        "coverage_percent": 93.563436,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0162195192,
-            "similarity": 0.880259,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "fretful / anxious",
-        "descriptor_index": 2809,
-        "amplitude": 0.0045824017,
-        "abs_amplitude": 0.0045824017,
-        "raw_amplitude": 0.013747205,
-        "percent": 1.374721,
-        "raw_percent": 1.374721,
-        "coverage_percent": 94.938156,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.013747205,
-            "similarity": 0.87413,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "little self-assertion",
-        "descriptor_index": 4343,
-        "amplitude": 0.0042211582,
-        "abs_amplitude": 0.0042211582,
-        "raw_amplitude": 0.0126634746,
-        "percent": 1.266347,
-        "raw_percent": 1.266347,
-        "coverage_percent": 96.204504,
-        "member_count": 1,
-        "members": [
-          "little self-assertion"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0126634746,
-            "similarity": 0.876594,
-            "matched_descriptor": "timid"
+            "combined_favourites": 215
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "timid / withdrawn / inhibited / introverted / +1",
-        "descriptor_index": 7851,
-        "amplitude": 0.1212312953,
-        "abs_amplitude": 0.1212312953,
-        "raw_amplitude": 0.3636938858,
-        "percent": 36.369389,
-        "raw_percent": 36.369389,
-        "coverage_percent": 36.369389,
-        "member_count": 5,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited",
-          "introverted",
-          "bashful"
-        ],
+        "step": 1,
+        "descriptor": "timid",
+        "weighted_support": 2.52493137,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.3636938858,
-            "similarity": 1.0,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "shy / demure / reticent / faint-hearted / +3",
-        "descriptor_index": 6837,
-        "amplitude": 0.0369973128,
-        "abs_amplitude": 0.0369973128,
-        "raw_amplitude": 0.1109919384,
-        "percent": 11.099194,
-        "raw_percent": 11.099194,
-        "coverage_percent": 47.468582,
-        "member_count": 7,
-        "members": [
-          "shy",
-          "demure",
-          "reticent",
-          "faint-hearted",
-          "discreet",
-          "modest",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.1109919384,
-            "similarity": 0.899131,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "beast-tamer / tamer",
-        "descriptor_index": 593,
-        "amplitude": 0.034168928,
-        "abs_amplitude": 0.034168928,
-        "raw_amplitude": 0.1025067839,
-        "percent": 10.250678,
-        "raw_percent": 10.250678,
-        "coverage_percent": 57.719261,
-        "member_count": 2,
-        "members": [
-          "beast-tamer",
-          "tamer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.102506784,
-            "similarity": 0.881807,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "self-doubting / poor self-esteem / insecure / low self-esteem / +1",
-        "descriptor_index": 6632,
-        "amplitude": 0.0268140663,
-        "abs_amplitude": 0.0268140663,
-        "raw_amplitude": 0.0804421989,
-        "percent": 8.04422,
-        "raw_percent": 8.04422,
-        "coverage_percent": 65.763481,
-        "member_count": 5,
-        "members": [
-          "self-doubting",
-          "poor self-esteem",
-          "insecure",
-          "low self-esteem",
-          "self-consciousness-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.080442199,
-            "similarity": 0.893941,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "half-demon / half-oni / half-youmu",
-        "descriptor_index": 3304,
-        "amplitude": 0.022779327,
-        "abs_amplitude": 0.022779327,
-        "raw_amplitude": 0.0683379809,
-        "percent": 6.833798,
-        "raw_percent": 6.833798,
-        "coverage_percent": 72.597279,
-        "member_count": 3,
-        "members": [
-          "half-demon",
-          "half-oni",
-          "half-youmu"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0683379808,
-            "similarity": 0.864721,
-            "matched_descriptor": "demon beast user"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "pet",
-        "descriptor_index": 5565,
-        "amplitude": 0.0185100747,
-        "abs_amplitude": 0.0185100747,
-        "raw_amplitude": 0.0555302241,
-        "percent": 5.553022,
-        "raw_percent": 5.553022,
-        "coverage_percent": 78.150301,
-        "member_count": 1,
-        "members": [
-          "pet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0555302241,
-            "similarity": 0.863505,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0108341808,
-        "abs_amplitude": 0.0108341808,
-        "raw_amplitude": 0.0325025423,
-        "percent": 3.250254,
-        "raw_percent": 3.250254,
-        "coverage_percent": 81.400555,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0325025423,
-            "similarity": 0.89704,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0095454604,
-        "abs_amplitude": 0.0095454604,
-        "raw_amplitude": 0.0286363813,
-        "percent": 2.863638,
-        "raw_percent": 2.863638,
-        "coverage_percent": 84.264194,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0286363813,
-            "similarity": 0.893055,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "stoic / composed / nonchalant",
-        "descriptor_index": 7270,
-        "amplitude": 0.0082218761,
-        "abs_amplitude": 0.0082218761,
-        "raw_amplitude": 0.0246656282,
-        "percent": 2.466563,
-        "raw_percent": 2.466563,
-        "coverage_percent": 86.730756,
-        "member_count": 3,
-        "members": [
-          "stoic",
-          "composed",
-          "nonchalant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0246656281,
-            "similarity": 0.889606,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "aspiring-demon-king",
-        "descriptor_index": 408,
-        "amplitude": 0.0061268165,
-        "abs_amplitude": 0.0061268165,
-        "raw_amplitude": 0.0183804496,
-        "percent": 1.838045,
-        "raw_percent": 1.838045,
-        "coverage_percent": 88.568801,
-        "member_count": 1,
-        "members": [
-          "aspiring-demon-king"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0183804496,
-            "similarity": 0.848883,
-            "matched_descriptor": "demon beast user"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "cat-player",
-        "descriptor_index": 988,
-        "amplitude": 0.0056548682,
-        "abs_amplitude": 0.0056548682,
-        "raw_amplitude": 0.0169646046,
-        "percent": 1.69646,
-        "raw_percent": 1.69646,
-        "coverage_percent": 90.265262,
-        "member_count": 1,
-        "members": [
-          "cat-player"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0169646046,
-            "similarity": 0.82109,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "animal-lover",
-        "descriptor_index": 251,
-        "amplitude": 0.0055874065,
-        "abs_amplitude": 0.0055874065,
-        "raw_amplitude": 0.0167622196,
-        "percent": 1.676222,
-        "raw_percent": 1.676222,
-        "coverage_percent": 91.941484,
-        "member_count": 1,
-        "members": [
-          "animal-lover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0167622196,
-            "similarity": 0.81619,
-            "matched_descriptor": "dog owner"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.0054065064,
-        "abs_amplitude": 0.0054065064,
-        "raw_amplitude": 0.0162195192,
-        "percent": 1.621952,
-        "raw_percent": 1.621952,
-        "coverage_percent": 93.563436,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0162195192,
-            "similarity": 0.880259,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "fretful / anxious",
-        "descriptor_index": 2809,
-        "amplitude": 0.0045824017,
-        "abs_amplitude": 0.0045824017,
-        "raw_amplitude": 0.013747205,
-        "percent": 1.374721,
-        "raw_percent": 1.374721,
-        "coverage_percent": 94.938156,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.013747205,
-            "similarity": 0.87413,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "little self-assertion",
-        "descriptor_index": 4343,
-        "amplitude": 0.0042211582,
-        "abs_amplitude": 0.0042211582,
-        "raw_amplitude": 0.0126634746,
-        "percent": 1.266347,
-        "raw_percent": 1.266347,
-        "coverage_percent": 96.204504,
-        "member_count": 1,
-        "members": [
-          "little self-assertion"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 175577,
-            "name": "Meili Portroute",
-            "native_name": "メィリィ・ポートルート",
-            "anime": "Re:ZERO -Starting Life in Another World-",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
-            "site_url": "https://anilist.co/character/175577",
-            "anime_url": "https://myanimelist.net/anime/31240",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0126634746,
-            "similarity": 0.876594,
-            "matched_descriptor": "timid"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 175577,
         "name": "Meili Portroute",
-        "native_name": "メィリィ・ポートルート",
         "anime": "Re:ZERO -Starting Life in Another World-",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
         "site_url": "https://anilist.co/character/175577",
-        "anime_url": "https://myanimelist.net/anime/31240",
-        "role": "SUPPORTING",
         "favourites": 142,
-        "row_weight": 2.44189366,
+        "anilist_favourites": 142,
+        "bangumi_collects": 73,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 41153,
+        "bangumi_url": "https://bgm.tv/character/41153",
+        "combined_favourites": 215,
+        "role_edge_count": 1,
+        "descriptors": [
+          "timid"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52493137,
+        "row_weight": 2.52493137,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1170,19 +84,67 @@
       {
         "character_id": 175577,
         "name": "Meili Portroute",
-        "native_name": "メィリィ・ポートルート",
         "anime": "Re:ZERO -Starting Life in Another World-",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b175577-lUNPAV3Gujl3.jpg",
         "site_url": "https://anilist.co/character/175577",
-        "anime_url": "https://myanimelist.net/anime/31240",
-        "role": "SUPPORTING",
         "favourites": 142,
-        "row_weight": 2.44189366,
+        "anilist_favourites": 142,
+        "bangumi_collects": 73,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 41153,
+        "bangumi_url": "https://bgm.tv/character/41153",
+        "combined_favourites": 215,
+        "role_edge_count": 1,
+        "descriptors": [
+          "timid"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52493137,
+        "row_weight": 2.52493137,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5249313669,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

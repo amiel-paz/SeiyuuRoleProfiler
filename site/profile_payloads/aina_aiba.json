@@ -11,2219 +11,380 @@
     "aiba aina",
     "aina aiba"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/aina_aiba.json",
+  "sv1_mass_percent": 88.98011,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 13.4387564227,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 13.4387564227,
-        "mass_percent": 94.723044
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.1719255854,
-        "mass_percent": 5.276956
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 231.830038,
-      "normalized_entanglement": 0.603724,
-      "top5_mass_percent": 6.080035,
-      "top10_mass_percent": 10.602054
-    },
-    "character_participation": {
-      "effective_count": 1.030606,
-      "normalized_entanglement": 0.515303,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 3.218316,
-      "semantic_spread": 3.218316,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.749525,
-      "direction_spread": 0.749525,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 94.723044,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.7647979894,
+    "mass_percent": 91.921705,
+    "descriptor_fit_percent": 96.151699,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "outgoing / social / gregarious / extroverted / +2",
-        "descriptor_index": 5383,
-        "amplitude": 0.0307311309,
-        "abs_amplitude": 0.0307311309,
-        "raw_amplitude": 0.0921933926,
-        "percent": 7.771551,
-        "raw_percent": 8.266851,
-        "coverage_percent": 7.771551,
-        "member_count": 6,
-        "members": [
-          "outgoing",
-          "social",
-          "gregarious",
-          "extroverted",
-          "sociable",
-          "affable"
-        ],
+        "descriptor": "demanding",
+        "amplitude": 0.5473748813,
+        "abs_amplitude": 0.5473748813,
+        "percent": 50.28184,
+        "weighted_support": 2.81903813,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0921933926,
-            "similarity": 1.0,
-            "matched_descriptor": "outgoing"
+            "character_id": 128146,
+            "name": "Yukina Minato",
+            "anime": "BanG Dream!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
+            "site_url": "https://anilist.co/character/128146",
+            "combined_favourites": 1039
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "honest / direct / forthright / blunt / +1",
-        "descriptor_index": 3549,
-        "amplitude": 0.0256262111,
-        "abs_amplitude": 0.0256262111,
-        "raw_amplitude": 0.0768786333,
-        "percent": 6.480575,
-        "raw_percent": 6.893598,
-        "coverage_percent": 14.252127,
-        "member_count": 5,
-        "members": [
-          "honest",
-          "direct",
-          "forthright",
-          "blunt",
-          "no-nonsense"
-        ],
+        "descriptor": "cold-blooded",
+        "amplitude": 0.5412385747,
+        "abs_amplitude": 0.5412385747,
+        "percent": 49.71816,
+        "weighted_support": 2.81903813,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0768786334,
-            "similarity": 1.0,
-            "matched_descriptor": "honest"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "rivalrous / cut-throat",
-        "descriptor_index": 6336,
-        "amplitude": 0.0229433908,
-        "abs_amplitude": 0.0229433908,
-        "raw_amplitude": 0.0475938303,
-        "percent": 5.802121,
-        "raw_percent": 4.267672,
-        "coverage_percent": 20.054247,
-        "member_count": 2,
-        "members": [
-          "rivalrous",
-          "cut-throat"
-        ],
-        "support": 2,
-        "effective_support": 1.446199,
-        "support_factor": 0.482066,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0385228626,
-            "similarity": 1.0,
-            "matched_descriptor": "rivalrous"
-          },
+        "supporting_characters": [
           {
             "character_id": 128146,
             "name": "Yukina Minato",
-            "native_name": "湊友希那",
             "anime": "BanG Dream!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
             "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0090709678,
-            "similarity": 1.0,
-            "matched_descriptor": "cut-throat"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "talented / expert / accomplished / proficient / +2",
-        "descriptor_index": 7651,
-        "amplitude": 0.0228903593,
-        "abs_amplitude": 0.0228903593,
-        "raw_amplitude": 0.068671078,
-        "percent": 5.78871,
-        "raw_percent": 6.157639,
-        "coverage_percent": 25.842957,
-        "member_count": 6,
-        "members": [
-          "talented",
-          "expert",
-          "accomplished",
-          "proficient",
-          "skilled",
-          "skill-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0686710779,
-            "similarity": 1.0,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "ambitious / driven / proactive",
-        "descriptor_index": 193,
-        "amplitude": 0.0162350456,
-        "abs_amplitude": 0.0162350456,
-        "raw_amplitude": 0.0487051368,
-        "percent": 4.105657,
-        "raw_percent": 4.367321,
-        "coverage_percent": 29.948614,
-        "member_count": 3,
-        "members": [
-          "ambitious",
-          "driven",
-          "proactive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0487051367,
-            "similarity": 1.0,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "confident / self-assured / convinced",
-        "descriptor_index": 1359,
-        "amplitude": 0.0161043599,
-        "abs_amplitude": 0.0161043599,
-        "raw_amplitude": 0.0483130796,
-        "percent": 4.072608,
-        "raw_percent": 4.332166,
-        "coverage_percent": 34.021223,
-        "member_count": 3,
-        "members": [
-          "confident",
-          "self-assured",
-          "convinced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0483130796,
-            "similarity": 1.0,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0136308687,
-        "abs_amplitude": 0.0136308687,
-        "raw_amplitude": 0.0408926062,
-        "percent": 3.447091,
-        "raw_percent": 3.666782,
-        "coverage_percent": 37.468313,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0408926061,
-            "similarity": 1.0,
-            "matched_descriptor": "brilliant"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0102564797,
-        "abs_amplitude": 0.0102564797,
-        "raw_amplitude": 0.030769439,
-        "percent": 2.593746,
-        "raw_percent": 2.759052,
-        "coverage_percent": 40.062059,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.030769439,
-            "similarity": 0.938187,
-            "matched_descriptor": "hard worker"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "quick-witted / brainy / intelligent / smart / +3",
-        "descriptor_index": 6083,
-        "amplitude": 0.0102136764,
-        "abs_amplitude": 0.0102136764,
-        "raw_amplitude": 0.0306410291,
-        "percent": 2.582922,
-        "raw_percent": 2.747538,
-        "coverage_percent": 42.644981,
-        "member_count": 7,
-        "members": [
-          "quick-witted",
-          "brainy",
-          "intelligent",
-          "smart",
-          "sharp-minded",
-          "quick-minded",
-          "astute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.030641029,
-            "similarity": 0.884365,
-            "matched_descriptor": "brilliant"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "resolute / tenacious / stubborn / strong-willed / +3",
-        "descriptor_index": 6257,
-        "amplitude": 0.0088063846,
-        "abs_amplitude": 0.0088063846,
-        "raw_amplitude": 0.0132669926,
-        "percent": 2.227034,
-        "raw_percent": 1.189632,
-        "coverage_percent": 44.872015,
-        "member_count": 7,
-        "members": [
-          "resolute",
-          "tenacious",
-          "stubborn",
-          "strong-willed",
-          "persistent",
-          "refractory",
-          "unyielding"
-        ],
-        "support": 2,
-        "effective_support": 1.991345,
-        "support_factor": 0.663782,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0070708307,
-            "similarity": 0.875606,
-            "matched_descriptor": "confident"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.006196162,
-            "similarity": 0.892442,
-            "matched_descriptor": "cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "circumspect / careful / prudent / risk-averse / +1",
-        "descriptor_index": 1133,
-        "amplitude": 0.008641746,
-        "abs_amplitude": 0.008641746,
-        "raw_amplitude": 0.0259252381,
-        "percent": 2.185399,
-        "raw_percent": 2.324679,
-        "coverage_percent": 47.057414,
-        "member_count": 5,
-        "members": [
-          "circumspect",
-          "careful",
-          "prudent",
-          "risk-averse",
-          "wary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0259252381,
-            "similarity": 0.898496,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "assertive / strong-minded / headstrong / tough",
-        "descriptor_index": 425,
-        "amplitude": 0.0083330167,
-        "abs_amplitude": 0.0083330167,
-        "raw_amplitude": 0.0198108384,
-        "percent": 2.107325,
-        "raw_percent": 1.77641,
-        "coverage_percent": 49.164738,
-        "member_count": 4,
-        "members": [
-          "assertive",
-          "strong-minded",
-          "headstrong",
-          "tough"
-        ],
-        "support": 2,
-        "effective_support": 1.261888,
-        "support_factor": 0.420629,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0174811373,
-            "similarity": 0.896987,
-            "matched_descriptor": "confident"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0023297012,
-            "similarity": 0.879684,
-            "matched_descriptor": "cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "casual / accommodating / care-free / carefree / +2",
-        "descriptor_index": 975,
-        "amplitude": 0.0071919089,
-        "abs_amplitude": 0.0071919089,
-        "raw_amplitude": 0.020338919,
-        "percent": 1.818751,
-        "raw_percent": 1.823762,
-        "coverage_percent": 50.98349,
-        "member_count": 6,
-        "members": [
-          "casual",
-          "accommodating",
-          "care-free",
-          "carefree",
-          "informal",
-          "cool-headed"
-        ],
-        "support": 2,
-        "effective_support": 1.06081,
-        "support_factor": 0.353603,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0197382235,
-            "similarity": 0.899859,
-            "matched_descriptor": "outgoing / honest"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0006006956,
-            "similarity": 0.874368,
-            "matched_descriptor": "demanding / cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "motivated / go-getter / goal-oriented / objective / +1",
-        "descriptor_index": 4948,
-        "amplitude": 0.0070717063,
-        "abs_amplitude": 0.0070717063,
-        "raw_amplitude": 0.0212151189,
-        "percent": 1.788354,
-        "raw_percent": 1.90233,
-        "coverage_percent": 52.771843,
-        "member_count": 5,
-        "members": [
-          "motivated",
-          "go-getter",
-          "goal-oriented",
-          "objective",
-          "goal-driven"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.021215119,
-            "similarity": 0.898162,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "cold-blooded / numb / cold / dispassionate / +2",
-        "descriptor_index": 1235,
-        "amplitude": 0.0061076959,
-        "abs_amplitude": 0.0061076959,
-        "raw_amplitude": 0.0183230878,
-        "percent": 1.544566,
-        "raw_percent": 1.643005,
-        "coverage_percent": 54.31641,
-        "member_count": 6,
-        "members": [
-          "cold-blooded",
-          "numb",
-          "cold",
-          "dispassionate",
-          "insensitive",
-          "cold-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0183230878,
-            "similarity": 1.0,
-            "matched_descriptor": "cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "self-confident / self confident / unashamed",
-        "descriptor_index": 6617,
-        "amplitude": 0.0061050809,
-        "abs_amplitude": 0.0061050809,
-        "raw_amplitude": 0.0183152426,
-        "percent": 1.543905,
-        "raw_percent": 1.642302,
-        "coverage_percent": 55.860315,
-        "member_count": 3,
-        "members": [
-          "self-confident",
-          "self confident",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0183152427,
-            "similarity": 0.899148,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "modest / coy / self-effacing / non-arrogant / +4",
-        "descriptor_index": 4896,
-        "amplitude": 0.0055996113,
-        "abs_amplitude": 0.0055996113,
-        "raw_amplitude": 0.0167988338,
-        "percent": 1.416078,
-        "raw_percent": 1.506328,
-        "coverage_percent": 57.276392,
-        "member_count": 8,
-        "members": [
-          "modest",
-          "coy",
-          "self-effacing",
-          "non-arrogant",
-          "unsociable",
-          "taciturn",
-          "untalkative",
-          "reticent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0167988339,
-            "similarity": 0.88356,
-            "matched_descriptor": "confident / honest / outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "arch-nemesis",
-        "descriptor_index": 325,
-        "amplitude": 0.0050739453,
-        "abs_amplitude": 0.0050739453,
-        "raw_amplitude": 0.0100329248,
-        "percent": 1.283143,
-        "raw_percent": 0.899638,
-        "coverage_percent": 58.559535,
-        "member_count": 1,
-        "members": [
-          "arch-nemesis"
-        ],
-        "support": 2,
-        "effective_support": 1.517188,
-        "support_factor": 0.505729,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0078463339,
-            "similarity": 0.869608,
-            "matched_descriptor": "rivalrous"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0021865909,
-            "similarity": 0.887996,
-            "matched_descriptor": "cut-throat"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "approachable / amiable / warm / agreeable",
-        "descriptor_index": 316,
-        "amplitude": 0.0050607445,
-        "abs_amplitude": 0.0050607445,
-        "raw_amplitude": 0.0151822335,
-        "percent": 1.279804,
-        "raw_percent": 1.361369,
-        "coverage_percent": 59.839339,
-        "member_count": 4,
-        "members": [
-          "approachable",
-          "amiable",
-          "warm",
-          "agreeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0151822335,
-            "similarity": 0.894787,
-            "matched_descriptor": "outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "half-russian half-japanese",
-        "descriptor_index": 3312,
-        "amplitude": 0.0049033225,
-        "abs_amplitude": 0.0049033225,
-        "raw_amplitude": 0.0147099674,
-        "percent": 1.239994,
-        "raw_percent": 1.319022,
-        "coverage_percent": 61.079333,
-        "member_count": 1,
-        "members": [
-          "half-russian half-japanese"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0147099674,
-            "similarity": 0.903542,
-            "matched_descriptor": "japanese-french heritage"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0044677566,
-        "abs_amplitude": 0.0044677566,
-        "raw_amplitude": 0.0104644036,
-        "percent": 1.129844,
-        "raw_percent": 0.938328,
-        "coverage_percent": 62.209178,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 2,
-        "effective_support": 1.280844,
-        "support_factor": 0.426948,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0091527596,
-            "similarity": 0.865625,
-            "matched_descriptor": "rivalrous"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.001311644,
-            "similarity": 0.862339,
-            "matched_descriptor": "cut-throat"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "initiative / action-oriented",
-        "descriptor_index": 3886,
-        "amplitude": 0.0043687818,
-        "abs_amplitude": 0.0043687818,
-        "raw_amplitude": 0.0131063454,
-        "percent": 1.104815,
-        "raw_percent": 1.175227,
-        "coverage_percent": 63.313993,
-        "member_count": 2,
-        "members": [
-          "initiative",
-          "action-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0131063454,
-            "similarity": 0.893899,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "eurasian",
-        "descriptor_index": 2227,
-        "amplitude": 0.0042320564,
-        "abs_amplitude": 0.0042320564,
-        "raw_amplitude": 0.0126961691,
-        "percent": 1.070239,
-        "raw_percent": 1.138448,
-        "coverage_percent": 64.384231,
-        "member_count": 1,
-        "members": [
-          "eurasian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0126961691,
-            "similarity": 0.869042,
-            "matched_descriptor": "japanese-french heritage"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "precise / detail-oriented",
-        "descriptor_index": 5820,
-        "amplitude": 0.0041633965,
-        "abs_amplitude": 0.0041633965,
-        "raw_amplitude": 0.0087510156,
-        "percent": 1.052875,
-        "raw_percent": 0.784691,
-        "coverage_percent": 65.437107,
-        "member_count": 2,
-        "members": [
-          "precise",
-          "detail-oriented"
-        ],
-        "support": 2,
-        "effective_support": 1.427285,
-        "support_factor": 0.475762,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0071471848,
-            "similarity": 0.878699,
-            "matched_descriptor": "honest / confident"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0016038308,
-            "similarity": 0.876743,
-            "matched_descriptor": "demanding"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "half-russian",
-        "descriptor_index": 3311,
-        "amplitude": 0.004099009,
-        "abs_amplitude": 0.004099009,
-        "raw_amplitude": 0.0122970269,
-        "percent": 1.036592,
-        "raw_percent": 1.102657,
-        "coverage_percent": 66.473699,
-        "member_count": 1,
-        "members": [
-          "half-russian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0122970269,
-            "similarity": 0.860273,
-            "matched_descriptor": "japanese-french heritage"
+            "combined_favourites": 1039
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "outgoing / social / gregarious / extroverted / +2",
-        "descriptor_index": 5383,
-        "amplitude": 0.0307311309,
-        "abs_amplitude": 0.0307311309,
-        "raw_amplitude": 0.0921933926,
-        "percent": 7.771551,
-        "raw_percent": 8.266851,
-        "coverage_percent": 7.771551,
-        "member_count": 6,
-        "members": [
-          "outgoing",
-          "social",
-          "gregarious",
-          "extroverted",
-          "sociable",
-          "affable"
-        ],
+        "step": 1,
+        "descriptor": "demanding",
+        "weighted_support": 2.81903813,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0921933926,
-            "similarity": 1.0,
-            "matched_descriptor": "outgoing"
-          }
-        ]
+        "fit_percent": 85.060076,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "honest / direct / forthright / blunt / +1",
-        "descriptor_index": 3549,
-        "amplitude": 0.0256262111,
-        "abs_amplitude": 0.0256262111,
-        "raw_amplitude": 0.0768786333,
-        "percent": 6.480575,
-        "raw_percent": 6.893598,
-        "coverage_percent": 14.252127,
-        "member_count": 5,
-        "members": [
-          "honest",
-          "direct",
-          "forthright",
-          "blunt",
-          "no-nonsense"
-        ],
+        "step": 2,
+        "descriptor": "cold-blooded",
+        "weighted_support": 2.81903813,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0768786334,
-            "similarity": 1.0,
-            "matched_descriptor": "honest"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "rivalrous / cut-throat",
-        "descriptor_index": 6336,
-        "amplitude": 0.0229433908,
-        "abs_amplitude": 0.0229433908,
-        "raw_amplitude": 0.0475938303,
-        "percent": 5.802121,
-        "raw_percent": 4.267672,
-        "coverage_percent": 20.054247,
-        "member_count": 2,
-        "members": [
-          "rivalrous",
-          "cut-throat"
-        ],
-        "support": 2,
-        "effective_support": 1.446199,
-        "support_factor": 0.482066,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0385228626,
-            "similarity": 1.0,
-            "matched_descriptor": "rivalrous"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0090709678,
-            "similarity": 1.0,
-            "matched_descriptor": "cut-throat"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "talented / expert / accomplished / proficient / +2",
-        "descriptor_index": 7651,
-        "amplitude": 0.0228903593,
-        "abs_amplitude": 0.0228903593,
-        "raw_amplitude": 0.068671078,
-        "percent": 5.78871,
-        "raw_percent": 6.157639,
-        "coverage_percent": 25.842957,
-        "member_count": 6,
-        "members": [
-          "talented",
-          "expert",
-          "accomplished",
-          "proficient",
-          "skilled",
-          "skill-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0686710779,
-            "similarity": 1.0,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "ambitious / driven / proactive",
-        "descriptor_index": 193,
-        "amplitude": 0.0162350456,
-        "abs_amplitude": 0.0162350456,
-        "raw_amplitude": 0.0487051368,
-        "percent": 4.105657,
-        "raw_percent": 4.367321,
-        "coverage_percent": 29.948614,
-        "member_count": 3,
-        "members": [
-          "ambitious",
-          "driven",
-          "proactive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0487051367,
-            "similarity": 1.0,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "confident / self-assured / convinced",
-        "descriptor_index": 1359,
-        "amplitude": 0.0161043599,
-        "abs_amplitude": 0.0161043599,
-        "raw_amplitude": 0.0483130796,
-        "percent": 4.072608,
-        "raw_percent": 4.332166,
-        "coverage_percent": 34.021223,
-        "member_count": 3,
-        "members": [
-          "confident",
-          "self-assured",
-          "convinced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0483130796,
-            "similarity": 1.0,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0136308687,
-        "abs_amplitude": 0.0136308687,
-        "raw_amplitude": 0.0408926062,
-        "percent": 3.447091,
-        "raw_percent": 3.666782,
-        "coverage_percent": 37.468313,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0408926061,
-            "similarity": 1.0,
-            "matched_descriptor": "brilliant"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0102564797,
-        "abs_amplitude": 0.0102564797,
-        "raw_amplitude": 0.030769439,
-        "percent": 2.593746,
-        "raw_percent": 2.759052,
-        "coverage_percent": 40.062059,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.030769439,
-            "similarity": 0.938187,
-            "matched_descriptor": "hard worker"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "quick-witted / brainy / intelligent / smart / +3",
-        "descriptor_index": 6083,
-        "amplitude": 0.0102136764,
-        "abs_amplitude": 0.0102136764,
-        "raw_amplitude": 0.0306410291,
-        "percent": 2.582922,
-        "raw_percent": 2.747538,
-        "coverage_percent": 42.644981,
-        "member_count": 7,
-        "members": [
-          "quick-witted",
-          "brainy",
-          "intelligent",
-          "smart",
-          "sharp-minded",
-          "quick-minded",
-          "astute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.030641029,
-            "similarity": 0.884365,
-            "matched_descriptor": "brilliant"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "resolute / tenacious / stubborn / strong-willed / +3",
-        "descriptor_index": 6257,
-        "amplitude": 0.0088063846,
-        "abs_amplitude": 0.0088063846,
-        "raw_amplitude": 0.0132669926,
-        "percent": 2.227034,
-        "raw_percent": 1.189632,
-        "coverage_percent": 44.872015,
-        "member_count": 7,
-        "members": [
-          "resolute",
-          "tenacious",
-          "stubborn",
-          "strong-willed",
-          "persistent",
-          "refractory",
-          "unyielding"
-        ],
-        "support": 2,
-        "effective_support": 1.991345,
-        "support_factor": 0.663782,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0070708307,
-            "similarity": 0.875606,
-            "matched_descriptor": "confident"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.006196162,
-            "similarity": 0.892442,
-            "matched_descriptor": "cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "circumspect / careful / prudent / risk-averse / +1",
-        "descriptor_index": 1133,
-        "amplitude": 0.008641746,
-        "abs_amplitude": 0.008641746,
-        "raw_amplitude": 0.0259252381,
-        "percent": 2.185399,
-        "raw_percent": 2.324679,
-        "coverage_percent": 47.057414,
-        "member_count": 5,
-        "members": [
-          "circumspect",
-          "careful",
-          "prudent",
-          "risk-averse",
-          "wary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0259252381,
-            "similarity": 0.898496,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "assertive / strong-minded / headstrong / tough",
-        "descriptor_index": 425,
-        "amplitude": 0.0083330167,
-        "abs_amplitude": 0.0083330167,
-        "raw_amplitude": 0.0198108384,
-        "percent": 2.107325,
-        "raw_percent": 1.77641,
-        "coverage_percent": 49.164738,
-        "member_count": 4,
-        "members": [
-          "assertive",
-          "strong-minded",
-          "headstrong",
-          "tough"
-        ],
-        "support": 2,
-        "effective_support": 1.261888,
-        "support_factor": 0.420629,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0174811373,
-            "similarity": 0.896987,
-            "matched_descriptor": "confident"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0023297012,
-            "similarity": 0.879684,
-            "matched_descriptor": "cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "casual / accommodating / care-free / carefree / +2",
-        "descriptor_index": 975,
-        "amplitude": 0.0071919089,
-        "abs_amplitude": 0.0071919089,
-        "raw_amplitude": 0.020338919,
-        "percent": 1.818751,
-        "raw_percent": 1.823762,
-        "coverage_percent": 50.98349,
-        "member_count": 6,
-        "members": [
-          "casual",
-          "accommodating",
-          "care-free",
-          "carefree",
-          "informal",
-          "cool-headed"
-        ],
-        "support": 2,
-        "effective_support": 1.06081,
-        "support_factor": 0.353603,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0197382235,
-            "similarity": 0.899859,
-            "matched_descriptor": "outgoing / honest"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0006006956,
-            "similarity": 0.874368,
-            "matched_descriptor": "demanding / cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "motivated / go-getter / goal-oriented / objective / +1",
-        "descriptor_index": 4948,
-        "amplitude": 0.0070717063,
-        "abs_amplitude": 0.0070717063,
-        "raw_amplitude": 0.0212151189,
-        "percent": 1.788354,
-        "raw_percent": 1.90233,
-        "coverage_percent": 52.771843,
-        "member_count": 5,
-        "members": [
-          "motivated",
-          "go-getter",
-          "goal-oriented",
-          "objective",
-          "goal-driven"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.021215119,
-            "similarity": 0.898162,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "cold-blooded / numb / cold / dispassionate / +2",
-        "descriptor_index": 1235,
-        "amplitude": 0.0061076959,
-        "abs_amplitude": 0.0061076959,
-        "raw_amplitude": 0.0183230878,
-        "percent": 1.544566,
-        "raw_percent": 1.643005,
-        "coverage_percent": 54.31641,
-        "member_count": 6,
-        "members": [
-          "cold-blooded",
-          "numb",
-          "cold",
-          "dispassionate",
-          "insensitive",
-          "cold-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0183230878,
-            "similarity": 1.0,
-            "matched_descriptor": "cold-blooded"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "self-confident / self confident / unashamed",
-        "descriptor_index": 6617,
-        "amplitude": 0.0061050809,
-        "abs_amplitude": 0.0061050809,
-        "raw_amplitude": 0.0183152426,
-        "percent": 1.543905,
-        "raw_percent": 1.642302,
-        "coverage_percent": 55.860315,
-        "member_count": 3,
-        "members": [
-          "self-confident",
-          "self confident",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0183152427,
-            "similarity": 0.899148,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "modest / coy / self-effacing / non-arrogant / +4",
-        "descriptor_index": 4896,
-        "amplitude": 0.0055996113,
-        "abs_amplitude": 0.0055996113,
-        "raw_amplitude": 0.0167988338,
-        "percent": 1.416078,
-        "raw_percent": 1.506328,
-        "coverage_percent": 57.276392,
-        "member_count": 8,
-        "members": [
-          "modest",
-          "coy",
-          "self-effacing",
-          "non-arrogant",
-          "unsociable",
-          "taciturn",
-          "untalkative",
-          "reticent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0167988339,
-            "similarity": 0.88356,
-            "matched_descriptor": "confident / honest / outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "arch-nemesis",
-        "descriptor_index": 325,
-        "amplitude": 0.0050739453,
-        "abs_amplitude": 0.0050739453,
-        "raw_amplitude": 0.0100329248,
-        "percent": 1.283143,
-        "raw_percent": 0.899638,
-        "coverage_percent": 58.559535,
-        "member_count": 1,
-        "members": [
-          "arch-nemesis"
-        ],
-        "support": 2,
-        "effective_support": 1.517188,
-        "support_factor": 0.505729,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0078463339,
-            "similarity": 0.869608,
-            "matched_descriptor": "rivalrous"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0021865909,
-            "similarity": 0.887996,
-            "matched_descriptor": "cut-throat"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "approachable / amiable / warm / agreeable",
-        "descriptor_index": 316,
-        "amplitude": 0.0050607445,
-        "abs_amplitude": 0.0050607445,
-        "raw_amplitude": 0.0151822335,
-        "percent": 1.279804,
-        "raw_percent": 1.361369,
-        "coverage_percent": 59.839339,
-        "member_count": 4,
-        "members": [
-          "approachable",
-          "amiable",
-          "warm",
-          "agreeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0151822335,
-            "similarity": 0.894787,
-            "matched_descriptor": "outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "half-russian half-japanese",
-        "descriptor_index": 3312,
-        "amplitude": 0.0049033225,
-        "abs_amplitude": 0.0049033225,
-        "raw_amplitude": 0.0147099674,
-        "percent": 1.239994,
-        "raw_percent": 1.319022,
-        "coverage_percent": 61.079333,
-        "member_count": 1,
-        "members": [
-          "half-russian half-japanese"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0147099674,
-            "similarity": 0.903542,
-            "matched_descriptor": "japanese-french heritage"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0044677566,
-        "abs_amplitude": 0.0044677566,
-        "raw_amplitude": 0.0104644036,
-        "percent": 1.129844,
-        "raw_percent": 0.938328,
-        "coverage_percent": 62.209178,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 2,
-        "effective_support": 1.280844,
-        "support_factor": 0.426948,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0091527596,
-            "similarity": 0.865625,
-            "matched_descriptor": "rivalrous"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.001311644,
-            "similarity": 0.862339,
-            "matched_descriptor": "cut-throat"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "initiative / action-oriented",
-        "descriptor_index": 3886,
-        "amplitude": 0.0043687818,
-        "abs_amplitude": 0.0043687818,
-        "raw_amplitude": 0.0131063454,
-        "percent": 1.104815,
-        "raw_percent": 1.175227,
-        "coverage_percent": 63.313993,
-        "member_count": 2,
-        "members": [
-          "initiative",
-          "action-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0131063454,
-            "similarity": 0.893899,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "eurasian",
-        "descriptor_index": 2227,
-        "amplitude": 0.0042320564,
-        "abs_amplitude": 0.0042320564,
-        "raw_amplitude": 0.0126961691,
-        "percent": 1.070239,
-        "raw_percent": 1.138448,
-        "coverage_percent": 64.384231,
-        "member_count": 1,
-        "members": [
-          "eurasian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0126961691,
-            "similarity": 0.869042,
-            "matched_descriptor": "japanese-french heritage"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "precise / detail-oriented",
-        "descriptor_index": 5820,
-        "amplitude": 0.0041633965,
-        "abs_amplitude": 0.0041633965,
-        "raw_amplitude": 0.0087510156,
-        "percent": 1.052875,
-        "raw_percent": 0.784691,
-        "coverage_percent": 65.437107,
-        "member_count": 2,
-        "members": [
-          "precise",
-          "detail-oriented"
-        ],
-        "support": 2,
-        "effective_support": 1.427285,
-        "support_factor": 0.475762,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0071471848,
-            "similarity": 0.878699,
-            "matched_descriptor": "honest / confident"
-          },
-          {
-            "character_id": 128146,
-            "name": "Yukina Minato",
-            "native_name": "湊友希那",
-            "anime": "BanG Dream!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
-            "site_url": "https://anilist.co/character/128146",
-            "anime_url": "https://myanimelist.net/anime/33573",
-            "role": "MAIN",
-            "favourites": 805,
-            "row_weight": 2.77346061,
-            "projection": 0.0016038308,
-            "similarity": 0.876743,
-            "matched_descriptor": "demanding"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "half-russian",
-        "descriptor_index": 3311,
-        "amplitude": 0.004099009,
-        "abs_amplitude": 0.004099009,
-        "raw_amplitude": 0.0122970269,
-        "percent": 1.036592,
-        "raw_percent": 1.102657,
-        "coverage_percent": 66.473699,
-        "member_count": 1,
-        "members": [
-          "half-russian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126665,
-            "name": "Claudine Saijou",
-            "native_name": "西條クロディーヌ",
-            "anime": "Revue Starlight",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-            "site_url": "https://anilist.co/character/126665",
-            "anime_url": "https://myanimelist.net/anime/35503",
-            "role": "MAIN",
-            "favourites": 503,
-            "row_weight": 2.68748512,
-            "projection": 0.0122970269,
-            "similarity": 0.860273,
-            "matched_descriptor": "japanese-french heritage"
-          }
-        ]
+        "fit_percent": 96.151699,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 126665,
-        "name": "Claudine Saijou",
-        "native_name": "西條クロディーヌ",
-        "anime": "Revue Starlight",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-        "site_url": "https://anilist.co/character/126665",
-        "anime_url": "https://myanimelist.net/anime/35503",
-        "role": "MAIN",
-        "favourites": 503,
-        "row_weight": 2.68748512,
-        "amplitude": 0.9924333708,
-        "abs_amplitude": 0.9924333708,
-        "percent": 98.4924
-      },
-      {
         "character_id": 128146,
         "name": "Yukina Minato",
-        "native_name": "湊友希那",
         "anime": "BanG Dream!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
         "site_url": "https://anilist.co/character/128146",
-        "anime_url": "https://myanimelist.net/anime/33573",
-        "role": "MAIN",
         "favourites": 805,
-        "row_weight": 2.77346061,
-        "amplitude": 0.1227843826,
-        "abs_amplitude": 0.1227843826,
-        "percent": 1.5076
+        "anilist_favourites": 805,
+        "bangumi_collects": 234,
+        "bangumi_comments": 61,
+        "bangumi_character_id": 52822,
+        "bangumi_url": "https://bgm.tv/character/52822",
+        "combined_favourites": 1039,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cold-blooded",
+          "demanding"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.81903813,
+        "row_weight": 2.81903813,
+        "unweighted_row_norm": 1.76649053,
+        "amplitude": 0.719969815,
+        "abs_amplitude": 0.719969815,
+        "percent": 51.835653
+      },
+      {
+        "character_id": 126665,
+        "name": "Claudine Saijou",
+        "anime": "Revue Starlight",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
+        "site_url": "https://anilist.co/character/126665",
+        "favourites": 503,
+        "anilist_favourites": 503,
+        "bangumi_collects": 143,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 64718,
+        "bangumi_url": "https://bgm.tv/character/64718",
+        "combined_favourites": 646,
+        "role_edge_count": 1,
+        "descriptors": [
+          "ambitious",
+          "honest",
+          "outgoing",
+          "rivalrous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.73355927,
+        "row_weight": 2.73355927,
+        "unweighted_row_norm": 3.32126786,
+        "amplitude": 0.6940053785,
+        "abs_amplitude": 0.6940053785,
+        "percent": 48.164347
       }
     ],
     "positive_characters": [
       {
-        "character_id": 126665,
-        "name": "Claudine Saijou",
-        "native_name": "西條クロディーヌ",
-        "anime": "Revue Starlight",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
-        "site_url": "https://anilist.co/character/126665",
-        "anime_url": "https://myanimelist.net/anime/35503",
-        "role": "MAIN",
-        "favourites": 503,
-        "row_weight": 2.68748512,
-        "amplitude": 0.9924333708,
-        "abs_amplitude": 0.9924333708,
-        "percent": 98.4924
-      },
-      {
         "character_id": 128146,
         "name": "Yukina Minato",
-        "native_name": "湊友希那",
         "anime": "BanG Dream!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
         "site_url": "https://anilist.co/character/128146",
-        "anime_url": "https://myanimelist.net/anime/33573",
-        "role": "MAIN",
         "favourites": 805,
-        "row_weight": 2.77346061,
-        "amplitude": 0.1227843826,
-        "abs_amplitude": 0.1227843826,
-        "percent": 1.5076
+        "anilist_favourites": 805,
+        "bangumi_collects": 234,
+        "bangumi_comments": 61,
+        "bangumi_character_id": 52822,
+        "bangumi_url": "https://bgm.tv/character/52822",
+        "combined_favourites": 1039,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cold-blooded",
+          "demanding"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.81903813,
+        "row_weight": 2.81903813,
+        "unweighted_row_norm": 1.76649053,
+        "amplitude": 0.719969815,
+        "abs_amplitude": 0.719969815,
+        "percent": 51.835653
+      },
+      {
+        "character_id": 126665,
+        "name": "Claudine Saijou",
+        "anime": "Revue Starlight",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
+        "site_url": "https://anilist.co/character/126665",
+        "favourites": 503,
+        "anilist_favourites": 503,
+        "bangumi_collects": 143,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 64718,
+        "bangumi_url": "https://bgm.tv/character/64718",
+        "combined_favourites": 646,
+        "role_edge_count": 1,
+        "descriptors": [
+          "ambitious",
+          "honest",
+          "outgoing",
+          "rivalrous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.73355927,
+        "row_weight": 2.73355927,
+        "unweighted_row_norm": 3.32126786,
+        "amplitude": 0.6940053785,
+        "abs_amplitude": 0.6940053785,
+        "percent": 48.164347
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.997308,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.1160727512,
+      "mass_percent": 8.078295,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 27.4945,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "cold-blooded",
+            "amplitude": 0.1662772215,
+            "abs_amplitude": 0.1662772215,
+            "percent": 53.451474
+          },
+          {
+            "rank": 2,
+            "descriptor": "demanding",
+            "amplitude": 0.1448034822,
+            "abs_amplitude": 0.1448034822,
+            "percent": 46.548526
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "cold-blooded",
+            "fit_percent": 24.740256,
+            "residual_gain_percent": 6.120803
+          },
+          {
+            "step": 2,
+            "descriptor": "demanding",
+            "fit_percent": 27.4945,
+            "residual_gain_percent": 1.532472
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 128146,
+            "name": "Yukina Minato",
+            "anime": "BanG Dream!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b128146-gs1RVpeVKjDZ.png",
+            "site_url": "https://anilist.co/character/128146",
+            "favourites": 805,
+            "anilist_favourites": 805,
+            "bangumi_collects": 234,
+            "bangumi_comments": 61,
+            "bangumi_character_id": 52822,
+            "bangumi_url": "https://bgm.tv/character/52822",
+            "combined_favourites": 1039,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cold-blooded",
+              "demanding"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.81903813,
+            "row_weight": 2.81903813,
+            "unweighted_row_norm": 1.76649053,
+            "amplitude": 0.6940053785,
+            "abs_amplitude": 0.6940053785,
+            "percent": 48.164347
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 33.959751,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "rivalrous",
+            "amplitude": 0.2012316356,
+            "abs_amplitude": 0.2012316356,
+            "percent": 52.294375
+          },
+          {
+            "rank": 2,
+            "descriptor": "outgoing",
+            "amplitude": 0.1535501282,
+            "abs_amplitude": 0.1535501282,
+            "percent": 39.903308
+          },
+          {
+            "rank": 3,
+            "descriptor": "admired",
+            "amplitude": 0.0300237425,
+            "abs_amplitude": 0.0300237425,
+            "percent": 7.802316
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "rivalrous",
+            "fit_percent": 31.260146,
+            "residual_gain_percent": 9.771967
+          },
+          {
+            "step": 2,
+            "descriptor": "outgoing",
+            "fit_percent": 33.89171,
+            "residual_gain_percent": 1.9002
+          },
+          {
+            "step": 3,
+            "descriptor": "admired",
+            "fit_percent": 33.959751,
+            "residual_gain_percent": 0.052158
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 126665,
+            "name": "Claudine Saijou",
+            "anime": "Revue Starlight",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/126665-wyEBDhnZubpC.png",
+            "site_url": "https://anilist.co/character/126665",
+            "favourites": 503,
+            "anilist_favourites": 503,
+            "bangumi_collects": 143,
+            "bangumi_comments": 21,
+            "bangumi_character_id": 64718,
+            "bangumi_url": "https://bgm.tv/character/64718",
+            "combined_favourites": 646,
+            "role_edge_count": 1,
+            "descriptors": [
+              "ambitious",
+              "honest",
+              "outgoing",
+              "rivalrous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.73355927,
+            "row_weight": 2.73355927,
+            "unweighted_row_norm": 3.32126786,
+            "amplitude": -0.719969815,
+            "abs_amplitude": 0.719969815,
+            "percent": 51.835653
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.7647979894,
+      "mass_percent": 91.921705,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.1160727512,
+      "mass_percent": 8.078295,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

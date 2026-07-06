@@ -11,426 +11,70 @@
     "konami saitou",
     "saitou konami"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/konami_saitou.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.0957782089,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.0957782089,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 337.475512,
-      "normalized_entanglement": 0.878842,
-      "top5_mass_percent": 2.933375,
-      "top10_mass_percent": 5.502158
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.1180729468,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.1815635087,
-        "abs_amplitude": 0.1815635087,
-        "raw_amplitude": 0.5446905262,
-        "percent": 54.469053,
-        "raw_percent": 54.469053,
-        "coverage_percent": 54.469053,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.11807295,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 28991,
             "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
             "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
             "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.5446905262,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.0435849881,
-        "abs_amplitude": 0.0435849881,
-        "raw_amplitude": 0.1307549644,
-        "percent": 13.075496,
-        "raw_percent": 13.075496,
-        "coverage_percent": 67.544549,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.1307549645,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0420909895,
-        "abs_amplitude": 0.0420909895,
-        "raw_amplitude": 0.1262729684,
-        "percent": 12.627297,
-        "raw_percent": 12.627297,
-        "coverage_percent": 80.171846,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.1262729683,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0259405744,
-        "abs_amplitude": 0.0259405744,
-        "raw_amplitude": 0.0778217233,
-        "percent": 7.782172,
-        "raw_percent": 7.782172,
-        "coverage_percent": 87.954018,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.0778217233,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0235513935,
-        "abs_amplitude": 0.0235513935,
-        "raw_amplitude": 0.0706541804,
-        "percent": 7.065418,
-        "raw_percent": 7.065418,
-        "coverage_percent": 95.019436,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.0706541804,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
+            "combined_favourites": 2899
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.1815635087,
-        "abs_amplitude": 0.1815635087,
-        "raw_amplitude": 0.5446905262,
-        "percent": 54.469053,
-        "raw_percent": 54.469053,
-        "coverage_percent": 54.469053,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
+        "step": 1,
+        "descriptor": "jealous",
+        "weighted_support": 2.11807295,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.5446905262,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.0435849881,
-        "abs_amplitude": 0.0435849881,
-        "raw_amplitude": 0.1307549644,
-        "percent": 13.075496,
-        "raw_percent": 13.075496,
-        "coverage_percent": 67.544549,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.1307549645,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0420909895,
-        "abs_amplitude": 0.0420909895,
-        "raw_amplitude": 0.1262729684,
-        "percent": 12.627297,
-        "raw_percent": 12.627297,
-        "coverage_percent": 80.171846,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.1262729683,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0259405744,
-        "abs_amplitude": 0.0259405744,
-        "raw_amplitude": 0.0778217233,
-        "percent": 7.782172,
-        "raw_percent": 7.782172,
-        "coverage_percent": 87.954018,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.0778217233,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0235513935,
-        "abs_amplitude": 0.0235513935,
-        "raw_amplitude": 0.0706541804,
-        "percent": 7.065418,
-        "raw_percent": 7.065418,
-        "coverage_percent": 95.019436,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 28991,
-            "name": "Okuyasu Nijimura",
-            "native_name": "虹村億泰",
-            "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
-            "site_url": "https://anilist.co/character/28991",
-            "anime_url": "https://myanimelist.net/anime/31933",
-            "role": "MAIN",
-            "favourites": 2873,
-            "row_weight": 2.11700969,
-            "projection": 0.0706541804,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 28991,
         "name": "Okuyasu Nijimura",
-        "native_name": "虹村億泰",
         "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
         "site_url": "https://anilist.co/character/28991",
-        "anime_url": "https://myanimelist.net/anime/31933",
-        "role": "MAIN",
         "favourites": 2873,
-        "row_weight": 2.11700969,
+        "anilist_favourites": 2873,
+        "bangumi_collects": 26,
+        "bangumi_comments": 8,
+        "bangumi_character_id": 18569,
+        "bangumi_url": "https://bgm.tv/character/18569",
+        "combined_favourites": 2899,
+        "role_edge_count": 2,
+        "descriptors": [
+          "jealous"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.99540749,
+        "row_weight": 2.11807295,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -440,19 +84,67 @@
       {
         "character_id": 28991,
         "name": "Okuyasu Nijimura",
-        "native_name": "虹村億泰",
         "anime": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n28991-IYMZXahuCel5.png",
         "site_url": "https://anilist.co/character/28991",
-        "anime_url": "https://myanimelist.net/anime/31933",
-        "role": "MAIN",
         "favourites": 2873,
-        "row_weight": 2.11700969,
+        "anilist_favourites": 2873,
+        "bangumi_collects": 26,
+        "bangumi_comments": 8,
+        "bangumi_character_id": 18569,
+        "bangumi_url": "https://bgm.tv/character/18569",
+        "combined_favourites": 2899,
+        "role_edge_count": 2,
+        "descriptors": [
+          "jealous"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.99540749,
+        "row_weight": 2.11807295,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.1180729468,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

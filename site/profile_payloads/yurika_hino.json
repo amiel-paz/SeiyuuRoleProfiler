@@ -5,7 +5,7 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n102001-T8ryqiXT5Na8.jpg",
   "site_url": "https://anilist.co/staff/102001",
   "role_count": 4,
-  "character_count": 1,
+  "character_count": 2,
   "first_year": 2007,
   "aliases": [
     "hino yurika",
@@ -19,59 +19,64 @@
   },
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.3581815618,
+    "singular_value": 5.3949931972,
     "singular_spectrum": [
       {
         "rank": 1,
-        "singular_value": 3.3581815618,
-        "mass_percent": 100.0
+        "singular_value": 5.3949931972,
+        "mass_percent": 98.817233
+      },
+      {
+        "rank": 2,
+        "singular_value": 0.5902338778,
+        "mass_percent": 1.182767
       }
     ],
-    "row_weight_mode": "sqrt_log_favourites",
+    "row_weight_mode": "none",
     "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
+    "profile_center": "none",
     "character_space": "raw",
     "basis_participation": {
-      "effective_count": 52.98097,
-      "normalized_entanglement": 0.137971,
-      "top5_mass_percent": 23.8249,
-      "top10_mass_percent": 32.731983
+      "effective_count": 276.814771,
+      "normalized_entanglement": 0.720872,
+      "top5_mass_percent": 5.519716,
+      "top10_mass_percent": 9.040331
     },
     "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
+      "effective_count": 1.046344,
+      "normalized_entanglement": 0.523172,
       "top5_mass_percent": 100.0,
       "top10_mass_percent": 100.0
     },
     "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
+      "role_range": 3.232282,
+      "semantic_spread": 3.232282,
+      "axis_concentration_percent": 100.0,
+      "lane_count": 1.0,
+      "direction_range": 0.444664,
+      "direction_spread": 0.444664,
+      "direction_axis_concentration_percent": 100.0,
+      "direction_lane_count": 1.0
     },
-    "explained_sv_l2_percent": 100.0,
+    "explained_sv_l2_percent": 98.817233,
     "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "assertive / forceful / tough / strong-minded / +3",
-        "descriptor_index": 425,
-        "amplitude": 0.055710581,
-        "abs_amplitude": 0.055710581,
-        "raw_amplitude": 0.1671317429,
-        "percent": 16.713174,
-        "raw_percent": 16.713174,
-        "coverage_percent": 16.713174,
+        "descriptor": "assertive / forceful / strong-minded / tough / +3",
+        "descriptor_index": 301,
+        "amplitude": 0.0604264422,
+        "abs_amplitude": 0.0604264422,
+        "raw_amplitude": 0.1812793265,
+        "percent": 15.913779,
+        "raw_percent": 15.913779,
+        "coverage_percent": 15.913779,
         "member_count": 7,
         "members": [
           "assertive",
           "forceful",
-          "tough",
           "strong-minded",
+          "tough",
           "go-getter",
           "headstrong",
           "tenacious"
@@ -90,8 +95,8 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.1671317429,
+            "row_weight": 1.0,
+            "projection": 0.1812793265,
             "similarity": 1.0,
             "matched_descriptor": "assertive"
           }
@@ -100,13 +105,13 @@
       {
         "rank": 2,
         "descriptor": "confident / self-assured / convinced",
-        "descriptor_index": 1359,
-        "amplitude": 0.0285766164,
-        "abs_amplitude": 0.0285766164,
-        "raw_amplitude": 0.0857298491,
-        "percent": 8.572985,
-        "raw_percent": 8.572985,
-        "coverage_percent": 25.286159,
+        "descriptor_index": 975,
+        "amplitude": 0.0314384552,
+        "abs_amplitude": 0.0314384552,
+        "raw_amplitude": 0.0943153656,
+        "percent": 8.279565,
+        "raw_percent": 8.279565,
+        "coverage_percent": 24.193344,
         "member_count": 3,
         "members": [
           "confident",
@@ -127,8 +132,8 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.085729849,
+            "row_weight": 1.0,
+            "projection": 0.0943153656,
             "similarity": 1.0,
             "matched_descriptor": "confident"
           }
@@ -137,13 +142,13 @@
       {
         "rank": 3,
         "descriptor": "slender / thin",
-        "descriptor_index": 6966,
-        "amplitude": 0.0249307053,
-        "abs_amplitude": 0.0249307053,
-        "raw_amplitude": 0.0747921158,
-        "percent": 7.479212,
-        "raw_percent": 7.479212,
-        "coverage_percent": 32.765371,
+        "descriptor_index": 5159,
+        "amplitude": 0.0278618091,
+        "abs_amplitude": 0.0278618091,
+        "raw_amplitude": 0.0835854274,
+        "percent": 7.337627,
+        "raw_percent": 7.337627,
+        "coverage_percent": 31.53097,
         "member_count": 2,
         "members": [
           "slender",
@@ -163,8 +168,8 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0747921158,
+            "row_weight": 1.0,
+            "projection": 0.0835854274,
             "similarity": 1.0,
             "matched_descriptor": "slender"
           }
@@ -172,56 +177,14 @@
       },
       {
         "rank": 4,
-        "descriptor": "strong-willed / resolute / unyielding / unbending / +4",
-        "descriptor_index": 7373,
-        "amplitude": 0.0233188973,
-        "abs_amplitude": 0.0233188973,
-        "raw_amplitude": 0.0699566919,
-        "percent": 6.995669,
-        "raw_percent": 6.995669,
-        "coverage_percent": 39.76104,
-        "member_count": 8,
-        "members": [
-          "strong-willed",
-          "resolute",
-          "unyielding",
-          "unbending",
-          "refractory",
-          "stubborn",
-          "persistent",
-          "resistant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0699566919,
-            "similarity": 0.897915,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
         "descriptor": "observant / perceptive",
-        "descriptor_index": 5240,
-        "amplitude": 0.0220055914,
-        "abs_amplitude": 0.0220055914,
-        "raw_amplitude": 0.0660167742,
-        "percent": 6.601677,
-        "raw_percent": 6.601677,
-        "coverage_percent": 46.362717,
+        "descriptor_index": 3873,
+        "amplitude": 0.0242306944,
+        "abs_amplitude": 0.0242306944,
+        "raw_amplitude": 0.0726920832,
+        "percent": 6.381344,
+        "raw_percent": 6.381344,
+        "coverage_percent": 37.912314,
         "member_count": 2,
         "members": [
           "observant",
@@ -241,23 +204,100 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0660167742,
+            "row_weight": 1.0,
+            "projection": 0.0726920832,
             "similarity": 1.0,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
+        "rank": 5,
+        "descriptor": "maternal / daughter-focused",
+        "descriptor_index": 3430,
+        "amplitude": 0.0240206313,
+        "abs_amplitude": 0.0240206313,
+        "raw_amplitude": 0.072061894,
+        "percent": 6.326022,
+        "raw_percent": 6.326022,
+        "coverage_percent": 44.238337,
+        "member_count": 2,
+        "members": [
+          "maternal",
+          "daughter-focused"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
+            "role": "SUPPORTING",
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0720618941,
+            "similarity": 0.948657,
+            "matched_descriptor": "mother figure"
+          }
+        ]
+      },
+      {
         "rank": 6,
+        "descriptor": "strong-willed / resolute / unyielding / unbending / +3",
+        "descriptor_index": 5448,
+        "amplitude": 0.021567046,
+        "abs_amplitude": 0.021567046,
+        "raw_amplitude": 0.0647011379,
+        "percent": 5.679851,
+        "raw_percent": 5.679851,
+        "coverage_percent": 49.918188,
+        "member_count": 7,
+        "members": [
+          "strong-willed",
+          "resolute",
+          "unyielding",
+          "unbending",
+          "refractory",
+          "stubborn",
+          "persistent"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0647011379,
+            "similarity": 0.897915,
+            "matched_descriptor": "assertive"
+          }
+        ]
+      },
+      {
+        "rank": 7,
         "descriptor": "circumspect / careful / prudent / risk-averse / +1",
-        "descriptor_index": 1133,
-        "amplitude": 0.0153344723,
-        "abs_amplitude": 0.0153344723,
-        "raw_amplitude": 0.046003417,
-        "percent": 4.600342,
-        "raw_percent": 4.600342,
-        "coverage_percent": 50.963059,
+        "descriptor_index": 833,
+        "amplitude": 0.0144908254,
+        "abs_amplitude": 0.0144908254,
+        "raw_amplitude": 0.0434724761,
+        "percent": 3.816273,
+        "raw_percent": 3.816273,
+        "coverage_percent": 53.734461,
         "member_count": 5,
         "members": [
           "circumspect",
@@ -280,23 +320,59 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.046003417,
+            "row_weight": 1.0,
+            "projection": 0.0434724761,
             "similarity": 0.898496,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "descriptor": "young / young-appearing",
+        "descriptor_index": 6369,
+        "amplitude": 0.0121506256,
+        "abs_amplitude": 0.0121506256,
+        "raw_amplitude": 0.0364518769,
+        "percent": 3.199963,
+        "raw_percent": 3.199963,
+        "coverage_percent": 56.934424,
+        "member_count": 2,
+        "members": [
+          "young",
+          "young-appearing"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0364518769,
+            "similarity": 0.933535,
+            "matched_descriptor": "young adult"
+          }
+        ]
+      },
+      {
+        "rank": 9,
         "descriptor": "direct / blunt / fair-minded / honest / +1",
-        "descriptor_index": 1822,
-        "amplitude": 0.0128788727,
-        "abs_amplitude": 0.0128788727,
-        "raw_amplitude": 0.0386366182,
-        "percent": 3.863662,
-        "raw_percent": 3.863662,
-        "coverage_percent": 54.826721,
+        "descriptor_index": 1312,
+        "amplitude": 0.0114531176,
+        "abs_amplitude": 0.0114531176,
+        "raw_amplitude": 0.0343593529,
+        "percent": 3.016269,
+        "raw_percent": 3.016269,
+        "coverage_percent": 59.950693,
         "member_count": 5,
         "members": [
           "direct",
@@ -319,96 +395,59 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0386366182,
+            "row_weight": 1.0,
+            "projection": 0.0343593529,
             "similarity": 0.886951,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 8,
-        "descriptor": "sharp-eyed / sharp / dark-eyed",
-        "descriptor_index": 6776,
-        "amplitude": 0.0118471376,
-        "abs_amplitude": 0.0118471376,
-        "raw_amplitude": 0.0355414128,
-        "percent": 3.554141,
-        "raw_percent": 3.554141,
-        "coverage_percent": 58.380862,
-        "member_count": 3,
-        "members": [
-          "sharp-eyed",
-          "sharp",
-          "dark-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0355414129,
-            "similarity": 0.893159,
-            "matched_descriptor": "observant"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "young / young-appearing",
-        "descriptor_index": 8652,
-        "amplitude": 0.0114993045,
-        "abs_amplitude": 0.0114993045,
-        "raw_amplitude": 0.0344979136,
-        "percent": 3.449791,
-        "raw_percent": 3.449791,
-        "coverage_percent": 61.830654,
+        "rank": 10,
+        "descriptor": "family-conscious / family-oriented",
+        "descriptor_index": 1763,
+        "amplitude": 0.0106130939,
+        "abs_amplitude": 0.0106130939,
+        "raw_amplitude": 0.0318392818,
+        "percent": 2.795042,
+        "raw_percent": 2.795042,
+        "coverage_percent": 62.745734,
         "member_count": 2,
         "members": [
-          "young",
-          "young-appearing"
+          "family-conscious",
+          "family-oriented"
         ],
         "support": 1,
         "effective_support": 1.0,
         "support_factor": 0.333333,
         "top_characters": [
           {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
             "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0344979136,
-            "similarity": 0.933535,
-            "matched_descriptor": "young adult"
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0318392818,
+            "similarity": 0.889587,
+            "matched_descriptor": "mother figure"
           }
         ]
       },
       {
-        "rank": 10,
+        "rank": 11,
         "descriptor": "self-confident / self confident / unashamed",
-        "descriptor_index": 6617,
-        "amplitude": 0.0108332498,
-        "abs_amplitude": 0.0108332498,
-        "raw_amplitude": 0.0324997495,
-        "percent": 3.249975,
-        "raw_percent": 3.249975,
-        "coverage_percent": 65.080629,
+        "descriptor_index": 4873,
+        "amplitude": 0.0105708205,
+        "abs_amplitude": 0.0105708205,
+        "raw_amplitude": 0.0317124616,
+        "percent": 2.783909,
+        "raw_percent": 2.783909,
+        "coverage_percent": 65.529643,
         "member_count": 3,
         "members": [
           "self-confident",
@@ -429,28 +468,102 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0324997495,
+            "row_weight": 1.0,
+            "projection": 0.0317124616,
             "similarity": 0.899148,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 11,
-        "descriptor": "modest / coy / self-effacing / non-arrogant",
-        "descriptor_index": 4896,
-        "amplitude": 0.0087131581,
-        "abs_amplitude": 0.0087131581,
-        "raw_amplitude": 0.0261394744,
-        "percent": 2.613947,
-        "raw_percent": 2.613947,
-        "coverage_percent": 67.694576,
+        "rank": 12,
+        "descriptor": "sharp-eyed / sharp / dark-eyed",
+        "descriptor_index": 5009,
+        "amplitude": 0.0105688127,
+        "abs_amplitude": 0.0105688127,
+        "raw_amplitude": 0.031706438,
+        "percent": 2.78338,
+        "raw_percent": 2.78338,
+        "coverage_percent": 68.313023,
+        "member_count": 3,
+        "members": [
+          "sharp-eyed",
+          "sharp",
+          "dark-eyed"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.031706438,
+            "similarity": 0.893159,
+            "matched_descriptor": "observant"
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "descriptor": "bossy / authoritative / commanding",
+        "descriptor_index": 558,
+        "amplitude": 0.0081870561,
+        "abs_amplitude": 0.0081870561,
+        "raw_amplitude": 0.0245611684,
+        "percent": 2.156126,
+        "raw_percent": 2.156126,
+        "coverage_percent": 70.469149,
+        "member_count": 3,
+        "members": [
+          "bossy",
+          "authoritative",
+          "commanding"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0245611684,
+            "similarity": 0.873297,
+            "matched_descriptor": "leader"
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "descriptor": "modest / self-effacing / coy / non-arrogant",
+        "descriptor_index": 3596,
+        "amplitude": 0.0077372278,
+        "abs_amplitude": 0.0077372278,
+        "raw_amplitude": 0.0232116835,
+        "percent": 2.03766,
+        "raw_percent": 2.03766,
+        "coverage_percent": 72.506809,
         "member_count": 4,
         "members": [
           "modest",
-          "coy",
           "self-effacing",
+          "coy",
           "non-arrogant"
         ],
         "support": 1,
@@ -467,23 +580,23 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0261394744,
+            "row_weight": 1.0,
+            "projection": 0.0232116835,
             "similarity": 0.88356,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 12,
+        "rank": 15,
         "descriptor": "watchful / aware",
-        "descriptor_index": 8461,
-        "amplitude": 0.0073915948,
-        "abs_amplitude": 0.0073915948,
-        "raw_amplitude": 0.0221747845,
-        "percent": 2.217478,
-        "raw_percent": 2.217478,
-        "coverage_percent": 69.912054,
+        "descriptor_index": 6217,
+        "amplitude": 0.0071677494,
+        "abs_amplitude": 0.0071677494,
+        "raw_amplitude": 0.0215032482,
+        "percent": 1.887683,
+        "raw_percent": 1.887683,
+        "coverage_percent": 74.394492,
         "member_count": 2,
         "members": [
           "watchful",
@@ -503,29 +616,28 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0221747845,
+            "row_weight": 1.0,
+            "projection": 0.0215032482,
             "similarity": 0.899573,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
-        "rank": 13,
-        "descriptor": "durable / macho / strong / hardened",
-        "descriptor_index": 2014,
-        "amplitude": 0.0073396738,
-        "abs_amplitude": 0.0073396738,
-        "raw_amplitude": 0.0220190214,
-        "percent": 2.201902,
-        "raw_percent": 2.201902,
-        "coverage_percent": 72.113957,
-        "member_count": 4,
+        "rank": 16,
+        "descriptor": "durable / macho / strong",
+        "descriptor_index": 1459,
+        "amplitude": 0.006439001,
+        "abs_amplitude": 0.006439001,
+        "raw_amplitude": 0.0193170031,
+        "percent": 1.695762,
+        "raw_percent": 1.695762,
+        "coverage_percent": 76.090253,
+        "member_count": 3,
         "members": [
           "durable",
           "macho",
-          "strong",
-          "hardened"
+          "strong"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -541,23 +653,93 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0220190214,
+            "row_weight": 1.0,
+            "projection": 0.0193170031,
             "similarity": 0.888659,
             "matched_descriptor": "assertive / confident"
           }
         ]
       },
       {
-        "rank": 14,
+        "rank": 17,
+        "descriptor": "mother-focused",
+        "descriptor_index": 3629,
+        "amplitude": 0.0061508761,
+        "abs_amplitude": 0.0061508761,
+        "raw_amplitude": 0.0184526283,
+        "percent": 1.619882,
+        "raw_percent": 1.619882,
+        "coverage_percent": 77.710135,
+        "member_count": 1,
+        "members": [
+          "mother-focused"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
+            "role": "SUPPORTING",
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0184526283,
+            "similarity": 0.876199,
+            "matched_descriptor": "mother figure"
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "descriptor": "authoritarian",
+        "descriptor_index": 335,
+        "amplitude": 0.0054085709,
+        "abs_amplitude": 0.0054085709,
+        "raw_amplitude": 0.0162257128,
+        "percent": 1.42439,
+        "raw_percent": 1.42439,
+        "coverage_percent": 79.134525,
+        "member_count": 1,
+        "members": [
+          "authoritarian"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0162257128,
+            "similarity": 0.883029,
+            "matched_descriptor": "leader"
+          }
+        ]
+      },
+      {
+        "rank": 19,
         "descriptor": "observing",
-        "descriptor_index": 5245,
-        "amplitude": 0.0054214016,
-        "abs_amplitude": 0.0054214016,
-        "raw_amplitude": 0.0162642047,
-        "percent": 1.62642,
-        "raw_percent": 1.62642,
-        "coverage_percent": 73.740377,
+        "descriptor_index": 3878,
+        "amplitude": 0.0053263034,
+        "abs_amplitude": 0.0053263034,
+        "raw_amplitude": 0.0159789102,
+        "percent": 1.402724,
+        "raw_percent": 1.402724,
+        "coverage_percent": 80.537249,
         "member_count": 1,
         "members": [
           "observing"
@@ -576,23 +758,23 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0162642047,
+            "row_weight": 1.0,
+            "projection": 0.0159789102,
             "similarity": 0.88795,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
-        "rank": 15,
+        "rank": 20,
         "descriptor": "attentive",
-        "descriptor_index": 465,
-        "amplitude": 0.0052772516,
-        "abs_amplitude": 0.0052772516,
-        "raw_amplitude": 0.0158317547,
-        "percent": 1.583175,
-        "raw_percent": 1.583175,
-        "coverage_percent": 75.323552,
+        "descriptor_index": 328,
+        "amplitude": 0.0051519097,
+        "abs_amplitude": 0.0051519097,
+        "raw_amplitude": 0.0154557292,
+        "percent": 1.356796,
+        "raw_percent": 1.356796,
+        "coverage_percent": 81.894045,
         "member_count": 1,
         "members": [
           "attentive"
@@ -611,27 +793,61 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0158317547,
+            "row_weight": 1.0,
+            "projection": 0.0154557292,
             "similarity": 0.886279,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
-        "rank": 16,
-        "descriptor": "short / diminutive",
-        "descriptor_index": 6810,
-        "amplitude": 0.0048369039,
-        "abs_amplitude": 0.0048369039,
-        "raw_amplitude": 0.0145107118,
-        "percent": 1.451071,
-        "raw_percent": 1.451071,
-        "coverage_percent": 76.774624,
-        "member_count": 2,
+        "rank": 21,
+        "descriptor": "pregnant",
+        "descriptor_index": 4326,
+        "amplitude": 0.0045817748,
+        "abs_amplitude": 0.0045817748,
+        "raw_amplitude": 0.0137453244,
+        "percent": 1.206646,
+        "raw_percent": 1.206646,
+        "coverage_percent": 83.100691,
+        "member_count": 1,
         "members": [
-          "short",
-          "diminutive"
+          "pregnant"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
+            "role": "SUPPORTING",
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0137453244,
+            "similarity": 0.860538,
+            "matched_descriptor": "mother figure"
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "descriptor": "perfect",
+        "descriptor_index": 4080,
+        "amplitude": 0.0042777709,
+        "abs_amplitude": 0.0042777709,
+        "raw_amplitude": 0.0128333127,
+        "percent": 1.126585,
+        "raw_percent": 1.126585,
+        "coverage_percent": 84.227276,
+        "member_count": 1,
+        "members": [
+          "perfect"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -647,23 +863,58 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0145107117,
-            "similarity": 0.844473,
-            "matched_descriptor": "slender"
+            "row_weight": 1.0,
+            "projection": 0.0128333127,
+            "similarity": 0.89424,
+            "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 17,
+        "rank": 23,
+        "descriptor": "head-strong",
+        "descriptor_index": 2479,
+        "amplitude": 0.004211125,
+        "abs_amplitude": 0.004211125,
+        "raw_amplitude": 0.012633375,
+        "percent": 1.109033,
+        "raw_percent": 1.109033,
+        "coverage_percent": 85.336309,
+        "member_count": 1,
+        "members": [
+          "head-strong"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.012633375,
+            "similarity": 0.886579,
+            "matched_descriptor": "assertive"
+          }
+        ]
+      },
+      {
+        "rank": 24,
         "descriptor": "accepting / permissive",
-        "descriptor_index": 30,
-        "amplitude": 0.0047441485,
-        "abs_amplitude": 0.0047441485,
-        "raw_amplitude": 0.0142324456,
-        "percent": 1.423245,
-        "raw_percent": 1.423245,
-        "coverage_percent": 78.197868,
+        "descriptor_index": 25,
+        "amplitude": 0.0041599491,
+        "abs_amplitude": 0.0041599491,
+        "raw_amplitude": 0.0124798474,
+        "percent": 1.095555,
+        "raw_percent": 1.095555,
+        "coverage_percent": 86.431864,
         "member_count": 2,
         "members": [
           "accepting",
@@ -683,23 +934,23 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0142324455,
+            "row_weight": 1.0,
+            "projection": 0.0124798474,
             "similarity": 0.884651,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 18,
+        "rank": 25,
         "descriptor": "spunky / plucky",
-        "descriptor_index": 7195,
-        "amplitude": 0.0046102907,
-        "abs_amplitude": 0.0046102907,
-        "raw_amplitude": 0.013830872,
-        "percent": 1.383087,
-        "raw_percent": 1.383087,
-        "coverage_percent": 79.580955,
+        "descriptor_index": 5323,
+        "amplitude": 0.0041586845,
+        "abs_amplitude": 0.0041586845,
+        "raw_amplitude": 0.0124760536,
+        "percent": 1.095222,
+        "raw_percent": 1.095222,
+        "coverage_percent": 87.527086,
         "member_count": 2,
         "members": [
           "spunky",
@@ -719,259 +970,10 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0138308721,
+            "row_weight": 1.0,
+            "projection": 0.0124760537,
             "similarity": 0.889124,
             "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.0042523349,
-        "abs_amplitude": 0.0042523349,
-        "raw_amplitude": 0.0127570047,
-        "percent": 1.2757,
-        "raw_percent": 1.2757,
-        "coverage_percent": 80.856656,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0127570047,
-            "similarity": 0.89424,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "head-strong",
-        "descriptor_index": 3387,
-        "amplitude": 0.0041004285,
-        "abs_amplitude": 0.0041004285,
-        "raw_amplitude": 0.0123012854,
-        "percent": 1.230129,
-        "raw_percent": 1.230129,
-        "coverage_percent": 82.086784,
-        "member_count": 1,
-        "members": [
-          "head-strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0123012854,
-            "similarity": 0.886579,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "problem-child",
-        "descriptor_index": 5887,
-        "amplitude": 0.0038949187,
-        "abs_amplitude": 0.0038949187,
-        "raw_amplitude": 0.0116847562,
-        "percent": 1.168476,
-        "raw_percent": 1.168476,
-        "coverage_percent": 83.25526,
-        "member_count": 1,
-        "members": [
-          "problem-child"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0116847562,
-            "similarity": 0.854042,
-            "matched_descriptor": "young adult"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "discerning",
-        "descriptor_index": 1835,
-        "amplitude": 0.0036167872,
-        "abs_amplitude": 0.0036167872,
-        "raw_amplitude": 0.0108503617,
-        "percent": 1.085036,
-        "raw_percent": 1.085036,
-        "coverage_percent": 84.340296,
-        "member_count": 1,
-        "members": [
-          "discerning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0108503617,
-            "similarity": 0.888385,
-            "matched_descriptor": "observant"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "conceited / vain / cocky",
-        "descriptor_index": 1350,
-        "amplitude": 0.0033135502,
-        "abs_amplitude": 0.0033135502,
-        "raw_amplitude": 0.0099406506,
-        "percent": 0.994065,
-        "raw_percent": 0.994065,
-        "coverage_percent": 85.334361,
-        "member_count": 3,
-        "members": [
-          "conceited",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0099406506,
-            "similarity": 0.865609,
-            "matched_descriptor": "confident / assertive"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "competent / gifted",
-        "descriptor_index": 1309,
-        "amplitude": 0.003053225,
-        "abs_amplitude": 0.003053225,
-        "raw_amplitude": 0.009159675,
-        "percent": 0.915968,
-        "raw_percent": 0.915968,
-        "coverage_percent": 86.250329,
-        "member_count": 2,
-        "members": [
-          "competent",
-          "gifted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.009159675,
-            "similarity": 0.871223,
-            "matched_descriptor": "assertive / confident"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "self-motivated / free-willed",
-        "descriptor_index": 6648,
-        "amplitude": 0.0029587122,
-        "abs_amplitude": 0.0029587122,
-        "raw_amplitude": 0.0088761365,
-        "percent": 0.887614,
-        "raw_percent": 0.887614,
-        "coverage_percent": 87.137942,
-        "member_count": 2,
-        "members": [
-          "self-motivated",
-          "free-willed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0088761365,
-            "similarity": 0.873828,
-            "matched_descriptor": "assertive"
           }
         ]
       }
@@ -979,20 +981,20 @@
     "opposite_display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "assertive / forceful / tough / strong-minded / +3",
-        "descriptor_index": 425,
-        "amplitude": 0.055710581,
-        "abs_amplitude": 0.055710581,
-        "raw_amplitude": 0.1671317429,
-        "percent": 16.713174,
-        "raw_percent": 16.713174,
-        "coverage_percent": 16.713174,
+        "descriptor": "assertive / forceful / strong-minded / tough / +3",
+        "descriptor_index": 301,
+        "amplitude": 0.0604264422,
+        "abs_amplitude": 0.0604264422,
+        "raw_amplitude": 0.1812793265,
+        "percent": 15.913779,
+        "raw_percent": 15.913779,
+        "coverage_percent": 15.913779,
         "member_count": 7,
         "members": [
           "assertive",
           "forceful",
-          "tough",
           "strong-minded",
+          "tough",
           "go-getter",
           "headstrong",
           "tenacious"
@@ -1011,8 +1013,8 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.1671317429,
+            "row_weight": 1.0,
+            "projection": 0.1812793265,
             "similarity": 1.0,
             "matched_descriptor": "assertive"
           }
@@ -1021,13 +1023,13 @@
       {
         "rank": 2,
         "descriptor": "confident / self-assured / convinced",
-        "descriptor_index": 1359,
-        "amplitude": 0.0285766164,
-        "abs_amplitude": 0.0285766164,
-        "raw_amplitude": 0.0857298491,
-        "percent": 8.572985,
-        "raw_percent": 8.572985,
-        "coverage_percent": 25.286159,
+        "descriptor_index": 975,
+        "amplitude": 0.0314384552,
+        "abs_amplitude": 0.0314384552,
+        "raw_amplitude": 0.0943153656,
+        "percent": 8.279565,
+        "raw_percent": 8.279565,
+        "coverage_percent": 24.193344,
         "member_count": 3,
         "members": [
           "confident",
@@ -1048,8 +1050,8 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.085729849,
+            "row_weight": 1.0,
+            "projection": 0.0943153656,
             "similarity": 1.0,
             "matched_descriptor": "confident"
           }
@@ -1058,13 +1060,13 @@
       {
         "rank": 3,
         "descriptor": "slender / thin",
-        "descriptor_index": 6966,
-        "amplitude": 0.0249307053,
-        "abs_amplitude": 0.0249307053,
-        "raw_amplitude": 0.0747921158,
-        "percent": 7.479212,
-        "raw_percent": 7.479212,
-        "coverage_percent": 32.765371,
+        "descriptor_index": 5159,
+        "amplitude": 0.0278618091,
+        "abs_amplitude": 0.0278618091,
+        "raw_amplitude": 0.0835854274,
+        "percent": 7.337627,
+        "raw_percent": 7.337627,
+        "coverage_percent": 31.53097,
         "member_count": 2,
         "members": [
           "slender",
@@ -1084,8 +1086,8 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0747921158,
+            "row_weight": 1.0,
+            "projection": 0.0835854274,
             "similarity": 1.0,
             "matched_descriptor": "slender"
           }
@@ -1093,56 +1095,14 @@
       },
       {
         "rank": 4,
-        "descriptor": "strong-willed / resolute / unyielding / unbending / +4",
-        "descriptor_index": 7373,
-        "amplitude": 0.0233188973,
-        "abs_amplitude": 0.0233188973,
-        "raw_amplitude": 0.0699566919,
-        "percent": 6.995669,
-        "raw_percent": 6.995669,
-        "coverage_percent": 39.76104,
-        "member_count": 8,
-        "members": [
-          "strong-willed",
-          "resolute",
-          "unyielding",
-          "unbending",
-          "refractory",
-          "stubborn",
-          "persistent",
-          "resistant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0699566919,
-            "similarity": 0.897915,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
         "descriptor": "observant / perceptive",
-        "descriptor_index": 5240,
-        "amplitude": 0.0220055914,
-        "abs_amplitude": 0.0220055914,
-        "raw_amplitude": 0.0660167742,
-        "percent": 6.601677,
-        "raw_percent": 6.601677,
-        "coverage_percent": 46.362717,
+        "descriptor_index": 3873,
+        "amplitude": 0.0242306944,
+        "abs_amplitude": 0.0242306944,
+        "raw_amplitude": 0.0726920832,
+        "percent": 6.381344,
+        "raw_percent": 6.381344,
+        "coverage_percent": 37.912314,
         "member_count": 2,
         "members": [
           "observant",
@@ -1162,23 +1122,100 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0660167742,
+            "row_weight": 1.0,
+            "projection": 0.0726920832,
             "similarity": 1.0,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
+        "rank": 5,
+        "descriptor": "maternal / daughter-focused",
+        "descriptor_index": 3430,
+        "amplitude": 0.0240206313,
+        "abs_amplitude": 0.0240206313,
+        "raw_amplitude": 0.072061894,
+        "percent": 6.326022,
+        "raw_percent": 6.326022,
+        "coverage_percent": 44.238337,
+        "member_count": 2,
+        "members": [
+          "maternal",
+          "daughter-focused"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
+            "role": "SUPPORTING",
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0720618941,
+            "similarity": 0.948657,
+            "matched_descriptor": "mother figure"
+          }
+        ]
+      },
+      {
         "rank": 6,
+        "descriptor": "strong-willed / resolute / unyielding / unbending / +3",
+        "descriptor_index": 5448,
+        "amplitude": 0.021567046,
+        "abs_amplitude": 0.021567046,
+        "raw_amplitude": 0.0647011379,
+        "percent": 5.679851,
+        "raw_percent": 5.679851,
+        "coverage_percent": 49.918188,
+        "member_count": 7,
+        "members": [
+          "strong-willed",
+          "resolute",
+          "unyielding",
+          "unbending",
+          "refractory",
+          "stubborn",
+          "persistent"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0647011379,
+            "similarity": 0.897915,
+            "matched_descriptor": "assertive"
+          }
+        ]
+      },
+      {
+        "rank": 7,
         "descriptor": "circumspect / careful / prudent / risk-averse / +1",
-        "descriptor_index": 1133,
-        "amplitude": 0.0153344723,
-        "abs_amplitude": 0.0153344723,
-        "raw_amplitude": 0.046003417,
-        "percent": 4.600342,
-        "raw_percent": 4.600342,
-        "coverage_percent": 50.963059,
+        "descriptor_index": 833,
+        "amplitude": 0.0144908254,
+        "abs_amplitude": 0.0144908254,
+        "raw_amplitude": 0.0434724761,
+        "percent": 3.816273,
+        "raw_percent": 3.816273,
+        "coverage_percent": 53.734461,
         "member_count": 5,
         "members": [
           "circumspect",
@@ -1201,23 +1238,59 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.046003417,
+            "row_weight": 1.0,
+            "projection": 0.0434724761,
             "similarity": 0.898496,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "descriptor": "young / young-appearing",
+        "descriptor_index": 6369,
+        "amplitude": 0.0121506256,
+        "abs_amplitude": 0.0121506256,
+        "raw_amplitude": 0.0364518769,
+        "percent": 3.199963,
+        "raw_percent": 3.199963,
+        "coverage_percent": 56.934424,
+        "member_count": 2,
+        "members": [
+          "young",
+          "young-appearing"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0364518769,
+            "similarity": 0.933535,
+            "matched_descriptor": "young adult"
+          }
+        ]
+      },
+      {
+        "rank": 9,
         "descriptor": "direct / blunt / fair-minded / honest / +1",
-        "descriptor_index": 1822,
-        "amplitude": 0.0128788727,
-        "abs_amplitude": 0.0128788727,
-        "raw_amplitude": 0.0386366182,
-        "percent": 3.863662,
-        "raw_percent": 3.863662,
-        "coverage_percent": 54.826721,
+        "descriptor_index": 1312,
+        "amplitude": 0.0114531176,
+        "abs_amplitude": 0.0114531176,
+        "raw_amplitude": 0.0343593529,
+        "percent": 3.016269,
+        "raw_percent": 3.016269,
+        "coverage_percent": 59.950693,
         "member_count": 5,
         "members": [
           "direct",
@@ -1240,96 +1313,59 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0386366182,
+            "row_weight": 1.0,
+            "projection": 0.0343593529,
             "similarity": 0.886951,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 8,
-        "descriptor": "sharp-eyed / sharp / dark-eyed",
-        "descriptor_index": 6776,
-        "amplitude": 0.0118471376,
-        "abs_amplitude": 0.0118471376,
-        "raw_amplitude": 0.0355414128,
-        "percent": 3.554141,
-        "raw_percent": 3.554141,
-        "coverage_percent": 58.380862,
-        "member_count": 3,
-        "members": [
-          "sharp-eyed",
-          "sharp",
-          "dark-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0355414129,
-            "similarity": 0.893159,
-            "matched_descriptor": "observant"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "young / young-appearing",
-        "descriptor_index": 8652,
-        "amplitude": 0.0114993045,
-        "abs_amplitude": 0.0114993045,
-        "raw_amplitude": 0.0344979136,
-        "percent": 3.449791,
-        "raw_percent": 3.449791,
-        "coverage_percent": 61.830654,
+        "rank": 10,
+        "descriptor": "family-conscious / family-oriented",
+        "descriptor_index": 1763,
+        "amplitude": 0.0106130939,
+        "abs_amplitude": 0.0106130939,
+        "raw_amplitude": 0.0318392818,
+        "percent": 2.795042,
+        "raw_percent": 2.795042,
+        "coverage_percent": 62.745734,
         "member_count": 2,
         "members": [
-          "young",
-          "young-appearing"
+          "family-conscious",
+          "family-oriented"
         ],
         "support": 1,
         "effective_support": 1.0,
         "support_factor": 0.333333,
         "top_characters": [
           {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
             "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0344979136,
-            "similarity": 0.933535,
-            "matched_descriptor": "young adult"
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0318392818,
+            "similarity": 0.889587,
+            "matched_descriptor": "mother figure"
           }
         ]
       },
       {
-        "rank": 10,
+        "rank": 11,
         "descriptor": "self-confident / self confident / unashamed",
-        "descriptor_index": 6617,
-        "amplitude": 0.0108332498,
-        "abs_amplitude": 0.0108332498,
-        "raw_amplitude": 0.0324997495,
-        "percent": 3.249975,
-        "raw_percent": 3.249975,
-        "coverage_percent": 65.080629,
+        "descriptor_index": 4873,
+        "amplitude": 0.0105708205,
+        "abs_amplitude": 0.0105708205,
+        "raw_amplitude": 0.0317124616,
+        "percent": 2.783909,
+        "raw_percent": 2.783909,
+        "coverage_percent": 65.529643,
         "member_count": 3,
         "members": [
           "self-confident",
@@ -1350,28 +1386,102 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0324997495,
+            "row_weight": 1.0,
+            "projection": 0.0317124616,
             "similarity": 0.899148,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 11,
-        "descriptor": "modest / coy / self-effacing / non-arrogant",
-        "descriptor_index": 4896,
-        "amplitude": 0.0087131581,
-        "abs_amplitude": 0.0087131581,
-        "raw_amplitude": 0.0261394744,
-        "percent": 2.613947,
-        "raw_percent": 2.613947,
-        "coverage_percent": 67.694576,
+        "rank": 12,
+        "descriptor": "sharp-eyed / sharp / dark-eyed",
+        "descriptor_index": 5009,
+        "amplitude": 0.0105688127,
+        "abs_amplitude": 0.0105688127,
+        "raw_amplitude": 0.031706438,
+        "percent": 2.78338,
+        "raw_percent": 2.78338,
+        "coverage_percent": 68.313023,
+        "member_count": 3,
+        "members": [
+          "sharp-eyed",
+          "sharp",
+          "dark-eyed"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.031706438,
+            "similarity": 0.893159,
+            "matched_descriptor": "observant"
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "descriptor": "bossy / authoritative / commanding",
+        "descriptor_index": 558,
+        "amplitude": 0.0081870561,
+        "abs_amplitude": 0.0081870561,
+        "raw_amplitude": 0.0245611684,
+        "percent": 2.156126,
+        "raw_percent": 2.156126,
+        "coverage_percent": 70.469149,
+        "member_count": 3,
+        "members": [
+          "bossy",
+          "authoritative",
+          "commanding"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0245611684,
+            "similarity": 0.873297,
+            "matched_descriptor": "leader"
+          }
+        ]
+      },
+      {
+        "rank": 14,
+        "descriptor": "modest / self-effacing / coy / non-arrogant",
+        "descriptor_index": 3596,
+        "amplitude": 0.0077372278,
+        "abs_amplitude": 0.0077372278,
+        "raw_amplitude": 0.0232116835,
+        "percent": 2.03766,
+        "raw_percent": 2.03766,
+        "coverage_percent": 72.506809,
         "member_count": 4,
         "members": [
           "modest",
-          "coy",
           "self-effacing",
+          "coy",
           "non-arrogant"
         ],
         "support": 1,
@@ -1388,23 +1498,23 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0261394744,
+            "row_weight": 1.0,
+            "projection": 0.0232116835,
             "similarity": 0.88356,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 12,
+        "rank": 15,
         "descriptor": "watchful / aware",
-        "descriptor_index": 8461,
-        "amplitude": 0.0073915948,
-        "abs_amplitude": 0.0073915948,
-        "raw_amplitude": 0.0221747845,
-        "percent": 2.217478,
-        "raw_percent": 2.217478,
-        "coverage_percent": 69.912054,
+        "descriptor_index": 6217,
+        "amplitude": 0.0071677494,
+        "abs_amplitude": 0.0071677494,
+        "raw_amplitude": 0.0215032482,
+        "percent": 1.887683,
+        "raw_percent": 1.887683,
+        "coverage_percent": 74.394492,
         "member_count": 2,
         "members": [
           "watchful",
@@ -1424,29 +1534,28 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0221747845,
+            "row_weight": 1.0,
+            "projection": 0.0215032482,
             "similarity": 0.899573,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
-        "rank": 13,
-        "descriptor": "durable / macho / strong / hardened",
-        "descriptor_index": 2014,
-        "amplitude": 0.0073396738,
-        "abs_amplitude": 0.0073396738,
-        "raw_amplitude": 0.0220190214,
-        "percent": 2.201902,
-        "raw_percent": 2.201902,
-        "coverage_percent": 72.113957,
-        "member_count": 4,
+        "rank": 16,
+        "descriptor": "durable / macho / strong",
+        "descriptor_index": 1459,
+        "amplitude": 0.006439001,
+        "abs_amplitude": 0.006439001,
+        "raw_amplitude": 0.0193170031,
+        "percent": 1.695762,
+        "raw_percent": 1.695762,
+        "coverage_percent": 76.090253,
+        "member_count": 3,
         "members": [
           "durable",
           "macho",
-          "strong",
-          "hardened"
+          "strong"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1462,23 +1571,93 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0220190214,
+            "row_weight": 1.0,
+            "projection": 0.0193170031,
             "similarity": 0.888659,
             "matched_descriptor": "assertive / confident"
           }
         ]
       },
       {
-        "rank": 14,
+        "rank": 17,
+        "descriptor": "mother-focused",
+        "descriptor_index": 3629,
+        "amplitude": 0.0061508761,
+        "abs_amplitude": 0.0061508761,
+        "raw_amplitude": 0.0184526283,
+        "percent": 1.619882,
+        "raw_percent": 1.619882,
+        "coverage_percent": 77.710135,
+        "member_count": 1,
+        "members": [
+          "mother-focused"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
+            "role": "SUPPORTING",
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0184526283,
+            "similarity": 0.876199,
+            "matched_descriptor": "mother figure"
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "descriptor": "authoritarian",
+        "descriptor_index": 335,
+        "amplitude": 0.0054085709,
+        "abs_amplitude": 0.0054085709,
+        "raw_amplitude": 0.0162257128,
+        "percent": 1.42439,
+        "raw_percent": 1.42439,
+        "coverage_percent": 79.134525,
+        "member_count": 1,
+        "members": [
+          "authoritarian"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.0162257128,
+            "similarity": 0.883029,
+            "matched_descriptor": "leader"
+          }
+        ]
+      },
+      {
+        "rank": 19,
         "descriptor": "observing",
-        "descriptor_index": 5245,
-        "amplitude": 0.0054214016,
-        "abs_amplitude": 0.0054214016,
-        "raw_amplitude": 0.0162642047,
-        "percent": 1.62642,
-        "raw_percent": 1.62642,
-        "coverage_percent": 73.740377,
+        "descriptor_index": 3878,
+        "amplitude": 0.0053263034,
+        "abs_amplitude": 0.0053263034,
+        "raw_amplitude": 0.0159789102,
+        "percent": 1.402724,
+        "raw_percent": 1.402724,
+        "coverage_percent": 80.537249,
         "member_count": 1,
         "members": [
           "observing"
@@ -1497,23 +1676,23 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0162642047,
+            "row_weight": 1.0,
+            "projection": 0.0159789102,
             "similarity": 0.88795,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
-        "rank": 15,
+        "rank": 20,
         "descriptor": "attentive",
-        "descriptor_index": 465,
-        "amplitude": 0.0052772516,
-        "abs_amplitude": 0.0052772516,
-        "raw_amplitude": 0.0158317547,
-        "percent": 1.583175,
-        "raw_percent": 1.583175,
-        "coverage_percent": 75.323552,
+        "descriptor_index": 328,
+        "amplitude": 0.0051519097,
+        "abs_amplitude": 0.0051519097,
+        "raw_amplitude": 0.0154557292,
+        "percent": 1.356796,
+        "raw_percent": 1.356796,
+        "coverage_percent": 81.894045,
         "member_count": 1,
         "members": [
           "attentive"
@@ -1532,27 +1711,61 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0158317547,
+            "row_weight": 1.0,
+            "projection": 0.0154557292,
             "similarity": 0.886279,
             "matched_descriptor": "observant"
           }
         ]
       },
       {
-        "rank": 16,
-        "descriptor": "short / diminutive",
-        "descriptor_index": 6810,
-        "amplitude": 0.0048369039,
-        "abs_amplitude": 0.0048369039,
-        "raw_amplitude": 0.0145107118,
-        "percent": 1.451071,
-        "raw_percent": 1.451071,
-        "coverage_percent": 76.774624,
-        "member_count": 2,
+        "rank": 21,
+        "descriptor": "pregnant",
+        "descriptor_index": 4326,
+        "amplitude": 0.0045817748,
+        "abs_amplitude": 0.0045817748,
+        "raw_amplitude": 0.0137453244,
+        "percent": 1.206646,
+        "raw_percent": 1.206646,
+        "coverage_percent": 83.100691,
+        "member_count": 1,
         "members": [
-          "short",
-          "diminutive"
+          "pregnant"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 284166,
+            "name": "Gloria Martinez",
+            "native_name": "グロリア・マルティネズ",
+            "anime": "Cyberpunk: Edgerunners",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+            "site_url": "https://anilist.co/character/284166",
+            "anime_url": "https://myanimelist.net/anime/42310",
+            "role": "SUPPORTING",
+            "favourites": 185,
+            "row_weight": 1.0,
+            "projection": 0.0137453244,
+            "similarity": 0.860538,
+            "matched_descriptor": "mother figure"
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "descriptor": "perfect",
+        "descriptor_index": 4080,
+        "amplitude": 0.0042777709,
+        "abs_amplitude": 0.0042777709,
+        "raw_amplitude": 0.0128333127,
+        "percent": 1.126585,
+        "raw_percent": 1.126585,
+        "coverage_percent": 84.227276,
+        "member_count": 1,
+        "members": [
+          "perfect"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1568,23 +1781,58 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0145107117,
-            "similarity": 0.844473,
-            "matched_descriptor": "slender"
+            "row_weight": 1.0,
+            "projection": 0.0128333127,
+            "similarity": 0.89424,
+            "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 17,
+        "rank": 23,
+        "descriptor": "head-strong",
+        "descriptor_index": 2479,
+        "amplitude": 0.004211125,
+        "abs_amplitude": 0.004211125,
+        "raw_amplitude": 0.012633375,
+        "percent": 1.109033,
+        "raw_percent": 1.109033,
+        "coverage_percent": 85.336309,
+        "member_count": 1,
+        "members": [
+          "head-strong"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 23478,
+            "name": "Mei Terumi",
+            "native_name": "照美メイ",
+            "anime": "Naruto: Shippuden",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
+            "site_url": "https://anilist.co/character/23478",
+            "anime_url": "https://myanimelist.net/anime/1735",
+            "role": "SUPPORTING",
+            "favourites": 254,
+            "row_weight": 1.0,
+            "projection": 0.012633375,
+            "similarity": 0.886579,
+            "matched_descriptor": "assertive"
+          }
+        ]
+      },
+      {
+        "rank": 24,
         "descriptor": "accepting / permissive",
-        "descriptor_index": 30,
-        "amplitude": 0.0047441485,
-        "abs_amplitude": 0.0047441485,
-        "raw_amplitude": 0.0142324456,
-        "percent": 1.423245,
-        "raw_percent": 1.423245,
-        "coverage_percent": 78.197868,
+        "descriptor_index": 25,
+        "amplitude": 0.0041599491,
+        "abs_amplitude": 0.0041599491,
+        "raw_amplitude": 0.0124798474,
+        "percent": 1.095555,
+        "raw_percent": 1.095555,
+        "coverage_percent": 86.431864,
         "member_count": 2,
         "members": [
           "accepting",
@@ -1604,23 +1852,23 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0142324455,
+            "row_weight": 1.0,
+            "projection": 0.0124798474,
             "similarity": 0.884651,
             "matched_descriptor": "confident"
           }
         ]
       },
       {
-        "rank": 18,
+        "rank": 25,
         "descriptor": "spunky / plucky",
-        "descriptor_index": 7195,
-        "amplitude": 0.0046102907,
-        "abs_amplitude": 0.0046102907,
-        "raw_amplitude": 0.013830872,
-        "percent": 1.383087,
-        "raw_percent": 1.383087,
-        "coverage_percent": 79.580955,
+        "descriptor_index": 5323,
+        "amplitude": 0.0041586845,
+        "abs_amplitude": 0.0041586845,
+        "raw_amplitude": 0.0124760536,
+        "percent": 1.095222,
+        "raw_percent": 1.095222,
+        "coverage_percent": 87.527086,
         "member_count": 2,
         "members": [
           "spunky",
@@ -1640,259 +1888,10 @@
             "anime_url": "https://myanimelist.net/anime/1735",
             "role": "SUPPORTING",
             "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0138308721,
+            "row_weight": 1.0,
+            "projection": 0.0124760537,
             "similarity": 0.889124,
             "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.0042523349,
-        "abs_amplitude": 0.0042523349,
-        "raw_amplitude": 0.0127570047,
-        "percent": 1.2757,
-        "raw_percent": 1.2757,
-        "coverage_percent": 80.856656,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0127570047,
-            "similarity": 0.89424,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "head-strong",
-        "descriptor_index": 3387,
-        "amplitude": 0.0041004285,
-        "abs_amplitude": 0.0041004285,
-        "raw_amplitude": 0.0123012854,
-        "percent": 1.230129,
-        "raw_percent": 1.230129,
-        "coverage_percent": 82.086784,
-        "member_count": 1,
-        "members": [
-          "head-strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0123012854,
-            "similarity": 0.886579,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "problem-child",
-        "descriptor_index": 5887,
-        "amplitude": 0.0038949187,
-        "abs_amplitude": 0.0038949187,
-        "raw_amplitude": 0.0116847562,
-        "percent": 1.168476,
-        "raw_percent": 1.168476,
-        "coverage_percent": 83.25526,
-        "member_count": 1,
-        "members": [
-          "problem-child"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0116847562,
-            "similarity": 0.854042,
-            "matched_descriptor": "young adult"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "discerning",
-        "descriptor_index": 1835,
-        "amplitude": 0.0036167872,
-        "abs_amplitude": 0.0036167872,
-        "raw_amplitude": 0.0108503617,
-        "percent": 1.085036,
-        "raw_percent": 1.085036,
-        "coverage_percent": 84.340296,
-        "member_count": 1,
-        "members": [
-          "discerning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0108503617,
-            "similarity": 0.888385,
-            "matched_descriptor": "observant"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "conceited / vain / cocky",
-        "descriptor_index": 1350,
-        "amplitude": 0.0033135502,
-        "abs_amplitude": 0.0033135502,
-        "raw_amplitude": 0.0099406506,
-        "percent": 0.994065,
-        "raw_percent": 0.994065,
-        "coverage_percent": 85.334361,
-        "member_count": 3,
-        "members": [
-          "conceited",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0099406506,
-            "similarity": 0.865609,
-            "matched_descriptor": "confident / assertive"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "competent / gifted",
-        "descriptor_index": 1309,
-        "amplitude": 0.003053225,
-        "abs_amplitude": 0.003053225,
-        "raw_amplitude": 0.009159675,
-        "percent": 0.915968,
-        "raw_percent": 0.915968,
-        "coverage_percent": 86.250329,
-        "member_count": 2,
-        "members": [
-          "competent",
-          "gifted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.009159675,
-            "similarity": 0.871223,
-            "matched_descriptor": "assertive / confident"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "self-motivated / free-willed",
-        "descriptor_index": 6648,
-        "amplitude": 0.0029587122,
-        "abs_amplitude": 0.0029587122,
-        "raw_amplitude": 0.0088761365,
-        "percent": 0.887614,
-        "raw_percent": 0.887614,
-        "coverage_percent": 87.137942,
-        "member_count": 2,
-        "members": [
-          "self-motivated",
-          "free-willed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 23478,
-            "name": "Mei Terumi",
-            "native_name": "照美メイ",
-            "anime": "Naruto: Shippuden",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b23478-U7n8YUe2gFDW.png",
-            "site_url": "https://anilist.co/character/23478",
-            "anime_url": "https://myanimelist.net/anime/1735",
-            "role": "SUPPORTING",
-            "favourites": 254,
-            "row_weight": 2.5575894,
-            "projection": 0.0088761365,
-            "similarity": 0.873828,
-            "matched_descriptor": "assertive"
           }
         ]
       }
@@ -1908,10 +1907,25 @@
         "anime_url": "https://myanimelist.net/anime/1735",
         "role": "SUPPORTING",
         "favourites": 254,
-        "row_weight": 2.5575894,
-        "amplitude": 1.0,
-        "abs_amplitude": 1.0,
-        "percent": 100.0
+        "row_weight": 1.0,
+        "amplitude": 0.9886056351,
+        "abs_amplitude": 0.9886056351,
+        "percent": 97.73411
+      },
+      {
+        "character_id": 284166,
+        "name": "Gloria Martinez",
+        "native_name": "グロリア・マルティネズ",
+        "anime": "Cyberpunk: Edgerunners",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+        "site_url": "https://anilist.co/character/284166",
+        "anime_url": "https://myanimelist.net/anime/42310",
+        "role": "SUPPORTING",
+        "favourites": 185,
+        "row_weight": 1.0,
+        "amplitude": 0.1505287292,
+        "abs_amplitude": 0.1505287292,
+        "percent": 2.26589
       }
     ],
     "positive_characters": [
@@ -1925,10 +1939,25 @@
         "anime_url": "https://myanimelist.net/anime/1735",
         "role": "SUPPORTING",
         "favourites": 254,
-        "row_weight": 2.5575894,
-        "amplitude": 1.0,
-        "abs_amplitude": 1.0,
-        "percent": 100.0
+        "row_weight": 1.0,
+        "amplitude": 0.9886056351,
+        "abs_amplitude": 0.9886056351,
+        "percent": 97.73411
+      },
+      {
+        "character_id": 284166,
+        "name": "Gloria Martinez",
+        "native_name": "グロリア・マルティネズ",
+        "anime": "Cyberpunk: Edgerunners",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b284166-nB27pcRfIxvj.png",
+        "site_url": "https://anilist.co/character/284166",
+        "anime_url": "https://myanimelist.net/anime/42310",
+        "role": "SUPPORTING",
+        "favourites": 185,
+        "row_weight": 1.0,
+        "amplitude": 0.1505287292,
+        "abs_amplitude": 0.1505287292,
+        "percent": 2.26589
       }
     ],
     "negative_characters": []

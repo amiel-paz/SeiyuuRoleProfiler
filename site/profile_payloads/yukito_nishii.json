@@ -11,668 +11,99 @@
     "nishii yukito",
     "yukito nishii"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yukito_nishii.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.1894959834,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.1894959834,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 351.254678,
-      "normalized_entanglement": 0.914726,
-      "top5_mass_percent": 2.513615,
-      "top10_mass_percent": 4.822218
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.8696877476,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 95.704806,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.2309111905,
-        "abs_amplitude": 0.2309111905,
-        "raw_amplitude": 0.6927335715,
-        "percent": 69.273357,
-        "raw_percent": 69.273357,
-        "coverage_percent": 69.273357,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.5433290282,
+        "abs_amplitude": 0.5433290282,
+        "percent": 52.784711,
+        "weighted_support": 1.86968775,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 60283,
             "name": "Ame",
-            "native_name": "雨",
             "anime": "Wolf Children",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
             "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.6927335714,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
+            "combined_favourites": 399
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.0249903612,
-        "abs_amplitude": 0.0249903612,
-        "raw_amplitude": 0.0749710835,
-        "percent": 7.497108,
-        "raw_percent": 7.497108,
-        "coverage_percent": 76.770465,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
+        "descriptor": "introverted",
+        "amplitude": 0.4860012735,
+        "abs_amplitude": 0.4860012735,
+        "percent": 47.215289,
+        "weighted_support": 1.86968775,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 60283,
             "name": "Ame",
-            "native_name": "雨",
             "anime": "Wolf Children",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
             "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0749710834,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0189894402,
-        "abs_amplitude": 0.0189894402,
-        "raw_amplitude": 0.0569683205,
-        "percent": 5.696832,
-        "raw_percent": 5.696832,
-        "coverage_percent": 82.467298,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0569683205,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0149145635,
-        "abs_amplitude": 0.0149145635,
-        "raw_amplitude": 0.0447436904,
-        "percent": 4.474369,
-        "raw_percent": 4.474369,
-        "coverage_percent": 86.941667,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0447436904,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0082272851,
-        "abs_amplitude": 0.0082272851,
-        "raw_amplitude": 0.0246818552,
-        "percent": 2.468186,
-        "raw_percent": 2.468186,
-        "coverage_percent": 89.409852,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0246818552,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0080098271,
-        "abs_amplitude": 0.0080098271,
-        "raw_amplitude": 0.0240294812,
-        "percent": 2.402948,
-        "raw_percent": 2.402948,
-        "coverage_percent": 91.8128,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0240294812,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0075549286,
-        "abs_amplitude": 0.0075549286,
-        "raw_amplitude": 0.0226647857,
-        "percent": 2.266479,
-        "raw_percent": 2.266479,
-        "coverage_percent": 94.079279,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0226647857,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0070293435,
-        "abs_amplitude": 0.0070293435,
-        "raw_amplitude": 0.0210880304,
-        "percent": 2.108803,
-        "raw_percent": 2.108803,
-        "coverage_percent": 96.188082,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0210880304,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
+            "combined_favourites": 399
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.2309111905,
-        "abs_amplitude": 0.2309111905,
-        "raw_amplitude": 0.6927335715,
-        "percent": 69.273357,
-        "raw_percent": 69.273357,
-        "coverage_percent": 69.273357,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 1.86968775,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.6927335714,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 89.720053,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.0249903612,
-        "abs_amplitude": 0.0249903612,
-        "raw_amplitude": 0.0749710835,
-        "percent": 7.497108,
-        "raw_percent": 7.497108,
-        "coverage_percent": 76.770465,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
+        "step": 2,
+        "descriptor": "introverted",
+        "weighted_support": 1.86968775,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0749710834,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0189894402,
-        "abs_amplitude": 0.0189894402,
-        "raw_amplitude": 0.0569683205,
-        "percent": 5.696832,
-        "raw_percent": 5.696832,
-        "coverage_percent": 82.467298,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0569683205,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0149145635,
-        "abs_amplitude": 0.0149145635,
-        "raw_amplitude": 0.0447436904,
-        "percent": 4.474369,
-        "raw_percent": 4.474369,
-        "coverage_percent": 86.941667,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0447436904,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0082272851,
-        "abs_amplitude": 0.0082272851,
-        "raw_amplitude": 0.0246818552,
-        "percent": 2.468186,
-        "raw_percent": 2.468186,
-        "coverage_percent": 89.409852,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0246818552,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0080098271,
-        "abs_amplitude": 0.0080098271,
-        "raw_amplitude": 0.0240294812,
-        "percent": 2.402948,
-        "raw_percent": 2.402948,
-        "coverage_percent": 91.8128,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0240294812,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0075549286,
-        "abs_amplitude": 0.0075549286,
-        "raw_amplitude": 0.0226647857,
-        "percent": 2.266479,
-        "raw_percent": 2.266479,
-        "coverage_percent": 94.079279,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0226647857,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0070293435,
-        "abs_amplitude": 0.0070293435,
-        "raw_amplitude": 0.0210880304,
-        "percent": 2.108803,
-        "raw_percent": 2.108803,
-        "coverage_percent": 96.188082,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 60283,
-            "name": "Ame",
-            "native_name": "雨",
-            "anime": "Wolf Children",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
-            "site_url": "https://anilist.co/character/60283",
-            "anime_url": "https://myanimelist.net/anime/12355",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 1.86387164,
-            "projection": 0.0210880304,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 95.704806,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 60283,
         "name": "Ame",
-        "native_name": "雨",
         "anime": "Wolf Children",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
         "site_url": "https://anilist.co/character/60283",
-        "anime_url": "https://myanimelist.net/anime/12355",
-        "role": "MAIN",
         "favourites": 382,
-        "row_weight": 1.86387164,
+        "anilist_favourites": 382,
+        "bangumi_collects": 17,
+        "bangumi_comments": 18,
+        "bangumi_character_id": 17844,
+        "bangumi_url": "https://bgm.tv/character/17844",
+        "combined_favourites": 399,
+        "role_edge_count": 2,
+        "descriptors": [
+          "cynical",
+          "introverted",
+          "shy"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.64413777,
+        "row_weight": 1.86968775,
+        "unweighted_row_norm": 2.62019887,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -682,19 +113,69 @@
       {
         "character_id": 60283,
         "name": "Ame",
-        "native_name": "雨",
         "anime": "Wolf Children",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b60283-1oOCO9yq7ymy.png",
         "site_url": "https://anilist.co/character/60283",
-        "anime_url": "https://myanimelist.net/anime/12355",
-        "role": "MAIN",
         "favourites": 382,
-        "row_weight": 1.86387164,
+        "anilist_favourites": 382,
+        "bangumi_collects": 17,
+        "bangumi_comments": 18,
+        "bangumi_character_id": 17844,
+        "bangumi_url": "https://bgm.tv/character/17844",
+        "combined_favourites": 399,
+        "role_edge_count": 2,
+        "descriptors": [
+          "cynical",
+          "introverted",
+          "shy"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.64413777,
+        "row_weight": 1.86968775,
+        "unweighted_row_norm": 2.62019887,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.8696877476,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

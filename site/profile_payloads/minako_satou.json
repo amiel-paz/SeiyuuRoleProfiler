@@ -11,1508 +11,99 @@
     "minako satou",
     "satou minako"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/minako_satou.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.3060560593,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.3060560593,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 160.758289,
-      "normalized_entanglement": 0.418641,
-      "top5_mass_percent": 7.354882,
-      "top10_mass_percent": 12.990399
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5489543396,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 95.927835,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "excellent / outstanding / distinguished / fantastic-grades / +1",
-        "descriptor_index": 2252,
-        "amplitude": 0.0916061125,
-        "abs_amplitude": 0.0916061125,
-        "raw_amplitude": 0.2748183375,
-        "percent": 27.481834,
-        "raw_percent": 27.481834,
-        "coverage_percent": 27.481834,
-        "member_count": 5,
-        "members": [
-          "excellent",
-          "outstanding",
-          "distinguished",
-          "fantastic-grades",
-          "exceptional"
-        ],
+        "descriptor": "social",
+        "amplitude": 0.5055802558,
+        "abs_amplitude": 0.5055802558,
+        "percent": 48.227381,
+        "weighted_support": 2.54895434,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 171748,
             "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
             "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
             "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.2748183375,
-            "similarity": 1.0,
-            "matched_descriptor": "excellent"
+            "combined_favourites": 243
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "positive / cordial / good / non-hostile",
-        "descriptor_index": 5732,
-        "amplitude": 0.0619574525,
-        "abs_amplitude": 0.0619574525,
-        "raw_amplitude": 0.1858723574,
-        "percent": 18.587236,
-        "raw_percent": 18.587236,
-        "coverage_percent": 46.069069,
-        "member_count": 4,
-        "members": [
-          "positive",
-          "cordial",
-          "good",
-          "non-hostile"
-        ],
+        "descriptor": "kind",
+        "amplitude": 0.5427459065,
+        "abs_amplitude": 0.5427459065,
+        "percent": 51.772619,
+        "weighted_support": 2.54895434,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 171748,
             "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
             "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
             "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.1858723574,
-            "similarity": 1.0,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "bright / sparkling",
-        "descriptor_index": 813,
-        "amplitude": 0.0474612395,
-        "abs_amplitude": 0.0474612395,
-        "raw_amplitude": 0.1423837186,
-        "percent": 14.238372,
-        "raw_percent": 14.238372,
-        "coverage_percent": 60.307441,
-        "member_count": 2,
-        "members": [
-          "bright",
-          "sparkling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.1423837186,
-            "similarity": 1.0,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "undercover",
-        "descriptor_index": 8099,
-        "amplitude": 0.0252433553,
-        "abs_amplitude": 0.0252433553,
-        "raw_amplitude": 0.075730066,
-        "percent": 7.573007,
-        "raw_percent": 7.573007,
-        "coverage_percent": 67.880448,
-        "member_count": 1,
-        "members": [
-          "undercover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.075730066,
-            "similarity": 0.973119,
-            "matched_descriptor": "secretive agent"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "transcendent / peerless",
-        "descriptor_index": 7959,
-        "amplitude": 0.0133574243,
-        "abs_amplitude": 0.0133574243,
-        "raw_amplitude": 0.0400722728,
-        "percent": 4.007227,
-        "raw_percent": 4.007227,
-        "coverage_percent": 71.887675,
-        "member_count": 2,
-        "members": [
-          "transcendent",
-          "peerless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0400722727,
-            "similarity": 0.875015,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "gleeful / good-humoured / good-humored / thrilled",
-        "descriptor_index": 3012,
-        "amplitude": 0.0113679322,
-        "abs_amplitude": 0.0113679322,
-        "raw_amplitude": 0.0341037967,
-        "percent": 3.41038,
-        "raw_percent": 3.41038,
-        "coverage_percent": 75.298055,
-        "member_count": 4,
-        "members": [
-          "gleeful",
-          "good-humoured",
-          "good-humored",
-          "thrilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0341037967,
-            "similarity": 0.889976,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "respected / admiration-worthy / revered",
-        "descriptor_index": 6263,
-        "amplitude": 0.0089009,
-        "abs_amplitude": 0.0089009,
-        "raw_amplitude": 0.0267026999,
-        "percent": 2.67027,
-        "raw_percent": 2.67027,
-        "coverage_percent": 77.968325,
-        "member_count": 3,
-        "members": [
-          "respected",
-          "admiration-worthy",
-          "revered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0267026999,
-            "similarity": 0.855935,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "ace",
-        "descriptor_index": 47,
-        "amplitude": 0.0083540688,
-        "abs_amplitude": 0.0083540688,
-        "raw_amplitude": 0.0250622064,
-        "percent": 2.506221,
-        "raw_percent": 2.506221,
-        "coverage_percent": 80.474546,
-        "member_count": 1,
-        "members": [
-          "ace"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0250622064,
-            "similarity": 0.887544,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "affable / gregarious / amicable",
-        "descriptor_index": 106,
-        "amplitude": 0.0059911518,
-        "abs_amplitude": 0.0059911518,
-        "raw_amplitude": 0.0179734555,
-        "percent": 1.797346,
-        "raw_percent": 1.797346,
-        "coverage_percent": 82.271891,
-        "member_count": 3,
-        "members": [
-          "affable",
-          "gregarious",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0179734555,
-            "similarity": 0.889798,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "golden-eyed",
-        "descriptor_index": 3046,
-        "amplitude": 0.0055751419,
-        "abs_amplitude": 0.0055751419,
-        "raw_amplitude": 0.0167254256,
-        "percent": 1.672543,
-        "raw_percent": 1.672543,
-        "coverage_percent": 83.944434,
-        "member_count": 1,
-        "members": [
-          "golden-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0167254256,
-            "similarity": 0.84455,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "openhearted / good-natured / well-meaning",
-        "descriptor_index": 5334,
-        "amplitude": 0.0051016249,
-        "abs_amplitude": 0.0051016249,
-        "raw_amplitude": 0.0153048746,
-        "percent": 1.530487,
-        "raw_percent": 1.530487,
-        "coverage_percent": 85.474921,
-        "member_count": 3,
-        "members": [
-          "openhearted",
-          "good-natured",
-          "well-meaning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0153048746,
-            "similarity": 0.882725,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "glamorous / gorgeous",
-        "descriptor_index": 3009,
-        "amplitude": 0.0047825562,
-        "abs_amplitude": 0.0047825562,
-        "raw_amplitude": 0.0143476687,
-        "percent": 1.434767,
-        "raw_percent": 1.434767,
-        "coverage_percent": 86.909688,
-        "member_count": 2,
-        "members": [
-          "glamorous",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0143476687,
-            "similarity": 0.840807,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "diligent",
-        "descriptor_index": 1811,
-        "amplitude": 0.0037056806,
-        "abs_amplitude": 0.0037056806,
-        "raw_amplitude": 0.0111170418,
-        "percent": 1.111704,
-        "raw_percent": 1.111704,
-        "coverage_percent": 88.021392,
-        "member_count": 1,
-        "members": [
-          "diligent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0111170418,
-            "similarity": 0.859865,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "good-looking",
-        "descriptor_index": 3107,
-        "amplitude": 0.0036607931,
-        "abs_amplitude": 0.0036607931,
-        "raw_amplitude": 0.0109823792,
-        "percent": 1.098238,
-        "raw_percent": 1.098238,
-        "coverage_percent": 89.11963,
-        "member_count": 1,
-        "members": [
-          "good-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0109823792,
-            "similarity": 0.86011,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "superior",
-        "descriptor_index": 7507,
-        "amplitude": 0.0036347928,
-        "abs_amplitude": 0.0036347928,
-        "raw_amplitude": 0.0109043785,
-        "percent": 1.090438,
-        "raw_percent": 1.090438,
-        "coverage_percent": 90.210068,
-        "member_count": 1,
-        "members": [
-          "superior"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0109043785,
-            "similarity": 0.851864,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0036075075,
-        "abs_amplitude": 0.0036075075,
-        "raw_amplitude": 0.0108225226,
-        "percent": 1.082252,
-        "raw_percent": 1.082252,
-        "coverage_percent": 91.29232,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0108225226,
-            "similarity": 0.837886,
-            "matched_descriptor": "secretive agent"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "acrobatic",
-        "descriptor_index": 51,
-        "amplitude": 0.0034730237,
-        "abs_amplitude": 0.0034730237,
-        "raw_amplitude": 0.0104190712,
-        "percent": 1.041907,
-        "raw_percent": 1.041907,
-        "coverage_percent": 92.334227,
-        "member_count": 1,
-        "members": [
-          "acrobatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0104190712,
-            "similarity": 0.867976,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0033978275,
-        "abs_amplitude": 0.0033978275,
-        "raw_amplitude": 0.0101934825,
-        "percent": 1.019348,
-        "raw_percent": 1.019348,
-        "coverage_percent": 93.353576,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0101934825,
-            "similarity": 0.844937,
-            "matched_descriptor": "secretive agent"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "rigorous / meticulous",
-        "descriptor_index": 6323,
-        "amplitude": 0.0029925264,
-        "abs_amplitude": 0.0029925264,
-        "raw_amplitude": 0.0089775791,
-        "percent": 0.897758,
-        "raw_percent": 0.897758,
-        "coverage_percent": 94.251333,
-        "member_count": 2,
-        "members": [
-          "rigorous",
-          "meticulous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0089775791,
-            "similarity": 0.846093,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "impressed",
-        "descriptor_index": 3787,
-        "amplitude": 0.0029639786,
-        "abs_amplitude": 0.0029639786,
-        "raw_amplitude": 0.0088919358,
-        "percent": 0.889194,
-        "raw_percent": 0.889194,
-        "coverage_percent": 95.140527,
-        "member_count": 1,
-        "members": [
-          "impressed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0088919358,
-            "similarity": 0.84798,
-            "matched_descriptor": "excellent"
+            "combined_favourites": 243
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "excellent / outstanding / distinguished / fantastic-grades / +1",
-        "descriptor_index": 2252,
-        "amplitude": 0.0916061125,
-        "abs_amplitude": 0.0916061125,
-        "raw_amplitude": 0.2748183375,
-        "percent": 27.481834,
-        "raw_percent": 27.481834,
-        "coverage_percent": 27.481834,
-        "member_count": 5,
-        "members": [
-          "excellent",
-          "outstanding",
-          "distinguished",
-          "fantastic-grades",
-          "exceptional"
-        ],
+        "step": 1,
+        "descriptor": "social",
+        "weighted_support": 2.54895434,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.2748183375,
-            "similarity": 1.0,
-            "matched_descriptor": "excellent"
-          }
-        ]
+        "fit_percent": 87.152654,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "positive / cordial / good / non-hostile",
-        "descriptor_index": 5732,
-        "amplitude": 0.0619574525,
-        "abs_amplitude": 0.0619574525,
-        "raw_amplitude": 0.1858723574,
-        "percent": 18.587236,
-        "raw_percent": 18.587236,
-        "coverage_percent": 46.069069,
-        "member_count": 4,
-        "members": [
-          "positive",
-          "cordial",
-          "good",
-          "non-hostile"
-        ],
+        "step": 2,
+        "descriptor": "kind",
+        "weighted_support": 2.54895434,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.1858723574,
-            "similarity": 1.0,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "bright / sparkling",
-        "descriptor_index": 813,
-        "amplitude": 0.0474612395,
-        "abs_amplitude": 0.0474612395,
-        "raw_amplitude": 0.1423837186,
-        "percent": 14.238372,
-        "raw_percent": 14.238372,
-        "coverage_percent": 60.307441,
-        "member_count": 2,
-        "members": [
-          "bright",
-          "sparkling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.1423837186,
-            "similarity": 1.0,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "undercover",
-        "descriptor_index": 8099,
-        "amplitude": 0.0252433553,
-        "abs_amplitude": 0.0252433553,
-        "raw_amplitude": 0.075730066,
-        "percent": 7.573007,
-        "raw_percent": 7.573007,
-        "coverage_percent": 67.880448,
-        "member_count": 1,
-        "members": [
-          "undercover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.075730066,
-            "similarity": 0.973119,
-            "matched_descriptor": "secretive agent"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "transcendent / peerless",
-        "descriptor_index": 7959,
-        "amplitude": 0.0133574243,
-        "abs_amplitude": 0.0133574243,
-        "raw_amplitude": 0.0400722728,
-        "percent": 4.007227,
-        "raw_percent": 4.007227,
-        "coverage_percent": 71.887675,
-        "member_count": 2,
-        "members": [
-          "transcendent",
-          "peerless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0400722727,
-            "similarity": 0.875015,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "gleeful / good-humoured / good-humored / thrilled",
-        "descriptor_index": 3012,
-        "amplitude": 0.0113679322,
-        "abs_amplitude": 0.0113679322,
-        "raw_amplitude": 0.0341037967,
-        "percent": 3.41038,
-        "raw_percent": 3.41038,
-        "coverage_percent": 75.298055,
-        "member_count": 4,
-        "members": [
-          "gleeful",
-          "good-humoured",
-          "good-humored",
-          "thrilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0341037967,
-            "similarity": 0.889976,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "respected / admiration-worthy / revered",
-        "descriptor_index": 6263,
-        "amplitude": 0.0089009,
-        "abs_amplitude": 0.0089009,
-        "raw_amplitude": 0.0267026999,
-        "percent": 2.67027,
-        "raw_percent": 2.67027,
-        "coverage_percent": 77.968325,
-        "member_count": 3,
-        "members": [
-          "respected",
-          "admiration-worthy",
-          "revered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0267026999,
-            "similarity": 0.855935,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "ace",
-        "descriptor_index": 47,
-        "amplitude": 0.0083540688,
-        "abs_amplitude": 0.0083540688,
-        "raw_amplitude": 0.0250622064,
-        "percent": 2.506221,
-        "raw_percent": 2.506221,
-        "coverage_percent": 80.474546,
-        "member_count": 1,
-        "members": [
-          "ace"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0250622064,
-            "similarity": 0.887544,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "affable / gregarious / amicable",
-        "descriptor_index": 106,
-        "amplitude": 0.0059911518,
-        "abs_amplitude": 0.0059911518,
-        "raw_amplitude": 0.0179734555,
-        "percent": 1.797346,
-        "raw_percent": 1.797346,
-        "coverage_percent": 82.271891,
-        "member_count": 3,
-        "members": [
-          "affable",
-          "gregarious",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0179734555,
-            "similarity": 0.889798,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "golden-eyed",
-        "descriptor_index": 3046,
-        "amplitude": 0.0055751419,
-        "abs_amplitude": 0.0055751419,
-        "raw_amplitude": 0.0167254256,
-        "percent": 1.672543,
-        "raw_percent": 1.672543,
-        "coverage_percent": 83.944434,
-        "member_count": 1,
-        "members": [
-          "golden-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0167254256,
-            "similarity": 0.84455,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "openhearted / good-natured / well-meaning",
-        "descriptor_index": 5334,
-        "amplitude": 0.0051016249,
-        "abs_amplitude": 0.0051016249,
-        "raw_amplitude": 0.0153048746,
-        "percent": 1.530487,
-        "raw_percent": 1.530487,
-        "coverage_percent": 85.474921,
-        "member_count": 3,
-        "members": [
-          "openhearted",
-          "good-natured",
-          "well-meaning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0153048746,
-            "similarity": 0.882725,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "glamorous / gorgeous",
-        "descriptor_index": 3009,
-        "amplitude": 0.0047825562,
-        "abs_amplitude": 0.0047825562,
-        "raw_amplitude": 0.0143476687,
-        "percent": 1.434767,
-        "raw_percent": 1.434767,
-        "coverage_percent": 86.909688,
-        "member_count": 2,
-        "members": [
-          "glamorous",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0143476687,
-            "similarity": 0.840807,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "diligent",
-        "descriptor_index": 1811,
-        "amplitude": 0.0037056806,
-        "abs_amplitude": 0.0037056806,
-        "raw_amplitude": 0.0111170418,
-        "percent": 1.111704,
-        "raw_percent": 1.111704,
-        "coverage_percent": 88.021392,
-        "member_count": 1,
-        "members": [
-          "diligent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0111170418,
-            "similarity": 0.859865,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "good-looking",
-        "descriptor_index": 3107,
-        "amplitude": 0.0036607931,
-        "abs_amplitude": 0.0036607931,
-        "raw_amplitude": 0.0109823792,
-        "percent": 1.098238,
-        "raw_percent": 1.098238,
-        "coverage_percent": 89.11963,
-        "member_count": 1,
-        "members": [
-          "good-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0109823792,
-            "similarity": 0.86011,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "superior",
-        "descriptor_index": 7507,
-        "amplitude": 0.0036347928,
-        "abs_amplitude": 0.0036347928,
-        "raw_amplitude": 0.0109043785,
-        "percent": 1.090438,
-        "raw_percent": 1.090438,
-        "coverage_percent": 90.210068,
-        "member_count": 1,
-        "members": [
-          "superior"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0109043785,
-            "similarity": 0.851864,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0036075075,
-        "abs_amplitude": 0.0036075075,
-        "raw_amplitude": 0.0108225226,
-        "percent": 1.082252,
-        "raw_percent": 1.082252,
-        "coverage_percent": 91.29232,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0108225226,
-            "similarity": 0.837886,
-            "matched_descriptor": "secretive agent"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "acrobatic",
-        "descriptor_index": 51,
-        "amplitude": 0.0034730237,
-        "abs_amplitude": 0.0034730237,
-        "raw_amplitude": 0.0104190712,
-        "percent": 1.041907,
-        "raw_percent": 1.041907,
-        "coverage_percent": 92.334227,
-        "member_count": 1,
-        "members": [
-          "acrobatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0104190712,
-            "similarity": 0.867976,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0033978275,
-        "abs_amplitude": 0.0033978275,
-        "raw_amplitude": 0.0101934825,
-        "percent": 1.019348,
-        "raw_percent": 1.019348,
-        "coverage_percent": 93.353576,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0101934825,
-            "similarity": 0.844937,
-            "matched_descriptor": "secretive agent"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "rigorous / meticulous",
-        "descriptor_index": 6323,
-        "amplitude": 0.0029925264,
-        "abs_amplitude": 0.0029925264,
-        "raw_amplitude": 0.0089775791,
-        "percent": 0.897758,
-        "raw_percent": 0.897758,
-        "coverage_percent": 94.251333,
-        "member_count": 2,
-        "members": [
-          "rigorous",
-          "meticulous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0089775791,
-            "similarity": 0.846093,
-            "matched_descriptor": "excellent"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "impressed",
-        "descriptor_index": 3787,
-        "amplitude": 0.0029639786,
-        "abs_amplitude": 0.0029639786,
-        "raw_amplitude": 0.0088919358,
-        "percent": 0.889194,
-        "raw_percent": 0.889194,
-        "coverage_percent": 95.140527,
-        "member_count": 1,
-        "members": [
-          "impressed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 171748,
-            "name": "Tsubasa Nanase",
-            "native_name": "七瀬翼",
-            "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
-            "site_url": "https://anilist.co/character/171748",
-            "anime_url": "https://myanimelist.net/anime/59708",
-            "role": "SUPPORTING",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0088919358,
-            "similarity": 0.84798,
-            "matched_descriptor": "excellent"
-          }
-        ]
+        "fit_percent": 95.927835,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 171748,
         "name": "Tsubasa Nanase",
-        "native_name": "七瀬翼",
         "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
         "site_url": "https://anilist.co/character/171748",
-        "anime_url": "https://myanimelist.net/anime/59708",
-        "role": "SUPPORTING",
         "favourites": 189,
-        "row_weight": 2.49940474,
+        "anilist_favourites": 189,
+        "bangumi_collects": 54,
+        "bangumi_comments": 18,
+        "bangumi_character_id": 78401,
+        "bangumi_url": "https://bgm.tv/character/78401",
+        "combined_favourites": 243,
+        "role_edge_count": 1,
+        "descriptors": [
+          "brave",
+          "kind",
+          "social"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.54895434,
+        "row_weight": 2.54895434,
+        "unweighted_row_norm": 2.6107803,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1522,19 +113,69 @@
       {
         "character_id": 171748,
         "name": "Tsubasa Nanase",
-        "native_name": "七瀬翼",
         "anime": "Classroom of the Elite 4th Season: Second Year, First Semester",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b171748-gAlTRa7d78vP.png",
         "site_url": "https://anilist.co/character/171748",
-        "anime_url": "https://myanimelist.net/anime/59708",
-        "role": "SUPPORTING",
         "favourites": 189,
-        "row_weight": 2.49940474,
+        "anilist_favourites": 189,
+        "bangumi_collects": 54,
+        "bangumi_comments": 18,
+        "bangumi_character_id": 78401,
+        "bangumi_url": "https://bgm.tv/character/78401",
+        "combined_favourites": 243,
+        "role_edge_count": 1,
+        "descriptors": [
+          "brave",
+          "kind",
+          "social"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.54895434,
+        "row_weight": 2.54895434,
+        "unweighted_row_norm": 2.6107803,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5489543396,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

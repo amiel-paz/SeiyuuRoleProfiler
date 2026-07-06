@@ -11,576 +11,70 @@
     "anna hachimine",
     "hachimine anna"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/anna_hachimine.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.2286207938,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.2286207938,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 322.851804,
-      "normalized_entanglement": 0.84076,
-      "top5_mass_percent": 3.170065,
-      "top10_mass_percent": 5.988644
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4734578655,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "fashion-forward / fashionable / aesthetic / cool",
-        "descriptor_index": 2458,
-        "amplitude": 0.1457502726,
-        "abs_amplitude": 0.1457502726,
-        "raw_amplitude": 0.4372508179,
-        "percent": 43.725082,
-        "raw_percent": 43.725082,
-        "coverage_percent": 43.725082,
-        "member_count": 4,
-        "members": [
-          "fashion-forward",
-          "fashionable",
-          "aesthetic",
-          "cool"
-        ],
+        "descriptor": "innocent",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.47345787,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 12461,
             "name": "Shiki Misaki",
-            "native_name": "美咲四季",
             "anime": "The World Ends with You The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
             "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.4372508178,
-            "similarity": 0.999999,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "clean-cut / realistic / flashy / beautiful / +2",
-        "descriptor_index": 1162,
-        "amplitude": 0.0740125494,
-        "abs_amplitude": 0.0740125494,
-        "raw_amplitude": 0.2220376483,
-        "percent": 22.203765,
-        "raw_percent": 22.203765,
-        "coverage_percent": 65.928847,
-        "member_count": 6,
-        "members": [
-          "clean-cut",
-          "realistic",
-          "flashy",
-          "beautiful",
-          "neat",
-          "sophisticated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.2220376483,
-            "similarity": 0.89998,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "old-fashioned / traditional",
-        "descriptor_index": 5293,
-        "amplitude": 0.0398877155,
-        "abs_amplitude": 0.0398877155,
-        "raw_amplitude": 0.1196631466,
-        "percent": 11.966315,
-        "raw_percent": 11.966315,
-        "coverage_percent": 77.895161,
-        "member_count": 2,
-        "members": [
-          "old-fashioned",
-          "traditional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.1196631466,
-            "similarity": 0.889403,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fashion-conscious",
-        "descriptor_index": 2457,
-        "amplitude": 0.0203344329,
-        "abs_amplitude": 0.0203344329,
-        "raw_amplitude": 0.0610032987,
-        "percent": 6.10033,
-        "raw_percent": 6.10033,
-        "coverage_percent": 83.995491,
-        "member_count": 1,
-        "members": [
-          "fashion-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.0610032987,
-            "similarity": 0.888774,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "stylish",
-        "descriptor_index": 7442,
-        "amplitude": 0.0175384708,
-        "abs_amplitude": 0.0175384708,
-        "raw_amplitude": 0.0526154124,
-        "percent": 5.261541,
-        "raw_percent": 5.261541,
-        "coverage_percent": 89.257032,
-        "member_count": 1,
-        "members": [
-          "stylish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.0526154124,
-            "similarity": 0.879391,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "effeminate / feminine",
-        "descriptor_index": 2056,
-        "amplitude": 0.0117469974,
-        "abs_amplitude": 0.0117469974,
-        "raw_amplitude": 0.0352409921,
-        "percent": 3.524099,
-        "raw_percent": 3.524099,
-        "coverage_percent": 92.781132,
-        "member_count": 2,
-        "members": [
-          "effeminate",
-          "feminine"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.0352409921,
-            "similarity": 0.879515,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "dandy",
-        "descriptor_index": 1579,
-        "amplitude": 0.0113306127,
-        "abs_amplitude": 0.0113306127,
-        "raw_amplitude": 0.033991838,
-        "percent": 3.399184,
-        "raw_percent": 3.399184,
-        "coverage_percent": 96.180315,
-        "member_count": 1,
-        "members": [
-          "dandy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.033991838,
-            "similarity": 0.858556,
-            "matched_descriptor": "fashion-forward"
+            "combined_favourites": 166
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "fashion-forward / fashionable / aesthetic / cool",
-        "descriptor_index": 2458,
-        "amplitude": 0.1457502726,
-        "abs_amplitude": 0.1457502726,
-        "raw_amplitude": 0.4372508179,
-        "percent": 43.725082,
-        "raw_percent": 43.725082,
-        "coverage_percent": 43.725082,
-        "member_count": 4,
-        "members": [
-          "fashion-forward",
-          "fashionable",
-          "aesthetic",
-          "cool"
-        ],
+        "step": 1,
+        "descriptor": "innocent",
+        "weighted_support": 2.47345787,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.4372508178,
-            "similarity": 0.999999,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "clean-cut / realistic / flashy / beautiful / +2",
-        "descriptor_index": 1162,
-        "amplitude": 0.0740125494,
-        "abs_amplitude": 0.0740125494,
-        "raw_amplitude": 0.2220376483,
-        "percent": 22.203765,
-        "raw_percent": 22.203765,
-        "coverage_percent": 65.928847,
-        "member_count": 6,
-        "members": [
-          "clean-cut",
-          "realistic",
-          "flashy",
-          "beautiful",
-          "neat",
-          "sophisticated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.2220376483,
-            "similarity": 0.89998,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "old-fashioned / traditional",
-        "descriptor_index": 5293,
-        "amplitude": 0.0398877155,
-        "abs_amplitude": 0.0398877155,
-        "raw_amplitude": 0.1196631466,
-        "percent": 11.966315,
-        "raw_percent": 11.966315,
-        "coverage_percent": 77.895161,
-        "member_count": 2,
-        "members": [
-          "old-fashioned",
-          "traditional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.1196631466,
-            "similarity": 0.889403,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fashion-conscious",
-        "descriptor_index": 2457,
-        "amplitude": 0.0203344329,
-        "abs_amplitude": 0.0203344329,
-        "raw_amplitude": 0.0610032987,
-        "percent": 6.10033,
-        "raw_percent": 6.10033,
-        "coverage_percent": 83.995491,
-        "member_count": 1,
-        "members": [
-          "fashion-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.0610032987,
-            "similarity": 0.888774,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "stylish",
-        "descriptor_index": 7442,
-        "amplitude": 0.0175384708,
-        "abs_amplitude": 0.0175384708,
-        "raw_amplitude": 0.0526154124,
-        "percent": 5.261541,
-        "raw_percent": 5.261541,
-        "coverage_percent": 89.257032,
-        "member_count": 1,
-        "members": [
-          "stylish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.0526154124,
-            "similarity": 0.879391,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "effeminate / feminine",
-        "descriptor_index": 2056,
-        "amplitude": 0.0117469974,
-        "abs_amplitude": 0.0117469974,
-        "raw_amplitude": 0.0352409921,
-        "percent": 3.524099,
-        "raw_percent": 3.524099,
-        "coverage_percent": 92.781132,
-        "member_count": 2,
-        "members": [
-          "effeminate",
-          "feminine"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.0352409921,
-            "similarity": 0.879515,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "dandy",
-        "descriptor_index": 1579,
-        "amplitude": 0.0113306127,
-        "abs_amplitude": 0.0113306127,
-        "raw_amplitude": 0.033991838,
-        "percent": 3.399184,
-        "raw_percent": 3.399184,
-        "coverage_percent": 96.180315,
-        "member_count": 1,
-        "members": [
-          "dandy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12461,
-            "name": "Shiki Misaki",
-            "native_name": "美咲四季",
-            "anime": "The World Ends with You The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
-            "site_url": "https://anilist.co/character/12461",
-            "anime_url": "https://myanimelist.net/anime/42307",
-            "role": "MAIN",
-            "favourites": 147,
-            "row_weight": 2.44892063,
-            "projection": 0.033991838,
-            "similarity": 0.858556,
-            "matched_descriptor": "fashion-forward"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 12461,
         "name": "Shiki Misaki",
-        "native_name": "美咲四季",
         "anime": "The World Ends with You The Animation",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
         "site_url": "https://anilist.co/character/12461",
-        "anime_url": "https://myanimelist.net/anime/42307",
-        "role": "MAIN",
         "favourites": 147,
-        "row_weight": 2.44892063,
+        "anilist_favourites": 147,
+        "bangumi_collects": 19,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 13044,
+        "bangumi_url": "https://bgm.tv/character/13044",
+        "combined_favourites": 166,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47345787,
+        "row_weight": 2.47345787,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -590,19 +84,67 @@
       {
         "character_id": 12461,
         "name": "Shiki Misaki",
-        "native_name": "美咲四季",
         "anime": "The World Ends with You The Animation",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12461-K4qXnlBgqoHa.png",
         "site_url": "https://anilist.co/character/12461",
-        "anime_url": "https://myanimelist.net/anime/42307",
-        "role": "MAIN",
         "favourites": 147,
-        "row_weight": 2.44892063,
+        "anilist_favourites": 147,
+        "bangumi_collects": 19,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 13044,
+        "bangumi_url": "https://bgm.tv/character/13044",
+        "combined_favourites": 166,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47345787,
+        "row_weight": 2.47345787,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4734578655,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

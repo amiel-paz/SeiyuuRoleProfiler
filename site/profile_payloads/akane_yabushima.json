@@ -11,1176 +11,70 @@
     "akane yabushima",
     "yabushima akane"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/akane_yabushima.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.9423596551,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.9423596551,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 295.407371,
-      "normalized_entanglement": 0.76929,
-      "top5_mass_percent": 3.441238,
-      "top10_mass_percent": 6.448605
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4647867687,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.152372475,
-        "abs_amplitude": 0.152372475,
-        "raw_amplitude": 0.4571174249,
-        "percent": 45.711742,
-        "raw_percent": 45.711742,
-        "coverage_percent": 45.711742,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "descriptor": "shy",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.46478677,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 272552,
             "name": "Mei Yoneme",
-            "native_name": "米女メイ",
             "anime": "Love Live! Superstar!! Season 2",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
             "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.4571174248,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "embarrassed / blushing / embarrassing",
-        "descriptor_index": 2133,
-        "amplitude": 0.0607924099,
-        "abs_amplitude": 0.0607924099,
-        "raw_amplitude": 0.1823772296,
-        "percent": 18.237723,
-        "raw_percent": 18.237723,
-        "coverage_percent": 63.949465,
-        "member_count": 3,
-        "members": [
-          "embarrassed",
-          "blushing",
-          "embarrassing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.1823772296,
-            "similarity": 1.0,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.0164905095,
-        "abs_amplitude": 0.0164905095,
-        "raw_amplitude": 0.0494715285,
-        "percent": 4.947153,
-        "raw_percent": 4.947153,
-        "coverage_percent": 68.896618,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0494715284,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "timid / withdrawn / inhibited",
-        "descriptor_index": 7851,
-        "amplitude": 0.0159281891,
-        "abs_amplitude": 0.0159281891,
-        "raw_amplitude": 0.0477845672,
-        "percent": 4.778457,
-        "raw_percent": 4.778457,
-        "coverage_percent": 73.675075,
-        "member_count": 3,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0477845671,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy / embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "disapproving / sullen / grim / moody",
-        "descriptor_index": 1833,
-        "amplitude": 0.0132278771,
-        "abs_amplitude": 0.0132278771,
-        "raw_amplitude": 0.0396836313,
-        "percent": 3.968363,
-        "raw_percent": 3.968363,
-        "coverage_percent": 77.643438,
-        "member_count": 4,
-        "members": [
-          "disapproving",
-          "sullen",
-          "grim",
-          "moody"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0396836314,
-            "similarity": 0.887872,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0098417445,
-        "abs_amplitude": 0.0098417445,
-        "raw_amplitude": 0.0295252336,
-        "percent": 2.952523,
-        "raw_percent": 2.952523,
-        "coverage_percent": 80.595962,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0295252336,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "flustered",
-        "descriptor_index": 2626,
-        "amplitude": 0.0091731252,
-        "abs_amplitude": 0.0091731252,
-        "raw_amplitude": 0.0275193757,
-        "percent": 2.751938,
-        "raw_percent": 2.751938,
-        "coverage_percent": 83.347899,
-        "member_count": 1,
-        "members": [
-          "flustered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0275193757,
-            "similarity": 0.898058,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "straight-faced / unsmiling / expressionless / impassive",
-        "descriptor_index": 7280,
-        "amplitude": 0.0078240123,
-        "abs_amplitude": 0.0078240123,
-        "raw_amplitude": 0.023472037,
-        "percent": 2.347204,
-        "raw_percent": 2.347204,
-        "coverage_percent": 85.695103,
-        "member_count": 4,
-        "members": [
-          "straight-faced",
-          "unsmiling",
-          "expressionless",
-          "impassive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.023472037,
-            "similarity": 0.880282,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0054289781,
-        "abs_amplitude": 0.0054289781,
-        "raw_amplitude": 0.0162869342,
-        "percent": 1.628693,
-        "raw_percent": 1.628693,
-        "coverage_percent": 87.323796,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0162869343,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.005285483,
-        "abs_amplitude": 0.005285483,
-        "raw_amplitude": 0.015856449,
-        "percent": 1.585645,
-        "raw_percent": 1.585645,
-        "coverage_percent": 88.909441,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.015856449,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "self-conscious",
-        "descriptor_index": 6618,
-        "amplitude": 0.0052246705,
-        "abs_amplitude": 0.0052246705,
-        "raw_amplitude": 0.0156740116,
-        "percent": 1.567401,
-        "raw_percent": 1.567401,
-        "coverage_percent": 90.476842,
-        "member_count": 1,
-        "members": [
-          "self-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0156740116,
-            "similarity": 0.87597,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.004985307,
-        "abs_amplitude": 0.004985307,
-        "raw_amplitude": 0.0149559209,
-        "percent": 1.495592,
-        "raw_percent": 1.495592,
-        "coverage_percent": 91.972434,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0149559209,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0046384866,
-        "abs_amplitude": 0.0046384866,
-        "raw_amplitude": 0.0139154598,
-        "percent": 1.391546,
-        "raw_percent": 1.391546,
-        "coverage_percent": 93.36398,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0139154598,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0035491439,
-        "abs_amplitude": 0.0035491439,
-        "raw_amplitude": 0.0106474317,
-        "percent": 1.064743,
-        "raw_percent": 1.064743,
-        "coverage_percent": 94.428723,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0106474317,
-            "similarity": 0.885163,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "awkward",
-        "descriptor_index": 503,
-        "amplitude": 0.0033338627,
-        "abs_amplitude": 0.0033338627,
-        "raw_amplitude": 0.0100015881,
-        "percent": 1.000159,
-        "raw_percent": 1.000159,
-        "coverage_percent": 95.428882,
-        "member_count": 1,
-        "members": [
-          "awkward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0100015881,
-            "similarity": 0.870019,
-            "matched_descriptor": "embarrassed"
+            "combined_favourites": 159
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.152372475,
-        "abs_amplitude": 0.152372475,
-        "raw_amplitude": 0.4571174249,
-        "percent": 45.711742,
-        "raw_percent": 45.711742,
-        "coverage_percent": 45.711742,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.46478677,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.4571174248,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "embarrassed / blushing / embarrassing",
-        "descriptor_index": 2133,
-        "amplitude": 0.0607924099,
-        "abs_amplitude": 0.0607924099,
-        "raw_amplitude": 0.1823772296,
-        "percent": 18.237723,
-        "raw_percent": 18.237723,
-        "coverage_percent": 63.949465,
-        "member_count": 3,
-        "members": [
-          "embarrassed",
-          "blushing",
-          "embarrassing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.1823772296,
-            "similarity": 1.0,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.0164905095,
-        "abs_amplitude": 0.0164905095,
-        "raw_amplitude": 0.0494715285,
-        "percent": 4.947153,
-        "raw_percent": 4.947153,
-        "coverage_percent": 68.896618,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0494715284,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "timid / withdrawn / inhibited",
-        "descriptor_index": 7851,
-        "amplitude": 0.0159281891,
-        "abs_amplitude": 0.0159281891,
-        "raw_amplitude": 0.0477845672,
-        "percent": 4.778457,
-        "raw_percent": 4.778457,
-        "coverage_percent": 73.675075,
-        "member_count": 3,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0477845671,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy / embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "disapproving / sullen / grim / moody",
-        "descriptor_index": 1833,
-        "amplitude": 0.0132278771,
-        "abs_amplitude": 0.0132278771,
-        "raw_amplitude": 0.0396836313,
-        "percent": 3.968363,
-        "raw_percent": 3.968363,
-        "coverage_percent": 77.643438,
-        "member_count": 4,
-        "members": [
-          "disapproving",
-          "sullen",
-          "grim",
-          "moody"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0396836314,
-            "similarity": 0.887872,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0098417445,
-        "abs_amplitude": 0.0098417445,
-        "raw_amplitude": 0.0295252336,
-        "percent": 2.952523,
-        "raw_percent": 2.952523,
-        "coverage_percent": 80.595962,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0295252336,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "flustered",
-        "descriptor_index": 2626,
-        "amplitude": 0.0091731252,
-        "abs_amplitude": 0.0091731252,
-        "raw_amplitude": 0.0275193757,
-        "percent": 2.751938,
-        "raw_percent": 2.751938,
-        "coverage_percent": 83.347899,
-        "member_count": 1,
-        "members": [
-          "flustered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0275193757,
-            "similarity": 0.898058,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "straight-faced / unsmiling / expressionless / impassive",
-        "descriptor_index": 7280,
-        "amplitude": 0.0078240123,
-        "abs_amplitude": 0.0078240123,
-        "raw_amplitude": 0.023472037,
-        "percent": 2.347204,
-        "raw_percent": 2.347204,
-        "coverage_percent": 85.695103,
-        "member_count": 4,
-        "members": [
-          "straight-faced",
-          "unsmiling",
-          "expressionless",
-          "impassive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.023472037,
-            "similarity": 0.880282,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0054289781,
-        "abs_amplitude": 0.0054289781,
-        "raw_amplitude": 0.0162869342,
-        "percent": 1.628693,
-        "raw_percent": 1.628693,
-        "coverage_percent": 87.323796,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0162869343,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.005285483,
-        "abs_amplitude": 0.005285483,
-        "raw_amplitude": 0.015856449,
-        "percent": 1.585645,
-        "raw_percent": 1.585645,
-        "coverage_percent": 88.909441,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.015856449,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "self-conscious",
-        "descriptor_index": 6618,
-        "amplitude": 0.0052246705,
-        "abs_amplitude": 0.0052246705,
-        "raw_amplitude": 0.0156740116,
-        "percent": 1.567401,
-        "raw_percent": 1.567401,
-        "coverage_percent": 90.476842,
-        "member_count": 1,
-        "members": [
-          "self-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0156740116,
-            "similarity": 0.87597,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.004985307,
-        "abs_amplitude": 0.004985307,
-        "raw_amplitude": 0.0149559209,
-        "percent": 1.495592,
-        "raw_percent": 1.495592,
-        "coverage_percent": 91.972434,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0149559209,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0046384866,
-        "abs_amplitude": 0.0046384866,
-        "raw_amplitude": 0.0139154598,
-        "percent": 1.391546,
-        "raw_percent": 1.391546,
-        "coverage_percent": 93.36398,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0139154598,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0035491439,
-        "abs_amplitude": 0.0035491439,
-        "raw_amplitude": 0.0106474317,
-        "percent": 1.064743,
-        "raw_percent": 1.064743,
-        "coverage_percent": 94.428723,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0106474317,
-            "similarity": 0.885163,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "awkward",
-        "descriptor_index": 503,
-        "amplitude": 0.0033338627,
-        "abs_amplitude": 0.0033338627,
-        "raw_amplitude": 0.0100015881,
-        "percent": 1.000159,
-        "raw_percent": 1.000159,
-        "coverage_percent": 95.428882,
-        "member_count": 1,
-        "members": [
-          "awkward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272552,
-            "name": "Mei Yoneme",
-            "native_name": "米女メイ",
-            "anime": "Love Live! Superstar!! Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
-            "site_url": "https://anilist.co/character/272552",
-            "anime_url": "https://myanimelist.net/anime/52745",
-            "role": "MAIN",
-            "favourites": 145,
-            "row_weight": 2.44614117,
-            "projection": 0.0100015881,
-            "similarity": 0.870019,
-            "matched_descriptor": "embarrassed"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 272552,
         "name": "Mei Yoneme",
-        "native_name": "米女メイ",
         "anime": "Love Live! Superstar!! Season 2",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
         "site_url": "https://anilist.co/character/272552",
-        "anime_url": "https://myanimelist.net/anime/52745",
-        "role": "MAIN",
         "favourites": 145,
-        "row_weight": 2.44614117,
+        "anilist_favourites": 145,
+        "bangumi_collects": 14,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 110078,
+        "bangumi_url": "https://bgm.tv/character/110078",
+        "combined_favourites": 159,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46478677,
+        "row_weight": 2.46478677,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1190,19 +84,67 @@
       {
         "character_id": 272552,
         "name": "Mei Yoneme",
-        "native_name": "米女メイ",
         "anime": "Love Live! Superstar!! Season 2",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272552-xFaYQbBP28f6.png",
         "site_url": "https://anilist.co/character/272552",
-        "anime_url": "https://myanimelist.net/anime/52745",
-        "role": "MAIN",
         "favourites": 145,
-        "row_weight": 2.44614117,
+        "anilist_favourites": 145,
+        "bangumi_collects": 14,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 110078,
+        "bangumi_url": "https://bgm.tv/character/110078",
+        "combined_favourites": 159,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46478677,
+        "row_weight": 2.46478677,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4647867687,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

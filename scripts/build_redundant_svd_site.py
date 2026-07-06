@@ -35,9 +35,33 @@ def parse_args() -> argparse.Namespace:
         default=Path("run/adjectival_personality_union/adjectival_personality_assignments.jsonl"),
     )
     parser.add_argument(
+        "--global-canonicalization-input",
+        type=Path,
+        default=Path("models/global_descriptor_canonicalization/descriptor_canonicalization.json"),
+        help="Raw-to-canonical descriptor map. Only canonical targets that pass the current descriptor filter are kept.",
+    )
+    parser.add_argument(
         "--embedding-npz",
         type=Path,
         default=Path("models/adjectival_personality_nmf/adjectival_personality_embeddings_baai_bge-small-en-v1.5.npz"),
+    )
+    parser.add_argument(
+        "--contextual-personality-scores",
+        type=Path,
+        default=Path("models/contextual_personality_anchor_scores/contextual_personality_anchor_scores.json"),
+        help="Optional cached evidence-context anchor scores used as a second-pass personality descriptor filter.",
+    )
+    parser.add_argument(
+        "--min-contextual-personality-score",
+        type=float,
+        default=0.005,
+        help="Keep descriptors whose evidence-context positive-minus-negative anchor score is at least this value.",
+    )
+    parser.add_argument(
+        "--min-descriptor-character-count",
+        type=int,
+        default=2,
+        help="Keep descriptors only when the contextual score cache sees them on at least this many characters.",
     )
     parser.add_argument("--output", type=Path, default=Path("site/profiles.json"))
     parser.add_argument("--profile-dir", type=Path, default=Path("site/profile_payloads"))
@@ -45,8 +69,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--sample-count", type=int, default=18)
     parser.add_argument("--sv-relative-cutoff", type=float, default=0.85)
     parser.add_argument("--sv1-fit-target", type=float, default=0.95)
-    parser.add_argument("--sv1-min-terms", type=int, default=10)
+    parser.add_argument("--sv1-min-terms", type=int, default=1)
     parser.add_argument("--sv1-max-terms", type=int, default=10)
+    parser.add_argument(
+        "--sv1-fit-order",
+        choices=["residual", "weighted_support"],
+        default="weighted_support",
+        help="For SV1, either greedily fit residual descriptors or add descriptors by direct weighted support first.",
+    )
     parser.add_argument("--variation-gain-cutoff", type=float, default=0.01)
     parser.add_argument("--max-variation-terms", type=int, default=50)
     parser.add_argument("--max-role-edge-count", type=int, default=20)
@@ -66,8 +96,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--row-weight",
         choices=["none", "sqrt_log_combined_favourites", "log_combined_favourites", "sqrt_combined_favourites"],
-        default="sqrt_log_combined_favourites",
+        default="none",
         help="Optional character popularity weighting applied to rows before per-seiyuu SVD.",
+    )
+    parser.add_argument(
+        "--svd-matrix",
+        choices=["z", "z_unit"],
+        default="z",
+        help=(
+            "Matrix passed to per-seiyuu SVD. z uses the weighted character x orthogonal descriptor matrix; "
+            "z_unit normalizes each character row after construction so every supported character has unit self-overlap."
+        ),
     )
     parser.add_argument(
         "--normalize-character-rows",
@@ -81,6 +120,10 @@ def parse_args() -> argparse.Namespace:
         default="single_word_or_hyphenated",
         help="Restrict the redundant descriptor basis to compact adjective atoms.",
     )
+    parser.add_argument("--positive-lane-neighbors", type=int, default=12)
+    parser.add_argument("--positive-lane-candidate-limit", type=int, default=80)
+    parser.add_argument("--positive-lane-similarity-floor", type=float, default=0.35)
+    parser.add_argument("--positive-lane-orthogonality-penalty", type=float, default=1.0)
     return parser.parse_args()
 
 
@@ -123,7 +166,116 @@ def alias_keys(profile: dict) -> set[str]:
     return keys
 
 
+NATIONALITY_TERMS = {
+    "afghan",
+    "african",
+    "albanian",
+    "algerian",
+    "american",
+    "argentine",
+    "argentinian",
+    "armenian",
+    "asian",
+    "australian",
+    "austrian",
+    "azerbaijani",
+    "bangladeshi",
+    "belarusian",
+    "belgian",
+    "bolivian",
+    "bosnian",
+    "brazilian",
+    "british",
+    "bulgarian",
+    "burmese",
+    "cambodian",
+    "canadian",
+    "chilean",
+    "chinese",
+    "colombian",
+    "croatian",
+    "cuban",
+    "czech",
+    "danish",
+    "dutch",
+    "egyptian",
+    "english",
+    "estonian",
+    "ethiopian",
+    "european",
+    "filipino",
+    "finnish",
+    "french",
+    "georgian",
+    "german",
+    "ghanaian",
+    "greek",
+    "haitian",
+    "hispanic",
+    "hungarian",
+    "icelandic",
+    "indian",
+    "indonesian",
+    "iranian",
+    "iraqi",
+    "irish",
+    "israeli",
+    "italian",
+    "jamaican",
+    "japanese",
+    "jordanian",
+    "kazakh",
+    "kenyan",
+    "korean",
+    "kuwaiti",
+    "latvian",
+    "lebanese",
+    "libyan",
+    "lithuanian",
+    "malaysian",
+    "mexican",
+    "mongolian",
+    "moroccan",
+    "nepalese",
+    "nigerian",
+    "norwegian",
+    "pakistani",
+    "palestinian",
+    "persian",
+    "peruvian",
+    "polish",
+    "portuguese",
+    "romanian",
+    "russian",
+    "scottish",
+    "serbian",
+    "singaporean",
+    "slovak",
+    "slovenian",
+    "somali",
+    "spanish",
+    "sudanese",
+    "swedish",
+    "swiss",
+    "syrian",
+    "taiwanese",
+    "thai",
+    "tibetan",
+    "turkish",
+    "ukrainian",
+    "vietnamese",
+    "welsh",
+}
+
+
+def is_nationality_descriptor(descriptor: str) -> bool:
+    tokens = re.findall(r"[a-z]+", descriptor.lower())
+    return any(token in NATIONALITY_TERMS for token in tokens)
+
+
 def descriptor_shape_ok(descriptor: str, mode: str) -> bool:
+    if is_nationality_descriptor(descriptor):
+        return False
     if mode == "all":
         return True
     if mode == "single_word_or_hyphenated":
@@ -131,15 +283,47 @@ def descriptor_shape_ok(descriptor: str, mode: str) -> bool:
     raise ValueError(f"unknown descriptor shape mode: {mode}")
 
 
-def descriptor_assignment_targets(descriptor: str, descriptor_index: dict[str, int]) -> list[str]:
+def descriptor_context_ok(
+    descriptor: str,
+    contextual_scores: dict[str, dict],
+    min_score: float,
+    min_character_count: int,
+) -> bool:
+    if not contextual_scores:
+        return True
+    row = contextual_scores.get(descriptor)
+    if row is None:
+        return False
+    return (
+        float(row.get("personality_score_mean") or -999.0) >= min_score
+        and int(row.get("character_count") or 0) >= min_character_count
+    )
+
+
+def remove_unhyphenated_duplicates(descriptor_rows: list[dict], base_mask: list[bool]) -> list[bool]:
+    compact_hyphenated = {
+        str(row["tag"]).replace("-", "")
+        for row, keep in zip(descriptor_rows, base_mask, strict=True)
+        if keep and "-" in str(row["tag"])
+    }
+    return [
+        keep and not ("-" not in str(row["tag"]) and str(row["tag"]) in compact_hyphenated)
+        for row, keep in zip(descriptor_rows, base_mask, strict=True)
+    ]
+
+
+def descriptor_assignment_targets(
+    descriptor: str,
+    descriptor_index: dict[str, int],
+    raw_to_canonical: dict[str, str],
+) -> list[str]:
     descriptor = (descriptor or "").strip()
     if descriptor in descriptor_index:
         return [descriptor]
-    atoms = []
-    for token in re.findall(r"[a-z]+(?:-[a-z]+)*", descriptor):
-        if token in descriptor_index and token not in atoms:
-            atoms.append(token)
-    return atoms
+    canonical = raw_to_canonical.get(descriptor)
+    if canonical in descriptor_index:
+        return [canonical]
+    return []
 
 
 def is_pop_team_character(character: dict) -> bool:
@@ -170,6 +354,12 @@ def character_row_weight(character: dict, mode: str) -> float:
     if mode == "sqrt_combined_favourites":
         return math.sqrt(combined + 1.0)
     raise ValueError(f"unknown row weight mode: {mode}")
+
+
+def normalize_rows(matrix: np.ndarray) -> np.ndarray:
+    if matrix.size == 0:
+        return matrix
+    return matrix / np.maximum(np.linalg.norm(matrix, axis=1, keepdims=True), 1.0e-12)
 
 
 def load_bangumi_collects(safe_enrichment_path: Path, raw_dir: Path) -> dict[int, dict]:
@@ -368,6 +558,129 @@ def decode_axis(
     return {"fit_percent": round(fit * 100.0, 6), "descriptors": rows, "steps": steps}
 
 
+def descriptor_weighted_support(character_labels: list[dict]) -> dict[str, dict]:
+    support: dict[str, dict] = {}
+    for character in character_labels:
+        weight = float(character.get("row_weight") or 1.0)
+        for descriptor in character.get("descriptors") or []:
+            row = support.setdefault(
+                descriptor,
+                {
+                    "weighted_support": 0.0,
+                    "support": 0,
+                    "combined_favourites": 0,
+                },
+            )
+            row["weighted_support"] += weight
+            row["support"] += 1
+            row["combined_favourites"] += int(character.get("combined_favourites") or character.get("favourites") or 0)
+    return support
+
+
+def decode_axis_by_weighted_support(
+    target: np.ndarray,
+    descriptor_atoms: np.ndarray,
+    descriptors: list[str],
+    character_labels: list[dict],
+    *,
+    stop_fit: float,
+    min_terms: int = 1,
+    max_terms: int,
+) -> dict:
+    target = target / max(float(np.linalg.norm(target)), 1.0e-12)
+    descriptor_index = {descriptor: index for index, descriptor in enumerate(descriptors)}
+    support = descriptor_weighted_support(character_labels)
+    ordered = [
+        descriptor
+        for descriptor, row in sorted(
+            support.items(),
+            key=lambda item: (
+                float(item[1]["weighted_support"]),
+                int(item[1]["support"]),
+                int(item[1]["combined_favourites"]),
+                item[0],
+            ),
+            reverse=True,
+        )
+        if descriptor in descriptor_index
+    ]
+
+    active: list[int] = []
+    steps = []
+    coefficients = np.zeros(0, dtype=np.float64)
+    fit = 0.0
+    for step, descriptor in enumerate(ordered[:max_terms], start=1):
+        active.append(descriptor_index[descriptor])
+        coefficients = nnls_pg(descriptor_atoms[active], target)
+        approximation = coefficients @ descriptor_atoms[active]
+        fit = float(approximation @ target / max(float(np.linalg.norm(approximation)), 1.0e-12))
+        support_row = support.get(descriptor) or {}
+        steps.append(
+            {
+                "step": step,
+                "descriptor": descriptor,
+                "weighted_support": round(float(support_row.get("weighted_support") or 0.0), 8),
+                "support": int(support_row.get("support") or 0),
+                "fit_percent": round(fit * 100.0, 6),
+                "selection": "weighted_support",
+            }
+        )
+        if fit >= stop_fit and step >= min_terms:
+            break
+
+    if not active:
+        return {"fit_percent": 0.0, "descriptors": [], "steps": steps}
+
+    total = max(float(np.sum(coefficients)), 1.0e-12)
+    rows = []
+    for rank, descriptor in enumerate(ordered[: len(active)], start=1):
+        index = descriptor_index[descriptor]
+        coefficient_position = active.index(index)
+        coefficient = float(coefficients[coefficient_position])
+        support_row = support.get(descriptor) or {}
+        rows.append(
+            {
+                "rank": rank,
+                "descriptor": descriptor,
+                "amplitude": round(coefficient, 10),
+                "abs_amplitude": round(abs(coefficient), 10),
+                "percent": round(coefficient / total * 100.0, 6) if coefficient > 1.0e-8 else 0.0,
+                "weighted_support": round(float(support_row.get("weighted_support") or 0.0), 8),
+                "support": int(support_row.get("support") or 0),
+            }
+        )
+    return {"fit_percent": round(fit * 100.0, 6), "descriptors": rows, "steps": steps}
+
+
+def annotate_descriptor_support(component_rows: list[dict], character_labels: list[dict]) -> list[dict]:
+    output = []
+    for row in component_rows:
+        descriptor = row.get("descriptor")
+        supporting = [
+            character
+            for character in character_labels
+            if descriptor and descriptor in set(character.get("descriptors") or [])
+        ]
+        output.append(
+            {
+                **row,
+                "support": len(supporting),
+                "supporting_characters": [
+                    {
+                        "character_id": character["character_id"],
+                        "name": character["name"],
+                        "anime": character.get("anime") or "",
+                        "image": character.get("image") or "",
+                        "site_url": character.get("site_url") or "",
+                        "combined_favourites": int(character.get("combined_favourites") or 0),
+                    }
+                    for character in supporting[:5]
+                ],
+            }
+        )
+    return output
+
+
 def profile_matrix(
     characters: list[dict],
     descriptor_index: dict[str, int],
@@ -404,6 +717,397 @@ def profile_matrix(
     return np.vstack(rows), labels
 
 
+def direct_descriptor_plane(
+    character_labels: list[dict],
+    descriptor_index: dict[str, int],
+    descriptor_atoms: np.ndarray,
+    descriptors: list[str],
+    *,
+    component_scope: str,
+    neighbor_count: int,
+    candidate_limit: int,
+    similarity_floor: float,
+    orthogonality_penalty: float,
+) -> dict | None:
+    if len(character_labels) < 3:
+        return None
+    descriptor_support: dict[str, int] = defaultdict(int)
+    character_descriptor_sets = []
+    for character in character_labels:
+        descriptor_set = {descriptor for descriptor in character.get("descriptors") or [] if descriptor in descriptor_index}
+        character_descriptor_sets.append(descriptor_set)
+        for descriptor in descriptor_set:
+            if descriptor in descriptor_index:
+                descriptor_support[descriptor] += 1
+
+    character_vectors = []
+    for character in character_labels:
+        indices = [descriptor_index[tag] for tag in character.get("descriptors", []) if tag in descriptor_index]
+        if indices:
+            character_vectors.append(np.sum(descriptor_atoms[indices], axis=0))
+        else:
+            character_vectors.append(np.zeros(descriptor_atoms.shape[1], dtype=np.float64))
+    character_matrix = np.vstack(character_vectors)
+
+    component_pool = [
+        descriptor_index[descriptor]
+        for descriptor in descriptors
+        if descriptor in descriptor_index and (component_scope == "universal_515" or descriptor_support.get(descriptor, 0) > 0)
+    ]
+    if len(component_pool) < 2:
+        return None
+    component_pool_array = np.asarray(component_pool, dtype=np.int64)
+    component_pool_atoms = descriptor_atoms[component_pool_array]
+    seed_indices = list(range(len(descriptors))) if component_scope == "universal_515" else component_pool
+
+    def lane_label(components: list[dict]) -> str:
+        shown = [component["descriptor"] for component in components[:3]]
+        if len(components) > 3:
+            shown.append(f"+{len(components) - 3}")
+        return " / ".join(shown)
+
+    candidates = []
+    for seed_index in seed_indices:
+        seed_descriptor = descriptors[seed_index]
+        seed_vector = descriptor_atoms[seed_index]
+        similarities = component_pool_atoms @ seed_vector
+        eligible = np.flatnonzero(similarities >= similarity_floor)
+        if not np.any(component_pool_array[eligible] == seed_index):
+            eligible = np.unique(np.concatenate([eligible, np.flatnonzero(component_pool_array == seed_index)]))
+        if eligible.size == 0:
+            continue
+        ranked = sorted(
+            (
+                (
+                    int(component_pool_array[position]),
+                    float(similarities[position]),
+                    int(descriptor_support.get(descriptors[int(component_pool_array[position])], 0)),
+                )
+                for position in eligible
+            ),
+            key=lambda item: (-(item[1] * item[1] * math.sqrt(max(item[2], 1))), -item[2], descriptors[item[0]]),
+        )[: max(1, neighbor_count)]
+        indices = np.asarray([item[0] for item in ranked], dtype=np.int64)
+        raw_weights = np.asarray(
+            [max(item[1], 1.0e-9) ** 2 * math.sqrt(max(item[2], 1)) for item in ranked],
+            dtype=np.float64,
+        )
+        raw_weights = raw_weights / max(float(np.sum(raw_weights)), 1.0e-12)
+        lane_vector = raw_weights @ descriptor_atoms[indices]
+        lane_norm = float(np.linalg.norm(lane_vector))
+        if lane_norm <= 1.0e-12:
+            continue
+        lane_vector = lane_vector / lane_norm
+        scores_raw = character_matrix @ lane_vector
+        scores_centered = scores_raw - float(np.mean(scores_raw))
+        score_norm = float(np.linalg.norm(scores_centered))
+        if score_norm <= 1.0e-12:
+            continue
+        variance = float(np.mean(scores_centered * scores_centered))
+        components = [
+            {
+                "descriptor": descriptors[int(index)],
+                "weight": round(float(weight), 8),
+                "similarity_to_seed": round(float(similarity), 8),
+                "support": int(support),
+            }
+            for index, weight, similarity, support in zip(indices, raw_weights, [item[1] for item in ranked], [item[2] for item in ranked], strict=True)
+        ]
+        candidates.append(
+            {
+                "descriptor": lane_label(components),
+                "seed_descriptor": seed_descriptor,
+                "support": int(sum(1 for descriptor_set in character_descriptor_sets if any(component["descriptor"] in descriptor_set for component in components))),
+                "variance": variance,
+                "descriptor_index": int(seed_index),
+                "components": components,
+                "vector": lane_vector,
+                "scores_raw": scores_raw,
+                "scores_centered": scores_centered,
+                "score_norm": score_norm,
+            }
+        )
+
+    candidates.sort(key=lambda row: (-row["variance"], -row["support"], row["descriptor"]))
+    candidates = candidates[: max(2, candidate_limit)]
+    if len(candidates) < 2:
+        return None
+
+    x_candidate = candidates[0]
+    x_component_descriptors = {component["descriptor"] for component in x_candidate["components"]}
+
+    def strip_candidate_components(candidate: dict, excluded_descriptors: set[str]) -> dict | None:
+        kept_components = [component for component in candidate["components"] if component["descriptor"] not in excluded_descriptors]
+        if not kept_components:
+            return None
+        raw_weights = np.asarray([float(component["weight"]) for component in kept_components], dtype=np.float64)
+        raw_weights = raw_weights / max(float(np.sum(raw_weights)), 1.0e-12)
+        indices = np.asarray([descriptor_index[component["descriptor"]] for component in kept_components], dtype=np.int64)
+        lane_vector = raw_weights @ descriptor_atoms[indices]
+        lane_norm = float(np.linalg.norm(lane_vector))
+        if lane_norm <= 1.0e-12:
+            return None
+        lane_vector = lane_vector / lane_norm
+        scores_raw = character_matrix @ lane_vector
+        scores_centered = scores_raw - float(np.mean(scores_raw))
+        score_norm = float(np.linalg.norm(scores_centered))
+        if score_norm <= 1.0e-12:
+            return None
+        normalized_components = [
+            {
+                **component,
+                "weight": round(float(weight), 8),
+            }
+            for component, weight in zip(kept_components, raw_weights, strict=True)
+        ]
+        descriptor_sets_with_component = sum(
+            1
+            for descriptor_set in character_descriptor_sets
+            if any(component["descriptor"] in descriptor_set for component in normalized_components)
+        )
+        return {
+            **candidate,
+            "descriptor": lane_label(normalized_components),
+            "support": int(descriptor_sets_with_component),
+            "variance": float(np.mean(scores_centered * scores_centered)),
+            "components": normalized_components,
+            "vector": lane_vector,
+            "scores_raw": scores_raw,
+            "scores_centered": scores_centered,
+            "score_norm": score_norm,
+            "stripped_component_count": int(len(candidate["components"]) - len(normalized_components)),
+        }
+
+    y_rows = []
+    for y_candidate in candidates[1:]:
+        y_candidate = strip_candidate_components(y_candidate, x_component_descriptors)
+        if y_candidate is None:
+            continue
+        correlation = float((x_candidate["scores_centered"] @ y_candidate["scores_centered"]) / (x_candidate["score_norm"] * y_candidate["score_norm"]))
+        lane_cosine = float(x_candidate["vector"] @ y_candidate["vector"])
+        positive_correlation = max(correlation, 0.0)
+        axis_independence = float(max(0.0, 1.0 - positive_correlation * positive_correlation))
+        residual_variance = float(y_candidate["variance"] * axis_independence)
+        volume_score = float(x_candidate["variance"] * residual_variance)
+        orthogonality_score = float(max(0.0, 1.0 - lane_cosine * lane_cosine))
+        objective = float(residual_variance * (orthogonality_score ** orthogonality_penalty))
+        y_rows.append(
+            (x_candidate, y_candidate, correlation, lane_cosine, volume_score, orthogonality_score, objective, residual_variance)
+        )
+
+    def threshold_diagnostics(correlation_threshold: float) -> dict:
+        floors = [0.10, 0.25, 0.50]
+        rows = {}
+        for floor in floors:
+            min_variance = floor * float(x_candidate["variance"])
+            passing = [pair for pair in y_rows if pair[2] < correlation_threshold and pair[1]["variance"] >= min_variance]
+            best = max(
+                passing,
+                key=lambda pair: (
+                    pair[6],
+                    pair[7],
+                    pair[1]["variance"],
+                    -pair[2],
+                    -abs(pair[3]),
+                    pair[1]["descriptor"],
+                ),
+                default=None,
+            )
+            rows[f"{int(floor * 100)}pct"] = {
+                "passes": bool(passing),
+                "passing_count": int(len(passing)),
+                "minimum_y_projection_variance": round(float(min_variance), 10),
+                "best_y_descriptor": best[1]["descriptor"] if best else None,
+                "best_y_variance": round(float(best[1]["variance"]), 10) if best else None,
+                "best_correlation": round(float(best[2]), 10) if best else None,
+                "best_lane_cosine": round(float(best[3]), 10) if best else None,
+            }
+        return {
+            "correlation_threshold": correlation_threshold,
+            "variance_floors": rows,
+        }
+
+    best_orthogonal_variance_y = max(
+        y_rows,
+        key=lambda pair: (
+            pair[1]["variance"] * (pair[5] ** orthogonality_penalty),
+            pair[1]["variance"],
+            pair[5],
+            pair[1]["descriptor"],
+        ),
+        default=None,
+    )
+    orthogonal_variance_summary = (
+        {
+            "descriptor": best_orthogonal_variance_y[1]["descriptor"],
+            "variance": round(float(best_orthogonal_variance_y[1]["variance"]), 10),
+            "correlation": round(float(best_orthogonal_variance_y[2]), 10),
+            "abs_correlation": round(abs(float(best_orthogonal_variance_y[2])), 10),
+            "lane_cosine": round(float(best_orthogonal_variance_y[3]), 10),
+            "orthogonality_score": round(float(best_orthogonal_variance_y[5]), 10),
+            "objective": round(
+                float(best_orthogonal_variance_y[1]["variance"] * (best_orthogonal_variance_y[5] ** orthogonality_penalty)),
+                10,
+            ),
+            "components": best_orthogonal_variance_y[1]["components"],
+        }
+        if best_orthogonal_variance_y
+        else None
+    )
+
+    threshold_summary = threshold_diagnostics(0.7)
+    min_y_variance_fraction = 0.25
+    min_y_variance = min_y_variance_fraction * float(x_candidate["variance"])
+    eligible_pairs = [pair for pair in y_rows if pair[2] < 0.5 and pair[1]["variance"] >= min_y_variance]
+    if not eligible_pairs:
+        x_scores_raw = x_candidate["scores_raw"]
+        x_mean = float(np.mean(x_scores_raw))
+        character_rows_payload = []
+        for character, x_score in zip(character_labels, x_scores_raw, strict=True):
+            descriptor_set = set(character.get("descriptors") or [])
+            x_centered = float(x_score - x_mean)
+            character_rows_payload.append(
+                {
+                    **character,
+                    "x_raw_score": round(float(x_score), 10),
+                    "x_score": round(x_centered, 10),
+                    "amplitude": round(x_centered, 10),
+                    "x_direct": any(component["descriptor"] in descriptor_set for component in x_candidate["components"]),
+                }
+            )
+        best_failed_y = max(y_rows, key=lambda pair: pair[6]) if y_rows else None
+        best_low_correlation_y = max(
+            (pair for pair in y_rows if pair[2] < 0.5),
+            key=lambda pair: pair[1]["variance"],
+            default=None,
+        )
+        best_high_variance_y = min(
+            (pair for pair in y_rows if pair[1]["variance"] >= min_y_variance),
+            key=lambda pair: pair[2],
+            default=None,
+        )
+        return {
+            "dimension_count": 1,
+            "x_axis": {
+                "descriptor": x_candidate["descriptor"],
+                "support": x_candidate["support"],
+                "variance": round(x_candidate["variance"], 10),
+                "seed_descriptor": x_candidate["seed_descriptor"],
+                "components": x_candidate["components"],
+            },
+            "axis_selection": {
+                "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+                "component_scope": component_scope,
+                "correlation_threshold_for_2d": 0.5,
+                "minimum_y_variance_fraction_of_x": min_y_variance_fraction,
+                "x_projection_variance": round(float(x_candidate["variance"]), 10),
+                "minimum_y_projection_variance": round(float(min_y_variance), 10),
+                "best_rejected_correlation": round(float(best_failed_y[2]), 10) if best_failed_y else None,
+                "best_rejected_lane_cosine": round(float(best_failed_y[3]), 10) if best_failed_y else None,
+                "best_low_correlation_y_variance": round(float(best_low_correlation_y[1]["variance"]), 10) if best_low_correlation_y else None,
+                "best_high_variance_y_correlation": round(float(best_high_variance_y[2]), 10) if best_high_variance_y else None,
+                "candidate_count": int(len(candidates)),
+                "x_component_count": int(len(x_component_descriptors)),
+                "y_candidates_after_component_exclusion": int(len(y_rows)),
+                "threshold_diagnostics": threshold_summary,
+                "orthogonal_variance_lane": orthogonal_variance_summary,
+                "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1.",
+            },
+            "characters": character_rows_payload,
+            "center": {"x_raw_mean": round(x_mean, 10)},
+            "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection.",
+        }
+
+    best_pair = max(
+        eligible_pairs,
+        key=lambda pair: (
+            pair[6],
+            pair[7],
+            pair[1]["variance"],
+            -pair[2],
+            -abs(pair[3]),
+            pair[1]["descriptor"],
+        ),
+    )
+    x_axis, y_axis, axis_correlation, lane_cosine, volume_score, orthogonality_score, objective, residual_variance = best_pair
+    x_scores_raw = x_axis["scores_raw"]
+    y_scores_raw = y_axis["scores_raw"]
+    x_mean = float(np.mean(x_scores_raw))
+    y_mean = float(np.mean(y_scores_raw))
+
+    scored_characters = []
+    for character, x_score, y_score in zip(character_labels, x_scores_raw, y_scores_raw, strict=True):
+        descriptor_set = set(character.get("descriptors") or [])
+        scored_characters.append(
+            {
+                **character,
+                "x_raw_score": float(x_score),
+                "y_raw_score": float(y_score),
+                "x_direct": any(component["descriptor"] in descriptor_set for component in x_axis["components"]),
+                "y_direct": any(component["descriptor"] in descriptor_set for component in y_axis["components"]),
+            }
+        )
+    character_rows_payload = []
+    for character in scored_characters:
+        x_centered = float(character["x_raw_score"] - x_mean)
+        y_centered = float(character["y_raw_score"] - y_mean)
+        character_rows_payload.append(
+            {
+                **character,
+                "x_raw_score": round(float(character["x_raw_score"]), 10),
+                "y_raw_score": round(float(character["y_raw_score"]), 10),
+                "x_score": round(x_centered, 10),
+                "y_score": round(y_centered, 10),
+            }
+        )
+
+    return {
+        "dimension_count": 2,
+        "x_axis": {
+            "descriptor": x_axis["descriptor"],
+            "support": x_axis["support"],
+            "variance": round(x_axis["variance"], 10),
+            "seed_descriptor": x_axis["seed_descriptor"],
+            "components": x_axis["components"],
+        },
+        "y_axis": {
+            "descriptor": y_axis["descriptor"],
+            "support": y_axis["support"],
+            "variance": round(y_axis["variance"], 10),
+            "seed_descriptor": y_axis["seed_descriptor"],
+            "components": y_axis["components"],
+        },
+        "axis_selection": {
+            "criterion": "Two strictly positive descriptor-mixture lanes are selected by maximizing centered 2D volume while penalizing semantic non-orthogonality.",
+            "component_scope": component_scope,
+            "correlation": round(axis_correlation, 10),
+            "lane_cosine": round(lane_cosine, 10),
+            "volume_score": round(volume_score, 10),
+            "orthogonality_score": round(orthogonality_score, 10),
+            "objective": round(objective, 10),
+            "y_residual_variance_after_x": round(float(residual_variance), 10),
+            "correlation_threshold_for_2d": 0.5,
+            "minimum_y_variance_fraction_of_x": min_y_variance_fraction,
+            "minimum_y_projection_variance": round(float(min_y_variance), 10),
+            "x_projection_variance": round(x_axis["variance"], 10),
+            "y_projection_variance": round(y_axis["variance"], 10),
+            "neighbor_count": int(neighbor_count),
+            "candidate_count": int(len(candidates)),
+            "x_component_count": int(len(x_component_descriptors)),
+            "y_candidates_after_component_exclusion": int(len(y_rows)),
+            "threshold_diagnostics": threshold_summary,
+            "orthogonal_variance_lane": orthogonal_variance_summary,
+            "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1.",
+            "selection_order": "x is the highest-variance positive lane; y is chosen by lowest feasible correlation tier, then residual variance, then semantic orthogonality.",
+            "similarity_floor": round(float(similarity_floor), 6),
+            "orthogonality_penalty": round(float(orthogonality_penalty), 6),
+        },
+        "characters": character_rows_payload,
+        "center": {"x_raw_mean": round(x_mean, 10), "y_raw_mean": round(y_mean, 10)},
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x/y are dot products onto positive descriptor-mixture lanes, then centered by subtracting this seiyuu's mean x/y projection.",
+    }
+
+
 def build_axis_payload(
     rank: int,
     singular_value: float,
@@ -419,26 +1123,38 @@ def build_axis_payload(
     sv1_fit_target: float,
     sv1_min_terms: int,
     sv1_max_terms: int,
+    sv1_fit_order: str,
     variation_gain_cutoff: float,
     max_variation_terms: int,
 ) -> dict:
     if broad:
-        decoded = decode_axis(
-            right_vector,
-            descriptor_atoms,
-            descriptors,
-            stop_fit=sv1_fit_target,
-            min_terms=sv1_min_terms,
-            stop_gain=variation_gain_cutoff,
-            max_terms=sv1_max_terms,
-        )
+        if sv1_fit_order == "weighted_support":
+            decoded = decode_axis_by_weighted_support(
+                right_vector,
+                descriptor_atoms,
+                descriptors,
+                character_labels,
+                stop_fit=sv1_fit_target,
+                min_terms=sv1_min_terms,
+                max_terms=sv1_max_terms,
+            )
+        else:
+            decoded = decode_axis(
+                right_vector,
+                descriptor_atoms,
+                descriptors,
+                stop_fit=sv1_fit_target,
+                min_terms=sv1_min_terms,
+                stop_gain=variation_gain_cutoff,
+                max_terms=sv1_max_terms,
+            )
         return {
             "rank": rank,
             "kind": "broad_cluster",
             "singular_value": round(float(singular_value), 10),
             "mass_percent": round(float(mass_percent), 6),
             "descriptor_fit_percent": decoded["fit_percent"],
-            "display_descriptor_components": decoded["descriptors"],
+            "display_descriptor_components": annotate_descriptor_support(decoded["descriptors"], character_labels),
             "descriptor_steps": decoded["steps"],
             "characters": character_rows(left_vector, character_labels),
             "positive_characters": character_rows(left_vector, character_labels, 1),
@@ -531,11 +1247,28 @@ def main() -> None:
             role_character_by_id[int(character_id)] = character
     tag_payload = read_json(args.tags_input)
     union_payload = read_json(args.descriptor_union)
+    canonicalization_payload = read_json(args.global_canonicalization_input) if args.global_canonicalization_input.exists() else {}
+    raw_to_canonical = {
+        str(raw): str(canonical)
+        for raw, canonical in (canonicalization_payload.get("raw_to_canonical") or {}).items()
+    }
+    contextual_payload = read_json(args.contextual_personality_scores) if args.contextual_personality_scores.exists() else {}
+    contextual_scores = {
+        str(descriptor): row
+        for descriptor, row in (contextual_payload.get("scores_by_descriptor") or {}).items()
+    }
     descriptor_rows = union_payload["descriptors"]
-    descriptor_mask = [
+    base_descriptor_mask = [
         descriptor_shape_ok(row["tag"], args.descriptor_shape)
+        and descriptor_context_ok(
+            row["tag"],
+            contextual_scores,
+            args.min_contextual_personality_score,
+            args.min_descriptor_character_count,
+        )
         for row in descriptor_rows
     ]
+    descriptor_mask = remove_unhyphenated_duplicates(descriptor_rows, base_descriptor_mask)
     descriptors = [row["tag"] for row, keep_row in zip(descriptor_rows, descriptor_mask, strict=True) if keep_row]
     descriptor_index = {descriptor: index for index, descriptor in enumerate(descriptors)}
 
@@ -554,7 +1287,7 @@ def main() -> None:
         for line in handle:
             row = json.loads(line)
             descriptor = row.get("tag") or ""
-            targets = descriptor_assignment_targets(descriptor, descriptor_index)
+            targets = descriptor_assignment_targets(descriptor, descriptor_index, raw_to_canonical)
             if targets:
                 character_descriptors[int(row["anilist_character_id"])].update(targets)
                 assignment_count += 1
@@ -562,7 +1295,7 @@ def main() -> None:
     for source in tag_payload.get("characters", []):
         character_id = int(source["anilist_character_id"])
         for tag_row in ((source.get("llm_tags") or {}).get("personality") or []):
-            targets = descriptor_assignment_targets(tag_row.get("tag") or "", descriptor_index)
+            targets = descriptor_assignment_targets(tag_row.get("tag") or "", descriptor_index, raw_to_canonical)
             if targets:
                 character_descriptors[character_id].update(targets)
                 merged_personality_assignment_count += 1
@@ -634,6 +1367,8 @@ def main() -> None:
         )
         if matrix.shape[0] == 0:
             continue
+        if args.svd_matrix == "z_unit":
+            matrix = normalize_rows(matrix)
         left, singular_values, vt = np.linalg.svd(matrix, full_matrices=False)
         singular_mass = singular_values * singular_values
         total_mass = float(np.sum(singular_mass))
@@ -655,9 +1390,36 @@ def main() -> None:
             sv1_fit_target=args.sv1_fit_target,
             sv1_min_terms=args.sv1_min_terms,
             sv1_max_terms=args.sv1_max_terms,
+            sv1_fit_order=args.sv1_fit_order,
             variation_gain_cutoff=args.variation_gain_cutoff,
             max_variation_terms=args.max_variation_terms,
         )
+        direct_descriptor_planes = {
+            "local_supported": direct_descriptor_plane(
+                character_labels,
+                descriptor_index,
+                descriptor_atoms,
+                descriptors,
+                component_scope="local_supported",
+                neighbor_count=args.positive_lane_neighbors,
+                candidate_limit=args.positive_lane_candidate_limit,
+                similarity_floor=args.positive_lane_similarity_floor,
+                orthogonality_penalty=args.positive_lane_orthogonality_penalty,
+            ),
+            "universal_515": direct_descriptor_plane(
+                character_labels,
+                descriptor_index,
+                descriptor_atoms,
+                descriptors,
+                component_scope="universal_515",
+                neighbor_count=args.positive_lane_neighbors,
+                candidate_limit=args.positive_lane_candidate_limit,
+                similarity_floor=args.positive_lane_similarity_floor,
+                orthogonality_penalty=args.positive_lane_orthogonality_penalty,
+            ),
+        }
+        major_lane["direct_descriptor_planes"] = direct_descriptor_planes
+        major_lane["direct_descriptor_plane"] = direct_descriptor_planes["local_supported"]
 
         variation_axes = []
         if len(singular_values) > 1:
@@ -681,6 +1443,7 @@ def main() -> None:
                         sv1_fit_target=args.sv1_fit_target,
                         sv1_min_terms=args.sv1_min_terms,
                         sv1_max_terms=args.sv1_max_terms,
+                        sv1_fit_order=args.sv1_fit_order,
                         variation_gain_cutoff=args.variation_gain_cutoff,
                         max_variation_terms=args.max_variation_terms,
                     )
@@ -717,10 +1480,12 @@ def main() -> None:
                 "sv1_fit_target": args.sv1_fit_target,
                 "sv1_min_terms": args.sv1_min_terms,
                 "sv1_max_terms": args.sv1_max_terms,
+                "sv1_fit_order": args.sv1_fit_order,
                 "variation_gain_cutoff": args.variation_gain_cutoff,
                 "shared_role_weight": args.shared_role_weight,
                 "row_weight": args.row_weight,
-                "row_weight_field": "sqrt(log1p(AniList favourites + Bangumi collects) + 1), multiplied by shared-role weight",
+                "svd_matrix": args.svd_matrix,
+                "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
                 "normalize_character_rows": args.normalize_character_rows,
                 "bangumi_collects_source": str(args.bangumi_raw_dir),
             },
@@ -763,22 +1528,32 @@ def main() -> None:
         "parameters": {
             "descriptor_union": str(args.descriptor_union),
             "descriptor_assignments": str(args.descriptor_assignments),
+            "global_canonicalization_input": str(args.global_canonicalization_input),
+            "contextual_personality_scores": str(args.contextual_personality_scores),
             "embedding_npz": str(args.embedding_npz),
             "tags_input": str(args.tags_input),
             "role_edges": str(args.role_edges),
             "descriptor_count": len(descriptors),
             "descriptor_shape": args.descriptor_shape,
+            "contextual_personality_filter": {
+                "enabled": bool(contextual_scores),
+                "min_score": args.min_contextual_personality_score,
+                "min_descriptor_character_count": args.min_descriptor_character_count,
+                "scoring": contextual_payload.get("parameters", {}).get("score") if contextual_payload else None,
+            },
             "orthogonal_rank": int(np.sum(keep)),
             "sv_relative_cutoff": args.sv_relative_cutoff,
             "sv1_fit_target": args.sv1_fit_target,
             "sv1_min_terms": args.sv1_min_terms,
             "sv1_max_terms": args.sv1_max_terms,
+            "sv1_fit_order": args.sv1_fit_order,
             "variation_gain_cutoff": args.variation_gain_cutoff,
             "max_variation_terms": args.max_variation_terms,
             "max_role_edge_count": args.max_role_edge_count,
             "shared_role_weight": args.shared_role_weight,
             "row_weight": args.row_weight,
-            "row_weight_field": "sqrt(log1p(AniList favourites + Bangumi collects) + 1), multiplied by shared-role weight",
+            "svd_matrix": args.svd_matrix,
+            "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
             "normalize_character_rows": args.normalize_character_rows,
             "safe_enrichment": str(args.safe_enrichment),
             "bangumi_raw_dir": str(args.bangumi_raw_dir),

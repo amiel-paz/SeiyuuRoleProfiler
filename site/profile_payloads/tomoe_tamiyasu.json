@@ -11,2974 +11,1375 @@
     "tamiyasu tomoe",
     "tomoe tamiyasu"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/tomoe_tamiyasu.json",
+  "sv1_mass_percent": 93.418044,
+  "sv1_descriptor_fit_percent": 99.020157,
+  "variation_axis_count": 1,
+  "supported_character_count": 3,
   "major_lane": {
     "rank": 1,
-    "singular_value": 48.0057152846,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 48.0057152846,
-        "mass_percent": 97.505407
-      },
-      {
-        "rank": 2,
-        "singular_value": 7.1980012995,
-        "mass_percent": 2.192132
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.673704366,
-        "mass_percent": 0.302461
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 296.702665,
-      "normalized_entanglement": 0.772663,
-      "top5_mass_percent": 4.008018,
-      "top10_mass_percent": 7.252711
-    },
-    "character_participation": {
-      "effective_count": 1.712692,
-      "normalized_entanglement": 0.570897,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 7.661471,
-      "semantic_spread": 7.866155,
-      "axis_concentration_percent": 94.863541,
-      "lane_count": 1.224477,
-      "direction_range": 0.554172,
-      "direction_spread": 0.576422,
-      "direction_axis_concentration_percent": 92.429034,
-      "direction_lane_count": 1.307561
-    },
-    "explained_sv_l2_percent": 97.505407,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.565942738,
+    "mass_percent": 94.549763,
+    "descriptor_fit_percent": 95.01473,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0654832348,
-        "abs_amplitude": 0.0654832348,
-        "raw_amplitude": 0.0977033896,
-        "percent": 10.286232,
-        "raw_percent": 6.896037,
-        "coverage_percent": 10.286232,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
-        "support": 3,
-        "effective_support": 2.010674,
-        "support_factor": 0.670225,
-        "top_characters": [
+        "descriptor": "kind",
+        "amplitude": 0.4583886033,
+        "abs_amplitude": 0.4583886033,
+        "percent": 41.957735,
+        "weighted_support": 5.48414629,
+        "support": 2,
+        "supporting_characters": [
           {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0488808514,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
+            "character_id": 151895,
+            "name": "Ayane Shirakawa",
+            "anime": "Overflow",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
+            "site_url": "https://anilist.co/character/151895",
+            "combined_favourites": 627
           },
           {
             "character_id": 13039,
             "name": "Rin Natsume",
-            "native_name": "棗鈴",
             "anime": "Little Busters!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
             "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0485616243,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0002609138,
-            "similarity": 0.872436,
-            "matched_descriptor": "stubborn"
+            "combined_favourites": 731
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0512485239,
-        "abs_amplitude": 0.0512485239,
-        "raw_amplitude": 0.0768736108,
-        "percent": 8.050217,
-        "raw_percent": 5.425843,
-        "coverage_percent": 18.336449,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.3627999718,
+        "abs_amplitude": 0.3627999718,
+        "percent": 33.20821,
+        "weighted_support": 5.40392411,
         "support": 2,
-        "effective_support": 1.999979,
-        "support_factor": 0.66666,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0385627265,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          },
+        "supporting_characters": [
           {
             "character_id": 13039,
             "name": "Rin Natsume",
-            "native_name": "棗鈴",
             "anime": "Little Busters!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
             "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0383108842,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
+            "combined_favourites": 731
+          },
+          {
+            "character_id": 80893,
+            "name": "Makina Irisu",
+            "anime": "The Fruit of Grisaia",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+            "site_url": "https://anilist.co/character/80893",
+            "combined_favourites": 407
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0219451872,
-        "abs_amplitude": 0.0219451872,
-        "raw_amplitude": 0.0629700948,
-        "percent": 3.447192,
-        "raw_percent": 4.444514,
-        "coverage_percent": 21.783641,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "irritable",
-          "semi-aggressive",
-          "temperamental"
-        ],
+        "descriptor": "blunt",
+        "amplitude": 0.2713122492,
+        "abs_amplitude": 0.2713122492,
+        "percent": 24.834054,
+        "weighted_support": 5.40392411,
         "support": 2,
-        "effective_support": 1.045505,
-        "support_factor": 0.348502,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 13039,
             "name": "Rin Natsume",
-            "native_name": "棗鈴",
             "anime": "Little Busters!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
             "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0615685248,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
+            "combined_favourites": 731
           },
           {
             "character_id": 80893,
             "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
             "anime": "The Fruit of Grisaia",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
             "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0014015699,
-            "similarity": 0.878748,
-            "matched_descriptor": "rude"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0214457992,
-        "abs_amplitude": 0.0214457992,
-        "raw_amplitude": 0.0521607209,
-        "percent": 3.368747,
-        "raw_percent": 3.681574,
-        "coverage_percent": 25.152388,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 2,
-        "effective_support": 1.233445,
-        "support_factor": 0.411148,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0466404595,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0055202613,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "care-free / carefree / casual / happy-go-lucky / +8",
-        "descriptor_index": 944,
-        "amplitude": 0.0184264019,
-        "abs_amplitude": 0.0184264019,
-        "raw_amplitude": 0.0499733264,
-        "percent": 2.894455,
-        "raw_percent": 3.527185,
-        "coverage_percent": 28.046843,
-        "member_count": 12,
-        "members": [
-          "care-free",
-          "carefree",
-          "casual",
-          "happy-go-lucky",
-          "affable",
-          "permissive",
-          "good-humored",
-          "accommodating",
-          "laid-back",
-          "playful",
-          "flighty",
-          "relaxed"
-        ],
-        "support": 3,
-        "effective_support": 1.106174,
-        "support_factor": 0.368725,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0474636913,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0021713256,
-            "similarity": 0.883141,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0003383094,
-            "similarity": 0.895205,
-            "matched_descriptor": "cheerful / stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "strange / odd / peculiar / unusual / +4",
-        "descriptor_index": 7287,
-        "amplitude": 0.0184098023,
-        "abs_amplitude": 0.0184098023,
-        "raw_amplitude": 0.055229407,
-        "percent": 2.891847,
-        "raw_percent": 3.898166,
-        "coverage_percent": 30.93869,
-        "member_count": 8,
-        "members": [
-          "strange",
-          "odd",
-          "peculiar",
-          "unusual",
-          "weird",
-          "outlandish",
-          "kooky",
-          "bizarre"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0552294069,
-            "similarity": 1.0,
-            "matched_descriptor": "strange"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "funny / comical / humorous / amusing / +4",
-        "descriptor_index": 2859,
-        "amplitude": 0.0166044094,
-        "abs_amplitude": 0.0166044094,
-        "raw_amplitude": 0.0496682746,
-        "percent": 2.608253,
-        "raw_percent": 3.505654,
-        "coverage_percent": 33.546943,
-        "member_count": 8,
-        "members": [
-          "funny",
-          "comical",
-          "humorous",
-          "amusing",
-          "pun-loving",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
-        "support": 2,
-        "effective_support": 1.002918,
-        "support_factor": 0.334306,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.049595903,
-            "similarity": 1.0,
-            "matched_descriptor": "funny"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 7.23714e-05,
-            "similarity": 0.871859,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "immature / spontaneous",
-        "descriptor_index": 3746,
-        "amplitude": 0.0159290504,
-        "abs_amplitude": 0.0159290504,
-        "raw_amplitude": 0.0238938321,
-        "percent": 2.502166,
-        "raw_percent": 1.686459,
-        "coverage_percent": 36.049109,
-        "member_count": 2,
-        "members": [
-          "immature",
-          "spontaneous"
-        ],
-        "support": 2,
-        "effective_support": 1.999979,
-        "support_factor": 0.66666,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0119860548,
-            "similarity": 1.0,
-            "matched_descriptor": "immature"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0119077773,
-            "similarity": 1.0,
-            "matched_descriptor": "immature"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0158421909,
-        "abs_amplitude": 0.0158421909,
-        "raw_amplitude": 0.0419284653,
-        "percent": 2.488522,
-        "raw_percent": 2.959367,
-        "coverage_percent": 38.53763,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "cheerful",
-          "vigorous"
-        ],
-        "support": 2,
-        "effective_support": 1.133516,
-        "support_factor": 0.377839,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0392935192,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0026349461,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "sharp-tongued / gruff / rough-talking / trash-talking / +4",
-        "descriptor_index": 6778,
-        "amplitude": 0.0133260614,
-        "abs_amplitude": 0.0133260614,
-        "raw_amplitude": 0.0357998031,
-        "percent": 2.093283,
-        "raw_percent": 2.526798,
-        "coverage_percent": 40.630914,
-        "member_count": 8,
-        "members": [
-          "sharp-tongued",
-          "gruff",
-          "rough-talking",
-          "trash-talking",
-          "undiplomatic",
-          "insulting",
-          "vulgar",
-          "foul-mouthed"
-        ],
-        "support": 2,
-        "effective_support": 1.116715,
-        "support_factor": 0.372238,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0338194158,
-            "similarity": 1.0,
-            "matched_descriptor": "sharp-tongued"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0019803874,
-            "similarity": 0.88013,
-            "matched_descriptor": "tomboy / inarticulate"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "anti-social / antisocial / reclusive / stand-offish / +1",
-        "descriptor_index": 280,
-        "amplitude": 0.0117801026,
-        "abs_amplitude": 0.0117801026,
-        "raw_amplitude": 0.0340910077,
-        "percent": 1.850441,
-        "raw_percent": 2.406189,
-        "coverage_percent": 42.481355,
-        "member_count": 5,
-        "members": [
-          "anti-social",
-          "antisocial",
-          "reclusive",
-          "stand-offish",
-          "uninterested-in-friendship"
-        ],
-        "support": 2,
-        "effective_support": 1.036646,
-        "support_factor": 0.345549,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0334773948,
-            "similarity": 1.0,
-            "matched_descriptor": "anti-social / antisocial"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0006136129,
-            "similarity": 0.87736,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rude / rude stubborn / ill-mannered / tactless / +3",
-        "descriptor_index": 6386,
-        "amplitude": 0.0100368687,
-        "abs_amplitude": 0.0100368687,
-        "raw_amplitude": 0.0295499034,
-        "percent": 1.576611,
-        "raw_percent": 2.085672,
-        "coverage_percent": 44.057965,
-        "member_count": 7,
-        "members": [
-          "rude",
-          "rude stubborn",
-          "ill-mannered",
-          "tactless",
-          "disrespectful",
-          "irreverent",
-          "unpleasant"
-        ],
-        "support": 2,
-        "effective_support": 1.018975,
-        "support_factor": 0.339658,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0292721621,
-            "similarity": 1.0,
-            "matched_descriptor": "rude"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0002777413,
-            "similarity": 0.865524,
-            "matched_descriptor": "tomboy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unsocial / standoffish / aloof / indifferent / +3",
-        "descriptor_index": 8223,
-        "amplitude": 0.0094005881,
-        "abs_amplitude": 0.0094005881,
-        "raw_amplitude": 0.0138376835,
-        "percent": 1.476662,
-        "raw_percent": 0.976682,
-        "coverage_percent": 45.534628,
-        "member_count": 7,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "indifferent",
-          "disinterested",
-          "detached",
-          "non-interfering"
-        ],
-        "support": 3,
-        "effective_support": 2.038041,
-        "support_factor": 0.679347,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0082460926,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy / rude / blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0050676578,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy / blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0005239332,
-            "similarity": 0.878663,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "spiteful / furious / indignant / resentful / +2",
-        "descriptor_index": 7183,
-        "amplitude": 0.0081393587,
-        "abs_amplitude": 0.0081393587,
-        "raw_amplitude": 0.0128842163,
-        "percent": 1.278546,
-        "raw_percent": 0.909385,
-        "coverage_percent": 46.813174,
-        "member_count": 6,
-        "members": [
-          "spiteful",
-          "furious",
-          "indignant",
-          "resentful",
-          "selfish-hating",
-          "hatred-filled"
-        ],
-        "support": 2,
-        "effective_support": 1.895193,
-        "support_factor": 0.631731,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0079570519,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered / antisocial"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0049271643,
-            "similarity": 0.890775,
-            "matched_descriptor": "rude"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "low-energy / easy-going / chilling / mild-mannered / +6",
-        "descriptor_index": 4439,
-        "amplitude": 0.0078196346,
-        "abs_amplitude": 0.0078196346,
-        "raw_amplitude": 0.0161412854,
-        "percent": 1.228323,
-        "raw_percent": 1.139274,
-        "coverage_percent": 48.041497,
-        "member_count": 10,
-        "members": [
-          "low-energy",
-          "easy-going",
-          "chilling",
-          "mild-mannered",
-          "non-violent",
-          "cool-headed",
-          "non-hostile",
-          "soothing",
-          "calmest",
-          "calmer"
-        ],
-        "support": 3,
-        "effective_support": 1.453348,
-        "support_factor": 0.484449,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0130718737,
-            "similarity": 0.906972,
-            "matched_descriptor": "carefree / blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0028921053,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy / docile / blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0001773064,
-            "similarity": 0.888709,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "loud / loud-voiced / noisy / tough-talking",
-        "descriptor_index": 4401,
-        "amplitude": 0.0073750538,
-        "abs_amplitude": 0.0073750538,
-        "raw_amplitude": 0.0221251614,
-        "percent": 1.158488,
-        "raw_percent": 1.561624,
-        "coverage_percent": 49.199985,
-        "member_count": 4,
-        "members": [
-          "loud",
-          "loud-voiced",
-          "noisy",
-          "tough-talking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0221251614,
-            "similarity": 1.0,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "strong-willed / tough / strong-minded / resolute / +8",
-        "descriptor_index": 7373,
-        "amplitude": 0.0068052382,
-        "abs_amplitude": 0.0068052382,
-        "raw_amplitude": 0.0108116367,
-        "percent": 1.06898,
-        "raw_percent": 0.7631,
-        "coverage_percent": 50.268965,
-        "member_count": 12,
-        "members": [
-          "strong-willed",
-          "tough",
-          "strong-minded",
-          "resolute",
-          "stubborn",
-          "unshakable",
-          "tenacious",
-          "headstrong",
-          "unyielding",
-          "refractory",
-          "persistent",
-          "unbending"
-        ],
-        "support": 3,
-        "effective_support": 1.888309,
-        "support_factor": 0.629436,
-        "top_characters": [
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0074349447,
-            "similarity": 1.0,
-            "matched_descriptor": "stubborn"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0023677925,
-            "similarity": 0.87426,
-            "matched_descriptor": "blunt / docile / inarticulate"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0010088995,
-            "similarity": 0.865536,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.00675634,
-        "abs_amplitude": 0.00675634,
-        "raw_amplitude": 0.0202690201,
-        "percent": 1.061299,
-        "raw_percent": 1.430615,
-        "coverage_percent": 51.330264,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.02026902,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "talkative / articulate / communicative / well-spoken",
-        "descriptor_index": 7682,
-        "amplitude": 0.006595467,
-        "abs_amplitude": 0.006595467,
-        "raw_amplitude": 0.019786401,
-        "percent": 1.036029,
-        "raw_percent": 1.396551,
-        "coverage_percent": 52.366292,
-        "member_count": 4,
-        "members": [
-          "talkative",
-          "articulate",
-          "communicative",
-          "well-spoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.019786401,
-            "similarity": 1.0,
-            "matched_descriptor": "talkative"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "docile / yielding / servile / well-behaved",
-        "descriptor_index": 1900,
-        "amplitude": 0.0063317856,
-        "abs_amplitude": 0.0063317856,
-        "raw_amplitude": 0.0189953567,
-        "percent": 0.994609,
-        "raw_percent": 1.340718,
-        "coverage_percent": 53.360901,
-        "member_count": 4,
-        "members": [
-          "docile",
-          "yielding",
-          "servile",
-          "well-behaved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0189953567,
-            "similarity": 1.0,
-            "matched_descriptor": "docile"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "impulsive / impetuous / wild",
-        "descriptor_index": 3797,
-        "amplitude": 0.0061436362,
-        "abs_amplitude": 0.0061436362,
-        "raw_amplitude": 0.0092155532,
-        "percent": 0.965054,
-        "raw_percent": 0.650446,
-        "coverage_percent": 54.325955,
-        "member_count": 3,
-        "members": [
-          "impulsive",
-          "impetuous",
-          "wild"
-        ],
-        "support": 2,
-        "effective_support": 1.999979,
-        "support_factor": 0.66666,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.004622872,
-            "similarity": 0.895536,
-            "matched_descriptor": "immature"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0045926812,
-            "similarity": 0.895536,
-            "matched_descriptor": "immature"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "plain / simple",
-        "descriptor_index": 5633,
-        "amplitude": 0.006113481,
-        "abs_amplitude": 0.006113481,
-        "raw_amplitude": 0.0089769678,
-        "percent": 0.960317,
-        "raw_percent": 0.633606,
-        "coverage_percent": 55.286273,
-        "member_count": 2,
-        "members": [
-          "plain",
-          "simple"
-        ],
-        "support": 3,
-        "effective_support": 2.043055,
-        "support_factor": 0.681018,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0044549391,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0044258452,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 9.61835e-05,
-            "similarity": 0.86636,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "clumsy / uncoordinated / awkward",
-        "descriptor_index": 1203,
-        "amplitude": 0.0060633265,
-        "abs_amplitude": 0.0060633265,
-        "raw_amplitude": 0.0174793865,
-        "percent": 0.952439,
-        "raw_percent": 1.233719,
-        "coverage_percent": 56.238712,
-        "member_count": 3,
-        "members": [
-          "clumsy",
-          "uncoordinated",
-          "awkward"
-        ],
-        "support": 3,
-        "effective_support": 1.040653,
-        "support_factor": 0.346884,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0171317661,
-            "similarity": 1.0,
-            "matched_descriptor": "clumsy"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0003072406,
-            "similarity": 0.857341,
-            "matched_descriptor": "anti-social"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 4.03798e-05,
-            "similarity": 0.85791,
-            "matched_descriptor": "self-conscious"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "food-obsessed / hungry / gluttonous",
-        "descriptor_index": 2643,
-        "amplitude": 0.0060293895,
-        "abs_amplitude": 0.0060293895,
-        "raw_amplitude": 0.0180881685,
-        "percent": 0.947108,
-        "raw_percent": 1.276687,
-        "coverage_percent": 57.18582,
-        "member_count": 3,
-        "members": [
-          "food-obsessed",
-          "hungry",
-          "gluttonous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0180881686,
-            "similarity": 0.974339,
-            "matched_descriptor": "food lover"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "honorable / respectable / principled",
-        "descriptor_index": 3561,
-        "amplitude": 0.0060153237,
-        "abs_amplitude": 0.0060153237,
-        "raw_amplitude": 0.0175262708,
-        "percent": 0.944899,
-        "raw_percent": 1.237028,
-        "coverage_percent": 58.130718,
-        "member_count": 3,
-        "members": [
-          "honorable",
-          "respectable",
-          "principled"
-        ],
-        "support": 2,
-        "effective_support": 1.029653,
-        "support_factor": 0.343218,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0172701615,
-            "similarity": 1.0,
-            "matched_descriptor": "honorable"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0002561093,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
+            "combined_favourites": 407
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0654832348,
-        "abs_amplitude": 0.0654832348,
-        "raw_amplitude": 0.0977033896,
-        "percent": 10.286232,
-        "raw_percent": 6.896037,
-        "coverage_percent": 10.286232,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
-        "support": 3,
-        "effective_support": 2.010674,
-        "support_factor": 0.670225,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0488808514,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0485616243,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0002609138,
-            "similarity": 0.872436,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0512485239,
-        "abs_amplitude": 0.0512485239,
-        "raw_amplitude": 0.0768736108,
-        "percent": 8.050217,
-        "raw_percent": 5.425843,
-        "coverage_percent": 18.336449,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
+        "step": 1,
+        "descriptor": "kind",
+        "weighted_support": 5.48414629,
         "support": 2,
-        "effective_support": 1.999979,
-        "support_factor": 0.66666,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0385627265,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0383108842,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          }
-        ]
+        "fit_percent": 85.326791,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0219451872,
-        "abs_amplitude": 0.0219451872,
-        "raw_amplitude": 0.0629700948,
-        "percent": 3.447192,
-        "raw_percent": 4.444514,
-        "coverage_percent": 21.783641,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "irritable",
-          "semi-aggressive",
-          "temperamental"
-        ],
+        "step": 2,
+        "descriptor": "shy",
+        "weighted_support": 5.40392411,
         "support": 2,
-        "effective_support": 1.045505,
-        "support_factor": 0.348502,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0615685248,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0014015699,
-            "similarity": 0.878748,
-            "matched_descriptor": "rude"
-          }
-        ]
+        "fit_percent": 93.144722,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0214457992,
-        "abs_amplitude": 0.0214457992,
-        "raw_amplitude": 0.0521607209,
-        "percent": 3.368747,
-        "raw_percent": 3.681574,
-        "coverage_percent": 25.152388,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "step": 3,
+        "descriptor": "blunt",
+        "weighted_support": 5.40392411,
         "support": 2,
-        "effective_support": 1.233445,
-        "support_factor": 0.411148,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0466404595,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0055202613,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "care-free / carefree / casual / happy-go-lucky / +8",
-        "descriptor_index": 944,
-        "amplitude": 0.0184264019,
-        "abs_amplitude": 0.0184264019,
-        "raw_amplitude": 0.0499733264,
-        "percent": 2.894455,
-        "raw_percent": 3.527185,
-        "coverage_percent": 28.046843,
-        "member_count": 12,
-        "members": [
-          "care-free",
-          "carefree",
-          "casual",
-          "happy-go-lucky",
-          "affable",
-          "permissive",
-          "good-humored",
-          "accommodating",
-          "laid-back",
-          "playful",
-          "flighty",
-          "relaxed"
-        ],
-        "support": 3,
-        "effective_support": 1.106174,
-        "support_factor": 0.368725,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0474636913,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0021713256,
-            "similarity": 0.883141,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0003383094,
-            "similarity": 0.895205,
-            "matched_descriptor": "cheerful / stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "strange / odd / peculiar / unusual / +4",
-        "descriptor_index": 7287,
-        "amplitude": 0.0184098023,
-        "abs_amplitude": 0.0184098023,
-        "raw_amplitude": 0.055229407,
-        "percent": 2.891847,
-        "raw_percent": 3.898166,
-        "coverage_percent": 30.93869,
-        "member_count": 8,
-        "members": [
-          "strange",
-          "odd",
-          "peculiar",
-          "unusual",
-          "weird",
-          "outlandish",
-          "kooky",
-          "bizarre"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0552294069,
-            "similarity": 1.0,
-            "matched_descriptor": "strange"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "funny / comical / humorous / amusing / +4",
-        "descriptor_index": 2859,
-        "amplitude": 0.0166044094,
-        "abs_amplitude": 0.0166044094,
-        "raw_amplitude": 0.0496682746,
-        "percent": 2.608253,
-        "raw_percent": 3.505654,
-        "coverage_percent": 33.546943,
-        "member_count": 8,
-        "members": [
-          "funny",
-          "comical",
-          "humorous",
-          "amusing",
-          "pun-loving",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
-        "support": 2,
-        "effective_support": 1.002918,
-        "support_factor": 0.334306,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.049595903,
-            "similarity": 1.0,
-            "matched_descriptor": "funny"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 7.23714e-05,
-            "similarity": 0.871859,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "immature / spontaneous",
-        "descriptor_index": 3746,
-        "amplitude": 0.0159290504,
-        "abs_amplitude": 0.0159290504,
-        "raw_amplitude": 0.0238938321,
-        "percent": 2.502166,
-        "raw_percent": 1.686459,
-        "coverage_percent": 36.049109,
-        "member_count": 2,
-        "members": [
-          "immature",
-          "spontaneous"
-        ],
-        "support": 2,
-        "effective_support": 1.999979,
-        "support_factor": 0.66666,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0119860548,
-            "similarity": 1.0,
-            "matched_descriptor": "immature"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0119077773,
-            "similarity": 1.0,
-            "matched_descriptor": "immature"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0158421909,
-        "abs_amplitude": 0.0158421909,
-        "raw_amplitude": 0.0419284653,
-        "percent": 2.488522,
-        "raw_percent": 2.959367,
-        "coverage_percent": 38.53763,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "cheerful",
-          "vigorous"
-        ],
-        "support": 2,
-        "effective_support": 1.133516,
-        "support_factor": 0.377839,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0392935192,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0026349461,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "sharp-tongued / gruff / rough-talking / trash-talking / +4",
-        "descriptor_index": 6778,
-        "amplitude": 0.0133260614,
-        "abs_amplitude": 0.0133260614,
-        "raw_amplitude": 0.0357998031,
-        "percent": 2.093283,
-        "raw_percent": 2.526798,
-        "coverage_percent": 40.630914,
-        "member_count": 8,
-        "members": [
-          "sharp-tongued",
-          "gruff",
-          "rough-talking",
-          "trash-talking",
-          "undiplomatic",
-          "insulting",
-          "vulgar",
-          "foul-mouthed"
-        ],
-        "support": 2,
-        "effective_support": 1.116715,
-        "support_factor": 0.372238,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0338194158,
-            "similarity": 1.0,
-            "matched_descriptor": "sharp-tongued"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0019803874,
-            "similarity": 0.88013,
-            "matched_descriptor": "tomboy / inarticulate"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "anti-social / antisocial / reclusive / stand-offish / +1",
-        "descriptor_index": 280,
-        "amplitude": 0.0117801026,
-        "abs_amplitude": 0.0117801026,
-        "raw_amplitude": 0.0340910077,
-        "percent": 1.850441,
-        "raw_percent": 2.406189,
-        "coverage_percent": 42.481355,
-        "member_count": 5,
-        "members": [
-          "anti-social",
-          "antisocial",
-          "reclusive",
-          "stand-offish",
-          "uninterested-in-friendship"
-        ],
-        "support": 2,
-        "effective_support": 1.036646,
-        "support_factor": 0.345549,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0334773948,
-            "similarity": 1.0,
-            "matched_descriptor": "anti-social / antisocial"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0006136129,
-            "similarity": 0.87736,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rude / rude stubborn / ill-mannered / tactless / +3",
-        "descriptor_index": 6386,
-        "amplitude": 0.0100368687,
-        "abs_amplitude": 0.0100368687,
-        "raw_amplitude": 0.0295499034,
-        "percent": 1.576611,
-        "raw_percent": 2.085672,
-        "coverage_percent": 44.057965,
-        "member_count": 7,
-        "members": [
-          "rude",
-          "rude stubborn",
-          "ill-mannered",
-          "tactless",
-          "disrespectful",
-          "irreverent",
-          "unpleasant"
-        ],
-        "support": 2,
-        "effective_support": 1.018975,
-        "support_factor": 0.339658,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0292721621,
-            "similarity": 1.0,
-            "matched_descriptor": "rude"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0002777413,
-            "similarity": 0.865524,
-            "matched_descriptor": "tomboy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unsocial / standoffish / aloof / indifferent / +3",
-        "descriptor_index": 8223,
-        "amplitude": 0.0094005881,
-        "abs_amplitude": 0.0094005881,
-        "raw_amplitude": 0.0138376835,
-        "percent": 1.476662,
-        "raw_percent": 0.976682,
-        "coverage_percent": 45.534628,
-        "member_count": 7,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "indifferent",
-          "disinterested",
-          "detached",
-          "non-interfering"
-        ],
-        "support": 3,
-        "effective_support": 2.038041,
-        "support_factor": 0.679347,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0082460926,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy / rude / blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0050676578,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy / blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0005239332,
-            "similarity": 0.878663,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "spiteful / furious / indignant / resentful / +2",
-        "descriptor_index": 7183,
-        "amplitude": 0.0081393587,
-        "abs_amplitude": 0.0081393587,
-        "raw_amplitude": 0.0128842163,
-        "percent": 1.278546,
-        "raw_percent": 0.909385,
-        "coverage_percent": 46.813174,
-        "member_count": 6,
-        "members": [
-          "spiteful",
-          "furious",
-          "indignant",
-          "resentful",
-          "selfish-hating",
-          "hatred-filled"
-        ],
-        "support": 2,
-        "effective_support": 1.895193,
-        "support_factor": 0.631731,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0079570519,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered / antisocial"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0049271643,
-            "similarity": 0.890775,
-            "matched_descriptor": "rude"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "low-energy / easy-going / chilling / mild-mannered / +6",
-        "descriptor_index": 4439,
-        "amplitude": 0.0078196346,
-        "abs_amplitude": 0.0078196346,
-        "raw_amplitude": 0.0161412854,
-        "percent": 1.228323,
-        "raw_percent": 1.139274,
-        "coverage_percent": 48.041497,
-        "member_count": 10,
-        "members": [
-          "low-energy",
-          "easy-going",
-          "chilling",
-          "mild-mannered",
-          "non-violent",
-          "cool-headed",
-          "non-hostile",
-          "soothing",
-          "calmest",
-          "calmer"
-        ],
-        "support": 3,
-        "effective_support": 1.453348,
-        "support_factor": 0.484449,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0130718737,
-            "similarity": 0.906972,
-            "matched_descriptor": "carefree / blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0028921053,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy / docile / blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0001773064,
-            "similarity": 0.888709,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "loud / loud-voiced / noisy / tough-talking",
-        "descriptor_index": 4401,
-        "amplitude": 0.0073750538,
-        "abs_amplitude": 0.0073750538,
-        "raw_amplitude": 0.0221251614,
-        "percent": 1.158488,
-        "raw_percent": 1.561624,
-        "coverage_percent": 49.199985,
-        "member_count": 4,
-        "members": [
-          "loud",
-          "loud-voiced",
-          "noisy",
-          "tough-talking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0221251614,
-            "similarity": 1.0,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "strong-willed / tough / strong-minded / resolute / +8",
-        "descriptor_index": 7373,
-        "amplitude": 0.0068052382,
-        "abs_amplitude": 0.0068052382,
-        "raw_amplitude": 0.0108116367,
-        "percent": 1.06898,
-        "raw_percent": 0.7631,
-        "coverage_percent": 50.268965,
-        "member_count": 12,
-        "members": [
-          "strong-willed",
-          "tough",
-          "strong-minded",
-          "resolute",
-          "stubborn",
-          "unshakable",
-          "tenacious",
-          "headstrong",
-          "unyielding",
-          "refractory",
-          "persistent",
-          "unbending"
-        ],
-        "support": 3,
-        "effective_support": 1.888309,
-        "support_factor": 0.629436,
-        "top_characters": [
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0074349447,
-            "similarity": 1.0,
-            "matched_descriptor": "stubborn"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0023677925,
-            "similarity": 0.87426,
-            "matched_descriptor": "blunt / docile / inarticulate"
-          },
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0010088995,
-            "similarity": 0.865536,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.00675634,
-        "abs_amplitude": 0.00675634,
-        "raw_amplitude": 0.0202690201,
-        "percent": 1.061299,
-        "raw_percent": 1.430615,
-        "coverage_percent": 51.330264,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.02026902,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "talkative / articulate / communicative / well-spoken",
-        "descriptor_index": 7682,
-        "amplitude": 0.006595467,
-        "abs_amplitude": 0.006595467,
-        "raw_amplitude": 0.019786401,
-        "percent": 1.036029,
-        "raw_percent": 1.396551,
-        "coverage_percent": 52.366292,
-        "member_count": 4,
-        "members": [
-          "talkative",
-          "articulate",
-          "communicative",
-          "well-spoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.019786401,
-            "similarity": 1.0,
-            "matched_descriptor": "talkative"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "docile / yielding / servile / well-behaved",
-        "descriptor_index": 1900,
-        "amplitude": 0.0063317856,
-        "abs_amplitude": 0.0063317856,
-        "raw_amplitude": 0.0189953567,
-        "percent": 0.994609,
-        "raw_percent": 1.340718,
-        "coverage_percent": 53.360901,
-        "member_count": 4,
-        "members": [
-          "docile",
-          "yielding",
-          "servile",
-          "well-behaved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0189953567,
-            "similarity": 1.0,
-            "matched_descriptor": "docile"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "impulsive / impetuous / wild",
-        "descriptor_index": 3797,
-        "amplitude": 0.0061436362,
-        "abs_amplitude": 0.0061436362,
-        "raw_amplitude": 0.0092155532,
-        "percent": 0.965054,
-        "raw_percent": 0.650446,
-        "coverage_percent": 54.325955,
-        "member_count": 3,
-        "members": [
-          "impulsive",
-          "impetuous",
-          "wild"
-        ],
-        "support": 2,
-        "effective_support": 1.999979,
-        "support_factor": 0.66666,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.004622872,
-            "similarity": 0.895536,
-            "matched_descriptor": "immature"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0045926812,
-            "similarity": 0.895536,
-            "matched_descriptor": "immature"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "plain / simple",
-        "descriptor_index": 5633,
-        "amplitude": 0.006113481,
-        "abs_amplitude": 0.006113481,
-        "raw_amplitude": 0.0089769678,
-        "percent": 0.960317,
-        "raw_percent": 0.633606,
-        "coverage_percent": 55.286273,
-        "member_count": 2,
-        "members": [
-          "plain",
-          "simple"
-        ],
-        "support": 3,
-        "effective_support": 2.043055,
-        "support_factor": 0.681018,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0044549391,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0044258452,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 9.61835e-05,
-            "similarity": 0.86636,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "clumsy / uncoordinated / awkward",
-        "descriptor_index": 1203,
-        "amplitude": 0.0060633265,
-        "abs_amplitude": 0.0060633265,
-        "raw_amplitude": 0.0174793865,
-        "percent": 0.952439,
-        "raw_percent": 1.233719,
-        "coverage_percent": 56.238712,
-        "member_count": 3,
-        "members": [
-          "clumsy",
-          "uncoordinated",
-          "awkward"
-        ],
-        "support": 3,
-        "effective_support": 1.040653,
-        "support_factor": 0.346884,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0171317661,
-            "similarity": 1.0,
-            "matched_descriptor": "clumsy"
-          },
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0003072406,
-            "similarity": 0.857341,
-            "matched_descriptor": "anti-social"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 4.03798e-05,
-            "similarity": 0.85791,
-            "matched_descriptor": "self-conscious"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "food-obsessed / hungry / gluttonous",
-        "descriptor_index": 2643,
-        "amplitude": 0.0060293895,
-        "abs_amplitude": 0.0060293895,
-        "raw_amplitude": 0.0180881685,
-        "percent": 0.947108,
-        "raw_percent": 1.276687,
-        "coverage_percent": 57.18582,
-        "member_count": 3,
-        "members": [
-          "food-obsessed",
-          "hungry",
-          "gluttonous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80893,
-            "name": "Makina Irisu",
-            "native_name": "入巣蒔莱",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-            "site_url": "https://anilist.co/character/80893",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "MAIN",
-            "favourites": 261,
-            "row_weight": 2.56287817,
-            "projection": 0.0180881686,
-            "similarity": 0.974339,
-            "matched_descriptor": "food lover"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "honorable / respectable / principled",
-        "descriptor_index": 3561,
-        "amplitude": 0.0060153237,
-        "abs_amplitude": 0.0060153237,
-        "raw_amplitude": 0.0175262708,
-        "percent": 0.944899,
-        "raw_percent": 1.237028,
-        "coverage_percent": 58.130718,
-        "member_count": 3,
-        "members": [
-          "honorable",
-          "respectable",
-          "principled"
-        ],
-        "support": 2,
-        "effective_support": 1.029653,
-        "support_factor": 0.343218,
-        "top_characters": [
-          {
-            "character_id": 13039,
-            "name": "Rin Natsume",
-            "native_name": "棗鈴",
-            "anime": "Little Busters!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
-            "site_url": "https://anilist.co/character/13039",
-            "anime_url": "https://myanimelist.net/anime/13655",
-            "role": "MAIN",
-            "favourites": 418,
-            "row_weight": 2.65289859,
-            "projection": 0.0172701615,
-            "similarity": 1.0,
-            "matched_descriptor": "honorable"
-          },
-          {
-            "character_id": 151895,
-            "name": "Ayane Shirakawa",
-            "native_name": "白河彩音",
-            "anime": "Overflow",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
-            "site_url": "https://anilist.co/character/151895",
-            "anime_url": "https://myanimelist.net/anime/40746",
-            "role": "MAIN",
-            "favourites": 583,
-            "row_weight": 2.71475616,
-            "projection": 0.0002561093,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "fit_percent": 95.01473,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 80893,
-        "name": "Makina Irisu",
-        "native_name": "入巣蒔莱",
-        "anime": "The Fruit of Grisaia",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-        "site_url": "https://anilist.co/character/80893",
-        "anime_url": "https://myanimelist.net/anime/17729",
-        "role": "MAIN",
-        "favourites": 261,
-        "row_weight": 2.56287817,
-        "amplitude": 0.8400491969,
-        "abs_amplitude": 0.8400491969,
-        "percent": 70.568265
-      },
-      {
         "character_id": 13039,
         "name": "Rin Natsume",
-        "native_name": "棗鈴",
         "anime": "Little Busters!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
         "site_url": "https://anilist.co/character/13039",
-        "anime_url": "https://myanimelist.net/anime/13655",
-        "role": "MAIN",
         "favourites": 418,
-        "row_weight": 2.65289859,
-        "amplitude": 0.5413539101,
-        "abs_amplitude": 0.5413539101,
-        "percent": 29.306406
+        "anilist_favourites": 418,
+        "bangumi_collects": 313,
+        "bangumi_comments": 58,
+        "bangumi_character_id": 359,
+        "bangumi_url": "https://bgm.tv/character/359",
+        "combined_favourites": 731,
+        "role_edge_count": 1,
+        "descriptors": [
+          "antisocial",
+          "blunt",
+          "docile",
+          "honorable",
+          "inarticulate",
+          "kind",
+          "short-tempered",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75604436,
+        "row_weight": 2.75604436,
+        "unweighted_row_norm": 6.38960275,
+        "amplitude": 0.5910067918,
+        "abs_amplitude": 0.5910067918,
+        "percent": 34.928903
       },
       {
         "character_id": 151895,
         "name": "Ayane Shirakawa",
-        "native_name": "白河彩音",
         "anime": "Overflow",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
         "site_url": "https://anilist.co/character/151895",
-        "anime_url": "https://myanimelist.net/anime/40746",
-        "role": "MAIN",
         "favourites": 583,
-        "row_weight": 2.71475616,
-        "amplitude": 0.0354018481,
-        "abs_amplitude": 0.0354018481,
-        "percent": 0.125329
+        "anilist_favourites": 583,
+        "bangumi_collects": 44,
+        "bangumi_comments": 10,
+        "bangumi_character_id": 73250,
+        "bangumi_url": "https://bgm.tv/character/73250",
+        "combined_favourites": 627,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "kind",
+          "self-centered",
+          "stubborn"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.72810193,
+        "row_weight": 2.72810193,
+        "unweighted_row_norm": 3.32322099,
+        "amplitude": 0.5763892137,
+        "abs_amplitude": 0.5763892137,
+        "percent": 33.222453
+      },
+      {
+        "character_id": 80893,
+        "name": "Makina Irisu",
+        "anime": "The Fruit of Grisaia",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+        "site_url": "https://anilist.co/character/80893",
+        "favourites": 261,
+        "anilist_favourites": 261,
+        "bangumi_collects": 146,
+        "bangumi_comments": 33,
+        "bangumi_character_id": 10972,
+        "bangumi_url": "https://bgm.tv/character/10972",
+        "combined_favourites": 407,
+        "role_edge_count": 1,
+        "descriptors": [
+          "blunt",
+          "interpersonal",
+          "mischievous",
+          "rude",
+          "shy",
+          "sloppy",
+          "social",
+          "strange",
+          "whimsical"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.64787975,
+        "row_weight": 2.64787975,
+        "unweighted_row_norm": 7.25333862,
+        "amplitude": 0.5643460342,
+        "abs_amplitude": 0.5643460342,
+        "percent": 31.848645
       }
     ],
     "positive_characters": [
       {
-        "character_id": 80893,
-        "name": "Makina Irisu",
-        "native_name": "入巣蒔莱",
-        "anime": "The Fruit of Grisaia",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
-        "site_url": "https://anilist.co/character/80893",
-        "anime_url": "https://myanimelist.net/anime/17729",
-        "role": "MAIN",
-        "favourites": 261,
-        "row_weight": 2.56287817,
-        "amplitude": 0.8400491969,
-        "abs_amplitude": 0.8400491969,
-        "percent": 70.568265
-      },
-      {
         "character_id": 13039,
         "name": "Rin Natsume",
-        "native_name": "棗鈴",
         "anime": "Little Busters!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
         "site_url": "https://anilist.co/character/13039",
-        "anime_url": "https://myanimelist.net/anime/13655",
-        "role": "MAIN",
         "favourites": 418,
-        "row_weight": 2.65289859,
-        "amplitude": 0.5413539101,
-        "abs_amplitude": 0.5413539101,
-        "percent": 29.306406
+        "anilist_favourites": 418,
+        "bangumi_collects": 313,
+        "bangumi_comments": 58,
+        "bangumi_character_id": 359,
+        "bangumi_url": "https://bgm.tv/character/359",
+        "combined_favourites": 731,
+        "role_edge_count": 1,
+        "descriptors": [
+          "antisocial",
+          "blunt",
+          "docile",
+          "honorable",
+          "inarticulate",
+          "kind",
+          "short-tempered",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75604436,
+        "row_weight": 2.75604436,
+        "unweighted_row_norm": 6.38960275,
+        "amplitude": 0.5910067918,
+        "abs_amplitude": 0.5910067918,
+        "percent": 34.928903
       },
       {
         "character_id": 151895,
         "name": "Ayane Shirakawa",
-        "native_name": "白河彩音",
         "anime": "Overflow",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
         "site_url": "https://anilist.co/character/151895",
-        "anime_url": "https://myanimelist.net/anime/40746",
-        "role": "MAIN",
         "favourites": 583,
-        "row_weight": 2.71475616,
-        "amplitude": 0.0354018481,
-        "abs_amplitude": 0.0354018481,
-        "percent": 0.125329
+        "anilist_favourites": 583,
+        "bangumi_collects": 44,
+        "bangumi_comments": 10,
+        "bangumi_character_id": 73250,
+        "bangumi_url": "https://bgm.tv/character/73250",
+        "combined_favourites": 627,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "kind",
+          "self-centered",
+          "stubborn"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.72810193,
+        "row_weight": 2.72810193,
+        "unweighted_row_norm": 3.32322099,
+        "amplitude": 0.5763892137,
+        "abs_amplitude": 0.5763892137,
+        "percent": 33.222453
+      },
+      {
+        "character_id": 80893,
+        "name": "Makina Irisu",
+        "anime": "The Fruit of Grisaia",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+        "site_url": "https://anilist.co/character/80893",
+        "favourites": 261,
+        "anilist_favourites": 261,
+        "bangumi_collects": 146,
+        "bangumi_comments": 33,
+        "bangumi_character_id": 10972,
+        "bangumi_url": "https://bgm.tv/character/10972",
+        "combined_favourites": 407,
+        "role_edge_count": 1,
+        "descriptors": [
+          "blunt",
+          "interpersonal",
+          "mischievous",
+          "rude",
+          "shy",
+          "sloppy",
+          "social",
+          "strange",
+          "whimsical"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.64787975,
+        "row_weight": 2.64787975,
+        "unweighted_row_norm": 7.25333862,
+        "amplitude": 0.5643460342,
+        "abs_amplitude": 0.5643460342,
+        "percent": 31.848645
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 2.99572,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "strange / kind / shy / +9",
+          "support": 3,
+          "variance": 3.1169771504,
+          "seed_descriptor": "strange",
+          "components": [
+            {
+              "descriptor": "strange",
+              "weight": 0.17657601,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.10335665,
+              "similarity_to_seed": 0.64334786,
+              "support": 2
+            },
+            {
+              "descriptor": "shy",
+              "weight": 0.0982842,
+              "similarity_to_seed": 0.62736241,
+              "support": 2
+            },
+            {
+              "descriptor": "blunt",
+              "weight": 0.08880552,
+              "similarity_to_seed": 0.59634369,
+              "support": 2
+            },
+            {
+              "descriptor": "mischievous",
+              "weight": 0.08458428,
+              "similarity_to_seed": 0.69211615,
+              "support": 1
+            },
+            {
+              "descriptor": "rude",
+              "weight": 0.07502381,
+              "similarity_to_seed": 0.65182902,
+              "support": 1
+            },
+            {
+              "descriptor": "sloppy",
+              "weight": 0.0726601,
+              "similarity_to_seed": 0.64147855,
+              "support": 1
+            },
+            {
+              "descriptor": "interpersonal",
+              "weight": 0.0662083,
+              "similarity_to_seed": 0.6123368,
+              "support": 1
+            },
+            {
+              "descriptor": "whimsical",
+              "weight": 0.06224904,
+              "similarity_to_seed": 0.59374571,
+              "support": 1
+            },
+            {
+              "descriptor": "inarticulate",
+              "weight": 0.05808619,
+              "similarity_to_seed": 0.57354908,
+              "support": 1
+            },
+            {
+              "descriptor": "short-tempered",
+              "weight": 0.05779403,
+              "similarity_to_seed": 0.57210488,
+              "support": 1
+            },
+            {
+              "descriptor": "antisocial",
+              "weight": 0.05637187,
+              "similarity_to_seed": 0.56502203,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 3.1169771504,
+          "minimum_y_projection_variance": 0.7792442876,
+          "best_rejected_correlation": 0.9800591484,
+          "best_rejected_lane_cosine": 0.7973010496,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9800591484,
+          "candidate_count": 18,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 17,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.311697715,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.7792442876,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.5584885752,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "docile / honorable / stubborn",
+            "variance": 2.0418903039,
+            "correlation": 0.9800591484,
+            "abs_correlation": 0.9800591484,
+            "lane_cosine": 0.7973010496,
+            "orthogonality_score": 0.3643110363,
+            "objective": 0.7438831726,
+            "components": [
+              {
+                "descriptor": "docile",
+                "weight": 0.61215164,
+                "similarity_to_seed": 1.0,
+                "support": 1
+              },
+              {
+                "descriptor": "honorable",
+                "weight": 0.19622182,
+                "similarity_to_seed": 0.56616644,
+                "support": 1
+              },
+              {
+                "descriptor": "stubborn",
+                "weight": 0.19162654,
+                "similarity_to_seed": 0.55949771,
+                "support": 1
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 151895,
+            "name": "Ayane Shirakawa",
+            "anime": "Overflow",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
+            "site_url": "https://anilist.co/character/151895",
+            "favourites": 583,
+            "anilist_favourites": 583,
+            "bangumi_collects": 44,
+            "bangumi_comments": 10,
+            "bangumi_character_id": 73250,
+            "bangumi_url": "https://bgm.tv/character/73250",
+            "combined_favourites": 627,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cheerful",
+              "kind",
+              "self-centered",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.72810193,
+            "row_weight": 2.72810193,
+            "unweighted_row_norm": 3.32322099,
+            "x_raw_score": 3.0175385586,
+            "x_score": -2.4198429823,
+            "amplitude": -2.4198429823,
+            "x_direct": true
+          },
+          {
+            "character_id": 13039,
+            "name": "Rin Natsume",
+            "anime": "Little Busters!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
+            "site_url": "https://anilist.co/character/13039",
+            "favourites": 418,
+            "anilist_favourites": 418,
+            "bangumi_collects": 313,
+            "bangumi_comments": 58,
+            "bangumi_character_id": 359,
+            "bangumi_url": "https://bgm.tv/character/359",
+            "combined_favourites": 731,
+            "role_edge_count": 1,
+            "descriptors": [
+              "antisocial",
+              "blunt",
+              "docile",
+              "honorable",
+              "inarticulate",
+              "kind",
+              "short-tempered",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75604436,
+            "row_weight": 2.75604436,
+            "unweighted_row_norm": 6.38960275,
+            "x_raw_score": 6.1146345783,
+            "x_score": 0.6772530375,
+            "amplitude": 0.6772530375,
+            "x_direct": true
+          },
+          {
+            "character_id": 80893,
+            "name": "Makina Irisu",
+            "anime": "The Fruit of Grisaia",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+            "site_url": "https://anilist.co/character/80893",
+            "favourites": 261,
+            "anilist_favourites": 261,
+            "bangumi_collects": 146,
+            "bangumi_comments": 33,
+            "bangumi_character_id": 10972,
+            "bangumi_url": "https://bgm.tv/character/10972",
+            "combined_favourites": 407,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "interpersonal",
+              "mischievous",
+              "rude",
+              "shy",
+              "sloppy",
+              "social",
+              "strange",
+              "whimsical"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.64787975,
+            "row_weight": 2.64787975,
+            "unweighted_row_norm": 7.25333862,
+            "x_raw_score": 7.1799714856,
+            "x_score": 1.7425899448,
+            "amplitude": 1.7425899448,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 5.4373815408
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "awkward / shy / annoying / +9",
+          "support": 2,
+          "variance": 2.925796258,
+          "seed_descriptor": "awkward",
+          "components": [
+            {
+              "descriptor": "awkward",
+              "weight": 0.13805014,
+              "similarity_to_seed": 1.0,
+              "support": 0
+            },
+            {
+              "descriptor": "shy",
+              "weight": 0.10401293,
+              "similarity_to_seed": 0.72990734,
+              "support": 2
+            },
+            {
+              "descriptor": "annoying",
+              "weight": 0.08081108,
+              "similarity_to_seed": 0.76509793,
+              "support": 0
+            },
+            {
+              "descriptor": "blunt",
+              "weight": 0.08054334,
+              "similarity_to_seed": 0.64230144,
+              "support": 2
+            },
+            {
+              "descriptor": "sloppy",
+              "weight": 0.07934772,
+              "similarity_to_seed": 0.75813896,
+              "support": 1
+            },
+            {
+              "descriptor": "rude",
+              "weight": 0.0779928,
+              "similarity_to_seed": 0.75163818,
+              "support": 1
+            },
+            {
+              "descriptor": "intimidating",
+              "weight": 0.07747573,
+              "similarity_to_seed": 0.74914248,
+              "support": 0
+            },
+            {
+              "descriptor": "exasperated",
+              "weight": 0.07411409,
+              "similarity_to_seed": 0.73270974,
+              "support": 0
+            },
+            {
+              "descriptor": "reluctant",
+              "weight": 0.07296789,
+              "similarity_to_seed": 0.72702185,
+              "support": 0
+            },
+            {
+              "descriptor": "boring",
+              "weight": 0.07163982,
+              "similarity_to_seed": 0.72037529,
+              "support": 0
+            },
+            {
+              "descriptor": "uptight",
+              "weight": 0.07153264,
+              "similarity_to_seed": 0.71983622,
+              "support": 0
+            },
+            {
+              "descriptor": "outspoken",
+              "weight": 0.07151183,
+              "similarity_to_seed": 0.71973151,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 2.925796258,
+          "minimum_y_projection_variance": 0.7314490645,
+          "best_rejected_correlation": 0.9948721671,
+          "best_rejected_lane_cosine": 0.8679928197,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9948721671,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2925796258,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.7314490645,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.462898129,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "strange / bizarre / peculiar / +7",
+            "variance": 2.6097621434,
+            "correlation": 0.9965434895,
+            "abs_correlation": 0.9965434895,
+            "lane_cosine": 0.8503356568,
+            "orthogonality_score": 0.2769292707,
+            "objective": 0.7227195271,
+            "components": [
+              {
+                "descriptor": "strange",
+                "weight": 0.15106057,
+                "similarity_to_seed": 1.0,
+                "support": 1
+              },
+              {
+                "descriptor": "bizarre",
+                "weight": 0.12315149,
+                "similarity_to_seed": 0.9029096,
+                "support": 0
+              },
+              {
+                "descriptor": "peculiar",
+                "weight": 0.11485647,
+                "similarity_to_seed": 0.87197129,
+                "support": 0
+              },
+              {
+                "descriptor": "mysterious",
+                "weight": 0.09341065,
+                "similarity_to_seed": 0.7863622,
+                "support": 0
+              },
+              {
+                "descriptor": "quirky",
+                "weight": 0.09324871,
+                "similarity_to_seed": 0.78568028,
+                "support": 0
+              },
+              {
+                "descriptor": "kind",
+                "weight": 0.08842149,
+                "similarity_to_seed": 0.64334786,
+                "support": 2
+              },
+              {
+                "descriptor": "enigmatic",
+                "weight": 0.08728008,
+                "similarity_to_seed": 0.76011972,
+                "support": 0
+              },
+              {
+                "descriptor": "insane",
+                "weight": 0.08450683,
+                "similarity_to_seed": 0.74794615,
+                "support": 0
+              },
+              {
+                "descriptor": "chaotic",
+                "weight": 0.08229121,
+                "similarity_to_seed": 0.73807611,
+                "support": 0
+              },
+              {
+                "descriptor": "erratic",
+                "weight": 0.0817725,
+                "similarity_to_seed": 0.73574623,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 151895,
+            "name": "Ayane Shirakawa",
+            "anime": "Overflow",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
+            "site_url": "https://anilist.co/character/151895",
+            "favourites": 583,
+            "anilist_favourites": 583,
+            "bangumi_collects": 44,
+            "bangumi_comments": 10,
+            "bangumi_character_id": 73250,
+            "bangumi_url": "https://bgm.tv/character/73250",
+            "combined_favourites": 627,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cheerful",
+              "kind",
+              "self-centered",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.72810193,
+            "row_weight": 2.72810193,
+            "unweighted_row_norm": 3.32322099,
+            "x_raw_score": 2.8218385341,
+            "x_score": -2.348975056,
+            "amplitude": -2.348975056,
+            "x_direct": false
+          },
+          {
+            "character_id": 13039,
+            "name": "Rin Natsume",
+            "anime": "Little Busters!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
+            "site_url": "https://anilist.co/character/13039",
+            "favourites": 418,
+            "anilist_favourites": 418,
+            "bangumi_collects": 313,
+            "bangumi_comments": 58,
+            "bangumi_character_id": 359,
+            "bangumi_url": "https://bgm.tv/character/359",
+            "combined_favourites": 731,
+            "role_edge_count": 1,
+            "descriptors": [
+              "antisocial",
+              "blunt",
+              "docile",
+              "honorable",
+              "inarticulate",
+              "kind",
+              "short-tempered",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75604436,
+            "row_weight": 2.75604436,
+            "unweighted_row_norm": 6.38960275,
+            "x_raw_score": 5.8448697773,
+            "x_score": 0.6740561872,
+            "amplitude": 0.6740561872,
+            "x_direct": true
+          },
+          {
+            "character_id": 80893,
+            "name": "Makina Irisu",
+            "anime": "The Fruit of Grisaia",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+            "site_url": "https://anilist.co/character/80893",
+            "favourites": 261,
+            "anilist_favourites": 261,
+            "bangumi_collects": 146,
+            "bangumi_comments": 33,
+            "bangumi_character_id": 10972,
+            "bangumi_url": "https://bgm.tv/character/10972",
+            "combined_favourites": 407,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "interpersonal",
+              "mischievous",
+              "rude",
+              "shy",
+              "sloppy",
+              "social",
+              "strange",
+              "whimsical"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.64787975,
+            "row_weight": 2.64787975,
+            "unweighted_row_norm": 7.25333862,
+            "x_raw_score": 6.8457324588,
+            "x_score": 1.6749188688,
+            "amplitude": 1.6749188688,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 5.17081359
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "strange / kind / shy / +9",
+        "support": 3,
+        "variance": 3.1169771504,
+        "seed_descriptor": "strange",
+        "components": [
+          {
+            "descriptor": "strange",
+            "weight": 0.17657601,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.10335665,
+            "similarity_to_seed": 0.64334786,
+            "support": 2
+          },
+          {
+            "descriptor": "shy",
+            "weight": 0.0982842,
+            "similarity_to_seed": 0.62736241,
+            "support": 2
+          },
+          {
+            "descriptor": "blunt",
+            "weight": 0.08880552,
+            "similarity_to_seed": 0.59634369,
+            "support": 2
+          },
+          {
+            "descriptor": "mischievous",
+            "weight": 0.08458428,
+            "similarity_to_seed": 0.69211615,
+            "support": 1
+          },
+          {
+            "descriptor": "rude",
+            "weight": 0.07502381,
+            "similarity_to_seed": 0.65182902,
+            "support": 1
+          },
+          {
+            "descriptor": "sloppy",
+            "weight": 0.0726601,
+            "similarity_to_seed": 0.64147855,
+            "support": 1
+          },
+          {
+            "descriptor": "interpersonal",
+            "weight": 0.0662083,
+            "similarity_to_seed": 0.6123368,
+            "support": 1
+          },
+          {
+            "descriptor": "whimsical",
+            "weight": 0.06224904,
+            "similarity_to_seed": 0.59374571,
+            "support": 1
+          },
+          {
+            "descriptor": "inarticulate",
+            "weight": 0.05808619,
+            "similarity_to_seed": 0.57354908,
+            "support": 1
+          },
+          {
+            "descriptor": "short-tempered",
+            "weight": 0.05779403,
+            "similarity_to_seed": 0.57210488,
+            "support": 1
+          },
+          {
+            "descriptor": "antisocial",
+            "weight": 0.05637187,
+            "similarity_to_seed": 0.56502203,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 3.1169771504,
+        "minimum_y_projection_variance": 0.7792442876,
+        "best_rejected_correlation": 0.9800591484,
+        "best_rejected_lane_cosine": 0.7973010496,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": 0.9800591484,
+        "candidate_count": 18,
+        "x_component_count": 12,
+        "y_candidates_after_component_exclusion": 17,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.311697715,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.7792442876,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 1.5584885752,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": {
+          "descriptor": "docile / honorable / stubborn",
+          "variance": 2.0418903039,
+          "correlation": 0.9800591484,
+          "abs_correlation": 0.9800591484,
+          "lane_cosine": 0.7973010496,
+          "orthogonality_score": 0.3643110363,
+          "objective": 0.7438831726,
+          "components": [
+            {
+              "descriptor": "docile",
+              "weight": 0.61215164,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "honorable",
+              "weight": 0.19622182,
+              "similarity_to_seed": 0.56616644,
+              "support": 1
+            },
+            {
+              "descriptor": "stubborn",
+              "weight": 0.19162654,
+              "similarity_to_seed": 0.55949771,
+              "support": 1
+            }
+          ]
+        },
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 151895,
+          "name": "Ayane Shirakawa",
+          "anime": "Overflow",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
+          "site_url": "https://anilist.co/character/151895",
+          "favourites": 583,
+          "anilist_favourites": 583,
+          "bangumi_collects": 44,
+          "bangumi_comments": 10,
+          "bangumi_character_id": 73250,
+          "bangumi_url": "https://bgm.tv/character/73250",
+          "combined_favourites": 627,
+          "role_edge_count": 1,
+          "descriptors": [
+            "cheerful",
+            "kind",
+            "self-centered",
+            "stubborn"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.72810193,
+          "row_weight": 2.72810193,
+          "unweighted_row_norm": 3.32322099,
+          "x_raw_score": 3.0175385586,
+          "x_score": -2.4198429823,
+          "amplitude": -2.4198429823,
+          "x_direct": true
+        },
+        {
+          "character_id": 13039,
+          "name": "Rin Natsume",
+          "anime": "Little Busters!",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
+          "site_url": "https://anilist.co/character/13039",
+          "favourites": 418,
+          "anilist_favourites": 418,
+          "bangumi_collects": 313,
+          "bangumi_comments": 58,
+          "bangumi_character_id": 359,
+          "bangumi_url": "https://bgm.tv/character/359",
+          "combined_favourites": 731,
+          "role_edge_count": 1,
+          "descriptors": [
+            "antisocial",
+            "blunt",
+            "docile",
+            "honorable",
+            "inarticulate",
+            "kind",
+            "short-tempered",
+            "shy"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.75604436,
+          "row_weight": 2.75604436,
+          "unweighted_row_norm": 6.38960275,
+          "x_raw_score": 6.1146345783,
+          "x_score": 0.6772530375,
+          "amplitude": 0.6772530375,
+          "x_direct": true
+        },
+        {
+          "character_id": 80893,
+          "name": "Makina Irisu",
+          "anime": "The Fruit of Grisaia",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+          "site_url": "https://anilist.co/character/80893",
+          "favourites": 261,
+          "anilist_favourites": 261,
+          "bangumi_collects": 146,
+          "bangumi_comments": 33,
+          "bangumi_character_id": 10972,
+          "bangumi_url": "https://bgm.tv/character/10972",
+          "combined_favourites": 407,
+          "role_edge_count": 1,
+          "descriptors": [
+            "blunt",
+            "interpersonal",
+            "mischievous",
+            "rude",
+            "shy",
+            "sloppy",
+            "social",
+            "strange",
+            "whimsical"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.64787975,
+          "row_weight": 2.64787975,
+          "unweighted_row_norm": 7.25333862,
+          "x_raw_score": 7.1799714856,
+          "x_score": 1.7425899448,
+          "amplitude": 1.7425899448,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 5.4373815408
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 0.8823890214,
+      "mass_percent": 3.531179,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 33.826267,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "self-centered",
+            "amplitude": 0.3293091736,
+            "abs_amplitude": 0.3293091736,
+            "percent": 95.380847
+          },
+          {
+            "rank": 2,
+            "descriptor": "cheerful",
+            "amplitude": 0.015947955,
+            "abs_amplitude": 0.015947955,
+            "percent": 4.619153
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "self-centered",
+            "fit_percent": 33.799821,
+            "residual_gain_percent": 11.424279
+          },
+          {
+            "step": 2,
+            "descriptor": "cheerful",
+            "fit_percent": 33.826267,
+            "residual_gain_percent": 0.02019
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 151895,
+            "name": "Ayane Shirakawa",
+            "anime": "Overflow",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b151895-49XfxCyIUHG8.png",
+            "site_url": "https://anilist.co/character/151895",
+            "favourites": 583,
+            "anilist_favourites": 583,
+            "bangumi_collects": 44,
+            "bangumi_comments": 10,
+            "bangumi_character_id": 73250,
+            "bangumi_url": "https://bgm.tv/character/73250",
+            "combined_favourites": 627,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cheerful",
+              "kind",
+              "self-centered",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.72810193,
+            "row_weight": 2.72810193,
+            "unweighted_row_norm": 3.32322099,
+            "amplitude": 0.8110274234,
+            "abs_amplitude": 0.8110274234,
+            "percent": 65.776548
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 27.671805,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "perverted",
+            "amplitude": 0.1273498583,
+            "abs_amplitude": 0.1273498583,
+            "percent": 40.289679
+          },
+          {
+            "rank": 2,
+            "descriptor": "sloppy",
+            "amplitude": 0.1002229295,
+            "abs_amplitude": 0.1002229295,
+            "percent": 31.707532
+          },
+          {
+            "rank": 3,
+            "descriptor": "strange",
+            "amplitude": 0.0885127708,
+            "abs_amplitude": 0.0885127708,
+            "percent": 28.002789
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "perverted",
+            "fit_percent": 24.943333,
+            "residual_gain_percent": 6.221698
+          },
+          {
+            "step": 2,
+            "descriptor": "sloppy",
+            "fit_percent": 26.967536,
+            "residual_gain_percent": 1.120495
+          },
+          {
+            "step": 3,
+            "descriptor": "strange",
+            "fit_percent": 27.671805,
+            "residual_gain_percent": 0.414988
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 80893,
+            "name": "Makina Irisu",
+            "anime": "The Fruit of Grisaia",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n80893-qYexb8DbTG0E.jpg",
+            "site_url": "https://anilist.co/character/80893",
+            "favourites": 261,
+            "anilist_favourites": 261,
+            "bangumi_collects": 146,
+            "bangumi_comments": 33,
+            "bangumi_character_id": 10972,
+            "bangumi_url": "https://bgm.tv/character/10972",
+            "combined_favourites": 407,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "interpersonal",
+              "mischievous",
+              "rude",
+              "shy",
+              "sloppy",
+              "social",
+              "strange",
+              "whimsical"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.64787975,
+            "row_weight": 2.64787975,
+            "unweighted_row_norm": 7.25333862,
+            "amplitude": -0.4836110635,
+            "abs_amplitude": 0.4836110635,
+            "percent": 23.387966
+          },
+          {
+            "character_id": 13039,
+            "name": "Rin Natsume",
+            "anime": "Little Busters!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13039-551KfJagkcH6.png",
+            "site_url": "https://anilist.co/character/13039",
+            "favourites": 418,
+            "anilist_favourites": 418,
+            "bangumi_collects": 313,
+            "bangumi_comments": 58,
+            "bangumi_character_id": 359,
+            "bangumi_url": "https://bgm.tv/character/359",
+            "combined_favourites": 731,
+            "role_edge_count": 1,
+            "descriptors": [
+              "antisocial",
+              "blunt",
+              "docile",
+              "honorable",
+              "inarticulate",
+              "kind",
+              "short-tempered",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75604436,
+            "row_weight": 2.75604436,
+            "unweighted_row_norm": 6.38960275,
+            "amplitude": -0.3291729906,
+            "abs_amplitude": 0.3291729906,
+            "percent": 10.835486
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.565942738,
+      "mass_percent": 94.549763,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 0.8823890214,
+      "mass_percent": 3.531179,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 0.6504954902,
+      "mass_percent": 1.919058,
+      "relative_to_sv2_percent": 73.719808
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

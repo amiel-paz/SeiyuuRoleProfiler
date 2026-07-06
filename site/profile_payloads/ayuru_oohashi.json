@@ -11,1010 +11,70 @@
     "ayuru oohashi",
     "oohashi ayuru"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ayuru_oohashi.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.800717291,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.800717291,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 163.452241,
-      "normalized_entanglement": 0.425657,
-      "top5_mass_percent": 9.134884,
-      "top10_mass_percent": 14.028616
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5164893787,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.0925568777,
-        "abs_amplitude": 0.0925568777,
-        "raw_amplitude": 0.2776706332,
-        "percent": 27.767063,
-        "raw_percent": 27.767063,
-        "coverage_percent": 27.767063,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
+        "descriptor": "mischievous",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.51648938,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 7631,
             "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
             "anime": "Strike Witches",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
             "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.2776706332,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "mistake-prone / failure-prone / screw-up-prone",
-        "descriptor_index": 4866,
-        "amplitude": 0.0489620012,
-        "abs_amplitude": 0.0489620012,
-        "raw_amplitude": 0.1468860035,
-        "percent": 14.6886,
-        "raw_percent": 14.6886,
-        "coverage_percent": 42.455664,
-        "member_count": 3,
-        "members": [
-          "mistake-prone",
-          "failure-prone",
-          "screw-up-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.1468860035,
-            "similarity": 0.914093,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "fortune-teller",
-        "descriptor_index": 2744,
-        "amplitude": 0.040474062,
-        "abs_amplitude": 0.040474062,
-        "raw_amplitude": 0.121422186,
-        "percent": 12.142219,
-        "raw_percent": 12.142219,
-        "coverage_percent": 54.597882,
-        "member_count": 1,
-        "members": [
-          "fortune-teller"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.121422186,
-            "similarity": 1.0,
-            "matched_descriptor": "fortune-teller"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sloppy undependable / unreliable / sloppy / irresponsible",
-        "descriptor_index": 6975,
-        "amplitude": 0.0200730617,
-        "abs_amplitude": 0.0200730617,
-        "raw_amplitude": 0.0602191851,
-        "percent": 6.021919,
-        "raw_percent": 6.021919,
-        "coverage_percent": 60.619801,
-        "member_count": 4,
-        "members": [
-          "sloppy undependable",
-          "unreliable",
-          "sloppy",
-          "irresponsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0602191851,
-            "similarity": 0.871903,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "suspicious / untrustworthy / mistrustful / uncertain / +2",
-        "descriptor_index": 7568,
-        "amplitude": 0.0200629123,
-        "abs_amplitude": 0.0200629123,
-        "raw_amplitude": 0.060188737,
-        "percent": 6.018874,
-        "raw_percent": 6.018874,
-        "coverage_percent": 66.638674,
-        "member_count": 6,
-        "members": [
-          "suspicious",
-          "untrustworthy",
-          "mistrustful",
-          "uncertain",
-          "unsure",
-          "cautious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0601887369,
-            "similarity": 0.849291,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "impish / devious",
-        "descriptor_index": 3783,
-        "amplitude": 0.0198948002,
-        "abs_amplitude": 0.0198948002,
-        "raw_amplitude": 0.0596844005,
-        "percent": 5.96844,
-        "raw_percent": 5.96844,
-        "coverage_percent": 72.607115,
-        "member_count": 2,
-        "members": [
-          "impish",
-          "devious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0596844005,
-            "similarity": 0.887841,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "erratic / fickle / unstable / chaotic / +1",
-        "descriptor_index": 2218,
-        "amplitude": 0.0189528425,
-        "abs_amplitude": 0.0189528425,
-        "raw_amplitude": 0.0568585274,
-        "percent": 5.685853,
-        "raw_percent": 5.685853,
-        "coverage_percent": 78.292967,
-        "member_count": 5,
-        "members": [
-          "erratic",
-          "fickle",
-          "unstable",
-          "chaotic",
-          "volatile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0568585274,
-            "similarity": 0.852122,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "path-seer",
-        "descriptor_index": 5490,
-        "amplitude": 0.0138665006,
-        "abs_amplitude": 0.0138665006,
-        "raw_amplitude": 0.0415995019,
-        "percent": 4.15995,
-        "raw_percent": 4.15995,
-        "coverage_percent": 82.452917,
-        "member_count": 1,
-        "members": [
-          "path-seer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0415995019,
-            "similarity": 0.883947,
-            "matched_descriptor": "fortune-teller"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "cunning",
-        "descriptor_index": 1537,
-        "amplitude": 0.0126341139,
-        "abs_amplitude": 0.0126341139,
-        "raw_amplitude": 0.0379023416,
-        "percent": 3.790234,
-        "raw_percent": 3.790234,
-        "coverage_percent": 86.243152,
-        "member_count": 1,
-        "members": [
-          "cunning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0379023416,
-            "similarity": 0.883282,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "goofy",
-        "descriptor_index": 3110,
-        "amplitude": 0.0120015417,
-        "abs_amplitude": 0.0120015417,
-        "raw_amplitude": 0.036004625,
-        "percent": 3.600463,
-        "raw_percent": 3.600463,
-        "coverage_percent": 89.843614,
-        "member_count": 1,
-        "members": [
-          "goofy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.036004625,
-            "similarity": 0.883043,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prank-victim",
-        "descriptor_index": 5815,
-        "amplitude": 0.0118683768,
-        "abs_amplitude": 0.0118683768,
-        "raw_amplitude": 0.0356051303,
-        "percent": 3.560513,
-        "raw_percent": 3.560513,
-        "coverage_percent": 93.404127,
-        "member_count": 1,
-        "members": [
-          "prank-victim"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0356051303,
-            "similarity": 0.870644,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "angelic-being",
-        "descriptor_index": 239,
-        "amplitude": 0.0048314896,
-        "abs_amplitude": 0.0048314896,
-        "raw_amplitude": 0.0144944688,
-        "percent": 1.449447,
-        "raw_percent": 1.449447,
-        "coverage_percent": 94.853574,
-        "member_count": 1,
-        "members": [
-          "angelic-being"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0144944688,
-            "similarity": 0.847139,
-            "matched_descriptor": "fortune-teller"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unbelieving",
-        "descriptor_index": 8065,
-        "amplitude": 0.003403192,
-        "abs_amplitude": 0.003403192,
-        "raw_amplitude": 0.0102095759,
-        "percent": 1.020958,
-        "raw_percent": 1.020958,
-        "coverage_percent": 95.874532,
-        "member_count": 1,
-        "members": [
-          "unbelieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0102095759,
-            "similarity": 0.815991,
-            "matched_descriptor": "questionable accuracy"
+            "combined_favourites": 206
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.0925568777,
-        "abs_amplitude": 0.0925568777,
-        "raw_amplitude": 0.2776706332,
-        "percent": 27.767063,
-        "raw_percent": 27.767063,
-        "coverage_percent": 27.767063,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
+        "step": 1,
+        "descriptor": "mischievous",
+        "weighted_support": 2.51648938,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.2776706332,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "mistake-prone / failure-prone / screw-up-prone",
-        "descriptor_index": 4866,
-        "amplitude": 0.0489620012,
-        "abs_amplitude": 0.0489620012,
-        "raw_amplitude": 0.1468860035,
-        "percent": 14.6886,
-        "raw_percent": 14.6886,
-        "coverage_percent": 42.455664,
-        "member_count": 3,
-        "members": [
-          "mistake-prone",
-          "failure-prone",
-          "screw-up-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.1468860035,
-            "similarity": 0.914093,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "fortune-teller",
-        "descriptor_index": 2744,
-        "amplitude": 0.040474062,
-        "abs_amplitude": 0.040474062,
-        "raw_amplitude": 0.121422186,
-        "percent": 12.142219,
-        "raw_percent": 12.142219,
-        "coverage_percent": 54.597882,
-        "member_count": 1,
-        "members": [
-          "fortune-teller"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.121422186,
-            "similarity": 1.0,
-            "matched_descriptor": "fortune-teller"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sloppy undependable / unreliable / sloppy / irresponsible",
-        "descriptor_index": 6975,
-        "amplitude": 0.0200730617,
-        "abs_amplitude": 0.0200730617,
-        "raw_amplitude": 0.0602191851,
-        "percent": 6.021919,
-        "raw_percent": 6.021919,
-        "coverage_percent": 60.619801,
-        "member_count": 4,
-        "members": [
-          "sloppy undependable",
-          "unreliable",
-          "sloppy",
-          "irresponsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0602191851,
-            "similarity": 0.871903,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "suspicious / untrustworthy / mistrustful / uncertain / +2",
-        "descriptor_index": 7568,
-        "amplitude": 0.0200629123,
-        "abs_amplitude": 0.0200629123,
-        "raw_amplitude": 0.060188737,
-        "percent": 6.018874,
-        "raw_percent": 6.018874,
-        "coverage_percent": 66.638674,
-        "member_count": 6,
-        "members": [
-          "suspicious",
-          "untrustworthy",
-          "mistrustful",
-          "uncertain",
-          "unsure",
-          "cautious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0601887369,
-            "similarity": 0.849291,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "impish / devious",
-        "descriptor_index": 3783,
-        "amplitude": 0.0198948002,
-        "abs_amplitude": 0.0198948002,
-        "raw_amplitude": 0.0596844005,
-        "percent": 5.96844,
-        "raw_percent": 5.96844,
-        "coverage_percent": 72.607115,
-        "member_count": 2,
-        "members": [
-          "impish",
-          "devious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0596844005,
-            "similarity": 0.887841,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "erratic / fickle / unstable / chaotic / +1",
-        "descriptor_index": 2218,
-        "amplitude": 0.0189528425,
-        "abs_amplitude": 0.0189528425,
-        "raw_amplitude": 0.0568585274,
-        "percent": 5.685853,
-        "raw_percent": 5.685853,
-        "coverage_percent": 78.292967,
-        "member_count": 5,
-        "members": [
-          "erratic",
-          "fickle",
-          "unstable",
-          "chaotic",
-          "volatile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0568585274,
-            "similarity": 0.852122,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "path-seer",
-        "descriptor_index": 5490,
-        "amplitude": 0.0138665006,
-        "abs_amplitude": 0.0138665006,
-        "raw_amplitude": 0.0415995019,
-        "percent": 4.15995,
-        "raw_percent": 4.15995,
-        "coverage_percent": 82.452917,
-        "member_count": 1,
-        "members": [
-          "path-seer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0415995019,
-            "similarity": 0.883947,
-            "matched_descriptor": "fortune-teller"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "cunning",
-        "descriptor_index": 1537,
-        "amplitude": 0.0126341139,
-        "abs_amplitude": 0.0126341139,
-        "raw_amplitude": 0.0379023416,
-        "percent": 3.790234,
-        "raw_percent": 3.790234,
-        "coverage_percent": 86.243152,
-        "member_count": 1,
-        "members": [
-          "cunning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0379023416,
-            "similarity": 0.883282,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "goofy",
-        "descriptor_index": 3110,
-        "amplitude": 0.0120015417,
-        "abs_amplitude": 0.0120015417,
-        "raw_amplitude": 0.036004625,
-        "percent": 3.600463,
-        "raw_percent": 3.600463,
-        "coverage_percent": 89.843614,
-        "member_count": 1,
-        "members": [
-          "goofy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.036004625,
-            "similarity": 0.883043,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prank-victim",
-        "descriptor_index": 5815,
-        "amplitude": 0.0118683768,
-        "abs_amplitude": 0.0118683768,
-        "raw_amplitude": 0.0356051303,
-        "percent": 3.560513,
-        "raw_percent": 3.560513,
-        "coverage_percent": 93.404127,
-        "member_count": 1,
-        "members": [
-          "prank-victim"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0356051303,
-            "similarity": 0.870644,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "angelic-being",
-        "descriptor_index": 239,
-        "amplitude": 0.0048314896,
-        "abs_amplitude": 0.0048314896,
-        "raw_amplitude": 0.0144944688,
-        "percent": 1.449447,
-        "raw_percent": 1.449447,
-        "coverage_percent": 94.853574,
-        "member_count": 1,
-        "members": [
-          "angelic-being"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0144944688,
-            "similarity": 0.847139,
-            "matched_descriptor": "fortune-teller"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unbelieving",
-        "descriptor_index": 8065,
-        "amplitude": 0.003403192,
-        "abs_amplitude": 0.003403192,
-        "raw_amplitude": 0.0102095759,
-        "percent": 1.020958,
-        "raw_percent": 1.020958,
-        "coverage_percent": 95.874532,
-        "member_count": 1,
-        "members": [
-          "unbelieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 7631,
-            "name": "Eila Ilmatar Juutilainen",
-            "native_name": "エイラ・イルマタル・ユーティライネン",
-            "anime": "Strike Witches",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
-            "site_url": "https://anilist.co/character/7631",
-            "anime_url": "https://myanimelist.net/anime/3667",
-            "role": "MAIN",
-            "favourites": 111,
-            "row_weight": 2.3913383,
-            "projection": 0.0102095759,
-            "similarity": 0.815991,
-            "matched_descriptor": "questionable accuracy"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 7631,
         "name": "Eila Ilmatar Juutilainen",
-        "native_name": "エイラ・イルマタル・ユーティライネン",
         "anime": "Strike Witches",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
         "site_url": "https://anilist.co/character/7631",
-        "anime_url": "https://myanimelist.net/anime/3667",
-        "role": "MAIN",
         "favourites": 111,
-        "row_weight": 2.3913383,
+        "anilist_favourites": 111,
+        "bangumi_collects": 95,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 2093,
+        "bangumi_url": "https://bgm.tv/character/2093",
+        "combined_favourites": 206,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mischievous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.51648938,
+        "row_weight": 2.51648938,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1024,19 +84,67 @@
       {
         "character_id": 7631,
         "name": "Eila Ilmatar Juutilainen",
-        "native_name": "エイラ・イルマタル・ユーティライネン",
         "anime": "Strike Witches",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b7631-cp3Jg63PYTsk.png",
         "site_url": "https://anilist.co/character/7631",
-        "anime_url": "https://myanimelist.net/anime/3667",
-        "role": "MAIN",
         "favourites": 111,
-        "row_weight": 2.3913383,
+        "anilist_favourites": 111,
+        "bangumi_collects": 95,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 2093,
+        "bangumi_url": "https://bgm.tv/character/2093",
+        "combined_favourites": 206,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mischievous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.51648938,
+        "row_weight": 2.51648938,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5164893787,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

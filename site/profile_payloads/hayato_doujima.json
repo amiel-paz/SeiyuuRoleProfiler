@@ -11,968 +11,98 @@
     "doujima hayato",
     "hayato doujima"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/hayato_doujima.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.2668134999,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.2668134999,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 109.32113,
-      "normalized_entanglement": 0.28469,
-      "top5_mass_percent": 13.557054,
-      "top10_mass_percent": 20.926598
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5537151207,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "bad-tempered / ill-tempered / grumpy / quick-tempered / +5",
-        "descriptor_index": 532,
-        "amplitude": 0.1376276947,
-        "abs_amplitude": 0.1376276947,
-        "raw_amplitude": 0.4128830841,
-        "percent": 41.288308,
-        "raw_percent": 41.288308,
-        "coverage_percent": 41.288308,
-        "member_count": 9,
-        "members": [
-          "bad-tempered",
-          "ill-tempered",
-          "grumpy",
-          "quick-tempered",
-          "annoyed-prone",
-          "irritable",
-          "grouchy",
-          "cranky",
-          "furious"
-        ],
+        "descriptor": "reserved",
+        "amplitude": 0.5661058207,
+        "abs_amplitude": 0.5661058207,
+        "percent": 50.0,
+        "weighted_support": 2.55371512,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 145058,
             "name": "Seo-Jun Han",
-            "native_name": "한서준",
             "anime": "True Beauty",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
             "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.4128830841,
-            "similarity": 1.0,
-            "matched_descriptor": "bad-tempered"
+            "combined_favourites": 249
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "hot-tempered / hot-headed / friction-prone / short-tempered / +3",
-        "descriptor_index": 3588,
-        "amplitude": 0.041691866,
-        "abs_amplitude": 0.041691866,
-        "raw_amplitude": 0.1250755979,
-        "percent": 12.50756,
-        "raw_percent": 12.50756,
-        "coverage_percent": 53.795868,
-        "member_count": 7,
-        "members": [
-          "hot-tempered",
-          "hot-headed",
-          "friction-prone",
-          "short-tempered",
-          "short-temperedness",
-          "temperamental",
-          "prone-to-anger"
-        ],
+        "descriptor": "bad-tempered",
+        "amplitude": 0.5661058207,
+        "abs_amplitude": 0.5661058207,
+        "percent": 50.0,
+        "weighted_support": 2.55371512,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 145058,
             "name": "Seo-Jun Han",
-            "native_name": "한서준",
             "anime": "True Beauty",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
             "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.125075598,
-            "similarity": 0.898088,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.0283957503,
-        "abs_amplitude": 0.0283957503,
-        "raw_amplitude": 0.0851872508,
-        "percent": 8.518725,
-        "raw_percent": 8.518725,
-        "coverage_percent": 62.314593,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0851872508,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "impatient / displeased / aggravated / irritated / +2",
-        "descriptor_index": 3773,
-        "amplitude": 0.0256380041,
-        "abs_amplitude": 0.0256380041,
-        "raw_amplitude": 0.0769140124,
-        "percent": 7.691401,
-        "raw_percent": 7.691401,
-        "coverage_percent": 70.005995,
-        "member_count": 6,
-        "members": [
-          "impatient",
-          "displeased",
-          "aggravated",
-          "irritated",
-          "dissatisfied",
-          "annoyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0769140124,
-            "similarity": 0.892348,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "cold / cold-blooded / disinterested / indifferent / +5",
-        "descriptor_index": 1222,
-        "amplitude": 0.0231612893,
-        "abs_amplitude": 0.0231612893,
-        "raw_amplitude": 0.0694838678,
-        "percent": 6.948387,
-        "raw_percent": 6.948387,
-        "coverage_percent": 76.954381,
-        "member_count": 9,
-        "members": [
-          "cold",
-          "cold-blooded",
-          "disinterested",
-          "indifferent",
-          "numb",
-          "unconcerned",
-          "standoffish",
-          "uncaring",
-          "unsocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0694838677,
-            "similarity": 0.884419,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "enraged / mad / angry",
-        "descriptor_index": 2197,
-        "amplitude": 0.020613426,
-        "abs_amplitude": 0.020613426,
-        "raw_amplitude": 0.0618402779,
-        "percent": 6.184028,
-        "raw_percent": 6.184028,
-        "coverage_percent": 83.138409,
-        "member_count": 3,
-        "members": [
-          "enraged",
-          "mad",
-          "angry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0618402778,
-            "similarity": 0.894545,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "pro-musician",
-        "descriptor_index": 5881,
-        "amplitude": 0.0168294439,
-        "abs_amplitude": 0.0168294439,
-        "raw_amplitude": 0.0504883318,
-        "percent": 5.048833,
-        "raw_percent": 5.048833,
-        "coverage_percent": 88.187242,
-        "member_count": 1,
-        "members": [
-          "pro-musician"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0504883318,
-            "similarity": 0.933196,
-            "matched_descriptor": "great singer"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "moody",
-        "descriptor_index": 4925,
-        "amplitude": 0.0085132892,
-        "abs_amplitude": 0.0085132892,
-        "raw_amplitude": 0.0255398677,
-        "percent": 2.553987,
-        "raw_percent": 2.553987,
-        "coverage_percent": 90.741229,
-        "member_count": 1,
-        "members": [
-          "moody"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0255398677,
-            "similarity": 0.897752,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "absent",
-        "descriptor_index": 15,
-        "amplitude": 0.0059808224,
-        "abs_amplitude": 0.0059808224,
-        "raw_amplitude": 0.0179424672,
-        "percent": 1.794247,
-        "raw_percent": 1.794247,
-        "coverage_percent": 92.535476,
-        "member_count": 1,
-        "members": [
-          "absent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0179424672,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "annoying / irritating",
-        "descriptor_index": 264,
-        "amplitude": 0.0040791451,
-        "abs_amplitude": 0.0040791451,
-        "raw_amplitude": 0.0122374353,
-        "percent": 1.223744,
-        "raw_percent": 1.223744,
-        "coverage_percent": 93.759219,
-        "member_count": 2,
-        "members": [
-          "annoying",
-          "irritating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0122374353,
-            "similarity": 0.864894,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "rough / brusque",
-        "descriptor_index": 6367,
-        "amplitude": 0.0035779461,
-        "abs_amplitude": 0.0035779461,
-        "raw_amplitude": 0.0107338384,
-        "percent": 1.073384,
-        "raw_percent": 1.073384,
-        "coverage_percent": 94.832603,
-        "member_count": 2,
-        "members": [
-          "rough",
-          "brusque"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0107338384,
-            "similarity": 0.863657,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "passive-aggressive",
-        "descriptor_index": 5487,
-        "amplitude": 0.0029499753,
-        "abs_amplitude": 0.0029499753,
-        "raw_amplitude": 0.008849926,
-        "percent": 0.884993,
-        "raw_percent": 0.884993,
-        "coverage_percent": 95.717596,
-        "member_count": 1,
-        "members": [
-          "passive-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.008849926,
-            "similarity": 0.873092,
-            "matched_descriptor": "bad-tempered"
+            "combined_favourites": 249
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "bad-tempered / ill-tempered / grumpy / quick-tempered / +5",
-        "descriptor_index": 532,
-        "amplitude": 0.1376276947,
-        "abs_amplitude": 0.1376276947,
-        "raw_amplitude": 0.4128830841,
-        "percent": 41.288308,
-        "raw_percent": 41.288308,
-        "coverage_percent": 41.288308,
-        "member_count": 9,
-        "members": [
-          "bad-tempered",
-          "ill-tempered",
-          "grumpy",
-          "quick-tempered",
-          "annoyed-prone",
-          "irritable",
-          "grouchy",
-          "cranky",
-          "furious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.4128830841,
-            "similarity": 1.0,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "hot-tempered / hot-headed / friction-prone / short-tempered / +3",
-        "descriptor_index": 3588,
-        "amplitude": 0.041691866,
-        "abs_amplitude": 0.041691866,
-        "raw_amplitude": 0.1250755979,
-        "percent": 12.50756,
-        "raw_percent": 12.50756,
-        "coverage_percent": 53.795868,
-        "member_count": 7,
-        "members": [
-          "hot-tempered",
-          "hot-headed",
-          "friction-prone",
-          "short-tempered",
-          "short-temperedness",
-          "temperamental",
-          "prone-to-anger"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.125075598,
-            "similarity": 0.898088,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 3,
+        "step": 1,
         "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.0283957503,
-        "abs_amplitude": 0.0283957503,
-        "raw_amplitude": 0.0851872508,
-        "percent": 8.518725,
-        "raw_percent": 8.518725,
-        "coverage_percent": 62.314593,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
+        "weighted_support": 2.55371512,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0851872508,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
+        "fit_percent": 88.32271,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "impatient / displeased / aggravated / irritated / +2",
-        "descriptor_index": 3773,
-        "amplitude": 0.0256380041,
-        "abs_amplitude": 0.0256380041,
-        "raw_amplitude": 0.0769140124,
-        "percent": 7.691401,
-        "raw_percent": 7.691401,
-        "coverage_percent": 70.005995,
-        "member_count": 6,
-        "members": [
-          "impatient",
-          "displeased",
-          "aggravated",
-          "irritated",
-          "dissatisfied",
-          "annoyed"
-        ],
+        "step": 2,
+        "descriptor": "bad-tempered",
+        "weighted_support": 2.55371512,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0769140124,
-            "similarity": 0.892348,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "cold / cold-blooded / disinterested / indifferent / +5",
-        "descriptor_index": 1222,
-        "amplitude": 0.0231612893,
-        "abs_amplitude": 0.0231612893,
-        "raw_amplitude": 0.0694838678,
-        "percent": 6.948387,
-        "raw_percent": 6.948387,
-        "coverage_percent": 76.954381,
-        "member_count": 9,
-        "members": [
-          "cold",
-          "cold-blooded",
-          "disinterested",
-          "indifferent",
-          "numb",
-          "unconcerned",
-          "standoffish",
-          "uncaring",
-          "unsocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0694838677,
-            "similarity": 0.884419,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "enraged / mad / angry",
-        "descriptor_index": 2197,
-        "amplitude": 0.020613426,
-        "abs_amplitude": 0.020613426,
-        "raw_amplitude": 0.0618402779,
-        "percent": 6.184028,
-        "raw_percent": 6.184028,
-        "coverage_percent": 83.138409,
-        "member_count": 3,
-        "members": [
-          "enraged",
-          "mad",
-          "angry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0618402778,
-            "similarity": 0.894545,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "pro-musician",
-        "descriptor_index": 5881,
-        "amplitude": 0.0168294439,
-        "abs_amplitude": 0.0168294439,
-        "raw_amplitude": 0.0504883318,
-        "percent": 5.048833,
-        "raw_percent": 5.048833,
-        "coverage_percent": 88.187242,
-        "member_count": 1,
-        "members": [
-          "pro-musician"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0504883318,
-            "similarity": 0.933196,
-            "matched_descriptor": "great singer"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "moody",
-        "descriptor_index": 4925,
-        "amplitude": 0.0085132892,
-        "abs_amplitude": 0.0085132892,
-        "raw_amplitude": 0.0255398677,
-        "percent": 2.553987,
-        "raw_percent": 2.553987,
-        "coverage_percent": 90.741229,
-        "member_count": 1,
-        "members": [
-          "moody"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0255398677,
-            "similarity": 0.897752,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "absent",
-        "descriptor_index": 15,
-        "amplitude": 0.0059808224,
-        "abs_amplitude": 0.0059808224,
-        "raw_amplitude": 0.0179424672,
-        "percent": 1.794247,
-        "raw_percent": 1.794247,
-        "coverage_percent": 92.535476,
-        "member_count": 1,
-        "members": [
-          "absent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0179424672,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "annoying / irritating",
-        "descriptor_index": 264,
-        "amplitude": 0.0040791451,
-        "abs_amplitude": 0.0040791451,
-        "raw_amplitude": 0.0122374353,
-        "percent": 1.223744,
-        "raw_percent": 1.223744,
-        "coverage_percent": 93.759219,
-        "member_count": 2,
-        "members": [
-          "annoying",
-          "irritating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0122374353,
-            "similarity": 0.864894,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "rough / brusque",
-        "descriptor_index": 6367,
-        "amplitude": 0.0035779461,
-        "abs_amplitude": 0.0035779461,
-        "raw_amplitude": 0.0107338384,
-        "percent": 1.073384,
-        "raw_percent": 1.073384,
-        "coverage_percent": 94.832603,
-        "member_count": 2,
-        "members": [
-          "rough",
-          "brusque"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.0107338384,
-            "similarity": 0.863657,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "passive-aggressive",
-        "descriptor_index": 5487,
-        "amplitude": 0.0029499753,
-        "abs_amplitude": 0.0029499753,
-        "raw_amplitude": 0.008849926,
-        "percent": 0.884993,
-        "raw_percent": 0.884993,
-        "coverage_percent": 95.717596,
-        "member_count": 1,
-        "members": [
-          "passive-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 145058,
-            "name": "Seo-Jun Han",
-            "native_name": "한서준",
-            "anime": "True Beauty",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
-            "site_url": "https://anilist.co/character/145058",
-            "anime_url": "https://myanimelist.net/anime/57192",
-            "role": "MAIN",
-            "favourites": 249,
-            "row_weight": 2.55371512,
-            "projection": 0.008849926,
-            "similarity": 0.873092,
-            "matched_descriptor": "bad-tempered"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 145058,
         "name": "Seo-Jun Han",
-        "native_name": "한서준",
         "anime": "True Beauty",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
         "site_url": "https://anilist.co/character/145058",
-        "anime_url": "https://myanimelist.net/anime/57192",
-        "role": "MAIN",
         "favourites": 249,
+        "anilist_favourites": 249,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 158743,
+        "bangumi_url": "https://bgm.tv/character/158743",
+        "combined_favourites": 249,
+        "role_edge_count": 1,
+        "descriptors": [
+          "bad-tempered",
+          "reserved"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.55371512,
         "row_weight": 2.55371512,
+        "unweighted_row_norm": 1.76645419,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -982,19 +112,68 @@
       {
         "character_id": 145058,
         "name": "Seo-Jun Han",
-        "native_name": "한서준",
         "anime": "True Beauty",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b145058-b2ZQIfi5iolY.jpg",
         "site_url": "https://anilist.co/character/145058",
-        "anime_url": "https://myanimelist.net/anime/57192",
-        "role": "MAIN",
         "favourites": 249,
+        "anilist_favourites": 249,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 158743,
+        "bangumi_url": "https://bgm.tv/character/158743",
+        "combined_favourites": 249,
+        "role_edge_count": 1,
+        "descriptors": [
+          "bad-tempered",
+          "reserved"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.55371512,
         "row_weight": 2.55371512,
+        "unweighted_row_norm": 1.76645419,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5537151207,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

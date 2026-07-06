@@ -19,23 +19,23 @@
   },
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.7148099696,
+    "singular_value": 0.9999983259,
     "singular_spectrum": [
       {
         "rank": 1,
-        "singular_value": 7.7148099696,
+        "singular_value": 0.9999983259,
         "mass_percent": 100.0
       }
     ],
-    "row_weight_mode": "sqrt_log_favourites",
+    "row_weight_mode": "none",
     "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
+    "profile_center": "none",
     "character_space": "raw",
     "basis_participation": {
-      "effective_count": 330.749245,
-      "normalized_entanglement": 0.861326,
-      "top5_mass_percent": 2.881057,
-      "top10_mass_percent": 5.428767
+      "effective_count": 123.121393,
+      "normalized_entanglement": 0.320629,
+      "top5_mass_percent": 11.365064,
+      "top10_mass_percent": 17.657625
     },
     "character_participation": {
       "effective_count": 1.0,
@@ -59,13 +59,13 @@
       {
         "rank": 1,
         "descriptor": "injured / damaged / scarred / hurt",
-        "descriptor_index": 3888,
-        "amplitude": 0.1836075894,
-        "abs_amplitude": 0.1836075894,
-        "raw_amplitude": 0.5508227682,
-        "percent": 55.082277,
-        "raw_percent": 55.082277,
-        "coverage_percent": 55.082277,
+        "descriptor_index": 2877,
+        "amplitude": 0.202451771,
+        "abs_amplitude": 0.202451771,
+        "raw_amplitude": 0.6073553129,
+        "percent": 60.735531,
+        "raw_percent": 60.735531,
+        "coverage_percent": 60.735531,
         "member_count": 4,
         "members": [
           "injured",
@@ -87,8 +87,8 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.5508227682,
+            "row_weight": 1.0,
+            "projection": 0.6073553129,
             "similarity": 1.0,
             "matched_descriptor": "injured"
           }
@@ -97,13 +97,13 @@
       {
         "rank": 2,
         "descriptor": "self-harming / self-abusive",
-        "descriptor_index": 6635,
-        "amplitude": 0.0528436955,
-        "abs_amplitude": 0.0528436955,
-        "raw_amplitude": 0.1585310865,
-        "percent": 15.853109,
-        "raw_percent": 15.853109,
-        "coverage_percent": 70.935385,
+        "descriptor_index": 4891,
+        "amplitude": 0.0553267451,
+        "abs_amplitude": 0.0553267451,
+        "raw_amplitude": 0.1659802353,
+        "percent": 16.598024,
+        "raw_percent": 16.598024,
+        "coverage_percent": 77.333555,
         "member_count": 2,
         "members": [
           "self-harming",
@@ -123,8 +123,8 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.1585310865,
+            "row_weight": 1.0,
+            "projection": 0.1659802353,
             "similarity": 0.890042,
             "matched_descriptor": "injured"
           }
@@ -132,14 +132,49 @@
       },
       {
         "rank": 3,
+        "descriptor": "broken",
+        "descriptor_index": 606,
+        "amplitude": 0.0267435848,
+        "abs_amplitude": 0.0267435848,
+        "raw_amplitude": 0.0802307543,
+        "percent": 8.023075,
+        "raw_percent": 8.023075,
+        "coverage_percent": 85.35663,
+        "member_count": 1,
+        "members": [
+          "broken"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 122871,
+            "name": "Kumatetsu",
+            "native_name": "熊徹",
+            "anime": "The Boy and the Beast",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
+            "site_url": "https://anilist.co/character/122871",
+            "anime_url": "https://myanimelist.net/anime/28805",
+            "role": "MAIN",
+            "favourites": 353,
+            "row_weight": 1.0,
+            "projection": 0.0802307543,
+            "similarity": 0.880247,
+            "matched_descriptor": "injured"
+          }
+        ]
+      },
+      {
+        "rank": 4,
         "descriptor": "painful / tormented",
-        "descriptor_index": 5442,
-        "amplitude": 0.0280584329,
-        "abs_amplitude": 0.0280584329,
-        "raw_amplitude": 0.0841752986,
-        "percent": 8.41753,
-        "raw_percent": 8.41753,
-        "coverage_percent": 79.352915,
+        "descriptor_index": 4024,
+        "amplitude": 0.0258325793,
+        "abs_amplitude": 0.0258325793,
+        "raw_amplitude": 0.0774977379,
+        "percent": 7.749774,
+        "raw_percent": 7.749774,
+        "coverage_percent": 93.106404,
         "member_count": 2,
         "members": [
           "painful",
@@ -159,44 +194,9 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.0841752986,
+            "row_weight": 1.0,
+            "projection": 0.0774977379,
             "similarity": 0.884078,
-            "matched_descriptor": "injured"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "broken",
-        "descriptor_index": 833,
-        "amplitude": 0.0260603453,
-        "abs_amplitude": 0.0260603453,
-        "raw_amplitude": 0.0781810359,
-        "percent": 7.818104,
-        "raw_percent": 7.818104,
-        "coverage_percent": 87.171019,
-        "member_count": 1,
-        "members": [
-          "broken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122871,
-            "name": "Kumatetsu",
-            "native_name": "熊徹",
-            "anime": "The Boy and the Beast",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
-            "site_url": "https://anilist.co/character/122871",
-            "anime_url": "https://myanimelist.net/anime/28805",
-            "role": "MAIN",
-            "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.0781810359,
-            "similarity": 0.880247,
             "matched_descriptor": "injured"
           }
         ]
@@ -204,13 +204,13 @@
       {
         "rank": 5,
         "descriptor": "disfigured",
-        "descriptor_index": 1852,
-        "amplitude": 0.01060876,
-        "abs_amplitude": 0.01060876,
-        "raw_amplitude": 0.03182628,
-        "percent": 3.182628,
-        "raw_percent": 3.182628,
-        "coverage_percent": 90.353647,
+        "descriptor_index": 1334,
+        "amplitude": 0.0095237914,
+        "abs_amplitude": 0.0095237914,
+        "raw_amplitude": 0.0285713742,
+        "percent": 2.857137,
+        "raw_percent": 2.857137,
+        "coverage_percent": 95.963541,
         "member_count": 1,
         "members": [
           "disfigured"
@@ -229,80 +229,9 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.03182628,
+            "row_weight": 1.0,
+            "projection": 0.0285713742,
             "similarity": 0.843373,
-            "matched_descriptor": "injured"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "crying / teary-eyed",
-        "descriptor_index": 1529,
-        "amplitude": 0.0104276045,
-        "abs_amplitude": 0.0104276045,
-        "raw_amplitude": 0.0312828134,
-        "percent": 3.128281,
-        "raw_percent": 3.128281,
-        "coverage_percent": 93.481928,
-        "member_count": 2,
-        "members": [
-          "crying",
-          "teary-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122871,
-            "name": "Kumatetsu",
-            "native_name": "熊徹",
-            "anime": "The Boy and the Beast",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
-            "site_url": "https://anilist.co/character/122871",
-            "anime_url": "https://myanimelist.net/anime/28805",
-            "role": "MAIN",
-            "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.0312828134,
-            "similarity": 0.839969,
-            "matched_descriptor": "injured"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "patient",
-        "descriptor_index": 5492,
-        "amplitude": 0.007672281,
-        "abs_amplitude": 0.007672281,
-        "raw_amplitude": 0.023016843,
-        "percent": 2.301684,
-        "raw_percent": 2.301684,
-        "coverage_percent": 95.783613,
-        "member_count": 1,
-        "members": [
-          "patient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122871,
-            "name": "Kumatetsu",
-            "native_name": "熊徹",
-            "anime": "The Boy and the Beast",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
-            "site_url": "https://anilist.co/character/122871",
-            "anime_url": "https://myanimelist.net/anime/28805",
-            "role": "MAIN",
-            "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.023016843,
-            "similarity": 0.818969,
             "matched_descriptor": "injured"
           }
         ]
@@ -312,13 +241,13 @@
       {
         "rank": 1,
         "descriptor": "injured / damaged / scarred / hurt",
-        "descriptor_index": 3888,
-        "amplitude": 0.1836075894,
-        "abs_amplitude": 0.1836075894,
-        "raw_amplitude": 0.5508227682,
-        "percent": 55.082277,
-        "raw_percent": 55.082277,
-        "coverage_percent": 55.082277,
+        "descriptor_index": 2877,
+        "amplitude": 0.202451771,
+        "abs_amplitude": 0.202451771,
+        "raw_amplitude": 0.6073553129,
+        "percent": 60.735531,
+        "raw_percent": 60.735531,
+        "coverage_percent": 60.735531,
         "member_count": 4,
         "members": [
           "injured",
@@ -340,8 +269,8 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.5508227682,
+            "row_weight": 1.0,
+            "projection": 0.6073553129,
             "similarity": 1.0,
             "matched_descriptor": "injured"
           }
@@ -350,13 +279,13 @@
       {
         "rank": 2,
         "descriptor": "self-harming / self-abusive",
-        "descriptor_index": 6635,
-        "amplitude": 0.0528436955,
-        "abs_amplitude": 0.0528436955,
-        "raw_amplitude": 0.1585310865,
-        "percent": 15.853109,
-        "raw_percent": 15.853109,
-        "coverage_percent": 70.935385,
+        "descriptor_index": 4891,
+        "amplitude": 0.0553267451,
+        "abs_amplitude": 0.0553267451,
+        "raw_amplitude": 0.1659802353,
+        "percent": 16.598024,
+        "raw_percent": 16.598024,
+        "coverage_percent": 77.333555,
         "member_count": 2,
         "members": [
           "self-harming",
@@ -376,8 +305,8 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.1585310865,
+            "row_weight": 1.0,
+            "projection": 0.1659802353,
             "similarity": 0.890042,
             "matched_descriptor": "injured"
           }
@@ -385,14 +314,49 @@
       },
       {
         "rank": 3,
+        "descriptor": "broken",
+        "descriptor_index": 606,
+        "amplitude": 0.0267435848,
+        "abs_amplitude": 0.0267435848,
+        "raw_amplitude": 0.0802307543,
+        "percent": 8.023075,
+        "raw_percent": 8.023075,
+        "coverage_percent": 85.35663,
+        "member_count": 1,
+        "members": [
+          "broken"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 122871,
+            "name": "Kumatetsu",
+            "native_name": "熊徹",
+            "anime": "The Boy and the Beast",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
+            "site_url": "https://anilist.co/character/122871",
+            "anime_url": "https://myanimelist.net/anime/28805",
+            "role": "MAIN",
+            "favourites": 353,
+            "row_weight": 1.0,
+            "projection": 0.0802307543,
+            "similarity": 0.880247,
+            "matched_descriptor": "injured"
+          }
+        ]
+      },
+      {
+        "rank": 4,
         "descriptor": "painful / tormented",
-        "descriptor_index": 5442,
-        "amplitude": 0.0280584329,
-        "abs_amplitude": 0.0280584329,
-        "raw_amplitude": 0.0841752986,
-        "percent": 8.41753,
-        "raw_percent": 8.41753,
-        "coverage_percent": 79.352915,
+        "descriptor_index": 4024,
+        "amplitude": 0.0258325793,
+        "abs_amplitude": 0.0258325793,
+        "raw_amplitude": 0.0774977379,
+        "percent": 7.749774,
+        "raw_percent": 7.749774,
+        "coverage_percent": 93.106404,
         "member_count": 2,
         "members": [
           "painful",
@@ -412,44 +376,9 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.0841752986,
+            "row_weight": 1.0,
+            "projection": 0.0774977379,
             "similarity": 0.884078,
-            "matched_descriptor": "injured"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "broken",
-        "descriptor_index": 833,
-        "amplitude": 0.0260603453,
-        "abs_amplitude": 0.0260603453,
-        "raw_amplitude": 0.0781810359,
-        "percent": 7.818104,
-        "raw_percent": 7.818104,
-        "coverage_percent": 87.171019,
-        "member_count": 1,
-        "members": [
-          "broken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122871,
-            "name": "Kumatetsu",
-            "native_name": "熊徹",
-            "anime": "The Boy and the Beast",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
-            "site_url": "https://anilist.co/character/122871",
-            "anime_url": "https://myanimelist.net/anime/28805",
-            "role": "MAIN",
-            "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.0781810359,
-            "similarity": 0.880247,
             "matched_descriptor": "injured"
           }
         ]
@@ -457,13 +386,13 @@
       {
         "rank": 5,
         "descriptor": "disfigured",
-        "descriptor_index": 1852,
-        "amplitude": 0.01060876,
-        "abs_amplitude": 0.01060876,
-        "raw_amplitude": 0.03182628,
-        "percent": 3.182628,
-        "raw_percent": 3.182628,
-        "coverage_percent": 90.353647,
+        "descriptor_index": 1334,
+        "amplitude": 0.0095237914,
+        "abs_amplitude": 0.0095237914,
+        "raw_amplitude": 0.0285713742,
+        "percent": 2.857137,
+        "raw_percent": 2.857137,
+        "coverage_percent": 95.963541,
         "member_count": 1,
         "members": [
           "disfigured"
@@ -482,80 +411,9 @@
             "anime_url": "https://myanimelist.net/anime/28805",
             "role": "MAIN",
             "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.03182628,
+            "row_weight": 1.0,
+            "projection": 0.0285713742,
             "similarity": 0.843373,
-            "matched_descriptor": "injured"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "crying / teary-eyed",
-        "descriptor_index": 1529,
-        "amplitude": 0.0104276045,
-        "abs_amplitude": 0.0104276045,
-        "raw_amplitude": 0.0312828134,
-        "percent": 3.128281,
-        "raw_percent": 3.128281,
-        "coverage_percent": 93.481928,
-        "member_count": 2,
-        "members": [
-          "crying",
-          "teary-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122871,
-            "name": "Kumatetsu",
-            "native_name": "熊徹",
-            "anime": "The Boy and the Beast",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
-            "site_url": "https://anilist.co/character/122871",
-            "anime_url": "https://myanimelist.net/anime/28805",
-            "role": "MAIN",
-            "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.0312828134,
-            "similarity": 0.839969,
-            "matched_descriptor": "injured"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "patient",
-        "descriptor_index": 5492,
-        "amplitude": 0.007672281,
-        "abs_amplitude": 0.007672281,
-        "raw_amplitude": 0.023016843,
-        "percent": 2.301684,
-        "raw_percent": 2.301684,
-        "coverage_percent": 95.783613,
-        "member_count": 1,
-        "members": [
-          "patient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122871,
-            "name": "Kumatetsu",
-            "native_name": "熊徹",
-            "anime": "The Boy and the Beast",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122871-u6DZDugTDraW.jpg",
-            "site_url": "https://anilist.co/character/122871",
-            "anime_url": "https://myanimelist.net/anime/28805",
-            "role": "MAIN",
-            "favourites": 353,
-            "row_weight": 2.62093436,
-            "projection": 0.023016843,
-            "similarity": 0.818969,
             "matched_descriptor": "injured"
           }
         ]
@@ -572,7 +430,7 @@
         "anime_url": "https://myanimelist.net/anime/28805",
         "role": "MAIN",
         "favourites": 353,
-        "row_weight": 2.62093436,
+        "row_weight": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -589,7 +447,7 @@
         "anime_url": "https://myanimelist.net/anime/28805",
         "role": "MAIN",
         "favourites": 353,
-        "row_weight": 2.62093436,
+        "row_weight": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0

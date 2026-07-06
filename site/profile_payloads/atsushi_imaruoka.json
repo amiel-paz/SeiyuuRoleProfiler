@@ -11,1090 +11,71 @@
     "atsushi imaruoka",
     "imaruoka atsushi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/atsushi_imaruoka.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.8936405645,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.8936405645,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 115.196043,
-      "normalized_entanglement": 0.29999,
-      "top5_mass_percent": 12.024457,
-      "top10_mass_percent": 20.987094
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "menacing / intimidating / ominous / fearsome / +3",
-        "descriptor_index": 4735,
-        "amplitude": 0.1318785899,
-        "abs_amplitude": 0.1318785899,
-        "raw_amplitude": 0.3956357697,
-        "percent": 39.563577,
-        "raw_percent": 39.563577,
-        "coverage_percent": 39.563577,
-        "member_count": 7,
-        "members": [
-          "menacing",
-          "intimidating",
-          "ominous",
-          "fearsome",
-          "threatening",
-          "imposing",
-          "formidable"
-        ],
+        "descriptor": "proud",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 21958,
             "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
             "anime": "JoJo's Bizarre Adventure (TV)",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
             "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.3956357697,
-            "similarity": 1.0,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "militaristic",
-        "descriptor_index": 4800,
-        "amplitude": 0.0305721699,
-        "abs_amplitude": 0.0305721699,
-        "raw_amplitude": 0.0917165098,
-        "percent": 9.171651,
-        "raw_percent": 9.171651,
-        "coverage_percent": 48.735228,
-        "member_count": 1,
-        "members": [
-          "militaristic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0917165098,
-            "similarity": 1.0,
-            "matched_descriptor": "militaristic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-sacrificing",
-        "descriptor_index": 6668,
-        "amplitude": 0.0305721699,
-        "abs_amplitude": 0.0305721699,
-        "raw_amplitude": 0.0917165098,
-        "percent": 9.171651,
-        "raw_percent": 9.171651,
-        "coverage_percent": 57.906879,
-        "member_count": 1,
-        "members": [
-          "self-sacrificing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0917165098,
-            "similarity": 1.0,
-            "matched_descriptor": "self-sacrificing"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "horrified / skittish / afraid / scared / +4",
-        "descriptor_index": 3573,
-        "amplitude": 0.0258403793,
-        "abs_amplitude": 0.0258403793,
-        "raw_amplitude": 0.0775211378,
-        "percent": 7.752114,
-        "raw_percent": 7.752114,
-        "coverage_percent": 65.658993,
-        "member_count": 8,
-        "members": [
-          "horrified",
-          "skittish",
-          "afraid",
-          "scared",
-          "terrified",
-          "frightened",
-          "fearful",
-          "scary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0775211379,
-            "similarity": 0.871305,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mechanical / robotic",
-        "descriptor_index": 4686,
-        "amplitude": 0.0235155801,
-        "abs_amplitude": 0.0235155801,
-        "raw_amplitude": 0.0705467404,
-        "percent": 7.054674,
-        "raw_percent": 7.054674,
-        "coverage_percent": 72.713667,
-        "member_count": 2,
-        "members": [
-          "mechanical",
-          "robotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0705467405,
-            "similarity": 0.885559,
-            "matched_descriptor": "cyborg"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "worrisome / concerned / worried / worrying",
-        "descriptor_index": 8629,
-        "amplitude": 0.0164691279,
-        "abs_amplitude": 0.0164691279,
-        "raw_amplitude": 0.0494073837,
-        "percent": 4.940738,
-        "raw_percent": 4.940738,
-        "coverage_percent": 77.654405,
-        "member_count": 4,
-        "members": [
-          "worrisome",
-          "concerned",
-          "worried",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0494073837,
-            "similarity": 0.877395,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "paranoid / over-protective / wary",
-        "descriptor_index": 5460,
-        "amplitude": 0.011302684,
-        "abs_amplitude": 0.011302684,
-        "raw_amplitude": 0.0339080519,
-        "percent": 3.390805,
-        "raw_percent": 3.390805,
-        "coverage_percent": 81.04521,
-        "member_count": 3,
-        "members": [
-          "paranoid",
-          "over-protective",
-          "wary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0339080519,
-            "similarity": 0.861302,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "half-ghoul / half-dragon / half-werewolf",
-        "descriptor_index": 3309,
-        "amplitude": 0.0093521989,
-        "abs_amplitude": 0.0093521989,
-        "raw_amplitude": 0.0280565967,
-        "percent": 2.80566,
-        "raw_percent": 2.80566,
-        "coverage_percent": 83.85087,
-        "member_count": 3,
-        "members": [
-          "half-ghoul",
-          "half-dragon",
-          "half-werewolf"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0280565968,
-            "similarity": 0.852376,
-            "matched_descriptor": "cyborg"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "dangerous / vicious",
-        "descriptor_index": 1581,
-        "amplitude": 0.0074504705,
-        "abs_amplitude": 0.0074504705,
-        "raw_amplitude": 0.0223514114,
-        "percent": 2.235141,
-        "raw_percent": 2.235141,
-        "coverage_percent": 86.086011,
-        "member_count": 2,
-        "members": [
-          "dangerous",
-          "vicious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0223514114,
-            "similarity": 0.871535,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.006967538,
-        "abs_amplitude": 0.006967538,
-        "raw_amplitude": 0.0209026141,
-        "percent": 2.090261,
-        "raw_percent": 2.090261,
-        "coverage_percent": 88.176273,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0209026141,
-            "similarity": 0.885915,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "terrifying",
-        "descriptor_index": 7777,
-        "amplitude": 0.0068970392,
-        "abs_amplitude": 0.0068970392,
-        "raw_amplitude": 0.0206911177,
-        "percent": 2.069112,
-        "raw_percent": 2.069112,
-        "coverage_percent": 90.245384,
-        "member_count": 1,
-        "members": [
-          "terrifying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0206911177,
-            "similarity": 0.869713,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "intimidated",
-        "descriptor_index": 3970,
-        "amplitude": 0.0061940178,
-        "abs_amplitude": 0.0061940178,
-        "raw_amplitude": 0.0185820533,
-        "percent": 1.858205,
-        "raw_percent": 1.858205,
-        "coverage_percent": 92.10359,
-        "member_count": 1,
-        "members": [
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0185820533,
-            "similarity": 0.874439,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "sinister",
-        "descriptor_index": 6884,
-        "amplitude": 0.0060317561,
-        "abs_amplitude": 0.0060317561,
-        "raw_amplitude": 0.0180952684,
-        "percent": 1.809527,
-        "raw_percent": 1.809527,
-        "coverage_percent": 93.913116,
-        "member_count": 1,
-        "members": [
-          "sinister"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0180952684,
-            "similarity": 0.864951,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "dark",
-        "descriptor_index": 1589,
-        "amplitude": 0.003816984,
-        "abs_amplitude": 0.003816984,
-        "raw_amplitude": 0.0114509521,
-        "percent": 1.145095,
-        "raw_percent": 1.145095,
-        "coverage_percent": 95.058212,
-        "member_count": 1,
-        "members": [
-          "dark"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0114509521,
-            "similarity": 0.861078,
-            "matched_descriptor": "menacing"
+            "combined_favourites": 844
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "menacing / intimidating / ominous / fearsome / +3",
-        "descriptor_index": 4735,
-        "amplitude": 0.1318785899,
-        "abs_amplitude": 0.1318785899,
-        "raw_amplitude": 0.3956357697,
-        "percent": 39.563577,
-        "raw_percent": 39.563577,
-        "coverage_percent": 39.563577,
-        "member_count": 7,
-        "members": [
-          "menacing",
-          "intimidating",
-          "ominous",
-          "fearsome",
-          "threatening",
-          "imposing",
-          "formidable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.3956357697,
-            "similarity": 1.0,
-            "matched_descriptor": "menacing"
-          }
-        ]
+        "step": 1,
+        "descriptor": "proud",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 2,
-        "descriptor": "militaristic",
-        "descriptor_index": 4800,
-        "amplitude": 0.0305721699,
-        "abs_amplitude": 0.0305721699,
-        "raw_amplitude": 0.0917165098,
-        "percent": 9.171651,
-        "raw_percent": 9.171651,
-        "coverage_percent": 48.735228,
-        "member_count": 1,
-        "members": [
-          "militaristic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0917165098,
-            "similarity": 1.0,
-            "matched_descriptor": "militaristic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-sacrificing",
-        "descriptor_index": 6668,
-        "amplitude": 0.0305721699,
-        "abs_amplitude": 0.0305721699,
-        "raw_amplitude": 0.0917165098,
-        "percent": 9.171651,
-        "raw_percent": 9.171651,
-        "coverage_percent": 57.906879,
-        "member_count": 1,
-        "members": [
-          "self-sacrificing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0917165098,
-            "similarity": 1.0,
-            "matched_descriptor": "self-sacrificing"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "horrified / skittish / afraid / scared / +4",
-        "descriptor_index": 3573,
-        "amplitude": 0.0258403793,
-        "abs_amplitude": 0.0258403793,
-        "raw_amplitude": 0.0775211378,
-        "percent": 7.752114,
-        "raw_percent": 7.752114,
-        "coverage_percent": 65.658993,
-        "member_count": 8,
-        "members": [
-          "horrified",
-          "skittish",
-          "afraid",
-          "scared",
-          "terrified",
-          "frightened",
-          "fearful",
-          "scary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0775211379,
-            "similarity": 0.871305,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mechanical / robotic",
-        "descriptor_index": 4686,
-        "amplitude": 0.0235155801,
-        "abs_amplitude": 0.0235155801,
-        "raw_amplitude": 0.0705467404,
-        "percent": 7.054674,
-        "raw_percent": 7.054674,
-        "coverage_percent": 72.713667,
-        "member_count": 2,
-        "members": [
-          "mechanical",
-          "robotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0705467405,
-            "similarity": 0.885559,
-            "matched_descriptor": "cyborg"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "worrisome / concerned / worried / worrying",
-        "descriptor_index": 8629,
-        "amplitude": 0.0164691279,
-        "abs_amplitude": 0.0164691279,
-        "raw_amplitude": 0.0494073837,
-        "percent": 4.940738,
-        "raw_percent": 4.940738,
-        "coverage_percent": 77.654405,
-        "member_count": 4,
-        "members": [
-          "worrisome",
-          "concerned",
-          "worried",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0494073837,
-            "similarity": 0.877395,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "paranoid / over-protective / wary",
-        "descriptor_index": 5460,
-        "amplitude": 0.011302684,
-        "abs_amplitude": 0.011302684,
-        "raw_amplitude": 0.0339080519,
-        "percent": 3.390805,
-        "raw_percent": 3.390805,
-        "coverage_percent": 81.04521,
-        "member_count": 3,
-        "members": [
-          "paranoid",
-          "over-protective",
-          "wary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0339080519,
-            "similarity": 0.861302,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "half-ghoul / half-dragon / half-werewolf",
-        "descriptor_index": 3309,
-        "amplitude": 0.0093521989,
-        "abs_amplitude": 0.0093521989,
-        "raw_amplitude": 0.0280565967,
-        "percent": 2.80566,
-        "raw_percent": 2.80566,
-        "coverage_percent": 83.85087,
-        "member_count": 3,
-        "members": [
-          "half-ghoul",
-          "half-dragon",
-          "half-werewolf"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0280565968,
-            "similarity": 0.852376,
-            "matched_descriptor": "cyborg"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "dangerous / vicious",
-        "descriptor_index": 1581,
-        "amplitude": 0.0074504705,
-        "abs_amplitude": 0.0074504705,
-        "raw_amplitude": 0.0223514114,
-        "percent": 2.235141,
-        "raw_percent": 2.235141,
-        "coverage_percent": 86.086011,
-        "member_count": 2,
-        "members": [
-          "dangerous",
-          "vicious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0223514114,
-            "similarity": 0.871535,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.006967538,
-        "abs_amplitude": 0.006967538,
-        "raw_amplitude": 0.0209026141,
-        "percent": 2.090261,
-        "raw_percent": 2.090261,
-        "coverage_percent": 88.176273,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0209026141,
-            "similarity": 0.885915,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "terrifying",
-        "descriptor_index": 7777,
-        "amplitude": 0.0068970392,
-        "abs_amplitude": 0.0068970392,
-        "raw_amplitude": 0.0206911177,
-        "percent": 2.069112,
-        "raw_percent": 2.069112,
-        "coverage_percent": 90.245384,
-        "member_count": 1,
-        "members": [
-          "terrifying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0206911177,
-            "similarity": 0.869713,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "intimidated",
-        "descriptor_index": 3970,
-        "amplitude": 0.0061940178,
-        "abs_amplitude": 0.0061940178,
-        "raw_amplitude": 0.0185820533,
-        "percent": 1.858205,
-        "raw_percent": 1.858205,
-        "coverage_percent": 92.10359,
-        "member_count": 1,
-        "members": [
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0185820533,
-            "similarity": 0.874439,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "sinister",
-        "descriptor_index": 6884,
-        "amplitude": 0.0060317561,
-        "abs_amplitude": 0.0060317561,
-        "raw_amplitude": 0.0180952684,
-        "percent": 1.809527,
-        "raw_percent": 1.809527,
-        "coverage_percent": 93.913116,
-        "member_count": 1,
-        "members": [
-          "sinister"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0180952684,
-            "similarity": 0.864951,
-            "matched_descriptor": "menacing"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "dark",
-        "descriptor_index": 1589,
-        "amplitude": 0.003816984,
-        "abs_amplitude": 0.003816984,
-        "raw_amplitude": 0.0114509521,
-        "percent": 1.145095,
-        "raw_percent": 1.145095,
-        "coverage_percent": 95.058212,
-        "member_count": 1,
-        "members": [
-          "dark"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21958,
-            "name": "Rudol von Stroheim",
-            "native_name": "ルドル・フォン・シュトロハイム",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
-            "site_url": "https://anilist.co/character/21958",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 827,
-            "row_weight": 2.77831121,
-            "projection": 0.0114509521,
-            "similarity": 0.861078,
-            "matched_descriptor": "menacing"
-          }
-        ]
+        "step": 2,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 21958,
         "name": "Rudol von Stroheim",
-        "native_name": "ルドル・フォン・シュトロハイム",
         "anime": "JoJo's Bizarre Adventure (TV)",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
         "site_url": "https://anilist.co/character/21958",
-        "anime_url": "https://myanimelist.net/anime/14719",
-        "role": "SUPPORTING",
         "favourites": 827,
-        "row_weight": 2.77831121,
+        "anilist_favourites": 827,
+        "bangumi_collects": 17,
+        "bangumi_comments": 20,
+        "bangumi_character_id": 18885,
+        "bangumi_url": "https://bgm.tv/character/18885",
+        "combined_favourites": 844,
+        "role_edge_count": 1,
+        "descriptors": [
+          "proud"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1104,19 +85,66 @@
       {
         "character_id": 21958,
         "name": "Rudol von Stroheim",
-        "native_name": "ルドル・フォン・シュトロハイム",
         "anime": "JoJo's Bizarre Adventure (TV)",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n21958-RvVcFEHfOrKV.png",
         "site_url": "https://anilist.co/character/21958",
-        "anime_url": "https://myanimelist.net/anime/14719",
-        "role": "SUPPORTING",
         "favourites": 827,
-        "row_weight": 2.77831121,
+        "anilist_favourites": 827,
+        "bangumi_collects": 17,
+        "bangumi_comments": 20,
+        "bangumi_character_id": 18885,
+        "bangumi_url": "https://bgm.tv/character/18885",
+        "combined_favourites": 844,
+        "role_edge_count": 1,
+        "descriptors": [
+          "proud"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 515,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

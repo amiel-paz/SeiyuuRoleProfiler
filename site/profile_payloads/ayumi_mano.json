@@ -11,730 +11,70 @@
     "ayumi mano",
     "mano ayumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ayumi_mano.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.9093006131,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.9093006131,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 335.228357,
-      "normalized_entanglement": 0.872991,
-      "top5_mass_percent": 2.9781,
-      "top10_mass_percent": 5.460546
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4556949976,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "timid / withdrawn / inhibited / introverted / +1",
-        "descriptor_index": 7851,
-        "amplitude": 0.170079371,
-        "abs_amplitude": 0.170079371,
-        "raw_amplitude": 0.510238113,
-        "percent": 51.023811,
-        "raw_percent": 51.023811,
-        "coverage_percent": 51.023811,
-        "member_count": 5,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited",
-          "introverted",
-          "bashful"
-        ],
+        "descriptor": "timid",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.455695,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 142537,
             "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
             "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
             "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.5102381129,
-            "similarity": 1.0,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "shy / demure / reticent / faint-hearted / +3",
-        "descriptor_index": 6837,
-        "amplitude": 0.0519047468,
-        "abs_amplitude": 0.0519047468,
-        "raw_amplitude": 0.1557142405,
-        "percent": 15.571424,
-        "raw_percent": 15.571424,
-        "coverage_percent": 66.595235,
-        "member_count": 7,
-        "members": [
-          "shy",
-          "demure",
-          "reticent",
-          "faint-hearted",
-          "discreet",
-          "modest",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.1557142405,
-            "similarity": 0.899131,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-doubting / poor self-esteem / insecure / low self-esteem / +1",
-        "descriptor_index": 6632,
-        "amplitude": 0.0376183354,
-        "abs_amplitude": 0.0376183354,
-        "raw_amplitude": 0.1128550063,
-        "percent": 11.285501,
-        "raw_percent": 11.285501,
-        "coverage_percent": 77.880736,
-        "member_count": 5,
-        "members": [
-          "self-doubting",
-          "poor self-esteem",
-          "insecure",
-          "low self-esteem",
-          "self-consciousness-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.1128550062,
-            "similarity": 0.893941,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0151996285,
-        "abs_amplitude": 0.0151996285,
-        "raw_amplitude": 0.0455988855,
-        "percent": 4.559889,
-        "raw_percent": 4.559889,
-        "coverage_percent": 82.440625,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0455988855,
-            "similarity": 0.89704,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0133916404,
-        "abs_amplitude": 0.0133916404,
-        "raw_amplitude": 0.0401749211,
-        "percent": 4.017492,
-        "raw_percent": 4.017492,
-        "coverage_percent": 86.458117,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0401749211,
-            "similarity": 0.893055,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "stoic / composed / nonchalant",
-        "descriptor_index": 7270,
-        "amplitude": 0.0115347403,
-        "abs_amplitude": 0.0115347403,
-        "raw_amplitude": 0.0346042209,
-        "percent": 3.460422,
-        "raw_percent": 3.460422,
-        "coverage_percent": 89.918539,
-        "member_count": 3,
-        "members": [
-          "stoic",
-          "composed",
-          "nonchalant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0346042208,
-            "similarity": 0.889606,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.0075849656,
-        "abs_amplitude": 0.0075849656,
-        "raw_amplitude": 0.0227548969,
-        "percent": 2.27549,
-        "raw_percent": 2.27549,
-        "coverage_percent": 92.194028,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0227548969,
-            "similarity": 0.880259,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fretful / anxious",
-        "descriptor_index": 2809,
-        "amplitude": 0.006428802,
-        "abs_amplitude": 0.006428802,
-        "raw_amplitude": 0.019286406,
-        "percent": 1.928641,
-        "raw_percent": 1.928641,
-        "coverage_percent": 94.122669,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0192864061,
-            "similarity": 0.87413,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "little self-assertion",
-        "descriptor_index": 4343,
-        "amplitude": 0.0059220017,
-        "abs_amplitude": 0.0059220017,
-        "raw_amplitude": 0.017766005,
-        "percent": 1.776601,
-        "raw_percent": 1.776601,
-        "coverage_percent": 95.89927,
-        "member_count": 1,
-        "members": [
-          "little self-assertion"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.017766005,
-            "similarity": 0.876594,
-            "matched_descriptor": "timid"
+            "combined_favourites": 152
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "timid / withdrawn / inhibited / introverted / +1",
-        "descriptor_index": 7851,
-        "amplitude": 0.170079371,
-        "abs_amplitude": 0.170079371,
-        "raw_amplitude": 0.510238113,
-        "percent": 51.023811,
-        "raw_percent": 51.023811,
-        "coverage_percent": 51.023811,
-        "member_count": 5,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited",
-          "introverted",
-          "bashful"
-        ],
+        "step": 1,
+        "descriptor": "timid",
+        "weighted_support": 2.455695,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.5102381129,
-            "similarity": 1.0,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "shy / demure / reticent / faint-hearted / +3",
-        "descriptor_index": 6837,
-        "amplitude": 0.0519047468,
-        "abs_amplitude": 0.0519047468,
-        "raw_amplitude": 0.1557142405,
-        "percent": 15.571424,
-        "raw_percent": 15.571424,
-        "coverage_percent": 66.595235,
-        "member_count": 7,
-        "members": [
-          "shy",
-          "demure",
-          "reticent",
-          "faint-hearted",
-          "discreet",
-          "modest",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.1557142405,
-            "similarity": 0.899131,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-doubting / poor self-esteem / insecure / low self-esteem / +1",
-        "descriptor_index": 6632,
-        "amplitude": 0.0376183354,
-        "abs_amplitude": 0.0376183354,
-        "raw_amplitude": 0.1128550063,
-        "percent": 11.285501,
-        "raw_percent": 11.285501,
-        "coverage_percent": 77.880736,
-        "member_count": 5,
-        "members": [
-          "self-doubting",
-          "poor self-esteem",
-          "insecure",
-          "low self-esteem",
-          "self-consciousness-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.1128550062,
-            "similarity": 0.893941,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0151996285,
-        "abs_amplitude": 0.0151996285,
-        "raw_amplitude": 0.0455988855,
-        "percent": 4.559889,
-        "raw_percent": 4.559889,
-        "coverage_percent": 82.440625,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0455988855,
-            "similarity": 0.89704,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0133916404,
-        "abs_amplitude": 0.0133916404,
-        "raw_amplitude": 0.0401749211,
-        "percent": 4.017492,
-        "raw_percent": 4.017492,
-        "coverage_percent": 86.458117,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0401749211,
-            "similarity": 0.893055,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "stoic / composed / nonchalant",
-        "descriptor_index": 7270,
-        "amplitude": 0.0115347403,
-        "abs_amplitude": 0.0115347403,
-        "raw_amplitude": 0.0346042209,
-        "percent": 3.460422,
-        "raw_percent": 3.460422,
-        "coverage_percent": 89.918539,
-        "member_count": 3,
-        "members": [
-          "stoic",
-          "composed",
-          "nonchalant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0346042208,
-            "similarity": 0.889606,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.0075849656,
-        "abs_amplitude": 0.0075849656,
-        "raw_amplitude": 0.0227548969,
-        "percent": 2.27549,
-        "raw_percent": 2.27549,
-        "coverage_percent": 92.194028,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0227548969,
-            "similarity": 0.880259,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fretful / anxious",
-        "descriptor_index": 2809,
-        "amplitude": 0.006428802,
-        "abs_amplitude": 0.006428802,
-        "raw_amplitude": 0.019286406,
-        "percent": 1.928641,
-        "raw_percent": 1.928641,
-        "coverage_percent": 94.122669,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.0192864061,
-            "similarity": 0.87413,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "little self-assertion",
-        "descriptor_index": 4343,
-        "amplitude": 0.0059220017,
-        "abs_amplitude": 0.0059220017,
-        "raw_amplitude": 0.017766005,
-        "percent": 1.776601,
-        "raw_percent": 1.776601,
-        "coverage_percent": 95.89927,
-        "member_count": 1,
-        "members": [
-          "little self-assertion"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 142537,
-            "name": "Cassandra Ilion",
-            "native_name": "カサンドラ・イリオン",
-            "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
-            "site_url": "https://anilist.co/character/142537",
-            "anime_url": "https://myanimelist.net/anime/37347",
-            "role": "SUPPORTING",
-            "favourites": 134,
-            "row_weight": 2.43007711,
-            "projection": 0.017766005,
-            "similarity": 0.876594,
-            "matched_descriptor": "timid"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 142537,
         "name": "Cassandra Ilion",
-        "native_name": "カサンドラ・イリオン",
         "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
         "site_url": "https://anilist.co/character/142537",
-        "anime_url": "https://myanimelist.net/anime/37347",
-        "role": "SUPPORTING",
         "favourites": 134,
-        "row_weight": 2.43007711,
+        "anilist_favourites": 134,
+        "bangumi_collects": 18,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 78287,
+        "bangumi_url": "https://bgm.tv/character/78287",
+        "combined_favourites": 152,
+        "role_edge_count": 1,
+        "descriptors": [
+          "timid"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.455695,
+        "row_weight": 2.455695,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -744,19 +84,67 @@
       {
         "character_id": 142537,
         "name": "Cassandra Ilion",
-        "native_name": "カサンドラ・イリオン",
         "anime": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b142537-0I06oj8UEzqO.jpg",
         "site_url": "https://anilist.co/character/142537",
-        "anime_url": "https://myanimelist.net/anime/37347",
-        "role": "SUPPORTING",
         "favourites": 134,
-        "row_weight": 2.43007711,
+        "anilist_favourites": 134,
+        "bangumi_collects": 18,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 78287,
+        "bangumi_url": "https://bgm.tv/character/78287",
+        "combined_favourites": 152,
+        "role_edge_count": 1,
+        "descriptors": [
+          "timid"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.455695,
+        "row_weight": 2.455695,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4556949976,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

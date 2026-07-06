@@ -11,1502 +11,98 @@
     "kenji matsuda",
     "matsuda kenji"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/kenji_matsuda.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.1232977152,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.1232977152,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 276.752629,
-      "normalized_entanglement": 0.72071,
-      "top5_mass_percent": 3.756235,
-      "top10_mass_percent": 7.185237
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4222994139,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "savage / feral / barbaric",
-        "descriptor_index": 6468,
-        "amplitude": 0.1016221779,
-        "abs_amplitude": 0.1016221779,
-        "raw_amplitude": 0.3048665338,
-        "percent": 30.486653,
-        "raw_percent": 30.486653,
-        "coverage_percent": 30.486653,
-        "member_count": 3,
-        "members": [
-          "savage",
-          "feral",
-          "barbaric"
-        ],
+        "descriptor": "social",
+        "amplitude": 0.565201405,
+        "abs_amplitude": 0.565201405,
+        "percent": 50.0,
+        "weighted_support": 2.42229941,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 35615,
             "name": "Zebra",
-            "native_name": "ゼブラ",
             "anime": "Toriko",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
             "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.3048665338,
-            "similarity": 1.0,
-            "matched_descriptor": "savage"
+            "combined_favourites": 129
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "combative / aggressive / belligerent / conflict-prone",
-        "descriptor_index": 1261,
-        "amplitude": 0.0281392254,
-        "abs_amplitude": 0.0281392254,
-        "raw_amplitude": 0.0844176763,
-        "percent": 8.441768,
-        "raw_percent": 8.441768,
-        "coverage_percent": 38.928421,
-        "member_count": 4,
-        "members": [
-          "combative",
-          "aggressive",
-          "belligerent",
-          "conflict-prone"
-        ],
+        "descriptor": "savage",
+        "amplitude": 0.565201405,
+        "abs_amplitude": 0.565201405,
+        "percent": 50.0,
+        "weighted_support": 2.42229941,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 35615,
             "name": "Zebra",
-            "native_name": "ゼブラ",
             "anime": "Toriko",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
             "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0844176763,
-            "similarity": 0.876708,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "vocal / articulate / well-spoken / loud-voiced / +2",
-        "descriptor_index": 8396,
-        "amplitude": 0.0261310195,
-        "abs_amplitude": 0.0261310195,
-        "raw_amplitude": 0.0783930586,
-        "percent": 7.839306,
-        "raw_percent": 7.839306,
-        "coverage_percent": 46.767727,
-        "member_count": 6,
-        "members": [
-          "vocal",
-          "articulate",
-          "well-spoken",
-          "loud-voiced",
-          "outspoken",
-          "eloquent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0783930586,
-            "similarity": 0.87241,
-            "matched_descriptor": "sound-based user"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "threatening / vicious / hostile / confrontational",
-        "descriptor_index": 7825,
-        "amplitude": 0.0222429435,
-        "abs_amplitude": 0.0222429435,
-        "raw_amplitude": 0.0667288305,
-        "percent": 6.672883,
-        "raw_percent": 6.672883,
-        "coverage_percent": 53.44061,
-        "member_count": 4,
-        "members": [
-          "threatening",
-          "vicious",
-          "hostile",
-          "confrontational"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0667288305,
-            "similarity": 0.883011,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "formidable / ominous / fearsome",
-        "descriptor_index": 2739,
-        "amplitude": 0.0193208479,
-        "abs_amplitude": 0.0193208479,
-        "raw_amplitude": 0.0579625437,
-        "percent": 5.796254,
-        "raw_percent": 5.796254,
-        "coverage_percent": 59.236864,
-        "member_count": 3,
-        "members": [
-          "formidable",
-          "ominous",
-          "fearsome"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0579625436,
-            "similarity": 0.877724,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "brash / fierce",
-        "descriptor_index": 799,
-        "amplitude": 0.0149214477,
-        "abs_amplitude": 0.0149214477,
-        "raw_amplitude": 0.0447643431,
-        "percent": 4.476434,
-        "raw_percent": 4.476434,
-        "coverage_percent": 63.713299,
-        "member_count": 2,
-        "members": [
-          "brash",
-          "fierce"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0447643431,
-            "similarity": 0.874698,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "uncontrollable",
-        "descriptor_index": 8082,
-        "amplitude": 0.0125793259,
-        "abs_amplitude": 0.0125793259,
-        "raw_amplitude": 0.0377379777,
-        "percent": 3.773798,
-        "raw_percent": 3.773798,
-        "coverage_percent": 67.487096,
-        "member_count": 1,
-        "members": [
-          "uncontrollable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0377379777,
-            "similarity": 0.885009,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "brutal / cruel",
-        "descriptor_index": 849,
-        "amplitude": 0.0116222511,
-        "abs_amplitude": 0.0116222511,
-        "raw_amplitude": 0.0348667533,
-        "percent": 3.486675,
-        "raw_percent": 3.486675,
-        "coverage_percent": 70.973772,
-        "member_count": 2,
-        "members": [
-          "brutal",
-          "cruel"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0348667533,
-            "similarity": 0.869738,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "undisciplined",
-        "descriptor_index": 8120,
-        "amplitude": 0.0115579072,
-        "abs_amplitude": 0.0115579072,
-        "raw_amplitude": 0.0346737217,
-        "percent": 3.467372,
-        "raw_percent": 3.467372,
-        "coverage_percent": 74.441144,
-        "member_count": 1,
-        "members": [
-          "undisciplined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0346737217,
-            "similarity": 0.886764,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "maniacal",
-        "descriptor_index": 4580,
-        "amplitude": 0.0106019861,
-        "abs_amplitude": 0.0106019861,
-        "raw_amplitude": 0.0318059582,
-        "percent": 3.180596,
-        "raw_percent": 3.180596,
-        "coverage_percent": 77.62174,
-        "member_count": 1,
-        "members": [
-          "maniacal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0318059582,
-            "similarity": 0.879219,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "violent / bullying",
-        "descriptor_index": 8372,
-        "amplitude": 0.0095062145,
-        "abs_amplitude": 0.0095062145,
-        "raw_amplitude": 0.0285186435,
-        "percent": 2.851864,
-        "raw_percent": 2.851864,
-        "coverage_percent": 80.473604,
-        "member_count": 2,
-        "members": [
-          "violent",
-          "bullying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0285186434,
-            "similarity": 0.874544,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "lacking self-control",
-        "descriptor_index": 4187,
-        "amplitude": 0.0080109645,
-        "abs_amplitude": 0.0080109645,
-        "raw_amplitude": 0.0240328934,
-        "percent": 2.403289,
-        "raw_percent": 2.403289,
-        "coverage_percent": 82.876893,
-        "member_count": 1,
-        "members": [
-          "lacking self-control"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0240328934,
-            "similarity": 0.871633,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "fiery",
-        "descriptor_index": 2536,
-        "amplitude": 0.0078288245,
-        "abs_amplitude": 0.0078288245,
-        "raw_amplitude": 0.0234864734,
-        "percent": 2.348647,
-        "raw_percent": 2.348647,
-        "coverage_percent": 85.225541,
-        "member_count": 1,
-        "members": [
-          "fiery"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0234864734,
-            "similarity": 0.8711,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.0062303407,
-        "abs_amplitude": 0.0062303407,
-        "raw_amplitude": 0.0186910222,
-        "percent": 1.869102,
-        "raw_percent": 1.869102,
-        "coverage_percent": 87.094643,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0186910222,
-            "similarity": 0.86642,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "murderous",
-        "descriptor_index": 4975,
-        "amplitude": 0.005307935,
-        "abs_amplitude": 0.005307935,
-        "raw_amplitude": 0.015923805,
-        "percent": 1.59238,
-        "raw_percent": 1.59238,
-        "coverage_percent": 88.687023,
-        "member_count": 1,
-        "members": [
-          "murderous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.015923805,
-            "similarity": 0.863719,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "multilingual",
-        "descriptor_index": 4969,
-        "amplitude": 0.0046947326,
-        "abs_amplitude": 0.0046947326,
-        "raw_amplitude": 0.0140841978,
-        "percent": 1.40842,
-        "raw_percent": 1.40842,
-        "coverage_percent": 90.095443,
-        "member_count": 1,
-        "members": [
-          "multilingual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0140841978,
-            "similarity": 0.81198,
-            "matched_descriptor": "sound-based user"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "nefarious",
-        "descriptor_index": 5080,
-        "amplitude": 0.0046897338,
-        "abs_amplitude": 0.0046897338,
-        "raw_amplitude": 0.0140692015,
-        "percent": 1.40692,
-        "raw_percent": 1.40692,
-        "coverage_percent": 91.502363,
-        "member_count": 1,
-        "members": [
-          "nefarious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0140692015,
-            "similarity": 0.861909,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "animalistic",
-        "descriptor_index": 252,
-        "amplitude": 0.0046432166,
-        "abs_amplitude": 0.0046432166,
-        "raw_amplitude": 0.0139296497,
-        "percent": 1.392965,
-        "raw_percent": 1.392965,
-        "coverage_percent": 92.895328,
-        "member_count": 1,
-        "members": [
-          "animalistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0139296497,
-            "similarity": 0.861773,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "domineering",
-        "descriptor_index": 1920,
-        "amplitude": 0.0037760242,
-        "abs_amplitude": 0.0037760242,
-        "raw_amplitude": 0.0113280726,
-        "percent": 1.132807,
-        "raw_percent": 1.132807,
-        "coverage_percent": 94.028136,
-        "member_count": 1,
-        "members": [
-          "domineering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0113280726,
-            "similarity": 0.863013,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "wild",
-        "descriptor_index": 8555,
-        "amplitude": 0.0033897138,
-        "abs_amplitude": 0.0033897138,
-        "raw_amplitude": 0.0101691414,
-        "percent": 1.016914,
-        "raw_percent": 1.016914,
-        "coverage_percent": 95.04505,
-        "member_count": 1,
-        "members": [
-          "wild"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0101691414,
-            "similarity": 0.858103,
-            "matched_descriptor": "savage"
+            "combined_favourites": 129
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "savage / feral / barbaric",
-        "descriptor_index": 6468,
-        "amplitude": 0.1016221779,
-        "abs_amplitude": 0.1016221779,
-        "raw_amplitude": 0.3048665338,
-        "percent": 30.486653,
-        "raw_percent": 30.486653,
-        "coverage_percent": 30.486653,
-        "member_count": 3,
-        "members": [
-          "savage",
-          "feral",
-          "barbaric"
-        ],
+        "step": 1,
+        "descriptor": "social",
+        "weighted_support": 2.42229941,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.3048665338,
-            "similarity": 1.0,
-            "matched_descriptor": "savage"
-          }
-        ]
+        "fit_percent": 88.464041,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "combative / aggressive / belligerent / conflict-prone",
-        "descriptor_index": 1261,
-        "amplitude": 0.0281392254,
-        "abs_amplitude": 0.0281392254,
-        "raw_amplitude": 0.0844176763,
-        "percent": 8.441768,
-        "raw_percent": 8.441768,
-        "coverage_percent": 38.928421,
-        "member_count": 4,
-        "members": [
-          "combative",
-          "aggressive",
-          "belligerent",
-          "conflict-prone"
-        ],
+        "step": 2,
+        "descriptor": "savage",
+        "weighted_support": 2.42229941,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0844176763,
-            "similarity": 0.876708,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "vocal / articulate / well-spoken / loud-voiced / +2",
-        "descriptor_index": 8396,
-        "amplitude": 0.0261310195,
-        "abs_amplitude": 0.0261310195,
-        "raw_amplitude": 0.0783930586,
-        "percent": 7.839306,
-        "raw_percent": 7.839306,
-        "coverage_percent": 46.767727,
-        "member_count": 6,
-        "members": [
-          "vocal",
-          "articulate",
-          "well-spoken",
-          "loud-voiced",
-          "outspoken",
-          "eloquent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0783930586,
-            "similarity": 0.87241,
-            "matched_descriptor": "sound-based user"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "threatening / vicious / hostile / confrontational",
-        "descriptor_index": 7825,
-        "amplitude": 0.0222429435,
-        "abs_amplitude": 0.0222429435,
-        "raw_amplitude": 0.0667288305,
-        "percent": 6.672883,
-        "raw_percent": 6.672883,
-        "coverage_percent": 53.44061,
-        "member_count": 4,
-        "members": [
-          "threatening",
-          "vicious",
-          "hostile",
-          "confrontational"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0667288305,
-            "similarity": 0.883011,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "formidable / ominous / fearsome",
-        "descriptor_index": 2739,
-        "amplitude": 0.0193208479,
-        "abs_amplitude": 0.0193208479,
-        "raw_amplitude": 0.0579625437,
-        "percent": 5.796254,
-        "raw_percent": 5.796254,
-        "coverage_percent": 59.236864,
-        "member_count": 3,
-        "members": [
-          "formidable",
-          "ominous",
-          "fearsome"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0579625436,
-            "similarity": 0.877724,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "brash / fierce",
-        "descriptor_index": 799,
-        "amplitude": 0.0149214477,
-        "abs_amplitude": 0.0149214477,
-        "raw_amplitude": 0.0447643431,
-        "percent": 4.476434,
-        "raw_percent": 4.476434,
-        "coverage_percent": 63.713299,
-        "member_count": 2,
-        "members": [
-          "brash",
-          "fierce"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0447643431,
-            "similarity": 0.874698,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "uncontrollable",
-        "descriptor_index": 8082,
-        "amplitude": 0.0125793259,
-        "abs_amplitude": 0.0125793259,
-        "raw_amplitude": 0.0377379777,
-        "percent": 3.773798,
-        "raw_percent": 3.773798,
-        "coverage_percent": 67.487096,
-        "member_count": 1,
-        "members": [
-          "uncontrollable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0377379777,
-            "similarity": 0.885009,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "brutal / cruel",
-        "descriptor_index": 849,
-        "amplitude": 0.0116222511,
-        "abs_amplitude": 0.0116222511,
-        "raw_amplitude": 0.0348667533,
-        "percent": 3.486675,
-        "raw_percent": 3.486675,
-        "coverage_percent": 70.973772,
-        "member_count": 2,
-        "members": [
-          "brutal",
-          "cruel"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0348667533,
-            "similarity": 0.869738,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "undisciplined",
-        "descriptor_index": 8120,
-        "amplitude": 0.0115579072,
-        "abs_amplitude": 0.0115579072,
-        "raw_amplitude": 0.0346737217,
-        "percent": 3.467372,
-        "raw_percent": 3.467372,
-        "coverage_percent": 74.441144,
-        "member_count": 1,
-        "members": [
-          "undisciplined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0346737217,
-            "similarity": 0.886764,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "maniacal",
-        "descriptor_index": 4580,
-        "amplitude": 0.0106019861,
-        "abs_amplitude": 0.0106019861,
-        "raw_amplitude": 0.0318059582,
-        "percent": 3.180596,
-        "raw_percent": 3.180596,
-        "coverage_percent": 77.62174,
-        "member_count": 1,
-        "members": [
-          "maniacal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0318059582,
-            "similarity": 0.879219,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "violent / bullying",
-        "descriptor_index": 8372,
-        "amplitude": 0.0095062145,
-        "abs_amplitude": 0.0095062145,
-        "raw_amplitude": 0.0285186435,
-        "percent": 2.851864,
-        "raw_percent": 2.851864,
-        "coverage_percent": 80.473604,
-        "member_count": 2,
-        "members": [
-          "violent",
-          "bullying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0285186434,
-            "similarity": 0.874544,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "lacking self-control",
-        "descriptor_index": 4187,
-        "amplitude": 0.0080109645,
-        "abs_amplitude": 0.0080109645,
-        "raw_amplitude": 0.0240328934,
-        "percent": 2.403289,
-        "raw_percent": 2.403289,
-        "coverage_percent": 82.876893,
-        "member_count": 1,
-        "members": [
-          "lacking self-control"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0240328934,
-            "similarity": 0.871633,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "fiery",
-        "descriptor_index": 2536,
-        "amplitude": 0.0078288245,
-        "abs_amplitude": 0.0078288245,
-        "raw_amplitude": 0.0234864734,
-        "percent": 2.348647,
-        "raw_percent": 2.348647,
-        "coverage_percent": 85.225541,
-        "member_count": 1,
-        "members": [
-          "fiery"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0234864734,
-            "similarity": 0.8711,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.0062303407,
-        "abs_amplitude": 0.0062303407,
-        "raw_amplitude": 0.0186910222,
-        "percent": 1.869102,
-        "raw_percent": 1.869102,
-        "coverage_percent": 87.094643,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0186910222,
-            "similarity": 0.86642,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "murderous",
-        "descriptor_index": 4975,
-        "amplitude": 0.005307935,
-        "abs_amplitude": 0.005307935,
-        "raw_amplitude": 0.015923805,
-        "percent": 1.59238,
-        "raw_percent": 1.59238,
-        "coverage_percent": 88.687023,
-        "member_count": 1,
-        "members": [
-          "murderous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.015923805,
-            "similarity": 0.863719,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "multilingual",
-        "descriptor_index": 4969,
-        "amplitude": 0.0046947326,
-        "abs_amplitude": 0.0046947326,
-        "raw_amplitude": 0.0140841978,
-        "percent": 1.40842,
-        "raw_percent": 1.40842,
-        "coverage_percent": 90.095443,
-        "member_count": 1,
-        "members": [
-          "multilingual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0140841978,
-            "similarity": 0.81198,
-            "matched_descriptor": "sound-based user"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "nefarious",
-        "descriptor_index": 5080,
-        "amplitude": 0.0046897338,
-        "abs_amplitude": 0.0046897338,
-        "raw_amplitude": 0.0140692015,
-        "percent": 1.40692,
-        "raw_percent": 1.40692,
-        "coverage_percent": 91.502363,
-        "member_count": 1,
-        "members": [
-          "nefarious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0140692015,
-            "similarity": 0.861909,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "animalistic",
-        "descriptor_index": 252,
-        "amplitude": 0.0046432166,
-        "abs_amplitude": 0.0046432166,
-        "raw_amplitude": 0.0139296497,
-        "percent": 1.392965,
-        "raw_percent": 1.392965,
-        "coverage_percent": 92.895328,
-        "member_count": 1,
-        "members": [
-          "animalistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0139296497,
-            "similarity": 0.861773,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "domineering",
-        "descriptor_index": 1920,
-        "amplitude": 0.0037760242,
-        "abs_amplitude": 0.0037760242,
-        "raw_amplitude": 0.0113280726,
-        "percent": 1.132807,
-        "raw_percent": 1.132807,
-        "coverage_percent": 94.028136,
-        "member_count": 1,
-        "members": [
-          "domineering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0113280726,
-            "similarity": 0.863013,
-            "matched_descriptor": "savage"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "wild",
-        "descriptor_index": 8555,
-        "amplitude": 0.0033897138,
-        "abs_amplitude": 0.0033897138,
-        "raw_amplitude": 0.0101691414,
-        "percent": 1.016914,
-        "raw_percent": 1.016914,
-        "coverage_percent": 95.04505,
-        "member_count": 1,
-        "members": [
-          "wild"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35615,
-            "name": "Zebra",
-            "native_name": "ゼブラ",
-            "anime": "Toriko",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
-            "site_url": "https://anilist.co/character/35615",
-            "anime_url": "https://myanimelist.net/anime/10033",
-            "role": "MAIN",
-            "favourites": 125,
-            "row_weight": 2.41583979,
-            "projection": 0.0101691414,
-            "similarity": 0.858103,
-            "matched_descriptor": "savage"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 35615,
         "name": "Zebra",
-        "native_name": "ゼブラ",
         "anime": "Toriko",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
         "site_url": "https://anilist.co/character/35615",
-        "anime_url": "https://myanimelist.net/anime/10033",
-        "role": "MAIN",
         "favourites": 125,
-        "row_weight": 2.41583979,
+        "anilist_favourites": 125,
+        "bangumi_collects": 4,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 16278,
+        "bangumi_url": "https://bgm.tv/character/16278",
+        "combined_favourites": 129,
+        "role_edge_count": 1,
+        "descriptors": [
+          "savage",
+          "social"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42229941,
+        "row_weight": 2.42229941,
+        "unweighted_row_norm": 1.76928081,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1516,19 +112,68 @@
       {
         "character_id": 35615,
         "name": "Zebra",
-        "native_name": "ゼブラ",
         "anime": "Toriko",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35615-ftqlzVnsr2UB.png",
         "site_url": "https://anilist.co/character/35615",
-        "anime_url": "https://myanimelist.net/anime/10033",
-        "role": "MAIN",
         "favourites": 125,
-        "row_weight": 2.41583979,
+        "anilist_favourites": 125,
+        "bangumi_collects": 4,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 16278,
+        "bangumi_url": "https://bgm.tv/character/16278",
+        "combined_favourites": 129,
+        "role_edge_count": 1,
+        "descriptors": [
+          "savage",
+          "social"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42229941,
+        "row_weight": 2.42229941,
+        "unweighted_row_norm": 1.76928081,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4222994139,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

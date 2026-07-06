@@ -11,990 +11,98 @@
     "manami tanaka",
     "tanaka manami"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/manami_tanaka.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.1457351904,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.1457351904,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 190.544689,
-      "normalized_entanglement": 0.49621,
-      "top5_mass_percent": 6.166465,
-      "top10_mass_percent": 11.036713
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.6160168992,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0726237446,
-        "abs_amplitude": 0.0726237446,
-        "raw_amplitude": 0.2178712338,
-        "percent": 21.787123,
-        "raw_percent": 21.787123,
-        "coverage_percent": 21.787123,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.5485621558,
+        "abs_amplitude": 0.5485621558,
+        "percent": 50.0,
+        "weighted_support": 2.6160169,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 50227,
             "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
             "anime": "KINMOZA!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
             "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.2178712337,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
+            "combined_favourites": 344
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "bilingual",
-        "descriptor_index": 652,
-        "amplitude": 0.0516870053,
-        "abs_amplitude": 0.0516870053,
-        "raw_amplitude": 0.155061016,
-        "percent": 15.506102,
-        "raw_percent": 15.506102,
-        "coverage_percent": 37.293225,
-        "member_count": 1,
-        "members": [
-          "bilingual"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.5485621558,
+        "abs_amplitude": 0.5485621558,
+        "percent": 50.0,
+        "weighted_support": 2.6160169,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 50227,
             "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
             "anime": "KINMOZA!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
             "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.155061016,
-            "similarity": 1.0,
-            "matched_descriptor": "bilingual"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0516869759,
-        "abs_amplitude": 0.0516869759,
-        "raw_amplitude": 0.1550609278,
-        "percent": 15.506093,
-        "raw_percent": 15.506093,
-        "coverage_percent": 52.799318,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.1550609278,
-            "similarity": 1.0,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "rivalrous / cut-throat",
-        "descriptor_index": 6336,
-        "amplitude": 0.029835433,
-        "abs_amplitude": 0.029835433,
-        "raw_amplitude": 0.089506299,
-        "percent": 8.95063,
-        "raw_percent": 8.95063,
-        "coverage_percent": 61.749948,
-        "member_count": 2,
-        "members": [
-          "rivalrous",
-          "cut-throat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.089506299,
-            "similarity": 0.865625,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "multilingual",
-        "descriptor_index": 4969,
-        "amplitude": 0.0204257441,
-        "abs_amplitude": 0.0204257441,
-        "raw_amplitude": 0.0612772323,
-        "percent": 6.127723,
-        "raw_percent": 6.127723,
-        "coverage_percent": 67.877671,
-        "member_count": 1,
-        "members": [
-          "multilingual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0612772323,
-            "similarity": 0.874603,
-            "matched_descriptor": "bilingual"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "battle-hungry / battle-loving",
-        "descriptor_index": 580,
-        "amplitude": 0.0181790479,
-        "abs_amplitude": 0.0181790479,
-        "raw_amplitude": 0.0545371438,
-        "percent": 5.453714,
-        "raw_percent": 5.453714,
-        "coverage_percent": 73.331385,
-        "member_count": 2,
-        "members": [
-          "battle-hungry",
-          "battle-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0545371438,
-            "similarity": 0.868373,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.017433597,
-        "abs_amplitude": 0.017433597,
-        "raw_amplitude": 0.0523007911,
-        "percent": 5.230079,
-        "raw_percent": 5.230079,
-        "coverage_percent": 78.561464,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0523007911,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0168360112,
-        "abs_amplitude": 0.0168360112,
-        "raw_amplitude": 0.0505080336,
-        "percent": 5.050803,
-        "raw_percent": 5.050803,
-        "coverage_percent": 83.612268,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0505080336,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0103759928,
-        "abs_amplitude": 0.0103759928,
-        "raw_amplitude": 0.0311279783,
-        "percent": 3.112798,
-        "raw_percent": 3.112798,
-        "coverage_percent": 86.725066,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0311279783,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0094203422,
-        "abs_amplitude": 0.0094203422,
-        "raw_amplitude": 0.0282610266,
-        "percent": 2.826103,
-        "raw_percent": 2.826103,
-        "coverage_percent": 89.551168,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0282610266,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "struggling",
-        "descriptor_index": 7400,
-        "amplitude": 0.008771694,
-        "abs_amplitude": 0.008771694,
-        "raw_amplitude": 0.026315082,
-        "percent": 2.631508,
-        "raw_percent": 2.631508,
-        "coverage_percent": 92.182676,
-        "member_count": 1,
-        "members": [
-          "struggling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.026315082,
-            "similarity": 0.839199,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "half-russian half-japanese",
-        "descriptor_index": 3312,
-        "amplitude": 0.0067943101,
-        "abs_amplitude": 0.0067943101,
-        "raw_amplitude": 0.0203829304,
-        "percent": 2.038293,
-        "raw_percent": 2.038293,
-        "coverage_percent": 94.220969,
-        "member_count": 1,
-        "members": [
-          "half-russian half-japanese"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0203829304,
-            "similarity": 0.802073,
-            "matched_descriptor": "bilingual"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "tactical",
-        "descriptor_index": 7639,
-        "amplitude": 0.0057980255,
-        "abs_amplitude": 0.0057980255,
-        "raw_amplitude": 0.0173940766,
-        "percent": 1.739408,
-        "raw_percent": 1.739408,
-        "coverage_percent": 95.960377,
-        "member_count": 1,
-        "members": [
-          "tactical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0173940766,
-            "similarity": 0.816433,
-            "matched_descriptor": "competitive"
+            "combined_favourites": 344
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0726237446,
-        "abs_amplitude": 0.0726237446,
-        "raw_amplitude": 0.2178712338,
-        "percent": 21.787123,
-        "raw_percent": 21.787123,
-        "coverage_percent": 21.787123,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.6160169,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.2178712337,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
+        "fit_percent": 91.147374,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "bilingual",
-        "descriptor_index": 652,
-        "amplitude": 0.0516870053,
-        "abs_amplitude": 0.0516870053,
-        "raw_amplitude": 0.155061016,
-        "percent": 15.506102,
-        "raw_percent": 15.506102,
-        "coverage_percent": 37.293225,
-        "member_count": 1,
-        "members": [
-          "bilingual"
-        ],
+        "step": 2,
+        "descriptor": "jealous",
+        "weighted_support": 2.6160169,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.155061016,
-            "similarity": 1.0,
-            "matched_descriptor": "bilingual"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0516869759,
-        "abs_amplitude": 0.0516869759,
-        "raw_amplitude": 0.1550609278,
-        "percent": 15.506093,
-        "raw_percent": 15.506093,
-        "coverage_percent": 52.799318,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.1550609278,
-            "similarity": 1.0,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "rivalrous / cut-throat",
-        "descriptor_index": 6336,
-        "amplitude": 0.029835433,
-        "abs_amplitude": 0.029835433,
-        "raw_amplitude": 0.089506299,
-        "percent": 8.95063,
-        "raw_percent": 8.95063,
-        "coverage_percent": 61.749948,
-        "member_count": 2,
-        "members": [
-          "rivalrous",
-          "cut-throat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.089506299,
-            "similarity": 0.865625,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "multilingual",
-        "descriptor_index": 4969,
-        "amplitude": 0.0204257441,
-        "abs_amplitude": 0.0204257441,
-        "raw_amplitude": 0.0612772323,
-        "percent": 6.127723,
-        "raw_percent": 6.127723,
-        "coverage_percent": 67.877671,
-        "member_count": 1,
-        "members": [
-          "multilingual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0612772323,
-            "similarity": 0.874603,
-            "matched_descriptor": "bilingual"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "battle-hungry / battle-loving",
-        "descriptor_index": 580,
-        "amplitude": 0.0181790479,
-        "abs_amplitude": 0.0181790479,
-        "raw_amplitude": 0.0545371438,
-        "percent": 5.453714,
-        "raw_percent": 5.453714,
-        "coverage_percent": 73.331385,
-        "member_count": 2,
-        "members": [
-          "battle-hungry",
-          "battle-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0545371438,
-            "similarity": 0.868373,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "regretful / guilt-ridden / remorseful",
-        "descriptor_index": 6198,
-        "amplitude": 0.017433597,
-        "abs_amplitude": 0.017433597,
-        "raw_amplitude": 0.0523007911,
-        "percent": 5.230079,
-        "raw_percent": 5.230079,
-        "coverage_percent": 78.561464,
-        "member_count": 3,
-        "members": [
-          "regretful",
-          "guilt-ridden",
-          "remorseful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0523007911,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "love-avoidant / relationship-averse",
-        "descriptor_index": 4414,
-        "amplitude": 0.0168360112,
-        "abs_amplitude": 0.0168360112,
-        "raw_amplitude": 0.0505080336,
-        "percent": 5.050803,
-        "raw_percent": 5.050803,
-        "coverage_percent": 83.612268,
-        "member_count": 2,
-        "members": [
-          "love-avoidant",
-          "relationship-averse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0505080336,
-            "similarity": 0.859401,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "fretful / worrying",
-        "descriptor_index": 2809,
-        "amplitude": 0.0103759928,
-        "abs_amplitude": 0.0103759928,
-        "raw_amplitude": 0.0311279783,
-        "percent": 3.112798,
-        "raw_percent": 3.112798,
-        "coverage_percent": 86.725066,
-        "member_count": 2,
-        "members": [
-          "fretful",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0311279783,
-            "similarity": 0.861004,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "empathetic",
-        "descriptor_index": 2149,
-        "amplitude": 0.0094203422,
-        "abs_amplitude": 0.0094203422,
-        "raw_amplitude": 0.0282610266,
-        "percent": 2.826103,
-        "raw_percent": 2.826103,
-        "coverage_percent": 89.551168,
-        "member_count": 1,
-        "members": [
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0282610266,
-            "similarity": 0.866245,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "struggling",
-        "descriptor_index": 7400,
-        "amplitude": 0.008771694,
-        "abs_amplitude": 0.008771694,
-        "raw_amplitude": 0.026315082,
-        "percent": 2.631508,
-        "raw_percent": 2.631508,
-        "coverage_percent": 92.182676,
-        "member_count": 1,
-        "members": [
-          "struggling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.026315082,
-            "similarity": 0.839199,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "half-russian half-japanese",
-        "descriptor_index": 3312,
-        "amplitude": 0.0067943101,
-        "abs_amplitude": 0.0067943101,
-        "raw_amplitude": 0.0203829304,
-        "percent": 2.038293,
-        "raw_percent": 2.038293,
-        "coverage_percent": 94.220969,
-        "member_count": 1,
-        "members": [
-          "half-russian half-japanese"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0203829304,
-            "similarity": 0.802073,
-            "matched_descriptor": "bilingual"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "tactical",
-        "descriptor_index": 7639,
-        "amplitude": 0.0057980255,
-        "abs_amplitude": 0.0057980255,
-        "raw_amplitude": 0.0173940766,
-        "percent": 1.739408,
-        "raw_percent": 1.739408,
-        "coverage_percent": 95.960377,
-        "member_count": 1,
-        "members": [
-          "tactical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50227,
-            "name": "Alice Carteret",
-            "native_name": "アリス・カータレット",
-            "anime": "KINMOZA!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
-            "site_url": "https://anilist.co/character/50227",
-            "anime_url": "https://myanimelist.net/anime/16732",
-            "role": "MAIN",
-            "favourites": 167,
-            "row_weight": 2.47466442,
-            "projection": 0.0173940766,
-            "similarity": 0.816433,
-            "matched_descriptor": "competitive"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 50227,
         "name": "Alice Carteret",
-        "native_name": "アリス・カータレット",
         "anime": "KINMOZA!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
         "site_url": "https://anilist.co/character/50227",
-        "anime_url": "https://myanimelist.net/anime/16732",
-        "role": "MAIN",
         "favourites": 167,
-        "row_weight": 2.47466442,
+        "anilist_favourites": 167,
+        "bangumi_collects": 177,
+        "bangumi_comments": 45,
+        "bangumi_character_id": 20481,
+        "bangumi_url": "https://bgm.tv/character/20481",
+        "combined_favourites": 344,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.6160169,
+        "row_weight": 2.6160169,
+        "unweighted_row_norm": 1.82294748,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1004,19 +112,68 @@
       {
         "character_id": 50227,
         "name": "Alice Carteret",
-        "native_name": "アリス・カータレット",
         "anime": "KINMOZA!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b50227-1rzODyLp2heb.png",
         "site_url": "https://anilist.co/character/50227",
-        "anime_url": "https://myanimelist.net/anime/16732",
-        "role": "MAIN",
         "favourites": 167,
-        "row_weight": 2.47466442,
+        "anilist_favourites": 167,
+        "bangumi_collects": 177,
+        "bangumi_comments": 45,
+        "bangumi_character_id": 20481,
+        "bangumi_url": "https://bgm.tv/character/20481",
+        "combined_favourites": 344,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.6160169,
+        "row_weight": 2.6160169,
+        "unweighted_row_norm": 1.82294748,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.6160168992,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

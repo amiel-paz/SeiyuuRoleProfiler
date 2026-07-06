@@ -11,1174 +11,349 @@
     "erika narumi",
     "narumi erika"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/erika_narumi.json",
+  "sv1_mass_percent": 81.860951,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 11.689651648,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 11.689651648,
-        "mass_percent": 98.172119
-      },
-      {
-        "rank": 2,
-        "singular_value": 1.595076342,
-        "mass_percent": 1.827881
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 277.101616,
-      "normalized_entanglement": 0.721619,
-      "top5_mass_percent": 4.676814,
-      "top10_mass_percent": 8.081003
-    },
-    "character_participation": {
-      "effective_count": 1.400723,
-      "normalized_entanglement": 0.700361,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 4.952092,
-      "semantic_spread": 4.952092,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.39233,
-      "direction_spread": 1.39233,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 98.172119,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.9554537888,
+    "mass_percent": 85.268084,
+    "descriptor_fit_percent": 97.408541,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.046879273,
-        "abs_amplitude": 0.046879273,
-        "raw_amplitude": 0.1406378191,
-        "percent": 15.464607,
-        "raw_percent": 15.464558,
-        "coverage_percent": 15.464607,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "astute",
-          "clever",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
+        "descriptor": "moody",
+        "amplitude": 0.5423872368,
+        "abs_amplitude": 0.5423872368,
+        "percent": 50.004977,
+        "weighted_support": 2.64880297,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 132553,
             "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
             "anime": "The Fruit of Grisaia",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
             "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.1406378191,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
+            "combined_favourites": 409
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0454246937,
-        "abs_amplitude": 0.0454246937,
-        "raw_amplitude": 0.1362740811,
-        "percent": 14.984768,
-        "raw_percent": 14.984721,
-        "coverage_percent": 30.449376,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "descriptor": "kind",
+        "amplitude": 0.542279269,
+        "abs_amplitude": 0.542279269,
+        "percent": 49.995023,
+        "weighted_support": 2.64880297,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 132553,
             "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
             "anime": "The Fruit of Grisaia",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
             "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.136274081,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "moody / grouchy / grumpy / grim / +3",
-        "descriptor_index": 4925,
-        "amplitude": 0.0374057387,
-        "abs_amplitude": 0.0374057387,
-        "raw_amplitude": 0.112217216,
-        "percent": 12.339463,
-        "raw_percent": 12.339424,
-        "coverage_percent": 42.788839,
-        "member_count": 7,
-        "members": [
-          "moody",
-          "grouchy",
-          "grumpy",
-          "grim",
-          "sullen",
-          "disapproving",
-          "unsmiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.1122172159,
-            "similarity": 1.0,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sensitive / frail / brittle / fragile",
-        "descriptor_index": 6702,
-        "amplitude": 0.022421464,
-        "abs_amplitude": 0.022421464,
-        "raw_amplitude": 0.067264392,
-        "percent": 7.396427,
-        "raw_percent": 7.396404,
-        "coverage_percent": 50.185266,
-        "member_count": 4,
-        "members": [
-          "sensitive",
-          "frail",
-          "brittle",
-          "fragile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.067264392,
-            "similarity": 1.0,
-            "matched_descriptor": "sensitive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mature / matured",
-        "descriptor_index": 4666,
-        "amplitude": 0.0119902023,
-        "abs_amplitude": 0.0119902023,
-        "raw_amplitude": 0.035970607,
-        "percent": 3.955347,
-        "raw_percent": 3.955334,
-        "coverage_percent": 54.140613,
-        "member_count": 2,
-        "members": [
-          "mature",
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.035970607,
-            "similarity": 1.0,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "bad-tempered / ill-tempered / cranky / annoyed-prone / +1",
-        "descriptor_index": 532,
-        "amplitude": 0.0105876246,
-        "abs_amplitude": 0.0105876246,
-        "raw_amplitude": 0.0317628739,
-        "percent": 3.492662,
-        "raw_percent": 3.492651,
-        "coverage_percent": 57.633275,
-        "member_count": 5,
-        "members": [
-          "bad-tempered",
-          "ill-tempered",
-          "cranky",
-          "annoyed-prone",
-          "quick-tempered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.031762874,
-            "similarity": 0.897752,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0103456076,
-        "abs_amplitude": 0.0103456076,
-        "raw_amplitude": 0.0310368227,
-        "percent": 3.412825,
-        "raw_percent": 3.412814,
-        "coverage_percent": 61.0461,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0310368228,
-            "similarity": 0.938187,
-            "matched_descriptor": "hard worker"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.0085759775,
-        "abs_amplitude": 0.0085759775,
-        "raw_amplitude": 0.0257279325,
-        "percent": 2.829057,
-        "raw_percent": 2.829048,
-        "coverage_percent": 63.875157,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0257279325,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "displeased / irritable / aggravated / sad / +2",
-        "descriptor_index": 1874,
-        "amplitude": 0.0068822447,
-        "abs_amplitude": 0.0068822447,
-        "raw_amplitude": 0.0206467341,
-        "percent": 2.270326,
-        "raw_percent": 2.270318,
-        "coverage_percent": 66.145482,
-        "member_count": 6,
-        "members": [
-          "displeased",
-          "irritable",
-          "aggravated",
-          "sad",
-          "irritated",
-          "impatient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0206467342,
-            "similarity": 0.899562,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "sensible / prudent / deliberative / careful / +1",
-        "descriptor_index": 6701,
-        "amplitude": 0.0065546284,
-        "abs_amplitude": 0.0065546284,
-        "raw_amplitude": 0.0196638852,
-        "percent": 2.162251,
-        "raw_percent": 2.162244,
-        "coverage_percent": 68.307733,
-        "member_count": 5,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "careful",
-          "no-nonsense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0196638853,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0060377634,
-        "abs_amplitude": 0.0060377634,
-        "raw_amplitude": 0.0181132902,
-        "percent": 1.991747,
-        "raw_percent": 1.99174,
-        "coverage_percent": 70.29948,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0181132902,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0057839905,
-        "abs_amplitude": 0.0057839905,
-        "raw_amplitude": 0.0173519715,
-        "percent": 1.908032,
-        "raw_percent": 1.908026,
-        "coverage_percent": 72.207512,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0173519714,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0050113488,
-        "abs_amplitude": 0.0050113488,
-        "raw_amplitude": 0.0150340464,
-        "percent": 1.653152,
-        "raw_percent": 1.653146,
-        "coverage_percent": 73.860663,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0150340464,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0047085379,
-        "abs_amplitude": 0.0047085379,
-        "raw_amplitude": 0.0141256137,
-        "percent": 1.55326,
-        "raw_percent": 1.553255,
-        "coverage_percent": 75.413923,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0141256137,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "undercover",
-        "descriptor_index": 8099,
-        "amplitude": 0.004422723,
-        "abs_amplitude": 0.004422723,
-        "raw_amplitude": 0.0132681689,
-        "percent": 1.458975,
-        "raw_percent": 1.45897,
-        "coverage_percent": 76.872898,
-        "member_count": 1,
-        "members": [
-          "undercover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0132681689,
-            "similarity": 0.912951,
-            "matched_descriptor": "black ops operative"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "good / openhearted / pleasant / open-hearted / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0043544965,
-        "abs_amplitude": 0.0043544965,
-        "raw_amplitude": 0.0130634894,
-        "percent": 1.436468,
-        "raw_percent": 1.436463,
-        "coverage_percent": 78.309366,
-        "member_count": 6,
-        "members": [
-          "good",
-          "openhearted",
-          "pleasant",
-          "open-hearted",
-          "polite",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0130634895,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0041995396,
-        "abs_amplitude": 0.0041995396,
-        "raw_amplitude": 0.0125986187,
-        "percent": 1.385351,
-        "raw_percent": 1.385346,
-        "coverage_percent": 79.694716,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0125986187,
-            "similarity": 0.884867,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "inventive / crafty",
-        "descriptor_index": 3986,
-        "amplitude": 0.0039652291,
-        "abs_amplitude": 0.0039652291,
-        "raw_amplitude": 0.0118956874,
-        "percent": 1.308056,
-        "raw_percent": 1.308052,
-        "coverage_percent": 81.002772,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0118956875,
-            "similarity": 0.890893,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "dejected / downhearted / dismayed / miserable",
-        "descriptor_index": 1663,
-        "amplitude": 0.003799438,
-        "abs_amplitude": 0.003799438,
-        "raw_amplitude": 0.0113983141,
-        "percent": 1.253365,
-        "raw_percent": 1.253361,
-        "coverage_percent": 82.256137,
-        "member_count": 4,
-        "members": [
-          "dejected",
-          "downhearted",
-          "dismayed",
-          "miserable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0113983142,
-            "similarity": 0.877275,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "upset / tearful",
-        "descriptor_index": 8259,
-        "amplitude": 0.003247002,
-        "abs_amplitude": 0.003247002,
-        "raw_amplitude": 0.0097410059,
-        "percent": 1.071126,
-        "raw_percent": 1.071123,
-        "coverage_percent": 83.327263,
-        "member_count": 2,
-        "members": [
-          "upset",
-          "tearful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0097410059,
-            "similarity": 0.895957,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0030479734,
-        "abs_amplitude": 0.0030479734,
-        "raw_amplitude": 0.0091439202,
-        "percent": 1.00547,
-        "raw_percent": 1.005467,
-        "coverage_percent": 84.332733,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0091439202,
-            "similarity": 0.872835,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "temperamental / hot-tempered",
-        "descriptor_index": 7760,
-        "amplitude": 0.0030061973,
-        "abs_amplitude": 0.0030061973,
-        "raw_amplitude": 0.009018592,
-        "percent": 0.991689,
-        "raw_percent": 0.991686,
-        "coverage_percent": 85.324422,
-        "member_count": 2,
-        "members": [
-          "temperamental",
-          "hot-tempered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0090185921,
-            "similarity": 0.890083,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "wimpy / meek / faint-hearted",
-        "descriptor_index": 8565,
-        "amplitude": 0.0028800449,
-        "abs_amplitude": 0.0028800449,
-        "raw_amplitude": 0.0086401348,
-        "percent": 0.950074,
-        "raw_percent": 0.950071,
-        "coverage_percent": 86.274496,
-        "member_count": 3,
-        "members": [
-          "wimpy",
-          "meek",
-          "faint-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0086401348,
-            "similarity": 0.882144,
-            "matched_descriptor": "sensitive"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "vulnerable",
-        "descriptor_index": 8422,
-        "amplitude": 0.0028385006,
-        "abs_amplitude": 0.0028385006,
-        "raw_amplitude": 0.0085155019,
-        "percent": 0.936369,
-        "raw_percent": 0.936366,
-        "coverage_percent": 87.210865,
-        "member_count": 1,
-        "members": [
-          "vulnerable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0085155019,
-            "similarity": 0.891994,
-            "matched_descriptor": "sensitive"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "restrained / composed",
-        "descriptor_index": 6272,
-        "amplitude": 0.0026447679,
-        "abs_amplitude": 0.0026447679,
-        "raw_amplitude": 0.0079343036,
-        "percent": 0.87246,
-        "raw_percent": 0.872457,
-        "coverage_percent": 88.083325,
-        "member_count": 2,
-        "members": [
-          "restrained",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 132553,
-            "name": "Yuria Harudera",
-            "native_name": "春寺由梨亜",
-            "anime": "The Fruit of Grisaia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
-            "site_url": "https://anilist.co/character/132553",
-            "anime_url": "https://myanimelist.net/anime/17729",
-            "role": "SUPPORTING",
-            "favourites": 236,
-            "row_weight": 2.54323812,
-            "projection": 0.0079343036,
-            "similarity": 0.89759,
-            "matched_descriptor": "mature"
+            "combined_favourites": 409
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.1051537775,
-        "abs_amplitude": 0.1051537775,
-        "raw_amplitude": 0.3154613326,
-        "percent": 75.854226,
-        "raw_percent": 75.854226,
-        "coverage_percent": 75.854226,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
+        "step": 1,
+        "descriptor": "moody",
+        "weighted_support": 2.64880297,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 22510,
-            "name": "Sylvia van Hossen",
-            "native_name": "シルヴィア＝ファン・ホッセン",
-            "anime": "Princess Lover!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/22510.jpg",
-            "site_url": "https://anilist.co/character/22510",
-            "anime_url": "https://myanimelist.net/anime/6201",
-            "role": "MAIN",
-            "favourites": 152,
-            "row_weight": 1.73643859,
-            "projection": 0.3154613326,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
+        "fit_percent": 87.479889,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "absent",
-        "descriptor_index": 15,
-        "amplitude": 0.0221478941,
-        "abs_amplitude": 0.0221478941,
-        "raw_amplitude": 0.0664436823,
-        "percent": 15.976709,
-        "raw_percent": 15.976709,
-        "coverage_percent": 91.830935,
-        "member_count": 1,
-        "members": [
-          "absent"
-        ],
+        "step": 2,
+        "descriptor": "kind",
+        "weighted_support": 2.64880297,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 22510,
-            "name": "Sylvia van Hossen",
-            "native_name": "シルヴィア＝ファン・ホッセン",
-            "anime": "Princess Lover!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/22510.jpg",
-            "site_url": "https://anilist.co/character/22510",
-            "anime_url": "https://myanimelist.net/anime/6201",
-            "role": "MAIN",
-            "favourites": 152,
-            "row_weight": 1.73643859,
-            "projection": 0.0664436823,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "dormant",
-        "descriptor_index": 1928,
-        "amplitude": 0.0045775939,
-        "abs_amplitude": 0.0045775939,
-        "raw_amplitude": 0.0137327818,
-        "percent": 3.302115,
-        "raw_percent": 3.302115,
-        "coverage_percent": 95.13305,
-        "member_count": 1,
-        "members": [
-          "dormant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 22510,
-            "name": "Sylvia van Hossen",
-            "native_name": "シルヴィア＝ファン・ホッセン",
-            "anime": "Princess Lover!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/22510.jpg",
-            "site_url": "https://anilist.co/character/22510",
-            "anime_url": "https://myanimelist.net/anime/6201",
-            "role": "MAIN",
-            "favourites": 152,
-            "row_weight": 1.73643859,
-            "projection": 0.0137327818,
-            "similarity": 0.811751,
-            "matched_descriptor": "reserved"
-          }
-        ]
+        "fit_percent": 97.408541,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 132553,
         "name": "Yuria Harudera",
-        "native_name": "春寺由梨亜",
         "anime": "The Fruit of Grisaia",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
         "site_url": "https://anilist.co/character/132553",
-        "anime_url": "https://myanimelist.net/anime/17729",
-        "role": "SUPPORTING",
         "favourites": 236,
-        "row_weight": 2.54323812,
-        "amplitude": 0.909420235,
-        "abs_amplitude": 0.909420235,
-        "percent": 82.704516
+        "anilist_favourites": 236,
+        "bangumi_collects": 173,
+        "bangumi_comments": 49,
+        "bangumi_character_id": 10976,
+        "bangumi_url": "https://bgm.tv/character/10976",
+        "combined_favourites": 409,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind",
+          "moody"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.64880297,
+        "row_weight": 2.64880297,
+        "unweighted_row_norm": 1.79610121,
+        "amplitude": 0.8730166393,
+        "abs_amplitude": 0.8730166393,
+        "percent": 76.215805
       },
       {
         "character_id": 22510,
         "name": "Sylvia van Hossen",
-        "native_name": "シルヴィア＝ファン・ホッセン",
-        "anime": "Princess Lover!",
+        "anime": "Princess Lover! OVA",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/22510.jpg",
         "site_url": "https://anilist.co/character/22510",
-        "anime_url": "https://myanimelist.net/anime/6201",
-        "role": "MAIN",
         "favourites": 152,
-        "row_weight": 1.73643859,
-        "amplitude": -0.415878391,
-        "abs_amplitude": 0.415878391,
-        "percent": 17.295484
+        "anilist_favourites": 152,
+        "bangumi_collects": 81,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 6388,
+        "bangumi_url": "https://bgm.tv/character/6388",
+        "combined_favourites": 233,
+        "role_edge_count": 2,
+        "descriptors": [
+          "reserved"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.5407324,
+        "row_weight": 1.79656911,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4876904217,
+        "abs_amplitude": 0.4876904217,
+        "percent": 23.784195
       }
     ],
     "positive_characters": [
       {
         "character_id": 132553,
         "name": "Yuria Harudera",
-        "native_name": "春寺由梨亜",
         "anime": "The Fruit of Grisaia",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
         "site_url": "https://anilist.co/character/132553",
-        "anime_url": "https://myanimelist.net/anime/17729",
-        "role": "SUPPORTING",
         "favourites": 236,
-        "row_weight": 2.54323812,
-        "amplitude": 0.909420235,
-        "abs_amplitude": 0.909420235,
-        "percent": 82.704516
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 236,
+        "bangumi_collects": 173,
+        "bangumi_comments": 49,
+        "bangumi_character_id": 10976,
+        "bangumi_url": "https://bgm.tv/character/10976",
+        "combined_favourites": 409,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind",
+          "moody"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.64880297,
+        "row_weight": 2.64880297,
+        "unweighted_row_norm": 1.79610121,
+        "amplitude": 0.8730166393,
+        "abs_amplitude": 0.8730166393,
+        "percent": 76.215805
+      },
       {
         "character_id": 22510,
         "name": "Sylvia van Hossen",
-        "native_name": "シルヴィア＝ファン・ホッセン",
-        "anime": "Princess Lover!",
+        "anime": "Princess Lover! OVA",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/22510.jpg",
         "site_url": "https://anilist.co/character/22510",
-        "anime_url": "https://myanimelist.net/anime/6201",
-        "role": "MAIN",
         "favourites": 152,
-        "row_weight": 1.73643859,
-        "amplitude": -0.415878391,
-        "abs_amplitude": 0.415878391,
-        "percent": 17.295484
+        "anilist_favourites": 152,
+        "bangumi_collects": 81,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 6388,
+        "bangumi_url": "https://bgm.tv/character/6388",
+        "combined_favourites": 233,
+        "role_edge_count": 2,
+        "descriptors": [
+          "reserved"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.5407324,
+        "row_weight": 1.79656911,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4876904217,
+        "abs_amplitude": 0.4876904217,
+        "percent": 23.784195
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.568741,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.2284586358,
+      "mass_percent": 14.731916,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 59.695161,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "reserved",
+            "amplitude": 0.5969516148,
+            "abs_amplitude": 0.5969516148,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "reserved",
+            "fit_percent": 59.695161,
+            "residual_gain_percent": 35.635123
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 22510,
+            "name": "Sylvia van Hossen",
+            "anime": "Princess Lover! OVA",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/22510.jpg",
+            "site_url": "https://anilist.co/character/22510",
+            "favourites": 152,
+            "anilist_favourites": 152,
+            "bangumi_collects": 81,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 6388,
+            "bangumi_url": "https://bgm.tv/character/6388",
+            "combined_favourites": 233,
+            "role_edge_count": 2,
+            "descriptors": [
+              "reserved"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.5407324,
+            "row_weight": 1.79656911,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.8730166393,
+            "abs_amplitude": 0.8730166393,
+            "percent": 76.215805
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 22.618057,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.1261610729,
+            "abs_amplitude": 0.1261610729,
+            "percent": 50.092312
+          },
+          {
+            "rank": 2,
+            "descriptor": "moody",
+            "amplitude": 0.1256960854,
+            "abs_amplitude": 0.1256960854,
+            "percent": 49.907688
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 20.321149,
+            "residual_gain_percent": 4.129491
+          },
+          {
+            "step": 2,
+            "descriptor": "moody",
+            "fit_percent": 22.618057,
+            "residual_gain_percent": 1.028756
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 132553,
+            "name": "Yuria Harudera",
+            "anime": "The Fruit of Grisaia",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b132553-RUyzMUGl4fDf.jpg",
+            "site_url": "https://anilist.co/character/132553",
+            "favourites": 236,
+            "anilist_favourites": 236,
+            "bangumi_collects": 173,
+            "bangumi_comments": 49,
+            "bangumi_character_id": 10976,
+            "bangumi_url": "https://bgm.tv/character/10976",
+            "combined_favourites": 409,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "moody"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.64880297,
+            "row_weight": 2.64880297,
+            "unweighted_row_norm": 1.79610121,
+            "amplitude": -0.4876904217,
+            "abs_amplitude": 0.4876904217,
+            "percent": 23.784195
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.9554537888,
+      "mass_percent": 85.268084,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.2284586358,
+      "mass_percent": 14.731916,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

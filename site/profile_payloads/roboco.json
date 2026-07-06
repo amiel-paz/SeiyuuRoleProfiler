@@ -10,1498 +10,98 @@
   "aliases": [
     "roboco"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/roboco.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.1201728032,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.1201728032,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 274.735514,
-      "normalized_entanglement": 0.715457,
-      "top5_mass_percent": 3.687521,
-      "top10_mass_percent": 6.971102
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4673054807,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "wimpy / faint-hearted / meek / unassertive / +2",
-        "descriptor_index": 8565,
-        "amplitude": 0.155316657,
-        "abs_amplitude": 0.155316657,
-        "raw_amplitude": 0.4659499711,
-        "percent": 46.594997,
-        "raw_percent": 46.594997,
-        "coverage_percent": 46.594997,
-        "member_count": 6,
-        "members": [
-          "wimpy",
-          "faint-hearted",
-          "meek",
-          "unassertive",
-          "weak-hearted",
-          "frail"
-        ],
+        "descriptor": "wimpy",
+        "amplitude": 0.5723934126,
+        "abs_amplitude": 0.5723934126,
+        "percent": 50.0,
+        "weighted_support": 2.46730548,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 169483,
             "name": "Roboco",
-            "native_name": "ロボ子",
             "anime": "Miko no Tsutome!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
             "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.4659499712,
-            "similarity": 1.0,
-            "matched_descriptor": "wimpy"
+            "combined_favourites": 161
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "robotic / mechanical",
-        "descriptor_index": 6344,
-        "amplitude": 0.0330473568,
-        "abs_amplitude": 0.0330473568,
-        "raw_amplitude": 0.0991420703,
-        "percent": 9.914207,
-        "raw_percent": 9.914207,
-        "coverage_percent": 56.509204,
-        "member_count": 2,
-        "members": [
-          "robotic",
-          "mechanical"
-        ],
+        "descriptor": "loyal",
+        "amplitude": 0.5723934126,
+        "abs_amplitude": 0.5723934126,
+        "percent": 50.0,
+        "weighted_support": 2.46730548,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 169483,
             "name": "Roboco",
-            "native_name": "ロボ子",
             "anime": "Miko no Tsutome!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
             "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0991420703,
-            "similarity": 0.893862,
-            "matched_descriptor": "robot"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "sensitive / fragile / brittle",
-        "descriptor_index": 6702,
-        "amplitude": 0.0199801744,
-        "abs_amplitude": 0.0199801744,
-        "raw_amplitude": 0.0599405231,
-        "percent": 5.994052,
-        "raw_percent": 5.994052,
-        "coverage_percent": 62.503256,
-        "member_count": 3,
-        "members": [
-          "sensitive",
-          "fragile",
-          "brittle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0599405231,
-            "similarity": 0.882144,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "harsh / vicious",
-        "descriptor_index": 3366,
-        "amplitude": 0.0179147014,
-        "abs_amplitude": 0.0179147014,
-        "raw_amplitude": 0.0537441041,
-        "percent": 5.37441,
-        "raw_percent": 5.37441,
-        "coverage_percent": 67.877667,
-        "member_count": 2,
-        "members": [
-          "harsh",
-          "vicious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0537441041,
-            "similarity": 0.89735,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "weak",
-        "descriptor_index": 8477,
-        "amplitude": 0.0104948,
-        "abs_amplitude": 0.0104948,
-        "raw_amplitude": 0.0314844,
-        "percent": 3.14844,
-        "raw_percent": 3.14844,
-        "coverage_percent": 71.026107,
-        "member_count": 1,
-        "members": [
-          "weak"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0314844,
-            "similarity": 0.884747,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0104893286,
-        "abs_amplitude": 0.0104893286,
-        "raw_amplitude": 0.0314679858,
-        "percent": 3.146799,
-        "raw_percent": 3.146799,
-        "coverage_percent": 74.172905,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0314679858,
-            "similarity": 0.884729,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "rough / coarse / brusque",
-        "descriptor_index": 6367,
-        "amplitude": 0.0103189371,
-        "abs_amplitude": 0.0103189371,
-        "raw_amplitude": 0.0309568114,
-        "percent": 3.095681,
-        "raw_percent": 3.095681,
-        "coverage_percent": 77.268587,
-        "member_count": 3,
-        "members": [
-          "rough",
-          "coarse",
-          "brusque"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0309568114,
-            "similarity": 0.869165,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "sickly",
-        "descriptor_index": 6846,
-        "amplitude": 0.007705936,
-        "abs_amplitude": 0.007705936,
-        "raw_amplitude": 0.023117808,
-        "percent": 2.311781,
-        "raw_percent": 2.311781,
-        "coverage_percent": 79.580367,
-        "member_count": 1,
-        "members": [
-          "sickly"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.023117808,
-            "similarity": 0.875359,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "cold-blooded / cold / numb",
-        "descriptor_index": 1235,
-        "amplitude": 0.0072164857,
-        "abs_amplitude": 0.0072164857,
-        "raw_amplitude": 0.021649457,
-        "percent": 2.164946,
-        "raw_percent": 2.164946,
-        "coverage_percent": 81.745313,
-        "member_count": 3,
-        "members": [
-          "cold-blooded",
-          "cold",
-          "numb"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.021649457,
-            "similarity": 0.874122,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "anemic",
-        "descriptor_index": 234,
-        "amplitude": 0.0062695479,
-        "abs_amplitude": 0.0062695479,
-        "raw_amplitude": 0.0188086436,
-        "percent": 1.880864,
-        "raw_percent": 1.880864,
-        "coverage_percent": 83.626177,
-        "member_count": 1,
-        "members": [
-          "anemic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0188086436,
-            "similarity": 0.870524,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "vulnerable",
-        "descriptor_index": 8422,
-        "amplitude": 0.0053125519,
-        "abs_amplitude": 0.0053125519,
-        "raw_amplitude": 0.0159376558,
-        "percent": 1.593766,
-        "raw_percent": 1.593766,
-        "coverage_percent": 85.219943,
-        "member_count": 1,
-        "members": [
-          "vulnerable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0159376558,
-            "similarity": 0.867303,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "fearful / intimidated",
-        "descriptor_index": 2482,
-        "amplitude": 0.0052176615,
-        "abs_amplitude": 0.0052176615,
-        "raw_amplitude": 0.0156529846,
-        "percent": 1.565298,
-        "raw_percent": 1.565298,
-        "coverage_percent": 86.785241,
-        "member_count": 2,
-        "members": [
-          "fearful",
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0156529846,
-            "similarity": 0.865808,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "villainous",
-        "descriptor_index": 8370,
-        "amplitude": 0.0051528018,
-        "abs_amplitude": 0.0051528018,
-        "raw_amplitude": 0.0154584053,
-        "percent": 1.545841,
-        "raw_percent": 1.545841,
-        "coverage_percent": 88.331082,
-        "member_count": 1,
-        "members": [
-          "villainous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0154584053,
-            "similarity": 0.866765,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "methodical",
-        "descriptor_index": 4776,
-        "amplitude": 0.004361198,
-        "abs_amplitude": 0.004361198,
-        "raw_amplitude": 0.0130835939,
-        "percent": 1.308359,
-        "raw_percent": 1.308359,
-        "coverage_percent": 89.639441,
-        "member_count": 1,
-        "members": [
-          "methodical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0130835939,
-            "similarity": 0.839074,
-            "matched_descriptor": "robot"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "alien / supernatural",
-        "descriptor_index": 165,
-        "amplitude": 0.0040292993,
-        "abs_amplitude": 0.0040292993,
-        "raw_amplitude": 0.012087898,
-        "percent": 1.20879,
-        "raw_percent": 1.20879,
-        "coverage_percent": 90.848231,
-        "member_count": 2,
-        "members": [
-          "alien",
-          "supernatural"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.012087898,
-            "similarity": 0.836274,
-            "matched_descriptor": "robot"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "careless",
-        "descriptor_index": 956,
-        "amplitude": 0.0035728474,
-        "abs_amplitude": 0.0035728474,
-        "raw_amplitude": 0.0107185423,
-        "percent": 1.071854,
-        "raw_percent": 1.071854,
-        "coverage_percent": 91.920085,
-        "member_count": 1,
-        "members": [
-          "careless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0107185423,
-            "similarity": 0.861447,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "poor self-esteem",
-        "descriptor_index": 5718,
-        "amplitude": 0.0030878245,
-        "abs_amplitude": 0.0030878245,
-        "raw_amplitude": 0.0092634736,
-        "percent": 0.926347,
-        "raw_percent": 0.926347,
-        "coverage_percent": 92.846433,
-        "member_count": 1,
-        "members": [
-          "poor self-esteem"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0092634736,
-            "similarity": 0.859814,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "quiet / unsociable",
-        "descriptor_index": 6084,
-        "amplitude": 0.0028642716,
-        "abs_amplitude": 0.0028642716,
-        "raw_amplitude": 0.0085928147,
-        "percent": 0.859281,
-        "raw_percent": 0.859281,
-        "coverage_percent": 93.705714,
-        "member_count": 2,
-        "members": [
-          "quiet",
-          "unsociable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0085928147,
-            "similarity": 0.854948,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "crazy",
-        "descriptor_index": 1485,
-        "amplitude": 0.0024553045,
-        "abs_amplitude": 0.0024553045,
-        "raw_amplitude": 0.0073659135,
-        "percent": 0.736591,
-        "raw_percent": 0.736591,
-        "coverage_percent": 94.442306,
-        "member_count": 1,
-        "members": [
-          "crazy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0073659135,
-            "similarity": 0.857685,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "sad",
-        "descriptor_index": 6428,
-        "amplitude": 0.0024275581,
-        "abs_amplitude": 0.0024275581,
-        "raw_amplitude": 0.0072826742,
-        "percent": 0.728267,
-        "raw_percent": 0.728267,
-        "coverage_percent": 95.170573,
-        "member_count": 1,
-        "members": [
-          "sad"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0072826742,
-            "similarity": 0.857591,
-            "matched_descriptor": "wimpy"
+            "combined_favourites": 161
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "wimpy / faint-hearted / meek / unassertive / +2",
-        "descriptor_index": 8565,
-        "amplitude": 0.155316657,
-        "abs_amplitude": 0.155316657,
-        "raw_amplitude": 0.4659499711,
-        "percent": 46.594997,
-        "raw_percent": 46.594997,
-        "coverage_percent": 46.594997,
-        "member_count": 6,
-        "members": [
-          "wimpy",
-          "faint-hearted",
-          "meek",
-          "unassertive",
-          "weak-hearted",
-          "frail"
-        ],
+        "step": 1,
+        "descriptor": "wimpy",
+        "weighted_support": 2.46730548,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.4659499712,
-            "similarity": 1.0,
-            "matched_descriptor": "wimpy"
-          }
-        ]
+        "fit_percent": 87.352508,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "robotic / mechanical",
-        "descriptor_index": 6344,
-        "amplitude": 0.0330473568,
-        "abs_amplitude": 0.0330473568,
-        "raw_amplitude": 0.0991420703,
-        "percent": 9.914207,
-        "raw_percent": 9.914207,
-        "coverage_percent": 56.509204,
-        "member_count": 2,
-        "members": [
-          "robotic",
-          "mechanical"
-        ],
+        "step": 2,
+        "descriptor": "loyal",
+        "weighted_support": 2.46730548,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0991420703,
-            "similarity": 0.893862,
-            "matched_descriptor": "robot"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "sensitive / fragile / brittle",
-        "descriptor_index": 6702,
-        "amplitude": 0.0199801744,
-        "abs_amplitude": 0.0199801744,
-        "raw_amplitude": 0.0599405231,
-        "percent": 5.994052,
-        "raw_percent": 5.994052,
-        "coverage_percent": 62.503256,
-        "member_count": 3,
-        "members": [
-          "sensitive",
-          "fragile",
-          "brittle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0599405231,
-            "similarity": 0.882144,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "harsh / vicious",
-        "descriptor_index": 3366,
-        "amplitude": 0.0179147014,
-        "abs_amplitude": 0.0179147014,
-        "raw_amplitude": 0.0537441041,
-        "percent": 5.37441,
-        "raw_percent": 5.37441,
-        "coverage_percent": 67.877667,
-        "member_count": 2,
-        "members": [
-          "harsh",
-          "vicious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0537441041,
-            "similarity": 0.89735,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "weak",
-        "descriptor_index": 8477,
-        "amplitude": 0.0104948,
-        "abs_amplitude": 0.0104948,
-        "raw_amplitude": 0.0314844,
-        "percent": 3.14844,
-        "raw_percent": 3.14844,
-        "coverage_percent": 71.026107,
-        "member_count": 1,
-        "members": [
-          "weak"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0314844,
-            "similarity": 0.884747,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0104893286,
-        "abs_amplitude": 0.0104893286,
-        "raw_amplitude": 0.0314679858,
-        "percent": 3.146799,
-        "raw_percent": 3.146799,
-        "coverage_percent": 74.172905,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0314679858,
-            "similarity": 0.884729,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "rough / coarse / brusque",
-        "descriptor_index": 6367,
-        "amplitude": 0.0103189371,
-        "abs_amplitude": 0.0103189371,
-        "raw_amplitude": 0.0309568114,
-        "percent": 3.095681,
-        "raw_percent": 3.095681,
-        "coverage_percent": 77.268587,
-        "member_count": 3,
-        "members": [
-          "rough",
-          "coarse",
-          "brusque"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0309568114,
-            "similarity": 0.869165,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "sickly",
-        "descriptor_index": 6846,
-        "amplitude": 0.007705936,
-        "abs_amplitude": 0.007705936,
-        "raw_amplitude": 0.023117808,
-        "percent": 2.311781,
-        "raw_percent": 2.311781,
-        "coverage_percent": 79.580367,
-        "member_count": 1,
-        "members": [
-          "sickly"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.023117808,
-            "similarity": 0.875359,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "cold-blooded / cold / numb",
-        "descriptor_index": 1235,
-        "amplitude": 0.0072164857,
-        "abs_amplitude": 0.0072164857,
-        "raw_amplitude": 0.021649457,
-        "percent": 2.164946,
-        "raw_percent": 2.164946,
-        "coverage_percent": 81.745313,
-        "member_count": 3,
-        "members": [
-          "cold-blooded",
-          "cold",
-          "numb"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.021649457,
-            "similarity": 0.874122,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "anemic",
-        "descriptor_index": 234,
-        "amplitude": 0.0062695479,
-        "abs_amplitude": 0.0062695479,
-        "raw_amplitude": 0.0188086436,
-        "percent": 1.880864,
-        "raw_percent": 1.880864,
-        "coverage_percent": 83.626177,
-        "member_count": 1,
-        "members": [
-          "anemic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0188086436,
-            "similarity": 0.870524,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "vulnerable",
-        "descriptor_index": 8422,
-        "amplitude": 0.0053125519,
-        "abs_amplitude": 0.0053125519,
-        "raw_amplitude": 0.0159376558,
-        "percent": 1.593766,
-        "raw_percent": 1.593766,
-        "coverage_percent": 85.219943,
-        "member_count": 1,
-        "members": [
-          "vulnerable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0159376558,
-            "similarity": 0.867303,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "fearful / intimidated",
-        "descriptor_index": 2482,
-        "amplitude": 0.0052176615,
-        "abs_amplitude": 0.0052176615,
-        "raw_amplitude": 0.0156529846,
-        "percent": 1.565298,
-        "raw_percent": 1.565298,
-        "coverage_percent": 86.785241,
-        "member_count": 2,
-        "members": [
-          "fearful",
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0156529846,
-            "similarity": 0.865808,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "villainous",
-        "descriptor_index": 8370,
-        "amplitude": 0.0051528018,
-        "abs_amplitude": 0.0051528018,
-        "raw_amplitude": 0.0154584053,
-        "percent": 1.545841,
-        "raw_percent": 1.545841,
-        "coverage_percent": 88.331082,
-        "member_count": 1,
-        "members": [
-          "villainous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0154584053,
-            "similarity": 0.866765,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "methodical",
-        "descriptor_index": 4776,
-        "amplitude": 0.004361198,
-        "abs_amplitude": 0.004361198,
-        "raw_amplitude": 0.0130835939,
-        "percent": 1.308359,
-        "raw_percent": 1.308359,
-        "coverage_percent": 89.639441,
-        "member_count": 1,
-        "members": [
-          "methodical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0130835939,
-            "similarity": 0.839074,
-            "matched_descriptor": "robot"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "alien / supernatural",
-        "descriptor_index": 165,
-        "amplitude": 0.0040292993,
-        "abs_amplitude": 0.0040292993,
-        "raw_amplitude": 0.012087898,
-        "percent": 1.20879,
-        "raw_percent": 1.20879,
-        "coverage_percent": 90.848231,
-        "member_count": 2,
-        "members": [
-          "alien",
-          "supernatural"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.012087898,
-            "similarity": 0.836274,
-            "matched_descriptor": "robot"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "careless",
-        "descriptor_index": 956,
-        "amplitude": 0.0035728474,
-        "abs_amplitude": 0.0035728474,
-        "raw_amplitude": 0.0107185423,
-        "percent": 1.071854,
-        "raw_percent": 1.071854,
-        "coverage_percent": 91.920085,
-        "member_count": 1,
-        "members": [
-          "careless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0107185423,
-            "similarity": 0.861447,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "poor self-esteem",
-        "descriptor_index": 5718,
-        "amplitude": 0.0030878245,
-        "abs_amplitude": 0.0030878245,
-        "raw_amplitude": 0.0092634736,
-        "percent": 0.926347,
-        "raw_percent": 0.926347,
-        "coverage_percent": 92.846433,
-        "member_count": 1,
-        "members": [
-          "poor self-esteem"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0092634736,
-            "similarity": 0.859814,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "quiet / unsociable",
-        "descriptor_index": 6084,
-        "amplitude": 0.0028642716,
-        "abs_amplitude": 0.0028642716,
-        "raw_amplitude": 0.0085928147,
-        "percent": 0.859281,
-        "raw_percent": 0.859281,
-        "coverage_percent": 93.705714,
-        "member_count": 2,
-        "members": [
-          "quiet",
-          "unsociable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0085928147,
-            "similarity": 0.854948,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "crazy",
-        "descriptor_index": 1485,
-        "amplitude": 0.0024553045,
-        "abs_amplitude": 0.0024553045,
-        "raw_amplitude": 0.0073659135,
-        "percent": 0.736591,
-        "raw_percent": 0.736591,
-        "coverage_percent": 94.442306,
-        "member_count": 1,
-        "members": [
-          "crazy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0073659135,
-            "similarity": 0.857685,
-            "matched_descriptor": "wimpy"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "sad",
-        "descriptor_index": 6428,
-        "amplitude": 0.0024275581,
-        "abs_amplitude": 0.0024275581,
-        "raw_amplitude": 0.0072826742,
-        "percent": 0.728267,
-        "raw_percent": 0.728267,
-        "coverage_percent": 95.170573,
-        "member_count": 1,
-        "members": [
-          "sad"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169483,
-            "name": "Roboco",
-            "native_name": "ロボ子",
-            "anime": "Miko no Tsutome!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
-            "site_url": "https://anilist.co/character/169483",
-            "anime_url": "https://myanimelist.net/anime/43878",
-            "role": "SUPPORTING",
-            "favourites": 160,
-            "row_weight": 2.46605036,
-            "projection": 0.0072826742,
-            "similarity": 0.857591,
-            "matched_descriptor": "wimpy"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 169483,
         "name": "Roboco",
-        "native_name": "ロボ子",
         "anime": "Miko no Tsutome!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
         "site_url": "https://anilist.co/character/169483",
-        "anime_url": "https://myanimelist.net/anime/43878",
-        "role": "SUPPORTING",
         "favourites": 160,
-        "row_weight": 2.46605036,
+        "anilist_favourites": 160,
+        "bangumi_collects": 1,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 23232,
+        "bangumi_url": "https://bgm.tv/character/23232",
+        "combined_favourites": 161,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "wimpy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46730548,
+        "row_weight": 2.46730548,
+        "unweighted_row_norm": 1.74705015,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1511,19 +111,68 @@
       {
         "character_id": 169483,
         "name": "Roboco",
-        "native_name": "ロボ子",
         "anime": "Miko no Tsutome!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169483-GookWbLEB9aE.jpg",
         "site_url": "https://anilist.co/character/169483",
-        "anime_url": "https://myanimelist.net/anime/43878",
-        "role": "SUPPORTING",
         "favourites": 160,
-        "row_weight": 2.46605036,
+        "anilist_favourites": 160,
+        "bangumi_collects": 1,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 23232,
+        "bangumi_url": "https://bgm.tv/character/23232",
+        "combined_favourites": 161,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "wimpy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46730548,
+        "row_weight": 2.46730548,
+        "unweighted_row_norm": 1.74705015,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4673054807,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

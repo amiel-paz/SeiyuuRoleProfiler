@@ -11,2411 +11,1549 @@
     "atsuko tanaka",
     "tanaka atsuko"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/atsuko_tanaka.json",
+  "sv1_mass_percent": 84.797618,
+  "sv1_descriptor_fit_percent": 99.874523,
+  "variation_axis_count": 1,
+  "supported_character_count": 5,
   "major_lane": {
     "rank": 1,
-    "singular_value": 11.4913406516,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 11.4913406516,
-        "mass_percent": 79.40507
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.7128068893,
-        "mass_percent": 8.28918
-      },
-      {
-        "rank": 3,
-        "singular_value": 3.2399635279,
-        "mass_percent": 6.312292
-      },
-      {
-        "rank": 4,
-        "singular_value": 2.5045484785,
-        "mass_percent": 3.771948
-      },
-      {
-        "rank": 5,
-        "singular_value": 1.9220767842,
-        "mass_percent": 2.22151
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 263.793842,
-      "normalized_entanglement": 0.686963,
-      "top5_mass_percent": 4.97021,
-      "top10_mass_percent": 8.588087
-    },
-    "character_participation": {
-      "effective_count": 3.957961,
-      "normalized_entanglement": 0.791592,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.527604,
-      "semantic_spread": 2.715727,
-      "axis_concentration_percent": 86.625553,
-      "lane_count": 1.673595,
-      "direction_range": 0.960186,
-      "direction_spread": 1.064123,
-      "direction_axis_concentration_percent": 81.419162,
-      "direction_lane_count": 1.924728
-    },
-    "explained_sv_l2_percent": 79.40507,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 5.2114467515,
+    "mass_percent": 83.878232,
+    "descriptor_fit_percent": 96.637299,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.1076352177,
-        "abs_amplitude": 0.1076352177,
-        "raw_amplitude": 0.1759677415,
-        "percent": 24.932368,
-        "raw_percent": 16.272545,
-        "coverage_percent": 24.932368,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
-        "support": 2,
-        "effective_support": 1.835028,
-        "support_factor": 0.611676,
-        "top_characters": [
+        "descriptor": "mysterious",
+        "amplitude": 0.6195683593,
+        "abs_amplitude": 0.6195683593,
+        "percent": 56.902141,
+        "weighted_support": 7.40834904,
+        "support": 3,
+        "supporting_characters": [
+          {
+            "character_id": 21960,
+            "name": "Lisa Lisa",
+            "anime": "JoJo's Bizarre Adventure (TV)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
+            "site_url": "https://anilist.co/character/21960",
+            "combined_favourites": 1197
+          },
+          {
+            "character_id": 87496,
+            "name": "Bayonetta",
+            "anime": "Bayonetta: Bloody Fate",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+            "site_url": "https://anilist.co/character/87496",
+            "combined_favourites": 453
+          },
           {
             "character_id": 3440,
             "name": "Medea",
-            "native_name": "メデイア",
             "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
             "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.1143646418,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          },
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0616030997,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
+            "combined_favourites": 488
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "relaxed / laid-back / easygoing / nonchalant / +16",
-        "descriptor_index": 6207,
-        "amplitude": 0.0265682087,
-        "abs_amplitude": 0.0265682087,
-        "raw_amplitude": 0.079704626,
-        "percent": 6.154197,
-        "raw_percent": 7.370653,
-        "coverage_percent": 31.086565,
-        "member_count": 20,
-        "members": [
-          "relaxed",
-          "laid-back",
-          "easygoing",
-          "nonchalant",
-          "mellow",
-          "composed",
-          "calmer",
-          "stoic",
-          "gentle",
-          "easy-going",
-          "restrained",
-          "amiable",
-          "serene",
-          "peaceful",
-          "non-violent",
-          "care-free",
-          "carefree",
-          "agreeable",
-          "tranquil",
-          "stiff"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "descriptor": "loyal",
+        "amplitude": 0.4692630047,
+        "abs_amplitude": 0.4692630047,
+        "percent": 43.097859,
+        "weighted_support": 7.09819659,
+        "support": 3,
+        "supporting_characters": [
           {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0797046259,
-            "similarity": 1.0,
-            "matched_descriptor": "relaxed"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "cautious / mistrustful / indecisive / suspicious / +6",
-        "descriptor_index": 997,
-        "amplitude": 0.0242297013,
-        "abs_amplitude": 0.0242297013,
-        "raw_amplitude": 0.0726891038,
-        "percent": 5.612511,
-        "raw_percent": 6.721895,
-        "coverage_percent": 36.699076,
-        "member_count": 10,
-        "members": [
-          "cautious",
-          "mistrustful",
-          "indecisive",
-          "suspicious",
-          "wary",
-          "distrustful",
-          "skeptical",
-          "uncertain",
-          "alert",
-          "circumspect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.072689104,
-            "similarity": 1.0,
-            "matched_descriptor": "cautious"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0227980077,
-        "abs_amplitude": 0.0227980077,
-        "raw_amplitude": 0.0680731879,
-        "percent": 5.280877,
-        "raw_percent": 6.29504,
-        "coverage_percent": 41.979953,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "astute",
-          "clever",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
-        "support": 2,
-        "effective_support": 1.004713,
-        "support_factor": 0.334904,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0679131465,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
+            "character_id": 313120,
+            "name": "Rose",
+            "anime": "The Wrong Way to Use Healing Magic",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
+            "site_url": "https://anilist.co/character/313120",
+            "combined_favourites": 724
           },
           {
             "character_id": 3440,
             "name": "Medea",
-            "native_name": "メデイア",
             "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
             "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0001600413,
-            "similarity": 0.86115,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "gorgeous / glamorous / swoon-inducing / seductive",
-        "descriptor_index": 3113,
-        "amplitude": 0.0209443857,
-        "abs_amplitude": 0.0209443857,
-        "raw_amplitude": 0.0628331571,
-        "percent": 4.851508,
-        "raw_percent": 5.810471,
-        "coverage_percent": 46.831461,
-        "member_count": 4,
-        "members": [
-          "gorgeous",
-          "glamorous",
-          "swoon-inducing",
-          "seductive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0628331571,
-            "similarity": 1.0,
-            "matched_descriptor": "gorgeous"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "talented / expert / accomplished / proficient / +2",
-        "descriptor_index": 7651,
-        "amplitude": 0.0206990887,
-        "abs_amplitude": 0.0206990887,
-        "raw_amplitude": 0.0620972662,
-        "percent": 4.794688,
-        "raw_percent": 5.742419,
-        "coverage_percent": 51.626149,
-        "member_count": 6,
-        "members": [
-          "talented",
-          "expert",
-          "accomplished",
-          "proficient",
-          "skilled",
-          "skill-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0620972662,
-            "similarity": 1.0,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0108024605,
-        "abs_amplitude": 0.0108024605,
-        "raw_amplitude": 0.0324073814,
-        "percent": 2.502256,
-        "raw_percent": 2.996859,
-        "coverage_percent": 54.128406,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0324073814,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0094113102,
-        "abs_amplitude": 0.0094113102,
-        "raw_amplitude": 0.0144700128,
-        "percent": 2.180014,
-        "raw_percent": 1.338109,
-        "coverage_percent": 56.308419,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 2,
-        "effective_support": 1.951203,
-        "support_factor": 0.650401,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0083791614,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0060908514,
-            "similarity": 0.895738,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0091633443,
-        "abs_amplitude": 0.0091633443,
-        "raw_amplitude": 0.0149807195,
-        "percent": 2.122575,
-        "raw_percent": 1.385336,
-        "coverage_percent": 58.430995,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 2,
-        "effective_support": 1.835028,
-        "support_factor": 0.611676,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0097362426,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
+            "combined_favourites": 488
           },
           {
             "character_id": 18673,
             "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
             "anime": "Umineko: When They Cry",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
             "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0052444769,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "pragmatic / practical / down-to-earth",
-        "descriptor_index": 5812,
-        "amplitude": 0.0080584249,
-        "abs_amplitude": 0.0080584249,
-        "raw_amplitude": 0.0241752748,
-        "percent": 1.866635,
-        "raw_percent": 2.235599,
-        "coverage_percent": 60.297629,
-        "member_count": 3,
-        "members": [
-          "pragmatic",
-          "practical",
-          "down-to-earth"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0241752748,
-            "similarity": 1.0,
-            "matched_descriptor": "pragmatic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0078216457,
-        "abs_amplitude": 0.0078216457,
-        "raw_amplitude": 0.0127872398,
-        "percent": 1.811788,
-        "raw_percent": 1.182495,
-        "coverage_percent": 62.109417,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 2,
-        "effective_support": 1.835028,
-        "support_factor": 0.611676,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0083106601,
-            "similarity": 0.893527,
-            "matched_descriptor": "loyal"
-          },
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0044765796,
-            "similarity": 0.893527,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "grandiose",
-        "descriptor_index": 3141,
-        "amplitude": 0.0076882132,
-        "abs_amplitude": 0.0076882132,
-        "raw_amplitude": 0.0230646396,
-        "percent": 1.78088,
-        "raw_percent": 2.132893,
-        "coverage_percent": 63.890297,
-        "member_count": 1,
-        "members": [
-          "grandiose"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0230646396,
-            "similarity": 1.0,
-            "matched_descriptor": "grandiose"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0076882132,
-        "abs_amplitude": 0.0076882132,
-        "raw_amplitude": 0.0230646396,
-        "percent": 1.78088,
-        "raw_percent": 2.132893,
-        "coverage_percent": 65.671176,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0230646396,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.0076882026,
-        "abs_amplitude": 0.0076882026,
-        "raw_amplitude": 0.0230646078,
-        "percent": 1.780877,
-        "raw_percent": 2.13289,
-        "coverage_percent": 67.452053,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0230646078,
-            "similarity": 1.0,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "flashy / cool / aesthetic / clean-cut",
-        "descriptor_index": 2599,
-        "amplitude": 0.0072262878,
-        "abs_amplitude": 0.0072262878,
-        "raw_amplitude": 0.0216788635,
-        "percent": 1.67388,
-        "raw_percent": 2.004744,
-        "coverage_percent": 69.125934,
-        "member_count": 4,
-        "members": [
-          "flashy",
-          "cool",
-          "aesthetic",
-          "clean-cut"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0216788635,
-            "similarity": 0.896019,
-            "matched_descriptor": "gorgeous"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "skittish / weak-hearted / risk-averse / nervous / +4",
-        "descriptor_index": 6944,
-        "amplitude": 0.0069663666,
-        "abs_amplitude": 0.0069663666,
-        "raw_amplitude": 0.0208990998,
-        "percent": 1.613673,
-        "raw_percent": 1.932636,
-        "coverage_percent": 70.739606,
-        "member_count": 8,
-        "members": [
-          "skittish",
-          "weak-hearted",
-          "risk-averse",
-          "nervous",
-          "anxious",
-          "worried",
-          "horrified",
-          "uneasy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0208990999,
-            "similarity": 0.894024,
-            "matched_descriptor": "cautious"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "self-reliant / solitary / self-sufficient / lone / +1",
-        "descriptor_index": 6664,
-        "amplitude": 0.0068171545,
-        "abs_amplitude": 0.0068171545,
-        "raw_amplitude": 0.0204514635,
-        "percent": 1.57911,
-        "raw_percent": 1.891241,
-        "coverage_percent": 72.318716,
-        "member_count": 5,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "lone",
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0204514636,
-            "similarity": 0.855444,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0052069624,
-        "abs_amplitude": 0.0052069624,
-        "raw_amplitude": 0.007915057,
-        "percent": 1.206129,
-        "raw_percent": 0.731942,
-        "coverage_percent": 73.524844,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 2,
-        "effective_support": 1.973566,
-        "support_factor": 0.657855,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0044155434,
-            "similarity": 0.872835,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0034995136,
-            "similarity": 0.881394,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "good-looking / attractive / beautiful",
-        "descriptor_index": 3107,
-        "amplitude": 0.0051764417,
-        "abs_amplitude": 0.0051764417,
-        "raw_amplitude": 0.0155293252,
-        "percent": 1.199059,
-        "raw_percent": 1.436068,
-        "coverage_percent": 74.723903,
-        "member_count": 3,
-        "members": [
-          "good-looking",
-          "attractive",
-          "beautiful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0155293251,
-            "similarity": 0.89847,
-            "matched_descriptor": "gorgeous"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0049624937,
-        "abs_amplitude": 0.0049624937,
-        "raw_amplitude": 0.008112947,
-        "percent": 1.1495,
-        "raw_percent": 0.750241,
-        "coverage_percent": 75.873403,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 2,
-        "effective_support": 1.835028,
-        "support_factor": 0.611676,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0052727521,
-            "similarity": 0.871604,
-            "matched_descriptor": "loyal"
-          },
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0028401949,
-            "similarity": 0.871604,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "intangible / dark",
-        "descriptor_index": 3941,
-        "amplitude": 0.0043759815,
-        "abs_amplitude": 0.0043759815,
-        "raw_amplitude": 0.0131279445,
-        "percent": 1.013642,
-        "raw_percent": 1.214001,
-        "coverage_percent": 76.887046,
-        "member_count": 2,
-        "members": [
-          "intangible",
-          "dark"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0131279445,
-            "similarity": 0.885974,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0041412942,
-        "abs_amplitude": 0.0041412942,
-        "raw_amplitude": 0.0124238827,
-        "percent": 0.95928,
-        "raw_percent": 1.148893,
-        "coverage_percent": 77.846325,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0124238827,
-            "similarity": 1.0,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "sensible / prudent / no-nonsense / deliberative / +2",
-        "descriptor_index": 6701,
-        "amplitude": 0.0039044444,
-        "abs_amplitude": 0.0039044444,
-        "raw_amplitude": 0.0117133333,
-        "percent": 0.904416,
-        "raw_percent": 1.083186,
-        "coverage_percent": 78.750741,
-        "member_count": 6,
-        "members": [
-          "sensible",
-          "prudent",
-          "no-nonsense",
-          "deliberative",
-          "careful",
-          "reasonable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0117133334,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart / pragmatic"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0038409329,
-        "abs_amplitude": 0.0038409329,
-        "raw_amplitude": 0.0115227987,
-        "percent": 0.889705,
-        "raw_percent": 1.065566,
-        "coverage_percent": 79.640446,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3440,
-            "name": "Medea",
-            "native_name": "メデイア",
-            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-            "site_url": "https://anilist.co/character/3440",
-            "anime_url": "https://myanimelist.net/anime/6922",
-            "role": "SUPPORTING",
-            "favourites": 369,
-            "row_weight": 1.85923412,
-            "projection": 0.0115227988,
-            "similarity": 0.896958,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "unsure / doubtful",
-        "descriptor_index": 8230,
-        "amplitude": 0.0033073495,
-        "abs_amplitude": 0.0033073495,
-        "raw_amplitude": 0.0099220484,
-        "percent": 0.766107,
-        "raw_percent": 0.917537,
-        "coverage_percent": 80.406553,
-        "member_count": 2,
-        "members": [
-          "unsure",
-          "doubtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18673,
-            "name": "Kyrie Ushiromiya",
-            "native_name": "右代宮霧江",
-            "anime": "Umineko: When They Cry",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-            "site_url": "https://anilist.co/character/18673",
-            "anime_url": "https://myanimelist.net/anime/4896",
-            "role": "SUPPORTING",
-            "favourites": 121,
-            "row_weight": 2.4091536,
-            "projection": 0.0099220484,
-            "similarity": 0.89932,
-            "matched_descriptor": "cautious"
+            "combined_favourites": 146
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
+        "step": 1,
         "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.0603305629,
-        "abs_amplitude": 0.0603305629,
-        "raw_amplitude": 0.1003037573,
-        "percent": 12.593038,
-        "raw_percent": 9.369448,
-        "coverage_percent": 12.593038,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0666624153,
-            "similarity": 1.0,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.033641342,
-            "similarity": 1.0,
-            "matched_descriptor": "mysterious"
-          }
-        ]
+        "weighted_support": 7.40834904,
+        "support": 3,
+        "fit_percent": 88.572466,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "powerful / super-strong / physically-strong",
-        "descriptor_index": 5771,
-        "amplitude": 0.0423877465,
-        "abs_amplitude": 0.0423877465,
-        "raw_amplitude": 0.1271632395,
-        "percent": 8.847763,
-        "raw_percent": 11.878411,
-        "coverage_percent": 21.4408,
-        "member_count": 3,
-        "members": [
-          "powerful",
-          "super-strong",
-          "physically-strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.1271632394,
-            "similarity": 1.0,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "intangible / dark",
-        "descriptor_index": 3941,
-        "amplitude": 0.0343390311,
-        "abs_amplitude": 0.0343390311,
-        "raw_amplitude": 0.0570910277,
-        "percent": 7.167722,
-        "raw_percent": 5.332915,
-        "coverage_percent": 28.608523,
-        "member_count": 2,
-        "members": [
-          "intangible",
-          "dark"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0379430034,
-            "similarity": 0.885974,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0191480244,
-            "similarity": 0.885974,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0301404186,
-        "abs_amplitude": 0.0301404186,
-        "raw_amplitude": 0.0501105425,
-        "percent": 6.291329,
-        "raw_percent": 4.680863,
-        "coverage_percent": 34.899852,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0333037354,
-            "similarity": 0.896958,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0168068071,
-            "similarity": 0.896958,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "strong / durable / macho / hardened",
-        "descriptor_index": 7332,
-        "amplitude": 0.0270568897,
-        "abs_amplitude": 0.0270568897,
-        "raw_amplitude": 0.0435042819,
-        "percent": 5.647692,
-        "raw_percent": 4.063767,
-        "coverage_percent": 40.547544,
-        "member_count": 4,
-        "members": [
-          "strong",
-          "durable",
-          "macho",
-          "hardened"
-        ],
-        "support": 2,
-        "effective_support": 1.865809,
-        "support_factor": 0.621936,
-        "top_characters": [
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0275856593,
-            "similarity": 0.908284,
-            "matched_descriptor": "forceful"
-          },
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0159186226,
-            "similarity": 0.887454,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "shadowy",
-        "descriptor_index": 6749,
-        "amplitude": 0.0249475426,
-        "abs_amplitude": 0.0249475426,
-        "raw_amplitude": 0.0414770249,
-        "percent": 5.2074,
-        "raw_percent": 3.874399,
-        "coverage_percent": 45.754943,
-        "member_count": 1,
-        "members": [
-          "shadowy"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0275658533,
-            "similarity": 0.898634,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0139111716,
-            "similarity": 0.898634,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "coquettish / flirtatious / cheeky",
-        "descriptor_index": 1440,
-        "amplitude": 0.0246164295,
-        "abs_amplitude": 0.0246164295,
-        "raw_amplitude": 0.0738492884,
-        "percent": 5.138285,
-        "raw_percent": 6.898316,
-        "coverage_percent": 50.893228,
-        "member_count": 3,
-        "members": [
-          "coquettish",
-          "flirtatious",
-          "cheeky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0738492884,
-            "similarity": 1.0,
-            "matched_descriptor": "coquettish"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "forceful / assertive / tough",
-        "descriptor_index": 2651,
-        "amplitude": 0.0200824548,
-        "abs_amplitude": 0.0200824548,
-        "raw_amplitude": 0.0602473643,
-        "percent": 4.19189,
-        "raw_percent": 5.62775,
-        "coverage_percent": 55.085119,
-        "member_count": 3,
-        "members": [
-          "forceful",
-          "assertive",
-          "tough"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0602473643,
-            "similarity": 1.0,
-            "matched_descriptor": "forceful"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0198492286,
-        "abs_amplitude": 0.0198492286,
-        "raw_amplitude": 0.0330007232,
-        "percent": 4.143208,
-        "raw_percent": 3.082622,
-        "coverage_percent": 59.228327,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0219324577,
-            "similarity": 0.884028,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0110682655,
-            "similarity": 0.884028,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "enigmatic",
-        "descriptor_index": 2192,
-        "amplitude": 0.0181679401,
-        "abs_amplitude": 0.0181679401,
-        "raw_amplitude": 0.0302054641,
-        "percent": 3.792266,
-        "raw_percent": 2.821515,
-        "coverage_percent": 63.020593,
-        "member_count": 1,
-        "members": [
-          "enigmatic"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0200747135,
-            "similarity": 0.879211,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0101307506,
-            "similarity": 0.879211,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "strong-minded / unyielding / stubborn / strong-willed / +6",
-        "descriptor_index": 7372,
-        "amplitude": 0.0165284229,
-        "abs_amplitude": 0.0165284229,
-        "raw_amplitude": 0.0495852687,
-        "percent": 3.450043,
-        "raw_percent": 4.631796,
-        "coverage_percent": 66.470637,
-        "member_count": 10,
-        "members": [
-          "strong-minded",
-          "unyielding",
-          "stubborn",
-          "strong-willed",
-          "headstrong",
-          "persistent",
-          "resolute",
-          "go-getter",
-          "tenacious",
-          "unbending"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0495852688,
-            "similarity": 0.897799,
-            "matched_descriptor": "determined / forceful"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "vigorous / stamina-rich",
-        "descriptor_index": 8354,
-        "amplitude": 0.0149185601,
-        "abs_amplitude": 0.0149185601,
-        "raw_amplitude": 0.0382976205,
-        "percent": 3.11401,
-        "raw_percent": 3.577409,
-        "coverage_percent": 69.584647,
-        "member_count": 2,
-        "members": [
-          "vigorous",
-          "stamina-rich"
-        ],
-        "support": 2,
-        "effective_support": 1.168628,
-        "support_factor": 0.389543,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0352998784,
-            "similarity": 0.889434,
-            "matched_descriptor": "powerful"
-          },
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0029977421,
-            "similarity": 0.863042,
-            "matched_descriptor": "forceful"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "stealthy",
-        "descriptor_index": 7241,
-        "amplitude": 0.0123383678,
-        "abs_amplitude": 0.0123383678,
-        "raw_amplitude": 0.0205133946,
-        "percent": 2.575436,
-        "raw_percent": 1.916171,
-        "coverage_percent": 72.160084,
-        "member_count": 1,
-        "members": [
-          "stealthy"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0136333121,
-            "similarity": 0.862511,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0068800825,
-            "similarity": 0.862511,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "adorable / sweet / suave / attractive / +1",
-        "descriptor_index": 94,
-        "amplitude": 0.0114166091,
-        "abs_amplitude": 0.0114166091,
-        "raw_amplitude": 0.0342498272,
-        "percent": 2.383034,
-        "raw_percent": 3.199301,
-        "coverage_percent": 74.543118,
-        "member_count": 5,
-        "members": [
-          "adorable",
-          "sweet",
-          "suave",
-          "attractive",
-          "cute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0342498271,
-            "similarity": 0.899759,
-            "matched_descriptor": "coquettish"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "amnesiac",
-        "descriptor_index": 204,
-        "amplitude": 0.011213794,
-        "abs_amplitude": 0.011213794,
-        "raw_amplitude": 0.033641382,
-        "percent": 2.3407,
-        "raw_percent": 3.142466,
-        "coverage_percent": 76.883817,
-        "member_count": 1,
-        "members": [
-          "amnesiac"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.033641382,
-            "similarity": 1.0,
-            "matched_descriptor": "amnesiac"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "determined",
-        "descriptor_index": 1778,
-        "amplitude": 0.0101040204,
-        "abs_amplitude": 0.0101040204,
-        "raw_amplitude": 0.0303120612,
-        "percent": 2.109052,
-        "raw_percent": 2.831472,
-        "coverage_percent": 78.99287,
-        "member_count": 1,
-        "members": [
-          "determined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0303120612,
-            "similarity": 1.0,
-            "matched_descriptor": "determined"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "loud enigmatic",
-        "descriptor_index": 4402,
-        "amplitude": 0.0090746803,
-        "abs_amplitude": 0.0090746803,
-        "raw_amplitude": 0.0150872872,
-        "percent": 1.894194,
-        "raw_percent": 1.409315,
-        "coverage_percent": 80.887064,
-        "member_count": 1,
-        "members": [
-          "loud enigmatic"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.010027092,
-            "similarity": 0.853161,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0050601952,
-            "similarity": 0.853161,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.0084057553,
-        "abs_amplitude": 0.0084057553,
-        "raw_amplitude": 0.0139751528,
-        "percent": 1.754567,
-        "raw_percent": 1.305429,
-        "coverage_percent": 82.64163,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0092879615,
-            "similarity": 0.858407,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0046871913,
-            "similarity": 0.858407,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "sneaky",
-        "descriptor_index": 7023,
-        "amplitude": 0.0078267516,
-        "abs_amplitude": 0.0078267516,
-        "raw_amplitude": 0.0130125189,
-        "percent": 1.633709,
-        "raw_percent": 1.215509,
-        "coverage_percent": 84.275339,
-        "member_count": 1,
-        "members": [
-          "sneaky"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0086481899,
-            "similarity": 0.851776,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.004364329,
-            "similarity": 0.851776,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "dominant / domineering / authoritative / commanding / +1",
-        "descriptor_index": 1917,
-        "amplitude": 0.007718823,
-        "abs_amplitude": 0.007718823,
-        "raw_amplitude": 0.0231564689,
-        "percent": 1.611181,
-        "raw_percent": 2.163063,
-        "coverage_percent": 85.88652,
-        "member_count": 5,
-        "members": [
-          "dominant",
-          "domineering",
-          "authoritative",
-          "commanding",
-          "leader-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.023156469,
-            "similarity": 0.882043,
-            "matched_descriptor": "forceful"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "superhuman",
-        "descriptor_index": 7499,
-        "amplitude": 0.0064051201,
-        "abs_amplitude": 0.0064051201,
-        "raw_amplitude": 0.0192153602,
-        "percent": 1.336966,
-        "raw_percent": 1.794921,
-        "coverage_percent": 87.223486,
-        "member_count": 1,
-        "members": [
-          "superhuman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0192153602,
-            "similarity": 0.892718,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "trustful / dependable / trustworthy / trusted / +1",
-        "descriptor_index": 8012,
-        "amplitude": 0.0056271906,
-        "abs_amplitude": 0.0056271906,
-        "raw_amplitude": 0.0168815717,
-        "percent": 1.174586,
-        "raw_percent": 1.57692,
-        "coverage_percent": 88.398072,
-        "member_count": 5,
-        "members": [
-          "trustful",
-          "dependable",
-          "trustworthy",
-          "trusted",
-          "friendship-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0168815717,
-            "similarity": 0.869251,
-            "matched_descriptor": "right-hand man trainer"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "investigative",
-        "descriptor_index": 3990,
-        "amplitude": 0.0053329608,
-        "abs_amplitude": 0.0053329608,
-        "raw_amplitude": 0.0088664183,
-        "percent": 1.11317,
-        "raw_percent": 0.828219,
-        "coverage_percent": 89.511242,
-        "member_count": 1,
-        "members": [
-          "investigative"
-        ],
-        "support": 2,
-        "effective_support": 1.804436,
-        "support_factor": 0.601479,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0058926692,
-            "similarity": 0.842441,
-            "matched_descriptor": "mysterious"
-          },
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0029737491,
-            "similarity": 0.842441,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "unstoppable / relentless",
-        "descriptor_index": 8226,
-        "amplitude": 0.0043839416,
-        "abs_amplitude": 0.0043839416,
-        "raw_amplitude": 0.0110294811,
-        "percent": 0.915078,
-        "raw_percent": 1.030272,
-        "coverage_percent": 90.426319,
-        "member_count": 2,
-        "members": [
-          "unstoppable",
-          "relentless"
-        ],
-        "support": 2,
-        "effective_support": 1.192425,
-        "support_factor": 0.397475,
-        "top_characters": [
-          {
-            "character_id": 21960,
-            "name": "Lisa Lisa",
-            "native_name": "リサリサ",
-            "anime": "JoJo's Bizarre Adventure (TV)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
-            "site_url": "https://anilist.co/character/21960",
-            "anime_url": "https://myanimelist.net/anime/14719",
-            "role": "SUPPORTING",
-            "favourites": 1128,
-            "row_weight": 2.83356446,
-            "projection": 0.0100531236,
-            "similarity": 0.867939,
-            "matched_descriptor": "powerful"
-          },
-          {
-            "character_id": 313120,
-            "name": "Rose",
-            "native_name": "ローズ",
-            "anime": "The Wrong Way to Use Healing Magic",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
-            "site_url": "https://anilist.co/character/313120",
-            "anime_url": "https://myanimelist.net/anime/49613",
-            "role": "MAIN",
-            "favourites": 718,
-            "row_weight": 2.75279156,
-            "projection": 0.0009763575,
-            "similarity": 0.829338,
-            "matched_descriptor": "determined"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "amorous / romantic",
-        "descriptor_index": 209,
-        "amplitude": 0.0041135274,
-        "abs_amplitude": 0.0041135274,
-        "raw_amplitude": 0.0123405823,
-        "percent": 0.858633,
-        "raw_percent": 1.152743,
-        "coverage_percent": 91.284952,
-        "member_count": 2,
-        "members": [
-          "amorous",
-          "romantic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 87496,
-            "name": "Bayonetta",
-            "native_name": "ベヨネッタ",
-            "anime": "Bayonetta: Bloody Fate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-            "site_url": "https://anilist.co/character/87496",
-            "anime_url": "https://myanimelist.net/anime/20543",
-            "role": "MAIN",
-            "favourites": 388,
-            "row_weight": 2.63885948,
-            "projection": 0.0123405822,
-            "similarity": 0.892916,
-            "matched_descriptor": "coquettish"
-          }
-        ]
+        "step": 2,
+        "descriptor": "loyal",
+        "weighted_support": 7.09819659,
+        "support": 3,
+        "fit_percent": 96.637299,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 3440,
-        "name": "Medea",
-        "native_name": "メデイア",
-        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-        "site_url": "https://anilist.co/character/3440",
-        "anime_url": "https://myanimelist.net/anime/6922",
-        "role": "SUPPORTING",
-        "favourites": 369,
-        "row_weight": 1.85923412,
-        "amplitude": 0.5884828903,
-        "abs_amplitude": 0.5884828903,
-        "percent": 34.631211
-      },
-      {
         "character_id": 21960,
         "name": "Lisa Lisa",
-        "native_name": "リサリサ",
         "anime": "JoJo's Bizarre Adventure (TV)",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
         "site_url": "https://anilist.co/character/21960",
-        "anime_url": "https://myanimelist.net/anime/14719",
-        "role": "SUPPORTING",
         "favourites": 1128,
-        "row_weight": 2.83356446,
-        "amplitude": -0.4944597821,
-        "abs_amplitude": 0.4944597821,
-        "percent": 24.449048
-      },
-      {
-        "character_id": 18673,
-        "name": "Kyrie Ushiromiya",
-        "native_name": "右代宮霧江",
-        "anime": "Umineko: When They Cry",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-        "site_url": "https://anilist.co/character/18673",
-        "anime_url": "https://myanimelist.net/anime/4896",
-        "role": "SUPPORTING",
-        "favourites": 121,
-        "row_weight": 2.4091536,
-        "amplitude": 0.4928952312,
-        "abs_amplitude": 0.4928952312,
-        "percent": 24.294571
-      },
-      {
-        "character_id": 87496,
-        "name": "Bayonetta",
-        "native_name": "ベヨネッタ",
-        "anime": "Bayonetta: Bloody Fate",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-        "site_url": "https://anilist.co/character/87496",
-        "anime_url": "https://myanimelist.net/anime/20543",
-        "role": "MAIN",
-        "favourites": 388,
-        "row_weight": 2.63885948,
-        "amplitude": -0.3006309833,
-        "abs_amplitude": 0.3006309833,
-        "percent": 9.037899
+        "anilist_favourites": 1128,
+        "bangumi_collects": 69,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 18742,
+        "bangumi_url": "https://bgm.tv/character/18742",
+        "combined_favourites": 1197,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mysterious",
+          "powerful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.8440128,
+        "row_weight": 2.8440128,
+        "unweighted_row_norm": 1.76688616,
+        "amplitude": 0.5137023828,
+        "abs_amplitude": 0.5137023828,
+        "percent": 26.389014
       },
       {
         "character_id": 313120,
         "name": "Rose",
-        "native_name": "ローズ",
         "anime": "The Wrong Way to Use Healing Magic",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
         "site_url": "https://anilist.co/character/313120",
-        "anime_url": "https://myanimelist.net/anime/49613",
-        "role": "MAIN",
         "favourites": 718,
-        "row_weight": 2.75279156,
-        "amplitude": -0.2754500221,
-        "abs_amplitude": 0.2754500221,
-        "percent": 7.587271
+        "anilist_favourites": 718,
+        "bangumi_collects": 6,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 40574,
+        "bangumi_url": "https://bgm.tv/character/40574",
+        "combined_favourites": 724,
+        "role_edge_count": 1,
+        "descriptors": [
+          "charismatic",
+          "clingy",
+          "forceful",
+          "innocent",
+          "jealous",
+          "loyal",
+          "romantic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75430057,
+        "row_weight": 2.75430057,
+        "unweighted_row_norm": 5.67777391,
+        "amplitude": 0.4978677224,
+        "abs_amplitude": 0.4978677224,
+        "percent": 24.787227
+      },
+      {
+        "character_id": 87496,
+        "name": "Bayonetta",
+        "anime": "Bayonetta: Bloody Fate",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+        "site_url": "https://anilist.co/character/87496",
+        "favourites": 388,
+        "anilist_favourites": 388,
+        "bangumi_collects": 65,
+        "bangumi_comments": 12,
+        "bangumi_character_id": 19877,
+        "bangumi_url": "https://bgm.tv/character/19877",
+        "combined_favourites": 453,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.66797624,
+        "row_weight": 2.66797624,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4534426727,
+        "abs_amplitude": 0.4534426727,
+        "percent": 20.561026
+      },
+      {
+        "character_id": 18673,
+        "name": "Kyrie Ushiromiya",
+        "anime": "Umineko: When They Cry",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
+        "site_url": "https://anilist.co/character/18673",
+        "favourites": 121,
+        "anilist_favourites": 121,
+        "bangumi_collects": 25,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 932,
+        "bangumi_url": "https://bgm.tv/character/932",
+        "combined_favourites": 146,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "trustworthy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.44753602,
+        "row_weight": 2.44753602,
+        "unweighted_row_norm": 1.85443833,
+        "amplitude": 0.4045295131,
+        "abs_amplitude": 0.4045295131,
+        "percent": 16.364413
+      },
+      {
+        "character_id": 3440,
+        "name": "Medea",
+        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
+        "site_url": "https://anilist.co/character/3440",
+        "favourites": 369,
+        "anilist_favourites": 369,
+        "bangumi_collects": 119,
+        "bangumi_comments": 14,
+        "bangumi_character_id": 3217,
+        "bangumi_url": "https://bgm.tv/character/3217",
+        "combined_favourites": 488,
+        "role_edge_count": 2,
+        "descriptors": [
+          "jealous",
+          "loyal",
+          "mysterious",
+          "selfish"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.68185803,
+        "row_weight": 1.89636,
+        "unweighted_row_norm": 3.35187289,
+        "amplitude": 0.3449394274,
+        "abs_amplitude": 0.3449394274,
+        "percent": 11.898321
       }
     ],
     "positive_characters": [
       {
-        "character_id": 3440,
-        "name": "Medea",
-        "native_name": "メデイア",
-        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
-        "site_url": "https://anilist.co/character/3440",
-        "anime_url": "https://myanimelist.net/anime/6922",
-        "role": "SUPPORTING",
-        "favourites": 369,
-        "row_weight": 1.85923412,
-        "amplitude": 0.5884828903,
-        "abs_amplitude": 0.5884828903,
-        "percent": 34.631211
-      },
-      {
-        "character_id": 18673,
-        "name": "Kyrie Ushiromiya",
-        "native_name": "右代宮霧江",
-        "anime": "Umineko: When They Cry",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
-        "site_url": "https://anilist.co/character/18673",
-        "anime_url": "https://myanimelist.net/anime/4896",
-        "role": "SUPPORTING",
-        "favourites": 121,
-        "row_weight": 2.4091536,
-        "amplitude": 0.4928952312,
-        "abs_amplitude": 0.4928952312,
-        "percent": 24.294571
-      }
-    ],
-    "negative_characters": [
-      {
         "character_id": 21960,
         "name": "Lisa Lisa",
-        "native_name": "リサリサ",
         "anime": "JoJo's Bizarre Adventure (TV)",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
         "site_url": "https://anilist.co/character/21960",
-        "anime_url": "https://myanimelist.net/anime/14719",
-        "role": "SUPPORTING",
         "favourites": 1128,
-        "row_weight": 2.83356446,
-        "amplitude": -0.4944597821,
-        "abs_amplitude": 0.4944597821,
-        "percent": 24.449048
-      },
-      {
-        "character_id": 87496,
-        "name": "Bayonetta",
-        "native_name": "ベヨネッタ",
-        "anime": "Bayonetta: Bloody Fate",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
-        "site_url": "https://anilist.co/character/87496",
-        "anime_url": "https://myanimelist.net/anime/20543",
-        "role": "MAIN",
-        "favourites": 388,
-        "row_weight": 2.63885948,
-        "amplitude": -0.3006309833,
-        "abs_amplitude": 0.3006309833,
-        "percent": 9.037899
+        "anilist_favourites": 1128,
+        "bangumi_collects": 69,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 18742,
+        "bangumi_url": "https://bgm.tv/character/18742",
+        "combined_favourites": 1197,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mysterious",
+          "powerful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.8440128,
+        "row_weight": 2.8440128,
+        "unweighted_row_norm": 1.76688616,
+        "amplitude": 0.5137023828,
+        "abs_amplitude": 0.5137023828,
+        "percent": 26.389014
       },
       {
         "character_id": 313120,
         "name": "Rose",
-        "native_name": "ローズ",
         "anime": "The Wrong Way to Use Healing Magic",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
         "site_url": "https://anilist.co/character/313120",
-        "anime_url": "https://myanimelist.net/anime/49613",
-        "role": "MAIN",
         "favourites": 718,
-        "row_weight": 2.75279156,
-        "amplitude": -0.2754500221,
-        "abs_amplitude": 0.2754500221,
-        "percent": 7.587271
+        "anilist_favourites": 718,
+        "bangumi_collects": 6,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 40574,
+        "bangumi_url": "https://bgm.tv/character/40574",
+        "combined_favourites": 724,
+        "role_edge_count": 1,
+        "descriptors": [
+          "charismatic",
+          "clingy",
+          "forceful",
+          "innocent",
+          "jealous",
+          "loyal",
+          "romantic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75430057,
+        "row_weight": 2.75430057,
+        "unweighted_row_norm": 5.67777391,
+        "amplitude": 0.4978677224,
+        "abs_amplitude": 0.4978677224,
+        "percent": 24.787227
+      },
+      {
+        "character_id": 87496,
+        "name": "Bayonetta",
+        "anime": "Bayonetta: Bloody Fate",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+        "site_url": "https://anilist.co/character/87496",
+        "favourites": 388,
+        "anilist_favourites": 388,
+        "bangumi_collects": 65,
+        "bangumi_comments": 12,
+        "bangumi_character_id": 19877,
+        "bangumi_url": "https://bgm.tv/character/19877",
+        "combined_favourites": 453,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.66797624,
+        "row_weight": 2.66797624,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4534426727,
+        "abs_amplitude": 0.4534426727,
+        "percent": 20.561026
+      },
+      {
+        "character_id": 18673,
+        "name": "Kyrie Ushiromiya",
+        "anime": "Umineko: When They Cry",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
+        "site_url": "https://anilist.co/character/18673",
+        "favourites": 121,
+        "anilist_favourites": 121,
+        "bangumi_collects": 25,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 932,
+        "bangumi_url": "https://bgm.tv/character/932",
+        "combined_favourites": 146,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "trustworthy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.44753602,
+        "row_weight": 2.44753602,
+        "unweighted_row_norm": 1.85443833,
+        "amplitude": 0.4045295131,
+        "abs_amplitude": 0.4045295131,
+        "percent": 16.364413
+      },
+      {
+        "character_id": 3440,
+        "name": "Medea",
+        "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
+        "site_url": "https://anilist.co/character/3440",
+        "favourites": 369,
+        "anilist_favourites": 369,
+        "bangumi_collects": 119,
+        "bangumi_comments": 14,
+        "bangumi_character_id": 3217,
+        "bangumi_url": "https://bgm.tv/character/3217",
+        "combined_favourites": 488,
+        "role_edge_count": 2,
+        "descriptors": [
+          "jealous",
+          "loyal",
+          "mysterious",
+          "selfish"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.68185803,
+        "row_weight": 1.89636,
+        "unweighted_row_norm": 3.35187289,
+        "amplitude": 0.3449394274,
+        "abs_amplitude": 0.3449394274,
+        "percent": 11.898321
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 4.666559,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "jealous / loyal / mysterious / +8",
+          "support": 5,
+          "variance": 2.9931569515,
+          "seed_descriptor": "jealous",
+          "components": [
+            {
+              "descriptor": "jealous",
+              "weight": 0.24184736,
+              "similarity_to_seed": 1.0,
+              "support": 2
+            },
+            {
+              "descriptor": "loyal",
+              "weight": 0.13929382,
+              "similarity_to_seed": 0.68576045,
+              "support": 3
+            },
+            {
+              "descriptor": "mysterious",
+              "weight": 0.09810312,
+              "similarity_to_seed": 0.57550344,
+              "support": 3
+            },
+            {
+              "descriptor": "selfish",
+              "weight": 0.08262456,
+              "similarity_to_seed": 0.69509059,
+              "support": 1
+            },
+            {
+              "descriptor": "innocent",
+              "weight": 0.08130517,
+              "similarity_to_seed": 0.68951846,
+              "support": 1
+            },
+            {
+              "descriptor": "romantic",
+              "weight": 0.06829113,
+              "similarity_to_seed": 0.63192999,
+              "support": 1
+            },
+            {
+              "descriptor": "forceful",
+              "weight": 0.06203299,
+              "similarity_to_seed": 0.60227963,
+              "support": 1
+            },
+            {
+              "descriptor": "charismatic",
+              "weight": 0.05960866,
+              "similarity_to_seed": 0.59039343,
+              "support": 1
+            },
+            {
+              "descriptor": "trustworthy",
+              "weight": 0.05954403,
+              "similarity_to_seed": 0.59007327,
+              "support": 1
+            },
+            {
+              "descriptor": "clingy",
+              "weight": 0.0573066,
+              "similarity_to_seed": 0.57888078,
+              "support": 1
+            },
+            {
+              "descriptor": "powerful",
+              "weight": 0.05004255,
+              "similarity_to_seed": 0.54094925,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 2.9931569515,
+          "minimum_y_projection_variance": 0.7482892379,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 11,
+          "x_component_count": 11,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2993156951,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.7482892379,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.4965784757,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 21960,
+            "name": "Lisa Lisa",
+            "anime": "JoJo's Bizarre Adventure (TV)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
+            "site_url": "https://anilist.co/character/21960",
+            "favourites": 1128,
+            "anilist_favourites": 1128,
+            "bangumi_collects": 69,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 18742,
+            "bangumi_url": "https://bgm.tv/character/18742",
+            "combined_favourites": 1197,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious",
+              "powerful"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.8440128,
+            "row_weight": 2.8440128,
+            "unweighted_row_norm": 1.76688616,
+            "x_raw_score": 1.4970336581,
+            "x_score": -1.0518314232,
+            "amplitude": -1.0518314232,
+            "x_direct": true
+          },
+          {
+            "character_id": 313120,
+            "name": "Rose",
+            "anime": "The Wrong Way to Use Healing Magic",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
+            "site_url": "https://anilist.co/character/313120",
+            "favourites": 718,
+            "anilist_favourites": 718,
+            "bangumi_collects": 6,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 40574,
+            "bangumi_url": "https://bgm.tv/character/40574",
+            "combined_favourites": 724,
+            "role_edge_count": 1,
+            "descriptors": [
+              "charismatic",
+              "clingy",
+              "forceful",
+              "innocent",
+              "jealous",
+              "loyal",
+              "romantic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75430057,
+            "row_weight": 2.75430057,
+            "unweighted_row_norm": 5.67777391,
+            "x_raw_score": 5.591366887,
+            "x_score": 3.0425018057,
+            "amplitude": 3.0425018057,
+            "x_direct": true
+          },
+          {
+            "character_id": 87496,
+            "name": "Bayonetta",
+            "anime": "Bayonetta: Bloody Fate",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+            "site_url": "https://anilist.co/character/87496",
+            "favourites": 388,
+            "anilist_favourites": 388,
+            "bangumi_collects": 65,
+            "bangumi_comments": 12,
+            "bangumi_character_id": 19877,
+            "bangumi_url": "https://bgm.tv/character/19877",
+            "combined_favourites": 453,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.66797624,
+            "row_weight": 2.66797624,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7608535147,
+            "x_score": -1.7880115665,
+            "amplitude": -1.7880115665,
+            "x_direct": true
+          },
+          {
+            "character_id": 3440,
+            "name": "Medea",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
+            "site_url": "https://anilist.co/character/3440",
+            "favourites": 369,
+            "anilist_favourites": 369,
+            "bangumi_collects": 119,
+            "bangumi_comments": 14,
+            "bangumi_character_id": 3217,
+            "bangumi_url": "https://bgm.tv/character/3217",
+            "combined_favourites": 488,
+            "role_edge_count": 2,
+            "descriptors": [
+              "jealous",
+              "loyal",
+              "mysterious",
+              "selfish"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68185803,
+            "row_weight": 1.89636,
+            "unweighted_row_norm": 3.35187289,
+            "x_raw_score": 3.2797308178,
+            "x_score": 0.7308657365,
+            "amplitude": 0.7308657365,
+            "x_direct": true
+          },
+          {
+            "character_id": 18673,
+            "name": "Kyrie Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
+            "site_url": "https://anilist.co/character/18673",
+            "favourites": 121,
+            "anilist_favourites": 121,
+            "bangumi_collects": 25,
+            "bangumi_comments": 21,
+            "bangumi_character_id": 932,
+            "bangumi_url": "https://bgm.tv/character/932",
+            "combined_favourites": 146,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal",
+              "trustworthy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.44753602,
+            "row_weight": 2.44753602,
+            "unweighted_row_norm": 1.85443833,
+            "x_raw_score": 1.6153405289,
+            "x_score": -0.9335245524,
+            "amplitude": -0.9335245524,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 2.5488650813
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "jealous / loyal / mysterious / +9",
+          "support": 5,
+          "variance": 2.8793056737,
+          "seed_descriptor": "jealous",
+          "components": [
+            {
+              "descriptor": "jealous",
+              "weight": 0.19341266,
+              "similarity_to_seed": 1.0,
+              "support": 2
+            },
+            {
+              "descriptor": "loyal",
+              "weight": 0.11139749,
+              "similarity_to_seed": 0.68576045,
+              "support": 3
+            },
+            {
+              "descriptor": "mysterious",
+              "weight": 0.07845604,
+              "similarity_to_seed": 0.57550344,
+              "support": 3
+            },
+            {
+              "descriptor": "savage",
+              "weight": 0.07195459,
+              "similarity_to_seed": 0.72534449,
+              "support": 0
+            },
+            {
+              "descriptor": "cynical",
+              "weight": 0.0698024,
+              "similarity_to_seed": 0.71441444,
+              "support": 0
+            },
+            {
+              "descriptor": "irritated",
+              "weight": 0.06936017,
+              "similarity_to_seed": 0.71214781,
+              "support": 0
+            },
+            {
+              "descriptor": "ruthless",
+              "weight": 0.0692665,
+              "similarity_to_seed": 0.71166677,
+              "support": 0
+            },
+            {
+              "descriptor": "obsessed",
+              "weight": 0.06920033,
+              "similarity_to_seed": 0.71132673,
+              "support": 0
+            },
+            {
+              "descriptor": "spiteful",
+              "weight": 0.06773459,
+              "similarity_to_seed": 0.70375307,
+              "support": 0
+            },
+            {
+              "descriptor": "teasing",
+              "weight": 0.06748012,
+              "similarity_to_seed": 0.70242989,
+              "support": 0
+            },
+            {
+              "descriptor": "selfish",
+              "weight": 0.06607736,
+              "similarity_to_seed": 0.69509059,
+              "support": 1
+            },
+            {
+              "descriptor": "passionate",
+              "weight": 0.06585775,
+              "similarity_to_seed": 0.69393454,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 2.8793056737,
+          "minimum_y_projection_variance": 0.7198264184,
+          "best_rejected_correlation": 0.9959654259,
+          "best_rejected_lane_cosine": 0.8431581939,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9959654259,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2879305674,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.7198264184,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.4396528368,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "studious / romantic / tranquil / +6",
+            "variance": 2.390041856,
+            "correlation": 0.9973020998,
+            "abs_correlation": 0.9973020998,
+            "lane_cosine": 0.8310042111,
+            "orthogonality_score": 0.3094320011,
+            "objective": 0.7395554343,
+            "components": [
+              {
+                "descriptor": "studious",
+                "weight": 0.25057315,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "romantic",
+                "weight": 0.10559749,
+                "similarity_to_seed": 0.64917165,
+                "support": 1
+              },
+              {
+                "descriptor": "tranquil",
+                "weight": 0.09645862,
+                "similarity_to_seed": 0.62044496,
+                "support": 0
+              },
+              {
+                "descriptor": "romanticist",
+                "weight": 0.09510118,
+                "similarity_to_seed": 0.61606383,
+                "support": 0
+              },
+              {
+                "descriptor": "moody",
+                "weight": 0.09151701,
+                "similarity_to_seed": 0.6043432,
+                "support": 0
+              },
+              {
+                "descriptor": "cordial",
+                "weight": 0.09091119,
+                "similarity_to_seed": 0.60233958,
+                "support": 0
+              },
+              {
+                "descriptor": "instinctive",
+                "weight": 0.09005825,
+                "similarity_to_seed": 0.59950734,
+                "support": 0
+              },
+              {
+                "descriptor": "habitual",
+                "weight": 0.08994504,
+                "similarity_to_seed": 0.59913038,
+                "support": 0
+              },
+              {
+                "descriptor": "soft-spoken",
+                "weight": 0.08983806,
+                "similarity_to_seed": 0.59877402,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 21960,
+            "name": "Lisa Lisa",
+            "anime": "JoJo's Bizarre Adventure (TV)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
+            "site_url": "https://anilist.co/character/21960",
+            "favourites": 1128,
+            "anilist_favourites": 1128,
+            "bangumi_collects": 69,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 18742,
+            "bangumi_url": "https://bgm.tv/character/18742",
+            "combined_favourites": 1197,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious",
+              "powerful"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.8440128,
+            "row_weight": 2.8440128,
+            "unweighted_row_norm": 1.76688616,
+            "x_raw_score": 1.4431883214,
+            "x_score": -1.0324806588,
+            "amplitude": -1.0324806588,
+            "x_direct": true
+          },
+          {
+            "character_id": 313120,
+            "name": "Rose",
+            "anime": "The Wrong Way to Use Healing Magic",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
+            "site_url": "https://anilist.co/character/313120",
+            "favourites": 718,
+            "anilist_favourites": 718,
+            "bangumi_collects": 6,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 40574,
+            "bangumi_url": "https://bgm.tv/character/40574",
+            "combined_favourites": 724,
+            "role_edge_count": 1,
+            "descriptors": [
+              "charismatic",
+              "clingy",
+              "forceful",
+              "innocent",
+              "jealous",
+              "loyal",
+              "romantic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75430057,
+            "row_weight": 2.75430057,
+            "unweighted_row_norm": 5.67777391,
+            "x_raw_score": 5.4458835124,
+            "x_score": 2.9702145322,
+            "amplitude": 2.9702145322,
+            "x_direct": true
+          },
+          {
+            "character_id": 87496,
+            "name": "Bayonetta",
+            "anime": "Bayonetta: Bloody Fate",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+            "site_url": "https://anilist.co/character/87496",
+            "favourites": 388,
+            "anilist_favourites": 388,
+            "bangumi_collects": 65,
+            "bangumi_comments": 12,
+            "bangumi_character_id": 19877,
+            "bangumi_url": "https://bgm.tv/character/19877",
+            "combined_favourites": 453,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.66797624,
+            "row_weight": 2.66797624,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7437375864,
+            "x_score": -1.7319313938,
+            "amplitude": -1.7319313938,
+            "x_direct": true
+          },
+          {
+            "character_id": 3440,
+            "name": "Medea",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
+            "site_url": "https://anilist.co/character/3440",
+            "favourites": 369,
+            "anilist_favourites": 369,
+            "bangumi_collects": 119,
+            "bangumi_comments": 14,
+            "bangumi_character_id": 3217,
+            "bangumi_url": "https://bgm.tv/character/3217",
+            "combined_favourites": 488,
+            "role_edge_count": 2,
+            "descriptors": [
+              "jealous",
+              "loyal",
+              "mysterious",
+              "selfish"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68185803,
+            "row_weight": 1.89636,
+            "unweighted_row_norm": 3.35187289,
+            "x_raw_score": 3.2351986092,
+            "x_score": 0.759529629,
+            "amplitude": 0.759529629,
+            "x_direct": true
+          },
+          {
+            "character_id": 18673,
+            "name": "Kyrie Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
+            "site_url": "https://anilist.co/character/18673",
+            "favourites": 121,
+            "anilist_favourites": 121,
+            "bangumi_collects": 25,
+            "bangumi_comments": 21,
+            "bangumi_character_id": 932,
+            "bangumi_url": "https://bgm.tv/character/932",
+            "combined_favourites": 146,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal",
+              "trustworthy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.44753602,
+            "row_weight": 2.44753602,
+            "unweighted_row_norm": 1.85443833,
+            "x_raw_score": 1.5103368714,
+            "x_score": -0.9653321088,
+            "amplitude": -0.9653321088,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 2.4756689801
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "jealous / loyal / mysterious / +8",
+        "support": 5,
+        "variance": 2.9931569515,
+        "seed_descriptor": "jealous",
+        "components": [
+          {
+            "descriptor": "jealous",
+            "weight": 0.24184736,
+            "similarity_to_seed": 1.0,
+            "support": 2
+          },
+          {
+            "descriptor": "loyal",
+            "weight": 0.13929382,
+            "similarity_to_seed": 0.68576045,
+            "support": 3
+          },
+          {
+            "descriptor": "mysterious",
+            "weight": 0.09810312,
+            "similarity_to_seed": 0.57550344,
+            "support": 3
+          },
+          {
+            "descriptor": "selfish",
+            "weight": 0.08262456,
+            "similarity_to_seed": 0.69509059,
+            "support": 1
+          },
+          {
+            "descriptor": "innocent",
+            "weight": 0.08130517,
+            "similarity_to_seed": 0.68951846,
+            "support": 1
+          },
+          {
+            "descriptor": "romantic",
+            "weight": 0.06829113,
+            "similarity_to_seed": 0.63192999,
+            "support": 1
+          },
+          {
+            "descriptor": "forceful",
+            "weight": 0.06203299,
+            "similarity_to_seed": 0.60227963,
+            "support": 1
+          },
+          {
+            "descriptor": "charismatic",
+            "weight": 0.05960866,
+            "similarity_to_seed": 0.59039343,
+            "support": 1
+          },
+          {
+            "descriptor": "trustworthy",
+            "weight": 0.05954403,
+            "similarity_to_seed": 0.59007327,
+            "support": 1
+          },
+          {
+            "descriptor": "clingy",
+            "weight": 0.0573066,
+            "similarity_to_seed": 0.57888078,
+            "support": 1
+          },
+          {
+            "descriptor": "powerful",
+            "weight": 0.05004255,
+            "similarity_to_seed": 0.54094925,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 2.9931569515,
+        "minimum_y_projection_variance": 0.7482892379,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 11,
+        "x_component_count": 11,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.2993156951,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.7482892379,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 1.4965784757,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 21960,
+          "name": "Lisa Lisa",
+          "anime": "JoJo's Bizarre Adventure (TV)",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
+          "site_url": "https://anilist.co/character/21960",
+          "favourites": 1128,
+          "anilist_favourites": 1128,
+          "bangumi_collects": 69,
+          "bangumi_comments": 16,
+          "bangumi_character_id": 18742,
+          "bangumi_url": "https://bgm.tv/character/18742",
+          "combined_favourites": 1197,
+          "role_edge_count": 1,
+          "descriptors": [
+            "mysterious",
+            "powerful"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.8440128,
+          "row_weight": 2.8440128,
+          "unweighted_row_norm": 1.76688616,
+          "x_raw_score": 1.4970336581,
+          "x_score": -1.0518314232,
+          "amplitude": -1.0518314232,
+          "x_direct": true
+        },
+        {
+          "character_id": 313120,
+          "name": "Rose",
+          "anime": "The Wrong Way to Use Healing Magic",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
+          "site_url": "https://anilist.co/character/313120",
+          "favourites": 718,
+          "anilist_favourites": 718,
+          "bangumi_collects": 6,
+          "bangumi_comments": 0,
+          "bangumi_character_id": 40574,
+          "bangumi_url": "https://bgm.tv/character/40574",
+          "combined_favourites": 724,
+          "role_edge_count": 1,
+          "descriptors": [
+            "charismatic",
+            "clingy",
+            "forceful",
+            "innocent",
+            "jealous",
+            "loyal",
+            "romantic"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.75430057,
+          "row_weight": 2.75430057,
+          "unweighted_row_norm": 5.67777391,
+          "x_raw_score": 5.591366887,
+          "x_score": 3.0425018057,
+          "amplitude": 3.0425018057,
+          "x_direct": true
+        },
+        {
+          "character_id": 87496,
+          "name": "Bayonetta",
+          "anime": "Bayonetta: Bloody Fate",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+          "site_url": "https://anilist.co/character/87496",
+          "favourites": 388,
+          "anilist_favourites": 388,
+          "bangumi_collects": 65,
+          "bangumi_comments": 12,
+          "bangumi_character_id": 19877,
+          "bangumi_url": "https://bgm.tv/character/19877",
+          "combined_favourites": 453,
+          "role_edge_count": 1,
+          "descriptors": [
+            "mysterious"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.66797624,
+          "row_weight": 2.66797624,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7608535147,
+          "x_score": -1.7880115665,
+          "amplitude": -1.7880115665,
+          "x_direct": true
+        },
+        {
+          "character_id": 3440,
+          "name": "Medea",
+          "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
+          "site_url": "https://anilist.co/character/3440",
+          "favourites": 369,
+          "anilist_favourites": 369,
+          "bangumi_collects": 119,
+          "bangumi_comments": 14,
+          "bangumi_character_id": 3217,
+          "bangumi_url": "https://bgm.tv/character/3217",
+          "combined_favourites": 488,
+          "role_edge_count": 2,
+          "descriptors": [
+            "jealous",
+            "loyal",
+            "mysterious",
+            "selfish"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.68185803,
+          "row_weight": 1.89636,
+          "unweighted_row_norm": 3.35187289,
+          "x_raw_score": 3.2797308178,
+          "x_score": 0.7308657365,
+          "amplitude": 0.7308657365,
+          "x_direct": true
+        },
+        {
+          "character_id": 18673,
+          "name": "Kyrie Ushiromiya",
+          "anime": "Umineko: When They Cry",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
+          "site_url": "https://anilist.co/character/18673",
+          "favourites": 121,
+          "anilist_favourites": 121,
+          "bangumi_collects": 25,
+          "bangumi_comments": 21,
+          "bangumi_character_id": 932,
+          "bangumi_url": "https://bgm.tv/character/932",
+          "combined_favourites": 146,
+          "role_edge_count": 1,
+          "descriptors": [
+            "loyal",
+            "trustworthy"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.44753602,
+          "row_weight": 2.44753602,
+          "unweighted_row_norm": 1.85443833,
+          "x_raw_score": 1.6153405289,
+          "x_score": -0.9335245524,
+          "amplitude": -0.9335245524,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 2.5488650813
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.7996986754,
+      "mass_percent": 10.003046,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 41.218164,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "mysterious",
+            "amplitude": 0.4121816403,
+            "abs_amplitude": 0.4121816403,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "mysterious",
+            "fit_percent": 41.218164,
+            "residual_gain_percent": 16.98937
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 87496,
+            "name": "Bayonetta",
+            "anime": "Bayonetta: Bloody Fate",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b87496-pBhFLnxrCi7y.jpg",
+            "site_url": "https://anilist.co/character/87496",
+            "favourites": 388,
+            "anilist_favourites": 388,
+            "bangumi_collects": 65,
+            "bangumi_comments": 12,
+            "bangumi_character_id": 19877,
+            "bangumi_url": "https://bgm.tv/character/19877",
+            "combined_favourites": 453,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.66797624,
+            "row_weight": 2.66797624,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6110416352,
+            "abs_amplitude": 0.6110416352,
+            "percent": 37.337188
+          },
+          {
+            "character_id": 21960,
+            "name": "Lisa Lisa",
+            "anime": "JoJo's Bizarre Adventure (TV)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21960-3stfLc0uwgoT.png",
+            "site_url": "https://anilist.co/character/21960",
+            "favourites": 1128,
+            "anilist_favourites": 1128,
+            "bangumi_collects": 69,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 18742,
+            "bangumi_url": "https://bgm.tv/character/18742",
+            "combined_favourites": 1197,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious",
+              "powerful"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.8440128,
+            "row_weight": 2.8440128,
+            "unweighted_row_norm": 1.76688616,
+            "amplitude": 0.3715583652,
+            "abs_amplitude": 0.3715583652,
+            "percent": 13.805562
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 43.811423,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "loyal",
+            "amplitude": 0.286697371,
+            "abs_amplitude": 0.286697371,
+            "percent": 59.329591
+          },
+          {
+            "rank": 2,
+            "descriptor": "honorable",
+            "amplitude": 0.1111951994,
+            "abs_amplitude": 0.1111951994,
+            "percent": 23.010904
+          },
+          {
+            "rank": 3,
+            "descriptor": "trustworthy",
+            "amplitude": 0.085335723,
+            "abs_amplitude": 0.085335723,
+            "percent": 17.659505
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "loyal",
+            "fit_percent": 42.276086,
+            "residual_gain_percent": 17.872674
+          },
+          {
+            "step": 2,
+            "descriptor": "honorable",
+            "fit_percent": 43.444726,
+            "residual_gain_percent": 1.219774
+          },
+          {
+            "step": 3,
+            "descriptor": "trustworthy",
+            "fit_percent": 43.811423,
+            "residual_gain_percent": 0.394408
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 18673,
+            "name": "Kyrie Ushiromiya",
+            "anime": "Umineko: When They Cry",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18673-YBG83XFwrouX.jpg",
+            "site_url": "https://anilist.co/character/18673",
+            "favourites": 121,
+            "anilist_favourites": 121,
+            "bangumi_collects": 25,
+            "bangumi_comments": 21,
+            "bangumi_character_id": 932,
+            "bangumi_url": "https://bgm.tv/character/932",
+            "combined_favourites": 146,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal",
+              "trustworthy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.44753602,
+            "row_weight": 2.44753602,
+            "unweighted_row_norm": 1.85443833,
+            "amplitude": -0.5758118026,
+            "abs_amplitude": 0.5758118026,
+            "percent": 33.155923
+          },
+          {
+            "character_id": 313120,
+            "name": "Rose",
+            "anime": "The Wrong Way to Use Healing Magic",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b313120-LYRDZTKy1hep.png",
+            "site_url": "https://anilist.co/character/313120",
+            "favourites": 718,
+            "anilist_favourites": 718,
+            "bangumi_collects": 6,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 40574,
+            "bangumi_url": "https://bgm.tv/character/40574",
+            "combined_favourites": 724,
+            "role_edge_count": 1,
+            "descriptors": [
+              "charismatic",
+              "clingy",
+              "forceful",
+              "innocent",
+              "jealous",
+              "loyal",
+              "romantic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75430057,
+            "row_weight": 2.75430057,
+            "unweighted_row_norm": 5.67777391,
+            "amplitude": -0.364726207,
+            "abs_amplitude": 0.364726207,
+            "percent": 13.302521
+          },
+          {
+            "character_id": 3440,
+            "name": "Medea",
+            "anime": "Fate/stay night: Unlimited Blade Works (Movie)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3440-134Ip9KiQeZL.png",
+            "site_url": "https://anilist.co/character/3440",
+            "favourites": 369,
+            "anilist_favourites": 369,
+            "bangumi_collects": 119,
+            "bangumi_comments": 14,
+            "bangumi_character_id": 3217,
+            "bangumi_url": "https://bgm.tv/character/3217",
+            "combined_favourites": 488,
+            "role_edge_count": 2,
+            "descriptors": [
+              "jealous",
+              "loyal",
+              "mysterious",
+              "selfish"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.68185803,
+            "row_weight": 1.89636,
+            "unweighted_row_norm": 3.35187289,
+            "amplitude": -0.1548808034,
+            "abs_amplitude": 0.1548808034,
+            "percent": 2.398806
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 5.2114467515,
+      "mass_percent": 83.878232,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.7996986754,
+      "mass_percent": 10.003046,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 0.9757913393,
+      "mass_percent": 2.940672,
+      "relative_to_sv2_percent": 54.219706
+    },
+    {
+      "rank": 4,
+      "singular_value": 0.9029336236,
+      "mass_percent": 2.517934,
+      "relative_to_sv2_percent": 50.171378
+    },
+    {
+      "rank": 5,
+      "singular_value": 0.4623213495,
+      "mass_percent": 0.660116,
+      "relative_to_sv2_percent": 25.68882
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

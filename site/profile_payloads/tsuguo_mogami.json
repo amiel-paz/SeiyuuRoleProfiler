@@ -5,1880 +5,312 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n103730-qtf6D57hUNAf.jpg",
   "site_url": "https://anilist.co/staff/103730",
   "role_count": 19,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2013,
   "aliases": [
     "mogami tsuguo",
     "tsuguo mogami"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/tsuguo_mogami.json",
+  "sv1_mass_percent": 87.212905,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.3924116524,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.3924116524,
-        "mass_percent": 87.735225
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.3900638788,
-        "mass_percent": 9.171085
-      },
-      {
-        "rank": 3,
-        "singular_value": 1.3881535589,
-        "mass_percent": 3.09369
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 282.490959,
-      "normalized_entanglement": 0.735654,
-      "top5_mass_percent": 3.962598,
-      "top10_mass_percent": 7.18399
-    },
-    "character_participation": {
-      "effective_count": 2.363998,
-      "normalized_entanglement": 0.787999,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.979412,
-      "semantic_spread": 1.16004,
-      "axis_concentration_percent": 71.282784,
-      "lane_count": 1.821391,
-      "direction_range": 0.38614,
-      "direction_spread": 0.454001,
-      "direction_axis_concentration_percent": 72.339833,
-      "direction_lane_count": 1.803474
-    },
-    "explained_sv_l2_percent": 87.735225,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.6526037662,
+    "mass_percent": 88.668762,
+    "descriptor_fit_percent": 99.249266,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "food-obsessed / hungry / gluttonous",
-        "descriptor_index": 2643,
-        "amplitude": 0.1198634503,
-        "abs_amplitude": 0.1198634503,
-        "raw_amplitude": 0.3595903508,
-        "percent": 21.417506,
-        "raw_percent": 21.417506,
-        "coverage_percent": 21.417506,
-        "member_count": 3,
-        "members": [
-          "food-obsessed",
-          "hungry",
-          "gluttonous"
-        ],
+        "descriptor": "fearsome",
+        "amplitude": 0.9924926627,
+        "abs_amplitude": 0.9924926627,
+        "percent": 100.0,
+        "weighted_support": 2.52675584,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.3595903508,
-            "similarity": 0.809816,
-            "matched_descriptor": "weight reduction"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "pacifist / anti-violence / pacifistic",
-        "descriptor_index": 5435,
-        "amplitude": 0.0892278254,
-        "abs_amplitude": 0.0892278254,
-        "raw_amplitude": 0.2676834761,
-        "percent": 15.943455,
-        "raw_percent": 15.943455,
-        "coverage_percent": 37.360961,
-        "member_count": 3,
-        "members": [
-          "pacifist",
-          "anti-violence",
-          "pacifistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.2676834761,
-            "similarity": 1.0,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "diet-abandoner",
-        "descriptor_index": 1805,
-        "amplitude": 0.0866136516,
-        "abs_amplitude": 0.0866136516,
-        "raw_amplitude": 0.2598409547,
-        "percent": 15.476348,
-        "raw_percent": 15.476348,
-        "coverage_percent": 52.837309,
-        "member_count": 1,
-        "members": [
-          "diet-abandoner"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.2598409547,
-            "similarity": 0.821927,
-            "matched_descriptor": "weight reduction"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fearsome / formidable / menacing / terrifying / +1",
-        "descriptor_index": 2489,
-        "amplitude": 0.0475512381,
-        "abs_amplitude": 0.0475512381,
-        "raw_amplitude": 0.1426537144,
-        "percent": 8.496576,
-        "raw_percent": 8.496576,
-        "coverage_percent": 61.333885,
-        "member_count": 5,
-        "members": [
-          "fearsome",
-          "formidable",
-          "menacing",
-          "terrifying",
-          "threatening"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 2283,
             "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
             "anime": "D.Gray-man HALLOW",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
             "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.1426537143,
-            "similarity": 1.0,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "hunger-inducing",
-        "descriptor_index": 3647,
-        "amplitude": 0.0366735097,
-        "abs_amplitude": 0.0366735097,
-        "raw_amplitude": 0.1100205292,
-        "percent": 6.552916,
-        "raw_percent": 6.552916,
-        "coverage_percent": 67.886801,
-        "member_count": 1,
-        "members": [
-          "hunger-inducing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.1100205292,
-            "similarity": 0.827353,
-            "matched_descriptor": "weight reduction"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "debt-inducing / money-oriented",
-        "descriptor_index": 1627,
-        "amplitude": 0.025294272,
-        "abs_amplitude": 0.025294272,
-        "raw_amplitude": 0.0758828159,
-        "percent": 4.519645,
-        "raw_percent": 4.519645,
-        "coverage_percent": 72.406446,
-        "member_count": 2,
-        "members": [
-          "debt-inducing",
-          "money-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0758828159,
-            "similarity": 1.0,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "peace-loving",
-        "descriptor_index": 5503,
-        "amplitude": 0.0176410056,
-        "abs_amplitude": 0.0176410056,
-        "raw_amplitude": 0.0529230167,
-        "percent": 3.15214,
-        "raw_percent": 3.15214,
-        "coverage_percent": 75.558585,
-        "member_count": 1,
-        "members": [
-          "peace-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0529230167,
-            "similarity": 0.887551,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "conflict-averse / non-combative",
-        "descriptor_index": 1364,
-        "amplitude": 0.0153935789,
-        "abs_amplitude": 0.0153935789,
-        "raw_amplitude": 0.0461807366,
-        "percent": 2.750564,
-        "raw_percent": 2.750564,
-        "coverage_percent": 78.309149,
-        "member_count": 2,
-        "members": [
-          "conflict-averse",
-          "non-combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0461807366,
-            "similarity": 0.888308,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "money-obsessed / avaricious",
-        "descriptor_index": 4902,
-        "amplitude": 0.0136202714,
-        "abs_amplitude": 0.0136202714,
-        "raw_amplitude": 0.0408608142,
-        "percent": 2.433705,
-        "raw_percent": 2.433705,
-        "coverage_percent": 80.742854,
-        "member_count": 2,
-        "members": [
-          "money-obsessed",
-          "avaricious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0408608142,
-            "similarity": 0.88401,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "non-combatant / non-criminal",
-        "descriptor_index": 5175,
-        "amplitude": 0.0114627073,
-        "abs_amplitude": 0.0114627073,
-        "raw_amplitude": 0.0343881218,
-        "percent": 2.048186,
-        "raw_percent": 2.048186,
-        "coverage_percent": 82.79104,
-        "member_count": 2,
-        "members": [
-          "non-combatant",
-          "non-criminal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0343881218,
-            "similarity": 0.884684,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "intimidating / ominous",
-        "descriptor_index": 3971,
-        "amplitude": 0.0104963116,
-        "abs_amplitude": 0.0104963116,
-        "raw_amplitude": 0.0314889349,
-        "percent": 1.875508,
-        "raw_percent": 1.875508,
-        "coverage_percent": 84.666547,
-        "member_count": 2,
-        "members": [
-          "intimidating",
-          "ominous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0314889349,
-            "similarity": 0.89657,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "forgetful",
-        "descriptor_index": 2664,
-        "amplitude": 0.0102068723,
-        "abs_amplitude": 0.0102068723,
-        "raw_amplitude": 0.0306206169,
-        "percent": 1.82379,
-        "raw_percent": 1.82379,
-        "coverage_percent": 86.490337,
-        "member_count": 1,
-        "members": [
-          "forgetful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.0306206169,
-            "similarity": 0.785694,
-            "matched_descriptor": "non-damaging compression"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "money-gatherer",
-        "descriptor_index": 4901,
-        "amplitude": 0.0076920775,
-        "abs_amplitude": 0.0076920775,
-        "raw_amplitude": 0.0230762326,
-        "percent": 1.37444,
-        "raw_percent": 1.37444,
-        "coverage_percent": 87.864777,
-        "member_count": 1,
-        "members": [
-          "money-gatherer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0230762326,
-            "similarity": 0.891405,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "anti-fighting",
-        "descriptor_index": 276,
-        "amplitude": 0.0063955039,
-        "abs_amplitude": 0.0063955039,
-        "raw_amplitude": 0.0191865118,
-        "percent": 1.142765,
-        "raw_percent": 1.142765,
-        "coverage_percent": 89.007542,
-        "member_count": 1,
-        "members": [
-          "anti-fighting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0191865118,
-            "similarity": 0.865114,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "prosperous",
-        "descriptor_index": 5951,
-        "amplitude": 0.0057208251,
-        "abs_amplitude": 0.0057208251,
-        "raw_amplitude": 0.0171624753,
-        "percent": 1.022212,
-        "raw_percent": 1.022212,
-        "coverage_percent": 90.029754,
-        "member_count": 1,
-        "members": [
-          "prosperous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0171624753,
-            "similarity": 0.872192,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "scary / horrified",
-        "descriptor_index": 6481,
-        "amplitude": 0.0052853437,
-        "abs_amplitude": 0.0052853437,
-        "raw_amplitude": 0.0158560311,
-        "percent": 0.944399,
-        "raw_percent": 0.944399,
-        "coverage_percent": 90.974152,
-        "member_count": 2,
-        "members": [
-          "scary",
-          "horrified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0158560311,
-            "similarity": 0.861545,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "exploitative",
-        "descriptor_index": 2323,
-        "amplitude": 0.0050234989,
-        "abs_amplitude": 0.0050234989,
-        "raw_amplitude": 0.0150704968,
-        "percent": 0.897612,
-        "raw_percent": 0.897612,
-        "coverage_percent": 91.871764,
-        "member_count": 1,
-        "members": [
-          "exploitative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0150704968,
-            "similarity": 0.839289,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "extremist",
-        "descriptor_index": 2345,
-        "amplitude": 0.0037500165,
-        "abs_amplitude": 0.0037500165,
-        "raw_amplitude": 0.0112500494,
-        "percent": 0.670062,
-        "raw_percent": 0.670062,
-        "coverage_percent": 92.541826,
-        "member_count": 1,
-        "members": [
-          "extremist"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0112500494,
-            "similarity": 0.833205,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "imposing",
-        "descriptor_index": 3785,
-        "amplitude": 0.0031640903,
-        "abs_amplitude": 0.0031640903,
-        "raw_amplitude": 0.0094922709,
-        "percent": 0.565368,
-        "raw_percent": 0.565368,
-        "coverage_percent": 93.107194,
-        "member_count": 1,
-        "members": [
-          "imposing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0094922709,
-            "similarity": 0.87869,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "fearless / audacious",
-        "descriptor_index": 2486,
-        "amplitude": 0.002744432,
-        "abs_amplitude": 0.002744432,
-        "raw_amplitude": 0.008233296,
-        "percent": 0.490382,
-        "raw_percent": 0.490382,
-        "coverage_percent": 93.597576,
-        "member_count": 2,
-        "members": [
-          "fearless",
-          "audacious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.008233296,
-            "similarity": 0.848934,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.002702924,
-        "abs_amplitude": 0.002702924,
-        "raw_amplitude": 0.0081087719,
-        "percent": 0.482965,
-        "raw_percent": 0.482965,
-        "coverage_percent": 94.080542,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0081087719,
-            "similarity": 0.8668,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "mercurial / inconstant / fickle",
-        "descriptor_index": 4765,
-        "amplitude": 0.002452444,
-        "abs_amplitude": 0.002452444,
-        "raw_amplitude": 0.0073573321,
-        "percent": 0.438209,
-        "raw_percent": 0.438209,
-        "coverage_percent": 94.51875,
-        "member_count": 3,
-        "members": [
-          "mercurial",
-          "inconstant",
-          "fickle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0073573322,
-            "similarity": 0.85271,
-            "matched_descriptor": "akuma converter"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "outrageous",
-        "descriptor_index": 5386,
-        "amplitude": 0.002280912,
-        "abs_amplitude": 0.002280912,
-        "raw_amplitude": 0.0068427359,
-        "percent": 0.407559,
-        "raw_percent": 0.407559,
-        "coverage_percent": 94.92631,
-        "member_count": 1,
-        "members": [
-          "outrageous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0068427359,
-            "similarity": 0.854195,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "paranoid / over-protective",
-        "descriptor_index": 5460,
-        "amplitude": 0.0021302023,
-        "abs_amplitude": 0.0021302023,
-        "raw_amplitude": 0.0063906069,
-        "percent": 0.38063,
-        "raw_percent": 0.38063,
-        "coverage_percent": 95.30694,
-        "member_count": 2,
-        "members": [
-          "paranoid",
-          "over-protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0063906069,
-            "similarity": 0.849714,
-            "matched_descriptor": "fearsome"
+            "combined_favourites": 217
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "food-obsessed / hungry / gluttonous",
-        "descriptor_index": 2643,
-        "amplitude": 0.1198634503,
-        "abs_amplitude": 0.1198634503,
-        "raw_amplitude": 0.3595903508,
-        "percent": 21.417506,
-        "raw_percent": 21.417506,
-        "coverage_percent": 21.417506,
-        "member_count": 3,
-        "members": [
-          "food-obsessed",
-          "hungry",
-          "gluttonous"
-        ],
+        "step": 1,
+        "descriptor": "fearsome",
+        "weighted_support": 2.52675584,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.3595903508,
-            "similarity": 0.809816,
-            "matched_descriptor": "weight reduction"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "pacifist / anti-violence / pacifistic",
-        "descriptor_index": 5435,
-        "amplitude": 0.0892278254,
-        "abs_amplitude": 0.0892278254,
-        "raw_amplitude": 0.2676834761,
-        "percent": 15.943455,
-        "raw_percent": 15.943455,
-        "coverage_percent": 37.360961,
-        "member_count": 3,
-        "members": [
-          "pacifist",
-          "anti-violence",
-          "pacifistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.2676834761,
-            "similarity": 1.0,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "diet-abandoner",
-        "descriptor_index": 1805,
-        "amplitude": 0.0866136516,
-        "abs_amplitude": 0.0866136516,
-        "raw_amplitude": 0.2598409547,
-        "percent": 15.476348,
-        "raw_percent": 15.476348,
-        "coverage_percent": 52.837309,
-        "member_count": 1,
-        "members": [
-          "diet-abandoner"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.2598409547,
-            "similarity": 0.821927,
-            "matched_descriptor": "weight reduction"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "fearsome / formidable / menacing / terrifying / +1",
-        "descriptor_index": 2489,
-        "amplitude": 0.0475512381,
-        "abs_amplitude": 0.0475512381,
-        "raw_amplitude": 0.1426537144,
-        "percent": 8.496576,
-        "raw_percent": 8.496576,
-        "coverage_percent": 61.333885,
-        "member_count": 5,
-        "members": [
-          "fearsome",
-          "formidable",
-          "menacing",
-          "terrifying",
-          "threatening"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.1426537143,
-            "similarity": 1.0,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "hunger-inducing",
-        "descriptor_index": 3647,
-        "amplitude": 0.0366735097,
-        "abs_amplitude": 0.0366735097,
-        "raw_amplitude": 0.1100205292,
-        "percent": 6.552916,
-        "raw_percent": 6.552916,
-        "coverage_percent": 67.886801,
-        "member_count": 1,
-        "members": [
-          "hunger-inducing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.1100205292,
-            "similarity": 0.827353,
-            "matched_descriptor": "weight reduction"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "debt-inducing / money-oriented",
-        "descriptor_index": 1627,
-        "amplitude": 0.025294272,
-        "abs_amplitude": 0.025294272,
-        "raw_amplitude": 0.0758828159,
-        "percent": 4.519645,
-        "raw_percent": 4.519645,
-        "coverage_percent": 72.406446,
-        "member_count": 2,
-        "members": [
-          "debt-inducing",
-          "money-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0758828159,
-            "similarity": 1.0,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "peace-loving",
-        "descriptor_index": 5503,
-        "amplitude": 0.0176410056,
-        "abs_amplitude": 0.0176410056,
-        "raw_amplitude": 0.0529230167,
-        "percent": 3.15214,
-        "raw_percent": 3.15214,
-        "coverage_percent": 75.558585,
-        "member_count": 1,
-        "members": [
-          "peace-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0529230167,
-            "similarity": 0.887551,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "conflict-averse / non-combative",
-        "descriptor_index": 1364,
-        "amplitude": 0.0153935789,
-        "abs_amplitude": 0.0153935789,
-        "raw_amplitude": 0.0461807366,
-        "percent": 2.750564,
-        "raw_percent": 2.750564,
-        "coverage_percent": 78.309149,
-        "member_count": 2,
-        "members": [
-          "conflict-averse",
-          "non-combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0461807366,
-            "similarity": 0.888308,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "money-obsessed / avaricious",
-        "descriptor_index": 4902,
-        "amplitude": 0.0136202714,
-        "abs_amplitude": 0.0136202714,
-        "raw_amplitude": 0.0408608142,
-        "percent": 2.433705,
-        "raw_percent": 2.433705,
-        "coverage_percent": 80.742854,
-        "member_count": 2,
-        "members": [
-          "money-obsessed",
-          "avaricious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0408608142,
-            "similarity": 0.88401,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "non-combatant / non-criminal",
-        "descriptor_index": 5175,
-        "amplitude": 0.0114627073,
-        "abs_amplitude": 0.0114627073,
-        "raw_amplitude": 0.0343881218,
-        "percent": 2.048186,
-        "raw_percent": 2.048186,
-        "coverage_percent": 82.79104,
-        "member_count": 2,
-        "members": [
-          "non-combatant",
-          "non-criminal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0343881218,
-            "similarity": 0.884684,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "intimidating / ominous",
-        "descriptor_index": 3971,
-        "amplitude": 0.0104963116,
-        "abs_amplitude": 0.0104963116,
-        "raw_amplitude": 0.0314889349,
-        "percent": 1.875508,
-        "raw_percent": 1.875508,
-        "coverage_percent": 84.666547,
-        "member_count": 2,
-        "members": [
-          "intimidating",
-          "ominous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0314889349,
-            "similarity": 0.89657,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "forgetful",
-        "descriptor_index": 2664,
-        "amplitude": 0.0102068723,
-        "abs_amplitude": 0.0102068723,
-        "raw_amplitude": 0.0306206169,
-        "percent": 1.82379,
-        "raw_percent": 1.82379,
-        "coverage_percent": 86.490337,
-        "member_count": 1,
-        "members": [
-          "forgetful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141748,
-            "name": "Atsuhiro  Sako",
-            "native_name": "コンプレス",
-            "anime": "My Hero Academia Season 3",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-            "site_url": "https://anilist.co/character/141748",
-            "anime_url": "https://myanimelist.net/anime/36456",
-            "role": "SUPPORTING",
-            "favourites": 212,
-            "row_weight": 2.52216022,
-            "projection": 0.0306206169,
-            "similarity": 0.785694,
-            "matched_descriptor": "non-damaging compression"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "money-gatherer",
-        "descriptor_index": 4901,
-        "amplitude": 0.0076920775,
-        "abs_amplitude": 0.0076920775,
-        "raw_amplitude": 0.0230762326,
-        "percent": 1.37444,
-        "raw_percent": 1.37444,
-        "coverage_percent": 87.864777,
-        "member_count": 1,
-        "members": [
-          "money-gatherer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0230762326,
-            "similarity": 0.891405,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "anti-fighting",
-        "descriptor_index": 276,
-        "amplitude": 0.0063955039,
-        "abs_amplitude": 0.0063955039,
-        "raw_amplitude": 0.0191865118,
-        "percent": 1.142765,
-        "raw_percent": 1.142765,
-        "coverage_percent": 89.007542,
-        "member_count": 1,
-        "members": [
-          "anti-fighting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0191865118,
-            "similarity": 0.865114,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "prosperous",
-        "descriptor_index": 5951,
-        "amplitude": 0.0057208251,
-        "abs_amplitude": 0.0057208251,
-        "raw_amplitude": 0.0171624753,
-        "percent": 1.022212,
-        "raw_percent": 1.022212,
-        "coverage_percent": 90.029754,
-        "member_count": 1,
-        "members": [
-          "prosperous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0171624753,
-            "similarity": 0.872192,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "scary / horrified",
-        "descriptor_index": 6481,
-        "amplitude": 0.0052853437,
-        "abs_amplitude": 0.0052853437,
-        "raw_amplitude": 0.0158560311,
-        "percent": 0.944399,
-        "raw_percent": 0.944399,
-        "coverage_percent": 90.974152,
-        "member_count": 2,
-        "members": [
-          "scary",
-          "horrified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0158560311,
-            "similarity": 0.861545,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "exploitative",
-        "descriptor_index": 2323,
-        "amplitude": 0.0050234989,
-        "abs_amplitude": 0.0050234989,
-        "raw_amplitude": 0.0150704968,
-        "percent": 0.897612,
-        "raw_percent": 0.897612,
-        "coverage_percent": 91.871764,
-        "member_count": 1,
-        "members": [
-          "exploitative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0150704968,
-            "similarity": 0.839289,
-            "matched_descriptor": "debt-inducing"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "extremist",
-        "descriptor_index": 2345,
-        "amplitude": 0.0037500165,
-        "abs_amplitude": 0.0037500165,
-        "raw_amplitude": 0.0112500494,
-        "percent": 0.670062,
-        "raw_percent": 0.670062,
-        "coverage_percent": 92.541826,
-        "member_count": 1,
-        "members": [
-          "extremist"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9130,
-            "name": "Toki",
-            "native_name": "トキ",
-            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
-            "site_url": "https://anilist.co/character/9130",
-            "anime_url": "https://myanimelist.net/anime/56646",
-            "role": "SUPPORTING",
-            "favourites": 174,
-            "row_weight": 1.24144935,
-            "projection": 0.0112500494,
-            "similarity": 0.833205,
-            "matched_descriptor": "pacifist"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "imposing",
-        "descriptor_index": 3785,
-        "amplitude": 0.0031640903,
-        "abs_amplitude": 0.0031640903,
-        "raw_amplitude": 0.0094922709,
-        "percent": 0.565368,
-        "raw_percent": 0.565368,
-        "coverage_percent": 93.107194,
-        "member_count": 1,
-        "members": [
-          "imposing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0094922709,
-            "similarity": 0.87869,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "fearless / audacious",
-        "descriptor_index": 2486,
-        "amplitude": 0.002744432,
-        "abs_amplitude": 0.002744432,
-        "raw_amplitude": 0.008233296,
-        "percent": 0.490382,
-        "raw_percent": 0.490382,
-        "coverage_percent": 93.597576,
-        "member_count": 2,
-        "members": [
-          "fearless",
-          "audacious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.008233296,
-            "similarity": 0.848934,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.002702924,
-        "abs_amplitude": 0.002702924,
-        "raw_amplitude": 0.0081087719,
-        "percent": 0.482965,
-        "raw_percent": 0.482965,
-        "coverage_percent": 94.080542,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0081087719,
-            "similarity": 0.8668,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "mercurial / inconstant / fickle",
-        "descriptor_index": 4765,
-        "amplitude": 0.002452444,
-        "abs_amplitude": 0.002452444,
-        "raw_amplitude": 0.0073573321,
-        "percent": 0.438209,
-        "raw_percent": 0.438209,
-        "coverage_percent": 94.51875,
-        "member_count": 3,
-        "members": [
-          "mercurial",
-          "inconstant",
-          "fickle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0073573322,
-            "similarity": 0.85271,
-            "matched_descriptor": "akuma converter"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "outrageous",
-        "descriptor_index": 5386,
-        "amplitude": 0.002280912,
-        "abs_amplitude": 0.002280912,
-        "raw_amplitude": 0.0068427359,
-        "percent": 0.407559,
-        "raw_percent": 0.407559,
-        "coverage_percent": 94.92631,
-        "member_count": 1,
-        "members": [
-          "outrageous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0068427359,
-            "similarity": 0.854195,
-            "matched_descriptor": "fearsome"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "paranoid / over-protective",
-        "descriptor_index": 5460,
-        "amplitude": 0.0021302023,
-        "abs_amplitude": 0.0021302023,
-        "raw_amplitude": 0.0063906069,
-        "percent": 0.38063,
-        "raw_percent": 0.38063,
-        "coverage_percent": 95.30694,
-        "member_count": 2,
-        "members": [
-          "paranoid",
-          "over-protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2283,
-            "name": "Cross Marian",
-            "native_name": "クロス・マリアン",
-            "anime": "D.Gray-man HALLOW",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
-            "site_url": "https://anilist.co/character/2283",
-            "anime_url": "https://myanimelist.net/anime/32370",
-            "role": "SUPPORTING",
-            "favourites": 217,
-            "row_weight": 2.52675584,
-            "projection": 0.0063906069,
-            "similarity": 0.849714,
-            "matched_descriptor": "fearsome"
-          }
-        ]
+        "fit_percent": 99.249266,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 141748,
-        "name": "Atsuhiro  Sako",
-        "native_name": "コンプレス",
-        "anime": "My Hero Academia Season 3",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-        "site_url": "https://anilist.co/character/141748",
-        "anime_url": "https://myanimelist.net/anime/36456",
-        "role": "SUPPORTING",
-        "favourites": 212,
-        "row_weight": 2.52216022,
-        "amplitude": 0.7600724516,
-        "abs_amplitude": 0.7600724516,
-        "percent": 57.771013
-      },
-      {
         "character_id": 2283,
         "name": "Cross Marian",
-        "native_name": "クロス・マリアン",
         "anime": "D.Gray-man HALLOW",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
         "site_url": "https://anilist.co/character/2283",
-        "anime_url": "https://myanimelist.net/anime/32370",
-        "role": "SUPPORTING",
         "favourites": 217,
+        "anilist_favourites": 217,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": null,
+        "bangumi_url": "",
+        "combined_favourites": 217,
+        "role_edge_count": 1,
+        "descriptors": [
+          "fearsome"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52675584,
         "row_weight": 2.52675584,
-        "amplitude": 0.4670913546,
-        "abs_amplitude": 0.4670913546,
-        "percent": 21.817433
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.9454056656,
+        "abs_amplitude": 0.9454056656,
+        "percent": 89.379187
       },
       {
         "character_id": 9130,
         "name": "Toki",
-        "native_name": "トキ",
         "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
         "site_url": "https://anilist.co/character/9130",
-        "anime_url": "https://myanimelist.net/anime/56646",
-        "role": "SUPPORTING",
         "favourites": 174,
-        "row_weight": 1.24144935,
-        "amplitude": 0.4517914726,
-        "abs_amplitude": 0.4517914726,
-        "percent": 20.411553
+        "anilist_favourites": 174,
+        "bangumi_collects": 7,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 15208,
+        "bangumi_url": "https://bgm.tv/character/15208",
+        "combined_favourites": 181,
+        "role_edge_count": 4,
+        "descriptors": [
+          "pacifist"
+        ],
+        "shared_role_weight": 0.5,
+        "popularity_row_weight": 2.49078435,
+        "row_weight": 1.24539218,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3258958844,
+        "abs_amplitude": 0.3258958844,
+        "percent": 10.620813
       }
     ],
     "positive_characters": [
       {
-        "character_id": 141748,
-        "name": "Atsuhiro  Sako",
-        "native_name": "コンプレス",
-        "anime": "My Hero Academia Season 3",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141748-ZlmszNufZ2me.png",
-        "site_url": "https://anilist.co/character/141748",
-        "anime_url": "https://myanimelist.net/anime/36456",
-        "role": "SUPPORTING",
-        "favourites": 212,
-        "row_weight": 2.52216022,
-        "amplitude": 0.7600724516,
-        "abs_amplitude": 0.7600724516,
-        "percent": 57.771013
-      },
-      {
         "character_id": 2283,
         "name": "Cross Marian",
-        "native_name": "クロス・マリアン",
         "anime": "D.Gray-man HALLOW",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
         "site_url": "https://anilist.co/character/2283",
-        "anime_url": "https://myanimelist.net/anime/32370",
-        "role": "SUPPORTING",
         "favourites": 217,
+        "anilist_favourites": 217,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": null,
+        "bangumi_url": "",
+        "combined_favourites": 217,
+        "role_edge_count": 1,
+        "descriptors": [
+          "fearsome"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52675584,
         "row_weight": 2.52675584,
-        "amplitude": 0.4670913546,
-        "abs_amplitude": 0.4670913546,
-        "percent": 21.817433
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.9454056656,
+        "abs_amplitude": 0.9454056656,
+        "percent": 89.379187
       },
       {
         "character_id": 9130,
         "name": "Toki",
-        "native_name": "トキ",
         "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
         "site_url": "https://anilist.co/character/9130",
-        "anime_url": "https://myanimelist.net/anime/56646",
-        "role": "SUPPORTING",
         "favourites": 174,
-        "row_weight": 1.24144935,
-        "amplitude": 0.4517914726,
-        "abs_amplitude": 0.4517914726,
-        "percent": 20.411553
+        "anilist_favourites": 174,
+        "bangumi_collects": 7,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 15208,
+        "bangumi_url": "https://bgm.tv/character/15208",
+        "combined_favourites": 181,
+        "role_edge_count": 4,
+        "descriptors": [
+          "pacifist"
+        ],
+        "shared_role_weight": 0.5,
+        "popularity_row_weight": 2.49078435,
+        "row_weight": 1.24539218,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3258958844,
+        "abs_amplitude": 0.3258958844,
+        "percent": 10.620813
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.234348,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 0.9482562914,
+      "mass_percent": 11.331238,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 71.984302,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "pacifist",
+            "amplitude": 0.7198430243,
+            "abs_amplitude": 0.7198430243,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "pacifist",
+            "fit_percent": 71.984302,
+            "residual_gain_percent": 51.817398
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 9130,
+            "name": "Toki",
+            "anime": "Fist of the North Star: The Legend of the True Savior: Legend of Raoh: Chapter of Fierce Fighting",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9130-9EPxW2ZI8ZZo.png",
+            "site_url": "https://anilist.co/character/9130",
+            "favourites": 174,
+            "anilist_favourites": 174,
+            "bangumi_collects": 7,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 15208,
+            "bangumi_url": "https://bgm.tv/character/15208",
+            "combined_favourites": 181,
+            "role_edge_count": 4,
+            "descriptors": [
+              "pacifist"
+            ],
+            "shared_role_weight": 0.5,
+            "popularity_row_weight": 2.49078435,
+            "row_weight": 1.24539218,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.9454056656,
+            "abs_amplitude": 0.9454056656,
+            "percent": 89.379187
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 12.230419,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "fearsome",
+            "amplitude": 0.1223041887,
+            "abs_amplitude": 0.1223041887,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "fearsome",
+            "fit_percent": 12.230419,
+            "residual_gain_percent": 1.495831
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 2283,
+            "name": "Cross Marian",
+            "anime": "D.Gray-man HALLOW",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2283-OAmnSWkiGJcG.jpg",
+            "site_url": "https://anilist.co/character/2283",
+            "favourites": 217,
+            "anilist_favourites": 217,
+            "bangumi_collects": 0,
+            "bangumi_comments": 0,
+            "bangumi_character_id": null,
+            "bangumi_url": "",
+            "combined_favourites": 217,
+            "role_edge_count": 1,
+            "descriptors": [
+              "fearsome"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.52675584,
+            "row_weight": 2.52675584,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.3258958844,
+            "abs_amplitude": 0.3258958844,
+            "percent": 10.620813
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.6526037662,
+      "mass_percent": 88.668762,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 0.9482562914,
+      "mass_percent": 11.331238,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

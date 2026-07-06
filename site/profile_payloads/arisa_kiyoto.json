@@ -11,1200 +11,70 @@
     "arisa kiyoto",
     "kiyoto arisa"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/arisa_kiyoto.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 2.8295989579,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 2.8295989579,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 204.658834,
-      "normalized_entanglement": 0.532966,
-      "top5_mass_percent": 5.708089,
-      "top10_mass_percent": 10.419646
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.0576615772,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "good-natured / good / well-meaning / soft-spotted / +21",
-        "descriptor_index": 3108,
-        "amplitude": 0.1785447896,
-        "abs_amplitude": 0.1785447896,
-        "raw_amplitude": 0.5356343688,
-        "percent": 53.563437,
-        "raw_percent": 53.563437,
-        "coverage_percent": 53.563437,
-        "member_count": 25,
-        "members": [
-          "good-natured",
-          "good",
-          "well-meaning",
-          "soft-spotted",
-          "benevolent",
-          "humane",
-          "cordial",
-          "kind-hearted",
-          "caring",
-          "soft",
-          "kind",
-          "openhearted",
-          "non-hostile",
-          "amicable",
-          "open-hearted",
-          "tender-hearted",
-          "good-hearted",
-          "warm",
-          "friendlier",
-          "soft-hearted",
-          "virtuous",
-          "pleasant",
-          "gentle-hearted",
-          "pure-hearted",
-          "kinder"
-        ],
+        "descriptor": "good-natured",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.05766158,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 4730,
             "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
             "anime": "BLEACH: Thousand-Year Blood War",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
             "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.535634369,
-            "similarity": 1.0,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "child-like / boyish / youthful / young-appearing / +2",
-        "descriptor_index": 1079,
-        "amplitude": 0.0655398216,
-        "abs_amplitude": 0.0655398216,
-        "raw_amplitude": 0.1966194648,
-        "percent": 19.661946,
-        "raw_percent": 19.661946,
-        "coverage_percent": 73.225383,
-        "member_count": 6,
-        "members": [
-          "child-like",
-          "boyish",
-          "youthful",
-          "young-appearing",
-          "childish",
-          "childlike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.1966194648,
-            "similarity": 1.0,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-abusive / painful / self-harming",
-        "descriptor_index": 6610,
-        "amplitude": 0.017046497,
-        "abs_amplitude": 0.017046497,
-        "raw_amplitude": 0.051139491,
-        "percent": 5.113949,
-        "raw_percent": 5.113949,
-        "coverage_percent": 78.339332,
-        "member_count": 3,
-        "members": [
-          "self-abusive",
-          "painful",
-          "self-harming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0511394909,
-            "similarity": 0.891665,
-            "matched_descriptor": "self-proclaimed masochist"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "young / girlish",
-        "descriptor_index": 8652,
-        "amplitude": 0.0081153542,
-        "abs_amplitude": 0.0081153542,
-        "raw_amplitude": 0.0243460626,
-        "percent": 2.434606,
-        "raw_percent": 2.434606,
-        "coverage_percent": 80.773939,
-        "member_count": 2,
-        "members": [
-          "young",
-          "girlish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0243460626,
-            "similarity": 0.877264,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "compassionate / kindhearted / soft-side / big-hearted / +1",
-        "descriptor_index": 1305,
-        "amplitude": 0.0079056539,
-        "abs_amplitude": 0.0079056539,
-        "raw_amplitude": 0.0237169617,
-        "percent": 2.371696,
-        "raw_percent": 2.371696,
-        "coverage_percent": 83.145635,
-        "member_count": 5,
-        "members": [
-          "compassionate",
-          "kindhearted",
-          "soft-side",
-          "big-hearted",
-          "bighearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0237169617,
-            "similarity": 0.905831,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "affable / good-humored / agreeable / amiable",
-        "descriptor_index": 106,
-        "amplitude": 0.0077523979,
-        "abs_amplitude": 0.0077523979,
-        "raw_amplitude": 0.0232571938,
-        "percent": 2.325719,
-        "raw_percent": 2.325719,
-        "coverage_percent": 85.471354,
-        "member_count": 4,
-        "members": [
-          "affable",
-          "good-humored",
-          "agreeable",
-          "amiable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0232571938,
-            "similarity": 0.899415,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "loving / warm-hearted",
-        "descriptor_index": 4420,
-        "amplitude": 0.0059346812,
-        "abs_amplitude": 0.0059346812,
-        "raw_amplitude": 0.0178040435,
-        "percent": 1.780404,
-        "raw_percent": 1.780404,
-        "coverage_percent": 87.251759,
-        "member_count": 2,
-        "members": [
-          "loving",
-          "warm-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0178040436,
-            "similarity": 0.895874,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "matured",
-        "descriptor_index": 4675,
-        "amplitude": 0.004498104,
-        "abs_amplitude": 0.004498104,
-        "raw_amplitude": 0.0134943121,
-        "percent": 1.349431,
-        "raw_percent": 1.349431,
-        "coverage_percent": 88.60119,
-        "member_count": 1,
-        "members": [
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0134943121,
-            "similarity": 0.881018,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "simple-minded",
-        "descriptor_index": 6870,
-        "amplitude": 0.0038911809,
-        "abs_amplitude": 0.0038911809,
-        "raw_amplitude": 0.0116735427,
-        "percent": 1.167354,
-        "raw_percent": 1.167354,
-        "coverage_percent": 89.768544,
-        "member_count": 1,
-        "members": [
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0116735427,
-            "similarity": 0.888187,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "non-violent / mild-mannered",
-        "descriptor_index": 5193,
-        "amplitude": 0.0038826722,
-        "abs_amplitude": 0.0038826722,
-        "raw_amplitude": 0.0116480165,
-        "percent": 1.164802,
-        "raw_percent": 1.164802,
-        "coverage_percent": 90.933346,
-        "member_count": 2,
-        "members": [
-          "non-violent",
-          "mild-mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0116480165,
-            "similarity": 0.892856,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "unassuming",
-        "descriptor_index": 8058,
-        "amplitude": 0.0030319169,
-        "abs_amplitude": 0.0030319169,
-        "raw_amplitude": 0.0090957507,
-        "percent": 0.909575,
-        "raw_percent": 0.909575,
-        "coverage_percent": 91.842921,
-        "member_count": 1,
-        "members": [
-          "unassuming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0090957507,
-            "similarity": 0.887421,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "docile",
-        "descriptor_index": 1900,
-        "amplitude": 0.002820158,
-        "abs_amplitude": 0.002820158,
-        "raw_amplitude": 0.0084604741,
-        "percent": 0.846047,
-        "raw_percent": 0.846047,
-        "coverage_percent": 92.688968,
-        "member_count": 1,
-        "members": [
-          "docile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0084604741,
-            "similarity": 0.894785,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "polite",
-        "descriptor_index": 5689,
-        "amplitude": 0.002707678,
-        "abs_amplitude": 0.002707678,
-        "raw_amplitude": 0.0081230339,
-        "percent": 0.812303,
-        "raw_percent": 0.812303,
-        "coverage_percent": 93.501272,
-        "member_count": 1,
-        "members": [
-          "polite"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0081230339,
-            "similarity": 0.894071,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "sweet-natured / friendly-type",
-        "descriptor_index": 7585,
-        "amplitude": 0.0026822171,
-        "abs_amplitude": 0.0026822171,
-        "raw_amplitude": 0.0080466514,
-        "percent": 0.804665,
-        "raw_percent": 0.804665,
-        "coverage_percent": 94.305937,
-        "member_count": 2,
-        "members": [
-          "sweet-natured",
-          "friendly-type"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0080466514,
-            "similarity": 0.897413,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "self-indulgent",
-        "descriptor_index": 6643,
-        "amplitude": 0.002411361,
-        "abs_amplitude": 0.002411361,
-        "raw_amplitude": 0.007234083,
-        "percent": 0.723408,
-        "raw_percent": 0.723408,
-        "coverage_percent": 95.029345,
-        "member_count": 1,
-        "members": [
-          "self-indulgent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.007234083,
-            "similarity": 0.846653,
-            "matched_descriptor": "self-proclaimed masochist"
+            "combined_favourites": 1750
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "good-natured / good / well-meaning / soft-spotted / +21",
-        "descriptor_index": 3108,
-        "amplitude": 0.1785447896,
-        "abs_amplitude": 0.1785447896,
-        "raw_amplitude": 0.5356343688,
-        "percent": 53.563437,
-        "raw_percent": 53.563437,
-        "coverage_percent": 53.563437,
-        "member_count": 25,
-        "members": [
-          "good-natured",
-          "good",
-          "well-meaning",
-          "soft-spotted",
-          "benevolent",
-          "humane",
-          "cordial",
-          "kind-hearted",
-          "caring",
-          "soft",
-          "kind",
-          "openhearted",
-          "non-hostile",
-          "amicable",
-          "open-hearted",
-          "tender-hearted",
-          "good-hearted",
-          "warm",
-          "friendlier",
-          "soft-hearted",
-          "virtuous",
-          "pleasant",
-          "gentle-hearted",
-          "pure-hearted",
-          "kinder"
-        ],
+        "step": 1,
+        "descriptor": "good-natured",
+        "weighted_support": 2.05766158,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.535634369,
-            "similarity": 1.0,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "child-like / boyish / youthful / young-appearing / +2",
-        "descriptor_index": 1079,
-        "amplitude": 0.0655398216,
-        "abs_amplitude": 0.0655398216,
-        "raw_amplitude": 0.1966194648,
-        "percent": 19.661946,
-        "raw_percent": 19.661946,
-        "coverage_percent": 73.225383,
-        "member_count": 6,
-        "members": [
-          "child-like",
-          "boyish",
-          "youthful",
-          "young-appearing",
-          "childish",
-          "childlike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.1966194648,
-            "similarity": 1.0,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-abusive / painful / self-harming",
-        "descriptor_index": 6610,
-        "amplitude": 0.017046497,
-        "abs_amplitude": 0.017046497,
-        "raw_amplitude": 0.051139491,
-        "percent": 5.113949,
-        "raw_percent": 5.113949,
-        "coverage_percent": 78.339332,
-        "member_count": 3,
-        "members": [
-          "self-abusive",
-          "painful",
-          "self-harming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0511394909,
-            "similarity": 0.891665,
-            "matched_descriptor": "self-proclaimed masochist"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "young / girlish",
-        "descriptor_index": 8652,
-        "amplitude": 0.0081153542,
-        "abs_amplitude": 0.0081153542,
-        "raw_amplitude": 0.0243460626,
-        "percent": 2.434606,
-        "raw_percent": 2.434606,
-        "coverage_percent": 80.773939,
-        "member_count": 2,
-        "members": [
-          "young",
-          "girlish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0243460626,
-            "similarity": 0.877264,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "compassionate / kindhearted / soft-side / big-hearted / +1",
-        "descriptor_index": 1305,
-        "amplitude": 0.0079056539,
-        "abs_amplitude": 0.0079056539,
-        "raw_amplitude": 0.0237169617,
-        "percent": 2.371696,
-        "raw_percent": 2.371696,
-        "coverage_percent": 83.145635,
-        "member_count": 5,
-        "members": [
-          "compassionate",
-          "kindhearted",
-          "soft-side",
-          "big-hearted",
-          "bighearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0237169617,
-            "similarity": 0.905831,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "affable / good-humored / agreeable / amiable",
-        "descriptor_index": 106,
-        "amplitude": 0.0077523979,
-        "abs_amplitude": 0.0077523979,
-        "raw_amplitude": 0.0232571938,
-        "percent": 2.325719,
-        "raw_percent": 2.325719,
-        "coverage_percent": 85.471354,
-        "member_count": 4,
-        "members": [
-          "affable",
-          "good-humored",
-          "agreeable",
-          "amiable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0232571938,
-            "similarity": 0.899415,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "loving / warm-hearted",
-        "descriptor_index": 4420,
-        "amplitude": 0.0059346812,
-        "abs_amplitude": 0.0059346812,
-        "raw_amplitude": 0.0178040435,
-        "percent": 1.780404,
-        "raw_percent": 1.780404,
-        "coverage_percent": 87.251759,
-        "member_count": 2,
-        "members": [
-          "loving",
-          "warm-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0178040436,
-            "similarity": 0.895874,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "matured",
-        "descriptor_index": 4675,
-        "amplitude": 0.004498104,
-        "abs_amplitude": 0.004498104,
-        "raw_amplitude": 0.0134943121,
-        "percent": 1.349431,
-        "raw_percent": 1.349431,
-        "coverage_percent": 88.60119,
-        "member_count": 1,
-        "members": [
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0134943121,
-            "similarity": 0.881018,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "simple-minded",
-        "descriptor_index": 6870,
-        "amplitude": 0.0038911809,
-        "abs_amplitude": 0.0038911809,
-        "raw_amplitude": 0.0116735427,
-        "percent": 1.167354,
-        "raw_percent": 1.167354,
-        "coverage_percent": 89.768544,
-        "member_count": 1,
-        "members": [
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0116735427,
-            "similarity": 0.888187,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "non-violent / mild-mannered",
-        "descriptor_index": 5193,
-        "amplitude": 0.0038826722,
-        "abs_amplitude": 0.0038826722,
-        "raw_amplitude": 0.0116480165,
-        "percent": 1.164802,
-        "raw_percent": 1.164802,
-        "coverage_percent": 90.933346,
-        "member_count": 2,
-        "members": [
-          "non-violent",
-          "mild-mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0116480165,
-            "similarity": 0.892856,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "unassuming",
-        "descriptor_index": 8058,
-        "amplitude": 0.0030319169,
-        "abs_amplitude": 0.0030319169,
-        "raw_amplitude": 0.0090957507,
-        "percent": 0.909575,
-        "raw_percent": 0.909575,
-        "coverage_percent": 91.842921,
-        "member_count": 1,
-        "members": [
-          "unassuming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0090957507,
-            "similarity": 0.887421,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "docile",
-        "descriptor_index": 1900,
-        "amplitude": 0.002820158,
-        "abs_amplitude": 0.002820158,
-        "raw_amplitude": 0.0084604741,
-        "percent": 0.846047,
-        "raw_percent": 0.846047,
-        "coverage_percent": 92.688968,
-        "member_count": 1,
-        "members": [
-          "docile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0084604741,
-            "similarity": 0.894785,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "polite",
-        "descriptor_index": 5689,
-        "amplitude": 0.002707678,
-        "abs_amplitude": 0.002707678,
-        "raw_amplitude": 0.0081230339,
-        "percent": 0.812303,
-        "raw_percent": 0.812303,
-        "coverage_percent": 93.501272,
-        "member_count": 1,
-        "members": [
-          "polite"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0081230339,
-            "similarity": 0.894071,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "sweet-natured / friendly-type",
-        "descriptor_index": 7585,
-        "amplitude": 0.0026822171,
-        "abs_amplitude": 0.0026822171,
-        "raw_amplitude": 0.0080466514,
-        "percent": 0.804665,
-        "raw_percent": 0.804665,
-        "coverage_percent": 94.305937,
-        "member_count": 2,
-        "members": [
-          "sweet-natured",
-          "friendly-type"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.0080466514,
-            "similarity": 0.897413,
-            "matched_descriptor": "good-natured"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "self-indulgent",
-        "descriptor_index": 6643,
-        "amplitude": 0.002411361,
-        "abs_amplitude": 0.002411361,
-        "raw_amplitude": 0.007234083,
-        "percent": 0.723408,
-        "raw_percent": 0.723408,
-        "coverage_percent": 95.029345,
-        "member_count": 1,
-        "members": [
-          "self-indulgent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4730,
-            "name": "Nelliel Tu Oderschvank",
-            "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
-            "anime": "BLEACH: Thousand-Year Blood War",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
-            "site_url": "https://anilist.co/character/4730",
-            "anime_url": "https://myanimelist.net/anime/41467",
-            "role": "SUPPORTING",
-            "favourites": 1689,
-            "row_weight": 2.05334895,
-            "projection": 0.007234083,
-            "similarity": 0.846653,
-            "matched_descriptor": "self-proclaimed masochist"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 4730,
         "name": "Nelliel Tu Oderschvank",
-        "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
         "anime": "BLEACH: Thousand-Year Blood War",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
         "site_url": "https://anilist.co/character/4730",
-        "anime_url": "https://myanimelist.net/anime/41467",
-        "role": "SUPPORTING",
         "favourites": 1689,
-        "row_weight": 2.05334895,
+        "anilist_favourites": 1689,
+        "bangumi_collects": 61,
+        "bangumi_comments": 19,
+        "bangumi_character_id": 8346,
+        "bangumi_url": "https://bgm.tv/character/8346",
+        "combined_favourites": 1750,
+        "role_edge_count": 2,
+        "descriptors": [
+          "good-natured"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.90997291,
+        "row_weight": 2.05766158,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1214,19 +84,67 @@
       {
         "character_id": 4730,
         "name": "Nelliel Tu Oderschvank",
-        "native_name": "ネリエル・トゥ・オーデルシュヴァンク",
         "anime": "BLEACH: Thousand-Year Blood War",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4730-zvzowqOHaQL2.png",
         "site_url": "https://anilist.co/character/4730",
-        "anime_url": "https://myanimelist.net/anime/41467",
-        "role": "SUPPORTING",
         "favourites": 1689,
-        "row_weight": 2.05334895,
+        "anilist_favourites": 1689,
+        "bangumi_collects": 61,
+        "bangumi_comments": 19,
+        "bangumi_character_id": 8346,
+        "bangumi_url": "https://bgm.tv/character/8346",
+        "combined_favourites": 1750,
+        "role_edge_count": 2,
+        "descriptors": [
+          "good-natured"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.90997291,
+        "row_weight": 2.05766158,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.0576615772,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

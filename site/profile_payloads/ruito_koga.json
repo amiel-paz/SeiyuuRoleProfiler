@@ -11,950 +11,77 @@
     "koga ruito",
     "ruito koga"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ruito_koga.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.3865689618,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.3865689618,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 270.481044,
-      "normalized_entanglement": 0.704378,
-      "top5_mass_percent": 4.03664,
-      "top10_mass_percent": 7.269086
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 0.7071067812,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "insensitive / numb / cold-hearted / frigid / +8",
-        "descriptor_index": 3917,
-        "amplitude": 0.2113206861,
-        "abs_amplitude": 0.2113206861,
-        "raw_amplitude": 0.6339620582,
-        "percent": 63.396206,
-        "raw_percent": 63.396206,
-        "coverage_percent": 63.396206,
-        "member_count": 12,
-        "members": [
-          "insensitive",
-          "numb",
-          "cold-hearted",
-          "frigid",
-          "dispassionate",
-          "unfeeling",
-          "heartless",
-          "unemotional",
-          "cold",
-          "apathetic",
-          "empathy-less",
-          "cold-blooded"
-        ],
+        "descriptor": "insensitive",
+        "amplitude": 1.0000000005,
+        "abs_amplitude": 1.0000000005,
+        "percent": 100.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89294,
             "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
             "anime": "Kiznaiver",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
             "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.6339620582,
-            "similarity": 1.0,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "emotionless / expressionless",
-        "descriptor_index": 2148,
-        "amplitude": 0.0431950259,
-        "abs_amplitude": 0.0431950259,
-        "raw_amplitude": 0.1295850776,
-        "percent": 12.958508,
-        "raw_percent": 12.958508,
-        "coverage_percent": 76.354714,
-        "member_count": 2,
-        "members": [
-          "emotionless",
-          "expressionless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.1295850777,
-            "similarity": 1.0,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "straight-faced / impassive / unsmiling",
-        "descriptor_index": 7280,
-        "amplitude": 0.0096700332,
-        "abs_amplitude": 0.0096700332,
-        "raw_amplitude": 0.0290100997,
-        "percent": 2.90101,
-        "raw_percent": 2.90101,
-        "coverage_percent": 79.255724,
-        "member_count": 3,
-        "members": [
-          "straight-faced",
-          "impassive",
-          "unsmiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0290100997,
-            "similarity": 0.894301,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sociopathic",
-        "descriptor_index": 7051,
-        "amplitude": 0.0086685323,
-        "abs_amplitude": 0.0086685323,
-        "raw_amplitude": 0.0260055968,
-        "percent": 2.60056,
-        "raw_percent": 2.60056,
-        "coverage_percent": 81.856283,
-        "member_count": 1,
-        "members": [
-          "sociopathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0260055968,
-            "similarity": 0.893965,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mouthless",
-        "descriptor_index": 4959,
-        "amplitude": 0.0079338525,
-        "abs_amplitude": 0.0079338525,
-        "raw_amplitude": 0.0238015576,
-        "percent": 2.380156,
-        "raw_percent": 2.380156,
-        "coverage_percent": 84.236439,
-        "member_count": 1,
-        "members": [
-          "mouthless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0238015576,
-            "similarity": 0.873743,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "sad / sullen / melancholic / dejected / +1",
-        "descriptor_index": 6428,
-        "amplitude": 0.0070718911,
-        "abs_amplitude": 0.0070718911,
-        "raw_amplitude": 0.0212156733,
-        "percent": 2.121567,
-        "raw_percent": 2.121567,
-        "coverage_percent": 86.358006,
-        "member_count": 5,
-        "members": [
-          "sad",
-          "sullen",
-          "melancholic",
-          "dejected",
-          "miserable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0212156732,
-            "similarity": 0.863027,
-            "matched_descriptor": "insensitive / emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "vacant-eyed",
-        "descriptor_index": 8266,
-        "amplitude": 0.0069410982,
-        "abs_amplitude": 0.0069410982,
-        "raw_amplitude": 0.0208232947,
-        "percent": 2.082329,
-        "raw_percent": 2.082329,
-        "coverage_percent": 88.440336,
-        "member_count": 1,
-        "members": [
-          "vacant-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0208232947,
-            "similarity": 0.867188,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0053648098,
-        "abs_amplitude": 0.0053648098,
-        "raw_amplitude": 0.0160944293,
-        "percent": 1.609443,
-        "raw_percent": 1.609443,
-        "coverage_percent": 90.049779,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0160944293,
-            "similarity": 0.876787,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unmotivated / unenthusiastic",
-        "descriptor_index": 8188,
-        "amplitude": 0.0050369721,
-        "abs_amplitude": 0.0050369721,
-        "raw_amplitude": 0.0151109162,
-        "percent": 1.511092,
-        "raw_percent": 1.511092,
-        "coverage_percent": 91.56087,
-        "member_count": 2,
-        "members": [
-          "unmotivated",
-          "unenthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0151109163,
-            "similarity": 0.857538,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "depressed / downhearted",
-        "descriptor_index": 1736,
-        "amplitude": 0.0044425887,
-        "abs_amplitude": 0.0044425887,
-        "raw_amplitude": 0.013327766,
-        "percent": 1.332777,
-        "raw_percent": 1.332777,
-        "coverage_percent": 92.893647,
-        "member_count": 2,
-        "members": [
-          "depressed",
-          "downhearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0133277659,
-            "similarity": 0.85593,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "indifferent / disinterested / bored",
-        "descriptor_index": 3843,
-        "amplitude": 0.0038498848,
-        "abs_amplitude": 0.0038498848,
-        "raw_amplitude": 0.0115496544,
-        "percent": 1.154965,
-        "raw_percent": 1.154965,
-        "coverage_percent": 94.048612,
-        "member_count": 3,
-        "members": [
-          "indifferent",
-          "disinterested",
-          "bored"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0115496543,
-            "similarity": 0.8725,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "not-interested-in-romance",
-        "descriptor_index": 5209,
-        "amplitude": 0.0035954253,
-        "abs_amplitude": 0.0035954253,
-        "raw_amplitude": 0.010786276,
-        "percent": 1.078628,
-        "raw_percent": 1.078628,
-        "coverage_percent": 95.12724,
-        "member_count": 1,
-        "members": [
-          "not-interested-in-romance"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.010786276,
-            "similarity": 0.860267,
-            "matched_descriptor": "insensitive"
+            "combined_favourites": 1115
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "insensitive / numb / cold-hearted / frigid / +8",
-        "descriptor_index": 3917,
-        "amplitude": 0.2113206861,
-        "abs_amplitude": 0.2113206861,
-        "raw_amplitude": 0.6339620582,
-        "percent": 63.396206,
-        "raw_percent": 63.396206,
-        "coverage_percent": 63.396206,
-        "member_count": 12,
-        "members": [
-          "insensitive",
-          "numb",
-          "cold-hearted",
-          "frigid",
-          "dispassionate",
-          "unfeeling",
-          "heartless",
-          "unemotional",
-          "cold",
-          "apathetic",
-          "empathy-less",
-          "cold-blooded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.6339620582,
-            "similarity": 1.0,
-            "matched_descriptor": "insensitive"
-          }
-        ]
+        "step": 1,
+        "descriptor": "insensitive",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 2,
-        "descriptor": "emotionless / expressionless",
-        "descriptor_index": 2148,
-        "amplitude": 0.0431950259,
-        "abs_amplitude": 0.0431950259,
-        "raw_amplitude": 0.1295850776,
-        "percent": 12.958508,
-        "raw_percent": 12.958508,
-        "coverage_percent": 76.354714,
-        "member_count": 2,
-        "members": [
-          "emotionless",
-          "expressionless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.1295850777,
-            "similarity": 1.0,
-            "matched_descriptor": "emotionless"
-          }
-        ]
+        "step": 2,
+        "descriptor": "inferior",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -1617666412834897.5
       },
       {
-        "rank": 3,
-        "descriptor": "straight-faced / impassive / unsmiling",
-        "descriptor_index": 7280,
-        "amplitude": 0.0096700332,
-        "abs_amplitude": 0.0096700332,
-        "raw_amplitude": 0.0290100997,
-        "percent": 2.90101,
-        "raw_percent": 2.90101,
-        "coverage_percent": 79.255724,
-        "member_count": 3,
-        "members": [
-          "straight-faced",
-          "impassive",
-          "unsmiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0290100997,
-            "similarity": 0.894301,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sociopathic",
-        "descriptor_index": 7051,
-        "amplitude": 0.0086685323,
-        "abs_amplitude": 0.0086685323,
-        "raw_amplitude": 0.0260055968,
-        "percent": 2.60056,
-        "raw_percent": 2.60056,
-        "coverage_percent": 81.856283,
-        "member_count": 1,
-        "members": [
-          "sociopathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0260055968,
-            "similarity": 0.893965,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mouthless",
-        "descriptor_index": 4959,
-        "amplitude": 0.0079338525,
-        "abs_amplitude": 0.0079338525,
-        "raw_amplitude": 0.0238015576,
-        "percent": 2.380156,
-        "raw_percent": 2.380156,
-        "coverage_percent": 84.236439,
-        "member_count": 1,
-        "members": [
-          "mouthless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0238015576,
-            "similarity": 0.873743,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "sad / sullen / melancholic / dejected / +1",
-        "descriptor_index": 6428,
-        "amplitude": 0.0070718911,
-        "abs_amplitude": 0.0070718911,
-        "raw_amplitude": 0.0212156733,
-        "percent": 2.121567,
-        "raw_percent": 2.121567,
-        "coverage_percent": 86.358006,
-        "member_count": 5,
-        "members": [
-          "sad",
-          "sullen",
-          "melancholic",
-          "dejected",
-          "miserable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0212156732,
-            "similarity": 0.863027,
-            "matched_descriptor": "insensitive / emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "vacant-eyed",
-        "descriptor_index": 8266,
-        "amplitude": 0.0069410982,
-        "abs_amplitude": 0.0069410982,
-        "raw_amplitude": 0.0208232947,
-        "percent": 2.082329,
-        "raw_percent": 2.082329,
-        "coverage_percent": 88.440336,
-        "member_count": 1,
-        "members": [
-          "vacant-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0208232947,
-            "similarity": 0.867188,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0053648098,
-        "abs_amplitude": 0.0053648098,
-        "raw_amplitude": 0.0160944293,
-        "percent": 1.609443,
-        "raw_percent": 1.609443,
-        "coverage_percent": 90.049779,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0160944293,
-            "similarity": 0.876787,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unmotivated / unenthusiastic",
-        "descriptor_index": 8188,
-        "amplitude": 0.0050369721,
-        "abs_amplitude": 0.0050369721,
-        "raw_amplitude": 0.0151109162,
-        "percent": 1.511092,
-        "raw_percent": 1.511092,
-        "coverage_percent": 91.56087,
-        "member_count": 2,
-        "members": [
-          "unmotivated",
-          "unenthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0151109163,
-            "similarity": 0.857538,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "depressed / downhearted",
-        "descriptor_index": 1736,
-        "amplitude": 0.0044425887,
-        "abs_amplitude": 0.0044425887,
-        "raw_amplitude": 0.013327766,
-        "percent": 1.332777,
-        "raw_percent": 1.332777,
-        "coverage_percent": 92.893647,
-        "member_count": 2,
-        "members": [
-          "depressed",
-          "downhearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0133277659,
-            "similarity": 0.85593,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "indifferent / disinterested / bored",
-        "descriptor_index": 3843,
-        "amplitude": 0.0038498848,
-        "abs_amplitude": 0.0038498848,
-        "raw_amplitude": 0.0115496544,
-        "percent": 1.154965,
-        "raw_percent": 1.154965,
-        "coverage_percent": 94.048612,
-        "member_count": 3,
-        "members": [
-          "indifferent",
-          "disinterested",
-          "bored"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.0115496543,
-            "similarity": 0.8725,
-            "matched_descriptor": "insensitive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "not-interested-in-romance",
-        "descriptor_index": 5209,
-        "amplitude": 0.0035954253,
-        "abs_amplitude": 0.0035954253,
-        "raw_amplitude": 0.010786276,
-        "percent": 1.078628,
-        "raw_percent": 1.078628,
-        "coverage_percent": 95.12724,
-        "member_count": 1,
-        "members": [
-          "not-interested-in-romance"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89294,
-            "name": "Katsuhira Agata",
-            "native_name": "阿形勝平",
-            "anime": "Kiznaiver",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
-            "site_url": "https://anilist.co/character/89294",
-            "anime_url": "https://myanimelist.net/anime/31798",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 1.99969948,
-            "projection": 0.010786276,
-            "similarity": 0.860267,
-            "matched_descriptor": "insensitive"
-          }
-        ]
+        "step": 3,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 89294,
         "name": "Katsuhira Agata",
-        "native_name": "阿形勝平",
         "anime": "Kiznaiver",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
         "site_url": "https://anilist.co/character/89294",
-        "anime_url": "https://myanimelist.net/anime/31798",
-        "role": "MAIN",
         "favourites": 1093,
-        "row_weight": 1.99969948,
+        "anilist_favourites": 1093,
+        "bangumi_collects": 22,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 36017,
+        "bangumi_url": "https://bgm.tv/character/36017",
+        "combined_favourites": 1115,
+        "role_edge_count": 2,
+        "descriptors": [
+          "insensitive"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -964,19 +91,62 @@
       {
         "character_id": 89294,
         "name": "Katsuhira Agata",
-        "native_name": "阿形勝平",
         "anime": "Kiznaiver",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89294-nY2S6PBQJ1rS.png",
         "site_url": "https://anilist.co/character/89294",
-        "anime_url": "https://myanimelist.net/anime/31798",
-        "role": "MAIN",
         "favourites": 1093,
-        "row_weight": 1.99969948,
+        "anilist_favourites": 1093,
+        "bangumi_collects": 22,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 36017,
+        "bangumi_url": "https://bgm.tv/character/36017",
+        "combined_favourites": 1115,
+        "role_edge_count": 2,
+        "descriptors": [
+          "insensitive"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 0.7071067812,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 929,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

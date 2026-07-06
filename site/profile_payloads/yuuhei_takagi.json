@@ -11,1146 +11,70 @@
     "takagi yuuhei",
     "yuuhei takagi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yuuhei_takagi.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 8.5007165384,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 8.5007165384,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 333.660183,
-      "normalized_entanglement": 0.868907,
-      "top5_mass_percent": 2.870481,
-      "top10_mass_percent": 5.469834
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.9105606141,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "clueless / stupid / mindless / foolish / +1",
-        "descriptor_index": 1202,
-        "amplitude": 0.1341816651,
-        "abs_amplitude": 0.1341816651,
-        "raw_amplitude": 0.4025449952,
-        "percent": 40.2545,
-        "raw_percent": 40.2545,
-        "coverage_percent": 40.2545,
-        "member_count": 5,
-        "members": [
-          "clueless",
-          "stupid",
-          "mindless",
-          "foolish",
-          "naive"
-        ],
+        "descriptor": "clueless",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.91056061,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 88823,
             "name": "Gowther",
-            "native_name": "ゴウセル",
             "anime": "The Seven Deadly Sins",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
             "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.4025449952,
-            "similarity": 1.0,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "unintelligent / empty-headed",
-        "descriptor_index": 8150,
-        "amplitude": 0.0321093542,
-        "abs_amplitude": 0.0321093542,
-        "raw_amplitude": 0.0963280626,
-        "percent": 9.632806,
-        "raw_percent": 9.632806,
-        "coverage_percent": 49.887306,
-        "member_count": 2,
-        "members": [
-          "unintelligent",
-          "empty-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0963280626,
-            "similarity": 0.888528,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "ignorant / unaware",
-        "descriptor_index": 3716,
-        "amplitude": 0.0308830889,
-        "abs_amplitude": 0.0308830889,
-        "raw_amplitude": 0.0926492667,
-        "percent": 9.264927,
-        "raw_percent": 9.264927,
-        "coverage_percent": 59.152232,
-        "member_count": 2,
-        "members": [
-          "ignorant",
-          "unaware"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0926492667,
-            "similarity": 0.880505,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "idiotic / brainless",
-        "descriptor_index": 3692,
-        "amplitude": 0.0298494928,
-        "abs_amplitude": 0.0298494928,
-        "raw_amplitude": 0.0895484785,
-        "percent": 8.954848,
-        "raw_percent": 8.954848,
-        "coverage_percent": 68.10708,
-        "member_count": 2,
-        "members": [
-          "idiotic",
-          "brainless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0895484786,
-            "similarity": 0.880378,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "uncertain / suspicious / skeptical / unsure / +2",
-        "descriptor_index": 8071,
-        "amplitude": 0.0274398882,
-        "abs_amplitude": 0.0274398882,
-        "raw_amplitude": 0.0823196646,
-        "percent": 8.231966,
-        "raw_percent": 8.231966,
-        "coverage_percent": 76.339047,
-        "member_count": 6,
-        "members": [
-          "uncertain",
-          "suspicious",
-          "skeptical",
-          "unsure",
-          "indecisive",
-          "doubtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0823196646,
-            "similarity": 0.858836,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "accidental / unintentional",
-        "descriptor_index": 32,
-        "amplitude": 0.0111466558,
-        "abs_amplitude": 0.0111466558,
-        "raw_amplitude": 0.0334399674,
-        "percent": 3.343997,
-        "raw_percent": 3.343997,
-        "coverage_percent": 79.683044,
-        "member_count": 2,
-        "members": [
-          "accidental",
-          "unintentional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0334399674,
-            "similarity": 0.835514,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "misunderstood",
-        "descriptor_index": 4871,
-        "amplitude": 0.0100245521,
-        "abs_amplitude": 0.0100245521,
-        "raw_amplitude": 0.0300736564,
-        "percent": 3.007366,
-        "raw_percent": 3.007366,
-        "coverage_percent": 82.690409,
-        "member_count": 1,
-        "members": [
-          "misunderstood"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0300736564,
-            "similarity": 0.860529,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unconscious hurtful",
-        "descriptor_index": 8081,
-        "amplitude": 0.0096580677,
-        "abs_amplitude": 0.0096580677,
-        "raw_amplitude": 0.028974203,
-        "percent": 2.89742,
-        "raw_percent": 2.89742,
-        "coverage_percent": 85.587829,
-        "member_count": 1,
-        "members": [
-          "unconscious hurtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.028974203,
-            "similarity": 0.851258,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "mistrustful / cautious",
-        "descriptor_index": 4868,
-        "amplitude": 0.0069697126,
-        "abs_amplitude": 0.0069697126,
-        "raw_amplitude": 0.0209091378,
-        "percent": 2.090914,
-        "raw_percent": 2.090914,
-        "coverage_percent": 87.678743,
-        "member_count": 2,
-        "members": [
-          "mistrustful",
-          "cautious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0209091377,
-            "similarity": 0.840889,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "dishonest / honesty-deficient",
-        "descriptor_index": 1859,
-        "amplitude": 0.0066616885,
-        "abs_amplitude": 0.0066616885,
-        "raw_amplitude": 0.0199850655,
-        "percent": 1.998507,
-        "raw_percent": 1.998507,
-        "coverage_percent": 89.67725,
-        "member_count": 2,
-        "members": [
-          "dishonest",
-          "honesty-deficient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0199850655,
-            "similarity": 0.831335,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "simple-minded",
-        "descriptor_index": 6870,
-        "amplitude": 0.0047773684,
-        "abs_amplitude": 0.0047773684,
-        "raw_amplitude": 0.0143321051,
-        "percent": 1.433211,
-        "raw_percent": 1.433211,
-        "coverage_percent": 91.11046,
-        "member_count": 1,
-        "members": [
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0143321051,
-            "similarity": 0.875166,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "air-headed",
-        "descriptor_index": 142,
-        "amplitude": 0.004345586,
-        "abs_amplitude": 0.004345586,
-        "raw_amplitude": 0.0130367581,
-        "percent": 1.303676,
-        "raw_percent": 1.303676,
-        "coverage_percent": 92.414136,
-        "member_count": 1,
-        "members": [
-          "air-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0130367581,
-            "similarity": 0.828254,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "misguided",
-        "descriptor_index": 4852,
-        "amplitude": 0.0042492199,
-        "abs_amplitude": 0.0042492199,
-        "raw_amplitude": 0.0127476597,
-        "percent": 1.274766,
-        "raw_percent": 1.274766,
-        "coverage_percent": 93.688902,
-        "member_count": 1,
-        "members": [
-          "misguided"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0127476597,
-            "similarity": 0.827841,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "obtuse",
-        "descriptor_index": 5253,
-        "amplitude": 0.0039198342,
-        "abs_amplitude": 0.0039198342,
-        "raw_amplitude": 0.0117595026,
-        "percent": 1.17595,
-        "raw_percent": 1.17595,
-        "coverage_percent": 94.864852,
-        "member_count": 1,
-        "members": [
-          "obtuse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0117595026,
-            "similarity": 0.827852,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "lost",
-        "descriptor_index": 4396,
-        "amplitude": 0.003885101,
-        "abs_amplitude": 0.003885101,
-        "raw_amplitude": 0.0116553031,
-        "percent": 1.16553,
-        "raw_percent": 1.16553,
-        "coverage_percent": 96.030383,
-        "member_count": 1,
-        "members": [
-          "lost"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0116553031,
-            "similarity": 0.831771,
-            "matched_descriptor": "clueless"
+            "combined_favourites": 1756
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "clueless / stupid / mindless / foolish / +1",
-        "descriptor_index": 1202,
-        "amplitude": 0.1341816651,
-        "abs_amplitude": 0.1341816651,
-        "raw_amplitude": 0.4025449952,
-        "percent": 40.2545,
-        "raw_percent": 40.2545,
-        "coverage_percent": 40.2545,
-        "member_count": 5,
-        "members": [
-          "clueless",
-          "stupid",
-          "mindless",
-          "foolish",
-          "naive"
-        ],
+        "step": 1,
+        "descriptor": "clueless",
+        "weighted_support": 2.91056061,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.4025449952,
-            "similarity": 1.0,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "unintelligent / empty-headed",
-        "descriptor_index": 8150,
-        "amplitude": 0.0321093542,
-        "abs_amplitude": 0.0321093542,
-        "raw_amplitude": 0.0963280626,
-        "percent": 9.632806,
-        "raw_percent": 9.632806,
-        "coverage_percent": 49.887306,
-        "member_count": 2,
-        "members": [
-          "unintelligent",
-          "empty-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0963280626,
-            "similarity": 0.888528,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "ignorant / unaware",
-        "descriptor_index": 3716,
-        "amplitude": 0.0308830889,
-        "abs_amplitude": 0.0308830889,
-        "raw_amplitude": 0.0926492667,
-        "percent": 9.264927,
-        "raw_percent": 9.264927,
-        "coverage_percent": 59.152232,
-        "member_count": 2,
-        "members": [
-          "ignorant",
-          "unaware"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0926492667,
-            "similarity": 0.880505,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "idiotic / brainless",
-        "descriptor_index": 3692,
-        "amplitude": 0.0298494928,
-        "abs_amplitude": 0.0298494928,
-        "raw_amplitude": 0.0895484785,
-        "percent": 8.954848,
-        "raw_percent": 8.954848,
-        "coverage_percent": 68.10708,
-        "member_count": 2,
-        "members": [
-          "idiotic",
-          "brainless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0895484786,
-            "similarity": 0.880378,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "uncertain / suspicious / skeptical / unsure / +2",
-        "descriptor_index": 8071,
-        "amplitude": 0.0274398882,
-        "abs_amplitude": 0.0274398882,
-        "raw_amplitude": 0.0823196646,
-        "percent": 8.231966,
-        "raw_percent": 8.231966,
-        "coverage_percent": 76.339047,
-        "member_count": 6,
-        "members": [
-          "uncertain",
-          "suspicious",
-          "skeptical",
-          "unsure",
-          "indecisive",
-          "doubtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0823196646,
-            "similarity": 0.858836,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "accidental / unintentional",
-        "descriptor_index": 32,
-        "amplitude": 0.0111466558,
-        "abs_amplitude": 0.0111466558,
-        "raw_amplitude": 0.0334399674,
-        "percent": 3.343997,
-        "raw_percent": 3.343997,
-        "coverage_percent": 79.683044,
-        "member_count": 2,
-        "members": [
-          "accidental",
-          "unintentional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0334399674,
-            "similarity": 0.835514,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "misunderstood",
-        "descriptor_index": 4871,
-        "amplitude": 0.0100245521,
-        "abs_amplitude": 0.0100245521,
-        "raw_amplitude": 0.0300736564,
-        "percent": 3.007366,
-        "raw_percent": 3.007366,
-        "coverage_percent": 82.690409,
-        "member_count": 1,
-        "members": [
-          "misunderstood"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0300736564,
-            "similarity": 0.860529,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unconscious hurtful",
-        "descriptor_index": 8081,
-        "amplitude": 0.0096580677,
-        "abs_amplitude": 0.0096580677,
-        "raw_amplitude": 0.028974203,
-        "percent": 2.89742,
-        "raw_percent": 2.89742,
-        "coverage_percent": 85.587829,
-        "member_count": 1,
-        "members": [
-          "unconscious hurtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.028974203,
-            "similarity": 0.851258,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "mistrustful / cautious",
-        "descriptor_index": 4868,
-        "amplitude": 0.0069697126,
-        "abs_amplitude": 0.0069697126,
-        "raw_amplitude": 0.0209091378,
-        "percent": 2.090914,
-        "raw_percent": 2.090914,
-        "coverage_percent": 87.678743,
-        "member_count": 2,
-        "members": [
-          "mistrustful",
-          "cautious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0209091377,
-            "similarity": 0.840889,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "dishonest / honesty-deficient",
-        "descriptor_index": 1859,
-        "amplitude": 0.0066616885,
-        "abs_amplitude": 0.0066616885,
-        "raw_amplitude": 0.0199850655,
-        "percent": 1.998507,
-        "raw_percent": 1.998507,
-        "coverage_percent": 89.67725,
-        "member_count": 2,
-        "members": [
-          "dishonest",
-          "honesty-deficient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0199850655,
-            "similarity": 0.831335,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "simple-minded",
-        "descriptor_index": 6870,
-        "amplitude": 0.0047773684,
-        "abs_amplitude": 0.0047773684,
-        "raw_amplitude": 0.0143321051,
-        "percent": 1.433211,
-        "raw_percent": 1.433211,
-        "coverage_percent": 91.11046,
-        "member_count": 1,
-        "members": [
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0143321051,
-            "similarity": 0.875166,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "air-headed",
-        "descriptor_index": 142,
-        "amplitude": 0.004345586,
-        "abs_amplitude": 0.004345586,
-        "raw_amplitude": 0.0130367581,
-        "percent": 1.303676,
-        "raw_percent": 1.303676,
-        "coverage_percent": 92.414136,
-        "member_count": 1,
-        "members": [
-          "air-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0130367581,
-            "similarity": 0.828254,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "misguided",
-        "descriptor_index": 4852,
-        "amplitude": 0.0042492199,
-        "abs_amplitude": 0.0042492199,
-        "raw_amplitude": 0.0127476597,
-        "percent": 1.274766,
-        "raw_percent": 1.274766,
-        "coverage_percent": 93.688902,
-        "member_count": 1,
-        "members": [
-          "misguided"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0127476597,
-            "similarity": 0.827841,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "obtuse",
-        "descriptor_index": 5253,
-        "amplitude": 0.0039198342,
-        "abs_amplitude": 0.0039198342,
-        "raw_amplitude": 0.0117595026,
-        "percent": 1.17595,
-        "raw_percent": 1.17595,
-        "coverage_percent": 94.864852,
-        "member_count": 1,
-        "members": [
-          "obtuse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0117595026,
-            "similarity": 0.827852,
-            "matched_descriptor": "clueless"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "lost",
-        "descriptor_index": 4396,
-        "amplitude": 0.003885101,
-        "abs_amplitude": 0.003885101,
-        "raw_amplitude": 0.0116553031,
-        "percent": 1.16553,
-        "raw_percent": 1.16553,
-        "coverage_percent": 96.030383,
-        "member_count": 1,
-        "members": [
-          "lost"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88823,
-            "name": "Gowther",
-            "native_name": "ゴウセル",
-            "anime": "The Seven Deadly Sins",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
-            "site_url": "https://anilist.co/character/88823",
-            "anime_url": "https://myanimelist.net/anime/23755",
-            "role": "MAIN",
-            "favourites": 1735,
-            "row_weight": 2.90849427,
-            "projection": 0.0116553031,
-            "similarity": 0.831771,
-            "matched_descriptor": "clueless"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 88823,
         "name": "Gowther",
-        "native_name": "ゴウセル",
         "anime": "The Seven Deadly Sins",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
         "site_url": "https://anilist.co/character/88823",
-        "anime_url": "https://myanimelist.net/anime/23755",
-        "role": "MAIN",
         "favourites": 1735,
-        "row_weight": 2.90849427,
+        "anilist_favourites": 1735,
+        "bangumi_collects": 21,
+        "bangumi_comments": 8,
+        "bangumi_character_id": 29253,
+        "bangumi_url": "https://bgm.tv/character/29253",
+        "combined_favourites": 1756,
+        "role_edge_count": 1,
+        "descriptors": [
+          "clueless"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.91056061,
+        "row_weight": 2.91056061,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1160,19 +84,67 @@
       {
         "character_id": 88823,
         "name": "Gowther",
-        "native_name": "ゴウセル",
         "anime": "The Seven Deadly Sins",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88823-Oppzl2h6OhO8.png",
         "site_url": "https://anilist.co/character/88823",
-        "anime_url": "https://myanimelist.net/anime/23755",
-        "role": "MAIN",
         "favourites": 1735,
-        "row_weight": 2.90849427,
+        "anilist_favourites": 1735,
+        "bangumi_collects": 21,
+        "bangumi_comments": 8,
+        "bangumi_character_id": 29253,
+        "bangumi_url": "https://bgm.tv/character/29253",
+        "combined_favourites": 1756,
+        "role_edge_count": 1,
+        "descriptors": [
+          "clueless"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.91056061,
+        "row_weight": 2.91056061,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.9105606141,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

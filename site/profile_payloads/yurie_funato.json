@@ -11,796 +11,70 @@
     "funato yurie",
     "yurie funato"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yurie_funato.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.8300264903,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.8300264903,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 272.104891,
-      "normalized_entanglement": 0.708606,
-      "top5_mass_percent": 3.513963,
-      "top10_mass_percent": 6.585447
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5954907624,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "frightened / terrified / afraid / scared / +5",
-        "descriptor_index": 2834,
-        "amplitude": 0.2198488649,
-        "abs_amplitude": 0.2198488649,
-        "raw_amplitude": 0.6595465948,
-        "percent": 65.954659,
-        "raw_percent": 65.954659,
-        "coverage_percent": 65.954659,
-        "member_count": 9,
-        "members": [
-          "frightened",
-          "terrified",
-          "afraid",
-          "scared",
-          "horrified",
-          "worried",
-          "fearful",
-          "skittish",
-          "anxious"
-        ],
+        "descriptor": "frightened",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.59549076,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 288810,
             "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
             "anime": "Stardust Telepath",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
             "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.6595465947,
-            "similarity": 1.0,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "scary / terrifying",
-        "descriptor_index": 6481,
-        "amplitude": 0.0241854186,
-        "abs_amplitude": 0.0241854186,
-        "raw_amplitude": 0.0725562558,
-        "percent": 7.255626,
-        "raw_percent": 7.255626,
-        "coverage_percent": 73.210285,
-        "member_count": 2,
-        "members": [
-          "scary",
-          "terrifying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0725562557,
-            "similarity": 0.868103,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "worrisome / concerned / worrying",
-        "descriptor_index": 8629,
-        "amplitude": 0.0227679044,
-        "abs_amplitude": 0.0227679044,
-        "raw_amplitude": 0.0683037132,
-        "percent": 6.830371,
-        "raw_percent": 6.830371,
-        "coverage_percent": 80.040656,
-        "member_count": 3,
-        "members": [
-          "worrisome",
-          "concerned",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0683037132,
-            "similarity": 0.873109,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "uneasy / nervous",
-        "descriptor_index": 8121,
-        "amplitude": 0.0162302209,
-        "abs_amplitude": 0.0162302209,
-        "raw_amplitude": 0.0486906626,
-        "percent": 4.869066,
-        "raw_percent": 4.869066,
-        "coverage_percent": 84.909723,
-        "member_count": 2,
-        "members": [
-          "uneasy",
-          "nervous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0486906626,
-            "similarity": 0.8752,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "weak-hearted",
-        "descriptor_index": 8488,
-        "amplitude": 0.0078808159,
-        "abs_amplitude": 0.0078808159,
-        "raw_amplitude": 0.0236424476,
-        "percent": 2.364245,
-        "raw_percent": 2.364245,
-        "coverage_percent": 87.273967,
-        "member_count": 1,
-        "members": [
-          "weak-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0236424476,
-            "similarity": 0.880667,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "surprised / shocked / surprising",
-        "descriptor_index": 7554,
-        "amplitude": 0.0075020194,
-        "abs_amplitude": 0.0075020194,
-        "raw_amplitude": 0.0225060582,
-        "percent": 2.250606,
-        "raw_percent": 2.250606,
-        "coverage_percent": 89.524573,
-        "member_count": 3,
-        "members": [
-          "surprised",
-          "shocked",
-          "surprising"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0225060583,
-            "similarity": 0.813912,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "intimidated",
-        "descriptor_index": 3970,
-        "amplitude": 0.0072929307,
-        "abs_amplitude": 0.0072929307,
-        "raw_amplitude": 0.021878792,
-        "percent": 2.187879,
-        "raw_percent": 2.187879,
-        "coverage_percent": 91.712452,
-        "member_count": 1,
-        "members": [
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.021878792,
-            "similarity": 0.875747,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "near-panic",
-        "descriptor_index": 5072,
-        "amplitude": 0.0053905491,
-        "abs_amplitude": 0.0053905491,
-        "raw_amplitude": 0.0161716472,
-        "percent": 1.617165,
-        "raw_percent": 1.617165,
-        "coverage_percent": 93.329617,
-        "member_count": 1,
-        "members": [
-          "near-panic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0161716472,
-            "similarity": 0.86133,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "intimidating / menacing",
-        "descriptor_index": 3971,
-        "amplitude": 0.004578075,
-        "abs_amplitude": 0.004578075,
-        "raw_amplitude": 0.0137342249,
-        "percent": 1.373422,
-        "raw_percent": 1.373422,
-        "coverage_percent": 94.70304,
-        "member_count": 2,
-        "members": [
-          "intimidating",
-          "menacing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0137342249,
-            "similarity": 0.843792,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "frantic",
-        "descriptor_index": 2777,
-        "amplitude": 0.0045645878,
-        "abs_amplitude": 0.0045645878,
-        "raw_amplitude": 0.0136937634,
-        "percent": 1.369376,
-        "raw_percent": 1.369376,
-        "coverage_percent": 96.072416,
-        "member_count": 1,
-        "members": [
-          "frantic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0136937634,
-            "similarity": 0.847443,
-            "matched_descriptor": "frightened"
+            "combined_favourites": 309
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "frightened / terrified / afraid / scared / +5",
-        "descriptor_index": 2834,
-        "amplitude": 0.2198488649,
-        "abs_amplitude": 0.2198488649,
-        "raw_amplitude": 0.6595465948,
-        "percent": 65.954659,
-        "raw_percent": 65.954659,
-        "coverage_percent": 65.954659,
-        "member_count": 9,
-        "members": [
-          "frightened",
-          "terrified",
-          "afraid",
-          "scared",
-          "horrified",
-          "worried",
-          "fearful",
-          "skittish",
-          "anxious"
-        ],
+        "step": 1,
+        "descriptor": "frightened",
+        "weighted_support": 2.59549076,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.6595465947,
-            "similarity": 1.0,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "scary / terrifying",
-        "descriptor_index": 6481,
-        "amplitude": 0.0241854186,
-        "abs_amplitude": 0.0241854186,
-        "raw_amplitude": 0.0725562558,
-        "percent": 7.255626,
-        "raw_percent": 7.255626,
-        "coverage_percent": 73.210285,
-        "member_count": 2,
-        "members": [
-          "scary",
-          "terrifying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0725562557,
-            "similarity": 0.868103,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "worrisome / concerned / worrying",
-        "descriptor_index": 8629,
-        "amplitude": 0.0227679044,
-        "abs_amplitude": 0.0227679044,
-        "raw_amplitude": 0.0683037132,
-        "percent": 6.830371,
-        "raw_percent": 6.830371,
-        "coverage_percent": 80.040656,
-        "member_count": 3,
-        "members": [
-          "worrisome",
-          "concerned",
-          "worrying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0683037132,
-            "similarity": 0.873109,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "uneasy / nervous",
-        "descriptor_index": 8121,
-        "amplitude": 0.0162302209,
-        "abs_amplitude": 0.0162302209,
-        "raw_amplitude": 0.0486906626,
-        "percent": 4.869066,
-        "raw_percent": 4.869066,
-        "coverage_percent": 84.909723,
-        "member_count": 2,
-        "members": [
-          "uneasy",
-          "nervous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0486906626,
-            "similarity": 0.8752,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "weak-hearted",
-        "descriptor_index": 8488,
-        "amplitude": 0.0078808159,
-        "abs_amplitude": 0.0078808159,
-        "raw_amplitude": 0.0236424476,
-        "percent": 2.364245,
-        "raw_percent": 2.364245,
-        "coverage_percent": 87.273967,
-        "member_count": 1,
-        "members": [
-          "weak-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0236424476,
-            "similarity": 0.880667,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "surprised / shocked / surprising",
-        "descriptor_index": 7554,
-        "amplitude": 0.0075020194,
-        "abs_amplitude": 0.0075020194,
-        "raw_amplitude": 0.0225060582,
-        "percent": 2.250606,
-        "raw_percent": 2.250606,
-        "coverage_percent": 89.524573,
-        "member_count": 3,
-        "members": [
-          "surprised",
-          "shocked",
-          "surprising"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0225060583,
-            "similarity": 0.813912,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "intimidated",
-        "descriptor_index": 3970,
-        "amplitude": 0.0072929307,
-        "abs_amplitude": 0.0072929307,
-        "raw_amplitude": 0.021878792,
-        "percent": 2.187879,
-        "raw_percent": 2.187879,
-        "coverage_percent": 91.712452,
-        "member_count": 1,
-        "members": [
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.021878792,
-            "similarity": 0.875747,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "near-panic",
-        "descriptor_index": 5072,
-        "amplitude": 0.0053905491,
-        "abs_amplitude": 0.0053905491,
-        "raw_amplitude": 0.0161716472,
-        "percent": 1.617165,
-        "raw_percent": 1.617165,
-        "coverage_percent": 93.329617,
-        "member_count": 1,
-        "members": [
-          "near-panic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0161716472,
-            "similarity": 0.86133,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "intimidating / menacing",
-        "descriptor_index": 3971,
-        "amplitude": 0.004578075,
-        "abs_amplitude": 0.004578075,
-        "raw_amplitude": 0.0137342249,
-        "percent": 1.373422,
-        "raw_percent": 1.373422,
-        "coverage_percent": 94.70304,
-        "member_count": 2,
-        "members": [
-          "intimidating",
-          "menacing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0137342249,
-            "similarity": 0.843792,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "frantic",
-        "descriptor_index": 2777,
-        "amplitude": 0.0045645878,
-        "abs_amplitude": 0.0045645878,
-        "raw_amplitude": 0.0136937634,
-        "percent": 1.369376,
-        "raw_percent": 1.369376,
-        "coverage_percent": 96.072416,
-        "member_count": 1,
-        "members": [
-          "frantic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 288810,
-            "name": "Umika Konohoshi",
-            "native_name": "小ノ星海果",
-            "anime": "Stardust Telepath",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
-            "site_url": "https://anilist.co/character/288810",
-            "anime_url": "https://myanimelist.net/anime/53262",
-            "role": "MAIN",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0136937634,
-            "similarity": 0.847443,
-            "matched_descriptor": "frightened"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 288810,
         "name": "Umika Konohoshi",
-        "native_name": "小ノ星海果",
         "anime": "Stardust Telepath",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
         "site_url": "https://anilist.co/character/288810",
-        "anime_url": "https://myanimelist.net/anime/53262",
-        "role": "MAIN",
         "favourites": 200,
-        "row_weight": 2.51063835,
+        "anilist_favourites": 200,
+        "bangumi_collects": 109,
+        "bangumi_comments": 43,
+        "bangumi_character_id": 125436,
+        "bangumi_url": "https://bgm.tv/character/125436",
+        "combined_favourites": 309,
+        "role_edge_count": 1,
+        "descriptors": [
+          "frightened"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.59549076,
+        "row_weight": 2.59549076,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -810,19 +84,67 @@
       {
         "character_id": 288810,
         "name": "Umika Konohoshi",
-        "native_name": "小ノ星海果",
         "anime": "Stardust Telepath",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b288810-61wtTbc61OKY.png",
         "site_url": "https://anilist.co/character/288810",
-        "anime_url": "https://myanimelist.net/anime/53262",
-        "role": "MAIN",
         "favourites": 200,
-        "row_weight": 2.51063835,
+        "anilist_favourites": 200,
+        "bangumi_collects": 109,
+        "bangumi_comments": 43,
+        "bangumi_character_id": 125436,
+        "bangumi_url": "https://bgm.tv/character/125436",
+        "combined_favourites": 309,
+        "role_edge_count": 1,
+        "descriptors": [
+          "frightened"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.59549076,
+        "row_weight": 2.59549076,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5954907624,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

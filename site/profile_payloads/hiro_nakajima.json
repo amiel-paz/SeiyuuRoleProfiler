@@ -11,628 +11,83 @@
     "hiro nakajima",
     "nakajima hiro"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/hiro_nakajima.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.139535909,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.139535909,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 320.912812,
-      "normalized_entanglement": 0.83571,
-      "top5_mass_percent": 2.998918,
-      "top10_mass_percent": 5.697869
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 0.7071067812,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
         "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.1315135669,
-        "abs_amplitude": 0.1315135669,
-        "raw_amplitude": 0.3945407006,
-        "percent": 39.45407,
-        "raw_percent": 39.45407,
-        "coverage_percent": 39.45407,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
+        "amplitude": 1.0000000006,
+        "abs_amplitude": 1.0000000006,
+        "percent": 100.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 71609,
             "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
             "anime": "HAIKYU!!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
             "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.3945407006,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.073516477,
-        "abs_amplitude": 0.073516477,
-        "raw_amplitude": 0.2205494311,
-        "percent": 22.054943,
-        "raw_percent": 22.054943,
-        "coverage_percent": 61.509013,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.2205494311,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0270177923,
-        "abs_amplitude": 0.0270177923,
-        "raw_amplitude": 0.0810533769,
-        "percent": 8.105338,
-        "raw_percent": 8.105338,
-        "coverage_percent": 69.614351,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0810533769,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0266971786,
-        "abs_amplitude": 0.0266971786,
-        "raw_amplitude": 0.0800915359,
-        "percent": 8.009154,
-        "raw_percent": 8.009154,
-        "coverage_percent": 77.623504,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0800915359,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0236923415,
-        "abs_amplitude": 0.0236923415,
-        "raw_amplitude": 0.0710770245,
-        "percent": 7.107702,
-        "raw_percent": 7.107702,
-        "coverage_percent": 84.731207,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0710770245,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0155933486,
-        "abs_amplitude": 0.0155933486,
-        "raw_amplitude": 0.0467800459,
-        "percent": 4.678005,
-        "raw_percent": 4.678005,
-        "coverage_percent": 89.409211,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0467800459,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0110565346,
-        "abs_amplitude": 0.0110565346,
-        "raw_amplitude": 0.0331696039,
-        "percent": 3.31696,
-        "raw_percent": 3.31696,
-        "coverage_percent": 92.726172,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0331696039,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "shepherd-like",
-        "descriptor_index": 6781,
-        "amplitude": 0.0080370265,
-        "abs_amplitude": 0.0080370265,
-        "raw_amplitude": 0.0241110795,
-        "percent": 2.411108,
-        "raw_percent": 2.411108,
-        "coverage_percent": 95.13728,
-        "member_count": 1,
-        "members": [
-          "shepherd-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0241110795,
-            "similarity": 0.830146,
-            "matched_descriptor": "protective"
+            "combined_favourites": 3092
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
+        "step": 1,
         "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.1315135669,
-        "abs_amplitude": 0.1315135669,
-        "raw_amplitude": 0.3945407006,
-        "percent": 39.45407,
-        "raw_percent": 39.45407,
-        "coverage_percent": 39.45407,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.3945407006,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 2,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.073516477,
-        "abs_amplitude": 0.073516477,
-        "raw_amplitude": 0.2205494311,
-        "percent": 22.054943,
-        "raw_percent": 22.054943,
-        "coverage_percent": 61.509013,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.2205494311,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "step": 2,
+        "descriptor": "cranky",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -268621825818752.1
       },
       {
-        "rank": 3,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0270177923,
-        "abs_amplitude": 0.0270177923,
-        "raw_amplitude": 0.0810533769,
-        "percent": 8.105338,
-        "raw_percent": 8.105338,
-        "coverage_percent": 69.614351,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0810533769,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "step": 3,
+        "descriptor": "persistent",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -2128.558784
       },
       {
-        "rank": 4,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0266971786,
-        "abs_amplitude": 0.0266971786,
-        "raw_amplitude": 0.0800915359,
-        "percent": 8.009154,
-        "raw_percent": 8.009154,
-        "coverage_percent": 77.623504,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0800915359,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0236923415,
-        "abs_amplitude": 0.0236923415,
-        "raw_amplitude": 0.0710770245,
-        "percent": 7.107702,
-        "raw_percent": 7.107702,
-        "coverage_percent": 84.731207,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0710770245,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0155933486,
-        "abs_amplitude": 0.0155933486,
-        "raw_amplitude": 0.0467800459,
-        "percent": 4.678005,
-        "raw_percent": 4.678005,
-        "coverage_percent": 89.409211,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0467800459,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0110565346,
-        "abs_amplitude": 0.0110565346,
-        "raw_amplitude": 0.0331696039,
-        "percent": 3.31696,
-        "raw_percent": 3.31696,
-        "coverage_percent": 92.726172,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0331696039,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "shepherd-like",
-        "descriptor_index": 6781,
-        "amplitude": 0.0080370265,
-        "abs_amplitude": 0.0080370265,
-        "raw_amplitude": 0.0241110795,
-        "percent": 2.411108,
-        "raw_percent": 2.411108,
-        "coverage_percent": 95.13728,
-        "member_count": 1,
-        "members": [
-          "shepherd-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71609,
-            "name": "Tadashi Yamaguchi",
-            "native_name": "山口忠",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
-            "site_url": "https://anilist.co/character/71609",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 3063,
-            "row_weight": 2.12455602,
-            "projection": 0.0241110795,
-            "similarity": 0.830146,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "step": 4,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 71609,
         "name": "Tadashi Yamaguchi",
-        "native_name": "山口忠",
         "anime": "HAIKYU!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
         "site_url": "https://anilist.co/character/71609",
-        "anime_url": "https://myanimelist.net/anime/20583",
-        "role": "SUPPORTING",
         "favourites": 3063,
-        "row_weight": 2.12455602,
+        "anilist_favourites": 3063,
+        "bangumi_collects": 29,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 24330,
+        "bangumi_url": "https://bgm.tv/character/24330",
+        "combined_favourites": 3092,
+        "role_edge_count": 2,
+        "descriptors": [
+          "protective"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -642,19 +97,62 @@
       {
         "character_id": 71609,
         "name": "Tadashi Yamaguchi",
-        "native_name": "山口忠",
         "anime": "HAIKYU!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71609-5Ht0aqB34eEa.png",
         "site_url": "https://anilist.co/character/71609",
-        "anime_url": "https://myanimelist.net/anime/20583",
-        "role": "SUPPORTING",
         "favourites": 3063,
-        "row_weight": 2.12455602,
+        "anilist_favourites": 3063,
+        "bangumi_collects": 29,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 24330,
+        "bangumi_url": "https://bgm.tv/character/24330",
+        "combined_favourites": 3092,
+        "role_edge_count": 2,
+        "descriptors": [
+          "protective"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 0.7071067812,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 1501,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

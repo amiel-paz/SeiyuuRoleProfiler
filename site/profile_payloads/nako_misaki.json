@@ -11,464 +11,89 @@
     "misaki nako",
     "nako misaki"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/nako_misaki.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.5120741502,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.5120741502,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 339.508547,
-      "normalized_entanglement": 0.884137,
-      "top5_mass_percent": 2.685243,
-      "top10_mass_percent": 5.064293
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.2375471513,
-        "abs_amplitude": 0.2375471513,
-        "raw_amplitude": 0.7126414539,
-        "percent": 71.264145,
-        "raw_percent": 71.264145,
-        "coverage_percent": 71.264145,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "descriptor": "kind",
+        "amplitude": 1.0000000006,
+        "abs_amplitude": 1.0000000006,
+        "percent": 100.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 170245,
             "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
             "anime": "Love Live! Superstar!!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
             "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.712641454,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0262067069,
-        "abs_amplitude": 0.0262067069,
-        "raw_amplitude": 0.0786201207,
-        "percent": 7.862012,
-        "raw_percent": 7.862012,
-        "coverage_percent": 79.126157,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0786201206,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0246231658,
-        "abs_amplitude": 0.0246231658,
-        "raw_amplitude": 0.0738694975,
-        "percent": 7.38695,
-        "raw_percent": 7.38695,
-        "coverage_percent": 86.513107,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0738694975,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "good / openhearted / pleasant / open-hearted / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0227717161,
-        "abs_amplitude": 0.0227717161,
-        "raw_amplitude": 0.0683151484,
-        "percent": 6.831515,
-        "raw_percent": 6.831515,
-        "coverage_percent": 93.344622,
-        "member_count": 6,
-        "members": [
-          "good",
-          "openhearted",
-          "pleasant",
-          "open-hearted",
-          "polite",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0683151484,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "respectable / honorable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0110208611,
-        "abs_amplitude": 0.0110208611,
-        "raw_amplitude": 0.0330625833,
-        "percent": 3.306258,
-        "raw_percent": 3.306258,
-        "coverage_percent": 96.65088,
-        "member_count": 2,
-        "members": [
-          "respectable",
-          "honorable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0330625833,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
+            "combined_favourites": 469
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.2375471513,
-        "abs_amplitude": 0.2375471513,
-        "raw_amplitude": 0.7126414539,
-        "percent": 71.264145,
-        "raw_percent": 71.264145,
-        "coverage_percent": 71.264145,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.712641454,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "step": 1,
+        "descriptor": "kind",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 2,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0262067069,
-        "abs_amplitude": 0.0262067069,
-        "raw_amplitude": 0.0786201207,
-        "percent": 7.862012,
-        "raw_percent": 7.862012,
-        "coverage_percent": 79.126157,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0786201206,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "step": 2,
+        "descriptor": "laidback",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -1205568206973833.5
       },
       {
-        "rank": 3,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0246231658,
-        "abs_amplitude": 0.0246231658,
-        "raw_amplitude": 0.0738694975,
-        "percent": 7.38695,
-        "raw_percent": 7.38695,
-        "coverage_percent": 86.513107,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0738694975,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "step": 3,
+        "descriptor": "amicable",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 50.495869
       },
       {
-        "rank": 4,
-        "descriptor": "good / openhearted / pleasant / open-hearted / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0227717161,
-        "abs_amplitude": 0.0227717161,
-        "raw_amplitude": 0.0683151484,
-        "percent": 6.831515,
-        "raw_percent": 6.831515,
-        "coverage_percent": 93.344622,
-        "member_count": 6,
-        "members": [
-          "good",
-          "openhearted",
-          "pleasant",
-          "open-hearted",
-          "polite",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0683151484,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "step": 4,
+        "descriptor": "malevolent",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -200.648105
       },
       {
-        "rank": 5,
-        "descriptor": "respectable / honorable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0110208611,
-        "abs_amplitude": 0.0110208611,
-        "raw_amplitude": 0.0330625833,
-        "percent": 3.306258,
-        "raw_percent": 3.306258,
-        "coverage_percent": 96.65088,
-        "member_count": 2,
-        "members": [
-          "respectable",
-          "honorable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170245,
-            "name": "Chisato Arashi ",
-            "native_name": "嵐千砂都",
-            "anime": "Love Live! Superstar!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
-            "site_url": "https://anilist.co/character/170245",
-            "anime_url": "https://myanimelist.net/anime/50066",
-            "role": "MAIN",
-            "favourites": 382,
-            "row_weight": 2.63591255,
-            "projection": 0.0330625833,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "step": 5,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 170245,
         "name": "Chisato Arashi ",
-        "native_name": "嵐千砂都",
         "anime": "Love Live! Superstar!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
         "site_url": "https://anilist.co/character/170245",
-        "anime_url": "https://myanimelist.net/anime/50066",
-        "role": "MAIN",
         "favourites": 382,
-        "row_weight": 2.63591255,
+        "anilist_favourites": 382,
+        "bangumi_collects": 87,
+        "bangumi_comments": 31,
+        "bangumi_character_id": 77210,
+        "bangumi_url": "https://bgm.tv/character/77210",
+        "combined_favourites": 469,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -478,19 +103,62 @@
       {
         "character_id": 170245,
         "name": "Chisato Arashi ",
-        "native_name": "嵐千砂都",
         "anime": "Love Live! Superstar!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170245-0AL7BuFrageE.png",
         "site_url": "https://anilist.co/character/170245",
-        "anime_url": "https://myanimelist.net/anime/50066",
-        "role": "MAIN",
         "favourites": 382,
-        "row_weight": 2.63591255,
+        "anilist_favourites": 382,
+        "bangumi_collects": 87,
+        "bangumi_comments": 31,
+        "bangumi_character_id": 77210,
+        "bangumi_url": "https://bgm.tv/character/77210",
+        "combined_favourites": 469,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 929,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

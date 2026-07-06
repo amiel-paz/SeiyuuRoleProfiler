@@ -5,1544 +5,180 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95874-grd6XzrNhfoP.png",
   "site_url": "https://anilist.co/staff/95874",
   "role_count": 9,
-  "character_count": 3,
+  "character_count": 1,
   "first_year": 2009,
   "aliases": [
     "mitsuya yuuji",
     "yuuji mitsuya"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yuuji_mitsuya.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 10.434017461,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 10.434017461,
-        "mass_percent": 91.901313
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.8592647315,
-        "mass_percent": 6.901243
-      },
-      {
-        "rank": 3,
-        "singular_value": 1.1910181117,
-        "mass_percent": 1.197444
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 334.296148,
-      "normalized_entanglement": 0.870563,
-      "top5_mass_percent": 2.787963,
-      "top10_mass_percent": 5.243333
-    },
-    "character_participation": {
-      "effective_count": 2.313722,
-      "normalized_entanglement": 0.771241,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 3.099486,
-      "semantic_spread": 3.128975,
-      "axis_concentration_percent": 98.124,
-      "lane_count": 1.097652,
-      "direction_range": 1.089566,
-      "direction_spread": 1.099427,
-      "direction_axis_concentration_percent": 98.214206,
-      "direction_lane_count": 1.093716
-    },
-    "explained_sv_l2_percent": 91.901313,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 0.7071067812,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "kooky / zany / quirky / weird / +3",
-        "descriptor_index": 4171,
-        "amplitude": 0.1498702339,
-        "abs_amplitude": 0.1498702339,
-        "raw_amplitude": 0.4496107018,
-        "percent": 35.523967,
-        "raw_percent": 35.523967,
-        "coverage_percent": 35.523967,
-        "member_count": 7,
-        "members": [
-          "kooky",
-          "zany",
-          "quirky",
-          "weird",
-          "outlandish",
-          "strange",
-          "unusual"
-        ],
+        "descriptor": "mellow",
+        "amplitude": 0.579138528,
+        "abs_amplitude": 0.579138528,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 38408,
-            "name": "Souichi Tsujii",
-            "native_name": "辻井双一",
-            "anime": "Junji Ito Collection",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-            "site_url": "https://anilist.co/character/38408",
-            "anime_url": "https://myanimelist.net/anime/36124",
-            "role": "SUPPORTING",
-            "favourites": 818,
-            "row_weight": 2.77634365,
-            "projection": 0.4496107017,
-            "similarity": 0.900177,
-            "matched_descriptor": "eccentric oddball"
+            "character_id": 26119,
+            "name": "Ichiro Irabu",
+            "anime": "Welcome to Irabu's Office",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
+            "site_url": "https://anilist.co/character/26119",
+            "combined_favourites": 216
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "powerful / super-strong / physically-strong",
-        "descriptor_index": 5771,
-        "amplitude": 0.0682054047,
-        "abs_amplitude": 0.0682054047,
-        "raw_amplitude": 0.2046162142,
-        "percent": 16.16683,
-        "raw_percent": 16.16683,
-        "coverage_percent": 51.690796,
-        "member_count": 3,
-        "members": [
-          "powerful",
-          "super-strong",
-          "physically-strong"
-        ],
+        "descriptor": "effeminate",
+        "amplitude": 0.5791385277,
+        "abs_amplitude": 0.5791385277,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.2046162142,
-            "similarity": 0.945935,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "bizarre / peculiar / odd-looking / odd / +1",
-        "descriptor_index": 663,
-        "amplitude": 0.040245259,
-        "abs_amplitude": 0.040245259,
-        "raw_amplitude": 0.1207357769,
-        "percent": 9.539394,
-        "raw_percent": 9.539394,
-        "coverage_percent": 61.23019,
-        "member_count": 5,
-        "members": [
-          "bizarre",
-          "peculiar",
-          "odd-looking",
-          "odd",
-          "abnormal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 38408,
-            "name": "Souichi Tsujii",
-            "native_name": "辻井双一",
-            "anime": "Junji Ito Collection",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-            "site_url": "https://anilist.co/character/38408",
-            "anime_url": "https://myanimelist.net/anime/36124",
-            "role": "SUPPORTING",
-            "favourites": 818,
-            "row_weight": 2.77634365,
-            "projection": 0.1207357769,
-            "similarity": 0.864951,
-            "matched_descriptor": "eccentric oddball"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "eccentric",
-        "descriptor_index": 2040,
-        "amplitude": 0.0330884039,
-        "abs_amplitude": 0.0330884039,
-        "raw_amplitude": 0.0992652118,
-        "percent": 7.842994,
-        "raw_percent": 7.842994,
-        "coverage_percent": 69.073184,
-        "member_count": 1,
-        "members": [
-          "eccentric"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 38408,
-            "name": "Souichi Tsujii",
-            "native_name": "辻井双一",
-            "anime": "Junji Ito Collection",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-            "site_url": "https://anilist.co/character/38408",
-            "anime_url": "https://myanimelist.net/anime/36124",
-            "role": "SUPPORTING",
-            "favourites": 818,
-            "row_weight": 2.77634365,
-            "projection": 0.0992652118,
-            "similarity": 0.899621,
-            "matched_descriptor": "eccentric oddball"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "stamina-rich / vigorous",
-        "descriptor_index": 7219,
-        "amplitude": 0.032690325,
-        "abs_amplitude": 0.032690325,
-        "raw_amplitude": 0.0980709749,
-        "percent": 7.748637,
-        "raw_percent": 7.748637,
-        "coverage_percent": 76.821821,
-        "member_count": 2,
-        "members": [
-          "stamina-rich",
-          "vigorous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0980709749,
-            "similarity": 0.900116,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "hyper-active / rambunctious",
-        "descriptor_index": 3661,
-        "amplitude": 0.0159269959,
-        "abs_amplitude": 0.0159269959,
-        "raw_amplitude": 0.0477809877,
-        "percent": 3.7752,
-        "raw_percent": 3.7752,
-        "coverage_percent": 80.597021,
-        "member_count": 2,
-        "members": [
-          "hyper-active",
-          "rambunctious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0477809876,
-            "similarity": 0.87402,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "lunatic",
-        "descriptor_index": 4467,
-        "amplitude": 0.0125129703,
-        "abs_amplitude": 0.0125129703,
-        "raw_amplitude": 0.037538911,
-        "percent": 2.965968,
-        "raw_percent": 2.965968,
-        "coverage_percent": 83.562989,
-        "member_count": 1,
-        "members": [
-          "lunatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 38408,
-            "name": "Souichi Tsujii",
-            "native_name": "辻井双一",
-            "anime": "Junji Ito Collection",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-            "site_url": "https://anilist.co/character/38408",
-            "anime_url": "https://myanimelist.net/anime/36124",
-            "role": "SUPPORTING",
-            "favourites": 818,
-            "row_weight": 2.77634365,
-            "projection": 0.037538911,
-            "similarity": 0.85405,
-            "matched_descriptor": "eccentric oddball"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "mischief-causing",
-        "descriptor_index": 4846,
-        "amplitude": 0.0104475691,
-        "abs_amplitude": 0.0104475691,
-        "raw_amplitude": 0.0313427073,
-        "percent": 2.476403,
-        "raw_percent": 2.476403,
-        "coverage_percent": 86.039392,
-        "member_count": 1,
-        "members": [
-          "mischief-causing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 38408,
-            "name": "Souichi Tsujii",
-            "native_name": "辻井双一",
-            "anime": "Junji Ito Collection",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-            "site_url": "https://anilist.co/character/38408",
-            "anime_url": "https://myanimelist.net/anime/36124",
-            "role": "SUPPORTING",
-            "favourites": 818,
-            "row_weight": 2.77634365,
-            "projection": 0.0313427073,
-            "similarity": 0.850745,
-            "matched_descriptor": "eccentric oddball"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "strong",
-        "descriptor_index": 7332,
-        "amplitude": 0.0096921481,
-        "abs_amplitude": 0.0096921481,
-        "raw_amplitude": 0.0290764444,
-        "percent": 2.297344,
-        "raw_percent": 2.297344,
-        "coverage_percent": 88.336737,
-        "member_count": 1,
-        "members": [
-          "strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0290764444,
-            "similarity": 0.879945,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "superhuman",
-        "descriptor_index": 7499,
-        "amplitude": 0.0081447633,
-        "abs_amplitude": 0.0081447633,
-        "raw_amplitude": 0.0244342899,
-        "percent": 1.930565,
-        "raw_percent": 1.930565,
-        "coverage_percent": 90.267302,
-        "member_count": 1,
-        "members": [
-          "superhuman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0244342899,
-            "similarity": 0.873085,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "average / normal / commoner",
-        "descriptor_index": 484,
-        "amplitude": 0.0070325552,
-        "abs_amplitude": 0.0070325552,
-        "raw_amplitude": 0.0210976656,
-        "percent": 1.666937,
-        "raw_percent": 1.666937,
-        "coverage_percent": 91.934239,
-        "member_count": 3,
-        "members": [
-          "average",
-          "normal",
-          "commoner"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 38408,
-            "name": "Souichi Tsujii",
-            "native_name": "辻井双一",
-            "anime": "Junji Ito Collection",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-            "site_url": "https://anilist.co/character/38408",
-            "anime_url": "https://myanimelist.net/anime/36124",
-            "role": "SUPPORTING",
-            "favourites": 818,
-            "row_weight": 2.77634365,
-            "projection": 0.0210976656,
-            "similarity": 0.845937,
-            "matched_descriptor": "eccentric oddball"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.006492672,
-        "abs_amplitude": 0.006492672,
-        "raw_amplitude": 0.0194780161,
-        "percent": 1.538968,
-        "raw_percent": 1.538968,
-        "coverage_percent": 93.473207,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0194780161,
-            "similarity": 0.862844,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.0061289504,
-        "abs_amplitude": 0.0061289504,
-        "raw_amplitude": 0.0183868511,
-        "percent": 1.452754,
-        "raw_percent": 1.452754,
-        "coverage_percent": 94.925961,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0183868511,
-            "similarity": 0.861736,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unstoppable",
-        "descriptor_index": 8226,
-        "amplitude": 0.0055594359,
-        "abs_amplitude": 0.0055594359,
-        "raw_amplitude": 0.0166783077,
-        "percent": 1.317761,
-        "raw_percent": 1.317761,
-        "coverage_percent": 96.243723,
-        "member_count": 1,
-        "members": [
-          "unstoppable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0166783077,
-            "similarity": 0.861258,
-            "matched_descriptor": "immense power"
+            "character_id": 26119,
+            "name": "Ichiro Irabu",
+            "anime": "Welcome to Irabu's Office",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
+            "site_url": "https://anilist.co/character/26119",
+            "combined_favourites": 216
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "mellow / care-free / carefree / laid-back / +25",
-        "descriptor_index": 4720,
-        "amplitude": 0.0535028468,
-        "abs_amplitude": 0.0535028468,
-        "raw_amplitude": 0.1605085404,
-        "percent": 39.618223,
-        "raw_percent": 39.617547,
-        "coverage_percent": 39.618223,
-        "member_count": 29,
-        "members": [
-          "mellow",
-          "care-free",
-          "carefree",
-          "laid-back",
-          "relaxed",
-          "peaceful",
-          "tranquil",
-          "serene",
-          "amiable",
-          "untroubled",
-          "non-violent",
-          "easygoing",
-          "nonchalant",
-          "mild",
-          "non-hostile",
-          "contented",
-          "soft-side",
-          "calmer",
-          "amicable",
-          "soothing",
-          "non-combative",
-          "mild-mannered",
-          "soft",
-          "chilling",
-          "agreeable",
-          "warm",
-          "sweet-natured",
-          "gentle",
-          "comforting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.1605085406,
-            "similarity": 1.0,
-            "matched_descriptor": "mellow / carefree"
-          }
-        ]
+        "step": 1,
+        "descriptor": "mellow",
+        "fit_percent": 86.33513,
+        "residual_gain_percent": 74.537546
       },
       {
-        "rank": 2,
-        "descriptor": "childlike / childish / ingenuous / innocent / +3",
-        "descriptor_index": 1102,
-        "amplitude": 0.0182867918,
-        "abs_amplitude": 0.0182867918,
-        "raw_amplitude": 0.0548603755,
-        "percent": 13.541152,
-        "raw_percent": 13.540921,
-        "coverage_percent": 53.159375,
-        "member_count": 7,
-        "members": [
-          "childlike",
-          "childish",
-          "ingenuous",
-          "innocent",
-          "child-like",
-          "simple-minded",
-          "youthful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0548603755,
-            "similarity": 0.999999,
-            "matched_descriptor": "childlike"
-          }
-        ]
+        "step": 2,
+        "descriptor": "effeminate",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 3,
-        "descriptor": "effeminate / feminine / tomboyish / realistic",
-        "descriptor_index": 2056,
-        "amplitude": 0.0115299478,
-        "abs_amplitude": 0.0115299478,
-        "raw_amplitude": 0.0345898434,
-        "percent": 8.537789,
-        "raw_percent": 8.537644,
-        "coverage_percent": 61.697164,
-        "member_count": 4,
-        "members": [
-          "effeminate",
-          "feminine",
-          "tomboyish",
-          "realistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0345898434,
-            "similarity": 1.0,
-            "matched_descriptor": "effeminate"
-          }
-        ]
+        "step": 3,
+        "descriptor": "methodical",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -232022401485786.03
       },
       {
-        "rank": 4,
-        "descriptor": "happy-go-lucky / affable / good-humored / permissive / +2",
-        "descriptor_index": 3337,
-        "amplitude": 0.0105171475,
-        "abs_amplitude": 0.0105171475,
-        "raw_amplitude": 0.0315514424,
-        "percent": 7.787823,
-        "raw_percent": 7.78769,
-        "coverage_percent": 69.484987,
-        "member_count": 6,
-        "members": [
-          "happy-go-lucky",
-          "affable",
-          "good-humored",
-          "permissive",
-          "flighty",
-          "playful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0315514425,
-            "similarity": 0.943593,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "step": 4,
+        "descriptor": "scared",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 36.519105
       },
       {
-        "rank": 5,
-        "descriptor": "casual / easy-going / accommodating / low-energy / +1",
-        "descriptor_index": 975,
-        "amplitude": 0.0068440932,
-        "abs_amplitude": 0.0068440932,
-        "raw_amplitude": 0.0205322795,
-        "percent": 5.06797,
-        "raw_percent": 5.067883,
-        "coverage_percent": 74.552957,
-        "member_count": 5,
-        "members": [
-          "casual",
-          "easy-going",
-          "accommodating",
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0205322793,
-            "similarity": 0.941203,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "eccentric",
-        "descriptor_index": 2040,
-        "amplitude": 0.0050125855,
-        "abs_amplitude": 0.0050125855,
-        "raw_amplitude": 0.0150377566,
-        "percent": 3.71176,
-        "raw_percent": 3.711697,
-        "coverage_percent": 78.264717,
-        "member_count": 1,
-        "members": [
-          "eccentric"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0150377566,
-            "similarity": 1.0,
-            "matched_descriptor": "eccentric"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "kooky / zany / quirky / outlandish",
-        "descriptor_index": 4171,
-        "amplitude": 0.0034326308,
-        "abs_amplitude": 0.0034326308,
-        "raw_amplitude": 0.0102978925,
-        "percent": 2.541822,
-        "raw_percent": 2.541779,
-        "coverage_percent": 80.806539,
-        "member_count": 4,
-        "members": [
-          "kooky",
-          "zany",
-          "quirky",
-          "outlandish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0102978926,
-            "similarity": 0.879786,
-            "matched_descriptor": "eccentric"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "clean-cut / beautiful / sophisticated / aesthetic / +2",
-        "descriptor_index": 1162,
-        "amplitude": 0.0026049242,
-        "abs_amplitude": 0.0026049242,
-        "raw_amplitude": 0.0078147726,
-        "percent": 1.928915,
-        "raw_percent": 1.928883,
-        "coverage_percent": 82.735454,
-        "member_count": 6,
-        "members": [
-          "clean-cut",
-          "beautiful",
-          "sophisticated",
-          "aesthetic",
-          "elegant",
-          "nice"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0078147727,
-            "similarity": 0.883921,
-            "matched_descriptor": "effeminate"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unassuming / humble / non-arrogant",
-        "descriptor_index": 8058,
-        "amplitude": 0.0018007988,
-        "abs_amplitude": 0.0018007988,
-        "raw_amplitude": 0.0054023965,
-        "percent": 1.33347,
-        "raw_percent": 1.333447,
-        "coverage_percent": 84.068925,
-        "member_count": 3,
-        "members": [
-          "unassuming",
-          "humble",
-          "non-arrogant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0054023965,
-            "similarity": 0.888826,
-            "matched_descriptor": "effeminate / carefree / childlike"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "girlish / boyish",
-        "descriptor_index": 3000,
-        "amplitude": 0.001621974,
-        "abs_amplitude": 0.001621974,
-        "raw_amplitude": 0.0048659221,
-        "percent": 1.201053,
-        "raw_percent": 1.201032,
-        "coverage_percent": 85.269977,
-        "member_count": 2,
-        "members": [
-          "girlish",
-          "boyish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0048659221,
-            "similarity": 0.891147,
-            "matched_descriptor": "effeminate"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "abnormal / bizarre",
-        "descriptor_index": 9,
-        "amplitude": 0.0014039256,
-        "abs_amplitude": 0.0014039256,
-        "raw_amplitude": 0.0042117769,
-        "percent": 1.03959,
-        "raw_percent": 1.039573,
-        "coverage_percent": 86.309567,
-        "member_count": 2,
-        "members": [
-          "abnormal",
-          "bizarre"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0042117768,
-            "similarity": 0.861491,
-            "matched_descriptor": "eccentric"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "messy / disheveled / scruffy",
-        "descriptor_index": 4769,
-        "amplitude": 0.0012714809,
-        "abs_amplitude": 0.0012714809,
-        "raw_amplitude": 0.0038144428,
-        "percent": 0.941517,
-        "raw_percent": 0.9415,
-        "coverage_percent": 87.251084,
-        "member_count": 3,
-        "members": [
-          "messy",
-          "disheveled",
-          "scruffy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0038144428,
-            "similarity": 0.886032,
-            "matched_descriptor": "effeminate"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "pure",
-        "descriptor_index": 6031,
-        "amplitude": 0.0012244121,
-        "abs_amplitude": 0.0012244121,
-        "raw_amplitude": 0.0036732363,
-        "percent": 0.906663,
-        "raw_percent": 0.906647,
-        "coverage_percent": 88.157746,
-        "member_count": 1,
-        "members": [
-          "pure"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0036732363,
-            "similarity": 0.887287,
-            "matched_descriptor": "childlike"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "guileless",
-        "descriptor_index": 3249,
-        "amplitude": 0.0012228266,
-        "abs_amplitude": 0.0012228266,
-        "raw_amplitude": 0.0036684799,
-        "percent": 0.905489,
-        "raw_percent": 0.905473,
-        "coverage_percent": 89.063235,
-        "member_count": 1,
-        "members": [
-          "guileless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0036684799,
-            "similarity": 0.885526,
-            "matched_descriptor": "childlike"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "comfortable",
-        "descriptor_index": 1266,
-        "amplitude": 0.0012099662,
-        "abs_amplitude": 0.0012099662,
-        "raw_amplitude": 0.0036298985,
-        "percent": 0.895966,
-        "raw_percent": 0.89595,
-        "coverage_percent": 89.959201,
-        "member_count": 1,
-        "members": [
-          "comfortable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0036298985,
-            "similarity": 0.899235,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "light-hearted / giddy / lighthearted / good-humoured",
-        "descriptor_index": 4318,
-        "amplitude": 0.001199648,
-        "abs_amplitude": 0.001199648,
-        "raw_amplitude": 0.0035989441,
-        "percent": 0.888325,
-        "raw_percent": 0.88831,
-        "coverage_percent": 90.847526,
-        "member_count": 4,
-        "members": [
-          "light-hearted",
-          "giddy",
-          "lighthearted",
-          "good-humoured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0035989442,
-            "similarity": 0.892876,
-            "matched_descriptor": "carefree / mellow"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fashion-forward / fashionable",
-        "descriptor_index": 2458,
-        "amplitude": 0.0011759793,
-        "abs_amplitude": 0.0011759793,
-        "raw_amplitude": 0.0035279379,
-        "percent": 0.870799,
-        "raw_percent": 0.870784,
-        "coverage_percent": 91.718324,
-        "member_count": 2,
-        "members": [
-          "fashion-forward",
-          "fashionable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0035279379,
-            "similarity": 0.879515,
-            "matched_descriptor": "effeminate"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "cheerful indifferent",
-        "descriptor_index": 1044,
-        "amplitude": 0.0009464762,
-        "abs_amplitude": 0.0009464762,
-        "raw_amplitude": 0.0028394285,
-        "percent": 0.700854,
-        "raw_percent": 0.700842,
-        "coverage_percent": 92.419179,
-        "member_count": 1,
-        "members": [
-          "cheerful indifferent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0028394285,
-            "similarity": 0.892252,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "outgoing / gregarious",
-        "descriptor_index": 5383,
-        "amplitude": 0.0008174124,
-        "abs_amplitude": 0.0008174124,
-        "raw_amplitude": 0.0024522371,
-        "percent": 0.605284,
-        "raw_percent": 0.605274,
-        "coverage_percent": 93.024463,
-        "member_count": 2,
-        "members": [
-          "outgoing",
-          "gregarious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.002452237,
-            "similarity": 0.883692,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "unique",
-        "descriptor_index": 8157,
-        "amplitude": 0.0006800842,
-        "abs_amplitude": 0.0006800842,
-        "raw_amplitude": 0.0020402525,
-        "percent": 0.503594,
-        "raw_percent": 0.503586,
-        "coverage_percent": 93.528057,
-        "member_count": 1,
-        "members": [
-          "unique"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0020402525,
-            "similarity": 0.859376,
-            "matched_descriptor": "eccentric"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "soft-spotted / friendly-type / pure-hearted / kind",
-        "descriptor_index": 7063,
-        "amplitude": 0.0006794492,
-        "abs_amplitude": 0.0006794492,
-        "raw_amplitude": 0.0020383475,
-        "percent": 0.503124,
-        "raw_percent": 0.503115,
-        "coverage_percent": 94.031181,
-        "member_count": 4,
-        "members": [
-          "soft-spotted",
-          "friendly-type",
-          "pure-hearted",
-          "kind"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0020383474,
-            "similarity": 0.896785,
-            "matched_descriptor": "mellow / childlike"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "easy-pleased",
-        "descriptor_index": 2036,
-        "amplitude": 0.0006583471,
-        "abs_amplitude": 0.0006583471,
-        "raw_amplitude": 0.0019750413,
-        "percent": 0.487498,
-        "raw_percent": 0.48749,
-        "coverage_percent": 94.518679,
-        "member_count": 1,
-        "members": [
-          "easy-pleased"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0019750413,
-            "similarity": 0.884617,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "lenient",
-        "descriptor_index": 4273,
-        "amplitude": 0.0006575014,
-        "abs_amplitude": 0.0006575014,
-        "raw_amplitude": 0.0019725041,
-        "percent": 0.486872,
-        "raw_percent": 0.486864,
-        "coverage_percent": 95.005551,
-        "member_count": 1,
-        "members": [
-          "lenient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 26119,
-            "name": "Ichiro Irabu",
-            "native_name": "伊良部一郎",
-            "anime": "Welcome to Irabu's Office",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
-            "site_url": "https://anilist.co/character/26119",
-            "anime_url": "https://myanimelist.net/anime/6774",
-            "role": "MAIN",
-            "favourites": 207,
-            "row_weight": 1.78010366,
-            "projection": 0.0019725041,
-            "similarity": 0.884595,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "step": 5,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
-        "character_id": 38408,
-        "name": "Souichi Tsujii",
-        "native_name": "辻井双一",
-        "anime": "Junji Ito Collection",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-        "site_url": "https://anilist.co/character/38408",
-        "anime_url": "https://myanimelist.net/anime/36124",
-        "role": "SUPPORTING",
-        "favourites": 818,
-        "row_weight": 2.77634365,
-        "amplitude": 0.7649574127,
-        "abs_amplitude": 0.7649574127,
-        "percent": 58.515984
-      },
-      {
-        "character_id": 9240,
-        "name": "Shaka",
-        "native_name": "シャカ",
-        "anime": "Saint Seiya: LEGEND of SANCTUARY",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-        "site_url": "https://anilist.co/character/9240",
-        "anime_url": "https://myanimelist.net/anime/28215",
-        "role": "SUPPORTING",
-        "favourites": 302,
-        "row_weight": 1.83217532,
-        "amplitude": 0.5006971417,
-        "abs_amplitude": 0.5006971417,
-        "percent": 25.069763
-      },
-      {
         "character_id": 26119,
         "name": "Ichiro Irabu",
-        "native_name": "伊良部一郎",
         "anime": "Welcome to Irabu's Office",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
         "site_url": "https://anilist.co/character/26119",
-        "anime_url": "https://myanimelist.net/anime/6774",
-        "role": "MAIN",
         "favourites": 207,
-        "row_weight": 1.78010366,
-        "amplitude": -0.4051450716,
-        "abs_amplitude": 0.4051450716,
-        "percent": 16.414253
+        "anilist_favourites": 207,
+        "bangumi_collects": 9,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 10172,
+        "bangumi_url": "https://bgm.tv/character/10172",
+        "combined_favourites": 216,
+        "role_edge_count": 2,
+        "descriptors": [
+          "effeminate",
+          "mellow"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.7267026,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
     "positive_characters": [
       {
-        "character_id": 38408,
-        "name": "Souichi Tsujii",
-        "native_name": "辻井双一",
-        "anime": "Junji Ito Collection",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b38408-NEsoKa5MulTj.png",
-        "site_url": "https://anilist.co/character/38408",
-        "anime_url": "https://myanimelist.net/anime/36124",
-        "role": "SUPPORTING",
-        "favourites": 818,
-        "row_weight": 2.77634365,
-        "amplitude": 0.7649574127,
-        "abs_amplitude": 0.7649574127,
-        "percent": 58.515984
-      },
-      {
-        "character_id": 9240,
-        "name": "Shaka",
-        "native_name": "シャカ",
-        "anime": "Saint Seiya: LEGEND of SANCTUARY",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-        "site_url": "https://anilist.co/character/9240",
-        "anime_url": "https://myanimelist.net/anime/28215",
-        "role": "SUPPORTING",
-        "favourites": 302,
-        "row_weight": 1.83217532,
-        "amplitude": 0.5006971417,
-        "abs_amplitude": 0.5006971417,
-        "percent": 25.069763
-      }
-    ],
-    "negative_characters": [
-      {
         "character_id": 26119,
         "name": "Ichiro Irabu",
-        "native_name": "伊良部一郎",
         "anime": "Welcome to Irabu's Office",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b26119-JEHVkystN92K.jpg",
         "site_url": "https://anilist.co/character/26119",
-        "anime_url": "https://myanimelist.net/anime/6774",
-        "role": "MAIN",
         "favourites": 207,
-        "row_weight": 1.78010366,
-        "amplitude": -0.4051450716,
-        "abs_amplitude": 0.4051450716,
-        "percent": 16.414253
+        "anilist_favourites": 207,
+        "bangumi_collects": 9,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 10172,
+        "bangumi_url": "https://bgm.tv/character/10172",
+        "combined_favourites": 216,
+        "role_edge_count": 2,
+        "descriptors": [
+          "effeminate",
+          "mellow"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.7267026,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 0.7071067812,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 893,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

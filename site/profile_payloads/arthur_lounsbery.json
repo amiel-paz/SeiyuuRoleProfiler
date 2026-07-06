@@ -11,1955 +11,336 @@
     "arthur lounsbery",
     "lounsbery arthur"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/arthur_lounsbery.json",
+  "sv1_mass_percent": 89.566033,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.2126138867,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.2126138867,
-        "mass_percent": 62.253784
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.2802389709,
-        "mass_percent": 37.746216
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 119.833926,
-      "normalized_entanglement": 0.312068,
-      "top5_mass_percent": 11.346217,
-      "top10_mass_percent": 18.639999
-    },
-    "character_participation": {
-      "effective_count": 1.870833,
-      "normalized_entanglement": 0.935417,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.058436,
-      "semantic_spread": 2.058436,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.112185,
-      "direction_spread": 1.112185,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 62.253784,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.7988329485,
+    "mass_percent": 86.955707,
+    "descriptor_fit_percent": 97.1081,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "outspoken / tough-talking / vocal / loud-voiced / +3",
-        "descriptor_index": 5392,
-        "amplitude": 0.0348277181,
-        "abs_amplitude": 0.0348277181,
-        "raw_amplitude": 0.1044831544,
-        "percent": 13.149251,
-        "raw_percent": 13.149251,
-        "coverage_percent": 13.149251,
-        "member_count": 7,
-        "members": [
-          "outspoken",
-          "tough-talking",
-          "vocal",
-          "loud-voiced",
-          "articulate",
-          "well-spoken",
-          "eloquent"
-        ],
+        "descriptor": "violent",
+        "amplitude": 0.5802711529,
+        "abs_amplitude": 0.5802711529,
+        "percent": 53.655358,
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 205429,
             "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
             "anime": "MILGRAM",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
             "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.1044831545,
-            "similarity": 1.0,
-            "matched_descriptor": "outspoken"
+            "combined_favourites": 132
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "faint-hearted / wimpy / weak-hearted / unassertive / +2",
-        "descriptor_index": 2364,
-        "amplitude": 0.0340801759,
-        "abs_amplitude": 0.0340801759,
-        "raw_amplitude": 0.1022405277,
-        "percent": 12.867016,
-        "raw_percent": 12.867016,
-        "coverage_percent": 26.016267,
-        "member_count": 6,
-        "members": [
-          "faint-hearted",
-          "wimpy",
-          "weak-hearted",
-          "unassertive",
-          "meek",
-          "bashful"
-        ],
+        "descriptor": "outspoken",
+        "amplitude": 0.5012073243,
+        "abs_amplitude": 0.5012073243,
+        "percent": 46.344642,
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 205429,
             "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
             "anime": "MILGRAM",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
             "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.1022405277,
-            "similarity": 1.0,
-            "matched_descriptor": "faint-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "impulsive / impetuous / spontaneous / wild",
-        "descriptor_index": 3797,
-        "amplitude": 0.024538291,
-        "abs_amplitude": 0.024538291,
-        "raw_amplitude": 0.073614873,
-        "percent": 9.264464,
-        "raw_percent": 9.264464,
-        "coverage_percent": 35.280731,
-        "member_count": 4,
-        "members": [
-          "impulsive",
-          "impetuous",
-          "spontaneous",
-          "wild"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.073614873,
-            "similarity": 1.0,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "prone-to-anger / short-temperedness / short-tempered / hot-tempered / +4",
-        "descriptor_index": 5941,
-        "amplitude": 0.0220463105,
-        "abs_amplitude": 0.0220463105,
-        "raw_amplitude": 0.0661389315,
-        "percent": 8.323614,
-        "raw_percent": 8.323614,
-        "coverage_percent": 43.604345,
-        "member_count": 8,
-        "members": [
-          "prone-to-anger",
-          "short-temperedness",
-          "short-tempered",
-          "hot-tempered",
-          "temperamental",
-          "quick-tempered",
-          "annoyed-prone",
-          "friction-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0661389317,
-            "similarity": 0.910258,
-            "matched_descriptor": "violent temper / extreme mood swings"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "reticent / shy / unsociable / coy / +9",
-        "descriptor_index": 6278,
-        "amplitude": 0.0187336055,
-        "abs_amplitude": 0.0187336055,
-        "raw_amplitude": 0.0562008165,
-        "percent": 7.072898,
-        "raw_percent": 7.072898,
-        "coverage_percent": 50.677243,
-        "member_count": 13,
-        "members": [
-          "reticent",
-          "shy",
-          "unsociable",
-          "coy",
-          "untalkative",
-          "modest",
-          "standoffish",
-          "unsocial",
-          "aloof",
-          "quiet",
-          "taciturn",
-          "mute",
-          "demure"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0562008167,
-            "similarity": 0.902376,
-            "matched_descriptor": "faint-hearted / outspoken"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "berserk / hot-headed / mad",
-        "descriptor_index": 616,
-        "amplitude": 0.0153799264,
-        "abs_amplitude": 0.0153799264,
-        "raw_amplitude": 0.0461397791,
-        "percent": 5.806712,
-        "raw_percent": 5.806712,
-        "coverage_percent": 56.483954,
-        "member_count": 3,
-        "members": [
-          "berserk",
-          "hot-headed",
-          "mad"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.046139779,
-            "similarity": 0.934817,
-            "matched_descriptor": "violent temper"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "enraged / furious / indignant / ill-tempered / +1",
-        "descriptor_index": 2197,
-        "amplitude": 0.0150119212,
-        "abs_amplitude": 0.0150119212,
-        "raw_amplitude": 0.0450357636,
-        "percent": 5.667771,
-        "raw_percent": 5.667771,
-        "coverage_percent": 62.151725,
-        "member_count": 5,
-        "members": [
-          "enraged",
-          "furious",
-          "indignant",
-          "ill-tempered",
-          "angry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0450357635,
-            "similarity": 0.912307,
-            "matched_descriptor": "violent temper"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "capricious / unpredictable",
-        "descriptor_index": 933,
-        "amplitude": 0.0051501201,
-        "abs_amplitude": 0.0051501201,
-        "raw_amplitude": 0.0154503602,
-        "percent": 1.944435,
-        "raw_percent": 1.944435,
-        "coverage_percent": 64.09616,
-        "member_count": 2,
-        "members": [
-          "capricious",
-          "unpredictable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0154503602,
-            "similarity": 0.902201,
-            "matched_descriptor": "extreme mood swings / impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "talkative / communicative",
-        "descriptor_index": 7682,
-        "amplitude": 0.0049366329,
-        "abs_amplitude": 0.0049366329,
-        "raw_amplitude": 0.0148098986,
-        "percent": 1.863832,
-        "raw_percent": 1.863832,
-        "coverage_percent": 65.959992,
-        "member_count": 2,
-        "members": [
-          "talkative",
-          "communicative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0148098986,
-            "similarity": 0.892436,
-            "matched_descriptor": "outspoken"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "soft-spoken / sweet-voiced / delicate-voice",
-        "descriptor_index": 7061,
-        "amplitude": 0.0047040068,
-        "abs_amplitude": 0.0047040068,
-        "raw_amplitude": 0.0141120204,
-        "percent": 1.776004,
-        "raw_percent": 1.776004,
-        "coverage_percent": 67.735996,
-        "member_count": 3,
-        "members": [
-          "soft-spoken",
-          "sweet-voiced",
-          "delicate-voice"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0141120204,
-            "similarity": 0.894332,
-            "matched_descriptor": "outspoken"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "unstable / volatile / jumpy / mercurial",
-        "descriptor_index": 8224,
-        "amplitude": 0.0041196139,
-        "abs_amplitude": 0.0041196139,
-        "raw_amplitude": 0.0123588416,
-        "percent": 1.555366,
-        "raw_percent": 1.555366,
-        "coverage_percent": 69.291362,
-        "member_count": 4,
-        "members": [
-          "unstable",
-          "volatile",
-          "jumpy",
-          "mercurial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0123588416,
-            "similarity": 0.882918,
-            "matched_descriptor": "extreme mood swings / impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "undiplomatic / rough-talking / gruff",
-        "descriptor_index": 8119,
-        "amplitude": 0.0040356506,
-        "abs_amplitude": 0.0040356506,
-        "raw_amplitude": 0.0121069517,
-        "percent": 1.523665,
-        "raw_percent": 1.523665,
-        "coverage_percent": 70.815027,
-        "member_count": 3,
-        "members": [
-          "undiplomatic",
-          "rough-talking",
-          "gruff"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0121069517,
-            "similarity": 0.8925,
-            "matched_descriptor": "outspoken"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "fearful / intimidated",
-        "descriptor_index": 2482,
-        "amplitude": 0.0035059935,
-        "abs_amplitude": 0.0035059935,
-        "raw_amplitude": 0.0105179805,
-        "percent": 1.323692,
-        "raw_percent": 1.323692,
-        "coverage_percent": 72.138719,
-        "member_count": 2,
-        "members": [
-          "fearful",
-          "intimidated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0105179805,
-            "similarity": 0.890254,
-            "matched_descriptor": "faint-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "risk-taking",
-        "descriptor_index": 6328,
-        "amplitude": 0.0034431849,
-        "abs_amplitude": 0.0034431849,
-        "raw_amplitude": 0.0103295548,
-        "percent": 1.299979,
-        "raw_percent": 1.299979,
-        "coverage_percent": 73.438698,
-        "member_count": 1,
-        "members": [
-          "risk-taking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0103295548,
-            "similarity": 0.899319,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "quick / quick-acting / fast",
-        "descriptor_index": 6065,
-        "amplitude": 0.0030974465,
-        "abs_amplitude": 0.0030974465,
-        "raw_amplitude": 0.0092923396,
-        "percent": 1.169445,
-        "raw_percent": 1.169445,
-        "coverage_percent": 74.608143,
-        "member_count": 3,
-        "members": [
-          "quick",
-          "quick-acting",
-          "fast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0092923395,
-            "similarity": 0.862326,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "cold-blooded / cold / numb",
-        "descriptor_index": 1235,
-        "amplitude": 0.0029103209,
-        "abs_amplitude": 0.0029103209,
-        "raw_amplitude": 0.0087309627,
-        "percent": 1.098796,
-        "raw_percent": 1.098796,
-        "coverage_percent": 75.706939,
-        "member_count": 3,
-        "members": [
-          "cold-blooded",
-          "cold",
-          "numb"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0087309627,
-            "similarity": 0.876613,
-            "matched_descriptor": "faint-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "loud",
-        "descriptor_index": 4401,
-        "amplitude": 0.0028717944,
-        "abs_amplitude": 0.0028717944,
-        "raw_amplitude": 0.0086153832,
-        "percent": 1.08425,
-        "raw_percent": 1.08425,
-        "coverage_percent": 76.791189,
-        "member_count": 1,
-        "members": [
-          "loud"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0086153832,
-            "similarity": 0.896227,
-            "matched_descriptor": "outspoken"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "immature",
-        "descriptor_index": 3746,
-        "amplitude": 0.0027258306,
-        "abs_amplitude": 0.0027258306,
-        "raw_amplitude": 0.0081774917,
-        "percent": 1.029141,
-        "raw_percent": 1.029141,
-        "coverage_percent": 77.82033,
-        "member_count": 1,
-        "members": [
-          "immature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0081774917,
-            "similarity": 0.895536,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "opportunistic / opportunist",
-        "descriptor_index": 5339,
-        "amplitude": 0.002683015,
-        "abs_amplitude": 0.002683015,
-        "raw_amplitude": 0.0080490451,
-        "percent": 1.012976,
-        "raw_percent": 1.012976,
-        "coverage_percent": 78.833305,
-        "member_count": 2,
-        "members": [
-          "opportunistic",
-          "opportunist"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0080490451,
-            "similarity": 0.878053,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "instinctive",
-        "descriptor_index": 3931,
-        "amplitude": 0.0026730508,
-        "abs_amplitude": 0.0026730508,
-        "raw_amplitude": 0.0080191524,
-        "percent": 1.009214,
-        "raw_percent": 1.009214,
-        "coverage_percent": 79.842519,
-        "member_count": 1,
-        "members": [
-          "instinctive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0080191524,
-            "similarity": 0.889839,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "uncaring / apathetic / disinterested / unconcerned / +1",
-        "descriptor_index": 8070,
-        "amplitude": 0.0026570852,
-        "abs_amplitude": 0.0026570852,
-        "raw_amplitude": 0.0079712557,
-        "percent": 1.003186,
-        "raw_percent": 1.003186,
-        "coverage_percent": 80.845705,
-        "member_count": 5,
-        "members": [
-          "uncaring",
-          "apathetic",
-          "disinterested",
-          "unconcerned",
-          "indifferent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0079712557,
-            "similarity": 0.872742,
-            "matched_descriptor": "faint-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "hostile / pushy / threatening / belligerent / +2",
-        "descriptor_index": 3583,
-        "amplitude": 0.0024184791,
-        "abs_amplitude": 0.0024184791,
-        "raw_amplitude": 0.0072554373,
-        "percent": 0.9131,
-        "raw_percent": 0.9131,
-        "coverage_percent": 81.758805,
-        "member_count": 6,
-        "members": [
-          "hostile",
-          "pushy",
-          "threatening",
-          "belligerent",
-          "confrontational",
-          "offensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0072554373,
-            "similarity": 0.873455,
-            "matched_descriptor": "faint-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "simple-minded / naive",
-        "descriptor_index": 6870,
-        "amplitude": 0.0023853586,
-        "abs_amplitude": 0.0023853586,
-        "raw_amplitude": 0.0071560759,
-        "percent": 0.900595,
-        "raw_percent": 0.900595,
-        "coverage_percent": 82.659401,
-        "member_count": 2,
-        "members": [
-          "simple-minded",
-          "naive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0071560759,
-            "similarity": 0.881565,
-            "matched_descriptor": "faint-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "manic",
-        "descriptor_index": 4582,
-        "amplitude": 0.0021785672,
-        "abs_amplitude": 0.0021785672,
-        "raw_amplitude": 0.0065357016,
-        "percent": 0.822521,
-        "raw_percent": 0.822521,
-        "coverage_percent": 83.481922,
-        "member_count": 1,
-        "members": [
-          "manic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0065357016,
-            "similarity": 0.867694,
-            "matched_descriptor": "violent temper"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "awkward / clumsy / tactless",
-        "descriptor_index": 503,
-        "amplitude": 0.0021577559,
-        "abs_amplitude": 0.0021577559,
-        "raw_amplitude": 0.0064732676,
-        "percent": 0.814664,
-        "raw_percent": 0.814664,
-        "coverage_percent": 84.296585,
-        "member_count": 3,
-        "members": [
-          "awkward",
-          "clumsy",
-          "tactless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 205429,
-            "name": "Fuuta Kajiyama",
-            "native_name": "梶山風汰",
-            "anime": "MILGRAM",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
-            "site_url": "https://anilist.co/character/205429",
-            "anime_url": "https://myanimelist.net/anime/47794",
-            "role": "MAIN",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0064732676,
-            "similarity": 0.875062,
-            "matched_descriptor": "faint-hearted / impulsive"
+            "combined_favourites": 132
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "devious / crafty / impish",
-        "descriptor_index": 1790,
-        "amplitude": 0.0493997237,
-        "abs_amplitude": 0.0493997237,
-        "raw_amplitude": 0.148199171,
-        "percent": 24.40983,
-        "raw_percent": 24.409341,
-        "coverage_percent": 24.40983,
-        "member_count": 3,
-        "members": [
-          "devious",
-          "crafty",
-          "impish"
-        ],
+        "step": 1,
+        "descriptor": "violent",
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.148199171,
-            "similarity": 1.0,
-            "matched_descriptor": "devious"
-          }
-        ]
+        "fit_percent": 88.622718,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "sinister / malevolent / malicious / ominous",
-        "descriptor_index": 6884,
-        "amplitude": 0.0283732391,
-        "abs_amplitude": 0.0283732391,
-        "raw_amplitude": 0.0851197173,
-        "percent": 14.020037,
-        "raw_percent": 14.019756,
-        "coverage_percent": 38.429867,
-        "member_count": 4,
-        "members": [
-          "sinister",
-          "malevolent",
-          "malicious",
-          "ominous"
-        ],
+        "step": 2,
+        "descriptor": "outspoken",
+        "weighted_support": 2.42700415,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0851197173,
-            "similarity": 0.902064,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unethical / immoral / perverse",
-        "descriptor_index": 8129,
-        "amplitude": 0.0235607949,
-        "abs_amplitude": 0.0235607949,
-        "raw_amplitude": 0.0706823846,
-        "percent": 11.642069,
-        "raw_percent": 11.641836,
-        "coverage_percent": 50.071936,
-        "member_count": 3,
-        "members": [
-          "unethical",
-          "immoral",
-          "perverse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0706823846,
-            "similarity": 0.901299,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "nefarious",
-        "descriptor_index": 5080,
-        "amplitude": 0.0102706581,
-        "abs_amplitude": 0.0102706581,
-        "raw_amplitude": 0.0308119742,
-        "percent": 5.075029,
-        "raw_percent": 5.074927,
-        "coverage_percent": 55.146965,
-        "member_count": 1,
-        "members": [
-          "nefarious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0308119742,
-            "similarity": 0.908522,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mischief-causing / mischievous",
-        "descriptor_index": 4846,
-        "amplitude": 0.0094403313,
-        "abs_amplitude": 0.0094403313,
-        "raw_amplitude": 0.0283209939,
-        "percent": 4.66474,
-        "raw_percent": 4.664647,
-        "coverage_percent": 59.811705,
-        "member_count": 2,
-        "members": [
-          "mischief-causing",
-          "mischievous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0283209939,
-            "similarity": 0.869786,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "inventive / shrewd",
-        "descriptor_index": 3986,
-        "amplitude": 0.0090221367,
-        "abs_amplitude": 0.0090221367,
-        "raw_amplitude": 0.0270664101,
-        "percent": 4.458098,
-        "raw_percent": 4.458009,
-        "coverage_percent": 64.269803,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "shrewd"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0270664101,
-            "similarity": 0.89459,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "alert",
-        "descriptor_index": 163,
-        "amplitude": 0.0078696716,
-        "abs_amplitude": 0.0078696716,
-        "raw_amplitude": 0.0236090147,
-        "percent": 3.888632,
-        "raw_percent": 3.888554,
-        "coverage_percent": 68.158435,
-        "member_count": 1,
-        "members": [
-          "alert"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0236090147,
-            "similarity": 0.895693,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "lewd / lecherous / nosy",
-        "descriptor_index": 4288,
-        "amplitude": 0.0072828238,
-        "abs_amplitude": 0.0072828238,
-        "raw_amplitude": 0.0218484715,
-        "percent": 3.598654,
-        "raw_percent": 3.598582,
-        "coverage_percent": 71.757089,
-        "member_count": 3,
-        "members": [
-          "lewd",
-          "lecherous",
-          "nosy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0218484715,
-            "similarity": 0.87445,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "violent / abusive / bullying",
-        "descriptor_index": 8372,
-        "amplitude": 0.0062053164,
-        "abs_amplitude": 0.0062053164,
-        "raw_amplitude": 0.0186159493,
-        "percent": 3.066226,
-        "raw_percent": 3.066165,
-        "coverage_percent": 74.823315,
-        "member_count": 3,
-        "members": [
-          "violent",
-          "abusive",
-          "bullying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0186159493,
-            "similarity": 0.86335,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "intoxicated",
-        "descriptor_index": 3975,
-        "amplitude": 0.0039563898,
-        "abs_amplitude": 0.0039563898,
-        "raw_amplitude": 0.0118691694,
-        "percent": 1.954966,
-        "raw_percent": 1.954927,
-        "coverage_percent": 76.778281,
-        "member_count": 1,
-        "members": [
-          "intoxicated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0118691694,
-            "similarity": 0.859778,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "bouncy",
-        "descriptor_index": 777,
-        "amplitude": 0.0038897193,
-        "abs_amplitude": 0.0038897193,
-        "raw_amplitude": 0.0116691579,
-        "percent": 1.922023,
-        "raw_percent": 1.921984,
-        "coverage_percent": 78.700304,
-        "member_count": 1,
-        "members": [
-          "bouncy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0116691579,
-            "similarity": 0.869296,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "evil",
-        "descriptor_index": 2232,
-        "amplitude": 0.0037626422,
-        "abs_amplitude": 0.0037626422,
-        "raw_amplitude": 0.0112879265,
-        "percent": 1.85923,
-        "raw_percent": 1.859193,
-        "coverage_percent": 80.559534,
-        "member_count": 1,
-        "members": [
-          "evil"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0112879265,
-            "similarity": 0.864262,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "risky",
-        "descriptor_index": 6329,
-        "amplitude": 0.0033257416,
-        "abs_amplitude": 0.0033257416,
-        "raw_amplitude": 0.0099772247,
-        "percent": 1.643345,
-        "raw_percent": 1.643312,
-        "coverage_percent": 82.202879,
-        "member_count": 1,
-        "members": [
-          "risky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0099772247,
-            "similarity": 0.863687,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "moral",
-        "descriptor_index": 4927,
-        "amplitude": 0.0030697121,
-        "abs_amplitude": 0.0030697121,
-        "raw_amplitude": 0.0092091364,
-        "percent": 1.516833,
-        "raw_percent": 1.516803,
-        "coverage_percent": 83.719712,
-        "member_count": 1,
-        "members": [
-          "moral"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0092091364,
-            "similarity": 0.854069,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "vindictive",
-        "descriptor_index": 8371,
-        "amplitude": 0.0026128714,
-        "abs_amplitude": 0.0026128714,
-        "raw_amplitude": 0.0078386142,
-        "percent": 1.291095,
-        "raw_percent": 1.291069,
-        "coverage_percent": 85.010808,
-        "member_count": 1,
-        "members": [
-          "vindictive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0078386142,
-            "similarity": 0.849318,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "twisted",
-        "descriptor_index": 8035,
-        "amplitude": 0.002497932,
-        "abs_amplitude": 0.002497932,
-        "raw_amplitude": 0.0074937959,
-        "percent": 1.2343,
-        "raw_percent": 1.234276,
-        "coverage_percent": 86.245108,
-        "member_count": 1,
-        "members": [
-          "twisted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0074937959,
-            "similarity": 0.853984,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "cunning",
-        "descriptor_index": 1537,
-        "amplitude": 0.0023634023,
-        "abs_amplitude": 0.0023634023,
-        "raw_amplitude": 0.007090207,
-        "percent": 1.167825,
-        "raw_percent": 1.167802,
-        "coverage_percent": 87.412933,
-        "member_count": 1,
-        "members": [
-          "cunning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.007090207,
-            "similarity": 0.848036,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "perverted",
-        "descriptor_index": 5561,
-        "amplitude": 0.0022610416,
-        "abs_amplitude": 0.0022610416,
-        "raw_amplitude": 0.0067831249,
-        "percent": 1.117246,
-        "raw_percent": 1.117224,
-        "coverage_percent": 88.530179,
-        "member_count": 1,
-        "members": [
-          "perverted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0067831249,
-            "similarity": 0.844835,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "unorganised",
-        "descriptor_index": 8193,
-        "amplitude": 0.0021333016,
-        "abs_amplitude": 0.0021333016,
-        "raw_amplitude": 0.0063999048,
-        "percent": 1.054126,
-        "raw_percent": 1.054105,
-        "coverage_percent": 89.584305,
-        "member_count": 1,
-        "members": [
-          "unorganised"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0063999048,
-            "similarity": 0.84634,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "abnormal",
-        "descriptor_index": 9,
-        "amplitude": 0.0017899704,
-        "abs_amplitude": 0.0017899704,
-        "raw_amplitude": 0.0053699111,
-        "percent": 0.884476,
-        "raw_percent": 0.884458,
-        "coverage_percent": 90.468781,
-        "member_count": 1,
-        "members": [
-          "abnormal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0053699111,
-            "similarity": 0.845071,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "brusque / coarse",
-        "descriptor_index": 848,
-        "amplitude": 0.0016785685,
-        "abs_amplitude": 0.0016785685,
-        "raw_amplitude": 0.0050357054,
-        "percent": 0.829429,
-        "raw_percent": 0.829413,
-        "coverage_percent": 91.29821,
-        "member_count": 2,
-        "members": [
-          "brusque",
-          "coarse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0050357054,
-            "similarity": 0.857225,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "mercurial",
-        "descriptor_index": 4765,
-        "amplitude": 0.0016488375,
-        "abs_amplitude": 0.0016488375,
-        "raw_amplitude": 0.0049465125,
-        "percent": 0.814738,
-        "raw_percent": 0.814722,
-        "coverage_percent": 92.112948,
-        "member_count": 1,
-        "members": [
-          "mercurial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0049465125,
-            "similarity": 0.850665,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "immature",
-        "descriptor_index": 3746,
-        "amplitude": 0.0015069166,
-        "abs_amplitude": 0.0015069166,
-        "raw_amplitude": 0.0045207498,
-        "percent": 0.744611,
-        "raw_percent": 0.744596,
-        "coverage_percent": 92.857559,
-        "member_count": 1,
-        "members": [
-          "immature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0045207498,
-            "similarity": 0.862116,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "zany / kooky",
-        "descriptor_index": 8691,
-        "amplitude": 0.0014697819,
-        "abs_amplitude": 0.0014697819,
-        "raw_amplitude": 0.0044093457,
-        "percent": 0.726262,
-        "raw_percent": 0.726247,
-        "coverage_percent": 93.583821,
-        "member_count": 2,
-        "members": [
-          "zany",
-          "kooky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0044093457,
-            "similarity": 0.839046,
-            "matched_descriptor": "devious"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "anti-violence",
-        "descriptor_index": 283,
-        "amplitude": 0.0013873132,
-        "abs_amplitude": 0.0013873132,
-        "raw_amplitude": 0.0041619396,
-        "percent": 0.685512,
-        "raw_percent": 0.685498,
-        "coverage_percent": 94.269333,
-        "member_count": 1,
-        "members": [
-          "anti-violence"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1962,
-            "name": "Ken Ichijouji",
-            "native_name": "一乗寺賢",
-            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
-            "site_url": "https://anilist.co/character/1962",
-            "anime_url": "https://myanimelist.net/anime/11385",
-            "role": "SUPPORTING",
-            "favourites": 176,
-            "row_weight": 1.75729191,
-            "projection": 0.0041619396,
-            "similarity": 0.838292,
-            "matched_descriptor": "wicked acts"
-          }
-        ]
+        "fit_percent": 97.1081,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 205429,
         "name": "Fuuta Kajiyama",
-        "native_name": "梶山風汰",
         "anime": "MILGRAM",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
         "site_url": "https://anilist.co/character/205429",
-        "anime_url": "https://myanimelist.net/anime/47794",
-        "role": "MAIN",
         "favourites": 132,
+        "anilist_favourites": 132,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": null,
+        "bangumi_url": "",
+        "combined_favourites": 132,
+        "role_edge_count": 1,
+        "descriptors": [
+          "outspoken",
+          "violent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42700415,
         "row_weight": 2.42700415,
-        "amplitude": 0.7945939501,
-        "abs_amplitude": 0.7945939501,
-        "percent": 63.137955
+        "unweighted_row_norm": 1.79467995,
+        "amplitude": 0.8415277407,
+        "abs_amplitude": 0.8415277407,
+        "percent": 70.816894
       },
       {
         "character_id": 1962,
         "name": "Ken Ichijouji",
-        "native_name": "一乗寺賢",
         "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
         "site_url": "https://anilist.co/character/1962",
-        "anime_url": "https://myanimelist.net/anime/11385",
-        "role": "SUPPORTING",
         "favourites": 176,
-        "row_weight": 1.75729191,
-        "amplitude": -0.6071412146,
-        "abs_amplitude": 0.6071412146,
-        "percent": 36.862045
+        "anilist_favourites": 176,
+        "bangumi_collects": 11,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 9777,
+        "bangumi_url": "https://bgm.tv/character/9777",
+        "combined_favourites": 187,
+        "role_edge_count": 2,
+        "descriptors": [
+          "devious"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.49728692,
+        "row_weight": 1.76584852,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5402139036,
+        "abs_amplitude": 0.5402139036,
+        "percent": 29.183106
       }
     ],
     "positive_characters": [
       {
         "character_id": 205429,
         "name": "Fuuta Kajiyama",
-        "native_name": "梶山風汰",
         "anime": "MILGRAM",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
         "site_url": "https://anilist.co/character/205429",
-        "anime_url": "https://myanimelist.net/anime/47794",
-        "role": "MAIN",
         "favourites": 132,
+        "anilist_favourites": 132,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": null,
+        "bangumi_url": "",
+        "combined_favourites": 132,
+        "role_edge_count": 1,
+        "descriptors": [
+          "outspoken",
+          "violent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.42700415,
         "row_weight": 2.42700415,
-        "amplitude": 0.7945939501,
-        "abs_amplitude": 0.7945939501,
-        "percent": 63.137955
-      }
-    ],
-    "negative_characters": [
+        "unweighted_row_norm": 1.79467995,
+        "amplitude": 0.8415277407,
+        "abs_amplitude": 0.8415277407,
+        "percent": 70.816894
+      },
       {
         "character_id": 1962,
         "name": "Ken Ichijouji",
-        "native_name": "一乗寺賢",
         "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
         "site_url": "https://anilist.co/character/1962",
-        "anime_url": "https://myanimelist.net/anime/11385",
-        "role": "SUPPORTING",
         "favourites": 176,
-        "row_weight": 1.75729191,
-        "amplitude": -0.6071412146,
-        "abs_amplitude": 0.6071412146,
-        "percent": 36.862045
+        "anilist_favourites": 176,
+        "bangumi_collects": 11,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 9777,
+        "bangumi_url": "https://bgm.tv/character/9777",
+        "combined_favourites": 187,
+        "role_edge_count": 2,
+        "descriptors": [
+          "devious"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.49728692,
+        "row_weight": 1.76584852,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5402139036,
+        "abs_amplitude": 0.5402139036,
+        "percent": 29.183106
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.70454,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.0840222489,
+      "mass_percent": 13.044293,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 51.659856,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "devious",
+            "amplitude": 0.5165985563,
+            "abs_amplitude": 0.5165985563,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "devious",
+            "fit_percent": 51.659856,
+            "residual_gain_percent": 26.687407
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 1962,
+            "name": "Ken Ichijouji",
+            "anime": "Digimon Xros Wars: The Young Hunters Who Leapt Through Time",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1962-Ullc11tNI6fU.png",
+            "site_url": "https://anilist.co/character/1962",
+            "favourites": 176,
+            "anilist_favourites": 176,
+            "bangumi_collects": 11,
+            "bangumi_comments": 3,
+            "bangumi_character_id": 9777,
+            "bangumi_url": "https://bgm.tv/character/9777",
+            "combined_favourites": 187,
+            "role_edge_count": 2,
+            "descriptors": [
+              "devious"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.49728692,
+            "row_weight": 1.76584852,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.8415277407,
+            "abs_amplitude": 0.8415277407,
+            "percent": 70.816894
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 27.845547,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "outspoken",
+            "amplitude": 0.2784554706,
+            "abs_amplitude": 0.2784554706,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "outspoken",
+            "fit_percent": 27.845547,
+            "residual_gain_percent": 7.753745
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 205429,
+            "name": "Fuuta Kajiyama",
+            "anime": "MILGRAM",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b205429-vZSqx02XE3qH.jpg",
+            "site_url": "https://anilist.co/character/205429",
+            "favourites": 132,
+            "anilist_favourites": 132,
+            "bangumi_collects": 0,
+            "bangumi_comments": 0,
+            "bangumi_character_id": null,
+            "bangumi_url": "",
+            "combined_favourites": 132,
+            "role_edge_count": 1,
+            "descriptors": [
+              "outspoken",
+              "violent"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.42700415,
+            "row_weight": 2.42700415,
+            "unweighted_row_norm": 1.79467995,
+            "amplitude": -0.5402139036,
+            "abs_amplitude": 0.5402139036,
+            "percent": 29.183106
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.7988329485,
+      "mass_percent": 86.955707,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.0840222489,
+      "mass_percent": 13.044293,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

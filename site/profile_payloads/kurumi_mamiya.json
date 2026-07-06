@@ -11,1877 +11,322 @@
     "kurumi mamiya",
     "mamiya kurumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/kurumi_mamiya.json",
+  "sv1_mass_percent": 85.679075,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.7543589832,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.7543589832,
-        "mass_percent": 78.362095
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.0237894082,
-        "mass_percent": 21.637905
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 129.493502,
-      "normalized_entanglement": 0.337223,
-      "top5_mass_percent": 11.777919,
-      "top10_mass_percent": 16.551411
-    },
-    "character_participation": {
-      "effective_count": 1.784672,
-      "normalized_entanglement": 0.892336,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.188765,
-      "semantic_spread": 2.188765,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.241998,
-      "direction_spread": 1.241998,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 78.362095,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.4873565457,
+    "mass_percent": 85.854016,
+    "descriptor_fit_percent": 95.120301,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "innocent / childlike / ingenuous / simple-minded",
-        "descriptor_index": 3899,
-        "amplitude": 0.0494510761,
-        "abs_amplitude": 0.0494510761,
-        "raw_amplitude": 0.1483532282,
-        "percent": 25.970044,
-        "raw_percent": 25.970044,
-        "coverage_percent": 25.970044,
-        "member_count": 4,
-        "members": [
-          "innocent",
-          "childlike",
-          "ingenuous",
-          "simple-minded"
-        ],
+        "descriptor": "innocent",
+        "amplitude": 0.9512030124,
+        "abs_amplitude": 0.9512030124,
+        "percent": 100.0,
+        "weighted_support": 2.86402884,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 266372,
             "name": "Takopi",
-            "native_name": "タコピー",
             "anime": "Takopi's Original Sin",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
             "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.1483532282,
-            "similarity": 1.0,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "simplistic / simple / minimalist",
-        "descriptor_index": 6872,
-        "amplitude": 0.0415628265,
-        "abs_amplitude": 0.0415628265,
-        "raw_amplitude": 0.1246884795,
-        "percent": 21.8274,
-        "raw_percent": 21.8274,
-        "coverage_percent": 47.797445,
-        "member_count": 3,
-        "members": [
-          "simplistic",
-          "simple",
-          "minimalist"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.1246884795,
-            "similarity": 1.0,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "straight-forward / plain-spoken",
-        "descriptor_index": 7281,
-        "amplitude": 0.0105396607,
-        "abs_amplitude": 0.0105396607,
-        "raw_amplitude": 0.0316189821,
-        "percent": 5.535076,
-        "raw_percent": 5.535076,
-        "coverage_percent": 53.33252,
-        "member_count": 2,
-        "members": [
-          "straight-forward",
-          "plain-spoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0316189821,
-            "similarity": 0.87497,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "underdeveloped",
-        "descriptor_index": 8102,
-        "amplitude": 0.0089020948,
-        "abs_amplitude": 0.0089020948,
-        "raw_amplitude": 0.0267062844,
-        "percent": 4.675081,
-        "raw_percent": 4.675081,
-        "coverage_percent": 58.007602,
-        "member_count": 1,
-        "members": [
-          "underdeveloped"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0267062844,
-            "similarity": 0.893301,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "benign / non-lethal",
-        "descriptor_index": 614,
-        "amplitude": 0.008734772,
-        "abs_amplitude": 0.008734772,
-        "raw_amplitude": 0.026204316,
-        "percent": 4.587209,
-        "raw_percent": 4.587209,
-        "coverage_percent": 62.59481,
-        "member_count": 2,
-        "members": [
-          "benign",
-          "non-lethal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.026204316,
-            "similarity": 0.883208,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "childish",
-        "descriptor_index": 1091,
-        "amplitude": 0.0079382087,
-        "abs_amplitude": 0.0079382087,
-        "raw_amplitude": 0.023814626,
-        "percent": 4.168881,
-        "raw_percent": 4.168881,
-        "coverage_percent": 66.763691,
-        "member_count": 1,
-        "members": [
-          "childish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.023814626,
-            "similarity": 0.898214,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "naive",
-        "descriptor_index": 5027,
-        "amplitude": 0.0059195113,
-        "abs_amplitude": 0.0059195113,
-        "raw_amplitude": 0.0177585338,
-        "percent": 3.108728,
-        "raw_percent": 3.108728,
-        "coverage_percent": 69.872419,
-        "member_count": 1,
-        "members": [
-          "naive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0177585338,
-            "similarity": 0.896757,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "alien",
-        "descriptor_index": 165,
-        "amplitude": 0.0058007525,
-        "abs_amplitude": 0.0058007525,
-        "raw_amplitude": 0.0174022576,
-        "percent": 3.04636,
-        "raw_percent": 3.04636,
-        "coverage_percent": 72.91878,
-        "member_count": 1,
-        "members": [
-          "alien"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0174022576,
-            "similarity": 0.869542,
-            "matched_descriptor": "happian alien"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "plain",
-        "descriptor_index": 5633,
-        "amplitude": 0.0054554053,
-        "abs_amplitude": 0.0054554053,
-        "raw_amplitude": 0.016366216,
-        "percent": 2.864996,
-        "raw_percent": 2.864996,
-        "coverage_percent": 75.783775,
-        "member_count": 1,
-        "members": [
-          "plain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.016366216,
-            "similarity": 0.884673,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "guileless",
-        "descriptor_index": 3249,
-        "amplitude": 0.0054347217,
-        "abs_amplitude": 0.0054347217,
-        "raw_amplitude": 0.0163041652,
-        "percent": 2.854133,
-        "raw_percent": 2.854133,
-        "coverage_percent": 78.637909,
-        "member_count": 1,
-        "members": [
-          "guileless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0163041652,
-            "similarity": 0.879431,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "untrained / inexperienced",
-        "descriptor_index": 8235,
-        "amplitude": 0.0048310177,
-        "abs_amplitude": 0.0048310177,
-        "raw_amplitude": 0.0144930531,
-        "percent": 2.537088,
-        "raw_percent": 2.537088,
-        "coverage_percent": 81.174997,
-        "member_count": 2,
-        "members": [
-          "untrained",
-          "inexperienced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.014493053,
-            "similarity": 0.839239,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "pure",
-        "descriptor_index": 6031,
-        "amplitude": 0.0041740164,
-        "abs_amplitude": 0.0041740164,
-        "raw_amplitude": 0.0125220492,
-        "percent": 2.192053,
-        "raw_percent": 2.192053,
-        "coverage_percent": 83.36705,
-        "member_count": 1,
-        "members": [
-          "pure"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0125220492,
-            "similarity": 0.879805,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "shallow / superficial",
-        "descriptor_index": 6751,
-        "amplitude": 0.0040891706,
-        "abs_amplitude": 0.0040891706,
-        "raw_amplitude": 0.0122675118,
-        "percent": 2.147495,
-        "raw_percent": 2.147495,
-        "coverage_percent": 85.514545,
-        "member_count": 2,
-        "members": [
-          "shallow",
-          "superficial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0122675118,
-            "similarity": 0.844293,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "perverse",
-        "descriptor_index": 5558,
-        "amplitude": 0.003626887,
-        "abs_amplitude": 0.003626887,
-        "raw_amplitude": 0.0108806611,
-        "percent": 1.904719,
-        "raw_percent": 1.904719,
-        "coverage_percent": 87.419264,
-        "member_count": 1,
-        "members": [
-          "perverse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0108806611,
-            "similarity": 0.865868,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "risk-averse / circumspect",
-        "descriptor_index": 6327,
-        "amplitude": 0.0022275481,
-        "abs_amplitude": 0.0022275481,
-        "raw_amplitude": 0.0066826444,
-        "percent": 1.169833,
-        "raw_percent": 1.169833,
-        "coverage_percent": 88.589098,
-        "member_count": 2,
-        "members": [
-          "risk-averse",
-          "circumspect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0066826445,
-            "similarity": 0.853916,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "natural",
-        "descriptor_index": 5053,
-        "amplitude": 0.002045376,
-        "abs_amplitude": 0.002045376,
-        "raw_amplitude": 0.006136128,
-        "percent": 1.074163,
-        "raw_percent": 1.074163,
-        "coverage_percent": 89.663261,
-        "member_count": 1,
-        "members": [
-          "natural"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.006136128,
-            "similarity": 0.854268,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "no-nonsense / down-to-earth",
-        "descriptor_index": 5152,
-        "amplitude": 0.001877277,
-        "abs_amplitude": 0.001877277,
-        "raw_amplitude": 0.005631831,
-        "percent": 0.985883,
-        "raw_percent": 0.985883,
-        "coverage_percent": 90.649144,
-        "member_count": 2,
-        "members": [
-          "no-nonsense",
-          "down-to-earth"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.005631831,
-            "similarity": 0.8533,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "righteous",
-        "descriptor_index": 6317,
-        "amplitude": 0.0017036181,
-        "abs_amplitude": 0.0017036181,
-        "raw_amplitude": 0.0051108543,
-        "percent": 0.894683,
-        "raw_percent": 0.894683,
-        "coverage_percent": 91.543827,
-        "member_count": 1,
-        "members": [
-          "righteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0051108543,
-            "similarity": 0.860207,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0016905226,
-        "abs_amplitude": 0.0016905226,
-        "raw_amplitude": 0.0050715678,
-        "percent": 0.887806,
-        "raw_percent": 0.887806,
-        "coverage_percent": 92.431632,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0050715678,
-            "similarity": 0.858288,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "prudish",
-        "descriptor_index": 5984,
-        "amplitude": 0.0016886033,
-        "abs_amplitude": 0.0016886033,
-        "raw_amplitude": 0.0050658099,
-        "percent": 0.886798,
-        "raw_percent": 0.886798,
-        "coverage_percent": 93.31843,
-        "member_count": 1,
-        "members": [
-          "prudish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0050658099,
-            "similarity": 0.858225,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "well-composed",
-        "descriptor_index": 8523,
-        "amplitude": 0.0014775832,
-        "abs_amplitude": 0.0014775832,
-        "raw_amplitude": 0.0044327497,
-        "percent": 0.775977,
-        "raw_percent": 0.775977,
-        "coverage_percent": 94.094407,
-        "member_count": 1,
-        "members": [
-          "well-composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0044327497,
-            "similarity": 0.830444,
-            "matched_descriptor": "simplistic"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "reckless",
-        "descriptor_index": 6157,
-        "amplitude": 0.0013499455,
-        "abs_amplitude": 0.0013499455,
-        "raw_amplitude": 0.0040498364,
-        "percent": 0.708946,
-        "raw_percent": 0.708946,
-        "coverage_percent": 94.803353,
-        "member_count": 1,
-        "members": [
-          "reckless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0040498364,
-            "similarity": 0.848785,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "flighty",
-        "descriptor_index": 2610,
-        "amplitude": 0.0013434857,
-        "abs_amplitude": 0.0013434857,
-        "raw_amplitude": 0.0040304572,
-        "percent": 0.705554,
-        "raw_percent": 0.705554,
-        "coverage_percent": 95.508907,
-        "member_count": 1,
-        "members": [
-          "flighty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 266372,
-            "name": "Takopi",
-            "native_name": "タコピー",
-            "anime": "Takopi's Original Sin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
-            "site_url": "https://anilist.co/character/266372",
-            "anime_url": "https://myanimelist.net/anime/60489",
-            "role": "MAIN",
-            "favourites": 1276,
-            "row_weight": 2.85521783,
-            "projection": 0.0040304572,
-            "similarity": 0.858949,
-            "matched_descriptor": "innocent"
+            "combined_favourites": 1342
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "kind-hearted / benevolent / humane / kind / +11",
-        "descriptor_index": 4144,
-        "amplitude": 0.0594825196,
-        "abs_amplitude": 0.0594825196,
-        "raw_amplitude": 0.1784475587,
-        "percent": 21.741273,
-        "raw_percent": 21.741273,
-        "coverage_percent": 21.741273,
-        "member_count": 15,
-        "members": [
-          "kind-hearted",
-          "benevolent",
-          "humane",
-          "kind",
-          "good-hearted",
-          "compassionate",
-          "soft-spotted",
-          "good-natured",
-          "soft-hearted",
-          "well-meaning",
-          "tender-hearted",
-          "good",
-          "gentle-hearted",
-          "pure-hearted",
-          "kindhearted"
-        ],
+        "step": 1,
+        "descriptor": "innocent",
+        "weighted_support": 2.86402884,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1784475585,
-            "similarity": 1.0,
-            "matched_descriptor": "kind-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0401561126,
-        "abs_amplitude": 0.0401561126,
-        "raw_amplitude": 0.1204683378,
-        "percent": 14.677338,
-        "raw_percent": 14.677338,
-        "coverage_percent": 36.418611,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1204683379,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "gentle / courteous / pleasant / warm / +9",
-        "descriptor_index": 2955,
-        "amplitude": 0.0361837716,
-        "abs_amplitude": 0.0361837716,
-        "raw_amplitude": 0.1085513149,
-        "percent": 13.22542,
-        "raw_percent": 13.22542,
-        "coverage_percent": 49.644031,
-        "member_count": 13,
-        "members": [
-          "gentle",
-          "courteous",
-          "pleasant",
-          "warm",
-          "polite",
-          "approachable",
-          "relaxed",
-          "soft",
-          "sweet-natured",
-          "frank",
-          "friendly-type",
-          "soft-side",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1085513148,
-            "similarity": 1.0,
-            "matched_descriptor": "gentle"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.015560063,
-        "abs_amplitude": 0.015560063,
-        "raw_amplitude": 0.0466801889,
-        "percent": 5.687311,
-        "raw_percent": 5.687311,
-        "coverage_percent": 55.331342,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0466801888,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "nosy / lewd",
-        "descriptor_index": 5208,
-        "amplitude": 0.0126192396,
-        "abs_amplitude": 0.0126192396,
-        "raw_amplitude": 0.0378577187,
-        "percent": 4.61242,
-        "raw_percent": 4.61242,
-        "coverage_percent": 59.943761,
-        "member_count": 2,
-        "members": [
-          "nosy",
-          "lewd"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0378577187,
-            "similarity": 1.0,
-            "matched_descriptor": "nosy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "adventurous",
-        "descriptor_index": 100,
-        "amplitude": 0.0090579848,
-        "abs_amplitude": 0.0090579848,
-        "raw_amplitude": 0.0271739543,
-        "percent": 3.310756,
-        "raw_percent": 3.310756,
-        "coverage_percent": 63.254517,
-        "member_count": 1,
-        "members": [
-          "adventurous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0271739543,
-            "similarity": 1.0,
-            "matched_descriptor": "adventurous"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "amicable / amiable / mellow / open-hearted / +2",
-        "descriptor_index": 202,
-        "amplitude": 0.0069753482,
-        "abs_amplitude": 0.0069753482,
-        "raw_amplitude": 0.0209260447,
-        "percent": 2.549538,
-        "raw_percent": 2.549538,
-        "coverage_percent": 65.804056,
-        "member_count": 6,
-        "members": [
-          "amicable",
-          "amiable",
-          "mellow",
-          "open-hearted",
-          "non-hostile",
-          "cordial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0209260448,
-            "similarity": 0.908579,
-            "matched_descriptor": "kind-hearted / gentle"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fearless / audacious / daring / unashamed",
-        "descriptor_index": 2486,
-        "amplitude": 0.0069089139,
-        "abs_amplitude": 0.0069089139,
-        "raw_amplitude": 0.0207267418,
-        "percent": 2.525256,
-        "raw_percent": 2.525256,
-        "coverage_percent": 68.329312,
-        "member_count": 4,
-        "members": [
-          "fearless",
-          "audacious",
-          "daring",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0207267418,
-            "similarity": 0.86764,
-            "matched_descriptor": "adventurous"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "big-hearted / bighearted / warm-hearted",
-        "descriptor_index": 648,
-        "amplitude": 0.0066410463,
-        "abs_amplitude": 0.0066410463,
-        "raw_amplitude": 0.019923139,
-        "percent": 2.427348,
-        "raw_percent": 2.427348,
-        "coverage_percent": 70.75666,
-        "member_count": 3,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0199231389,
-            "similarity": 0.905547,
-            "matched_descriptor": "kind-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "enthusiastic / fervent / zealous",
-        "descriptor_index": 2207,
-        "amplitude": 0.0046742396,
-        "abs_amplitude": 0.0046742396,
-        "raw_amplitude": 0.0140227189,
-        "percent": 1.708467,
-        "raw_percent": 1.708467,
-        "coverage_percent": 72.465127,
-        "member_count": 3,
-        "members": [
-          "enthusiastic",
-          "fervent",
-          "zealous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0140227188,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic / adventurous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "boisterous / perky",
-        "descriptor_index": 743,
-        "amplitude": 0.0045339699,
-        "abs_amplitude": 0.0045339699,
-        "raw_amplitude": 0.0136019096,
-        "percent": 1.657197,
-        "raw_percent": 1.657197,
-        "coverage_percent": 74.122324,
-        "member_count": 2,
-        "members": [
-          "boisterous",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0136019096,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "hyperactive / active",
-        "descriptor_index": 3662,
-        "amplitude": 0.0044677267,
-        "abs_amplitude": 0.0044677267,
-        "raw_amplitude": 0.0134031801,
-        "percent": 1.632985,
-        "raw_percent": 1.632985,
-        "coverage_percent": 75.75531,
-        "member_count": 2,
-        "members": [
-          "hyperactive",
-          "active"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0134031801,
-            "similarity": 0.875966,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "searching",
-        "descriptor_index": 6536,
-        "amplitude": 0.0037435393,
-        "abs_amplitude": 0.0037435393,
-        "raw_amplitude": 0.0112306178,
-        "percent": 1.36829,
-        "raw_percent": 1.36829,
-        "coverage_percent": 77.123599,
-        "member_count": 1,
-        "members": [
-          "searching"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0112306178,
-            "similarity": 0.883101,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "inquisitive",
-        "descriptor_index": 3908,
-        "amplitude": 0.0034147331,
-        "abs_amplitude": 0.0034147331,
-        "raw_amplitude": 0.0102441992,
-        "percent": 1.248109,
-        "raw_percent": 1.248109,
-        "coverage_percent": 78.371708,
-        "member_count": 1,
-        "members": [
-          "inquisitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0102441992,
-            "similarity": 0.89419,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "virtuous / noble-spirited / openhearted / righteous",
-        "descriptor_index": 8393,
-        "amplitude": 0.0030909708,
-        "abs_amplitude": 0.0030909708,
-        "raw_amplitude": 0.0092729125,
-        "percent": 1.129771,
-        "raw_percent": 1.129771,
-        "coverage_percent": 79.501479,
-        "member_count": 4,
-        "members": [
-          "virtuous",
-          "noble-spirited",
-          "openhearted",
-          "righteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0092729125,
-            "similarity": 0.892084,
-            "matched_descriptor": "kind-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "informed / well-read / well-versed / knowledgeable",
-        "descriptor_index": 3881,
-        "amplitude": 0.0029878638,
-        "abs_amplitude": 0.0029878638,
-        "raw_amplitude": 0.0089635914,
-        "percent": 1.092085,
-        "raw_percent": 1.092085,
-        "coverage_percent": 80.593564,
-        "member_count": 4,
-        "members": [
-          "informed",
-          "well-read",
-          "well-versed",
-          "knowledgeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0089635914,
-            "similarity": 0.86032,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "opportunistic / opportunist",
-        "descriptor_index": 5339,
-        "amplitude": 0.0028679003,
-        "abs_amplitude": 0.0028679003,
-        "raw_amplitude": 0.0086037008,
-        "percent": 1.048237,
-        "raw_percent": 1.048237,
-        "coverage_percent": 81.641801,
-        "member_count": 2,
-        "members": [
-          "opportunistic",
-          "opportunist"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0086037007,
-            "similarity": 0.868499,
-            "matched_descriptor": "adventurous"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "lecherous",
-        "descriptor_index": 4255,
-        "amplitude": 0.0025237077,
-        "abs_amplitude": 0.0025237077,
-        "raw_amplitude": 0.0075711232,
-        "percent": 0.922433,
-        "raw_percent": 0.922433,
-        "coverage_percent": 82.564234,
-        "member_count": 1,
-        "members": [
-          "lecherous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0075711232,
-            "similarity": 0.884415,
-            "matched_descriptor": "nosy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "direct / blunt / no-nonsense / fair-minded",
-        "descriptor_index": 1822,
-        "amplitude": 0.0025063349,
-        "abs_amplitude": 0.0025063349,
-        "raw_amplitude": 0.0075190048,
-        "percent": 0.916083,
-        "raw_percent": 0.916083,
-        "coverage_percent": 83.480317,
-        "member_count": 4,
-        "members": [
-          "direct",
-          "blunt",
-          "no-nonsense",
-          "fair-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0075190049,
-            "similarity": 0.876722,
-            "matched_descriptor": "nosy"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "loving / caring",
-        "descriptor_index": 4420,
-        "amplitude": 0.0022069547,
-        "abs_amplitude": 0.0022069547,
-        "raw_amplitude": 0.006620864,
-        "percent": 0.806657,
-        "raw_percent": 0.806657,
-        "coverage_percent": 84.286974,
-        "member_count": 2,
-        "members": [
-          "loving",
-          "caring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.006620864,
-            "similarity": 0.894626,
-            "matched_descriptor": "kind-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0021945664,
-        "abs_amplitude": 0.0021945664,
-        "raw_amplitude": 0.0065836992,
-        "percent": 0.802129,
-        "raw_percent": 0.802129,
-        "coverage_percent": 85.089103,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0065836992,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "interested",
-        "descriptor_index": 3956,
-        "amplitude": 0.0021077117,
-        "abs_amplitude": 0.0021077117,
-        "raw_amplitude": 0.0063231352,
-        "percent": 0.770383,
-        "raw_percent": 0.770383,
-        "coverage_percent": 85.859487,
-        "member_count": 1,
-        "members": [
-          "interested"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0063231352,
-            "similarity": 0.877057,
-            "matched_descriptor": "nosy"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "easygoing / laid-back / nonchalant",
-        "descriptor_index": 2037,
-        "amplitude": 0.0020058308,
-        "abs_amplitude": 0.0020058308,
-        "raw_amplitude": 0.0060174923,
-        "percent": 0.733145,
-        "raw_percent": 0.733145,
-        "coverage_percent": 86.592632,
-        "member_count": 3,
-        "members": [
-          "easygoing",
-          "laid-back",
-          "nonchalant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0060174924,
-            "similarity": 0.899832,
-            "matched_descriptor": "gentle"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0019208805,
-        "abs_amplitude": 0.0019208805,
-        "raw_amplitude": 0.0057626414,
-        "percent": 0.702095,
-        "raw_percent": 0.702095,
-        "coverage_percent": 87.294727,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0057626414,
-            "similarity": 0.857765,
-            "matched_descriptor": "adventurous"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0019128008,
-        "abs_amplitude": 0.0019128008,
-        "raw_amplitude": 0.0057384025,
-        "percent": 0.699142,
-        "raw_percent": 0.699142,
-        "coverage_percent": 87.993869,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4019,
-            "name": "Hamtarou",
-            "native_name": "ハム太郎",
-            "anime": "Tottoko Hamtarou (2012)",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-            "site_url": "https://anilist.co/character/4019",
-            "anime_url": "https://anilist.co/anime/118641",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0057384025,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "fit_percent": 95.120301,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 4019,
-        "name": "Hamtarou",
-        "native_name": "ハム太郎",
-        "anime": "Tottoko Hamtarou (2012)",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
-        "site_url": "https://anilist.co/character/4019",
-        "anime_url": "https://anilist.co/anime/118641",
-        "role": "MAIN",
-        "favourites": 137,
-        "row_weight": 2.43459518,
-        "amplitude": -0.8207778582,
-        "abs_amplitude": 0.8207778582,
-        "percent": 67.367629
-      },
-      {
         "character_id": 266372,
         "name": "Takopi",
-        "native_name": "タコピー",
         "anime": "Takopi's Original Sin",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
         "site_url": "https://anilist.co/character/266372",
-        "anime_url": "https://myanimelist.net/anime/60489",
-        "role": "MAIN",
         "favourites": 1276,
-        "row_weight": 2.85521783,
-        "amplitude": 0.5712475011,
-        "abs_amplitude": 0.5712475011,
-        "percent": 32.632371
+        "anilist_favourites": 1276,
+        "bangumi_collects": 66,
+        "bangumi_comments": 81,
+        "bangumi_character_id": 162156,
+        "bangumi_url": "https://bgm.tv/character/162156",
+        "combined_favourites": 1342,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.86402884,
+        "row_weight": 2.86402884,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7811856415,
+        "abs_amplitude": 0.7811856415,
+        "percent": 61.025101
+      },
+      {
+        "character_id": 4019,
+        "name": "Hamtarou",
+        "anime": "Tottoko Hamtarou (2012)",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
+        "site_url": "https://anilist.co/character/4019",
+        "favourites": 137,
+        "anilist_favourites": 137,
+        "bangumi_collects": 5,
+        "bangumi_comments": 2,
+        "bangumi_character_id": 12318,
+        "bangumi_url": "https://bgm.tv/character/12318",
+        "combined_favourites": 142,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind-hearted",
+          "nosy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.44189366,
+        "row_weight": 2.44189366,
+        "unweighted_row_norm": 1.77294413,
+        "amplitude": 0.6242988015,
+        "abs_amplitude": 0.6242988015,
+        "percent": 38.974899
       }
     ],
     "positive_characters": [
       {
         "character_id": 266372,
         "name": "Takopi",
-        "native_name": "タコピー",
         "anime": "Takopi's Original Sin",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
         "site_url": "https://anilist.co/character/266372",
-        "anime_url": "https://myanimelist.net/anime/60489",
-        "role": "MAIN",
         "favourites": 1276,
-        "row_weight": 2.85521783,
-        "amplitude": 0.5712475011,
-        "abs_amplitude": 0.5712475011,
-        "percent": 32.632371
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 1276,
+        "bangumi_collects": 66,
+        "bangumi_comments": 81,
+        "bangumi_character_id": 162156,
+        "bangumi_url": "https://bgm.tv/character/162156",
+        "combined_favourites": 1342,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.86402884,
+        "row_weight": 2.86402884,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7811856415,
+        "abs_amplitude": 0.7811856415,
+        "percent": 61.025101
+      },
       {
         "character_id": 4019,
         "name": "Hamtarou",
-        "native_name": "ハム太郎",
         "anime": "Tottoko Hamtarou (2012)",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
         "site_url": "https://anilist.co/character/4019",
-        "anime_url": "https://anilist.co/anime/118641",
-        "role": "MAIN",
         "favourites": 137,
-        "row_weight": 2.43459518,
-        "amplitude": -0.8207778582,
-        "abs_amplitude": 0.8207778582,
-        "percent": 67.367629
+        "anilist_favourites": 137,
+        "bangumi_collects": 5,
+        "bangumi_comments": 2,
+        "bangumi_character_id": 12318,
+        "bangumi_url": "https://bgm.tv/character/12318",
+        "combined_favourites": 142,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind-hearted",
+          "nosy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.44189366,
+        "row_weight": 2.44189366,
+        "unweighted_row_norm": 1.77294413,
+        "amplitude": 0.6242988015,
+        "abs_amplitude": 0.6242988015,
+        "percent": 38.974899
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.907267,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.4155741415,
+      "mass_percent": 14.145984,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 30.856576,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "innocent",
+            "amplitude": 0.3085657615,
+            "abs_amplitude": 0.3085657615,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "innocent",
+            "fit_percent": 30.856576,
+            "residual_gain_percent": 9.521283
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 266372,
+            "name": "Takopi",
+            "anime": "Takopi's Original Sin",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b266372-zUgh0xxukbW8.png",
+            "site_url": "https://anilist.co/character/266372",
+            "favourites": 1276,
+            "anilist_favourites": 1276,
+            "bangumi_collects": 66,
+            "bangumi_comments": 81,
+            "bangumi_character_id": 162156,
+            "bangumi_url": "https://bgm.tv/character/162156",
+            "combined_favourites": 1342,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.86402884,
+            "row_weight": 2.86402884,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6242988015,
+            "abs_amplitude": 0.6242988015,
+            "percent": 38.974899
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 45.360726,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind-hearted",
+            "amplitude": 0.2836203415,
+            "abs_amplitude": 0.2836203415,
+            "percent": 55.519086
+          },
+          {
+            "rank": 2,
+            "descriptor": "nosy",
+            "amplitude": 0.2272316267,
+            "abs_amplitude": 0.2272316267,
+            "percent": 44.480914
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind-hearted",
+            "fit_percent": 41.352081,
+            "residual_gain_percent": 17.099946
+          },
+          {
+            "step": 2,
+            "descriptor": "nosy",
+            "fit_percent": 45.360726,
+            "residual_gain_percent": 4.19301
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 4019,
+            "name": "Hamtarou",
+            "anime": "Tottoko Hamtarou (2012)",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4019-1iAbgKRfEfAG.png",
+            "site_url": "https://anilist.co/character/4019",
+            "favourites": 137,
+            "anilist_favourites": 137,
+            "bangumi_collects": 5,
+            "bangumi_comments": 2,
+            "bangumi_character_id": 12318,
+            "bangumi_url": "https://bgm.tv/character/12318",
+            "combined_favourites": 142,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind-hearted",
+              "nosy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.44189366,
+            "row_weight": 2.44189366,
+            "unweighted_row_norm": 1.77294413,
+            "amplitude": -0.7811856415,
+            "abs_amplitude": 0.7811856415,
+            "percent": 61.025101
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.4873565457,
+      "mass_percent": 85.854016,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.4155741415,
+      "mass_percent": 14.145984,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

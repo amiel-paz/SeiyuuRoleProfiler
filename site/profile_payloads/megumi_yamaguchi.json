@@ -11,2253 +11,356 @@
     "megumi yamaguchi",
     "yamaguchi megumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/megumi_yamaguchi.json",
+  "sv1_mass_percent": 83.224618,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 8.8119109633,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 8.8119109633,
-        "mass_percent": 81.551807
-      },
-      {
-        "rank": 2,
-        "singular_value": 4.1911212767,
-        "mass_percent": 18.448193
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 182.97515,
-      "normalized_entanglement": 0.476498,
-      "top5_mass_percent": 7.193961,
-      "top10_mass_percent": 12.469461
-    },
-    "character_participation": {
-      "effective_count": 1.902131,
-      "normalized_entanglement": 0.951066,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.57802,
-      "semantic_spread": 1.57802,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.615644,
-      "direction_spread": 0.615644,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 81.551807,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.6068468642,
+    "mass_percent": 87.288924,
+    "descriptor_fit_percent": 95.594906,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0971282731,
-        "abs_amplitude": 0.0971282731,
-        "raw_amplitude": 0.2913848194,
-        "percent": 20.167615,
-        "raw_percent": 20.73961,
-        "coverage_percent": 20.167615,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.9559490594,
+        "abs_amplitude": 0.9559490594,
+        "percent": 100.0,
+        "weighted_support": 2.93957212,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89644,
             "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
             "anime": "NEW GAME!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
             "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.2913848196,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "cheerful / upbeat / cheery / joyous / +17",
-        "descriptor_index": 1036,
-        "amplitude": 0.0516162651,
-        "abs_amplitude": 0.0516162651,
-        "raw_amplitude": 0.1548487952,
-        "percent": 10.717549,
-        "raw_percent": 11.02152,
-        "coverage_percent": 30.885164,
-        "member_count": 21,
-        "members": [
-          "cheerful",
-          "upbeat",
-          "cheery",
-          "joyous",
-          "happy",
-          "smiling",
-          "gleeful",
-          "joyful",
-          "exuberant",
-          "vivacious",
-          "spirited",
-          "giddy",
-          "encouraging",
-          "jocular",
-          "cheerful-looking",
-          "sunny",
-          "energetic",
-          "jovial",
-          "perky",
-          "lighthearted",
-          "happiness-experiencing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.1548487953,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "frigid / insensitive / numb / dispassionate / +5",
-        "descriptor_index": 2835,
-        "amplitude": 0.0330960898,
-        "abs_amplitude": 0.0330960898,
-        "raw_amplitude": 0.0909988351,
-        "percent": 6.872038,
-        "raw_percent": 6.476934,
-        "coverage_percent": 37.757202,
-        "member_count": 9,
-        "members": [
-          "frigid",
-          "insensitive",
-          "numb",
-          "dispassionate",
-          "cold-hearted",
-          "unfeeling",
-          "apathetic",
-          "unemotional",
-          "cold"
-        ],
-        "support": 2,
-        "effective_support": 1.091094,
-        "support_factor": 0.363698,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0870267759,
-            "similarity": 0.965891,
-            "matched_descriptor": "empathy lacking"
-          },
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0039720593,
-            "similarity": 0.860845,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "humorous / comical / funny / amusing / +3",
-        "descriptor_index": 3645,
-        "amplitude": 0.0288304379,
-        "abs_amplitude": 0.0288304379,
-        "raw_amplitude": 0.0864913137,
-        "percent": 5.986323,
-        "raw_percent": 6.156107,
-        "coverage_percent": 43.743525,
-        "member_count": 7,
-        "members": [
-          "humorous",
-          "comical",
-          "funny",
-          "amusing",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0864913138,
-            "similarity": 1.0,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "clever / intelligent / shrewd / brainy / +5",
-        "descriptor_index": 1174,
-        "amplitude": 0.0278525699,
-        "abs_amplitude": 0.0278525699,
-        "raw_amplitude": 0.0835577097,
-        "percent": 5.783279,
-        "raw_percent": 5.947305,
-        "coverage_percent": 49.526804,
-        "member_count": 9,
-        "members": [
-          "clever",
-          "intelligent",
-          "shrewd",
-          "brainy",
-          "smart",
-          "astute",
-          "inventive",
-          "quick-thinking",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0835577098,
-            "similarity": 1.0,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "flustered",
-        "descriptor_index": 2626,
-        "amplitude": 0.0176119282,
-        "abs_amplitude": 0.0176119282,
-        "raw_amplitude": 0.0528357847,
-        "percent": 3.656923,
-        "raw_percent": 3.76064,
-        "coverage_percent": 53.183727,
-        "member_count": 1,
-        "members": [
-          "flustered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0528357847,
-            "similarity": 1.0,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "embarrassed / blushing / embarrassing",
-        "descriptor_index": 2133,
-        "amplitude": 0.0115324291,
-        "abs_amplitude": 0.0115324291,
-        "raw_amplitude": 0.0345972872,
-        "percent": 2.394582,
-        "raw_percent": 2.462497,
-        "coverage_percent": 55.578309,
-        "member_count": 3,
-        "members": [
-          "embarrassed",
-          "blushing",
-          "embarrassing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0345972873,
-            "similarity": 0.898058,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.0105117063,
-        "abs_amplitude": 0.0105117063,
-        "raw_amplitude": 0.031535119,
-        "percent": 2.18264,
-        "raw_percent": 2.244544,
-        "coverage_percent": 57.760949,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0315351191,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "upset / grim / tearful / agitated / +2",
-        "descriptor_index": 8259,
-        "amplitude": 0.0098729984,
-        "abs_amplitude": 0.0098729984,
-        "raw_amplitude": 0.026064606,
-        "percent": 2.050019,
-        "raw_percent": 1.855175,
-        "coverage_percent": 59.810968,
-        "member_count": 6,
-        "members": [
-          "upset",
-          "grim",
-          "tearful",
-          "agitated",
-          "sad",
-          "downhearted"
-        ],
-        "support": 2,
-        "effective_support": 1.136368,
-        "support_factor": 0.378789,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0243935459,
-            "similarity": 0.867889,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0016710601,
-            "similarity": 0.856428,
-            "matched_descriptor": "empathy lacking"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "remorseful / regretful / guilt-ridden",
-        "descriptor_index": 6229,
-        "amplitude": 0.0091403337,
-        "abs_amplitude": 0.0091403337,
-        "raw_amplitude": 0.0143186515,
-        "percent": 1.89789,
-        "raw_percent": 1.019145,
-        "coverage_percent": 61.708857,
-        "member_count": 3,
-        "members": [
-          "remorseful",
-          "regretful",
-          "guilt-ridden"
-        ],
-        "support": 2,
-        "effective_support": 1.915055,
-        "support_factor": 0.638352,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0086671515,
-            "similarity": 0.872425,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0056515,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0079875364,
-        "abs_amplitude": 0.0079875364,
-        "raw_amplitude": 0.0239626091,
-        "percent": 1.658524,
-        "raw_percent": 1.705563,
-        "coverage_percent": 63.367381,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0239626091,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0078475504,
-        "abs_amplitude": 0.0078475504,
-        "raw_amplitude": 0.0235426511,
-        "percent": 1.629457,
-        "raw_percent": 1.675672,
-        "coverage_percent": 64.996839,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0235426511,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "dismayed / sullen / dejected",
-        "descriptor_index": 1867,
-        "amplitude": 0.0064366175,
-        "abs_amplitude": 0.0064366175,
-        "raw_amplitude": 0.0170162174,
-        "percent": 1.336493,
-        "raw_percent": 1.211147,
-        "coverage_percent": 66.333331,
-        "member_count": 3,
-        "members": [
-          "dismayed",
-          "sullen",
-          "dejected"
-        ],
-        "support": 2,
-        "effective_support": 1.134791,
-        "support_factor": 0.378264,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0159371974,
-            "similarity": 0.874343,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.00107902,
-            "similarity": 0.855415,
-            "matched_descriptor": "empathy lacking"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0062735192,
-        "abs_amplitude": 0.0062735192,
-        "raw_amplitude": 0.0188205577,
-        "percent": 1.302627,
-        "raw_percent": 1.339572,
-        "coverage_percent": 67.635958,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0188205576,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "hero-worshipper",
-        "descriptor_index": 3470,
-        "amplitude": 0.0060270548,
-        "abs_amplitude": 0.0060270548,
-        "raw_amplitude": 0.0180811643,
-        "percent": 1.251451,
-        "raw_percent": 1.286945,
-        "coverage_percent": 68.88741,
-        "member_count": 1,
-        "members": [
-          "hero-worshipper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0180811643,
-            "similarity": 0.888744,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "catholic / religious",
-        "descriptor_index": 992,
-        "amplitude": 0.0058448108,
-        "abs_amplitude": 0.0058448108,
-        "raw_amplitude": 0.0175344323,
-        "percent": 1.213611,
-        "raw_percent": 1.248031,
-        "coverage_percent": 70.10102,
-        "member_count": 2,
-        "members": [
-          "catholic",
-          "religious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0175344323,
-            "similarity": 0.843289,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "model",
-        "descriptor_index": 4884,
-        "amplitude": 0.005831422,
-        "abs_amplitude": 0.005831422,
-        "raw_amplitude": 0.0174942659,
-        "percent": 1.21083,
-        "raw_percent": 1.245172,
-        "coverage_percent": 71.311851,
-        "member_count": 1,
-        "members": [
-          "model"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0174942659,
-            "similarity": 0.881331,
-            "matched_descriptor": "character designer"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "horrified / surprised / fearful",
-        "descriptor_index": 3573,
-        "amplitude": 0.0054691615,
-        "abs_amplitude": 0.0054691615,
-        "raw_amplitude": 0.0164074846,
-        "percent": 1.135611,
-        "raw_percent": 1.167819,
-        "coverage_percent": 72.447462,
-        "member_count": 3,
-        "members": [
-          "horrified",
-          "surprised",
-          "fearful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0164074846,
-            "similarity": 0.875464,
-            "matched_descriptor": "flustered / shy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "quick-witted / quick-minded / sharp-minded",
-        "descriptor_index": 6083,
-        "amplitude": 0.0049386418,
-        "abs_amplitude": 0.0049386418,
-        "raw_amplitude": 0.0148159253,
-        "percent": 1.025455,
-        "raw_percent": 1.054538,
-        "coverage_percent": 73.472917,
-        "member_count": 3,
-        "members": [
-          "quick-witted",
-          "quick-minded",
-          "sharp-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0148159253,
-            "similarity": 0.89792,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "fanatic",
-        "descriptor_index": 2434,
-        "amplitude": 0.0047952663,
-        "abs_amplitude": 0.0047952663,
-        "raw_amplitude": 0.0143857989,
-        "percent": 0.995684,
-        "raw_percent": 1.023924,
-        "coverage_percent": 74.468601,
-        "member_count": 1,
-        "members": [
-          "fanatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0143857989,
-            "similarity": 0.864642,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "sketchbook-user",
-        "descriptor_index": 6903,
-        "amplitude": 0.0044636709,
-        "abs_amplitude": 0.0044636709,
-        "raw_amplitude": 0.0133910127,
-        "percent": 0.926832,
-        "raw_percent": 0.953119,
-        "coverage_percent": 75.395433,
-        "member_count": 1,
-        "members": [
-          "sketchbook-user"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0133910127,
-            "similarity": 0.834417,
-            "matched_descriptor": "character designer"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "empathy-less / heartless",
-        "descriptor_index": 2152,
-        "amplitude": 0.0041289477,
-        "abs_amplitude": 0.0041289477,
-        "raw_amplitude": 0.0121455258,
-        "percent": 0.85733,
-        "raw_percent": 0.86447,
-        "coverage_percent": 76.252763,
-        "member_count": 2,
-        "members": [
-          "empathy-less",
-          "heartless"
-        ],
-        "support": 2,
-        "effective_support": 1.019869,
-        "support_factor": 0.339956,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0120260424,
-            "similarity": 0.899619,
-            "matched_descriptor": "empathy lacking"
-          },
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0001194834,
-            "similarity": 0.847736,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "cold-blooded",
-        "descriptor_index": 1235,
-        "amplitude": 0.0038914508,
-        "abs_amplitude": 0.0038914508,
-        "raw_amplitude": 0.0064947501,
-        "percent": 0.808017,
-        "raw_percent": 0.46227,
-        "coverage_percent": 77.06078,
-        "member_count": 1,
-        "members": [
-          "cold-blooded"
-        ],
-        "support": 2,
-        "effective_support": 1.797506,
-        "support_factor": 0.599169,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.004337317,
-            "similarity": 0.894374,
-            "matched_descriptor": "empathy lacking"
-          },
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0021574332,
-            "similarity": 0.863302,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "playful / fun-loving / light-hearted / good-humoured / +1",
-        "descriptor_index": 5645,
-        "amplitude": 0.0038456956,
-        "abs_amplitude": 0.0038456956,
-        "raw_amplitude": 0.0115370868,
-        "percent": 0.798516,
-        "raw_percent": 0.821164,
-        "coverage_percent": 77.859296,
-        "member_count": 5,
-        "members": [
-          "playful",
-          "fun-loving",
-          "light-hearted",
-          "good-humoured",
-          "good-humored"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0115370868,
-            "similarity": 0.895205,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "melodramatic / over-exaggerated",
-        "descriptor_index": 4722,
-        "amplitude": 0.0035463912,
-        "abs_amplitude": 0.0035463912,
-        "raw_amplitude": 0.0102210654,
-        "percent": 0.736369,
-        "raw_percent": 0.727495,
-        "coverage_percent": 78.595666,
-        "member_count": 2,
-        "members": [
-          "melodramatic",
-          "over-exaggerated"
-        ],
-        "support": 2,
-        "effective_support": 1.040907,
-        "support_factor": 0.346969,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0100161175,
-            "similarity": 0.875356,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.000204948,
-            "similarity": 0.843238,
-            "matched_descriptor": "empathy lacking"
+            "combined_favourites": 2081
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0971282731,
-        "abs_amplitude": 0.0971282731,
-        "raw_amplitude": 0.2913848194,
-        "percent": 20.167615,
-        "raw_percent": 20.73961,
-        "coverage_percent": 20.167615,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.93957212,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.2913848196,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "cheerful / upbeat / cheery / joyous / +17",
-        "descriptor_index": 1036,
-        "amplitude": 0.0516162651,
-        "abs_amplitude": 0.0516162651,
-        "raw_amplitude": 0.1548487952,
-        "percent": 10.717549,
-        "raw_percent": 11.02152,
-        "coverage_percent": 30.885164,
-        "member_count": 21,
-        "members": [
-          "cheerful",
-          "upbeat",
-          "cheery",
-          "joyous",
-          "happy",
-          "smiling",
-          "gleeful",
-          "joyful",
-          "exuberant",
-          "vivacious",
-          "spirited",
-          "giddy",
-          "encouraging",
-          "jocular",
-          "cheerful-looking",
-          "sunny",
-          "energetic",
-          "jovial",
-          "perky",
-          "lighthearted",
-          "happiness-experiencing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.1548487953,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "frigid / insensitive / numb / dispassionate / +5",
-        "descriptor_index": 2835,
-        "amplitude": 0.0330960898,
-        "abs_amplitude": 0.0330960898,
-        "raw_amplitude": 0.0909988351,
-        "percent": 6.872038,
-        "raw_percent": 6.476934,
-        "coverage_percent": 37.757202,
-        "member_count": 9,
-        "members": [
-          "frigid",
-          "insensitive",
-          "numb",
-          "dispassionate",
-          "cold-hearted",
-          "unfeeling",
-          "apathetic",
-          "unemotional",
-          "cold"
-        ],
-        "support": 2,
-        "effective_support": 1.091094,
-        "support_factor": 0.363698,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0870267759,
-            "similarity": 0.965891,
-            "matched_descriptor": "empathy lacking"
-          },
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0039720593,
-            "similarity": 0.860845,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "humorous / comical / funny / amusing / +3",
-        "descriptor_index": 3645,
-        "amplitude": 0.0288304379,
-        "abs_amplitude": 0.0288304379,
-        "raw_amplitude": 0.0864913137,
-        "percent": 5.986323,
-        "raw_percent": 6.156107,
-        "coverage_percent": 43.743525,
-        "member_count": 7,
-        "members": [
-          "humorous",
-          "comical",
-          "funny",
-          "amusing",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0864913138,
-            "similarity": 1.0,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "clever / intelligent / shrewd / brainy / +5",
-        "descriptor_index": 1174,
-        "amplitude": 0.0278525699,
-        "abs_amplitude": 0.0278525699,
-        "raw_amplitude": 0.0835577097,
-        "percent": 5.783279,
-        "raw_percent": 5.947305,
-        "coverage_percent": 49.526804,
-        "member_count": 9,
-        "members": [
-          "clever",
-          "intelligent",
-          "shrewd",
-          "brainy",
-          "smart",
-          "astute",
-          "inventive",
-          "quick-thinking",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0835577098,
-            "similarity": 1.0,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "flustered",
-        "descriptor_index": 2626,
-        "amplitude": 0.0176119282,
-        "abs_amplitude": 0.0176119282,
-        "raw_amplitude": 0.0528357847,
-        "percent": 3.656923,
-        "raw_percent": 3.76064,
-        "coverage_percent": 53.183727,
-        "member_count": 1,
-        "members": [
-          "flustered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0528357847,
-            "similarity": 1.0,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "embarrassed / blushing / embarrassing",
-        "descriptor_index": 2133,
-        "amplitude": 0.0115324291,
-        "abs_amplitude": 0.0115324291,
-        "raw_amplitude": 0.0345972872,
-        "percent": 2.394582,
-        "raw_percent": 2.462497,
-        "coverage_percent": 55.578309,
-        "member_count": 3,
-        "members": [
-          "embarrassed",
-          "blushing",
-          "embarrassing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0345972873,
-            "similarity": 0.898058,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.0105117063,
-        "abs_amplitude": 0.0105117063,
-        "raw_amplitude": 0.031535119,
-        "percent": 2.18264,
-        "raw_percent": 2.244544,
-        "coverage_percent": 57.760949,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0315351191,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "upset / grim / tearful / agitated / +2",
-        "descriptor_index": 8259,
-        "amplitude": 0.0098729984,
-        "abs_amplitude": 0.0098729984,
-        "raw_amplitude": 0.026064606,
-        "percent": 2.050019,
-        "raw_percent": 1.855175,
-        "coverage_percent": 59.810968,
-        "member_count": 6,
-        "members": [
-          "upset",
-          "grim",
-          "tearful",
-          "agitated",
-          "sad",
-          "downhearted"
-        ],
-        "support": 2,
-        "effective_support": 1.136368,
-        "support_factor": 0.378789,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0243935459,
-            "similarity": 0.867889,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0016710601,
-            "similarity": 0.856428,
-            "matched_descriptor": "empathy lacking"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "remorseful / regretful / guilt-ridden",
-        "descriptor_index": 6229,
-        "amplitude": 0.0091403337,
-        "abs_amplitude": 0.0091403337,
-        "raw_amplitude": 0.0143186515,
-        "percent": 1.89789,
-        "raw_percent": 1.019145,
-        "coverage_percent": 61.708857,
-        "member_count": 3,
-        "members": [
-          "remorseful",
-          "regretful",
-          "guilt-ridden"
-        ],
-        "support": 2,
-        "effective_support": 1.915055,
-        "support_factor": 0.638352,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0086671515,
-            "similarity": 0.872425,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0056515,
-            "similarity": 0.856008,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.0079875364,
-        "abs_amplitude": 0.0079875364,
-        "raw_amplitude": 0.0239626091,
-        "percent": 1.658524,
-        "raw_percent": 1.705563,
-        "coverage_percent": 63.367381,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0239626091,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0078475504,
-        "abs_amplitude": 0.0078475504,
-        "raw_amplitude": 0.0235426511,
-        "percent": 1.629457,
-        "raw_percent": 1.675672,
-        "coverage_percent": 64.996839,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0235426511,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "dismayed / sullen / dejected",
-        "descriptor_index": 1867,
-        "amplitude": 0.0064366175,
-        "abs_amplitude": 0.0064366175,
-        "raw_amplitude": 0.0170162174,
-        "percent": 1.336493,
-        "raw_percent": 1.211147,
-        "coverage_percent": 66.333331,
-        "member_count": 3,
-        "members": [
-          "dismayed",
-          "sullen",
-          "dejected"
-        ],
-        "support": 2,
-        "effective_support": 1.134791,
-        "support_factor": 0.378264,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0159371974,
-            "similarity": 0.874343,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.00107902,
-            "similarity": 0.855415,
-            "matched_descriptor": "empathy lacking"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0062735192,
-        "abs_amplitude": 0.0062735192,
-        "raw_amplitude": 0.0188205577,
-        "percent": 1.302627,
-        "raw_percent": 1.339572,
-        "coverage_percent": 67.635958,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0188205576,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "hero-worshipper",
-        "descriptor_index": 3470,
-        "amplitude": 0.0060270548,
-        "abs_amplitude": 0.0060270548,
-        "raw_amplitude": 0.0180811643,
-        "percent": 1.251451,
-        "raw_percent": 1.286945,
-        "coverage_percent": 68.88741,
-        "member_count": 1,
-        "members": [
-          "hero-worshipper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0180811643,
-            "similarity": 0.888744,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "catholic / religious",
-        "descriptor_index": 992,
-        "amplitude": 0.0058448108,
-        "abs_amplitude": 0.0058448108,
-        "raw_amplitude": 0.0175344323,
-        "percent": 1.213611,
-        "raw_percent": 1.248031,
-        "coverage_percent": 70.10102,
-        "member_count": 2,
-        "members": [
-          "catholic",
-          "religious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0175344323,
-            "similarity": 0.843289,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "model",
-        "descriptor_index": 4884,
-        "amplitude": 0.005831422,
-        "abs_amplitude": 0.005831422,
-        "raw_amplitude": 0.0174942659,
-        "percent": 1.21083,
-        "raw_percent": 1.245172,
-        "coverage_percent": 71.311851,
-        "member_count": 1,
-        "members": [
-          "model"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0174942659,
-            "similarity": 0.881331,
-            "matched_descriptor": "character designer"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "horrified / surprised / fearful",
-        "descriptor_index": 3573,
-        "amplitude": 0.0054691615,
-        "abs_amplitude": 0.0054691615,
-        "raw_amplitude": 0.0164074846,
-        "percent": 1.135611,
-        "raw_percent": 1.167819,
-        "coverage_percent": 72.447462,
-        "member_count": 3,
-        "members": [
-          "horrified",
-          "surprised",
-          "fearful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0164074846,
-            "similarity": 0.875464,
-            "matched_descriptor": "flustered / shy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "quick-witted / quick-minded / sharp-minded",
-        "descriptor_index": 6083,
-        "amplitude": 0.0049386418,
-        "abs_amplitude": 0.0049386418,
-        "raw_amplitude": 0.0148159253,
-        "percent": 1.025455,
-        "raw_percent": 1.054538,
-        "coverage_percent": 73.472917,
-        "member_count": 3,
-        "members": [
-          "quick-witted",
-          "quick-minded",
-          "sharp-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0148159253,
-            "similarity": 0.89792,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "fanatic",
-        "descriptor_index": 2434,
-        "amplitude": 0.0047952663,
-        "abs_amplitude": 0.0047952663,
-        "raw_amplitude": 0.0143857989,
-        "percent": 0.995684,
-        "raw_percent": 1.023924,
-        "coverage_percent": 74.468601,
-        "member_count": 1,
-        "members": [
-          "fanatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0143857989,
-            "similarity": 0.864642,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "sketchbook-user",
-        "descriptor_index": 6903,
-        "amplitude": 0.0044636709,
-        "abs_amplitude": 0.0044636709,
-        "raw_amplitude": 0.0133910127,
-        "percent": 0.926832,
-        "raw_percent": 0.953119,
-        "coverage_percent": 75.395433,
-        "member_count": 1,
-        "members": [
-          "sketchbook-user"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0133910127,
-            "similarity": 0.834417,
-            "matched_descriptor": "character designer"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "empathy-less / heartless",
-        "descriptor_index": 2152,
-        "amplitude": 0.0041289477,
-        "abs_amplitude": 0.0041289477,
-        "raw_amplitude": 0.0121455258,
-        "percent": 0.85733,
-        "raw_percent": 0.86447,
-        "coverage_percent": 76.252763,
-        "member_count": 2,
-        "members": [
-          "empathy-less",
-          "heartless"
-        ],
-        "support": 2,
-        "effective_support": 1.019869,
-        "support_factor": 0.339956,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0120260424,
-            "similarity": 0.899619,
-            "matched_descriptor": "empathy lacking"
-          },
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0001194834,
-            "similarity": 0.847736,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "cold-blooded",
-        "descriptor_index": 1235,
-        "amplitude": 0.0038914508,
-        "abs_amplitude": 0.0038914508,
-        "raw_amplitude": 0.0064947501,
-        "percent": 0.808017,
-        "raw_percent": 0.46227,
-        "coverage_percent": 77.06078,
-        "member_count": 1,
-        "members": [
-          "cold-blooded"
-        ],
-        "support": 2,
-        "effective_support": 1.797506,
-        "support_factor": 0.599169,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.004337317,
-            "similarity": 0.894374,
-            "matched_descriptor": "empathy lacking"
-          },
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0021574332,
-            "similarity": 0.863302,
-            "matched_descriptor": "flustered"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "playful / fun-loving / light-hearted / good-humoured / +1",
-        "descriptor_index": 5645,
-        "amplitude": 0.0038456956,
-        "abs_amplitude": 0.0038456956,
-        "raw_amplitude": 0.0115370868,
-        "percent": 0.798516,
-        "raw_percent": 0.821164,
-        "coverage_percent": 77.859296,
-        "member_count": 5,
-        "members": [
-          "playful",
-          "fun-loving",
-          "light-hearted",
-          "good-humoured",
-          "good-humored"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.0115370868,
-            "similarity": 0.895205,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "melodramatic / over-exaggerated",
-        "descriptor_index": 4722,
-        "amplitude": 0.0035463912,
-        "abs_amplitude": 0.0035463912,
-        "raw_amplitude": 0.0102210654,
-        "percent": 0.736369,
-        "raw_percent": 0.727495,
-        "coverage_percent": 78.595666,
-        "member_count": 2,
-        "members": [
-          "melodramatic",
-          "over-exaggerated"
-        ],
-        "support": 2,
-        "effective_support": 1.040907,
-        "support_factor": 0.346969,
-        "top_characters": [
-          {
-            "character_id": 89644,
-            "name": "Hifumi Takimoto",
-            "native_name": "滝本ひふみ",
-            "anime": "NEW GAME!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
-            "site_url": "https://anilist.co/character/89644",
-            "anime_url": "https://myanimelist.net/anime/31953",
-            "role": "MAIN",
-            "favourites": 1700,
-            "row_weight": 2.90499081,
-            "projection": 0.0100161175,
-            "similarity": 0.875356,
-            "matched_descriptor": "flustered"
-          },
-          {
-            "character_id": 214874,
-            "name": "Frill",
-            "native_name": "フリル",
-            "anime": "WONDER EGG PRIORITY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
-            "site_url": "https://anilist.co/character/214874",
-            "anime_url": "https://myanimelist.net/anime/43299",
-            "role": "SUPPORTING",
-            "favourites": 163,
-            "row_weight": 2.46979077,
-            "projection": 0.000204948,
-            "similarity": 0.843238,
-            "matched_descriptor": "empathy lacking"
-          }
-        ]
+        "fit_percent": 95.594906,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 89644,
         "name": "Hifumi Takimoto",
-        "native_name": "滝本ひふみ",
         "anime": "NEW GAME!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
         "site_url": "https://anilist.co/character/89644",
-        "anime_url": "https://myanimelist.net/anime/31953",
-        "role": "MAIN",
         "favourites": 1700,
-        "row_weight": 2.90499081,
-        "amplitude": 0.7832082843,
-        "abs_amplitude": 0.7832082843,
-        "percent": 61.341522
+        "anilist_favourites": 1700,
+        "bangumi_collects": 381,
+        "bangumi_comments": 76,
+        "bangumi_character_id": 36497,
+        "bangumi_url": "https://bgm.tv/character/36497",
+        "combined_favourites": 2081,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.93957212,
+        "row_weight": 2.93957212,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7790963434,
+        "abs_amplitude": 0.7790963434,
+        "percent": 60.699111
       },
       {
         "character_id": 214874,
         "name": "Frill",
-        "native_name": "フリル",
         "anime": "WONDER EGG PRIORITY",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
         "site_url": "https://anilist.co/character/214874",
-        "anime_url": "https://myanimelist.net/anime/43299",
-        "role": "SUPPORTING",
         "favourites": 163,
-        "row_weight": 2.46979077,
-        "amplitude": 0.6217594257,
-        "abs_amplitude": 0.6217594257,
-        "percent": 38.658478
+        "anilist_favourites": 163,
+        "bangumi_collects": 29,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 94914,
+        "bangumi_url": "https://bgm.tv/character/94914",
+        "combined_favourites": 192,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "humorous",
+          "jealous",
+          "obsessive",
+          "rational",
+          "unethical"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.50253675,
+        "row_weight": 2.50253675,
+        "unweighted_row_norm": 4.83358981,
+        "amplitude": 0.6269042093,
+        "abs_amplitude": 0.6269042093,
+        "percent": 39.300889
       }
     ],
     "positive_characters": [
       {
         "character_id": 89644,
         "name": "Hifumi Takimoto",
-        "native_name": "滝本ひふみ",
         "anime": "NEW GAME!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
         "site_url": "https://anilist.co/character/89644",
-        "anime_url": "https://myanimelist.net/anime/31953",
-        "role": "MAIN",
         "favourites": 1700,
-        "row_weight": 2.90499081,
-        "amplitude": 0.7832082843,
-        "abs_amplitude": 0.7832082843,
-        "percent": 61.341522
+        "anilist_favourites": 1700,
+        "bangumi_collects": 381,
+        "bangumi_comments": 76,
+        "bangumi_character_id": 36497,
+        "bangumi_url": "https://bgm.tv/character/36497",
+        "combined_favourites": 2081,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.93957212,
+        "row_weight": 2.93957212,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7790963434,
+        "abs_amplitude": 0.7790963434,
+        "percent": 60.699111
       },
       {
         "character_id": 214874,
         "name": "Frill",
-        "native_name": "フリル",
         "anime": "WONDER EGG PRIORITY",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
         "site_url": "https://anilist.co/character/214874",
-        "anime_url": "https://myanimelist.net/anime/43299",
-        "role": "SUPPORTING",
         "favourites": 163,
-        "row_weight": 2.46979077,
-        "amplitude": 0.6217594257,
-        "abs_amplitude": 0.6217594257,
-        "percent": 38.658478
+        "anilist_favourites": 163,
+        "bangumi_collects": 29,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 94914,
+        "bangumi_url": "https://bgm.tv/character/94914",
+        "combined_favourites": 192,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "humorous",
+          "jealous",
+          "obsessive",
+          "rational",
+          "unethical"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.50253675,
+        "row_weight": 2.50253675,
+        "unweighted_row_norm": 4.83358981,
+        "amplitude": 0.6269042093,
+        "abs_amplitude": 0.6269042093,
+        "percent": 39.300889
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.912433,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3763829904,
+      "mass_percent": 12.711076,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 29.353261,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "shy",
+            "amplitude": 0.2935326146,
+            "abs_amplitude": 0.2935326146,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "shy",
+            "fit_percent": 29.353261,
+            "residual_gain_percent": 8.61614
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 89644,
+            "name": "Hifumi Takimoto",
+            "anime": "NEW GAME!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89644-p8wdh7nlI17S.png",
+            "site_url": "https://anilist.co/character/89644",
+            "favourites": 1700,
+            "anilist_favourites": 1700,
+            "bangumi_collects": 381,
+            "bangumi_comments": 76,
+            "bangumi_character_id": 36497,
+            "bangumi_url": "https://bgm.tv/character/36497",
+            "combined_favourites": 2081,
+            "role_edge_count": 1,
+            "descriptors": [
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.93957212,
+            "row_weight": 2.93957212,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6269042093,
+            "abs_amplitude": 0.6269042093,
+            "percent": 39.300889
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 49.669835,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "unethical",
+            "amplitude": 0.2160264688,
+            "abs_amplitude": 0.2160264688,
+            "percent": 36.030938
+          },
+          {
+            "rank": 2,
+            "descriptor": "rational",
+            "amplitude": 0.1859077533,
+            "abs_amplitude": 0.1859077533,
+            "percent": 31.007453
+          },
+          {
+            "rank": 3,
+            "descriptor": "humorous",
+            "amplitude": 0.1379262332,
+            "abs_amplitude": 0.1379262332,
+            "percent": 23.004642
+          },
+          {
+            "rank": 4,
+            "descriptor": "inspirational",
+            "amplitude": 0.0596978201,
+            "abs_amplitude": 0.0596978201,
+            "percent": 9.956967
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "rational",
+            "fit_percent": 42.714715,
+            "residual_gain_percent": 18.245469
+          },
+          {
+            "step": 2,
+            "descriptor": "unethical",
+            "fit_percent": 47.924165,
+            "residual_gain_percent": 5.775566
+          },
+          {
+            "step": 3,
+            "descriptor": "humorous",
+            "fit_percent": 49.465748,
+            "residual_gain_percent": 1.948972
+          },
+          {
+            "step": 4,
+            "descriptor": "inspirational",
+            "fit_percent": 49.669835,
+            "residual_gain_percent": 0.267866
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 214874,
+            "name": "Frill",
+            "anime": "WONDER EGG PRIORITY",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b214874-2yiyIiVPWNa2.jpg",
+            "site_url": "https://anilist.co/character/214874",
+            "favourites": 163,
+            "anilist_favourites": 163,
+            "bangumi_collects": 29,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 94914,
+            "bangumi_url": "https://bgm.tv/character/94914",
+            "combined_favourites": 192,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cheerful",
+              "humorous",
+              "jealous",
+              "obsessive",
+              "rational",
+              "unethical"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.50253675,
+            "row_weight": 2.50253675,
+            "unweighted_row_norm": 4.83358981,
+            "amplitude": -0.7790963434,
+            "abs_amplitude": 0.7790963434,
+            "percent": 60.699111
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.6068468642,
+      "mass_percent": 87.288924,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3763829904,
+      "mass_percent": 12.711076,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

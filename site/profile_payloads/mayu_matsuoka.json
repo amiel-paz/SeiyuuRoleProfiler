@@ -11,1500 +11,100 @@
     "matsuoka mayu",
     "mayu matsuoka"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/mayu_matsuoka.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.5661809037,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.5661809037,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 176.824488,
-      "normalized_entanglement": 0.46048,
-      "top5_mass_percent": 7.682418,
-      "top10_mass_percent": 12.702758
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.2706920042,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 95.701359,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "regretful / remorseful / chagrined / guilt-stricken / +2",
-        "descriptor_index": 6198,
-        "amplitude": 0.0640269217,
-        "abs_amplitude": 0.0640269217,
-        "raw_amplitude": 0.1920807652,
-        "percent": 19.208077,
-        "raw_percent": 19.208077,
-        "coverage_percent": 19.208077,
-        "member_count": 6,
-        "members": [
-          "regretful",
-          "remorseful",
-          "chagrined",
-          "guilt-stricken",
-          "guilty",
-          "guilt-ridden"
-        ],
+        "descriptor": "unforgiving",
+        "amplitude": 0.5263973664,
+        "abs_amplitude": 0.5263973664,
+        "percent": 49.767549,
+        "weighted_support": 2.270692,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 80491,
             "name": "Shouya Ishida",
-            "native_name": "石田将也",
             "anime": "A Silent Voice",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
             "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1920807652,
-            "similarity": 0.898047,
-            "matched_descriptor": "apologetic"
+            "combined_favourites": 11070
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "dissatisfied / disrespectful / displeased / annoying / +4",
-        "descriptor_index": 1878,
-        "amplitude": 0.051048283,
-        "abs_amplitude": 0.051048283,
-        "raw_amplitude": 0.1531448489,
-        "percent": 15.314485,
-        "raw_percent": 15.314485,
-        "coverage_percent": 34.522561,
-        "member_count": 8,
-        "members": [
-          "dissatisfied",
-          "disrespectful",
-          "displeased",
-          "annoying",
-          "unconcerned",
-          "sad",
-          "unpleasant",
-          "bitter"
-        ],
+        "descriptor": "guilt-ridden",
+        "amplitude": 0.5313146983,
+        "abs_amplitude": 0.5313146983,
+        "percent": 50.232451,
+        "weighted_support": 2.270692,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 80491,
             "name": "Shouya Ishida",
-            "native_name": "石田将也",
             "anime": "A Silent Voice",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
             "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1531448489,
-            "similarity": 0.890753,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "apologetic",
-        "descriptor_index": 298,
-        "amplitude": 0.0450378052,
-        "abs_amplitude": 0.0450378052,
-        "raw_amplitude": 0.1351134157,
-        "percent": 13.511342,
-        "raw_percent": 13.511342,
-        "coverage_percent": 48.033903,
-        "member_count": 1,
-        "members": [
-          "apologetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1351134157,
-            "similarity": 1.0,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "humiliating / ashamed / contemptible / demeaning / +1",
-        "descriptor_index": 3643,
-        "amplitude": 0.0424798559,
-        "abs_amplitude": 0.0424798559,
-        "raw_amplitude": 0.1274395678,
-        "percent": 12.743957,
-        "raw_percent": 12.743957,
-        "coverage_percent": 60.77786,
-        "member_count": 5,
-        "members": [
-          "humiliating",
-          "ashamed",
-          "contemptible",
-          "demeaning",
-          "shamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1274395678,
-            "similarity": 0.885138,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "suicidal",
-        "descriptor_index": 7469,
-        "amplitude": 0.0358420646,
-        "abs_amplitude": 0.0358420646,
-        "raw_amplitude": 0.1075261937,
-        "percent": 10.752619,
-        "raw_percent": 10.752619,
-        "coverage_percent": 71.530479,
-        "member_count": 1,
-        "members": [
-          "suicidal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1075261937,
-            "similarity": 0.958164,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "homicidal",
-        "descriptor_index": 3546,
-        "amplitude": 0.0091935008,
-        "abs_amplitude": 0.0091935008,
-        "raw_amplitude": 0.0275805023,
-        "percent": 2.75805,
-        "raw_percent": 2.75805,
-        "coverage_percent": 74.288529,
-        "member_count": 1,
-        "members": [
-          "homicidal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0275805023,
-            "similarity": 0.851209,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "near-death",
-        "descriptor_index": 5071,
-        "amplitude": 0.0075428381,
-        "abs_amplitude": 0.0075428381,
-        "raw_amplitude": 0.0226285144,
-        "percent": 2.262851,
-        "raw_percent": 2.262851,
-        "coverage_percent": 76.551381,
-        "member_count": 1,
-        "members": [
-          "near-death"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0226285144,
-            "similarity": 0.823809,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "absent-minded",
-        "descriptor_index": 17,
-        "amplitude": 0.0073125811,
-        "abs_amplitude": 0.0073125811,
-        "raw_amplitude": 0.0219377432,
-        "percent": 2.193774,
-        "raw_percent": 2.193774,
-        "coverage_percent": 78.745155,
-        "member_count": 1,
-        "members": [
-          "absent-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0219377432,
-            "similarity": 0.859826,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "bloodthirsty",
-        "descriptor_index": 720,
-        "amplitude": 0.0070805001,
-        "abs_amplitude": 0.0070805001,
-        "raw_amplitude": 0.0212415003,
-        "percent": 2.12415,
-        "raw_percent": 2.12415,
-        "coverage_percent": 80.869305,
-        "member_count": 1,
-        "members": [
-          "bloodthirsty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0212415003,
-            "similarity": 0.836298,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "lecherous",
-        "descriptor_index": 4255,
-        "amplitude": 0.0060410512,
-        "abs_amplitude": 0.0060410512,
-        "raw_amplitude": 0.0181231536,
-        "percent": 1.812315,
-        "raw_percent": 1.812315,
-        "coverage_percent": 82.681621,
-        "member_count": 1,
-        "members": [
-          "lecherous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0181231536,
-            "similarity": 0.858546,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "careless",
-        "descriptor_index": 956,
-        "amplitude": 0.0058821871,
-        "abs_amplitude": 0.0058821871,
-        "raw_amplitude": 0.0176465613,
-        "percent": 1.764656,
-        "raw_percent": 1.764656,
-        "coverage_percent": 84.446277,
-        "member_count": 1,
-        "members": [
-          "careless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0176465613,
-            "similarity": 0.865131,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "angry / furious",
-        "descriptor_index": 240,
-        "amplitude": 0.0055715957,
-        "abs_amplitude": 0.0055715957,
-        "raw_amplitude": 0.016714787,
-        "percent": 1.671479,
-        "raw_percent": 1.671479,
-        "coverage_percent": 86.117755,
-        "member_count": 2,
-        "members": [
-          "angry",
-          "furious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.016714787,
-            "similarity": 0.86387,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "self-destructive",
-        "descriptor_index": 6629,
-        "amplitude": 0.0051037633,
-        "abs_amplitude": 0.0051037633,
-        "raw_amplitude": 0.0153112898,
-        "percent": 1.531129,
-        "raw_percent": 1.531129,
-        "coverage_percent": 87.648884,
-        "member_count": 1,
-        "members": [
-          "self-destructive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0153112898,
-            "similarity": 0.836784,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0045492882,
-        "abs_amplitude": 0.0045492882,
-        "raw_amplitude": 0.0136478647,
-        "percent": 1.364786,
-        "raw_percent": 1.364786,
-        "coverage_percent": 89.013671,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0136478647,
-            "similarity": 0.861733,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "survival-focused",
-        "descriptor_index": 7564,
-        "amplitude": 0.0044840779,
-        "abs_amplitude": 0.0044840779,
-        "raw_amplitude": 0.0134522337,
-        "percent": 1.345223,
-        "raw_percent": 1.345223,
-        "coverage_percent": 90.358894,
-        "member_count": 1,
-        "members": [
-          "survival-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0134522337,
-            "similarity": 0.807178,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "suicide-inducing",
-        "descriptor_index": 7478,
-        "amplitude": 0.0043242637,
-        "abs_amplitude": 0.0043242637,
-        "raw_amplitude": 0.012972791,
-        "percent": 1.297279,
-        "raw_percent": 1.297279,
-        "coverage_percent": 91.656173,
-        "member_count": 1,
-        "members": [
-          "suicide-inducing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.012972791,
-            "similarity": 0.831376,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "villainous",
-        "descriptor_index": 8370,
-        "amplitude": 0.0039250188,
-        "abs_amplitude": 0.0039250188,
-        "raw_amplitude": 0.0117750563,
-        "percent": 1.177506,
-        "raw_percent": 1.177506,
-        "coverage_percent": 92.833679,
-        "member_count": 1,
-        "members": [
-          "villainous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0117750563,
-            "similarity": 0.849588,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "martyr-like",
-        "descriptor_index": 4618,
-        "amplitude": 0.0033557824,
-        "abs_amplitude": 0.0033557824,
-        "raw_amplitude": 0.0100673473,
-        "percent": 1.006735,
-        "raw_percent": 1.006735,
-        "coverage_percent": 93.840414,
-        "member_count": 1,
-        "members": [
-          "martyr-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0100673473,
-            "similarity": 0.834767,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "self-abusive",
-        "descriptor_index": 6610,
-        "amplitude": 0.0025968818,
-        "abs_amplitude": 0.0025968818,
-        "raw_amplitude": 0.0077906455,
-        "percent": 0.779065,
-        "raw_percent": 0.779065,
-        "coverage_percent": 94.619478,
-        "member_count": 1,
-        "members": [
-          "self-abusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0077906455,
-            "similarity": 0.828188,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "irresponsible",
-        "descriptor_index": 4012,
-        "amplitude": 0.0025341708,
-        "abs_amplitude": 0.0025341708,
-        "raw_amplitude": 0.0076025124,
-        "percent": 0.760251,
-        "raw_percent": 0.760251,
-        "coverage_percent": 95.379729,
-        "member_count": 1,
-        "members": [
-          "irresponsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0076025124,
-            "similarity": 0.839561,
-            "matched_descriptor": "apologetic"
+            "combined_favourites": 11070
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "regretful / remorseful / chagrined / guilt-stricken / +2",
-        "descriptor_index": 6198,
-        "amplitude": 0.0640269217,
-        "abs_amplitude": 0.0640269217,
-        "raw_amplitude": 0.1920807652,
-        "percent": 19.208077,
-        "raw_percent": 19.208077,
-        "coverage_percent": 19.208077,
-        "member_count": 6,
-        "members": [
-          "regretful",
-          "remorseful",
-          "chagrined",
-          "guilt-stricken",
-          "guilty",
-          "guilt-ridden"
-        ],
+        "step": 1,
+        "descriptor": "unforgiving",
+        "weighted_support": 2.270692,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1920807652,
-            "similarity": 0.898047,
-            "matched_descriptor": "apologetic"
-          }
-        ]
+        "fit_percent": 86.500613,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "dissatisfied / disrespectful / displeased / annoying / +4",
-        "descriptor_index": 1878,
-        "amplitude": 0.051048283,
-        "abs_amplitude": 0.051048283,
-        "raw_amplitude": 0.1531448489,
-        "percent": 15.314485,
-        "raw_percent": 15.314485,
-        "coverage_percent": 34.522561,
-        "member_count": 8,
-        "members": [
-          "dissatisfied",
-          "disrespectful",
-          "displeased",
-          "annoying",
-          "unconcerned",
-          "sad",
-          "unpleasant",
-          "bitter"
-        ],
+        "step": 2,
+        "descriptor": "guilt-ridden",
+        "weighted_support": 2.270692,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1531448489,
-            "similarity": 0.890753,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "apologetic",
-        "descriptor_index": 298,
-        "amplitude": 0.0450378052,
-        "abs_amplitude": 0.0450378052,
-        "raw_amplitude": 0.1351134157,
-        "percent": 13.511342,
-        "raw_percent": 13.511342,
-        "coverage_percent": 48.033903,
-        "member_count": 1,
-        "members": [
-          "apologetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1351134157,
-            "similarity": 1.0,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "humiliating / ashamed / contemptible / demeaning / +1",
-        "descriptor_index": 3643,
-        "amplitude": 0.0424798559,
-        "abs_amplitude": 0.0424798559,
-        "raw_amplitude": 0.1274395678,
-        "percent": 12.743957,
-        "raw_percent": 12.743957,
-        "coverage_percent": 60.77786,
-        "member_count": 5,
-        "members": [
-          "humiliating",
-          "ashamed",
-          "contemptible",
-          "demeaning",
-          "shamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1274395678,
-            "similarity": 0.885138,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "suicidal",
-        "descriptor_index": 7469,
-        "amplitude": 0.0358420646,
-        "abs_amplitude": 0.0358420646,
-        "raw_amplitude": 0.1075261937,
-        "percent": 10.752619,
-        "raw_percent": 10.752619,
-        "coverage_percent": 71.530479,
-        "member_count": 1,
-        "members": [
-          "suicidal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.1075261937,
-            "similarity": 0.958164,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "homicidal",
-        "descriptor_index": 3546,
-        "amplitude": 0.0091935008,
-        "abs_amplitude": 0.0091935008,
-        "raw_amplitude": 0.0275805023,
-        "percent": 2.75805,
-        "raw_percent": 2.75805,
-        "coverage_percent": 74.288529,
-        "member_count": 1,
-        "members": [
-          "homicidal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0275805023,
-            "similarity": 0.851209,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "near-death",
-        "descriptor_index": 5071,
-        "amplitude": 0.0075428381,
-        "abs_amplitude": 0.0075428381,
-        "raw_amplitude": 0.0226285144,
-        "percent": 2.262851,
-        "raw_percent": 2.262851,
-        "coverage_percent": 76.551381,
-        "member_count": 1,
-        "members": [
-          "near-death"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0226285144,
-            "similarity": 0.823809,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "absent-minded",
-        "descriptor_index": 17,
-        "amplitude": 0.0073125811,
-        "abs_amplitude": 0.0073125811,
-        "raw_amplitude": 0.0219377432,
-        "percent": 2.193774,
-        "raw_percent": 2.193774,
-        "coverage_percent": 78.745155,
-        "member_count": 1,
-        "members": [
-          "absent-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0219377432,
-            "similarity": 0.859826,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "bloodthirsty",
-        "descriptor_index": 720,
-        "amplitude": 0.0070805001,
-        "abs_amplitude": 0.0070805001,
-        "raw_amplitude": 0.0212415003,
-        "percent": 2.12415,
-        "raw_percent": 2.12415,
-        "coverage_percent": 80.869305,
-        "member_count": 1,
-        "members": [
-          "bloodthirsty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0212415003,
-            "similarity": 0.836298,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "lecherous",
-        "descriptor_index": 4255,
-        "amplitude": 0.0060410512,
-        "abs_amplitude": 0.0060410512,
-        "raw_amplitude": 0.0181231536,
-        "percent": 1.812315,
-        "raw_percent": 1.812315,
-        "coverage_percent": 82.681621,
-        "member_count": 1,
-        "members": [
-          "lecherous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0181231536,
-            "similarity": 0.858546,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "careless",
-        "descriptor_index": 956,
-        "amplitude": 0.0058821871,
-        "abs_amplitude": 0.0058821871,
-        "raw_amplitude": 0.0176465613,
-        "percent": 1.764656,
-        "raw_percent": 1.764656,
-        "coverage_percent": 84.446277,
-        "member_count": 1,
-        "members": [
-          "careless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0176465613,
-            "similarity": 0.865131,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "angry / furious",
-        "descriptor_index": 240,
-        "amplitude": 0.0055715957,
-        "abs_amplitude": 0.0055715957,
-        "raw_amplitude": 0.016714787,
-        "percent": 1.671479,
-        "raw_percent": 1.671479,
-        "coverage_percent": 86.117755,
-        "member_count": 2,
-        "members": [
-          "angry",
-          "furious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.016714787,
-            "similarity": 0.86387,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "self-destructive",
-        "descriptor_index": 6629,
-        "amplitude": 0.0051037633,
-        "abs_amplitude": 0.0051037633,
-        "raw_amplitude": 0.0153112898,
-        "percent": 1.531129,
-        "raw_percent": 1.531129,
-        "coverage_percent": 87.648884,
-        "member_count": 1,
-        "members": [
-          "self-destructive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0153112898,
-            "similarity": 0.836784,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.0045492882,
-        "abs_amplitude": 0.0045492882,
-        "raw_amplitude": 0.0136478647,
-        "percent": 1.364786,
-        "raw_percent": 1.364786,
-        "coverage_percent": 89.013671,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0136478647,
-            "similarity": 0.861733,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "survival-focused",
-        "descriptor_index": 7564,
-        "amplitude": 0.0044840779,
-        "abs_amplitude": 0.0044840779,
-        "raw_amplitude": 0.0134522337,
-        "percent": 1.345223,
-        "raw_percent": 1.345223,
-        "coverage_percent": 90.358894,
-        "member_count": 1,
-        "members": [
-          "survival-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0134522337,
-            "similarity": 0.807178,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "suicide-inducing",
-        "descriptor_index": 7478,
-        "amplitude": 0.0043242637,
-        "abs_amplitude": 0.0043242637,
-        "raw_amplitude": 0.012972791,
-        "percent": 1.297279,
-        "raw_percent": 1.297279,
-        "coverage_percent": 91.656173,
-        "member_count": 1,
-        "members": [
-          "suicide-inducing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.012972791,
-            "similarity": 0.831376,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "villainous",
-        "descriptor_index": 8370,
-        "amplitude": 0.0039250188,
-        "abs_amplitude": 0.0039250188,
-        "raw_amplitude": 0.0117750563,
-        "percent": 1.177506,
-        "raw_percent": 1.177506,
-        "coverage_percent": 92.833679,
-        "member_count": 1,
-        "members": [
-          "villainous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0117750563,
-            "similarity": 0.849588,
-            "matched_descriptor": "apologetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "martyr-like",
-        "descriptor_index": 4618,
-        "amplitude": 0.0033557824,
-        "abs_amplitude": 0.0033557824,
-        "raw_amplitude": 0.0100673473,
-        "percent": 1.006735,
-        "raw_percent": 1.006735,
-        "coverage_percent": 93.840414,
-        "member_count": 1,
-        "members": [
-          "martyr-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0100673473,
-            "similarity": 0.834767,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "self-abusive",
-        "descriptor_index": 6610,
-        "amplitude": 0.0025968818,
-        "abs_amplitude": 0.0025968818,
-        "raw_amplitude": 0.0077906455,
-        "percent": 0.779065,
-        "raw_percent": 0.779065,
-        "coverage_percent": 94.619478,
-        "member_count": 1,
-        "members": [
-          "self-abusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0077906455,
-            "similarity": 0.828188,
-            "matched_descriptor": "suicidal ideation"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "irresponsible",
-        "descriptor_index": 4012,
-        "amplitude": 0.0025341708,
-        "abs_amplitude": 0.0025341708,
-        "raw_amplitude": 0.0076025124,
-        "percent": 0.760251,
-        "raw_percent": 0.760251,
-        "coverage_percent": 95.379729,
-        "member_count": 1,
-        "members": [
-          "irresponsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 80491,
-            "name": "Shouya Ishida",
-            "native_name": "石田将也",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
-            "site_url": "https://anilist.co/character/80491",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "MAIN",
-            "favourites": 11004,
-            "row_weight": 2.27003359,
-            "projection": 0.0076025124,
-            "similarity": 0.839561,
-            "matched_descriptor": "apologetic"
-          }
-        ]
+        "fit_percent": 95.701359,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 80491,
         "name": "Shouya Ishida",
-        "native_name": "石田将也",
         "anime": "A Silent Voice",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
         "site_url": "https://anilist.co/character/80491",
-        "anime_url": "https://myanimelist.net/anime/28851",
-        "role": "MAIN",
         "favourites": 11004,
-        "row_weight": 2.27003359,
+        "anilist_favourites": 11004,
+        "bangumi_collects": 66,
+        "bangumi_comments": 30,
+        "bangumi_character_id": 40176,
+        "bangumi_url": "https://bgm.tv/character/40176",
+        "combined_favourites": 11070,
+        "role_edge_count": 2,
+        "descriptors": [
+          "apologetic",
+          "brutal",
+          "guilt-ridden",
+          "unforgiving"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.21124343,
+        "row_weight": 2.270692,
+        "unweighted_row_norm": 3.38018964,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1514,19 +114,70 @@
       {
         "character_id": 80491,
         "name": "Shouya Ishida",
-        "native_name": "石田将也",
         "anime": "A Silent Voice",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b80491-NK6pxb6oH61P.png",
         "site_url": "https://anilist.co/character/80491",
-        "anime_url": "https://myanimelist.net/anime/28851",
-        "role": "MAIN",
         "favourites": 11004,
-        "row_weight": 2.27003359,
+        "anilist_favourites": 11004,
+        "bangumi_collects": 66,
+        "bangumi_comments": 30,
+        "bangumi_character_id": 40176,
+        "bangumi_url": "https://bgm.tv/character/40176",
+        "combined_favourites": 11070,
+        "role_edge_count": 2,
+        "descriptors": [
+          "apologetic",
+          "brutal",
+          "guilt-ridden",
+          "unforgiving"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.21124343,
+        "row_weight": 2.270692,
+        "unweighted_row_norm": 3.38018964,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.2706920042,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

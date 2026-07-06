@@ -5,2152 +5,1133 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95401-2ffju56ewc36.png",
   "site_url": "https://anilist.co/staff/95401",
   "role_count": 22,
-  "character_count": 4,
+  "character_count": 3,
   "first_year": 2007,
   "aliases": [
     "matsuki miyu",
     "miyu matsuki"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/miyu_matsuki.json",
+  "sv1_mass_percent": 79.469059,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 3,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.5898022144,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.5898022144,
-        "mass_percent": 63.000888
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.5058314502,
-        "mass_percent": 17.83134
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.9509668832,
-        "mass_percent": 12.633701
-      },
-      {
-        "rank": 4,
-        "singular_value": 2.122222927,
-        "mass_percent": 6.534072
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 271.198221,
-      "normalized_entanglement": 0.706245,
-      "top5_mass_percent": 3.903282,
-      "top10_mass_percent": 7.467755
-    },
-    "character_participation": {
-      "effective_count": 1.899671,
-      "normalized_entanglement": 0.474918,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.264841,
-      "semantic_spread": 1.545195,
-      "axis_concentration_percent": 67.004753,
-      "lane_count": 2.356247,
-      "direction_range": 0.73363,
-      "direction_spread": 0.985334,
-      "direction_axis_concentration_percent": 55.435351,
-      "direction_lane_count": 2.48025
-    },
-    "explained_sv_l2_percent": 63.000888,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.268562117,
+    "mass_percent": 85.388272,
+    "descriptor_fit_percent": 95.303446,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "quiet / taciturn / untalkative / reticent / +3",
-        "descriptor_index": 6084,
-        "amplitude": 0.1145948225,
-        "abs_amplitude": 0.1145948225,
-        "raw_amplitude": 0.3353188149,
-        "percent": 23.740597,
-        "raw_percent": 23.734318,
-        "coverage_percent": 23.740597,
-        "member_count": 7,
-        "members": [
-          "quiet",
-          "taciturn",
-          "untalkative",
-          "reticent",
-          "mute",
-          "voiceless",
-          "unsociable"
-        ],
-        "support": 2,
-        "effective_support": 1.025247,
-        "support_factor": 0.341749,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.3311380968,
-            "similarity": 1.0,
-            "matched_descriptor": "quiet"
-          },
+        "descriptor": "unforgiving",
+        "amplitude": 0.3404231742,
+        "abs_amplitude": 0.3404231742,
+        "percent": 30.878788,
+        "weighted_support": 2.8428346,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 89006,
             "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
             "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
             "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0041807182,
-            "similarity": 0.884554,
-            "matched_descriptor": "soft-spoken"
+            "combined_favourites": 1189
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "exuberant / energetic / spirited / vivacious / +7",
-        "descriptor_index": 2347,
-        "amplitude": 0.1118038407,
-        "abs_amplitude": 0.1118038407,
-        "raw_amplitude": 0.3342662883,
-        "percent": 23.16239,
-        "raw_percent": 23.659818,
-        "coverage_percent": 46.902987,
-        "member_count": 11,
-        "members": [
-          "exuberant",
-          "energetic",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "enthusiastic",
-          "boisterous",
-          "cheerful",
-          "perky",
-          "excitable"
-        ],
-        "support": 2,
-        "effective_support": 1.003426,
-        "support_factor": 0.334475,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.3336946489,
-            "similarity": 1.0,
-            "matched_descriptor": "exuberant"
-          },
+        "descriptor": "righteous",
+        "amplitude": 0.366518586,
+        "abs_amplitude": 0.366518586,
+        "percent": 33.245827,
+        "weighted_support": 2.8428346,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 89006,
             "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
             "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
             "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0005716394,
-            "similarity": 0.871626,
-            "matched_descriptor": "strong"
+            "combined_favourites": 1189
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "gamer / game-focused",
-        "descriptor_index": 2888,
-        "amplitude": 0.0366627264,
-        "abs_amplitude": 0.0366627264,
-        "raw_amplitude": 0.1099881793,
-        "percent": 7.595413,
-        "raw_percent": 7.785112,
-        "coverage_percent": 54.4984,
-        "member_count": 2,
-        "members": [
-          "gamer",
-          "game-focused"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.3955081511,
+        "abs_amplitude": 0.3955081511,
+        "percent": 35.875385,
+        "weighted_support": 2.8428346,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.1099881793,
-            "similarity": 0.935884,
-            "matched_descriptor": "game lover"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "aloof / standoffish / unsocial / detached / +1",
-        "descriptor_index": 177,
-        "amplitude": 0.0307927109,
-        "abs_amplitude": 0.0307927109,
-        "raw_amplitude": 0.0923781327,
-        "percent": 6.379323,
-        "raw_percent": 6.538649,
-        "coverage_percent": 60.877722,
-        "member_count": 5,
-        "members": [
-          "aloof",
-          "standoffish",
-          "unsocial",
-          "detached",
-          "distant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0923781326,
-            "similarity": 0.900841,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "shy / modest / meek / coy / +4",
-        "descriptor_index": 6837,
-        "amplitude": 0.0266133247,
-        "abs_amplitude": 0.0266133247,
-        "raw_amplitude": 0.0778581083,
-        "percent": 5.51348,
-        "raw_percent": 5.510902,
-        "coverage_percent": 66.391202,
-        "member_count": 8,
-        "members": [
-          "shy",
-          "modest",
-          "meek",
-          "coy",
-          "demure",
-          "faint-hearted",
-          "subdued",
-          "discreet"
-        ],
-        "support": 2,
-        "effective_support": 1.025455,
-        "support_factor": 0.341818,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0768794723,
-            "similarity": 0.892012,
-            "matched_descriptor": "quiet"
-          },
+        "supporting_characters": [
           {
             "character_id": 89006,
             "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
             "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
             "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0009786359,
-            "similarity": 0.902281,
-            "matched_descriptor": "soft-spoken"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "game-playing",
-        "descriptor_index": 2886,
-        "amplitude": 0.0126409487,
-        "abs_amplitude": 0.0126409487,
-        "raw_amplitude": 0.0379228461,
-        "percent": 2.618824,
-        "raw_percent": 2.68423,
-        "coverage_percent": 69.010026,
-        "member_count": 1,
-        "members": [
-          "game-playing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0379228461,
-            "similarity": 0.879844,
-            "matched_descriptor": "game lover"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "active / hyperactive / spunky / bouncy",
-        "descriptor_index": 62,
-        "amplitude": 0.012492153,
-        "abs_amplitude": 0.012492153,
-        "raw_amplitude": 0.0330937087,
-        "percent": 2.587998,
-        "raw_percent": 2.342417,
-        "coverage_percent": 71.598024,
-        "member_count": 4,
-        "members": [
-          "active",
-          "hyperactive",
-          "spunky",
-          "bouncy"
-        ],
-        "support": 2,
-        "effective_support": 1.132435,
-        "support_factor": 0.377478,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0310299037,
-            "similarity": 0.890193,
-            "matched_descriptor": "exuberant"
-          },
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0020638049,
-            "similarity": 0.89259,
-            "matched_descriptor": "strong"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "vigorous / stamina-rich / brimming",
-        "descriptor_index": 8354,
-        "amplitude": 0.0112163733,
-        "abs_amplitude": 0.0112163733,
-        "raw_amplitude": 0.0288708521,
-        "percent": 2.323695,
-        "raw_percent": 2.043518,
-        "coverage_percent": 73.921719,
-        "member_count": 3,
-        "members": [
-          "vigorous",
-          "stamina-rich",
-          "brimming"
-        ],
-        "support": 2,
-        "effective_support": 1.165505,
-        "support_factor": 0.388502,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0266501722,
-            "similarity": 0.89962,
-            "matched_descriptor": "exuberant"
-          },
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0022206799,
-            "similarity": 0.89873,
-            "matched_descriptor": "strong"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "upbeat / joyous / joyful / smiling",
-        "descriptor_index": 8253,
-        "amplitude": 0.0101246449,
-        "abs_amplitude": 0.0101246449,
-        "raw_amplitude": 0.0303739347,
-        "percent": 2.097522,
-        "raw_percent": 2.149908,
-        "coverage_percent": 76.01924,
-        "member_count": 4,
-        "members": [
-          "upbeat",
-          "joyous",
-          "joyful",
-          "smiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0303739347,
-            "similarity": 0.897255,
-            "matched_descriptor": "exuberant"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "dormant",
-        "descriptor_index": 1928,
-        "amplitude": 0.0090099426,
-        "abs_amplitude": 0.0090099426,
-        "raw_amplitude": 0.0270298279,
-        "percent": 1.866589,
-        "raw_percent": 1.913208,
-        "coverage_percent": 77.885829,
-        "member_count": 1,
-        "members": [
-          "dormant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0270298279,
-            "similarity": 0.890128,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "soft-spoken / sweet-voiced / delicate-voice",
-        "descriptor_index": 7061,
-        "amplitude": 0.008686177,
-        "abs_amplitude": 0.008686177,
-        "raw_amplitude": 0.0134709979,
-        "percent": 1.799514,
-        "raw_percent": 0.953495,
-        "coverage_percent": 79.685343,
-        "member_count": 3,
-        "members": [
-          "soft-spoken",
-          "sweet-voiced",
-          "delicate-voice"
-        ],
-        "support": 2,
-        "effective_support": 1.934417,
-        "support_factor": 0.644806,
-        "top_characters": [
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0079756924,
-            "similarity": 1.0,
-            "matched_descriptor": "soft-spoken"
-          },
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0054953055,
-            "similarity": 0.861431,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "game-player",
-        "descriptor_index": 2885,
-        "amplitude": 0.008532805,
-        "abs_amplitude": 0.008532805,
-        "raw_amplitude": 0.0255984151,
-        "percent": 1.76774,
-        "raw_percent": 1.81189,
-        "coverage_percent": 81.453084,
-        "member_count": 1,
-        "members": [
-          "game-player"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0255984151,
-            "similarity": 0.864017,
-            "matched_descriptor": "game lover"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "pro-gamer",
-        "descriptor_index": 5880,
-        "amplitude": 0.0075501928,
-        "abs_amplitude": 0.0075501928,
-        "raw_amplitude": 0.0226505784,
-        "percent": 1.564173,
-        "raw_percent": 1.603238,
-        "coverage_percent": 83.017256,
-        "member_count": 1,
-        "members": [
-          "pro-gamer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0226505784,
-            "similarity": 0.834536,
-            "matched_descriptor": "game lover"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "slothful",
-        "descriptor_index": 6976,
-        "amplitude": 0.0060207446,
-        "abs_amplitude": 0.0060207446,
-        "raw_amplitude": 0.0180622339,
-        "percent": 1.247317,
-        "raw_percent": 1.278469,
-        "coverage_percent": 84.264573,
-        "member_count": 1,
-        "members": [
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0180622339,
-            "similarity": 0.871465,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "fun-loving / giddy / jocular / playful",
-        "descriptor_index": 2857,
-        "amplitude": 0.0058139685,
-        "abs_amplitude": 0.0058139685,
-        "raw_amplitude": 0.0174419056,
-        "percent": 1.204479,
-        "raw_percent": 1.234562,
-        "coverage_percent": 85.469053,
-        "member_count": 4,
-        "members": [
-          "fun-loving",
-          "giddy",
-          "jocular",
-          "playful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0174419056,
-            "similarity": 0.886607,
-            "matched_descriptor": "exuberant"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "thrilled / delighted / ecstatic / elated",
-        "descriptor_index": 7830,
-        "amplitude": 0.0055456506,
-        "abs_amplitude": 0.0055456506,
-        "raw_amplitude": 0.0166369517,
-        "percent": 1.148892,
-        "raw_percent": 1.177586,
-        "coverage_percent": 86.617944,
-        "member_count": 4,
-        "members": [
-          "thrilled",
-          "delighted",
-          "ecstatic",
-          "elated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0166369517,
-            "similarity": 0.864231,
-            "matched_descriptor": "exuberant"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fervent / intense / zealous",
-        "descriptor_index": 2512,
-        "amplitude": 0.0055064595,
-        "abs_amplitude": 0.0055064595,
-        "raw_amplitude": 0.0147282137,
-        "percent": 1.140773,
-        "raw_percent": 1.042483,
-        "coverage_percent": 87.758717,
-        "member_count": 3,
-        "members": [
-          "fervent",
-          "intense",
-          "zealous"
-        ],
-        "support": 2,
-        "effective_support": 1.121615,
-        "support_factor": 0.373872,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0138810035,
-            "similarity": 0.885171,
-            "matched_descriptor": "exuberant"
-          },
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0008472102,
-            "similarity": 0.881321,
-            "matched_descriptor": "strong"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "inarticulate",
-        "descriptor_index": 3803,
-        "amplitude": 0.0052271558,
-        "abs_amplitude": 0.0052271558,
-        "raw_amplitude": 0.0156814673,
-        "percent": 1.082909,
-        "raw_percent": 1.109955,
-        "coverage_percent": 88.841626,
-        "member_count": 1,
-        "members": [
-          "inarticulate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0156814673,
-            "similarity": 0.865867,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "strong / macho / durable / hardened",
-        "descriptor_index": 7332,
-        "amplitude": 0.0035377658,
-        "abs_amplitude": 0.0035377658,
-        "raw_amplitude": 0.0106132974,
-        "percent": 0.732919,
-        "raw_percent": 0.751223,
-        "coverage_percent": 89.574545,
-        "member_count": 4,
-        "members": [
-          "strong",
-          "macho",
-          "durable",
-          "hardened"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0106132974,
-            "similarity": 1.0,
-            "matched_descriptor": "strong"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "motionless",
-        "descriptor_index": 4947,
-        "amplitude": 0.0033519567,
-        "abs_amplitude": 0.0033519567,
-        "raw_amplitude": 0.0100558701,
-        "percent": 0.694425,
-        "raw_percent": 0.711768,
-        "coverage_percent": 90.268969,
-        "member_count": 1,
-        "members": [
-          "motionless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0100558701,
-            "similarity": 0.853841,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "innocent / childlike / ingenuous / simple-minded",
-        "descriptor_index": 3899,
-        "amplitude": 0.0032911279,
-        "abs_amplitude": 0.0032911279,
-        "raw_amplitude": 0.0098733837,
-        "percent": 0.681823,
-        "raw_percent": 0.698851,
-        "coverage_percent": 90.950792,
-        "member_count": 4,
-        "members": [
-          "innocent",
-          "childlike",
-          "ingenuous",
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 0.0098733837,
-            "similarity": 1.0,
-            "matched_descriptor": "innocent"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "slacker",
-        "descriptor_index": 6946,
-        "amplitude": 0.0031804944,
-        "abs_amplitude": 0.0031804944,
-        "raw_amplitude": 0.0095414832,
-        "percent": 0.658903,
-        "raw_percent": 0.675359,
-        "coverage_percent": 91.609695,
-        "member_count": 1,
-        "members": [
-          "slacker"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0095414832,
-            "similarity": 0.861576,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0027064547,
-        "abs_amplitude": 0.0027064547,
-        "raw_amplitude": 0.0079366906,
-        "percent": 0.560696,
-        "raw_percent": 0.56177,
-        "coverage_percent": 92.170391,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 2,
-        "effective_support": 1.023016,
-        "support_factor": 0.341005,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0078463811,
-            "similarity": 0.868605,
-            "matched_descriptor": "exuberant"
-          },
-          {
-            "character_id": 89006,
-            "name": "Anna Nishikinomiya",
-            "native_name": "アンナ・錦ノ宮",
-            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-            "site_url": "https://anilist.co/character/89006",
-            "anime_url": "https://myanimelist.net/anime/29786",
-            "role": "MAIN",
-            "favourites": 1058,
-            "row_weight": 2.82224739,
-            "projection": 9.03095e-05,
-            "similarity": 0.855257,
-            "matched_descriptor": "strong"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "untouchable / disinterested",
-        "descriptor_index": 8234,
-        "amplitude": 0.0026293581,
-        "abs_amplitude": 0.0026293581,
-        "raw_amplitude": 0.0078880743,
-        "percent": 0.544724,
-        "raw_percent": 0.558329,
-        "coverage_percent": 92.715114,
-        "member_count": 2,
-        "members": [
-          "untouchable",
-          "disinterested"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31419,
-            "name": "Cthuko",
-            "native_name": "クー子",
-            "anime": "Haiyoru! Nyaruani",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-            "site_url": "https://anilist.co/character/31419",
-            "anime_url": "https://myanimelist.net/anime/7596",
-            "role": "MAIN",
-            "favourites": 286,
-            "row_weight": 2.58059726,
-            "projection": 0.0078880743,
-            "similarity": 0.87069,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "kimono-clad",
-        "descriptor_index": 4132,
-        "amplitude": 0.0024417449,
-        "abs_amplitude": 0.0024417449,
-        "raw_amplitude": 0.0073252347,
-        "percent": 0.505856,
-        "raw_percent": 0.51849,
-        "coverage_percent": 93.22097,
-        "member_count": 1,
-        "members": [
-          "kimono-clad"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1750,
-            "name": "Yoshinoya",
-            "native_name": "吉野屋",
-            "anime": "Hidamari Sketch",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-            "site_url": "https://anilist.co/character/1750",
-            "anime_url": "https://myanimelist.net/anime/1852",
-            "role": "SUPPORTING",
-            "favourites": 116,
-            "row_weight": 2.40045286,
-            "projection": 0.0073252347,
-            "similarity": 0.823662,
-            "matched_descriptor": "cosplay maniac"
+            "combined_favourites": 1189
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "cold / numb / indifferent / disinterested / +11",
-        "descriptor_index": 1222,
-        "amplitude": 0.0268518913,
-        "abs_amplitude": 0.0268518913,
-        "raw_amplitude": 0.080555674,
-        "percent": 33.533248,
-        "raw_percent": 33.533248,
-        "coverage_percent": 33.533248,
-        "member_count": 15,
-        "members": [
-          "cold",
-          "numb",
-          "indifferent",
-          "disinterested",
-          "dispassionate",
-          "cold-hearted",
-          "frigid",
-          "cold-blooded",
-          "unemotional",
-          "distant",
-          "uncaring",
-          "bored",
-          "standoffish",
-          "unsocial",
-          "unconcerned"
-        ],
+        "step": 1,
+        "descriptor": "unforgiving",
+        "weighted_support": 2.8428346,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0805556741,
-            "similarity": 1.0,
-            "matched_descriptor": "cold"
-          }
-        ]
+        "fit_percent": 78.505987,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "kinder / caring / warm-hearted / soft-spotted / +13",
-        "descriptor_index": 4145,
-        "amplitude": 0.0173080958,
-        "abs_amplitude": 0.0173080958,
-        "raw_amplitude": 0.0519242875,
-        "percent": 21.61474,
-        "raw_percent": 21.61474,
-        "coverage_percent": 55.147988,
-        "member_count": 17,
-        "members": [
-          "kinder",
-          "caring",
-          "warm-hearted",
-          "soft-spotted",
-          "friendly-type",
-          "non-criminal",
-          "friend-oriented",
-          "sweet-natured",
-          "likable",
-          "gentle-hearted",
-          "noble-spirited",
-          "virtuous",
-          "soft-side",
-          "good-natured",
-          "soft-hearted",
-          "big-hearted",
-          "bighearted"
-        ],
+        "step": 2,
+        "descriptor": "righteous",
+        "weighted_support": 2.8428346,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0519242875,
-            "similarity": 1.0,
-            "matched_descriptor": "kinder"
-          }
-        ]
+        "fit_percent": 91.098386,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "unfeeling / insensitive",
-        "descriptor_index": 8136,
-        "amplitude": 0.005971727,
-        "abs_amplitude": 0.005971727,
-        "raw_amplitude": 0.017915181,
-        "percent": 7.457627,
-        "raw_percent": 7.457627,
-        "coverage_percent": 62.605616,
-        "member_count": 2,
-        "members": [
-          "unfeeling",
-          "insensitive"
-        ],
+        "step": 3,
+        "descriptor": "jealous",
+        "weighted_support": 2.8428346,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.017915181,
-            "similarity": 1.0,
-            "matched_descriptor": "unfeeling"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "normal / average / commoner / ordinary",
-        "descriptor_index": 5200,
-        "amplitude": 0.0052222963,
-        "abs_amplitude": 0.0052222963,
-        "raw_amplitude": 0.0156668888,
-        "percent": 6.521721,
-        "raw_percent": 6.521721,
-        "coverage_percent": 69.127337,
-        "member_count": 4,
-        "members": [
-          "normal",
-          "average",
-          "commoner",
-          "ordinary"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0156668888,
-            "similarity": 0.912982,
-            "matched_descriptor": "normal girl"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "empathy-less / apathetic / heartless",
-        "descriptor_index": 2152,
-        "amplitude": 0.003277751,
-        "abs_amplitude": 0.003277751,
-        "raw_amplitude": 0.0098332529,
-        "percent": 4.093329,
-        "raw_percent": 4.093329,
-        "coverage_percent": 73.220666,
-        "member_count": 3,
-        "members": [
-          "empathy-less",
-          "apathetic",
-          "heartless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0098332529,
-            "similarity": 0.911898,
-            "matched_descriptor": "unfeeling / cold"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "displeased / dissatisfied / irritable / sad",
-        "descriptor_index": 1874,
-        "amplitude": 0.0016552762,
-        "abs_amplitude": 0.0016552762,
-        "raw_amplitude": 0.0049658287,
-        "percent": 2.067146,
-        "raw_percent": 2.067146,
-        "coverage_percent": 75.287813,
-        "member_count": 4,
-        "members": [
-          "displeased",
-          "dissatisfied",
-          "irritable",
-          "sad"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0049658287,
-            "similarity": 0.884111,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "detached / aloof",
-        "descriptor_index": 1767,
-        "amplitude": 0.0015715781,
-        "abs_amplitude": 0.0015715781,
-        "raw_amplitude": 0.0047147344,
-        "percent": 1.962622,
-        "raw_percent": 1.962622,
-        "coverage_percent": 77.250435,
-        "member_count": 2,
-        "members": [
-          "detached",
-          "aloof"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0047147345,
-            "similarity": 0.898099,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "kindhearted / pure-hearted / tender-hearted / benevolent / +2",
-        "descriptor_index": 4146,
-        "amplitude": 0.0015589396,
-        "abs_amplitude": 0.0015589396,
-        "raw_amplitude": 0.0046768189,
-        "percent": 1.946839,
-        "raw_percent": 1.946839,
-        "coverage_percent": 79.197274,
-        "member_count": 6,
-        "members": [
-          "kindhearted",
-          "pure-hearted",
-          "tender-hearted",
-          "benevolent",
-          "compassionate",
-          "good-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0046768188,
-            "similarity": 0.89808,
-            "matched_descriptor": "kinder"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unsociable / reticent / taciturn / quiet",
-        "descriptor_index": 8222,
-        "amplitude": 0.0014388346,
-        "abs_amplitude": 0.0014388346,
-        "raw_amplitude": 0.0043165037,
-        "percent": 1.796849,
-        "raw_percent": 1.796849,
-        "coverage_percent": 80.994123,
-        "member_count": 4,
-        "members": [
-          "unsociable",
-          "reticent",
-          "taciturn",
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0043165038,
-            "similarity": 0.895106,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "pleasant / soft / open-hearted / warm / +3",
-        "descriptor_index": 5650,
-        "amplitude": 0.0012511102,
-        "abs_amplitude": 0.0012511102,
-        "raw_amplitude": 0.0037533306,
-        "percent": 1.562415,
-        "raw_percent": 1.562415,
-        "coverage_percent": 82.556537,
-        "member_count": 7,
-        "members": [
-          "pleasant",
-          "soft",
-          "open-hearted",
-          "warm",
-          "good",
-          "friendlier",
-          "cordial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0037533306,
-            "similarity": 0.898041,
-            "matched_descriptor": "kinder"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "time-obsessed",
-        "descriptor_index": 7850,
-        "amplitude": 0.0011393638,
-        "abs_amplitude": 0.0011393638,
-        "raw_amplitude": 0.0034180913,
-        "percent": 1.422863,
-        "raw_percent": 1.422863,
-        "coverage_percent": 83.979401,
-        "member_count": 1,
-        "members": [
-          "time-obsessed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0034180913,
-            "similarity": 0.858322,
-            "matched_descriptor": "synchronizer"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "bad-tempered / grumpy / grouchy",
-        "descriptor_index": 532,
-        "amplitude": 0.0009332444,
-        "abs_amplitude": 0.0009332444,
-        "raw_amplitude": 0.0027997332,
-        "percent": 1.165457,
-        "raw_percent": 1.165457,
-        "coverage_percent": 85.144857,
-        "member_count": 3,
-        "members": [
-          "bad-tempered",
-          "grumpy",
-          "grouchy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0027997333,
-            "similarity": 0.884419,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "faint-hearted / meek / wimpy / unassertive",
-        "descriptor_index": 2364,
-        "amplitude": 0.0009155265,
-        "abs_amplitude": 0.0009155265,
-        "raw_amplitude": 0.0027465795,
-        "percent": 1.14333,
-        "raw_percent": 1.14333,
-        "coverage_percent": 86.288187,
-        "member_count": 4,
-        "members": [
-          "faint-hearted",
-          "meek",
-          "wimpy",
-          "unassertive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0027465795,
-            "similarity": 0.876613,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "mean",
-        "descriptor_index": 4680,
-        "amplitude": 0.0008784746,
-        "abs_amplitude": 0.0008784746,
-        "raw_amplitude": 0.0026354237,
-        "percent": 1.097059,
-        "raw_percent": 1.097059,
-        "coverage_percent": 87.385246,
-        "member_count": 1,
-        "members": [
-          "mean"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0026354237,
-            "similarity": 0.85653,
-            "matched_descriptor": "normal girl"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "deadpan",
-        "descriptor_index": 1612,
-        "amplitude": 0.0008355925,
-        "abs_amplitude": 0.0008355925,
-        "raw_amplitude": 0.0025067776,
-        "percent": 1.043507,
-        "raw_percent": 1.043507,
-        "coverage_percent": 88.428753,
-        "member_count": 1,
-        "members": [
-          "deadpan"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0025067776,
-            "similarity": 0.894215,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "rude / tactless / disrespectful",
-        "descriptor_index": 6386,
-        "amplitude": 0.0007977276,
-        "abs_amplitude": 0.0007977276,
-        "raw_amplitude": 0.0023931829,
-        "percent": 0.99622,
-        "raw_percent": 0.99622,
-        "coverage_percent": 89.424973,
-        "member_count": 3,
-        "members": [
-          "rude",
-          "tactless",
-          "disrespectful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0023931829,
-            "similarity": 0.877191,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "unpitying",
-        "descriptor_index": 8196,
-        "amplitude": 0.00076169,
-        "abs_amplitude": 0.00076169,
-        "raw_amplitude": 0.0022850699,
-        "percent": 0.951216,
-        "raw_percent": 0.951216,
-        "coverage_percent": 90.376189,
-        "member_count": 1,
-        "members": [
-          "unpitying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0022850699,
-            "similarity": 0.890374,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "untouchable",
-        "descriptor_index": 8234,
-        "amplitude": 0.0006111722,
-        "abs_amplitude": 0.0006111722,
-        "raw_amplitude": 0.0018335167,
-        "percent": 0.763246,
-        "raw_percent": 0.763246,
-        "coverage_percent": 91.139435,
-        "member_count": 1,
-        "members": [
-          "untouchable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0018335167,
-            "similarity": 0.884635,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "careless",
-        "descriptor_index": 956,
-        "amplitude": 0.0005924617,
-        "abs_amplitude": 0.0005924617,
-        "raw_amplitude": 0.001777385,
-        "percent": 0.739879,
-        "raw_percent": 0.739879,
-        "coverage_percent": 91.879314,
-        "member_count": 1,
-        "members": [
-          "careless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.001777385,
-            "similarity": 0.883921,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "unshakable",
-        "descriptor_index": 8220,
-        "amplitude": 0.0005305428,
-        "abs_amplitude": 0.0005305428,
-        "raw_amplitude": 0.0015916284,
-        "percent": 0.662554,
-        "raw_percent": 0.662554,
-        "coverage_percent": 92.541868,
-        "member_count": 1,
-        "members": [
-          "unshakable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0015916284,
-            "similarity": 0.88156,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "rigid",
-        "descriptor_index": 6321,
-        "amplitude": 0.0005297112,
-        "abs_amplitude": 0.0005297112,
-        "raw_amplitude": 0.0015891335,
-        "percent": 0.661515,
-        "raw_percent": 0.661515,
-        "coverage_percent": 93.203383,
-        "member_count": 1,
-        "members": [
-          "rigid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0015891335,
-            "similarity": 0.881529,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "female",
-        "descriptor_index": 2500,
-        "amplitude": 0.0005289932,
-        "abs_amplitude": 0.0005289932,
-        "raw_amplitude": 0.0015869797,
-        "percent": 0.660619,
-        "raw_percent": 0.660619,
-        "coverage_percent": 93.864002,
-        "member_count": 1,
-        "members": [
-          "female"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0015869797,
-            "similarity": 0.838353,
-            "matched_descriptor": "normal girl"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "loving / doting",
-        "descriptor_index": 4420,
-        "amplitude": 0.000513254,
-        "abs_amplitude": 0.000513254,
-        "raw_amplitude": 0.0015397621,
-        "percent": 0.640963,
-        "raw_percent": 0.640963,
-        "coverage_percent": 94.504965,
-        "member_count": 2,
-        "members": [
-          "loving",
-          "doting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0015397621,
-            "similarity": 0.892941,
-            "matched_descriptor": "kinder"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "listless / unenthusiastic / slothful",
-        "descriptor_index": 4330,
-        "amplitude": 0.0004962419,
-        "abs_amplitude": 0.0004962419,
-        "raw_amplitude": 0.0014887258,
-        "percent": 0.619718,
-        "raw_percent": 0.619718,
-        "coverage_percent": 95.124683,
-        "member_count": 3,
-        "members": [
-          "listless",
-          "unenthusiastic",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2216,
-            "name": "Hisui",
-            "native_name": "翡翠",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-            "site_url": "https://anilist.co/character/2216",
-            "anime_url": "https://myanimelist.net/anime/10012",
-            "role": "SUPPORTING",
-            "favourites": 465,
-            "row_weight": 2.67286095,
-            "projection": 0.0014887258,
-            "similarity": 0.868277,
-            "matched_descriptor": "cold"
-          }
-        ]
+        "fit_percent": 95.303446,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 31419,
-        "name": "Cthuko",
-        "native_name": "クー子",
-        "anime": "Haiyoru! Nyaruani",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-        "site_url": "https://anilist.co/character/31419",
-        "anime_url": "https://myanimelist.net/anime/7596",
-        "role": "MAIN",
-        "favourites": 286,
-        "row_weight": 2.58059726,
-        "amplitude": 0.8211136806,
-        "abs_amplitude": 0.8211136806,
-        "percent": 67.422768
-      },
-      {
-        "character_id": 1750,
-        "name": "Yoshinoya",
-        "native_name": "吉野屋",
-        "anime": "Hidamari Sketch",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
-        "site_url": "https://anilist.co/character/1750",
-        "anime_url": "https://myanimelist.net/anime/1852",
-        "role": "SUPPORTING",
-        "favourites": 116,
-        "row_weight": 2.40045286,
-        "amplitude": 0.5115015144,
-        "abs_amplitude": 0.5115015144,
-        "percent": 26.16338
+        "character_id": 89006,
+        "name": "Anna Nishikinomiya",
+        "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
+        "site_url": "https://anilist.co/character/89006",
+        "favourites": 1058,
+        "anilist_favourites": 1058,
+        "bangumi_collects": 131,
+        "bangumi_comments": 39,
+        "bangumi_character_id": 32286,
+        "bangumi_url": "https://bgm.tv/character/32286",
+        "combined_favourites": 1189,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "righteous",
+          "unforgiving"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.8428346,
+        "row_weight": 2.8428346,
+        "unweighted_row_norm": 2.59048714,
+        "amplitude": 0.6344798544,
+        "abs_amplitude": 0.6344798544,
+        "percent": 40.256469
       },
       {
         "character_id": 2216,
         "name": "Hisui",
-        "native_name": "翡翠",
         "anime": "Carnival Phantasm",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
         "site_url": "https://anilist.co/character/2216",
-        "anime_url": "https://myanimelist.net/anime/10012",
-        "role": "SUPPORTING",
         "favourites": 465,
-        "row_weight": 2.67286095,
-        "amplitude": -0.240226282,
-        "abs_amplitude": 0.240226282,
-        "percent": 5.770867
+        "anilist_favourites": 465,
+        "bangumi_collects": 6,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 7115,
+        "bangumi_url": "https://bgm.tv/character/7115",
+        "combined_favourites": 471,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind",
+          "teasing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.67525307,
+        "row_weight": 2.67525307,
+        "unweighted_row_norm": 1.80201265,
+        "amplitude": 0.5714144715,
+        "abs_amplitude": 0.5714144715,
+        "percent": 32.65145
       },
       {
-        "character_id": 89006,
-        "name": "Anna Nishikinomiya",
-        "native_name": "アンナ・錦ノ宮",
-        "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-        "site_url": "https://anilist.co/character/89006",
-        "anime_url": "https://myanimelist.net/anime/29786",
-        "role": "MAIN",
-        "favourites": 1058,
-        "row_weight": 2.82224739,
-        "amplitude": 0.0801863938,
-        "abs_amplitude": 0.0801863938,
-        "percent": 0.642986
+        "character_id": 1750,
+        "name": "Yoshinoya",
+        "anime": "Hidamari Sketch",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
+        "site_url": "https://anilist.co/character/1750",
+        "favourites": 116,
+        "anilist_favourites": 116,
+        "bangumi_collects": 47,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 15387,
+        "bangumi_url": "https://bgm.tv/character/15387",
+        "combined_favourites": 163,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46979077,
+        "row_weight": 2.46979077,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5205005439,
+        "abs_amplitude": 0.5205005439,
+        "percent": 27.092082
       }
     ],
     "positive_characters": [
       {
-        "character_id": 31419,
-        "name": "Cthuko",
-        "native_name": "クー子",
-        "anime": "Haiyoru! Nyaruani",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31419-WwIM0eib7H9V.png",
-        "site_url": "https://anilist.co/character/31419",
-        "anime_url": "https://myanimelist.net/anime/7596",
-        "role": "MAIN",
-        "favourites": 286,
-        "row_weight": 2.58059726,
-        "amplitude": 0.8211136806,
-        "abs_amplitude": 0.8211136806,
-        "percent": 67.422768
+        "character_id": 89006,
+        "name": "Anna Nishikinomiya",
+        "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
+        "site_url": "https://anilist.co/character/89006",
+        "favourites": 1058,
+        "anilist_favourites": 1058,
+        "bangumi_collects": 131,
+        "bangumi_comments": 39,
+        "bangumi_character_id": 32286,
+        "bangumi_url": "https://bgm.tv/character/32286",
+        "combined_favourites": 1189,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "righteous",
+          "unforgiving"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.8428346,
+        "row_weight": 2.8428346,
+        "unweighted_row_norm": 2.59048714,
+        "amplitude": 0.6344798544,
+        "abs_amplitude": 0.6344798544,
+        "percent": 40.256469
+      },
+      {
+        "character_id": 2216,
+        "name": "Hisui",
+        "anime": "Carnival Phantasm",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
+        "site_url": "https://anilist.co/character/2216",
+        "favourites": 465,
+        "anilist_favourites": 465,
+        "bangumi_collects": 6,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 7115,
+        "bangumi_url": "https://bgm.tv/character/7115",
+        "combined_favourites": 471,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind",
+          "teasing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.67525307,
+        "row_weight": 2.67525307,
+        "unweighted_row_norm": 1.80201265,
+        "amplitude": 0.5714144715,
+        "abs_amplitude": 0.5714144715,
+        "percent": 32.65145
       },
       {
         "character_id": 1750,
         "name": "Yoshinoya",
-        "native_name": "吉野屋",
         "anime": "Hidamari Sketch",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
         "site_url": "https://anilist.co/character/1750",
-        "anime_url": "https://myanimelist.net/anime/1852",
-        "role": "SUPPORTING",
         "favourites": 116,
-        "row_weight": 2.40045286,
-        "amplitude": 0.5115015144,
-        "abs_amplitude": 0.5115015144,
-        "percent": 26.16338
-      },
-      {
-        "character_id": 89006,
-        "name": "Anna Nishikinomiya",
-        "native_name": "アンナ・錦ノ宮",
-        "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
-        "site_url": "https://anilist.co/character/89006",
-        "anime_url": "https://myanimelist.net/anime/29786",
-        "role": "MAIN",
-        "favourites": 1058,
-        "row_weight": 2.82224739,
-        "amplitude": 0.0801863938,
-        "abs_amplitude": 0.0801863938,
-        "percent": 0.642986
+        "anilist_favourites": 116,
+        "bangumi_collects": 47,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 15387,
+        "bangumi_url": "https://bgm.tv/character/15387",
+        "combined_favourites": 163,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46979077,
+        "row_weight": 2.46979077,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5205005439,
+        "abs_amplitude": 0.5205005439,
+        "percent": 27.092082
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 2216,
-        "name": "Hisui",
-        "native_name": "翡翠",
-        "anime": "Carnival Phantasm",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
-        "site_url": "https://anilist.co/character/2216",
-        "anime_url": "https://myanimelist.net/anime/10012",
-        "role": "SUPPORTING",
-        "favourites": 465,
-        "row_weight": 2.67286095,
-        "amplitude": -0.240226282,
-        "abs_amplitude": 0.240226282,
-        "percent": 5.770867
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 2.923394,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "unforgiving / innocent / righteous / +3",
+          "support": 3,
+          "variance": 0.4541656755,
+          "seed_descriptor": "unforgiving",
+          "components": [
+            {
+              "descriptor": "unforgiving",
+              "weight": 0.35660094,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "innocent",
+              "weight": 0.157598,
+              "similarity_to_seed": 0.66478943,
+              "support": 1
+            },
+            {
+              "descriptor": "righteous",
+              "weight": 0.13481123,
+              "similarity_to_seed": 0.61485371,
+              "support": 1
+            },
+            {
+              "descriptor": "teasing",
+              "weight": 0.13149996,
+              "similarity_to_seed": 0.60725566,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.10987357,
+              "similarity_to_seed": 0.55507973,
+              "support": 1
+            },
+            {
+              "descriptor": "jealous",
+              "weight": 0.1096163,
+              "similarity_to_seed": 0.55442949,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.4541656755,
+          "minimum_y_projection_variance": 0.1135414189,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 6,
+          "x_component_count": 6,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0454165676,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1135414189,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2270828378,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 89006,
+            "name": "Anna Nishikinomiya",
+            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
+            "site_url": "https://anilist.co/character/89006",
+            "favourites": 1058,
+            "anilist_favourites": 1058,
+            "bangumi_collects": 131,
+            "bangumi_comments": 39,
+            "bangumi_character_id": 32286,
+            "bangumi_url": "https://bgm.tv/character/32286",
+            "combined_favourites": 1189,
+            "role_edge_count": 1,
+            "descriptors": [
+              "jealous",
+              "righteous",
+              "unforgiving"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.8428346,
+            "row_weight": 2.8428346,
+            "unweighted_row_norm": 2.59048714,
+            "x_raw_score": 2.5091365159,
+            "x_score": 0.8605991227,
+            "amplitude": 0.8605991227,
+            "x_direct": true
+          },
+          {
+            "character_id": 2216,
+            "name": "Hisui",
+            "anime": "Carnival Phantasm",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
+            "site_url": "https://anilist.co/character/2216",
+            "favourites": 465,
+            "anilist_favourites": 465,
+            "bangumi_collects": 6,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 7115,
+            "bangumi_url": "https://bgm.tv/character/7115",
+            "combined_favourites": 471,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "teasing"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.67525307,
+            "row_weight": 2.67525307,
+            "unweighted_row_norm": 1.80201265,
+            "x_raw_score": 1.5728860743,
+            "x_score": -0.075651319,
+            "amplitude": -0.075651319,
+            "x_direct": true
+          },
+          {
+            "character_id": 1750,
+            "name": "Yoshinoya",
+            "anime": "Hidamari Sketch",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
+            "site_url": "https://anilist.co/character/1750",
+            "favourites": 116,
+            "anilist_favourites": 116,
+            "bangumi_collects": 47,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 15387,
+            "bangumi_url": "https://bgm.tv/character/15387",
+            "combined_favourites": 163,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46979077,
+            "row_weight": 2.46979077,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.8635895895,
+            "x_score": -0.7849478037,
+            "amplitude": -0.7849478037,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.6485373932
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "jealous / savage / cynical / +9",
+          "support": 2,
+          "variance": 0.4408922434,
+          "seed_descriptor": "jealous",
+          "components": [
+            {
+              "descriptor": "jealous",
+              "weight": 0.1546166,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "savage",
+              "weight": 0.0813476,
+              "similarity_to_seed": 0.72534449,
+              "support": 0
+            },
+            {
+              "descriptor": "cynical",
+              "weight": 0.07891445,
+              "similarity_to_seed": 0.71441444,
+              "support": 0
+            },
+            {
+              "descriptor": "irritated",
+              "weight": 0.0784145,
+              "similarity_to_seed": 0.71214781,
+              "support": 0
+            },
+            {
+              "descriptor": "ruthless",
+              "weight": 0.0783086,
+              "similarity_to_seed": 0.71166677,
+              "support": 0
+            },
+            {
+              "descriptor": "obsessed",
+              "weight": 0.07823379,
+              "similarity_to_seed": 0.71132673,
+              "support": 0
+            },
+            {
+              "descriptor": "spiteful",
+              "weight": 0.07657671,
+              "similarity_to_seed": 0.70375307,
+              "support": 0
+            },
+            {
+              "descriptor": "teasing",
+              "weight": 0.07628903,
+              "similarity_to_seed": 0.70242989,
+              "support": 1
+            },
+            {
+              "descriptor": "selfish",
+              "weight": 0.07470315,
+              "similarity_to_seed": 0.69509059,
+              "support": 0
+            },
+            {
+              "descriptor": "passionate",
+              "weight": 0.07445487,
+              "similarity_to_seed": 0.69393454,
+              "support": 0
+            },
+            {
+              "descriptor": "admired",
+              "weight": 0.07410196,
+              "similarity_to_seed": 0.69228798,
+              "support": 0
+            },
+            {
+              "descriptor": "petty",
+              "weight": 0.07403873,
+              "similarity_to_seed": 0.69199258,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.4408922434,
+          "minimum_y_projection_variance": 0.1102230608,
+          "best_rejected_correlation": 0.9929546949,
+          "best_rejected_lane_cosine": 0.8865823436,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9929546949,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0440892243,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1102230608,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2204461217,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "devoted / dedicated / faithful / +9",
+            "variance": 0.3783684362,
+            "correlation": 0.9999585275,
+            "abs_correlation": 0.9999585275,
+            "lane_cosine": 0.8425326434,
+            "orthogonality_score": 0.2901387448,
+            "objective": 0.1097793432,
+            "components": [
+              {
+                "descriptor": "devoted",
+                "weight": 0.14000644,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "dedicated",
+                "weight": 0.10237668,
+                "similarity_to_seed": 0.85511893,
+                "support": 0
+              },
+              {
+                "descriptor": "faithful",
+                "weight": 0.09136814,
+                "similarity_to_seed": 0.80783635,
+                "support": 0
+              },
+              {
+                "descriptor": "devout",
+                "weight": 0.08514549,
+                "similarity_to_seed": 0.77984236,
+                "support": 0
+              },
+              {
+                "descriptor": "loyal",
+                "weight": 0.08095226,
+                "similarity_to_seed": 0.76039715,
+                "support": 0
+              },
+              {
+                "descriptor": "persistent",
+                "weight": 0.07441695,
+                "similarity_to_seed": 0.72905776,
+                "support": 0
+              },
+              {
+                "descriptor": "supportive",
+                "weight": 0.07308917,
+                "similarity_to_seed": 0.7225244,
+                "support": 0
+              },
+              {
+                "descriptor": "obedient",
+                "weight": 0.0722542,
+                "similarity_to_seed": 0.71838546,
+                "support": 0
+              },
+              {
+                "descriptor": "trusting",
+                "weight": 0.07190437,
+                "similarity_to_seed": 0.7166443,
+                "support": 0
+              },
+              {
+                "descriptor": "dependable",
+                "weight": 0.07010384,
+                "similarity_to_seed": 0.70761478,
+                "support": 0
+              },
+              {
+                "descriptor": "dependent",
+                "weight": 0.0693502,
+                "similarity_to_seed": 0.70380098,
+                "support": 0
+              },
+              {
+                "descriptor": "respected",
+                "weight": 0.06903226,
+                "similarity_to_seed": 0.70218582,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 89006,
+            "name": "Anna Nishikinomiya",
+            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
+            "site_url": "https://anilist.co/character/89006",
+            "favourites": 1058,
+            "anilist_favourites": 1058,
+            "bangumi_collects": 131,
+            "bangumi_comments": 39,
+            "bangumi_character_id": 32286,
+            "bangumi_url": "https://bgm.tv/character/32286",
+            "combined_favourites": 1189,
+            "role_edge_count": 1,
+            "descriptors": [
+              "jealous",
+              "righteous",
+              "unforgiving"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.8428346,
+            "row_weight": 2.8428346,
+            "unweighted_row_norm": 2.59048714,
+            "x_raw_score": 2.4039656922,
+            "x_score": 0.8236837173,
+            "amplitude": 0.8236837173,
+            "x_direct": true
+          },
+          {
+            "character_id": 2216,
+            "name": "Hisui",
+            "anime": "Carnival Phantasm",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
+            "site_url": "https://anilist.co/character/2216",
+            "favourites": 465,
+            "anilist_favourites": 465,
+            "bangumi_collects": 6,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 7115,
+            "bangumi_url": "https://bgm.tv/character/7115",
+            "combined_favourites": 471,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "teasing"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.67525307,
+            "row_weight": 2.67525307,
+            "unweighted_row_norm": 1.80201265,
+            "x_raw_score": 1.5589490347,
+            "x_score": -0.0213329401,
+            "amplitude": -0.0213329401,
+            "x_direct": true
+          },
+          {
+            "character_id": 1750,
+            "name": "Yoshinoya",
+            "anime": "Hidamari Sketch",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
+            "site_url": "https://anilist.co/character/1750",
+            "favourites": 116,
+            "anilist_favourites": 116,
+            "bangumi_collects": 47,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 15387,
+            "bangumi_url": "https://bgm.tv/character/15387",
+            "combined_favourites": 163,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46979077,
+            "row_weight": 2.46979077,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7779311977,
+            "x_score": -0.8023507772,
+            "amplitude": -0.8023507772,
+            "x_direct": false
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.5802819748
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
       }
-    ]
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "unforgiving / innocent / righteous / +3",
+        "support": 3,
+        "variance": 0.4541656755,
+        "seed_descriptor": "unforgiving",
+        "components": [
+          {
+            "descriptor": "unforgiving",
+            "weight": 0.35660094,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "innocent",
+            "weight": 0.157598,
+            "similarity_to_seed": 0.66478943,
+            "support": 1
+          },
+          {
+            "descriptor": "righteous",
+            "weight": 0.13481123,
+            "similarity_to_seed": 0.61485371,
+            "support": 1
+          },
+          {
+            "descriptor": "teasing",
+            "weight": 0.13149996,
+            "similarity_to_seed": 0.60725566,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.10987357,
+            "similarity_to_seed": 0.55507973,
+            "support": 1
+          },
+          {
+            "descriptor": "jealous",
+            "weight": 0.1096163,
+            "similarity_to_seed": 0.55442949,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.4541656755,
+        "minimum_y_projection_variance": 0.1135414189,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 6,
+        "x_component_count": 6,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0454165676,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1135414189,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.2270828378,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 89006,
+          "name": "Anna Nishikinomiya",
+          "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
+          "site_url": "https://anilist.co/character/89006",
+          "favourites": 1058,
+          "anilist_favourites": 1058,
+          "bangumi_collects": 131,
+          "bangumi_comments": 39,
+          "bangumi_character_id": 32286,
+          "bangumi_url": "https://bgm.tv/character/32286",
+          "combined_favourites": 1189,
+          "role_edge_count": 1,
+          "descriptors": [
+            "jealous",
+            "righteous",
+            "unforgiving"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.8428346,
+          "row_weight": 2.8428346,
+          "unweighted_row_norm": 2.59048714,
+          "x_raw_score": 2.5091365159,
+          "x_score": 0.8605991227,
+          "amplitude": 0.8605991227,
+          "x_direct": true
+        },
+        {
+          "character_id": 2216,
+          "name": "Hisui",
+          "anime": "Carnival Phantasm",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
+          "site_url": "https://anilist.co/character/2216",
+          "favourites": 465,
+          "anilist_favourites": 465,
+          "bangumi_collects": 6,
+          "bangumi_comments": 0,
+          "bangumi_character_id": 7115,
+          "bangumi_url": "https://bgm.tv/character/7115",
+          "combined_favourites": 471,
+          "role_edge_count": 1,
+          "descriptors": [
+            "kind",
+            "teasing"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.67525307,
+          "row_weight": 2.67525307,
+          "unweighted_row_norm": 1.80201265,
+          "x_raw_score": 1.5728860743,
+          "x_score": -0.075651319,
+          "amplitude": -0.075651319,
+          "x_direct": true
+        },
+        {
+          "character_id": 1750,
+          "name": "Yoshinoya",
+          "anime": "Hidamari Sketch",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
+          "site_url": "https://anilist.co/character/1750",
+          "favourites": 116,
+          "anilist_favourites": 116,
+          "bangumi_collects": 47,
+          "bangumi_comments": 7,
+          "bangumi_character_id": 15387,
+          "bangumi_url": "https://bgm.tv/character/15387",
+          "combined_favourites": 163,
+          "role_edge_count": 1,
+          "descriptors": [
+            "innocent"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.46979077,
+          "row_weight": 2.46979077,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.8635895895,
+          "x_score": -0.7849478037,
+          "amplitude": -0.7849478037,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.6485373932
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3771085007,
+      "mass_percent": 8.887331,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 39.240559,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.2770056167,
+            "abs_amplitude": 0.2770056167,
+            "percent": 64.194957
+          },
+          {
+            "rank": 2,
+            "descriptor": "teasing",
+            "amplitude": 0.154501202,
+            "abs_amplitude": 0.154501202,
+            "percent": 35.805043
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 37.33564,
+            "residual_gain_percent": 13.9395
+          },
+          {
+            "step": 2,
+            "descriptor": "teasing",
+            "fit_percent": 39.240559,
+            "residual_gain_percent": 1.694988
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 2216,
+            "name": "Hisui",
+            "anime": "Carnival Phantasm",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2216-L3yy6vGLwS58.jpg",
+            "site_url": "https://anilist.co/character/2216",
+            "favourites": 465,
+            "anilist_favourites": 465,
+            "bangumi_collects": 6,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 7115,
+            "bangumi_url": "https://bgm.tv/character/7115",
+            "combined_favourites": 471,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "teasing"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.67525307,
+            "row_weight": 2.67525307,
+            "unweighted_row_norm": 1.80201265,
+            "amplitude": 0.7552873556,
+            "abs_amplitude": 0.7552873556,
+            "percent": 57.045899
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 35.458484,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "innocent",
+            "amplitude": 0.3545848367,
+            "abs_amplitude": 0.3545848367,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "innocent",
+            "fit_percent": 35.458484,
+            "residual_gain_percent": 12.573041
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 1750,
+            "name": "Yoshinoya",
+            "anime": "Hidamari Sketch",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1750.jpg",
+            "site_url": "https://anilist.co/character/1750",
+            "favourites": 116,
+            "anilist_favourites": 116,
+            "bangumi_collects": 47,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 15387,
+            "bangumi_url": "https://bgm.tv/character/15387",
+            "combined_favourites": 163,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46979077,
+            "row_weight": 2.46979077,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.635934173,
+            "abs_amplitude": 0.635934173,
+            "percent": 40.441227
+          },
+          {
+            "character_id": 89006,
+            "name": "Anna Nishikinomiya",
+            "anime": "SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn’t Exist",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/89006-wsa8eP2z9x0e.png",
+            "site_url": "https://anilist.co/character/89006",
+            "favourites": 1058,
+            "anilist_favourites": 1058,
+            "bangumi_collects": 131,
+            "bangumi_comments": 39,
+            "bangumi_character_id": 32286,
+            "bangumi_url": "https://bgm.tv/character/32286",
+            "combined_favourites": 1189,
+            "role_edge_count": 1,
+            "descriptors": [
+              "jealous",
+              "righteous",
+              "unforgiving"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.8428346,
+            "row_weight": 2.8428346,
+            "unweighted_row_norm": 2.59048714,
+            "amplitude": -0.158520466,
+            "abs_amplitude": 0.158520466,
+            "percent": 2.512874
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.268562117,
+      "mass_percent": 85.388272,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3771085007,
+      "mass_percent": 8.887331,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.1052165536,
+      "mass_percent": 5.724397,
+      "relative_to_sv2_percent": 80.256316
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

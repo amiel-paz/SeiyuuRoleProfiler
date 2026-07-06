@@ -10,2263 +10,535 @@
   "aliases": [
     "kujira"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/kujira.json",
+  "sv1_mass_percent": 86.411812,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 29.642637326,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 29.642637326,
-        "mass_percent": 98.807982
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.2558334802,
-        "mass_percent": 1.192018
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 320.288053,
-      "normalized_entanglement": 0.834083,
-      "top5_mass_percent": 3.571866,
-      "top10_mass_percent": 6.361592
-    },
-    "character_participation": {
-      "effective_count": 1.00219,
-      "normalized_entanglement": 0.501095,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 7.672486,
-      "semantic_spread": 7.672486,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.845588,
-      "direction_spread": 0.845588,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 98.807982,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.3819663386,
+    "mass_percent": 85.665851,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "relaxed / stoic / laid-back / easygoing / +14",
-        "descriptor_index": 6207,
-        "amplitude": 0.0330670813,
-        "abs_amplitude": 0.0330670813,
-        "raw_amplitude": 0.0992012438,
-        "percent": 9.469207,
-        "raw_percent": 9.607635,
-        "coverage_percent": 9.469207,
-        "member_count": 18,
-        "members": [
-          "relaxed",
-          "stoic",
-          "laid-back",
-          "easygoing",
-          "nonchalant",
-          "mellow",
-          "composed",
-          "calmer",
-          "gentle",
-          "restrained",
-          "amiable",
-          "serene",
-          "peaceful",
-          "care-free",
-          "carefree",
-          "agreeable",
-          "tranquil",
-          "stiff"
-        ],
+        "descriptor": "wise",
+        "amplitude": 0.1006017048,
+        "abs_amplitude": 0.1006017048,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0992012438,
-            "similarity": 1.0,
-            "matched_descriptor": "relaxed / stoic"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "smart / wise / brainy / intelligent / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0299600202,
-        "abs_amplitude": 0.0299600202,
-        "raw_amplitude": 0.0898800605,
-        "percent": 8.579458,
-        "raw_percent": 8.704879,
-        "coverage_percent": 18.048665,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "wise",
-          "brainy",
-          "intelligent",
-          "well-versed",
-          "astute",
-          "clever",
-          "shrewd",
-          "quick-witted"
-        ],
+        "descriptor": "stoic",
+        "amplitude": 0.1006017055,
+        "abs_amplitude": 0.1006017055,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0898800605,
-            "similarity": 1.0,
-            "matched_descriptor": "smart / wise"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0257117833,
-        "abs_amplitude": 0.0257117833,
-        "raw_amplitude": 0.0771353498,
-        "percent": 7.362918,
-        "raw_percent": 7.470554,
-        "coverage_percent": 25.411582,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "descriptor": "loyal",
+        "amplitude": 0.1006017056,
+        "abs_amplitude": 0.1006017056,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.07713535,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.0240696498,
-        "abs_amplitude": 0.0240696498,
-        "raw_amplitude": 0.0722089495,
-        "percent": 6.89267,
-        "raw_percent": 6.993433,
-        "coverage_percent": 32.304253,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
+        "descriptor": "kind",
+        "amplitude": 0.100601707,
+        "abs_amplitude": 0.100601707,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0722089495,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 5,
-        "descriptor": "quiet / taciturn / untalkative / reticent / +3",
-        "descriptor_index": 6084,
-        "amplitude": 0.0204965571,
-        "abs_amplitude": 0.0204965571,
-        "raw_amplitude": 0.0614896714,
-        "percent": 5.869467,
-        "raw_percent": 5.955271,
-        "coverage_percent": 38.173719,
-        "member_count": 7,
-        "members": [
-          "quiet",
-          "taciturn",
-          "untalkative",
-          "reticent",
-          "mute",
-          "unsociable",
-          "voiceless"
-        ],
+        "descriptor": "insightful",
+        "amplitude": 0.100601706,
+        "abs_amplitude": 0.100601706,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0614896715,
-            "similarity": 1.0,
-            "matched_descriptor": "quiet"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 6,
-        "descriptor": "insightful / philosophical / discerning / focused / +1",
-        "descriptor_index": 3919,
-        "amplitude": 0.0110053683,
-        "abs_amplitude": 0.0110053683,
-        "raw_amplitude": 0.0330161049,
-        "percent": 3.151536,
-        "raw_percent": 3.197608,
-        "coverage_percent": 41.325256,
-        "member_count": 5,
-        "members": [
-          "insightful",
-          "philosophical",
-          "discerning",
-          "focused",
-          "aware"
-        ],
+        "descriptor": "humble",
+        "amplitude": 0.1006017053,
+        "abs_amplitude": 0.1006017053,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0330161048,
-            "similarity": 1.0,
-            "matched_descriptor": "insightful"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 7,
-        "descriptor": "level-headed / even-tempered / poised / comfortable",
-        "descriptor_index": 4285,
-        "amplitude": 0.0106580164,
-        "abs_amplitude": 0.0106580164,
-        "raw_amplitude": 0.0315577619,
-        "percent": 3.052067,
-        "raw_percent": 3.056367,
-        "coverage_percent": 44.377323,
-        "member_count": 4,
-        "members": [
-          "level-headed",
-          "even-tempered",
-          "poised",
-          "comfortable"
-        ],
-        "support": 2,
-        "effective_support": 1.013191,
-        "support_factor": 0.33773,
-        "top_characters": [
+        "descriptor": "honorable",
+        "amplitude": 0.1006017067,
+        "abs_amplitude": 0.1006017067,
+        "percent": 8.390089,
+        "weighted_support": 2.67245906,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 75434,
             "name": "Sakura Oogami",
-            "native_name": "大神さくら",
             "anime": "Danganronpa: The Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
             "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0313509732,
-            "similarity": 1.0,
-            "matched_descriptor": "level-headed"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0002067887,
-            "similarity": 0.877369,
-            "matched_descriptor": "confident"
+            "combined_favourites": 464
           }
         ]
       },
       {
         "rank": 8,
-        "descriptor": "humble / unassuming / non-arrogant / self-effacing",
-        "descriptor_index": 3640,
-        "amplitude": 0.0103588109,
-        "abs_amplitude": 0.0103588109,
-        "raw_amplitude": 0.0300366588,
-        "percent": 2.966386,
-        "raw_percent": 2.909049,
-        "coverage_percent": 47.343709,
-        "member_count": 4,
-        "members": [
-          "humble",
-          "unassuming",
-          "non-arrogant",
-          "self-effacing"
-        ],
-        "support": 2,
-        "effective_support": 1.034617,
-        "support_factor": 0.344872,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0295254666,
-            "similarity": 1.0,
-            "matched_descriptor": "humble"
-          },
+        "descriptor": "harsh",
+        "amplitude": 0.494842209,
+        "abs_amplitude": 0.494842209,
+        "percent": 41.26938,
+        "weighted_support": 2.49188406,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 5970,
             "name": "Otose",
-            "native_name": "お登勢",
             "anime": "Gintama - The Movie",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
             "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0005111922,
-            "similarity": 0.87508,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "honorable / principled / respectable",
-        "descriptor_index": 3561,
-        "amplitude": 0.009520632,
-        "abs_amplitude": 0.009520632,
-        "raw_amplitude": 0.0285618959,
-        "percent": 2.726362,
-        "raw_percent": 2.766218,
-        "coverage_percent": 50.070071,
-        "member_count": 3,
-        "members": [
-          "honorable",
-          "principled",
-          "respectable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0285618958,
-            "similarity": 1.0,
-            "matched_descriptor": "honorable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "old-fashioned / traditional",
-        "descriptor_index": 5293,
-        "amplitude": 0.0086108816,
-        "abs_amplitude": 0.0086108816,
-        "raw_amplitude": 0.0258326447,
-        "percent": 2.465843,
-        "raw_percent": 2.50189,
-        "coverage_percent": 52.535914,
-        "member_count": 2,
-        "members": [
-          "old-fashioned",
-          "traditional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0258326447,
-            "similarity": 1.0,
-            "matched_descriptor": "old-fashioned"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "aloof / standoffish / unsocial / modest / +4",
-        "descriptor_index": 177,
-        "amplitude": 0.008142033,
-        "abs_amplitude": 0.008142033,
-        "raw_amplitude": 0.0228693679,
-        "percent": 2.331581,
-        "raw_percent": 2.214897,
-        "coverage_percent": 54.867495,
-        "member_count": 8,
-        "members": [
-          "aloof",
-          "standoffish",
-          "unsocial",
-          "modest",
-          "coy",
-          "detached",
-          "distant",
-          "non-interfering"
-        ],
-        "support": 2,
-        "effective_support": 1.068071,
-        "support_factor": 0.356024,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.022115777,
-            "similarity": 0.900841,
-            "matched_descriptor": "quiet / humble"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0007535909,
-            "similarity": 0.88356,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "mature / matured",
-        "descriptor_index": 4666,
-        "amplitude": 0.0067868258,
-        "abs_amplitude": 0.0067868258,
-        "raw_amplitude": 0.0203604774,
-        "percent": 1.9435,
-        "raw_percent": 1.971911,
-        "coverage_percent": 56.810995,
-        "member_count": 2,
-        "members": [
-          "mature",
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0203604774,
-            "similarity": 1.0,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0058559343,
-        "abs_amplitude": 0.0058559343,
-        "raw_amplitude": 0.0175678028,
-        "percent": 1.676926,
-        "raw_percent": 1.701441,
-        "coverage_percent": 58.487921,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0175678028,
-            "similarity": 0.938187,
-            "matched_descriptor": "hard worker"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "competent / gifted / capable / skill-oriented / +1",
-        "descriptor_index": 1309,
-        "amplitude": 0.0056490433,
-        "abs_amplitude": 0.0056490433,
-        "raw_amplitude": 0.0168188464,
-        "percent": 1.61768,
-        "raw_percent": 1.628904,
-        "coverage_percent": 60.105601,
-        "member_count": 5,
-        "members": [
-          "competent",
-          "gifted",
-          "capable",
-          "skill-oriented",
-          "experienced"
-        ],
-        "support": 2,
-        "effective_support": 1.007627,
-        "support_factor": 0.335876,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0167549475,
-            "similarity": 0.896135,
-            "matched_descriptor": "wise"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 6.3899e-05,
-            "similarity": 0.857027,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "fashionable / fashion-forward / aesthetic",
-        "descriptor_index": 2459,
-        "amplitude": 0.0049372576,
-        "abs_amplitude": 0.0049372576,
-        "raw_amplitude": 0.0148117728,
-        "percent": 1.413851,
-        "raw_percent": 1.434519,
-        "coverage_percent": 61.519452,
-        "member_count": 3,
-        "members": [
-          "fashionable",
-          "fashion-forward",
-          "aesthetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0148117727,
-            "similarity": 0.889403,
-            "matched_descriptor": "old-fashioned"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0048542705,
-        "abs_amplitude": 0.0048542705,
-        "raw_amplitude": 0.0145628116,
-        "percent": 1.390086,
-        "raw_percent": 1.410407,
-        "coverage_percent": 62.909538,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0145628116,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "sensible / prudent / careful",
-        "descriptor_index": 6701,
-        "amplitude": 0.0046069242,
-        "abs_amplitude": 0.0046069242,
-        "raw_amplitude": 0.0106273439,
-        "percent": 1.319255,
-        "raw_percent": 1.029258,
-        "coverage_percent": 64.228793,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "prudent",
-          "careful"
-        ],
-        "support": 2,
-        "effective_support": 1.300492,
-        "support_factor": 0.433497,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0092107345,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0014166094,
-            "similarity": 0.898496,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "low-energy / mild-mannered / easy-going / subdued / +1",
-        "descriptor_index": 4439,
-        "amplitude": 0.0045977029,
-        "abs_amplitude": 0.0045977029,
-        "raw_amplitude": 0.0137931087,
-        "percent": 1.316615,
-        "raw_percent": 1.335862,
-        "coverage_percent": 65.545407,
-        "member_count": 5,
-        "members": [
-          "low-energy",
-          "mild-mannered",
-          "easy-going",
-          "subdued",
-          "non-violent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0137931087,
-            "similarity": 0.912772,
-            "matched_descriptor": "level-headed / humble / relaxed"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "phlegmatic / deadpan / slow-paced / cool-headed",
-        "descriptor_index": 5588,
-        "amplitude": 0.0041546364,
-        "abs_amplitude": 0.0041546364,
-        "raw_amplitude": 0.0124639091,
-        "percent": 1.189736,
-        "raw_percent": 1.207129,
-        "coverage_percent": 66.735144,
-        "member_count": 4,
-        "members": [
-          "phlegmatic",
-          "deadpan",
-          "slow-paced",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.012463909,
-            "similarity": 0.907328,
-            "matched_descriptor": "stoic / level-headed"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "dispassionate / unemotional / numb / apathetic / +2",
-        "descriptor_index": 1872,
-        "amplitude": 0.004087871,
-        "abs_amplitude": 0.004087871,
-        "raw_amplitude": 0.0122636131,
-        "percent": 1.170617,
-        "raw_percent": 1.18773,
-        "coverage_percent": 67.905761,
-        "member_count": 6,
-        "members": [
-          "dispassionate",
-          "unemotional",
-          "numb",
-          "apathetic",
-          "cold",
-          "frigid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0122636131,
-            "similarity": 0.922072,
-            "matched_descriptor": "stoic / quiet"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "upstanding / righteous / goody-two-shoes",
-        "descriptor_index": 8260,
-        "amplitude": 0.0037453883,
-        "abs_amplitude": 0.0037453883,
-        "raw_amplitude": 0.0112361649,
-        "percent": 1.072543,
-        "raw_percent": 1.088222,
-        "coverage_percent": 68.978304,
-        "member_count": 3,
-        "members": [
-          "upstanding",
-          "righteous",
-          "goody-two-shoes"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.011236165,
-            "similarity": 0.898319,
-            "matched_descriptor": "honorable / kind"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "shy / meek / bashful / discreet / +2",
-        "descriptor_index": 6837,
-        "amplitude": 0.0036175672,
-        "abs_amplitude": 0.0036175672,
-        "raw_amplitude": 0.0097913439,
-        "percent": 1.035939,
-        "raw_percent": 0.948291,
-        "coverage_percent": 70.014243,
-        "member_count": 6,
-        "members": [
-          "shy",
-          "meek",
-          "bashful",
-          "discreet",
-          "faint-hearted",
-          "demure"
-        ],
-        "support": 2,
-        "effective_support": 1.108398,
-        "support_factor": 0.369466,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0092865376,
-            "similarity": 0.892012,
-            "matched_descriptor": "quiet / humble"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0005048062,
-            "similarity": 0.876837,
-            "matched_descriptor": "secretive"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.003417561,
-        "abs_amplitude": 0.003417561,
-        "raw_amplitude": 0.0102526831,
-        "percent": 0.978665,
-        "raw_percent": 0.992972,
-        "coverage_percent": 70.992908,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0102526832,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0031270251,
-        "abs_amplitude": 0.0031270251,
-        "raw_amplitude": 0.0093810752,
-        "percent": 0.895466,
-        "raw_percent": 0.908557,
-        "coverage_percent": 71.888374,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0093810752,
-            "similarity": 0.904584,
-            "matched_descriptor": "wise"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "clean-cut / realistic / sophisticated / elegant / +1",
-        "descriptor_index": 1162,
-        "amplitude": 0.0030671029,
-        "abs_amplitude": 0.0030671029,
-        "raw_amplitude": 0.0092013086,
-        "percent": 0.878306,
-        "raw_percent": 0.891146,
-        "coverage_percent": 72.766681,
-        "member_count": 5,
-        "members": [
-          "clean-cut",
-          "realistic",
-          "sophisticated",
-          "elegant",
-          "refined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0092013087,
-            "similarity": 0.883763,
-            "matched_descriptor": "old-fashioned"
+            "combined_favourites": 182
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "relaxed / stoic / laid-back / easygoing / +14",
-        "descriptor_index": 6207,
-        "amplitude": 0.0330670813,
-        "abs_amplitude": 0.0330670813,
-        "raw_amplitude": 0.0992012438,
-        "percent": 9.469207,
-        "raw_percent": 9.607635,
-        "coverage_percent": 9.469207,
-        "member_count": 18,
-        "members": [
-          "relaxed",
-          "stoic",
-          "laid-back",
-          "easygoing",
-          "nonchalant",
-          "mellow",
-          "composed",
-          "calmer",
-          "gentle",
-          "restrained",
-          "amiable",
-          "serene",
-          "peaceful",
-          "care-free",
-          "carefree",
-          "agreeable",
-          "tranquil",
-          "stiff"
-        ],
+        "step": 1,
+        "descriptor": "wise",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0992012438,
-            "similarity": 1.0,
-            "matched_descriptor": "relaxed / stoic"
-          }
-        ]
+        "fit_percent": 78.890992,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "smart / wise / brainy / intelligent / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0299600202,
-        "abs_amplitude": 0.0299600202,
-        "raw_amplitude": 0.0898800605,
-        "percent": 8.579458,
-        "raw_percent": 8.704879,
-        "coverage_percent": 18.048665,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "wise",
-          "brainy",
-          "intelligent",
-          "well-versed",
-          "astute",
-          "clever",
-          "shrewd",
-          "quick-witted"
-        ],
+        "step": 2,
+        "descriptor": "stoic",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0898800605,
-            "similarity": 1.0,
-            "matched_descriptor": "smart / wise"
-          }
-        ]
+        "fit_percent": 84.392983,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0257117833,
-        "abs_amplitude": 0.0257117833,
-        "raw_amplitude": 0.0771353498,
-        "percent": 7.362918,
-        "raw_percent": 7.470554,
-        "coverage_percent": 25.411582,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "step": 3,
+        "descriptor": "loyal",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.07713535,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "fit_percent": 88.305174,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.0240696498,
-        "abs_amplitude": 0.0240696498,
-        "raw_amplitude": 0.0722089495,
-        "percent": 6.89267,
-        "raw_percent": 6.993433,
-        "coverage_percent": 32.304253,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
+        "step": 4,
+        "descriptor": "kind",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0722089495,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
+        "fit_percent": 90.599243,
+        "selection": "weighted_support"
       },
       {
-        "rank": 5,
-        "descriptor": "quiet / taciturn / untalkative / reticent / +3",
-        "descriptor_index": 6084,
-        "amplitude": 0.0204965571,
-        "abs_amplitude": 0.0204965571,
-        "raw_amplitude": 0.0614896714,
-        "percent": 5.869467,
-        "raw_percent": 5.955271,
-        "coverage_percent": 38.173719,
-        "member_count": 7,
-        "members": [
-          "quiet",
-          "taciturn",
-          "untalkative",
-          "reticent",
-          "mute",
-          "unsociable",
-          "voiceless"
-        ],
+        "step": 5,
+        "descriptor": "insightful",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0614896715,
-            "similarity": 1.0,
-            "matched_descriptor": "quiet"
-          }
-        ]
+        "fit_percent": 91.083217,
+        "selection": "weighted_support"
       },
       {
-        "rank": 6,
-        "descriptor": "insightful / philosophical / discerning / focused / +1",
-        "descriptor_index": 3919,
-        "amplitude": 0.0110053683,
-        "abs_amplitude": 0.0110053683,
-        "raw_amplitude": 0.0330161049,
-        "percent": 3.151536,
-        "raw_percent": 3.197608,
-        "coverage_percent": 41.325256,
-        "member_count": 5,
-        "members": [
-          "insightful",
-          "philosophical",
-          "discerning",
-          "focused",
-          "aware"
-        ],
+        "step": 6,
+        "descriptor": "humble",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0330161048,
-            "similarity": 1.0,
-            "matched_descriptor": "insightful"
-          }
-        ]
+        "fit_percent": 93.257016,
+        "selection": "weighted_support"
       },
       {
-        "rank": 7,
-        "descriptor": "level-headed / even-tempered / poised / comfortable",
-        "descriptor_index": 4285,
-        "amplitude": 0.0106580164,
-        "abs_amplitude": 0.0106580164,
-        "raw_amplitude": 0.0315577619,
-        "percent": 3.052067,
-        "raw_percent": 3.056367,
-        "coverage_percent": 44.377323,
-        "member_count": 4,
-        "members": [
-          "level-headed",
-          "even-tempered",
-          "poised",
-          "comfortable"
-        ],
-        "support": 2,
-        "effective_support": 1.013191,
-        "support_factor": 0.33773,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0313509732,
-            "similarity": 1.0,
-            "matched_descriptor": "level-headed"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0002067887,
-            "similarity": 0.877369,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "humble / unassuming / non-arrogant / self-effacing",
-        "descriptor_index": 3640,
-        "amplitude": 0.0103588109,
-        "abs_amplitude": 0.0103588109,
-        "raw_amplitude": 0.0300366588,
-        "percent": 2.966386,
-        "raw_percent": 2.909049,
-        "coverage_percent": 47.343709,
-        "member_count": 4,
-        "members": [
-          "humble",
-          "unassuming",
-          "non-arrogant",
-          "self-effacing"
-        ],
-        "support": 2,
-        "effective_support": 1.034617,
-        "support_factor": 0.344872,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0295254666,
-            "similarity": 1.0,
-            "matched_descriptor": "humble"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0005111922,
-            "similarity": 0.87508,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "honorable / principled / respectable",
-        "descriptor_index": 3561,
-        "amplitude": 0.009520632,
-        "abs_amplitude": 0.009520632,
-        "raw_amplitude": 0.0285618959,
-        "percent": 2.726362,
-        "raw_percent": 2.766218,
-        "coverage_percent": 50.070071,
-        "member_count": 3,
-        "members": [
-          "honorable",
-          "principled",
-          "respectable"
-        ],
+        "step": 7,
+        "descriptor": "honorable",
+        "weighted_support": 2.67245906,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0285618958,
-            "similarity": 1.0,
-            "matched_descriptor": "honorable"
-          }
-        ]
+        "fit_percent": 94.136764,
+        "selection": "weighted_support"
       },
       {
-        "rank": 10,
-        "descriptor": "old-fashioned / traditional",
-        "descriptor_index": 5293,
-        "amplitude": 0.0086108816,
-        "abs_amplitude": 0.0086108816,
-        "raw_amplitude": 0.0258326447,
-        "percent": 2.465843,
-        "raw_percent": 2.50189,
-        "coverage_percent": 52.535914,
-        "member_count": 2,
-        "members": [
-          "old-fashioned",
-          "traditional"
-        ],
+        "step": 8,
+        "descriptor": "harsh",
+        "weighted_support": 2.49188406,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0258326447,
-            "similarity": 1.0,
-            "matched_descriptor": "old-fashioned"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "aloof / standoffish / unsocial / modest / +4",
-        "descriptor_index": 177,
-        "amplitude": 0.008142033,
-        "abs_amplitude": 0.008142033,
-        "raw_amplitude": 0.0228693679,
-        "percent": 2.331581,
-        "raw_percent": 2.214897,
-        "coverage_percent": 54.867495,
-        "member_count": 8,
-        "members": [
-          "aloof",
-          "standoffish",
-          "unsocial",
-          "modest",
-          "coy",
-          "detached",
-          "distant",
-          "non-interfering"
-        ],
-        "support": 2,
-        "effective_support": 1.068071,
-        "support_factor": 0.356024,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.022115777,
-            "similarity": 0.900841,
-            "matched_descriptor": "quiet / humble"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0007535909,
-            "similarity": 0.88356,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "mature / matured",
-        "descriptor_index": 4666,
-        "amplitude": 0.0067868258,
-        "abs_amplitude": 0.0067868258,
-        "raw_amplitude": 0.0203604774,
-        "percent": 1.9435,
-        "raw_percent": 1.971911,
-        "coverage_percent": 56.810995,
-        "member_count": 2,
-        "members": [
-          "mature",
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0203604774,
-            "similarity": 1.0,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0058559343,
-        "abs_amplitude": 0.0058559343,
-        "raw_amplitude": 0.0175678028,
-        "percent": 1.676926,
-        "raw_percent": 1.701441,
-        "coverage_percent": 58.487921,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0175678028,
-            "similarity": 0.938187,
-            "matched_descriptor": "hard worker"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "competent / gifted / capable / skill-oriented / +1",
-        "descriptor_index": 1309,
-        "amplitude": 0.0056490433,
-        "abs_amplitude": 0.0056490433,
-        "raw_amplitude": 0.0168188464,
-        "percent": 1.61768,
-        "raw_percent": 1.628904,
-        "coverage_percent": 60.105601,
-        "member_count": 5,
-        "members": [
-          "competent",
-          "gifted",
-          "capable",
-          "skill-oriented",
-          "experienced"
-        ],
-        "support": 2,
-        "effective_support": 1.007627,
-        "support_factor": 0.335876,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0167549475,
-            "similarity": 0.896135,
-            "matched_descriptor": "wise"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 6.3899e-05,
-            "similarity": 0.857027,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "fashionable / fashion-forward / aesthetic",
-        "descriptor_index": 2459,
-        "amplitude": 0.0049372576,
-        "abs_amplitude": 0.0049372576,
-        "raw_amplitude": 0.0148117728,
-        "percent": 1.413851,
-        "raw_percent": 1.434519,
-        "coverage_percent": 61.519452,
-        "member_count": 3,
-        "members": [
-          "fashionable",
-          "fashion-forward",
-          "aesthetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0148117727,
-            "similarity": 0.889403,
-            "matched_descriptor": "old-fashioned"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0048542705,
-        "abs_amplitude": 0.0048542705,
-        "raw_amplitude": 0.0145628116,
-        "percent": 1.390086,
-        "raw_percent": 1.410407,
-        "coverage_percent": 62.909538,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0145628116,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "sensible / prudent / careful",
-        "descriptor_index": 6701,
-        "amplitude": 0.0046069242,
-        "abs_amplitude": 0.0046069242,
-        "raw_amplitude": 0.0106273439,
-        "percent": 1.319255,
-        "raw_percent": 1.029258,
-        "coverage_percent": 64.228793,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "prudent",
-          "careful"
-        ],
-        "support": 2,
-        "effective_support": 1.300492,
-        "support_factor": 0.433497,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0092107345,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0014166094,
-            "similarity": 0.898496,
-            "matched_descriptor": "confident"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "low-energy / mild-mannered / easy-going / subdued / +1",
-        "descriptor_index": 4439,
-        "amplitude": 0.0045977029,
-        "abs_amplitude": 0.0045977029,
-        "raw_amplitude": 0.0137931087,
-        "percent": 1.316615,
-        "raw_percent": 1.335862,
-        "coverage_percent": 65.545407,
-        "member_count": 5,
-        "members": [
-          "low-energy",
-          "mild-mannered",
-          "easy-going",
-          "subdued",
-          "non-violent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0137931087,
-            "similarity": 0.912772,
-            "matched_descriptor": "level-headed / humble / relaxed"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "phlegmatic / deadpan / slow-paced / cool-headed",
-        "descriptor_index": 5588,
-        "amplitude": 0.0041546364,
-        "abs_amplitude": 0.0041546364,
-        "raw_amplitude": 0.0124639091,
-        "percent": 1.189736,
-        "raw_percent": 1.207129,
-        "coverage_percent": 66.735144,
-        "member_count": 4,
-        "members": [
-          "phlegmatic",
-          "deadpan",
-          "slow-paced",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.012463909,
-            "similarity": 0.907328,
-            "matched_descriptor": "stoic / level-headed"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "dispassionate / unemotional / numb / apathetic / +2",
-        "descriptor_index": 1872,
-        "amplitude": 0.004087871,
-        "abs_amplitude": 0.004087871,
-        "raw_amplitude": 0.0122636131,
-        "percent": 1.170617,
-        "raw_percent": 1.18773,
-        "coverage_percent": 67.905761,
-        "member_count": 6,
-        "members": [
-          "dispassionate",
-          "unemotional",
-          "numb",
-          "apathetic",
-          "cold",
-          "frigid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0122636131,
-            "similarity": 0.922072,
-            "matched_descriptor": "stoic / quiet"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "upstanding / righteous / goody-two-shoes",
-        "descriptor_index": 8260,
-        "amplitude": 0.0037453883,
-        "abs_amplitude": 0.0037453883,
-        "raw_amplitude": 0.0112361649,
-        "percent": 1.072543,
-        "raw_percent": 1.088222,
-        "coverage_percent": 68.978304,
-        "member_count": 3,
-        "members": [
-          "upstanding",
-          "righteous",
-          "goody-two-shoes"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.011236165,
-            "similarity": 0.898319,
-            "matched_descriptor": "honorable / kind"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "shy / meek / bashful / discreet / +2",
-        "descriptor_index": 6837,
-        "amplitude": 0.0036175672,
-        "abs_amplitude": 0.0036175672,
-        "raw_amplitude": 0.0097913439,
-        "percent": 1.035939,
-        "raw_percent": 0.948291,
-        "coverage_percent": 70.014243,
-        "member_count": 6,
-        "members": [
-          "shy",
-          "meek",
-          "bashful",
-          "discreet",
-          "faint-hearted",
-          "demure"
-        ],
-        "support": 2,
-        "effective_support": 1.108398,
-        "support_factor": 0.369466,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0092865376,
-            "similarity": 0.892012,
-            "matched_descriptor": "quiet / humble"
-          },
-          {
-            "character_id": 5970,
-            "name": "Otose",
-            "native_name": "お登勢",
-            "anime": "Gintama - The Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
-            "site_url": "https://anilist.co/character/5970",
-            "anime_url": "https://myanimelist.net/anime/7472",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0005048062,
-            "similarity": 0.876837,
-            "matched_descriptor": "secretive"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.003417561,
-        "abs_amplitude": 0.003417561,
-        "raw_amplitude": 0.0102526831,
-        "percent": 0.978665,
-        "raw_percent": 0.992972,
-        "coverage_percent": 70.992908,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0102526832,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0031270251,
-        "abs_amplitude": 0.0031270251,
-        "raw_amplitude": 0.0093810752,
-        "percent": 0.895466,
-        "raw_percent": 0.908557,
-        "coverage_percent": 71.888374,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0093810752,
-            "similarity": 0.904584,
-            "matched_descriptor": "wise"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "clean-cut / realistic / sophisticated / elegant / +1",
-        "descriptor_index": 1162,
-        "amplitude": 0.0030671029,
-        "abs_amplitude": 0.0030671029,
-        "raw_amplitude": 0.0092013086,
-        "percent": 0.878306,
-        "raw_percent": 0.891146,
-        "coverage_percent": 72.766681,
-        "member_count": 5,
-        "members": [
-          "clean-cut",
-          "realistic",
-          "sophisticated",
-          "elegant",
-          "refined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 75434,
-            "name": "Sakura Oogami",
-            "native_name": "大神さくら",
-            "anime": "Danganronpa: The Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
-            "site_url": "https://anilist.co/character/75434",
-            "anime_url": "https://myanimelist.net/anime/16592",
-            "role": "MAIN",
-            "favourites": 421,
-            "row_weight": 2.65424289,
-            "projection": 0.0092013087,
-            "similarity": 0.883763,
-            "matched_descriptor": "old-fashioned"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 75434,
         "name": "Sakura Oogami",
-        "native_name": "大神さくら",
         "anime": "Danganronpa: The Animation",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
         "site_url": "https://anilist.co/character/75434",
-        "anime_url": "https://myanimelist.net/anime/16592",
-        "role": "MAIN",
         "favourites": 421,
-        "row_weight": 2.65424289,
-        "amplitude": 0.9994529663,
-        "abs_amplitude": 0.9994529663,
-        "percent": 99.890623
+        "anilist_favourites": 421,
+        "bangumi_collects": 43,
+        "bangumi_comments": 19,
+        "bangumi_character_id": 18035,
+        "bangumi_url": "https://bgm.tv/character/18035",
+        "combined_favourites": 464,
+        "role_edge_count": 1,
+        "descriptors": [
+          "honorable",
+          "humble",
+          "insightful",
+          "kind",
+          "loyal",
+          "stoic",
+          "wise"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.67245906,
+        "row_weight": 2.67245906,
+        "unweighted_row_norm": 5.81977568,
+        "amplitude": 0.7409174277,
+        "abs_amplitude": 0.7409174277,
+        "percent": 54.895863
       },
       {
         "character_id": 5970,
         "name": "Otose",
-        "native_name": "お登勢",
         "anime": "Gintama - The Movie",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
         "site_url": "https://anilist.co/character/5970",
-        "anime_url": "https://myanimelist.net/anime/7472",
-        "role": "SUPPORTING",
         "favourites": 165,
-        "row_weight": 2.47224347,
-        "amplitude": 0.0330721658,
-        "abs_amplitude": 0.0330721658,
-        "percent": 0.109377
+        "anilist_favourites": 165,
+        "bangumi_collects": 17,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 3051,
+        "bangumi_url": "https://bgm.tv/character/3051",
+        "combined_favourites": 182,
+        "role_edge_count": 1,
+        "descriptors": [
+          "harsh"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49188406,
+        "row_weight": 2.49188406,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.6715961326,
+        "abs_amplitude": 0.6715961326,
+        "percent": 45.104137
       }
     ],
     "positive_characters": [
       {
         "character_id": 75434,
         "name": "Sakura Oogami",
-        "native_name": "大神さくら",
         "anime": "Danganronpa: The Animation",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
         "site_url": "https://anilist.co/character/75434",
-        "anime_url": "https://myanimelist.net/anime/16592",
-        "role": "MAIN",
         "favourites": 421,
-        "row_weight": 2.65424289,
-        "amplitude": 0.9994529663,
-        "abs_amplitude": 0.9994529663,
-        "percent": 99.890623
+        "anilist_favourites": 421,
+        "bangumi_collects": 43,
+        "bangumi_comments": 19,
+        "bangumi_character_id": 18035,
+        "bangumi_url": "https://bgm.tv/character/18035",
+        "combined_favourites": 464,
+        "role_edge_count": 1,
+        "descriptors": [
+          "honorable",
+          "humble",
+          "insightful",
+          "kind",
+          "loyal",
+          "stoic",
+          "wise"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.67245906,
+        "row_weight": 2.67245906,
+        "unweighted_row_norm": 5.81977568,
+        "amplitude": 0.7409174277,
+        "abs_amplitude": 0.7409174277,
+        "percent": 54.895863
       },
       {
         "character_id": 5970,
         "name": "Otose",
-        "native_name": "お登勢",
         "anime": "Gintama - The Movie",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
         "site_url": "https://anilist.co/character/5970",
-        "anime_url": "https://myanimelist.net/anime/7472",
-        "role": "SUPPORTING",
         "favourites": 165,
-        "row_weight": 2.47224347,
-        "amplitude": 0.0330721658,
-        "abs_amplitude": 0.0330721658,
-        "percent": 0.109377
+        "anilist_favourites": 165,
+        "bangumi_collects": 17,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 3051,
+        "bangumi_url": "https://bgm.tv/character/3051",
+        "combined_favourites": 182,
+        "role_edge_count": 1,
+        "descriptors": [
+          "harsh"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49188406,
+        "row_weight": 2.49188406,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.6715961326,
+        "abs_amplitude": 0.6715961326,
+        "percent": 45.104137
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.981007,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.383411451,
+      "mass_percent": 14.334149,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 39.566238,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "stoic",
+            "amplitude": 0.1935132935,
+            "abs_amplitude": 0.1935132935,
+            "percent": 43.27273
+          },
+          {
+            "rank": 2,
+            "descriptor": "insightful",
+            "amplitude": 0.1388525454,
+            "abs_amplitude": 0.1388525454,
+            "percent": 31.049695
+          },
+          {
+            "rank": 3,
+            "descriptor": "wise",
+            "amplitude": 0.1148287222,
+            "abs_amplitude": 0.1148287222,
+            "percent": 25.677576
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "stoic",
+            "fit_percent": 36.170215,
+            "residual_gain_percent": 13.082844
+          },
+          {
+            "step": 2,
+            "descriptor": "insightful",
+            "fit_percent": 38.772429,
+            "residual_gain_percent": 2.243709
+          },
+          {
+            "step": 3,
+            "descriptor": "wise",
+            "fit_percent": 39.566238,
+            "residual_gain_percent": 0.731884
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 75434,
+            "name": "Sakura Oogami",
+            "anime": "Danganronpa: The Animation",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b75434-KFXsL2xG9Ckm.jpg",
+            "site_url": "https://anilist.co/character/75434",
+            "favourites": 421,
+            "anilist_favourites": 421,
+            "bangumi_collects": 43,
+            "bangumi_comments": 19,
+            "bangumi_character_id": 18035,
+            "bangumi_url": "https://bgm.tv/character/18035",
+            "combined_favourites": 464,
+            "role_edge_count": 1,
+            "descriptors": [
+              "honorable",
+              "humble",
+              "insightful",
+              "kind",
+              "loyal",
+              "stoic",
+              "wise"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.67245906,
+            "row_weight": 2.67245906,
+            "unweighted_row_norm": 5.81977568,
+            "amplitude": 0.6715961326,
+            "abs_amplitude": 0.6715961326,
+            "percent": 45.104137
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 41.13328,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "harsh",
+            "amplitude": 0.4113328029,
+            "abs_amplitude": 0.4113328029,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "harsh",
+            "fit_percent": 41.13328,
+            "residual_gain_percent": 16.919467
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 5970,
+            "name": "Otose",
+            "anime": "Gintama - The Movie",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n5970-mAiTzyfEOup9.jpg",
+            "site_url": "https://anilist.co/character/5970",
+            "favourites": 165,
+            "anilist_favourites": 165,
+            "bangumi_collects": 17,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 3051,
+            "bangumi_url": "https://bgm.tv/character/3051",
+            "combined_favourites": 182,
+            "role_edge_count": 1,
+            "descriptors": [
+              "harsh"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.49188406,
+            "row_weight": 2.49188406,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.7409174277,
+            "abs_amplitude": 0.7409174277,
+            "percent": 54.895863
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.3819663386,
+      "mass_percent": 85.665851,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.383411451,
+      "mass_percent": 14.334149,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

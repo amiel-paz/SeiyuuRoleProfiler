@@ -5,1919 +5,1079 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95416-8rk0Oq3ZXYjt.png",
   "site_url": "https://anilist.co/staff/95416",
   "role_count": 14,
-  "character_count": 2,
+  "character_count": 3,
   "first_year": 2007,
   "aliases": [
     "akira kamiya",
     "kamiya akira"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/akira_kamiya.json",
+  "sv1_mass_percent": 75.121442,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 3,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.0102682776,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.0102682776,
-        "mass_percent": 72.162755
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.4907492227,
-        "mass_percent": 27.837245
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 134.769892,
-      "normalized_entanglement": 0.350963,
-      "top5_mass_percent": 10.867495,
-      "top10_mass_percent": 17.022828
-    },
-    "character_participation": {
-      "effective_count": 1.278953,
-      "normalized_entanglement": 0.639476,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.196916,
-      "semantic_spread": 1.196916,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.830388,
-      "direction_spread": 0.830388,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 72.162755,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.2203623408,
+    "mass_percent": 76.728324,
+    "descriptor_fit_percent": 97.171484,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "orphaned",
-        "descriptor_index": 5372,
-        "amplitude": 0.0365028073,
-        "abs_amplitude": 0.0365028073,
-        "raw_amplitude": 0.109508422,
-        "percent": 8.498299,
-        "raw_percent": 8.498299,
-        "coverage_percent": 8.498299,
-        "member_count": 1,
-        "members": [
-          "orphaned"
-        ],
+        "descriptor": "mysterious",
+        "amplitude": 0.7742820847,
+        "abs_amplitude": 0.7742820847,
+        "percent": 72.000898,
+        "weighted_support": 2.71412425,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 2065,
             "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
             "anime": "City Hunter: Ryo no Propose",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
             "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.109508422,
-            "similarity": 1.0,
-            "matched_descriptor": "orphaned"
+            "combined_favourites": 581
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.036502757,
-        "abs_amplitude": 0.036502757,
-        "raw_amplitude": 0.109508271,
-        "percent": 8.498287,
-        "raw_percent": 8.498287,
-        "coverage_percent": 16.996586,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
+        "descriptor": "lazy",
+        "amplitude": 0.3010962901,
+        "abs_amplitude": 0.3010962901,
+        "percent": 27.999102,
+        "weighted_support": 1.88828315,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.109508271,
-            "similarity": 1.0,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "combatant / fighting",
-        "descriptor_index": 1260,
-        "amplitude": 0.0293994502,
-        "abs_amplitude": 0.0293994502,
-        "raw_amplitude": 0.0881983507,
-        "percent": 6.844551,
-        "raw_percent": 6.844551,
-        "coverage_percent": 23.841136,
-        "member_count": 2,
-        "members": [
-          "combatant",
-          "fighting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0881983507,
-            "similarity": 0.931332,
-            "matched_descriptor": "fighter"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "abandoned / neglected",
-        "descriptor_index": 3,
-        "amplitude": 0.0258501532,
-        "abs_amplitude": 0.0258501532,
-        "raw_amplitude": 0.0775504595,
-        "percent": 6.018231,
-        "raw_percent": 6.018231,
-        "coverage_percent": 29.859367,
-        "member_count": 2,
-        "members": [
-          "abandoned",
-          "neglected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0775504595,
-            "similarity": 0.877124,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.0228034645,
-        "abs_amplitude": 0.0228034645,
-        "raw_amplitude": 0.0684103935,
-        "percent": 5.308925,
-        "raw_percent": 5.308925,
-        "coverage_percent": 35.168292,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 1746,
             "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
             "anime": "Case Closed: Jolly Roger in the Deep Azure",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
             "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0684103935,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "intangible / dark",
-        "descriptor_index": 3941,
-        "amplitude": 0.0207766884,
-        "abs_amplitude": 0.0207766884,
-        "raw_amplitude": 0.0623300652,
-        "percent": 4.837066,
-        "raw_percent": 4.837066,
-        "coverage_percent": 40.005358,
-        "member_count": 2,
-        "members": [
-          "intangible",
-          "dark"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0623300652,
-            "similarity": 0.885974,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0182363353,
-        "abs_amplitude": 0.0182363353,
-        "raw_amplitude": 0.054709006,
-        "percent": 4.245641,
-        "raw_percent": 4.245641,
-        "coverage_percent": 44.251,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0547090061,
-            "similarity": 0.896958,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "runaway",
-        "descriptor_index": 6397,
-        "amplitude": 0.0155843188,
-        "abs_amplitude": 0.0155843188,
-        "raw_amplitude": 0.0467529563,
-        "percent": 3.628219,
-        "raw_percent": 3.628219,
-        "coverage_percent": 47.879219,
-        "member_count": 1,
-        "members": [
-          "runaway"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0467529563,
-            "similarity": 0.877129,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "shadowy",
-        "descriptor_index": 6749,
-        "amplitude": 0.0150944072,
-        "abs_amplitude": 0.0150944072,
-        "raw_amplitude": 0.0452832217,
-        "percent": 3.514162,
-        "raw_percent": 3.514162,
-        "coverage_percent": 51.393381,
-        "member_count": 1,
-        "members": [
-          "shadowy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0452832217,
-            "similarity": 0.898634,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "vulnerable",
-        "descriptor_index": 8422,
-        "amplitude": 0.0125362205,
-        "abs_amplitude": 0.0125362205,
-        "raw_amplitude": 0.0376086615,
-        "percent": 2.918585,
-        "raw_percent": 2.918585,
-        "coverage_percent": 54.311966,
-        "member_count": 1,
-        "members": [
-          "vulnerable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0376086615,
-            "similarity": 1.0,
-            "matched_descriptor": "vulnerable"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0120096935,
-        "abs_amplitude": 0.0120096935,
-        "raw_amplitude": 0.0360290804,
-        "percent": 2.796003,
-        "raw_percent": 2.796003,
-        "coverage_percent": 57.107969,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0360290804,
-            "similarity": 0.884028,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "enigmatic",
-        "descriptor_index": 2192,
-        "amplitude": 0.0109924368,
-        "abs_amplitude": 0.0109924368,
-        "raw_amplitude": 0.0329773105,
-        "percent": 2.559173,
-        "raw_percent": 2.559173,
-        "coverage_percent": 59.667143,
-        "member_count": 1,
-        "members": [
-          "enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0329773105,
-            "similarity": 0.879211,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "near-death",
-        "descriptor_index": 5071,
-        "amplitude": 0.0106563686,
-        "abs_amplitude": 0.0106563686,
-        "raw_amplitude": 0.0319691057,
-        "percent": 2.480933,
-        "raw_percent": 2.480933,
-        "coverage_percent": 62.148075,
-        "member_count": 1,
-        "members": [
-          "near-death"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0319691057,
-            "similarity": 0.850148,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "disconnected / friendless",
-        "descriptor_index": 1845,
-        "amplitude": 0.0092851078,
-        "abs_amplitude": 0.0092851078,
-        "raw_amplitude": 0.0278553234,
-        "percent": 2.161686,
-        "raw_percent": 2.161686,
-        "coverage_percent": 64.309762,
-        "member_count": 2,
-        "members": [
-          "disconnected",
-          "friendless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0278553234,
-            "similarity": 0.819102,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "absent / lost",
-        "descriptor_index": 15,
-        "amplitude": 0.0082065034,
-        "abs_amplitude": 0.0082065034,
-        "raw_amplitude": 0.0246195103,
-        "percent": 1.910574,
-        "raw_percent": 1.910574,
-        "coverage_percent": 66.220336,
-        "member_count": 2,
-        "members": [
-          "absent",
-          "lost"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0246195103,
-            "similarity": 0.835151,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "sensitive / frail / fragile / brittle",
-        "descriptor_index": 6702,
-        "amplitude": 0.0077961263,
-        "abs_amplitude": 0.0077961263,
-        "raw_amplitude": 0.023388379,
-        "percent": 1.815033,
-        "raw_percent": 1.815033,
-        "coverage_percent": 68.035369,
-        "member_count": 4,
-        "members": [
-          "sensitive",
-          "frail",
-          "fragile",
-          "brittle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.023388379,
-            "similarity": 0.891994,
-            "matched_descriptor": "vulnerable"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "stealthy",
-        "descriptor_index": 7241,
-        "amplitude": 0.0074652783,
-        "abs_amplitude": 0.0074652783,
-        "raw_amplitude": 0.0223958348,
-        "percent": 1.738008,
-        "raw_percent": 1.738008,
-        "coverage_percent": 69.773377,
-        "member_count": 1,
-        "members": [
-          "stealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0223958348,
-            "similarity": 0.862511,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "sleepy / drowsy / somnolent / narcoleptic",
-        "descriptor_index": 6962,
-        "amplitude": 0.0066806272,
-        "abs_amplitude": 0.0066806272,
-        "raw_amplitude": 0.0200418816,
-        "percent": 1.555331,
-        "raw_percent": 1.555331,
-        "coverage_percent": 71.328708,
-        "member_count": 4,
-        "members": [
-          "sleepy",
-          "drowsy",
-          "somnolent",
-          "narcoleptic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0200418816,
-            "similarity": 0.853262,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "dead",
-        "descriptor_index": 1608,
-        "amplitude": 0.0063346118,
-        "abs_amplitude": 0.0063346118,
-        "raw_amplitude": 0.0190038354,
-        "percent": 1.474775,
-        "raw_percent": 1.474775,
-        "coverage_percent": 72.803483,
-        "member_count": 1,
-        "members": [
-          "dead"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0190038354,
-            "similarity": 0.81378,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "harsh / brutal / merciless",
-        "descriptor_index": 3366,
-        "amplitude": 0.0060064992,
-        "abs_amplitude": 0.0060064992,
-        "raw_amplitude": 0.0180194977,
-        "percent": 1.398386,
-        "raw_percent": 1.398386,
-        "coverage_percent": 74.20187,
-        "member_count": 3,
-        "members": [
-          "harsh",
-          "brutal",
-          "merciless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0180194977,
-            "similarity": 0.874403,
-            "matched_descriptor": "vulnerable"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "exhausted / tired / sleep-deprived",
-        "descriptor_index": 2305,
-        "amplitude": 0.0055662976,
-        "abs_amplitude": 0.0055662976,
-        "raw_amplitude": 0.0166988928,
-        "percent": 1.295902,
-        "raw_percent": 1.295902,
-        "coverage_percent": 75.497771,
-        "member_count": 3,
-        "members": [
-          "exhausted",
-          "tired",
-          "sleep-deprived"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0166988927,
-            "similarity": 0.852585,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "unmotivated / unenthusiastic",
-        "descriptor_index": 8188,
-        "amplitude": 0.0055450024,
-        "abs_amplitude": 0.0055450024,
-        "raw_amplitude": 0.0166350071,
-        "percent": 1.290944,
-        "raw_percent": 1.290944,
-        "coverage_percent": 76.788716,
-        "member_count": 2,
-        "members": [
-          "unmotivated",
-          "unenthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0166350071,
-            "similarity": 0.883669,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "loud enigmatic",
-        "descriptor_index": 4402,
-        "amplitude": 0.0054905977,
-        "abs_amplitude": 0.0054905977,
-        "raw_amplitude": 0.0164717931,
-        "percent": 1.278278,
-        "raw_percent": 1.278278,
-        "coverage_percent": 78.066994,
-        "member_count": 1,
-        "members": [
-          "loud enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0164717931,
-            "similarity": 0.853161,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "dormant / sleeping",
-        "descriptor_index": 1928,
-        "amplitude": 0.0054001447,
-        "abs_amplitude": 0.0054001447,
-        "raw_amplitude": 0.016200434,
-        "percent": 1.25722,
-        "raw_percent": 1.25722,
-        "coverage_percent": 79.324213,
-        "member_count": 2,
-        "members": [
-          "dormant",
-          "sleeping"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.016200434,
-            "similarity": 0.861544,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.0050858674,
-        "abs_amplitude": 0.0050858674,
-        "raw_amplitude": 0.0152576021,
-        "percent": 1.184052,
-        "raw_percent": 1.184052,
-        "coverage_percent": 80.508265,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0152576021,
-            "similarity": 0.858407,
-            "matched_descriptor": "mysterious"
+            "combined_favourites": 459
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "orphaned",
-        "descriptor_index": 5372,
-        "amplitude": 0.0365028073,
-        "abs_amplitude": 0.0365028073,
-        "raw_amplitude": 0.109508422,
-        "percent": 8.498299,
-        "raw_percent": 8.498299,
-        "coverage_percent": 8.498299,
-        "member_count": 1,
-        "members": [
-          "orphaned"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.109508422,
-            "similarity": 1.0,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 2,
+        "step": 1,
         "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.036502757,
-        "abs_amplitude": 0.036502757,
-        "raw_amplitude": 0.109508271,
-        "percent": 8.498287,
-        "raw_percent": 8.498287,
-        "coverage_percent": 16.996586,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
+        "weighted_support": 2.71412425,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.109508271,
-            "similarity": 1.0,
-            "matched_descriptor": "mysterious"
-          }
-        ]
+        "fit_percent": 93.834247,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "combatant / fighting",
-        "descriptor_index": 1260,
-        "amplitude": 0.0293994502,
-        "abs_amplitude": 0.0293994502,
-        "raw_amplitude": 0.0881983507,
-        "percent": 6.844551,
-        "raw_percent": 6.844551,
-        "coverage_percent": 23.841136,
-        "member_count": 2,
-        "members": [
-          "combatant",
-          "fighting"
-        ],
+        "step": 2,
+        "descriptor": "lazy",
+        "weighted_support": 1.88828315,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0881983507,
-            "similarity": 0.931332,
-            "matched_descriptor": "fighter"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "abandoned / neglected",
-        "descriptor_index": 3,
-        "amplitude": 0.0258501532,
-        "abs_amplitude": 0.0258501532,
-        "raw_amplitude": 0.0775504595,
-        "percent": 6.018231,
-        "raw_percent": 6.018231,
-        "coverage_percent": 29.859367,
-        "member_count": 2,
-        "members": [
-          "abandoned",
-          "neglected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0775504595,
-            "similarity": 0.877124,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.0228034645,
-        "abs_amplitude": 0.0228034645,
-        "raw_amplitude": 0.0684103935,
-        "percent": 5.308925,
-        "raw_percent": 5.308925,
-        "coverage_percent": 35.168292,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0684103935,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "intangible / dark",
-        "descriptor_index": 3941,
-        "amplitude": 0.0207766884,
-        "abs_amplitude": 0.0207766884,
-        "raw_amplitude": 0.0623300652,
-        "percent": 4.837066,
-        "raw_percent": 4.837066,
-        "coverage_percent": 40.005358,
-        "member_count": 2,
-        "members": [
-          "intangible",
-          "dark"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0623300652,
-            "similarity": 0.885974,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0182363353,
-        "abs_amplitude": 0.0182363353,
-        "raw_amplitude": 0.054709006,
-        "percent": 4.245641,
-        "raw_percent": 4.245641,
-        "coverage_percent": 44.251,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0547090061,
-            "similarity": 0.896958,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "runaway",
-        "descriptor_index": 6397,
-        "amplitude": 0.0155843188,
-        "abs_amplitude": 0.0155843188,
-        "raw_amplitude": 0.0467529563,
-        "percent": 3.628219,
-        "raw_percent": 3.628219,
-        "coverage_percent": 47.879219,
-        "member_count": 1,
-        "members": [
-          "runaway"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0467529563,
-            "similarity": 0.877129,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "shadowy",
-        "descriptor_index": 6749,
-        "amplitude": 0.0150944072,
-        "abs_amplitude": 0.0150944072,
-        "raw_amplitude": 0.0452832217,
-        "percent": 3.514162,
-        "raw_percent": 3.514162,
-        "coverage_percent": 51.393381,
-        "member_count": 1,
-        "members": [
-          "shadowy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0452832217,
-            "similarity": 0.898634,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "vulnerable",
-        "descriptor_index": 8422,
-        "amplitude": 0.0125362205,
-        "abs_amplitude": 0.0125362205,
-        "raw_amplitude": 0.0376086615,
-        "percent": 2.918585,
-        "raw_percent": 2.918585,
-        "coverage_percent": 54.311966,
-        "member_count": 1,
-        "members": [
-          "vulnerable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0376086615,
-            "similarity": 1.0,
-            "matched_descriptor": "vulnerable"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0120096935,
-        "abs_amplitude": 0.0120096935,
-        "raw_amplitude": 0.0360290804,
-        "percent": 2.796003,
-        "raw_percent": 2.796003,
-        "coverage_percent": 57.107969,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0360290804,
-            "similarity": 0.884028,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "enigmatic",
-        "descriptor_index": 2192,
-        "amplitude": 0.0109924368,
-        "abs_amplitude": 0.0109924368,
-        "raw_amplitude": 0.0329773105,
-        "percent": 2.559173,
-        "raw_percent": 2.559173,
-        "coverage_percent": 59.667143,
-        "member_count": 1,
-        "members": [
-          "enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0329773105,
-            "similarity": 0.879211,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "near-death",
-        "descriptor_index": 5071,
-        "amplitude": 0.0106563686,
-        "abs_amplitude": 0.0106563686,
-        "raw_amplitude": 0.0319691057,
-        "percent": 2.480933,
-        "raw_percent": 2.480933,
-        "coverage_percent": 62.148075,
-        "member_count": 1,
-        "members": [
-          "near-death"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0319691057,
-            "similarity": 0.850148,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "disconnected / friendless",
-        "descriptor_index": 1845,
-        "amplitude": 0.0092851078,
-        "abs_amplitude": 0.0092851078,
-        "raw_amplitude": 0.0278553234,
-        "percent": 2.161686,
-        "raw_percent": 2.161686,
-        "coverage_percent": 64.309762,
-        "member_count": 2,
-        "members": [
-          "disconnected",
-          "friendless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0278553234,
-            "similarity": 0.819102,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "absent / lost",
-        "descriptor_index": 15,
-        "amplitude": 0.0082065034,
-        "abs_amplitude": 0.0082065034,
-        "raw_amplitude": 0.0246195103,
-        "percent": 1.910574,
-        "raw_percent": 1.910574,
-        "coverage_percent": 66.220336,
-        "member_count": 2,
-        "members": [
-          "absent",
-          "lost"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0246195103,
-            "similarity": 0.835151,
-            "matched_descriptor": "orphaned"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "sensitive / frail / fragile / brittle",
-        "descriptor_index": 6702,
-        "amplitude": 0.0077961263,
-        "abs_amplitude": 0.0077961263,
-        "raw_amplitude": 0.023388379,
-        "percent": 1.815033,
-        "raw_percent": 1.815033,
-        "coverage_percent": 68.035369,
-        "member_count": 4,
-        "members": [
-          "sensitive",
-          "frail",
-          "fragile",
-          "brittle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.023388379,
-            "similarity": 0.891994,
-            "matched_descriptor": "vulnerable"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "stealthy",
-        "descriptor_index": 7241,
-        "amplitude": 0.0074652783,
-        "abs_amplitude": 0.0074652783,
-        "raw_amplitude": 0.0223958348,
-        "percent": 1.738008,
-        "raw_percent": 1.738008,
-        "coverage_percent": 69.773377,
-        "member_count": 1,
-        "members": [
-          "stealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0223958348,
-            "similarity": 0.862511,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "sleepy / drowsy / somnolent / narcoleptic",
-        "descriptor_index": 6962,
-        "amplitude": 0.0066806272,
-        "abs_amplitude": 0.0066806272,
-        "raw_amplitude": 0.0200418816,
-        "percent": 1.555331,
-        "raw_percent": 1.555331,
-        "coverage_percent": 71.328708,
-        "member_count": 4,
-        "members": [
-          "sleepy",
-          "drowsy",
-          "somnolent",
-          "narcoleptic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0200418816,
-            "similarity": 0.853262,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "dead",
-        "descriptor_index": 1608,
-        "amplitude": 0.0063346118,
-        "abs_amplitude": 0.0063346118,
-        "raw_amplitude": 0.0190038354,
-        "percent": 1.474775,
-        "raw_percent": 1.474775,
-        "coverage_percent": 72.803483,
-        "member_count": 1,
-        "members": [
-          "dead"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0190038354,
-            "similarity": 0.81378,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "harsh / brutal / merciless",
-        "descriptor_index": 3366,
-        "amplitude": 0.0060064992,
-        "abs_amplitude": 0.0060064992,
-        "raw_amplitude": 0.0180194977,
-        "percent": 1.398386,
-        "raw_percent": 1.398386,
-        "coverage_percent": 74.20187,
-        "member_count": 3,
-        "members": [
-          "harsh",
-          "brutal",
-          "merciless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0180194977,
-            "similarity": 0.874403,
-            "matched_descriptor": "vulnerable"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "exhausted / tired / sleep-deprived",
-        "descriptor_index": 2305,
-        "amplitude": 0.0055662976,
-        "abs_amplitude": 0.0055662976,
-        "raw_amplitude": 0.0166988928,
-        "percent": 1.295902,
-        "raw_percent": 1.295902,
-        "coverage_percent": 75.497771,
-        "member_count": 3,
-        "members": [
-          "exhausted",
-          "tired",
-          "sleep-deprived"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0166988927,
-            "similarity": 0.852585,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "unmotivated / unenthusiastic",
-        "descriptor_index": 8188,
-        "amplitude": 0.0055450024,
-        "abs_amplitude": 0.0055450024,
-        "raw_amplitude": 0.0166350071,
-        "percent": 1.290944,
-        "raw_percent": 1.290944,
-        "coverage_percent": 76.788716,
-        "member_count": 2,
-        "members": [
-          "unmotivated",
-          "unenthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.0166350071,
-            "similarity": 0.883669,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "loud enigmatic",
-        "descriptor_index": 4402,
-        "amplitude": 0.0054905977,
-        "abs_amplitude": 0.0054905977,
-        "raw_amplitude": 0.0164717931,
-        "percent": 1.278278,
-        "raw_percent": 1.278278,
-        "coverage_percent": 78.066994,
-        "member_count": 1,
-        "members": [
-          "loud enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0164717931,
-            "similarity": 0.853161,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "dormant / sleeping",
-        "descriptor_index": 1928,
-        "amplitude": 0.0054001447,
-        "abs_amplitude": 0.0054001447,
-        "raw_amplitude": 0.016200434,
-        "percent": 1.25722,
-        "raw_percent": 1.25722,
-        "coverage_percent": 79.324213,
-        "member_count": 2,
-        "members": [
-          "dormant",
-          "sleeping"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1746,
-            "name": "Kogorou Mouri",
-            "native_name": "毛利小五郎",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
-            "site_url": "https://anilist.co/character/1746",
-            "anime_url": "https://myanimelist.net/anime/6467",
-            "role": "SUPPORTING",
-            "favourites": 398,
-            "row_weight": 1.86935302,
-            "projection": 0.016200434,
-            "similarity": 0.861544,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.0050858674,
-        "abs_amplitude": 0.0050858674,
-        "raw_amplitude": 0.0152576021,
-        "percent": 1.184052,
-        "raw_percent": 1.184052,
-        "coverage_percent": 80.508265,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2065,
-            "name": "Ryou Saeba",
-            "native_name": "冴羽獠",
-            "anime": "City Hunter: Ryo no Propose",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
-            "site_url": "https://anilist.co/character/2065",
-            "anime_url": "https://myanimelist.net/anime/30818",
-            "role": "MAIN",
-            "favourites": 558,
-            "row_weight": 2.70668607,
-            "projection": 0.0152576021,
-            "similarity": 0.858407,
-            "matched_descriptor": "mysterious"
-          }
-        ]
+        "fit_percent": 97.171484,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 2065,
         "name": "Ryou Saeba",
-        "native_name": "冴羽獠",
         "anime": "City Hunter: Ryo no Propose",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
         "site_url": "https://anilist.co/character/2065",
-        "anime_url": "https://myanimelist.net/anime/30818",
-        "role": "MAIN",
         "favourites": 558,
-        "row_weight": 2.70668607,
-        "amplitude": 0.9356421234,
-        "abs_amplitude": 0.9356421234,
-        "percent": 87.542618
+        "anilist_favourites": 558,
+        "bangumi_collects": 23,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 2830,
+        "bangumi_url": "https://bgm.tv/character/2830",
+        "combined_favourites": 581,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.71412425,
+        "row_weight": 2.71412425,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7908358718,
+        "abs_amplitude": 0.7908358718,
+        "percent": 62.542138
       },
       {
         "character_id": 1746,
         "name": "Kogorou Mouri",
-        "native_name": "毛利小五郎",
         "anime": "Case Closed: Jolly Roger in the Deep Azure",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
         "site_url": "https://anilist.co/character/1746",
-        "anime_url": "https://myanimelist.net/anime/6467",
-        "role": "SUPPORTING",
         "favourites": 398,
-        "row_weight": 1.86935302,
-        "amplitude": 0.3529501621,
-        "abs_amplitude": 0.3529501621,
-        "percent": 12.457382
+        "anilist_favourites": 398,
+        "bangumi_collects": 61,
+        "bangumi_comments": 20,
+        "bangumi_character_id": 7041,
+        "bangumi_url": "https://bgm.tv/character/7041",
+        "combined_favourites": 459,
+        "role_edge_count": 2,
+        "descriptors": [
+          "cheerful",
+          "lazy"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.67043564,
+        "row_weight": 1.88828315,
+        "unweighted_row_norm": 1.7993375,
+        "amplitude": 0.4838456983,
+        "abs_amplitude": 0.4838456983,
+        "percent": 23.410666
+      },
+      {
+        "character_id": 2946,
+        "name": "Elizabeth",
+        "anime": "Gintama: Jump Festa 2008 Special",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2946-Wr6RcgisCsbi.jpg",
+        "site_url": "https://anilist.co/character/2946",
+        "favourites": 806,
+        "anilist_favourites": 806,
+        "bangumi_collects": 49,
+        "bangumi_comments": 19,
+        "bangumi_character_id": 22266,
+        "bangumi_url": "https://bgm.tv/character/22266",
+        "combined_favourites": 855,
+        "role_edge_count": 3,
+        "descriptors": [
+          "kind-hearted"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 2.78428992,
+        "row_weight": 1.60751054,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3747958966,
+        "abs_amplitude": 0.3747958966,
+        "percent": 14.047196
       }
     ],
     "positive_characters": [
       {
         "character_id": 2065,
         "name": "Ryou Saeba",
-        "native_name": "冴羽獠",
         "anime": "City Hunter: Ryo no Propose",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
         "site_url": "https://anilist.co/character/2065",
-        "anime_url": "https://myanimelist.net/anime/30818",
-        "role": "MAIN",
         "favourites": 558,
-        "row_weight": 2.70668607,
-        "amplitude": 0.9356421234,
-        "abs_amplitude": 0.9356421234,
-        "percent": 87.542618
+        "anilist_favourites": 558,
+        "bangumi_collects": 23,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 2830,
+        "bangumi_url": "https://bgm.tv/character/2830",
+        "combined_favourites": 581,
+        "role_edge_count": 1,
+        "descriptors": [
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.71412425,
+        "row_weight": 2.71412425,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7908358718,
+        "abs_amplitude": 0.7908358718,
+        "percent": 62.542138
       },
       {
         "character_id": 1746,
         "name": "Kogorou Mouri",
-        "native_name": "毛利小五郎",
         "anime": "Case Closed: Jolly Roger in the Deep Azure",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
         "site_url": "https://anilist.co/character/1746",
-        "anime_url": "https://myanimelist.net/anime/6467",
-        "role": "SUPPORTING",
         "favourites": 398,
-        "row_weight": 1.86935302,
-        "amplitude": 0.3529501621,
-        "abs_amplitude": 0.3529501621,
-        "percent": 12.457382
+        "anilist_favourites": 398,
+        "bangumi_collects": 61,
+        "bangumi_comments": 20,
+        "bangumi_character_id": 7041,
+        "bangumi_url": "https://bgm.tv/character/7041",
+        "combined_favourites": 459,
+        "role_edge_count": 2,
+        "descriptors": [
+          "cheerful",
+          "lazy"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.67043564,
+        "row_weight": 1.88828315,
+        "unweighted_row_norm": 1.7993375,
+        "amplitude": 0.4838456983,
+        "abs_amplitude": 0.4838456983,
+        "percent": 23.410666
+      },
+      {
+        "character_id": 2946,
+        "name": "Elizabeth",
+        "anime": "Gintama: Jump Festa 2008 Special",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2946-Wr6RcgisCsbi.jpg",
+        "site_url": "https://anilist.co/character/2946",
+        "favourites": 806,
+        "anilist_favourites": 806,
+        "bangumi_collects": 49,
+        "bangumi_comments": 19,
+        "bangumi_character_id": 22266,
+        "bangumi_url": "https://bgm.tv/character/22266",
+        "combined_favourites": 855,
+        "role_edge_count": 3,
+        "descriptors": [
+          "kind-hearted"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 2.78428992,
+        "row_weight": 1.60751054,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3747958966,
+        "abs_amplitude": 0.3747958966,
+        "percent": 14.047196
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 2.14735,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "lazy / cheerful / kind-hearted / +1",
+          "support": 3,
+          "variance": 0.224771579,
+          "seed_descriptor": "lazy",
+          "components": [
+            {
+              "descriptor": "lazy",
+              "weight": 0.50194695,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "cheerful",
+              "weight": 0.19220703,
+              "similarity_to_seed": 0.61880773,
+              "support": 1
+            },
+            {
+              "descriptor": "kind-hearted",
+              "weight": 0.1568227,
+              "similarity_to_seed": 0.55895333,
+              "support": 1
+            },
+            {
+              "descriptor": "mysterious",
+              "weight": 0.14902333,
+              "similarity_to_seed": 0.54487668,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.224771579,
+          "minimum_y_projection_variance": 0.0561928948,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 4,
+          "x_component_count": 4,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0224771579,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0561928948,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1123857895,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 2946,
+            "name": "Elizabeth",
+            "anime": "Gintama: Jump Festa 2008 Special",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2946-Wr6RcgisCsbi.jpg",
+            "site_url": "https://anilist.co/character/2946",
+            "favourites": 806,
+            "anilist_favourites": 806,
+            "bangumi_collects": 49,
+            "bangumi_comments": 19,
+            "bangumi_character_id": 22266,
+            "bangumi_url": "https://bgm.tv/character/22266",
+            "combined_favourites": 855,
+            "role_edge_count": 3,
+            "descriptors": [
+              "kind-hearted"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.78428992,
+            "row_weight": 1.60751054,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7780357937,
+            "x_score": -0.3042074845,
+            "amplitude": -0.3042074845,
+            "x_direct": true
+          },
+          {
+            "character_id": 2065,
+            "name": "Ryou Saeba",
+            "anime": "City Hunter: Ryo no Propose",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
+            "site_url": "https://anilist.co/character/2065",
+            "favourites": 558,
+            "anilist_favourites": 558,
+            "bangumi_collects": 23,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 2830,
+            "bangumi_url": "https://bgm.tv/character/2830",
+            "combined_favourites": 581,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.71412425,
+            "row_weight": 2.71412425,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7169006722,
+            "x_score": -0.365342606,
+            "amplitude": -0.365342606,
+            "x_direct": true
+          },
+          {
+            "character_id": 1746,
+            "name": "Kogorou Mouri",
+            "anime": "Case Closed: Jolly Roger in the Deep Azure",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
+            "site_url": "https://anilist.co/character/1746",
+            "favourites": 398,
+            "anilist_favourites": 398,
+            "bangumi_collects": 61,
+            "bangumi_comments": 20,
+            "bangumi_character_id": 7041,
+            "bangumi_url": "https://bgm.tv/character/7041",
+            "combined_favourites": 459,
+            "role_edge_count": 2,
+            "descriptors": [
+              "cheerful",
+              "lazy"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.67043564,
+            "row_weight": 1.88828315,
+            "unweighted_row_norm": 1.7993375,
+            "x_raw_score": 1.7517933686,
+            "x_score": 0.6695500905,
+            "amplitude": 0.6695500905,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.0822432782
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "lazy / boring / rude / +9",
+          "support": 1,
+          "variance": 0.189934537,
+          "seed_descriptor": "lazy",
+          "components": [
+            {
+              "descriptor": "lazy",
+              "weight": 0.14296869,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "boring",
+              "weight": 0.09185868,
+              "similarity_to_seed": 0.80156666,
+              "support": 0
+            },
+            {
+              "descriptor": "rude",
+              "weight": 0.08224735,
+              "similarity_to_seed": 0.75847366,
+              "support": 0
+            },
+            {
+              "descriptor": "annoying",
+              "weight": 0.0796365,
+              "similarity_to_seed": 0.74633809,
+              "support": 0
+            },
+            {
+              "descriptor": "laid-back",
+              "weight": 0.07712434,
+              "similarity_to_seed": 0.73447202,
+              "support": 0
+            },
+            {
+              "descriptor": "boastful",
+              "weight": 0.07666646,
+              "similarity_to_seed": 0.73228853,
+              "support": 0
+            },
+            {
+              "descriptor": "idiotic",
+              "weight": 0.07658423,
+              "similarity_to_seed": 0.73189573,
+              "support": 0
+            },
+            {
+              "descriptor": "petty",
+              "weight": 0.07572498,
+              "similarity_to_seed": 0.72777833,
+              "support": 0
+            },
+            {
+              "descriptor": "sloppy",
+              "weight": 0.07474228,
+              "similarity_to_seed": 0.72304062,
+              "support": 0
+            },
+            {
+              "descriptor": "oblivious",
+              "weight": 0.07447943,
+              "similarity_to_seed": 0.72176814,
+              "support": 0
+            },
+            {
+              "descriptor": "irritated",
+              "weight": 0.07414295,
+              "similarity_to_seed": 0.7201359,
+              "support": 0
+            },
+            {
+              "descriptor": "grumpy",
+              "weight": 0.07382412,
+              "similarity_to_seed": 0.71858589,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.189934537,
+          "minimum_y_projection_variance": 0.0474836342,
+          "best_rejected_correlation": 0.9378520444,
+          "best_rejected_lane_cosine": 0.7499645071,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9378520444,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0189934537,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0474836342,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0949672685,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "cheerful / upbeat / pleasant / +9",
+            "variance": 0.172713417,
+            "correlation": 0.9763384612,
+            "abs_correlation": 0.9763384612,
+            "lane_cosine": 0.7604317936,
+            "orthogonality_score": 0.4217434873,
+            "objective": 0.0728407588,
+            "components": [
+              {
+                "descriptor": "cheerful",
+                "weight": 0.12189796,
+                "similarity_to_seed": 1.0,
+                "support": 1
+              },
+              {
+                "descriptor": "upbeat",
+                "weight": 0.09680432,
+                "similarity_to_seed": 0.89114659,
+                "support": 0
+              },
+              {
+                "descriptor": "pleasant",
+                "weight": 0.08548304,
+                "similarity_to_seed": 0.83741702,
+                "support": 0
+              },
+              {
+                "descriptor": "charming",
+                "weight": 0.08395365,
+                "similarity_to_seed": 0.82989201,
+                "support": 0
+              },
+              {
+                "descriptor": "joyful",
+                "weight": 0.07964271,
+                "similarity_to_seed": 0.80830413,
+                "support": 0
+              },
+              {
+                "descriptor": "enthusiastic",
+                "weight": 0.0791993,
+                "similarity_to_seed": 0.80605091,
+                "support": 0
+              },
+              {
+                "descriptor": "joyous",
+                "weight": 0.07714228,
+                "similarity_to_seed": 0.79551438,
+                "support": 0
+              },
+              {
+                "descriptor": "nice",
+                "weight": 0.0771202,
+                "similarity_to_seed": 0.79540051,
+                "support": 0
+              },
+              {
+                "descriptor": "sweet",
+                "weight": 0.07634355,
+                "similarity_to_seed": 0.79138529,
+                "support": 0
+              },
+              {
+                "descriptor": "cutesy",
+                "weight": 0.07520177,
+                "similarity_to_seed": 0.78544508,
+                "support": 0
+              },
+              {
+                "descriptor": "warm",
+                "weight": 0.07375627,
+                "similarity_to_seed": 0.77785966,
+                "support": 0
+              },
+              {
+                "descriptor": "good-hearted",
+                "weight": 0.07345495,
+                "similarity_to_seed": 0.77626912,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 2946,
+            "name": "Elizabeth",
+            "anime": "Gintama: Jump Festa 2008 Special",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2946-Wr6RcgisCsbi.jpg",
+            "site_url": "https://anilist.co/character/2946",
+            "favourites": 806,
+            "anilist_favourites": 806,
+            "bangumi_collects": 49,
+            "bangumi_comments": 19,
+            "bangumi_character_id": 22266,
+            "bangumi_url": "https://bgm.tv/character/22266",
+            "combined_favourites": 855,
+            "role_edge_count": 3,
+            "descriptors": [
+              "kind-hearted"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.78428992,
+            "row_weight": 1.60751054,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.6602746209,
+            "x_score": -0.3144281258,
+            "amplitude": -0.3144281258,
+            "x_direct": false
+          },
+          {
+            "character_id": 2065,
+            "name": "Ryou Saeba",
+            "anime": "City Hunter: Ryo no Propose",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
+            "site_url": "https://anilist.co/character/2065",
+            "favourites": 558,
+            "anilist_favourites": 558,
+            "bangumi_collects": 23,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 2830,
+            "bangumi_url": "https://bgm.tv/character/2830",
+            "combined_favourites": 581,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.71412425,
+            "row_weight": 2.71412425,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.6728383624,
+            "x_score": -0.3018643843,
+            "amplitude": -0.3018643843,
+            "x_direct": false
+          },
+          {
+            "character_id": 1746,
+            "name": "Kogorou Mouri",
+            "anime": "Case Closed: Jolly Roger in the Deep Azure",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
+            "site_url": "https://anilist.co/character/1746",
+            "favourites": 398,
+            "anilist_favourites": 398,
+            "bangumi_collects": 61,
+            "bangumi_comments": 20,
+            "bangumi_character_id": 7041,
+            "bangumi_url": "https://bgm.tv/character/7041",
+            "combined_favourites": 459,
+            "role_edge_count": 2,
+            "descriptors": [
+              "cheerful",
+              "lazy"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.67043564,
+            "row_weight": 1.88828315,
+            "unweighted_row_norm": 1.7993375,
+            "x_raw_score": 1.5909952569,
+            "x_score": 0.6162925102,
+            "amplitude": 0.6162925102,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 0.9747027468
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "lazy / cheerful / kind-hearted / +1",
+        "support": 3,
+        "variance": 0.224771579,
+        "seed_descriptor": "lazy",
+        "components": [
+          {
+            "descriptor": "lazy",
+            "weight": 0.50194695,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "cheerful",
+            "weight": 0.19220703,
+            "similarity_to_seed": 0.61880773,
+            "support": 1
+          },
+          {
+            "descriptor": "kind-hearted",
+            "weight": 0.1568227,
+            "similarity_to_seed": 0.55895333,
+            "support": 1
+          },
+          {
+            "descriptor": "mysterious",
+            "weight": 0.14902333,
+            "similarity_to_seed": 0.54487668,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.224771579,
+        "minimum_y_projection_variance": 0.0561928948,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 4,
+        "x_component_count": 4,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0224771579,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0561928948,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1123857895,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 2946,
+          "name": "Elizabeth",
+          "anime": "Gintama: Jump Festa 2008 Special",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2946-Wr6RcgisCsbi.jpg",
+          "site_url": "https://anilist.co/character/2946",
+          "favourites": 806,
+          "anilist_favourites": 806,
+          "bangumi_collects": 49,
+          "bangumi_comments": 19,
+          "bangumi_character_id": 22266,
+          "bangumi_url": "https://bgm.tv/character/22266",
+          "combined_favourites": 855,
+          "role_edge_count": 3,
+          "descriptors": [
+            "kind-hearted"
+          ],
+          "shared_role_weight": 0.57735027,
+          "popularity_row_weight": 2.78428992,
+          "row_weight": 1.60751054,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7780357937,
+          "x_score": -0.3042074845,
+          "amplitude": -0.3042074845,
+          "x_direct": true
+        },
+        {
+          "character_id": 2065,
+          "name": "Ryou Saeba",
+          "anime": "City Hunter: Ryo no Propose",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
+          "site_url": "https://anilist.co/character/2065",
+          "favourites": 558,
+          "anilist_favourites": 558,
+          "bangumi_collects": 23,
+          "bangumi_comments": 7,
+          "bangumi_character_id": 2830,
+          "bangumi_url": "https://bgm.tv/character/2830",
+          "combined_favourites": 581,
+          "role_edge_count": 1,
+          "descriptors": [
+            "mysterious"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.71412425,
+          "row_weight": 2.71412425,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7169006722,
+          "x_score": -0.365342606,
+          "amplitude": -0.365342606,
+          "x_direct": true
+        },
+        {
+          "character_id": 1746,
+          "name": "Kogorou Mouri",
+          "anime": "Case Closed: Jolly Roger in the Deep Azure",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
+          "site_url": "https://anilist.co/character/1746",
+          "favourites": 398,
+          "anilist_favourites": 398,
+          "bangumi_collects": 61,
+          "bangumi_comments": 20,
+          "bangumi_character_id": 7041,
+          "bangumi_url": "https://bgm.tv/character/7041",
+          "combined_favourites": 459,
+          "role_edge_count": 2,
+          "descriptors": [
+            "cheerful",
+            "lazy"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.67043564,
+          "row_weight": 1.88828315,
+          "unweighted_row_norm": 1.7993375,
+          "x_raw_score": 1.7517933686,
+          "x_score": 0.6695500905,
+          "amplitude": 0.6695500905,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.0822432782
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.5353134358,
+      "mass_percent": 17.439753,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 34.545449,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "mysterious",
+            "amplitude": 0.3454544892,
+            "abs_amplitude": 0.3454544892,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "mysterious",
+            "fit_percent": 34.545449,
+            "residual_gain_percent": 11.93388
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 2065,
+            "name": "Ryou Saeba",
+            "anime": "City Hunter: Ryo no Propose",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2065-wwqEhHDZtWkx.jpg",
+            "site_url": "https://anilist.co/character/2065",
+            "favourites": 558,
+            "anilist_favourites": 558,
+            "bangumi_collects": 23,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 2830,
+            "bangumi_url": "https://bgm.tv/character/2830",
+            "combined_favourites": 581,
+            "role_edge_count": 1,
+            "descriptors": [
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.71412425,
+            "row_weight": 2.71412425,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6106938067,
+            "abs_amplitude": 0.6106938067,
+            "percent": 37.294693
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 53.404398,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind-hearted",
+            "amplitude": 0.3273573897,
+            "abs_amplitude": 0.3273573897,
+            "percent": 55.713605
+          },
+          {
+            "rank": 2,
+            "descriptor": "cheerful",
+            "amplitude": 0.1902617051,
+            "abs_amplitude": 0.1902617051,
+            "percent": 32.381018
+          },
+          {
+            "rank": 3,
+            "descriptor": "lazy",
+            "amplitude": 0.0699526323,
+            "abs_amplitude": 0.0699526323,
+            "percent": 11.905378
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind-hearted",
+            "fit_percent": 51.136946,
+            "residual_gain_percent": 26.149873
+          },
+          {
+            "step": 2,
+            "descriptor": "cheerful",
+            "fit_percent": 53.129361,
+            "residual_gain_percent": 2.813018
+          },
+          {
+            "step": 3,
+            "descriptor": "lazy",
+            "fit_percent": 53.404398,
+            "residual_gain_percent": 0.408243
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 1746,
+            "name": "Kogorou Mouri",
+            "anime": "Case Closed: Jolly Roger in the Deep Azure",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1746-5I4sBSeXvCKP.png",
+            "site_url": "https://anilist.co/character/1746",
+            "favourites": 398,
+            "anilist_favourites": 398,
+            "bangumi_collects": 61,
+            "bangumi_comments": 20,
+            "bangumi_character_id": 7041,
+            "bangumi_url": "https://bgm.tv/character/7041",
+            "combined_favourites": 459,
+            "role_edge_count": 2,
+            "descriptors": [
+              "cheerful",
+              "lazy"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.67043564,
+            "row_weight": 1.88828315,
+            "unweighted_row_norm": 1.7993375,
+            "amplitude": -0.5834230772,
+            "abs_amplitude": 0.5834230772,
+            "percent": 34.038249
+          },
+          {
+            "character_id": 2946,
+            "name": "Elizabeth",
+            "anime": "Gintama: Jump Festa 2008 Special",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2946-Wr6RcgisCsbi.jpg",
+            "site_url": "https://anilist.co/character/2946",
+            "favourites": 806,
+            "anilist_favourites": 806,
+            "bangumi_collects": 49,
+            "bangumi_comments": 19,
+            "bangumi_character_id": 22266,
+            "bangumi_url": "https://bgm.tv/character/22266",
+            "combined_favourites": 855,
+            "role_edge_count": 3,
+            "descriptors": [
+              "kind-hearted"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.78428992,
+            "row_weight": 1.60751054,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.5354162749,
+            "abs_amplitude": 0.5354162749,
+            "percent": 28.667059
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.2203623408,
+      "mass_percent": 76.728324,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.5353134358,
+      "mass_percent": 17.439753,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 0.887836058,
+      "mass_percent": 5.831923,
+      "relative_to_sv2_percent": 57.827675
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

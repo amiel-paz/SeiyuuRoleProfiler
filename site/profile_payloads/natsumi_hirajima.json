@@ -11,1024 +11,98 @@
     "hirajima natsumi",
     "natsumi hirajima"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/natsumi_hirajima.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 2.223335419,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 2.223335419,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 145.261556,
-      "normalized_entanglement": 0.378285,
-      "top5_mass_percent": 8.899988,
-      "top10_mass_percent": 15.254555
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.6855460876,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "charming / charismatic / seductive / adorable / +2",
-        "descriptor_index": 1023,
-        "amplitude": 0.1121701019,
-        "abs_amplitude": 0.1121701019,
-        "raw_amplitude": 0.3365103056,
-        "percent": 33.651031,
-        "raw_percent": 33.651031,
-        "coverage_percent": 33.651031,
-        "member_count": 6,
-        "members": [
-          "charming",
-          "charismatic",
-          "seductive",
-          "adorable",
-          "captivating",
-          "likable"
-        ],
+        "descriptor": "enthusiastic",
+        "amplitude": 0.530150207,
+        "abs_amplitude": 0.530150207,
+        "percent": 50.0,
+        "weighted_support": 1.68554609,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 204568,
             "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
             "anime": "D4DJ First Mix",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
             "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.3365103057,
-            "similarity": 1.0,
-            "matched_descriptor": "charming"
+            "combined_favourites": 107
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "positive / cordial / good / non-hostile",
-        "descriptor_index": 5732,
-        "amplitude": 0.0778048549,
-        "abs_amplitude": 0.0778048549,
-        "raw_amplitude": 0.2334145648,
-        "percent": 23.341456,
-        "raw_percent": 23.341456,
-        "coverage_percent": 56.992487,
-        "member_count": 4,
-        "members": [
-          "positive",
-          "cordial",
-          "good",
-          "non-hostile"
-        ],
+        "descriptor": "charming",
+        "amplitude": 0.530150207,
+        "abs_amplitude": 0.530150207,
+        "percent": 50.0,
+        "weighted_support": 1.68554609,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 204568,
             "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
             "anime": "D4DJ First Mix",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
             "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.2334145649,
-            "similarity": 1.0,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "cool / nice / good-looking / sophisticated / +2",
-        "descriptor_index": 1421,
-        "amplitude": 0.0278577246,
-        "abs_amplitude": 0.0278577246,
-        "raw_amplitude": 0.0835731737,
-        "percent": 8.357317,
-        "raw_percent": 8.357317,
-        "coverage_percent": 65.349804,
-        "member_count": 6,
-        "members": [
-          "cool",
-          "nice",
-          "good-looking",
-          "sophisticated",
-          "flashy",
-          "clean-cut"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0835731738,
-            "similarity": 0.896459,
-            "matched_descriptor": "charming / positive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "suave / cheeky / attractive / proud",
-        "descriptor_index": 7444,
-        "amplitude": 0.0172938751,
-        "abs_amplitude": 0.0172938751,
-        "raw_amplitude": 0.0518816252,
-        "percent": 5.188163,
-        "raw_percent": 5.188163,
-        "coverage_percent": 70.537967,
-        "member_count": 4,
-        "members": [
-          "suave",
-          "cheeky",
-          "attractive",
-          "proud"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0518816252,
-            "similarity": 0.889491,
-            "matched_descriptor": "charming"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unlucky",
-        "descriptor_index": 8184,
-        "amplitude": 0.0169045456,
-        "abs_amplitude": 0.0169045456,
-        "raw_amplitude": 0.0507136367,
-        "percent": 5.071364,
-        "raw_percent": 5.071364,
-        "coverage_percent": 75.609331,
-        "member_count": 1,
-        "members": [
-          "unlucky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0507136367,
-            "similarity": 0.887655,
-            "matched_descriptor": "luck"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "gleeful / good-humoured / good-humored / thrilled",
-        "descriptor_index": 3012,
-        "amplitude": 0.0142756082,
-        "abs_amplitude": 0.0142756082,
-        "raw_amplitude": 0.0428268247,
-        "percent": 4.282682,
-        "raw_percent": 4.282682,
-        "coverage_percent": 79.892013,
-        "member_count": 4,
-        "members": [
-          "gleeful",
-          "good-humoured",
-          "good-humored",
-          "thrilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0428268247,
-            "similarity": 0.889976,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "prophecy-bound",
-        "descriptor_index": 5946,
-        "amplitude": 0.0138271976,
-        "abs_amplitude": 0.0138271976,
-        "raw_amplitude": 0.0414815927,
-        "percent": 4.148159,
-        "raw_percent": 4.148159,
-        "coverage_percent": 84.040172,
-        "member_count": 1,
-        "members": [
-          "prophecy-bound"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0414815927,
-            "similarity": 0.869559,
-            "matched_descriptor": "luck"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "lucky",
-        "descriptor_index": 4463,
-        "amplitude": 0.0094186066,
-        "abs_amplitude": 0.0094186066,
-        "raw_amplitude": 0.0282558198,
-        "percent": 2.825582,
-        "raw_percent": 2.825582,
-        "coverage_percent": 86.865754,
-        "member_count": 1,
-        "members": [
-          "lucky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0282558198,
-            "similarity": 0.843913,
-            "matched_descriptor": "luck"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "affable / gregarious / amicable",
-        "descriptor_index": 106,
-        "amplitude": 0.0075235614,
-        "abs_amplitude": 0.0075235614,
-        "raw_amplitude": 0.0225706843,
-        "percent": 2.257068,
-        "raw_percent": 2.257068,
-        "coverage_percent": 89.122823,
-        "member_count": 3,
-        "members": [
-          "affable",
-          "gregarious",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0225706843,
-            "similarity": 0.889798,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "openhearted / good-natured / well-meaning",
-        "descriptor_index": 5334,
-        "amplitude": 0.0064065123,
-        "abs_amplitude": 0.0064065123,
-        "raw_amplitude": 0.019219537,
-        "percent": 1.921954,
-        "raw_percent": 1.921954,
-        "coverage_percent": 91.044776,
-        "member_count": 3,
-        "members": [
-          "openhearted",
-          "good-natured",
-          "well-meaning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0192195371,
-            "similarity": 0.882725,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "spirited",
-        "descriptor_index": 7174,
-        "amplitude": 0.0061579616,
-        "abs_amplitude": 0.0061579616,
-        "raw_amplitude": 0.0184738849,
-        "percent": 1.847388,
-        "raw_percent": 1.847388,
-        "coverage_percent": 92.892165,
-        "member_count": 1,
-        "members": [
-          "spirited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0184738849,
-            "similarity": 0.887547,
-            "matched_descriptor": "charming"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "en-jutsushi",
-        "descriptor_index": 2160,
-        "amplitude": 0.0053636296,
-        "abs_amplitude": 0.0053636296,
-        "raw_amplitude": 0.0160908889,
-        "percent": 1.609089,
-        "raw_percent": 1.609089,
-        "coverage_percent": 94.501254,
-        "member_count": 1,
-        "members": [
-          "en-jutsushi"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0160908889,
-            "similarity": 0.680521,
-            "matched_descriptor": "atashi"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "sweet / cute",
-        "descriptor_index": 7572,
-        "amplitude": 0.0052717151,
-        "abs_amplitude": 0.0052717151,
-        "raw_amplitude": 0.0158151452,
-        "percent": 1.581515,
-        "raw_percent": 1.581515,
-        "coverage_percent": 96.082768,
-        "member_count": 2,
-        "members": [
-          "sweet",
-          "cute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0158151452,
-            "similarity": 0.874392,
-            "matched_descriptor": "charming"
+            "combined_favourites": 107
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "charming / charismatic / seductive / adorable / +2",
-        "descriptor_index": 1023,
-        "amplitude": 0.1121701019,
-        "abs_amplitude": 0.1121701019,
-        "raw_amplitude": 0.3365103056,
-        "percent": 33.651031,
-        "raw_percent": 33.651031,
-        "coverage_percent": 33.651031,
-        "member_count": 6,
-        "members": [
-          "charming",
-          "charismatic",
-          "seductive",
-          "adorable",
-          "captivating",
-          "likable"
-        ],
+        "step": 1,
+        "descriptor": "enthusiastic",
+        "weighted_support": 1.68554609,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.3365103057,
-            "similarity": 1.0,
-            "matched_descriptor": "charming"
-          }
-        ]
+        "fit_percent": 94.312893,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "positive / cordial / good / non-hostile",
-        "descriptor_index": 5732,
-        "amplitude": 0.0778048549,
-        "abs_amplitude": 0.0778048549,
-        "raw_amplitude": 0.2334145648,
-        "percent": 23.341456,
-        "raw_percent": 23.341456,
-        "coverage_percent": 56.992487,
-        "member_count": 4,
-        "members": [
-          "positive",
-          "cordial",
-          "good",
-          "non-hostile"
-        ],
+        "step": 2,
+        "descriptor": "charming",
+        "weighted_support": 1.68554609,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.2334145649,
-            "similarity": 1.0,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "cool / nice / good-looking / sophisticated / +2",
-        "descriptor_index": 1421,
-        "amplitude": 0.0278577246,
-        "abs_amplitude": 0.0278577246,
-        "raw_amplitude": 0.0835731737,
-        "percent": 8.357317,
-        "raw_percent": 8.357317,
-        "coverage_percent": 65.349804,
-        "member_count": 6,
-        "members": [
-          "cool",
-          "nice",
-          "good-looking",
-          "sophisticated",
-          "flashy",
-          "clean-cut"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0835731738,
-            "similarity": 0.896459,
-            "matched_descriptor": "charming / positive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "suave / cheeky / attractive / proud",
-        "descriptor_index": 7444,
-        "amplitude": 0.0172938751,
-        "abs_amplitude": 0.0172938751,
-        "raw_amplitude": 0.0518816252,
-        "percent": 5.188163,
-        "raw_percent": 5.188163,
-        "coverage_percent": 70.537967,
-        "member_count": 4,
-        "members": [
-          "suave",
-          "cheeky",
-          "attractive",
-          "proud"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0518816252,
-            "similarity": 0.889491,
-            "matched_descriptor": "charming"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unlucky",
-        "descriptor_index": 8184,
-        "amplitude": 0.0169045456,
-        "abs_amplitude": 0.0169045456,
-        "raw_amplitude": 0.0507136367,
-        "percent": 5.071364,
-        "raw_percent": 5.071364,
-        "coverage_percent": 75.609331,
-        "member_count": 1,
-        "members": [
-          "unlucky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0507136367,
-            "similarity": 0.887655,
-            "matched_descriptor": "luck"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "gleeful / good-humoured / good-humored / thrilled",
-        "descriptor_index": 3012,
-        "amplitude": 0.0142756082,
-        "abs_amplitude": 0.0142756082,
-        "raw_amplitude": 0.0428268247,
-        "percent": 4.282682,
-        "raw_percent": 4.282682,
-        "coverage_percent": 79.892013,
-        "member_count": 4,
-        "members": [
-          "gleeful",
-          "good-humoured",
-          "good-humored",
-          "thrilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0428268247,
-            "similarity": 0.889976,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "prophecy-bound",
-        "descriptor_index": 5946,
-        "amplitude": 0.0138271976,
-        "abs_amplitude": 0.0138271976,
-        "raw_amplitude": 0.0414815927,
-        "percent": 4.148159,
-        "raw_percent": 4.148159,
-        "coverage_percent": 84.040172,
-        "member_count": 1,
-        "members": [
-          "prophecy-bound"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0414815927,
-            "similarity": 0.869559,
-            "matched_descriptor": "luck"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "lucky",
-        "descriptor_index": 4463,
-        "amplitude": 0.0094186066,
-        "abs_amplitude": 0.0094186066,
-        "raw_amplitude": 0.0282558198,
-        "percent": 2.825582,
-        "raw_percent": 2.825582,
-        "coverage_percent": 86.865754,
-        "member_count": 1,
-        "members": [
-          "lucky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0282558198,
-            "similarity": 0.843913,
-            "matched_descriptor": "luck"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "affable / gregarious / amicable",
-        "descriptor_index": 106,
-        "amplitude": 0.0075235614,
-        "abs_amplitude": 0.0075235614,
-        "raw_amplitude": 0.0225706843,
-        "percent": 2.257068,
-        "raw_percent": 2.257068,
-        "coverage_percent": 89.122823,
-        "member_count": 3,
-        "members": [
-          "affable",
-          "gregarious",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0225706843,
-            "similarity": 0.889798,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "openhearted / good-natured / well-meaning",
-        "descriptor_index": 5334,
-        "amplitude": 0.0064065123,
-        "abs_amplitude": 0.0064065123,
-        "raw_amplitude": 0.019219537,
-        "percent": 1.921954,
-        "raw_percent": 1.921954,
-        "coverage_percent": 91.044776,
-        "member_count": 3,
-        "members": [
-          "openhearted",
-          "good-natured",
-          "well-meaning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0192195371,
-            "similarity": 0.882725,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "spirited",
-        "descriptor_index": 7174,
-        "amplitude": 0.0061579616,
-        "abs_amplitude": 0.0061579616,
-        "raw_amplitude": 0.0184738849,
-        "percent": 1.847388,
-        "raw_percent": 1.847388,
-        "coverage_percent": 92.892165,
-        "member_count": 1,
-        "members": [
-          "spirited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0184738849,
-            "similarity": 0.887547,
-            "matched_descriptor": "charming"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "en-jutsushi",
-        "descriptor_index": 2160,
-        "amplitude": 0.0053636296,
-        "abs_amplitude": 0.0053636296,
-        "raw_amplitude": 0.0160908889,
-        "percent": 1.609089,
-        "raw_percent": 1.609089,
-        "coverage_percent": 94.501254,
-        "member_count": 1,
-        "members": [
-          "en-jutsushi"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0160908889,
-            "similarity": 0.680521,
-            "matched_descriptor": "atashi"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "sweet / cute",
-        "descriptor_index": 7572,
-        "amplitude": 0.0052717151,
-        "abs_amplitude": 0.0052717151,
-        "raw_amplitude": 0.0158151452,
-        "percent": 1.581515,
-        "raw_percent": 1.581515,
-        "coverage_percent": 96.082768,
-        "member_count": 2,
-        "members": [
-          "sweet",
-          "cute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 204568,
-            "name": "Rika Seto",
-            "native_name": "瀬戸リカ",
-            "anime": "D4DJ First Mix",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
-            "site_url": "https://anilist.co/character/204568",
-            "anime_url": "https://myanimelist.net/anime/39681",
-            "role": "BACKGROUND",
-            "favourites": 105,
-            "row_weight": 1.68277139,
-            "projection": 0.0158151452,
-            "similarity": 0.874392,
-            "matched_descriptor": "charming"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 204568,
         "name": "Rika Seto",
-        "native_name": "瀬戸リカ",
         "anime": "D4DJ First Mix",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
         "site_url": "https://anilist.co/character/204568",
-        "anime_url": "https://myanimelist.net/anime/39681",
-        "role": "BACKGROUND",
         "favourites": 105,
-        "row_weight": 1.68277139,
+        "anilist_favourites": 105,
+        "bangumi_collects": 2,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 104227,
+        "bangumi_url": "https://bgm.tv/character/104227",
+        "combined_favourites": 107,
+        "role_edge_count": 2,
+        "descriptors": [
+          "charming",
+          "enthusiastic"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.38372214,
+        "row_weight": 1.68554609,
+        "unweighted_row_norm": 1.88625787,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1038,19 +112,68 @@
       {
         "character_id": 204568,
         "name": "Rika Seto",
-        "native_name": "瀬戸リカ",
         "anime": "D4DJ First Mix",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b204568-rdPlB3qEdpJl.png",
         "site_url": "https://anilist.co/character/204568",
-        "anime_url": "https://myanimelist.net/anime/39681",
-        "role": "BACKGROUND",
         "favourites": 105,
-        "row_weight": 1.68277139,
+        "anilist_favourites": 105,
+        "bangumi_collects": 2,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 104227,
+        "bangumi_url": "https://bgm.tv/character/104227",
+        "combined_favourites": 107,
+        "role_edge_count": 2,
+        "descriptors": [
+          "charming",
+          "enthusiastic"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.38372214,
+        "row_weight": 1.68554609,
+        "unweighted_row_norm": 1.88625787,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.6855460876,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

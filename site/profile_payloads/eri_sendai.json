@@ -11,1299 +11,377 @@
     "eri sendai",
     "sendai eri"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/eri_sendai.json",
+  "sv1_mass_percent": 83.518494,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 8.612050066,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 8.612050066,
-        "mass_percent": 85.923669
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.4857391132,
-        "mass_percent": 14.076331
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 315.560926,
-      "normalized_entanglement": 0.821773,
-      "top5_mass_percent": 2.911252,
-      "top10_mass_percent": 5.52569
-    },
-    "character_participation": {
-      "effective_count": 1.205915,
-      "normalized_entanglement": 0.602958,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.913197,
-      "semantic_spread": 2.913197,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.231579,
-      "direction_spread": 1.231579,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 85.923669,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.4860195003,
+    "mass_percent": 85.761679,
+    "descriptor_fit_percent": 97.852108,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "powerful / super-strong / physically-strong",
-        "descriptor_index": 5771,
-        "amplitude": 0.1699406509,
-        "abs_amplitude": 0.1699406509,
-        "raw_amplitude": 0.5098219527,
-        "percent": 53.569473,
-        "raw_percent": 53.569473,
-        "coverage_percent": 53.569473,
-        "member_count": 3,
-        "members": [
-          "powerful",
-          "super-strong",
-          "physically-strong"
-        ],
+        "descriptor": "powerful",
+        "amplitude": 0.8027822219,
+        "abs_amplitude": 0.8027822219,
+        "percent": 73.974586,
+        "weighted_support": 2.83864368,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 71911,
             "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
             "anime": "Love, Chunibyo & Other Delusions",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
             "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.5098219527,
-            "similarity": 1.0,
-            "matched_descriptor": "powerful"
+            "combined_favourites": 1161
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "vigorous / stamina-rich",
-        "descriptor_index": 8354,
-        "amplitude": 0.0471746736,
-        "abs_amplitude": 0.0471746736,
-        "raw_amplitude": 0.1415240208,
-        "percent": 14.870617,
-        "raw_percent": 14.870617,
-        "coverage_percent": 68.44009,
-        "member_count": 2,
-        "members": [
-          "vigorous",
-          "stamina-rich"
-        ],
+        "descriptor": "selfish",
+        "amplitude": 0.2824313097,
+        "abs_amplitude": 0.2824313097,
+        "percent": 26.025414,
+        "weighted_support": 2.47224347,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.1415240209,
-            "similarity": 0.889434,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "superhuman",
-        "descriptor_index": 7499,
-        "amplitude": 0.0256793618,
-        "abs_amplitude": 0.0256793618,
-        "raw_amplitude": 0.0770380853,
-        "percent": 8.094766,
-        "raw_percent": 8.094766,
-        "coverage_percent": 76.534856,
-        "member_count": 1,
-        "members": [
-          "superhuman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.0770380853,
-            "similarity": 0.892718,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "strong",
-        "descriptor_index": 7332,
-        "amplitude": 0.0212736094,
-        "abs_amplitude": 0.0212736094,
-        "raw_amplitude": 0.0638208281,
-        "percent": 6.705965,
-        "raw_percent": 6.705965,
-        "coverage_percent": 83.240821,
-        "member_count": 1,
-        "members": [
-          "strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.0638208281,
-            "similarity": 0.887454,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unstoppable",
-        "descriptor_index": 8226,
-        "amplitude": 0.0134349704,
-        "abs_amplitude": 0.0134349704,
-        "raw_amplitude": 0.0403049113,
-        "percent": 4.235033,
-        "raw_percent": 4.235033,
-        "coverage_percent": 87.475854,
-        "member_count": 1,
-        "members": [
-          "unstoppable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.0403049113,
-            "similarity": 0.867939,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "muscle-bound / athletic / muscle-focused / muscular",
-        "descriptor_index": 4981,
-        "amplitude": 0.0129203442,
-        "abs_amplitude": 0.0129203442,
-        "raw_amplitude": 0.0387610325,
-        "percent": 4.07281,
-        "raw_percent": 4.07281,
-        "coverage_percent": 91.548665,
-        "member_count": 4,
-        "members": [
-          "muscle-bound",
-          "athletic",
-          "muscle-focused",
-          "muscular"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.0387610326,
-            "similarity": 0.850246,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0056690808,
-        "abs_amplitude": 0.0056690808,
-        "raw_amplitude": 0.0170072425,
-        "percent": 1.787034,
-        "raw_percent": 1.787034,
-        "coverage_percent": 93.335698,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.0170072425,
-            "similarity": 0.851071,
-            "matched_descriptor": "powerful"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "outstanding / excellent",
-        "descriptor_index": 5394,
-        "amplitude": 0.005612592,
-        "abs_amplitude": 0.005612592,
-        "raw_amplitude": 0.016837776,
-        "percent": 1.769227,
-        "raw_percent": 1.769227,
-        "coverage_percent": 95.104925,
-        "member_count": 2,
-        "members": [
-          "outstanding",
-          "excellent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 71911,
-            "name": "Touka Takanashi",
-            "native_name": "小鳥遊十花",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
-            "site_url": "https://anilist.co/character/71911",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "SUPPORTING",
-            "favourites": 973,
-            "row_weight": 2.80738514,
-            "projection": 0.016837776,
-            "similarity": 0.85022,
-            "matched_descriptor": "powerful"
+            "character_id": 4967,
+            "name": "Tsubaki Kasugano",
+            "anime": "The Future Diary",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
+            "site_url": "https://anilist.co/character/4967",
+            "combined_favourites": 165
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "near-sightedness / far-sighted / nearsighted",
-        "descriptor_index": 5073,
-        "amplitude": 0.0164165387,
-        "abs_amplitude": 0.0164165387,
-        "raw_amplitude": 0.049249616,
-        "percent": 16.041067,
-        "raw_percent": 16.041067,
-        "coverage_percent": 16.041067,
-        "member_count": 3,
-        "members": [
-          "near-sightedness",
-          "far-sighted",
-          "nearsighted"
-        ],
+        "step": 1,
+        "descriptor": "powerful",
+        "weighted_support": 2.83864368,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.049249616,
-            "similarity": 0.909192,
-            "matched_descriptor": "bad eyesight"
-          }
-        ]
+        "fit_percent": 94.80749,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "refined / clean-cut",
-        "descriptor_index": 6177,
-        "amplitude": 0.0161616594,
-        "abs_amplitude": 0.0161616594,
-        "raw_amplitude": 0.0484849782,
-        "percent": 15.792017,
-        "raw_percent": 15.792017,
-        "coverage_percent": 31.833083,
-        "member_count": 2,
-        "members": [
-          "refined",
-          "clean-cut"
-        ],
+        "step": 2,
+        "descriptor": "selfish",
+        "weighted_support": 2.47224347,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0484849782,
-            "similarity": 1.0,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "manipulative",
-        "descriptor_index": 4586,
-        "amplitude": 0.0109713677,
-        "abs_amplitude": 0.0109713677,
-        "raw_amplitude": 0.0329141031,
-        "percent": 10.720435,
-        "raw_percent": 10.720435,
-        "coverage_percent": 42.553518,
-        "member_count": 1,
-        "members": [
-          "manipulative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0329141031,
-            "similarity": 1.0,
-            "matched_descriptor": "manipulative"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "elegant / sophisticated",
-        "descriptor_index": 2102,
-        "amplitude": 0.0054991789,
-        "abs_amplitude": 0.0054991789,
-        "raw_amplitude": 0.0164975366,
-        "percent": 5.373404,
-        "raw_percent": 5.373404,
-        "coverage_percent": 47.926922,
-        "member_count": 2,
-        "members": [
-          "elegant",
-          "sophisticated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0164975366,
-            "similarity": 0.892461,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "blind",
-        "descriptor_index": 691,
-        "amplitude": 0.0039246043,
-        "abs_amplitude": 0.0039246043,
-        "raw_amplitude": 0.0117738129,
-        "percent": 3.834842,
-        "raw_percent": 3.834842,
-        "coverage_percent": 51.761765,
-        "member_count": 1,
-        "members": [
-          "blind"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0117738129,
-            "similarity": 0.861174,
-            "matched_descriptor": "bad eyesight"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "clever / intelligent / inventive / brainy",
-        "descriptor_index": 1174,
-        "amplitude": 0.0038313799,
-        "abs_amplitude": 0.0038313799,
-        "raw_amplitude": 0.0114941398,
-        "percent": 3.74375,
-        "raw_percent": 3.74375,
-        "coverage_percent": 55.505515,
-        "member_count": 4,
-        "members": [
-          "clever",
-          "intelligent",
-          "inventive",
-          "brainy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0114941397,
-            "similarity": 0.869325,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "unfocused",
-        "descriptor_index": 8140,
-        "amplitude": 0.0036001293,
-        "abs_amplitude": 0.0036001293,
-        "raw_amplitude": 0.0108003878,
-        "percent": 3.517789,
-        "raw_percent": 3.517789,
-        "coverage_percent": 59.023304,
-        "member_count": 1,
-        "members": [
-          "unfocused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0108003878,
-            "similarity": 0.87604,
-            "matched_descriptor": "bad eyesight"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "artistic / aesthetic",
-        "descriptor_index": 376,
-        "amplitude": 0.0035491956,
-        "abs_amplitude": 0.0035491956,
-        "raw_amplitude": 0.0106475868,
-        "percent": 3.46802,
-        "raw_percent": 3.46802,
-        "coverage_percent": 62.491324,
-        "member_count": 2,
-        "members": [
-          "artistic",
-          "aesthetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0106475868,
-            "similarity": 0.876625,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "single-eyed",
-        "descriptor_index": 6881,
-        "amplitude": 0.0032809726,
-        "abs_amplitude": 0.0032809726,
-        "raw_amplitude": 0.0098429178,
-        "percent": 3.205932,
-        "raw_percent": 3.205932,
-        "coverage_percent": 65.697255,
-        "member_count": 1,
-        "members": [
-          "single-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0098429178,
-            "similarity": 0.85029,
-            "matched_descriptor": "bad eyesight"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "scheming",
-        "descriptor_index": 6489,
-        "amplitude": 0.002970555,
-        "abs_amplitude": 0.002970555,
-        "raw_amplitude": 0.0089116649,
-        "percent": 2.902614,
-        "raw_percent": 2.902614,
-        "coverage_percent": 68.599869,
-        "member_count": 1,
-        "members": [
-          "scheming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0089116649,
-            "similarity": 0.865864,
-            "matched_descriptor": "manipulative"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.0026024438,
-        "abs_amplitude": 0.0026024438,
-        "raw_amplitude": 0.0078073313,
-        "percent": 2.542922,
-        "raw_percent": 2.542922,
-        "coverage_percent": 71.142791,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0078073313,
-            "similarity": 0.874509,
-            "matched_descriptor": "manipulative"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "attractive / good-looking",
-        "descriptor_index": 466,
-        "amplitude": 0.0025023042,
-        "abs_amplitude": 0.0025023042,
-        "raw_amplitude": 0.0075069125,
-        "percent": 2.445073,
-        "raw_percent": 2.445073,
-        "coverage_percent": 73.587863,
-        "member_count": 2,
-        "members": [
-          "attractive",
-          "good-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0075069125,
-            "similarity": 0.882025,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "glamorous / gorgeous",
-        "descriptor_index": 3009,
-        "amplitude": 0.0022196536,
-        "abs_amplitude": 0.0022196536,
-        "raw_amplitude": 0.0066589609,
-        "percent": 2.168887,
-        "raw_percent": 2.168887,
-        "coverage_percent": 75.75675,
-        "member_count": 2,
-        "members": [
-          "glamorous",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0066589609,
-            "similarity": 0.859585,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "pretentious",
-        "descriptor_index": 5837,
-        "amplitude": 0.002164135,
-        "abs_amplitude": 0.002164135,
-        "raw_amplitude": 0.006492405,
-        "percent": 2.114638,
-        "raw_percent": 2.114638,
-        "coverage_percent": 77.871388,
-        "member_count": 1,
-        "members": [
-          "pretentious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.006492405,
-            "similarity": 0.881453,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "flawless",
-        "descriptor_index": 2603,
-        "amplitude": 0.0017994061,
-        "abs_amplitude": 0.0017994061,
-        "raw_amplitude": 0.0053982183,
-        "percent": 1.758251,
-        "raw_percent": 1.758251,
-        "coverage_percent": 79.629638,
-        "member_count": 1,
-        "members": [
-          "flawless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0053982183,
-            "similarity": 0.857598,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.0017240851,
-        "abs_amplitude": 0.0017240851,
-        "raw_amplitude": 0.0051722552,
-        "percent": 1.684653,
-        "raw_percent": 1.684653,
-        "coverage_percent": 81.314291,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0051722552,
-            "similarity": 0.868554,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "traditional / old-fashioned",
-        "descriptor_index": 7937,
-        "amplitude": 0.0016926378,
-        "abs_amplitude": 0.0016926378,
-        "raw_amplitude": 0.0050779133,
-        "percent": 1.653924,
-        "raw_percent": 1.653924,
-        "coverage_percent": 82.968215,
-        "member_count": 2,
-        "members": [
-          "traditional",
-          "old-fashioned"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0050779133,
-            "similarity": 0.851969,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "star-seeking",
-        "descriptor_index": 7229,
-        "amplitude": 0.0016671117,
-        "abs_amplitude": 0.0016671117,
-        "raw_amplitude": 0.0050013351,
-        "percent": 1.628982,
-        "raw_percent": 1.628982,
-        "coverage_percent": 84.597198,
-        "member_count": 1,
-        "members": [
-          "star-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0050013351,
-            "similarity": 0.815907,
-            "matched_descriptor": "aspiring actress"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "spunky",
-        "descriptor_index": 7195,
-        "amplitude": 0.0014909117,
-        "abs_amplitude": 0.0014909117,
-        "raw_amplitude": 0.0044727351,
-        "percent": 1.456812,
-        "raw_percent": 1.456812,
-        "coverage_percent": 86.05401,
-        "member_count": 1,
-        "members": [
-          "spunky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0044727351,
-            "similarity": 0.876456,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "graceful",
-        "descriptor_index": 3128,
-        "amplitude": 0.001409422,
-        "abs_amplitude": 0.001409422,
-        "raw_amplitude": 0.004228266,
-        "percent": 1.377186,
-        "raw_percent": 1.377186,
-        "coverage_percent": 87.431196,
-        "member_count": 1,
-        "members": [
-          "graceful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.004228266,
-            "similarity": 0.851543,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "sharp-eyed / dark-eyed",
-        "descriptor_index": 6776,
-        "amplitude": 0.0013812523,
-        "abs_amplitude": 0.0013812523,
-        "raw_amplitude": 0.0041437568,
-        "percent": 1.349661,
-        "raw_percent": 1.349661,
-        "coverage_percent": 88.780857,
-        "member_count": 2,
-        "members": [
-          "sharp-eyed",
-          "dark-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0041437568,
-            "similarity": 0.842108,
-            "matched_descriptor": "bad eyesight"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "glasses-wearing / bespectacled",
-        "descriptor_index": 3011,
-        "amplitude": 0.0013730409,
-        "abs_amplitude": 0.0013730409,
-        "raw_amplitude": 0.0041191228,
-        "percent": 1.341637,
-        "raw_percent": 1.341637,
-        "coverage_percent": 90.122494,
-        "member_count": 2,
-        "members": [
-          "glasses-wearing",
-          "bespectacled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0041191228,
-            "similarity": 0.802776,
-            "matched_descriptor": "bad eyesight"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "theatrical",
-        "descriptor_index": 7791,
-        "amplitude": 0.0013218911,
-        "abs_amplitude": 0.0013218911,
-        "raw_amplitude": 0.0039656733,
-        "percent": 1.291657,
-        "raw_percent": 1.291657,
-        "coverage_percent": 91.414152,
-        "member_count": 1,
-        "members": [
-          "theatrical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0039656733,
-            "similarity": 0.856179,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "omniscient",
-        "descriptor_index": 5314,
-        "amplitude": 0.0010935805,
-        "abs_amplitude": 0.0010935805,
-        "raw_amplitude": 0.0032807414,
-        "percent": 1.068569,
-        "raw_percent": 1.068569,
-        "coverage_percent": 92.48272,
-        "member_count": 1,
-        "members": [
-          "omniscient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0032807414,
-            "similarity": 0.800341,
-            "matched_descriptor": "massive amounts information"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "distinguished",
-        "descriptor_index": 1883,
-        "amplitude": 0.0010904798,
-        "abs_amplitude": 0.0010904798,
-        "raw_amplitude": 0.0032714395,
-        "percent": 1.065539,
-        "raw_percent": 1.065539,
-        "coverage_percent": 93.548259,
-        "member_count": 1,
-        "members": [
-          "distinguished"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4967,
-            "name": "Tsubaki Kasugano",
-            "native_name": "春日野椿",
-            "anime": "The Future Diary",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
-            "site_url": "https://anilist.co/character/4967",
-            "anime_url": "https://myanimelist.net/anime/10620",
-            "role": "SUPPORTING",
-            "favourites": 142,
-            "row_weight": 2.44189366,
-            "projection": 0.0032714395,
-            "similarity": 0.846591,
-            "matched_descriptor": "refined"
-          }
-        ]
+        "fit_percent": 97.852108,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 71911,
         "name": "Touka Takanashi",
-        "native_name": "小鳥遊十花",
         "anime": "Love, Chunibyo & Other Delusions",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
         "site_url": "https://anilist.co/character/71911",
-        "anime_url": "https://myanimelist.net/anime/14741",
-        "role": "SUPPORTING",
         "favourites": 973,
-        "row_weight": 2.80738514,
-        "amplitude": 0.9517023919,
-        "abs_amplitude": 0.9517023919,
-        "percent": 90.573744
+        "anilist_favourites": 973,
+        "bangumi_collects": 188,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 17460,
+        "bangumi_url": "https://bgm.tv/character/17460",
+        "combined_favourites": 1161,
+        "role_edge_count": 1,
+        "descriptors": [
+          "powerful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.83864368,
+        "row_weight": 2.83864368,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7720114087,
+        "abs_amplitude": 0.7720114087,
+        "percent": 59.600162
       },
       {
         "character_id": 4967,
         "name": "Tsubaki Kasugano",
-        "native_name": "春日野椿",
         "anime": "The Future Diary",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
         "site_url": "https://anilist.co/character/4967",
-        "anime_url": "https://myanimelist.net/anime/10620",
-        "role": "SUPPORTING",
         "favourites": 142,
-        "row_weight": 2.44189366,
-        "amplitude": -0.3070220796,
-        "abs_amplitude": 0.3070220796,
-        "percent": 9.426256
+        "anilist_favourites": 142,
+        "bangumi_collects": 23,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 675,
+        "bangumi_url": "https://bgm.tv/character/675",
+        "combined_favourites": 165,
+        "role_edge_count": 1,
+        "descriptors": [
+          "manipulative",
+          "obsessive",
+          "refined",
+          "selfish"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47224347,
+        "row_weight": 2.47224347,
+        "unweighted_row_norm": 3.36261923,
+        "amplitude": 0.6356086728,
+        "abs_amplitude": 0.6356086728,
+        "percent": 40.399838
       }
     ],
     "positive_characters": [
       {
         "character_id": 71911,
         "name": "Touka Takanashi",
-        "native_name": "小鳥遊十花",
         "anime": "Love, Chunibyo & Other Delusions",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
         "site_url": "https://anilist.co/character/71911",
-        "anime_url": "https://myanimelist.net/anime/14741",
-        "role": "SUPPORTING",
         "favourites": 973,
-        "row_weight": 2.80738514,
-        "amplitude": 0.9517023919,
-        "abs_amplitude": 0.9517023919,
-        "percent": 90.573744
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 973,
+        "bangumi_collects": 188,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 17460,
+        "bangumi_url": "https://bgm.tv/character/17460",
+        "combined_favourites": 1161,
+        "role_edge_count": 1,
+        "descriptors": [
+          "powerful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.83864368,
+        "row_weight": 2.83864368,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7720114087,
+        "abs_amplitude": 0.7720114087,
+        "percent": 59.600162
+      },
       {
         "character_id": 4967,
         "name": "Tsubaki Kasugano",
-        "native_name": "春日野椿",
         "anime": "The Future Diary",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
         "site_url": "https://anilist.co/character/4967",
-        "anime_url": "https://myanimelist.net/anime/10620",
-        "role": "SUPPORTING",
         "favourites": 142,
-        "row_weight": 2.44189366,
-        "amplitude": -0.3070220796,
-        "abs_amplitude": 0.3070220796,
-        "percent": 9.426256
+        "anilist_favourites": 142,
+        "bangumi_collects": 23,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 675,
+        "bangumi_url": "https://bgm.tv/character/675",
+        "combined_favourites": 165,
+        "role_edge_count": 1,
+        "descriptors": [
+          "manipulative",
+          "obsessive",
+          "refined",
+          "selfish"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47224347,
+        "row_weight": 2.47224347,
+        "unweighted_row_norm": 3.36261923,
+        "amplitude": 0.6356086728,
+        "abs_amplitude": 0.6356086728,
+        "percent": 40.399838
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.928891,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.4204061987,
+      "mass_percent": 14.238321,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 31.804714,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "powerful",
+            "amplitude": 0.3180471383,
+            "abs_amplitude": 0.3180471383,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "powerful",
+            "fit_percent": 31.804714,
+            "residual_gain_percent": 10.115398
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 71911,
+            "name": "Touka Takanashi",
+            "anime": "Love, Chunibyo & Other Delusions",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b71911-6mR0dxlwiebP.jpg",
+            "site_url": "https://anilist.co/character/71911",
+            "favourites": 973,
+            "anilist_favourites": 973,
+            "bangumi_collects": 188,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 17460,
+            "bangumi_url": "https://bgm.tv/character/17460",
+            "combined_favourites": 1161,
+            "role_edge_count": 1,
+            "descriptors": [
+              "powerful"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.83864368,
+            "row_weight": 2.83864368,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6356086728,
+            "abs_amplitude": 0.6356086728,
+            "percent": 40.399838
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 50.103646,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "selfish",
+            "amplitude": 0.232181337,
+            "abs_amplitude": 0.232181337,
+            "percent": 40.022604
+          },
+          {
+            "rank": 2,
+            "descriptor": "obsessive",
+            "amplitude": 0.138052408,
+            "abs_amplitude": 0.138052408,
+            "percent": 23.796989
+          },
+          {
+            "rank": 3,
+            "descriptor": "pedantic",
+            "amplitude": 0.1065784722,
+            "abs_amplitude": 0.1065784722,
+            "percent": 18.371623
+          },
+          {
+            "rank": 4,
+            "descriptor": "guilt-ridden",
+            "amplitude": 0.1033133004,
+            "abs_amplitude": 0.1033133004,
+            "percent": 17.808784
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "selfish",
+            "fit_percent": 45.54866,
+            "residual_gain_percent": 20.746804
+          },
+          {
+            "step": 2,
+            "descriptor": "obsessive",
+            "fit_percent": 48.815115,
+            "residual_gain_percent": 3.889243
+          },
+          {
+            "step": 3,
+            "descriptor": "pedantic",
+            "fit_percent": 49.749043,
+            "residual_gain_percent": 1.208492
+          },
+          {
+            "step": 4,
+            "descriptor": "guilt-ridden",
+            "fit_percent": 50.103646,
+            "residual_gain_percent": 0.470538
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 4967,
+            "name": "Tsubaki Kasugano",
+            "anime": "The Future Diary",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4967-Wa34H0uvUKYz.png",
+            "site_url": "https://anilist.co/character/4967",
+            "favourites": 142,
+            "anilist_favourites": 142,
+            "bangumi_collects": 23,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 675,
+            "bangumi_url": "https://bgm.tv/character/675",
+            "combined_favourites": 165,
+            "role_edge_count": 1,
+            "descriptors": [
+              "manipulative",
+              "obsessive",
+              "refined",
+              "selfish"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.47224347,
+            "row_weight": 2.47224347,
+            "unweighted_row_norm": 3.36261923,
+            "amplitude": -0.7720114087,
+            "abs_amplitude": 0.7720114087,
+            "percent": 59.600162
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.4860195003,
+      "mass_percent": 85.761679,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.4204061987,
+      "mass_percent": 14.238321,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

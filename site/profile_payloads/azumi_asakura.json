@@ -11,2568 +11,2081 @@
     "asakura azumi",
     "azumi asakura"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/azumi_asakura.json",
+  "sv1_mass_percent": 79.823629,
+  "sv1_descriptor_fit_percent": 98.837309,
+  "variation_axis_count": 2,
+  "supported_character_count": 6,
   "major_lane": {
     "rank": 1,
-    "singular_value": 32.6268262977,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 32.6268262977,
-        "mass_percent": 96.609449
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.5404697947,
-        "mass_percent": 1.137606
-      },
-      {
-        "rank": 3,
-        "singular_value": 3.2145343407,
-        "mass_percent": 0.937791
-      },
-      {
-        "rank": 4,
-        "singular_value": 2.5204891472,
-        "mass_percent": 0.576553
-      },
-      {
-        "rank": 5,
-        "singular_value": 2.1338340769,
-        "mass_percent": 0.413229
-      },
-      {
-        "rank": 6,
-        "singular_value": 1.8934526547,
-        "mass_percent": 0.325371
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 281.942846,
-      "normalized_entanglement": 0.734226,
-      "top5_mass_percent": 4.716237,
-      "top10_mass_percent": 8.333024
-    },
-    "character_participation": {
-      "effective_count": 1.089129,
-      "normalized_entanglement": 0.181521,
-      "top5_mass_percent": 99.968276,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 5.276027,
-      "semantic_spread": 5.368002,
-      "axis_concentration_percent": 96.602571,
-      "lane_count": 1.211104,
-      "direction_range": 0.820179,
-      "direction_spread": 1.039178,
-      "direction_axis_concentration_percent": 62.292695,
-      "direction_lane_count": 3.133669
-    },
-    "explained_sv_l2_percent": 96.609449,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 5.9670346705,
+    "mass_percent": 83.287005,
+    "descriptor_fit_percent": 96.293708,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "strange / odd / peculiar / unusual / +4",
-        "descriptor_index": 7287,
-        "amplitude": 0.041573415,
-        "abs_amplitude": 0.041573415,
-        "raw_amplitude": 0.0882952213,
-        "percent": 10.454861,
-        "raw_percent": 8.202205,
-        "coverage_percent": 10.454861,
-        "member_count": 8,
-        "members": [
-          "strange",
-          "odd",
-          "peculiar",
-          "unusual",
-          "weird",
-          "outlandish",
-          "kooky",
-          "bizarre"
-        ],
+        "descriptor": "blunt",
+        "amplitude": 0.2723125436,
+        "abs_amplitude": 0.2723125436,
+        "percent": 23.837639,
+        "weighted_support": 5.63705902,
         "support": 2,
-        "effective_support": 1.412537,
-        "support_factor": 0.470846,
-        "top_characters": [
+        "supporting_characters": [
+          {
+            "character_id": 88205,
+            "name": "Isuke Inukai",
+            "anime": "Riddle Story of Devil",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
+            "site_url": "https://anilist.co/character/88205",
+            "combined_favourites": 1417
+          },
           {
             "character_id": 89331,
             "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
             "anime": "AOKANA: Four Rhythm Across the Blue",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
             "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0726182798,
-            "similarity": 1.0,
-            "matched_descriptor": "strange"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0156769412,
-            "similarity": 1.0,
-            "matched_descriptor": "strange"
+            "combined_favourites": 762
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "stubborn / strong-willed / strong-minded / tenacious / +10",
-        "descriptor_index": 7402,
-        "amplitude": 0.0303628696,
-        "abs_amplitude": 0.0303628696,
-        "raw_amplitude": 0.0908082339,
-        "percent": 7.635639,
-        "raw_percent": 8.435652,
-        "coverage_percent": 18.090501,
-        "member_count": 14,
-        "members": [
-          "stubborn",
-          "strong-willed",
-          "strong-minded",
-          "tenacious",
-          "unyielding",
-          "refractory",
-          "headstrong",
-          "tough",
-          "resolute",
-          "persistent",
-          "unbending",
-          "unshakable",
-          "persevering",
-          "inflexible"
-        ],
+        "descriptor": "strange",
+        "amplitude": 0.2312235473,
+        "abs_amplitude": 0.2312235473,
+        "percent": 20.240799,
+        "weighted_support": 4.27487211,
         "support": 2,
-        "effective_support": 1.003088,
-        "support_factor": 0.334363,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89331,
             "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
             "anime": "AOKANA: Four Rhythm Across the Blue",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
             "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0906682622,
-            "similarity": 1.0,
-            "matched_descriptor": "stubborn"
+            "combined_favourites": 762
           },
           {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0001399716,
-            "similarity": 0.869753,
-            "matched_descriptor": "naive"
+            "character_id": 6169,
+            "name": "Yukiho Hagiwara",
+            "anime": "The Idol Master",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+            "site_url": "https://anilist.co/character/6169",
+            "combined_favourites": 347
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +10",
-        "descriptor_index": 944,
-        "amplitude": 0.0236250133,
-        "abs_amplitude": 0.0236250133,
-        "raw_amplitude": 0.0696450358,
-        "percent": 5.941206,
-        "raw_percent": 6.469692,
-        "coverage_percent": 24.031707,
-        "member_count": 14,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "flighty",
-          "good-humored",
-          "laid-back",
-          "easy-going",
-          "permissive",
-          "chilling",
-          "accommodating",
-          "playful",
-          "relaxed"
-        ],
-        "support": 3,
-        "effective_support": 1.017661,
-        "support_factor": 0.33922,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.069036648,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0003754021,
-            "similarity": 0.873289,
-            "matched_descriptor": "airhead"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0002329856,
-            "similarity": 0.878306,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "funny / comical / humorous / amusing / +4",
-        "descriptor_index": 2859,
-        "amplitude": 0.0217370261,
-        "abs_amplitude": 0.0217370261,
-        "raw_amplitude": 0.0652110782,
-        "percent": 5.466416,
-        "raw_percent": 6.057799,
-        "coverage_percent": 29.498124,
-        "member_count": 8,
-        "members": [
-          "funny",
-          "comical",
-          "humorous",
-          "amusing",
-          "pun-loving",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
+        "descriptor": "cunning",
+        "amplitude": 0.4161284379,
+        "abs_amplitude": 0.4161284379,
+        "percent": 36.426965,
+        "weighted_support": 2.9119237,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0652110781,
-            "similarity": 1.0,
-            "matched_descriptor": "funny"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "moody / grouchy / grumpy / grim / +3",
-        "descriptor_index": 4925,
-        "amplitude": 0.0173568414,
-        "abs_amplitude": 0.0173568414,
-        "raw_amplitude": 0.0512420975,
-        "percent": 4.36489,
-        "raw_percent": 4.760147,
-        "coverage_percent": 33.863013,
-        "member_count": 7,
-        "members": [
-          "moody",
-          "grouchy",
-          "grumpy",
-          "grim",
-          "sullen",
-          "disapproving",
-          "unsmiling"
-        ],
-        "support": 2,
-        "effective_support": 1.016167,
-        "support_factor": 0.338722,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.050831179,
-            "similarity": 1.0,
-            "matched_descriptor": "moody"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0004109186,
-            "similarity": 0.873489,
-            "matched_descriptor": "crybaby"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0172948307,
-        "abs_amplitude": 0.0172948307,
-        "raw_amplitude": 0.051095583,
-        "percent": 4.349295,
-        "raw_percent": 4.746536,
-        "coverage_percent": 38.212309,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
-        "support": 2,
-        "effective_support": 1.01544,
-        "support_factor": 0.33848,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0507041271,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0003914559,
-            "similarity": 0.875924,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "independent / self-sufficient / self-reliant / hands-off / +2",
-        "descriptor_index": 3832,
-        "amplitude": 0.0141444873,
-        "abs_amplitude": 0.0141444873,
-        "raw_amplitude": 0.0421389214,
-        "percent": 3.557049,
-        "raw_percent": 3.914505,
-        "coverage_percent": 41.769357,
-        "member_count": 6,
-        "members": [
-          "independent",
-          "self-sufficient",
-          "self-reliant",
-          "hands-off",
-          "free-willed",
-          "self-motivated"
-        ],
-        "support": 2,
-        "effective_support": 1.00699,
-        "support_factor": 0.335663,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0419921624,
-            "similarity": 1.0,
-            "matched_descriptor": "independent"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0001467591,
-            "similarity": 0.86579,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "shy / unsociable / coy / modest / +9",
-        "descriptor_index": 6837,
-        "amplitude": 0.0131708012,
-        "abs_amplitude": 0.0131708012,
-        "raw_amplitude": 0.0201938826,
-        "percent": 3.312186,
-        "raw_percent": 1.875915,
-        "coverage_percent": 45.081544,
-        "member_count": 13,
-        "members": [
-          "shy",
-          "unsociable",
-          "coy",
-          "modest",
-          "reticent",
-          "unassertive",
-          "taciturn",
-          "meek",
-          "bashful",
-          "discreet",
-          "introverted",
-          "faint-hearted",
-          "demure"
-        ],
-        "support": 3,
-        "effective_support": 1.956652,
-        "support_factor": 0.652217,
-        "top_characters": [
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0124350784,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0073205422,
-            "similarity": 0.8786,
-            "matched_descriptor": "stubborn / blunt"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0004382619,
-            "similarity": 0.872135,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.0088835607,
-        "abs_amplitude": 0.0088835607,
-        "raw_amplitude": 0.0266506822,
-        "percent": 2.234033,
-        "raw_percent": 2.475721,
-        "coverage_percent": 47.315577,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0266506822,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "food-obsessed / hungry / gluttonous",
-        "descriptor_index": 2643,
-        "amplitude": 0.0079277312,
-        "abs_amplitude": 0.0079277312,
-        "raw_amplitude": 0.0237831937,
-        "percent": 1.993662,
-        "raw_percent": 2.209345,
-        "coverage_percent": 49.309239,
-        "member_count": 3,
-        "members": [
-          "food-obsessed",
-          "hungry",
-          "gluttonous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0237831938,
-            "similarity": 0.974339,
-            "matched_descriptor": "food lover"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "pragmatic / practical / down-to-earth",
-        "descriptor_index": 5812,
-        "amplitude": 0.0075590832,
-        "abs_amplitude": 0.0075590832,
-        "raw_amplitude": 0.0226772497,
-        "percent": 1.900954,
-        "raw_percent": 2.106608,
-        "coverage_percent": 51.210193,
-        "member_count": 3,
-        "members": [
-          "pragmatic",
-          "practical",
-          "down-to-earth"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0226772497,
-            "similarity": 1.0,
-            "matched_descriptor": "pragmatic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.007066251,
-        "abs_amplitude": 0.007066251,
-        "raw_amplitude": 0.0211987531,
-        "percent": 1.777017,
-        "raw_percent": 1.969263,
-        "coverage_percent": 52.987211,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0211987531,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0066732122,
-        "abs_amplitude": 0.0066732122,
-        "raw_amplitude": 0.0200196366,
-        "percent": 1.678176,
-        "raw_percent": 1.859729,
-        "coverage_percent": 54.665387,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0200196366,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "low-energy / mild-mannered / non-violent / cool-headed / +6",
-        "descriptor_index": 4439,
-        "amplitude": 0.0059826124,
-        "abs_amplitude": 0.0059826124,
-        "raw_amplitude": 0.013557347,
-        "percent": 1.504504,
-        "raw_percent": 1.259413,
-        "coverage_percent": 56.169891,
-        "member_count": 10,
-        "members": [
-          "low-energy",
-          "mild-mannered",
-          "non-violent",
-          "cool-headed",
-          "non-hostile",
-          "untalkative",
-          "soothing",
-          "subdued",
-          "calmest",
-          "calmer"
-        ],
-        "support": 2,
-        "effective_support": 1.323846,
-        "support_factor": 0.441282,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0116231724,
-            "similarity": 0.903174,
-            "matched_descriptor": "carefree / stubborn"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0019341744,
-            "similarity": 0.91228,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "zany / quirky",
-        "descriptor_index": 8691,
-        "amplitude": 0.0059482439,
-        "abs_amplitude": 0.0059482439,
-        "raw_amplitude": 0.0126331097,
-        "percent": 1.495861,
-        "raw_percent": 1.173556,
-        "coverage_percent": 57.665752,
-        "member_count": 2,
-        "members": [
-          "zany",
-          "quirky"
-        ],
-        "support": 2,
-        "effective_support": 1.412537,
-        "support_factor": 0.470846,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0103900832,
-            "similarity": 0.900783,
-            "matched_descriptor": "strange"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0022430265,
-            "similarity": 0.900783,
-            "matched_descriptor": "strange"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "observant / perceptive",
-        "descriptor_index": 5240,
-        "amplitude": 0.0057457948,
-        "abs_amplitude": 0.0057457948,
-        "raw_amplitude": 0.017078006,
-        "percent": 1.44495,
-        "raw_percent": 1.586465,
-        "coverage_percent": 59.110702,
-        "member_count": 2,
-        "members": [
-          "observant",
-          "perceptive"
-        ],
-        "support": 2,
-        "effective_support": 1.009332,
-        "support_factor": 0.336444,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0169986852,
-            "similarity": 1.0,
-            "matched_descriptor": "observant"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 7.93208e-05,
-            "similarity": 0.864117,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0053522035,
-        "abs_amplitude": 0.0053522035,
-        "raw_amplitude": 0.0160566106,
-        "percent": 1.345969,
-        "raw_percent": 1.491583,
-        "coverage_percent": 60.456671,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0160566106,
-            "similarity": 0.956457,
-            "matched_descriptor": "genius"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "naive / simple-minded / clueless",
-        "descriptor_index": 5027,
-        "amplitude": 0.0049709006,
-        "abs_amplitude": 0.0049709006,
-        "raw_amplitude": 0.0063614511,
-        "percent": 1.25008,
-        "raw_percent": 0.590949,
-        "coverage_percent": 61.706751,
-        "member_count": 3,
-        "members": [
-          "naive",
-          "simple-minded",
-          "clueless"
-        ],
-        "support": 3,
-        "effective_support": 2.34423,
-        "support_factor": 0.78141,
-        "top_characters": [
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0033367225,
-            "similarity": 1.0,
-            "matched_descriptor": "naive"
-          },
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0023940194,
-            "similarity": 0.875924,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0006307092,
-            "similarity": 0.88015,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "bad-tempered / ill-tempered / cranky / annoyed-prone / +1",
-        "descriptor_index": 532,
-        "amplitude": 0.0047958902,
-        "abs_amplitude": 0.0047958902,
-        "raw_amplitude": 0.0143876705,
-        "percent": 1.206068,
-        "raw_percent": 1.336546,
-        "coverage_percent": 62.912819,
-        "member_count": 5,
-        "members": [
-          "bad-tempered",
-          "ill-tempered",
-          "cranky",
-          "annoyed-prone",
-          "quick-tempered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0143876705,
-            "similarity": 0.897752,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "dejected / downhearted / dismayed / miserable / +4",
-        "descriptor_index": 1663,
-        "amplitude": 0.0047746649,
-        "abs_amplitude": 0.0047746649,
-        "raw_amplitude": 0.0078640569,
-        "percent": 1.20073,
-        "raw_percent": 0.730533,
-        "coverage_percent": 64.113549,
-        "member_count": 8,
-        "members": [
-          "dejected",
-          "downhearted",
-          "dismayed",
-          "miserable",
-          "melancholic",
-          "sorrowful",
-          "depressed",
-          "downtrodden"
-        ],
-        "support": 2,
-        "effective_support": 1.821451,
-        "support_factor": 0.60715,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0051631094,
-            "similarity": 0.877275,
-            "matched_descriptor": "moody"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0027009477,
-            "similarity": 0.877283,
-            "matched_descriptor": "crybaby"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "friendship-oriented / trustful / trusted / loyal",
-        "descriptor_index": 2833,
-        "amplitude": 0.0037281957,
-        "abs_amplitude": 0.0037281957,
-        "raw_amplitude": 0.0111845871,
-        "percent": 0.937565,
-        "raw_percent": 1.038995,
-        "coverage_percent": 65.051114,
-        "member_count": 4,
-        "members": [
-          "friendship-oriented",
-          "trustful",
-          "trusted",
-          "loyal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0111845871,
-            "similarity": 0.896795,
-            "matched_descriptor": "caring friend"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "detached / aloof / unsocial / distant",
-        "descriptor_index": 1767,
-        "amplitude": 0.0035430932,
-        "abs_amplitude": 0.0035430932,
-        "raw_amplitude": 0.0082456681,
-        "percent": 0.891015,
-        "raw_percent": 0.765983,
-        "coverage_percent": 65.942129,
-        "member_count": 4,
-        "members": [
-          "detached",
-          "aloof",
-          "unsocial",
-          "distant"
-        ],
-        "support": 3,
-        "effective_support": 1.289074,
-        "support_factor": 0.429691,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0072110061,
-            "similarity": 0.888717,
-            "matched_descriptor": "independent / stubborn"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 0.0008415283,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0001931337,
-            "similarity": 0.866555,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "displeased / irritable / aggravated / sad / +5",
-        "descriptor_index": 1874,
-        "amplitude": 0.0034419223,
-        "abs_amplitude": 0.0034419223,
-        "raw_amplitude": 0.0097858873,
-        "percent": 0.865573,
-        "raw_percent": 0.909062,
-        "coverage_percent": 66.807702,
-        "member_count": 9,
-        "members": [
-          "displeased",
-          "irritable",
-          "aggravated",
-          "sad",
-          "irritated",
-          "unconcerned",
-          "annoyed",
-          "bitter",
-          "impatient"
-        ],
-        "support": 3,
-        "effective_support": 1.055169,
-        "support_factor": 0.351723,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.0095246186,
-            "similarity": 0.899562,
-            "matched_descriptor": "moody / lazy"
-          },
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0001760771,
-            "similarity": 0.872134,
-            "matched_descriptor": "naive"
-          },
-          {
-            "character_id": 6169,
-            "name": "Yukiho Hagiwara",
-            "native_name": "萩原雪歩",
-            "anime": "IDOLM@STER: XENOGLOSSIA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-            "site_url": "https://anilist.co/character/6169",
-            "anime_url": "https://myanimelist.net/anime/4033",
-            "role": "SUPPORTING",
-            "favourites": 145,
-            "row_weight": 1.41228026,
-            "projection": 8.51916e-05,
-            "similarity": 0.854945,
-            "matched_descriptor": "crybaby"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "daring / courageous / brave / unafraid / +5",
-        "descriptor_index": 1588,
-        "amplitude": 0.0034084484,
-        "abs_amplitude": 0.0034084484,
-        "raw_amplitude": 0.0102253453,
-        "percent": 0.857155,
-        "raw_percent": 0.949886,
-        "coverage_percent": 67.664857,
-        "member_count": 9,
-        "members": [
-          "daring",
-          "courageous",
-          "brave",
-          "unafraid",
-          "fearless",
-          "audacious",
-          "plucky",
-          "valiant",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 51335,
-            "name": "Asia Argento",
-            "native_name": "アーシア・アルジェント",
-            "anime": "High School DxD",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-            "site_url": "https://anilist.co/character/51335",
-            "anime_url": "https://myanimelist.net/anime/11617",
-            "role": "MAIN",
-            "favourites": 1093,
-            "row_weight": 2.82800212,
-            "projection": 0.0102253454,
-            "similarity": 1.0,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "lone / solitary / isolated",
-        "descriptor_index": 4369,
-        "amplitude": 0.0031982514,
-        "abs_amplitude": 0.0031982514,
-        "raw_amplitude": 0.0095947541,
-        "percent": 0.804295,
-        "raw_percent": 0.891307,
-        "coverage_percent": 68.469152,
-        "member_count": 3,
-        "members": [
-          "lone",
-          "solitary",
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89331,
-            "name": "Misaki Tobisawa",
-            "native_name": "鳶沢みさき",
-            "anime": "AOKANA: Four Rhythm Across the Blue",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-            "site_url": "https://anilist.co/character/89331",
-            "anime_url": "https://myanimelist.net/anime/28391",
-            "role": "MAIN",
-            "favourites": 297,
-            "row_weight": 2.58787432,
-            "projection": 0.009594754,
-            "similarity": 0.894151,
-            "matched_descriptor": "independent"
-          }
-        ]
-      }
-    ],
-    "opposite_display_descriptor_components": [
-      {
-        "rank": 1,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0242504675,
-        "abs_amplitude": 0.0242504675,
-        "raw_amplitude": 0.0727514025,
-        "percent": 23.334251,
-        "raw_percent": 26.177921,
-        "coverage_percent": 23.334251,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0727514025,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "playful / good-humored / light-hearted / jocular / +9",
-        "descriptor_index": 5645,
-        "amplitude": 0.015085991,
-        "abs_amplitude": 0.015085991,
-        "raw_amplitude": 0.0412445861,
-        "percent": 14.516021,
-        "raw_percent": 14.840917,
-        "coverage_percent": 37.850272,
-        "member_count": 13,
-        "members": [
-          "playful",
-          "good-humored",
-          "light-hearted",
-          "jocular",
-          "good-humoured",
-          "happy-go-lucky",
-          "jovial",
-          "giddy",
-          "lighthearted",
-          "gleeful",
-          "amused",
-          "fun-loving",
-          "happy"
-        ],
-        "support": 2,
-        "effective_support": 1.097307,
-        "support_factor": 0.365769,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 40136,
             "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
             "anime": "A Certain Scientific Railgun S",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
             "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0393266559,
-            "similarity": 1.0,
-            "matched_descriptor": "playful"
-          },
-          {
-            "character_id": 67213,
-            "name": "Kumin Tsuyuri",
-            "native_name": "五月七日くみん",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
-            "site_url": "https://anilist.co/character/67213",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "MAIN",
-            "favourites": 902,
-            "row_weight": 2.79387232,
-            "projection": 0.0019179303,
-            "similarity": 0.943593,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "casual / care-free / carefree / informal / +4",
-        "descriptor_index": 975,
-        "amplitude": 0.0133640578,
-        "abs_amplitude": 0.0133640578,
-        "raw_amplitude": 0.0148112937,
-        "percent": 12.859145,
-        "raw_percent": 5.329504,
-        "coverage_percent": 50.709417,
-        "member_count": 8,
-        "members": [
-          "casual",
-          "care-free",
-          "carefree",
-          "informal",
-          "cool-headed",
-          "accommodating",
-          "laid-back",
-          "easy-going"
-        ],
-        "support": 3,
-        "effective_support": 2.706865,
-        "support_factor": 0.902288,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0069978906,
-            "similarity": 0.883141,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 67213,
-            "name": "Kumin Tsuyuri",
-            "native_name": "五月七日くみん",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
-            "site_url": "https://anilist.co/character/67213",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "MAIN",
-            "favourites": 902,
-            "row_weight": 2.79387232,
-            "projection": 0.0047866493,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0030267538,
-            "similarity": 0.901625,
-            "matched_descriptor": "playful"
+            "combined_favourites": 1770
           }
         ]
       },
       {
         "rank": 4,
         "descriptor": "sadistic",
-        "descriptor_index": 6432,
-        "amplitude": 0.0055738237,
-        "abs_amplitude": 0.0055738237,
-        "raw_amplitude": 0.0167214712,
-        "percent": 5.363237,
-        "raw_percent": 6.016837,
-        "coverage_percent": 56.072654,
-        "member_count": 1,
-        "members": [
-          "sadistic"
-        ],
+        "amplitude": 0.2226992144,
+        "abs_amplitude": 0.2226992144,
+        "percent": 19.494598,
+        "weighted_support": 2.87350008,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 88205,
             "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
             "anime": "Riddle Story of Devil",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
             "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0167214712,
-            "similarity": 1.0,
-            "matched_descriptor": "sadistic"
+            "combined_favourites": 1417
           }
         ]
-      },
+      }
+    ],
+    "descriptor_steps": [
       {
-        "rank": 5,
-        "descriptor": "modest / coy / self-effacing / reticent / +3",
-        "descriptor_index": 4896,
-        "amplitude": 0.0033235596,
-        "abs_amplitude": 0.0033235596,
-        "raw_amplitude": 0.0099706789,
-        "percent": 3.197991,
-        "raw_percent": 3.58772,
-        "coverage_percent": 59.270644,
-        "member_count": 7,
-        "members": [
-          "modest",
-          "coy",
-          "self-effacing",
-          "reticent",
-          "aloof",
-          "taciturn",
-          "non-arrogant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0099706789,
-            "similarity": 0.8786,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "joyful / upbeat / cheery / cheerful / +5",
-        "descriptor_index": 4069,
-        "amplitude": 0.003266338,
-        "abs_amplitude": 0.003266338,
-        "raw_amplitude": 0.0097990139,
-        "percent": 3.142931,
-        "raw_percent": 3.52595,
-        "coverage_percent": 62.413576,
-        "member_count": 9,
-        "members": [
-          "joyful",
-          "upbeat",
-          "cheery",
-          "cheerful",
-          "joyous",
-          "smiling",
-          "sunny",
-          "happiness-experiencing",
-          "cheerful-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.009799014,
-            "similarity": 0.900268,
-            "matched_descriptor": "playful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "cunning / machiavellian",
-        "descriptor_index": 1537,
-        "amplitude": 0.0028725335,
-        "abs_amplitude": 0.0028725335,
-        "raw_amplitude": 0.0086176004,
-        "percent": 2.764005,
-        "raw_percent": 3.100846,
-        "coverage_percent": 65.177581,
-        "member_count": 2,
-        "members": [
-          "cunning",
-          "machiavellian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0086176005,
-            "similarity": 1.0,
-            "matched_descriptor": "cunning"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "straightforward / straight-forward",
-        "descriptor_index": 7284,
-        "amplitude": 0.0028370802,
-        "abs_amplitude": 0.0028370802,
-        "raw_amplitude": 0.0085112405,
-        "percent": 2.729891,
-        "raw_percent": 3.062574,
-        "coverage_percent": 67.907472,
-        "member_count": 2,
-        "members": [
-          "straightforward",
-          "straight-forward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0085112405,
-            "similarity": 0.898051,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "plain / simple",
-        "descriptor_index": 5633,
-        "amplitude": 0.0028015228,
-        "abs_amplitude": 0.0028015228,
-        "raw_amplitude": 0.0084045684,
-        "percent": 2.695677,
-        "raw_percent": 3.024191,
-        "coverage_percent": 70.603149,
-        "member_count": 2,
-        "members": [
-          "plain",
-          "simple"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0084045684,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "psychic / psychokinetic / telepathic",
-        "descriptor_index": 5987,
-        "amplitude": 0.0021309586,
-        "abs_amplitude": 0.0021309586,
-        "raw_amplitude": 0.0063928758,
-        "percent": 2.050448,
-        "raw_percent": 2.300329,
-        "coverage_percent": 72.653597,
-        "member_count": 3,
-        "members": [
-          "psychic",
-          "psychokinetic",
-          "telepathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0063928758,
-            "similarity": 0.909045,
-            "matched_descriptor": "mind controller"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "genuine / openhearted",
-        "descriptor_index": 2971,
-        "amplitude": 0.0016488322,
-        "abs_amplitude": 0.0016488322,
-        "raw_amplitude": 0.0049464966,
-        "percent": 1.586537,
-        "raw_percent": 1.779883,
-        "coverage_percent": 74.240134,
-        "member_count": 2,
-        "members": [
-          "genuine",
-          "openhearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0049464966,
-            "similarity": 0.885905,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "sensible / careful / reasonable",
-        "descriptor_index": 6701,
-        "amplitude": 0.0013321683,
-        "abs_amplitude": 0.0013321683,
-        "raw_amplitude": 0.003996505,
-        "percent": 1.281837,
-        "raw_percent": 1.43805,
-        "coverage_percent": 75.521972,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "careful",
-          "reasonable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0039965049,
-            "similarity": 0.873757,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "candid",
-        "descriptor_index": 922,
-        "amplitude": 0.0012830958,
-        "abs_amplitude": 0.0012830958,
-        "raw_amplitude": 0.0038492873,
-        "percent": 1.234619,
-        "raw_percent": 1.385078,
-        "coverage_percent": 76.75659,
-        "member_count": 1,
-        "members": [
-          "candid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0038492873,
-            "similarity": 0.89222,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cordial / affable / amiable / non-hostile / +2",
-        "descriptor_index": 1441,
-        "amplitude": 0.0012748976,
-        "abs_amplitude": 0.0012748976,
-        "raw_amplitude": 0.0019517342,
-        "percent": 1.22673,
-        "raw_percent": 0.702287,
-        "coverage_percent": 77.98332,
-        "member_count": 6,
-        "members": [
-          "cordial",
-          "affable",
-          "amiable",
-          "non-hostile",
-          "amicable",
-          "friendlier"
-        ],
+        "step": 1,
+        "descriptor": "blunt",
+        "weighted_support": 5.63705902,
         "support": 2,
-        "effective_support": 1.959638,
-        "support_factor": 0.653213,
-        "top_characters": [
-          {
-            "character_id": 67213,
-            "name": "Kumin Tsuyuri",
-            "native_name": "五月七日くみん",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
-            "site_url": "https://anilist.co/character/67213",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "MAIN",
-            "favourites": 902,
-            "row_weight": 2.79387232,
-            "projection": 0.0011159189,
-            "similarity": 0.918321,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0008358153,
-            "similarity": 0.892397,
-            "matched_descriptor": "playful"
-          }
-        ]
+        "fit_percent": 81.485204,
+        "selection": "weighted_support"
       },
       {
-        "rank": 15,
-        "descriptor": "joker-like / mischievous",
-        "descriptor_index": 4060,
-        "amplitude": 0.0012397788,
-        "abs_amplitude": 0.0012397788,
-        "raw_amplitude": 0.0037193365,
-        "percent": 1.192938,
-        "raw_percent": 1.338318,
-        "coverage_percent": 79.176259,
-        "member_count": 2,
-        "members": [
-          "joker-like",
-          "mischievous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0037193365,
-            "similarity": 0.885515,
-            "matched_descriptor": "cunning"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "naive / simple-minded",
-        "descriptor_index": 5027,
-        "amplitude": 0.0011449973,
-        "abs_amplitude": 0.0011449973,
-        "raw_amplitude": 0.0034349919,
-        "percent": 1.101738,
-        "raw_percent": 1.236003,
-        "coverage_percent": 80.277996,
-        "member_count": 2,
-        "members": [
-          "naive",
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0034349918,
-            "similarity": 0.875924,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "confident / convinced",
-        "descriptor_index": 1359,
-        "amplitude": 0.0010987574,
-        "abs_amplitude": 0.0010987574,
-        "raw_amplitude": 0.0032962722,
-        "percent": 1.057245,
-        "raw_percent": 1.186088,
-        "coverage_percent": 81.335241,
-        "member_count": 2,
-        "members": [
-          "confident",
-          "convinced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0032962722,
-            "similarity": 0.884851,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "analytic / analytical / over-thinker / logic-oriented",
-        "descriptor_index": 216,
-        "amplitude": 0.0010966517,
-        "abs_amplitude": 0.0010966517,
-        "raw_amplitude": 0.003289955,
-        "percent": 1.055219,
-        "raw_percent": 1.183815,
-        "coverage_percent": 82.39046,
-        "member_count": 4,
-        "members": [
-          "analytic",
-          "analytical",
-          "over-thinker",
-          "logic-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.003289955,
-            "similarity": 0.873297,
-            "matched_descriptor": "mind controller"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "sadistic-persona",
-        "descriptor_index": 6438,
-        "amplitude": 0.0010094571,
-        "abs_amplitude": 0.0010094571,
-        "raw_amplitude": 0.0030283712,
-        "percent": 0.971318,
-        "raw_percent": 1.08969,
-        "coverage_percent": 83.361778,
-        "member_count": 1,
-        "members": [
-          "sadistic-persona"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0030283712,
-            "similarity": 0.842222,
-            "matched_descriptor": "sadistic"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "brusque",
-        "descriptor_index": 848,
-        "amplitude": 0.0009417046,
-        "abs_amplitude": 0.0009417046,
-        "raw_amplitude": 0.0028251138,
-        "percent": 0.906126,
-        "raw_percent": 1.016552,
-        "coverage_percent": 84.267904,
-        "member_count": 1,
-        "members": [
-          "brusque"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0028251138,
-            "similarity": 0.883645,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "tricky / scheming",
-        "descriptor_index": 7989,
-        "amplitude": 0.000861784,
-        "abs_amplitude": 0.000861784,
-        "raw_amplitude": 0.0025853521,
-        "percent": 0.829225,
-        "raw_percent": 0.93028,
-        "coverage_percent": 85.097128,
-        "member_count": 2,
-        "members": [
-          "tricky",
-          "scheming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.0025853521,
-            "similarity": 0.872674,
-            "matched_descriptor": "cunning"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "perky / vivacious / exuberant",
-        "descriptor_index": 5537,
-        "amplitude": 0.0007857527,
-        "abs_amplitude": 0.0007857527,
-        "raw_amplitude": 0.002357258,
-        "percent": 0.756066,
-        "raw_percent": 0.848205,
-        "coverage_percent": 85.853194,
-        "member_count": 3,
-        "members": [
-          "perky",
-          "vivacious",
-          "exuberant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 40136,
-            "name": "Misaki Shokuhou",
-            "native_name": "食蜂操祈",
-            "anime": "A Certain Scientific Railgun S",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
-            "site_url": "https://anilist.co/character/40136",
-            "anime_url": "https://myanimelist.net/anime/16049",
-            "role": "SUPPORTING",
-            "favourites": 1192,
-            "row_weight": 2.84327741,
-            "projection": 0.002357258,
-            "similarity": 0.888202,
-            "matched_descriptor": "playful"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "straight-laced / matter-of-fact",
-        "descriptor_index": 7282,
-        "amplitude": 0.0007724671,
-        "abs_amplitude": 0.0007724671,
-        "raw_amplitude": 0.0023174014,
-        "percent": 0.743282,
-        "raw_percent": 0.833864,
-        "coverage_percent": 86.596476,
-        "member_count": 2,
-        "members": [
-          "straight-laced",
-          "matter-of-fact"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0023174014,
-            "similarity": 0.870802,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "permissive",
-        "descriptor_index": 5539,
-        "amplitude": 0.0007203787,
-        "abs_amplitude": 0.0007203787,
-        "raw_amplitude": 0.0012088057,
-        "percent": 0.693162,
-        "raw_percent": 0.434961,
-        "coverage_percent": 87.289638,
-        "member_count": 1,
-        "members": [
-          "permissive"
-        ],
+        "step": 2,
+        "descriptor": "strange",
+        "weighted_support": 4.27487211,
         "support": 2,
-        "effective_support": 1.787828,
-        "support_factor": 0.595943,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.000812616,
-            "similarity": 0.866794,
-            "matched_descriptor": "blunt"
-          },
-          {
-            "character_id": 67213,
-            "name": "Kumin Tsuyuri",
-            "native_name": "五月七日くみん",
-            "anime": "Love, Chunibyo & Other Delusions",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
-            "site_url": "https://anilist.co/character/67213",
-            "anime_url": "https://myanimelist.net/anime/14741",
-            "role": "MAIN",
-            "favourites": 902,
-            "row_weight": 2.79387232,
-            "projection": 0.0003961897,
-            "similarity": 0.905236,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "fit_percent": 88.991801,
+        "selection": "weighted_support"
       },
       {
-        "rank": 25,
-        "descriptor": "resolute / strong-willed / strong-minded / headstrong",
-        "descriptor_index": 6257,
-        "amplitude": 0.0006344542,
-        "abs_amplitude": 0.0006344542,
-        "raw_amplitude": 0.0019033626,
-        "percent": 0.610484,
-        "raw_percent": 0.684881,
-        "coverage_percent": 87.900122,
-        "member_count": 4,
-        "members": [
-          "resolute",
-          "strong-willed",
-          "strong-minded",
-          "headstrong"
-        ],
+        "step": 3,
+        "descriptor": "cunning",
+        "weighted_support": 2.9119237,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88205,
-            "name": "Isuke Inukai",
-            "native_name": "犬飼伊介",
-            "anime": "Riddle Story of Devil",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
-            "site_url": "https://anilist.co/character/88205",
-            "anime_url": "https://myanimelist.net/anime/19429",
-            "role": "SUPPORTING",
-            "favourites": 1384,
-            "row_weight": 2.86939984,
-            "projection": 0.0019033626,
-            "similarity": 0.865536,
-            "matched_descriptor": "blunt"
-          }
-        ]
+        "fit_percent": 94.908184,
+        "selection": "weighted_support"
+      },
+      {
+        "step": 4,
+        "descriptor": "sadistic",
+        "weighted_support": 2.87350008,
+        "support": 1,
+        "fit_percent": 96.293708,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 89331,
-        "name": "Misaki Tobisawa",
-        "native_name": "鳶沢みさき",
-        "anime": "AOKANA: Four Rhythm Across the Blue",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-        "site_url": "https://anilist.co/character/89331",
-        "anime_url": "https://myanimelist.net/anime/28391",
-        "role": "MAIN",
-        "favourites": 297,
-        "row_weight": 2.58787432,
-        "amplitude": 0.9786380639,
-        "abs_amplitude": 0.9786380639,
-        "percent": 95.773246
+        "character_id": 51335,
+        "name": "Asia Argento",
+        "anime": "High School DxD",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
+        "site_url": "https://anilist.co/character/51335",
+        "favourites": 1093,
+        "anilist_favourites": 1093,
+        "bangumi_collects": 130,
+        "bangumi_comments": 27,
+        "bangumi_character_id": 14861,
+        "bangumi_url": "https://bgm.tv/character/14861",
+        "combined_favourites": 1223,
+        "role_edge_count": 1,
+        "descriptors": [
+          "daring",
+          "jealous",
+          "kind",
+          "kind-hearted",
+          "naive"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.84778501,
+        "row_weight": 2.84778501,
+        "unweighted_row_norm": 4.22642378,
+        "amplitude": 0.4560418173,
+        "abs_amplitude": 0.4560418173,
+        "percent": 20.797414
       },
       {
         "character_id": 88205,
         "name": "Isuke Inukai",
-        "native_name": "犬飼伊介",
         "anime": "Riddle Story of Devil",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
         "site_url": "https://anilist.co/character/88205",
-        "anime_url": "https://myanimelist.net/anime/19429",
-        "role": "SUPPORTING",
         "favourites": 1384,
-        "row_weight": 2.86939984,
-        "amplitude": -0.1699147766,
-        "abs_amplitude": 0.1699147766,
-        "percent": 2.887103
+        "anilist_favourites": 1384,
+        "bangumi_collects": 33,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 20922,
+        "bangumi_url": "https://bgm.tv/character/20922",
+        "combined_favourites": 1417,
+        "role_edge_count": 1,
+        "descriptors": [
+          "affectionate",
+          "aggressive",
+          "blunt",
+          "sadistic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.87350008,
+        "row_weight": 2.87350008,
+        "unweighted_row_norm": 3.40334628,
+        "amplitude": 0.4535568692,
+        "abs_amplitude": 0.4535568692,
+        "percent": 20.571383
+      },
+      {
+        "character_id": 89331,
+        "name": "Misaki Tobisawa",
+        "anime": "AOKANA: Four Rhythm Across the Blue",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+        "site_url": "https://anilist.co/character/89331",
+        "favourites": 297,
+        "anilist_favourites": 297,
+        "bangumi_collects": 465,
+        "bangumi_comments": 162,
+        "bangumi_character_id": 22881,
+        "bangumi_url": "https://bgm.tv/character/22881",
+        "combined_favourites": 762,
+        "role_edge_count": 1,
+        "descriptors": [
+          "blunt",
+          "lazy",
+          "mischievous",
+          "moody",
+          "passionate",
+          "spontaneous",
+          "strange",
+          "stubborn"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.76355894,
+        "row_weight": 2.76355894,
+        "unweighted_row_norm": 6.53843079,
+        "amplitude": 0.4477827492,
+        "abs_amplitude": 0.4477827492,
+        "percent": 20.050939
       },
       {
         "character_id": 40136,
         "name": "Misaki Shokuhou",
-        "native_name": "食蜂操祈",
         "anime": "A Certain Scientific Railgun S",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
         "site_url": "https://anilist.co/character/40136",
-        "anime_url": "https://myanimelist.net/anime/16049",
-        "role": "SUPPORTING",
         "favourites": 1192,
-        "row_weight": 2.84327741,
-        "amplitude": -0.0901851943,
-        "abs_amplitude": 0.0901851943,
-        "percent": 0.813337
-      },
-      {
-        "character_id": 6169,
-        "name": "Yukiho Hagiwara",
-        "native_name": "萩原雪歩",
-        "anime": "IDOLM@STER: XENOGLOSSIA",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-        "site_url": "https://anilist.co/character/6169",
-        "anime_url": "https://myanimelist.net/anime/4033",
-        "role": "SUPPORTING",
-        "favourites": 145,
-        "row_weight": 1.41228026,
-        "amplitude": 0.0578444269,
-        "abs_amplitude": 0.0578444269,
-        "percent": 0.334598
-      },
-      {
-        "character_id": 51335,
-        "name": "Asia Argento",
-        "native_name": "アーシア・アルジェント",
-        "anime": "High School DxD",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
-        "site_url": "https://anilist.co/character/51335",
-        "anime_url": "https://myanimelist.net/anime/11617",
-        "role": "MAIN",
-        "favourites": 1093,
-        "row_weight": 2.82800212,
-        "amplitude": 0.0399989723,
-        "abs_amplitude": 0.0399989723,
-        "percent": 0.159992
+        "anilist_favourites": 1192,
+        "bangumi_collects": 578,
+        "bangumi_comments": 75,
+        "bangumi_character_id": 17949,
+        "bangumi_url": "https://bgm.tv/character/17949",
+        "combined_favourites": 1770,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cunning"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.9119237,
+        "row_weight": 2.9119237,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4189897733,
+        "abs_amplitude": 0.4189897733,
+        "percent": 17.555243
       },
       {
         "character_id": 67213,
         "name": "Kumin Tsuyuri",
-        "native_name": "五月七日くみん",
         "anime": "Love, Chunibyo & Other Delusions",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
         "site_url": "https://anilist.co/character/67213",
-        "anime_url": "https://myanimelist.net/anime/14741",
-        "role": "MAIN",
         "favourites": 902,
-        "row_weight": 2.79387232,
-        "amplitude": -0.0178113399,
-        "abs_amplitude": 0.0178113399,
-        "percent": 0.031724
+        "anilist_favourites": 902,
+        "bangumi_collects": 175,
+        "bangumi_comments": 18,
+        "bangumi_character_id": 17368,
+        "bangumi_url": "https://bgm.tv/character/17368",
+        "combined_favourites": 1077,
+        "role_edge_count": 1,
+        "descriptors": [
+          "adventurous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.82539603,
+        "row_weight": 2.82539603,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4017316244,
+        "abs_amplitude": 0.4017316244,
+        "percent": 16.13883
+      },
+      {
+        "character_id": 6169,
+        "name": "Yukiho Hagiwara",
+        "anime": "The Idol Master",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+        "site_url": "https://anilist.co/character/6169",
+        "favourites": 145,
+        "anilist_favourites": 145,
+        "bangumi_collects": 202,
+        "bangumi_comments": 61,
+        "bangumi_character_id": 7191,
+        "bangumi_url": "https://bgm.tv/character/7191",
+        "combined_favourites": 347,
+        "role_edge_count": 3,
+        "descriptors": [
+          "shy",
+          "strange"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 2.61767119,
+        "row_weight": 1.51131317,
+        "unweighted_row_norm": 1.80408559,
+        "amplitude": 0.2210472993,
+        "abs_amplitude": 0.2210472993,
+        "percent": 4.886191
       }
     ],
     "positive_characters": [
       {
-        "character_id": 89331,
-        "name": "Misaki Tobisawa",
-        "native_name": "鳶沢みさき",
-        "anime": "AOKANA: Four Rhythm Across the Blue",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
-        "site_url": "https://anilist.co/character/89331",
-        "anime_url": "https://myanimelist.net/anime/28391",
-        "role": "MAIN",
-        "favourites": 297,
-        "row_weight": 2.58787432,
-        "amplitude": 0.9786380639,
-        "abs_amplitude": 0.9786380639,
-        "percent": 95.773246
-      },
-      {
-        "character_id": 6169,
-        "name": "Yukiho Hagiwara",
-        "native_name": "萩原雪歩",
-        "anime": "IDOLM@STER: XENOGLOSSIA",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
-        "site_url": "https://anilist.co/character/6169",
-        "anime_url": "https://myanimelist.net/anime/4033",
-        "role": "SUPPORTING",
-        "favourites": 145,
-        "row_weight": 1.41228026,
-        "amplitude": 0.0578444269,
-        "abs_amplitude": 0.0578444269,
-        "percent": 0.334598
-      },
-      {
         "character_id": 51335,
         "name": "Asia Argento",
-        "native_name": "アーシア・アルジェント",
         "anime": "High School DxD",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
         "site_url": "https://anilist.co/character/51335",
-        "anime_url": "https://myanimelist.net/anime/11617",
-        "role": "MAIN",
         "favourites": 1093,
-        "row_weight": 2.82800212,
-        "amplitude": 0.0399989723,
-        "abs_amplitude": 0.0399989723,
-        "percent": 0.159992
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 1093,
+        "bangumi_collects": 130,
+        "bangumi_comments": 27,
+        "bangumi_character_id": 14861,
+        "bangumi_url": "https://bgm.tv/character/14861",
+        "combined_favourites": 1223,
+        "role_edge_count": 1,
+        "descriptors": [
+          "daring",
+          "jealous",
+          "kind",
+          "kind-hearted",
+          "naive"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.84778501,
+        "row_weight": 2.84778501,
+        "unweighted_row_norm": 4.22642378,
+        "amplitude": 0.4560418173,
+        "abs_amplitude": 0.4560418173,
+        "percent": 20.797414
+      },
       {
         "character_id": 88205,
         "name": "Isuke Inukai",
-        "native_name": "犬飼伊介",
         "anime": "Riddle Story of Devil",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
         "site_url": "https://anilist.co/character/88205",
-        "anime_url": "https://myanimelist.net/anime/19429",
-        "role": "SUPPORTING",
         "favourites": 1384,
-        "row_weight": 2.86939984,
-        "amplitude": -0.1699147766,
-        "abs_amplitude": 0.1699147766,
-        "percent": 2.887103
+        "anilist_favourites": 1384,
+        "bangumi_collects": 33,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 20922,
+        "bangumi_url": "https://bgm.tv/character/20922",
+        "combined_favourites": 1417,
+        "role_edge_count": 1,
+        "descriptors": [
+          "affectionate",
+          "aggressive",
+          "blunt",
+          "sadistic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.87350008,
+        "row_weight": 2.87350008,
+        "unweighted_row_norm": 3.40334628,
+        "amplitude": 0.4535568692,
+        "abs_amplitude": 0.4535568692,
+        "percent": 20.571383
+      },
+      {
+        "character_id": 89331,
+        "name": "Misaki Tobisawa",
+        "anime": "AOKANA: Four Rhythm Across the Blue",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+        "site_url": "https://anilist.co/character/89331",
+        "favourites": 297,
+        "anilist_favourites": 297,
+        "bangumi_collects": 465,
+        "bangumi_comments": 162,
+        "bangumi_character_id": 22881,
+        "bangumi_url": "https://bgm.tv/character/22881",
+        "combined_favourites": 762,
+        "role_edge_count": 1,
+        "descriptors": [
+          "blunt",
+          "lazy",
+          "mischievous",
+          "moody",
+          "passionate",
+          "spontaneous",
+          "strange",
+          "stubborn"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.76355894,
+        "row_weight": 2.76355894,
+        "unweighted_row_norm": 6.53843079,
+        "amplitude": 0.4477827492,
+        "abs_amplitude": 0.4477827492,
+        "percent": 20.050939
       },
       {
         "character_id": 40136,
         "name": "Misaki Shokuhou",
-        "native_name": "食蜂操祈",
         "anime": "A Certain Scientific Railgun S",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
         "site_url": "https://anilist.co/character/40136",
-        "anime_url": "https://myanimelist.net/anime/16049",
-        "role": "SUPPORTING",
         "favourites": 1192,
-        "row_weight": 2.84327741,
-        "amplitude": -0.0901851943,
-        "abs_amplitude": 0.0901851943,
-        "percent": 0.813337
+        "anilist_favourites": 1192,
+        "bangumi_collects": 578,
+        "bangumi_comments": 75,
+        "bangumi_character_id": 17949,
+        "bangumi_url": "https://bgm.tv/character/17949",
+        "combined_favourites": 1770,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cunning"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.9119237,
+        "row_weight": 2.9119237,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4189897733,
+        "abs_amplitude": 0.4189897733,
+        "percent": 17.555243
       },
       {
         "character_id": 67213,
         "name": "Kumin Tsuyuri",
-        "native_name": "五月七日くみん",
         "anime": "Love, Chunibyo & Other Delusions",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
         "site_url": "https://anilist.co/character/67213",
-        "anime_url": "https://myanimelist.net/anime/14741",
-        "role": "MAIN",
         "favourites": 902,
-        "row_weight": 2.79387232,
-        "amplitude": -0.0178113399,
-        "abs_amplitude": 0.0178113399,
-        "percent": 0.031724
+        "anilist_favourites": 902,
+        "bangumi_collects": 175,
+        "bangumi_comments": 18,
+        "bangumi_character_id": 17368,
+        "bangumi_url": "https://bgm.tv/character/17368",
+        "combined_favourites": 1077,
+        "role_edge_count": 1,
+        "descriptors": [
+          "adventurous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.82539603,
+        "row_weight": 2.82539603,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4017316244,
+        "abs_amplitude": 0.4017316244,
+        "percent": 16.13883
+      },
+      {
+        "character_id": 6169,
+        "name": "Yukiho Hagiwara",
+        "anime": "The Idol Master",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+        "site_url": "https://anilist.co/character/6169",
+        "favourites": 145,
+        "anilist_favourites": 145,
+        "bangumi_collects": 202,
+        "bangumi_comments": 61,
+        "bangumi_character_id": 7191,
+        "bangumi_url": "https://bgm.tv/character/7191",
+        "combined_favourites": 347,
+        "role_edge_count": 3,
+        "descriptors": [
+          "shy",
+          "strange"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 2.61767119,
+        "row_weight": 1.51131317,
+        "unweighted_row_norm": 1.80408559,
+        "amplitude": 0.2210472993,
+        "abs_amplitude": 0.2210472993,
+        "percent": 4.886191
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 5.404594,
+      "top5_mass_percent": 95.113809,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "spontaneous / strange / blunt / +9",
+          "support": 5,
+          "variance": 4.0309397685,
+          "seed_descriptor": "spontaneous",
+          "components": [
+            {
+              "descriptor": "spontaneous",
+              "weight": 0.16379735,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "strange",
+              "weight": 0.11075701,
+              "similarity_to_seed": 0.69147212,
+              "support": 2
+            },
+            {
+              "descriptor": "blunt",
+              "weight": 0.09071191,
+              "similarity_to_seed": 0.62577935,
+              "support": 2
+            },
+            {
+              "descriptor": "mischievous",
+              "weight": 0.08320665,
+              "similarity_to_seed": 0.7127309,
+              "support": 1
+            },
+            {
+              "descriptor": "naive",
+              "weight": 0.07674355,
+              "similarity_to_seed": 0.68449063,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.07034155,
+              "similarity_to_seed": 0.65531865,
+              "support": 1
+            },
+            {
+              "descriptor": "adventurous",
+              "weight": 0.06965956,
+              "similarity_to_seed": 0.65213415,
+              "support": 1
+            },
+            {
+              "descriptor": "aggressive",
+              "weight": 0.06822687,
+              "similarity_to_seed": 0.64539306,
+              "support": 1
+            },
+            {
+              "descriptor": "lazy",
+              "weight": 0.06801639,
+              "similarity_to_seed": 0.64439676,
+              "support": 1
+            },
+            {
+              "descriptor": "passionate",
+              "weight": 0.0666294,
+              "similarity_to_seed": 0.63779268,
+              "support": 1
+            },
+            {
+              "descriptor": "stubborn",
+              "weight": 0.06613684,
+              "similarity_to_seed": 0.63543084,
+              "support": 1
+            },
+            {
+              "descriptor": "daring",
+              "weight": 0.06577292,
+              "similarity_to_seed": 0.6336802,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 4.0309397685,
+          "minimum_y_projection_variance": 1.0077349421,
+          "best_rejected_correlation": 0.9940009071,
+          "best_rejected_lane_cosine": 0.8497477496,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9940009071,
+          "candidate_count": 19,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 18,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.4030939769,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.0077349421,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 2.0154698843,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "kind-hearted / affectionate / sadistic",
+            "variance": 3.2342149398,
+            "correlation": 0.9940009071,
+            "abs_correlation": 0.9940009071,
+            "lane_cosine": 0.8497477496,
+            "orthogonality_score": 0.2779287621,
+            "objective": 0.8988813546,
+            "components": [
+              {
+                "descriptor": "kind-hearted",
+                "weight": 0.40864523,
+                "similarity_to_seed": 0.78148205,
+                "support": 1
+              },
+              {
+                "descriptor": "affectionate",
+                "weight": 0.32344724,
+                "similarity_to_seed": 0.69526041,
+                "support": 1
+              },
+              {
+                "descriptor": "sadistic",
+                "weight": 0.26790753,
+                "similarity_to_seed": 0.63275887,
+                "support": 1
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 88205,
+            "name": "Isuke Inukai",
+            "anime": "Riddle Story of Devil",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
+            "site_url": "https://anilist.co/character/88205",
+            "favourites": 1384,
+            "anilist_favourites": 1384,
+            "bangumi_collects": 33,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 20922,
+            "bangumi_url": "https://bgm.tv/character/20922",
+            "combined_favourites": 1417,
+            "role_edge_count": 1,
+            "descriptors": [
+              "affectionate",
+              "aggressive",
+              "blunt",
+              "sadistic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.87350008,
+            "row_weight": 2.87350008,
+            "unweighted_row_norm": 3.40334628,
+            "x_raw_score": 3.1472645569,
+            "x_score": 0.346699777,
+            "amplitude": 0.346699777,
+            "x_direct": true
+          },
+          {
+            "character_id": 40136,
+            "name": "Misaki Shokuhou",
+            "anime": "A Certain Scientific Railgun S",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
+            "site_url": "https://anilist.co/character/40136",
+            "favourites": 1192,
+            "anilist_favourites": 1192,
+            "bangumi_collects": 578,
+            "bangumi_comments": 75,
+            "bangumi_character_id": 17949,
+            "bangumi_url": "https://bgm.tv/character/17949",
+            "combined_favourites": 1770,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cunning"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.9119237,
+            "row_weight": 2.9119237,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7970787901,
+            "x_score": -2.0034859898,
+            "amplitude": -2.0034859898,
+            "x_direct": false
+          },
+          {
+            "character_id": 51335,
+            "name": "Asia Argento",
+            "anime": "High School DxD",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
+            "site_url": "https://anilist.co/character/51335",
+            "favourites": 1093,
+            "anilist_favourites": 1093,
+            "bangumi_collects": 130,
+            "bangumi_comments": 27,
+            "bangumi_character_id": 14861,
+            "bangumi_url": "https://bgm.tv/character/14861",
+            "combined_favourites": 1223,
+            "role_edge_count": 1,
+            "descriptors": [
+              "daring",
+              "jealous",
+              "kind",
+              "kind-hearted",
+              "naive"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.84778501,
+            "row_weight": 2.84778501,
+            "unweighted_row_norm": 4.22642378,
+            "x_raw_score": 3.9741819143,
+            "x_score": 1.1736171344,
+            "amplitude": 1.1736171344,
+            "x_direct": true
+          },
+          {
+            "character_id": 67213,
+            "name": "Kumin Tsuyuri",
+            "anime": "Love, Chunibyo & Other Delusions",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
+            "site_url": "https://anilist.co/character/67213",
+            "favourites": 902,
+            "anilist_favourites": 902,
+            "bangumi_collects": 175,
+            "bangumi_comments": 18,
+            "bangumi_character_id": 17368,
+            "bangumi_url": "https://bgm.tv/character/17368",
+            "combined_favourites": 1077,
+            "role_edge_count": 1,
+            "descriptors": [
+              "adventurous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.82539603,
+            "row_weight": 2.82539603,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.8267549249,
+            "x_score": -1.973809855,
+            "amplitude": -1.973809855,
+            "x_direct": true
+          },
+          {
+            "character_id": 89331,
+            "name": "Misaki Tobisawa",
+            "anime": "AOKANA: Four Rhythm Across the Blue",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+            "site_url": "https://anilist.co/character/89331",
+            "favourites": 297,
+            "anilist_favourites": 297,
+            "bangumi_collects": 465,
+            "bangumi_comments": 162,
+            "bangumi_character_id": 22881,
+            "bangumi_url": "https://bgm.tv/character/22881",
+            "combined_favourites": 762,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "lazy",
+              "mischievous",
+              "moody",
+              "passionate",
+              "spontaneous",
+              "strange",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.76355894,
+            "row_weight": 2.76355894,
+            "unweighted_row_norm": 6.53843079,
+            "x_raw_score": 6.4539054279,
+            "x_score": 3.653340648,
+            "amplitude": 3.653340648,
+            "x_direct": true
+          },
+          {
+            "character_id": 6169,
+            "name": "Yukiho Hagiwara",
+            "anime": "The Idol Master",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+            "site_url": "https://anilist.co/character/6169",
+            "favourites": 145,
+            "anilist_favourites": 145,
+            "bangumi_collects": 202,
+            "bangumi_comments": 61,
+            "bangumi_character_id": 7191,
+            "bangumi_url": "https://bgm.tv/character/7191",
+            "combined_favourites": 347,
+            "role_edge_count": 3,
+            "descriptors": [
+              "shy",
+              "strange"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.61767119,
+            "row_weight": 1.51131317,
+            "unweighted_row_norm": 1.80408559,
+            "x_raw_score": 1.6042030652,
+            "x_score": -1.1963617147,
+            "amplitude": -1.1963617147,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 2.8005647799
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "moody / blunt / harsh / +9",
+          "support": 3,
+          "variance": 3.7976840516,
+          "seed_descriptor": "moody",
+          "components": [
+            {
+              "descriptor": "moody",
+              "weight": 0.1553096,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "blunt",
+              "weight": 0.09338416,
+              "similarity_to_seed": 0.65204858,
+              "support": 2
+            },
+            {
+              "descriptor": "harsh",
+              "weight": 0.0892951,
+              "similarity_to_seed": 0.75825391,
+              "support": 0
+            },
+            {
+              "descriptor": "temperamental",
+              "weight": 0.07673447,
+              "similarity_to_seed": 0.70290413,
+              "support": 0
+            },
+            {
+              "descriptor": "strange",
+              "weight": 0.07529321,
+              "similarity_to_seed": 0.5854924,
+              "support": 2
+            },
+            {
+              "descriptor": "spirited",
+              "weight": 0.07527716,
+              "similarity_to_seed": 0.69619751,
+              "support": 0
+            },
+            {
+              "descriptor": "mild",
+              "weight": 0.07486732,
+              "similarity_to_seed": 0.69429972,
+              "support": 0
+            },
+            {
+              "descriptor": "gloomy",
+              "weight": 0.07419579,
+              "similarity_to_seed": 0.69117892,
+              "support": 0
+            },
+            {
+              "descriptor": "graceful",
+              "weight": 0.07404028,
+              "similarity_to_seed": 0.69045421,
+              "support": 0
+            },
+            {
+              "descriptor": "hostile",
+              "weight": 0.07081434,
+              "similarity_to_seed": 0.67524511,
+              "support": 0
+            },
+            {
+              "descriptor": "short-tempered",
+              "weight": 0.07068373,
+              "similarity_to_seed": 0.67462213,
+              "support": 0
+            },
+            {
+              "descriptor": "level-headed",
+              "weight": 0.07010483,
+              "similarity_to_seed": 0.67185386,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 3.7976840516,
+          "minimum_y_projection_variance": 0.9494210129,
+          "best_rejected_correlation": 0.9980803197,
+          "best_rejected_lane_cosine": 0.8556529178,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9980803197,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.3797684052,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.9494210129,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.8988420258,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "punctual / habitual / courteous / +7",
+            "variance": 3.4879730164,
+            "correlation": 0.9998641504,
+            "abs_correlation": 0.9998641504,
+            "lane_cosine": 0.8611981511,
+            "orthogonality_score": 0.2583377446,
+            "objective": 0.9010750822,
+            "components": [
+              {
+                "descriptor": "punctual",
+                "weight": 0.18523347,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "habitual",
+                "weight": 0.10103532,
+                "similarity_to_seed": 0.73854489,
+                "support": 0
+              },
+              {
+                "descriptor": "courteous",
+                "weight": 0.09230458,
+                "similarity_to_seed": 0.70591414,
+                "support": 0
+              },
+              {
+                "descriptor": "teasing",
+                "weight": 0.09125695,
+                "similarity_to_seed": 0.7018968,
+                "support": 0
+              },
+              {
+                "descriptor": "forceful",
+                "weight": 0.08998454,
+                "similarity_to_seed": 0.69698629,
+                "support": 0
+              },
+              {
+                "descriptor": "formal",
+                "weight": 0.08936271,
+                "similarity_to_seed": 0.69457384,
+                "support": 0
+              },
+              {
+                "descriptor": "spontaneous",
+                "weight": 0.08837026,
+                "similarity_to_seed": 0.69070619,
+                "support": 1
+              },
+              {
+                "descriptor": "accommodating",
+                "weight": 0.08789746,
+                "similarity_to_seed": 0.68885597,
+                "support": 0
+              },
+              {
+                "descriptor": "polite",
+                "weight": 0.08777373,
+                "similarity_to_seed": 0.68837097,
+                "support": 0
+              },
+              {
+                "descriptor": "uptight",
+                "weight": 0.08678097,
+                "similarity_to_seed": 0.68446704,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 88205,
+            "name": "Isuke Inukai",
+            "anime": "Riddle Story of Devil",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
+            "site_url": "https://anilist.co/character/88205",
+            "favourites": 1384,
+            "anilist_favourites": 1384,
+            "bangumi_collects": 33,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 20922,
+            "bangumi_url": "https://bgm.tv/character/20922",
+            "combined_favourites": 1417,
+            "role_edge_count": 1,
+            "descriptors": [
+              "affectionate",
+              "aggressive",
+              "blunt",
+              "sadistic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.87350008,
+            "row_weight": 2.87350008,
+            "unweighted_row_norm": 3.40334628,
+            "x_raw_score": 3.1342612902,
+            "x_score": 0.4400755659,
+            "amplitude": 0.4400755659,
+            "x_direct": true
+          },
+          {
+            "character_id": 40136,
+            "name": "Misaki Shokuhou",
+            "anime": "A Certain Scientific Railgun S",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
+            "site_url": "https://anilist.co/character/40136",
+            "favourites": 1192,
+            "anilist_favourites": 1192,
+            "bangumi_collects": 578,
+            "bangumi_comments": 75,
+            "bangumi_character_id": 17949,
+            "bangumi_url": "https://bgm.tv/character/17949",
+            "combined_favourites": 1770,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cunning"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.9119237,
+            "row_weight": 2.9119237,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7421370299,
+            "x_score": -1.9520486943,
+            "amplitude": -1.9520486943,
+            "x_direct": false
+          },
+          {
+            "character_id": 51335,
+            "name": "Asia Argento",
+            "anime": "High School DxD",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
+            "site_url": "https://anilist.co/character/51335",
+            "favourites": 1093,
+            "anilist_favourites": 1093,
+            "bangumi_collects": 130,
+            "bangumi_comments": 27,
+            "bangumi_character_id": 14861,
+            "bangumi_url": "https://bgm.tv/character/14861",
+            "combined_favourites": 1223,
+            "role_edge_count": 1,
+            "descriptors": [
+              "daring",
+              "jealous",
+              "kind",
+              "kind-hearted",
+              "naive"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.84778501,
+            "row_weight": 2.84778501,
+            "unweighted_row_norm": 4.22642378,
+            "x_raw_score": 3.787179929,
+            "x_score": 1.0929942047,
+            "amplitude": 1.0929942047,
+            "x_direct": false
+          },
+          {
+            "character_id": 67213,
+            "name": "Kumin Tsuyuri",
+            "anime": "Love, Chunibyo & Other Delusions",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
+            "site_url": "https://anilist.co/character/67213",
+            "favourites": 902,
+            "anilist_favourites": 902,
+            "bangumi_collects": 175,
+            "bangumi_comments": 18,
+            "bangumi_character_id": 17368,
+            "bangumi_url": "https://bgm.tv/character/17368",
+            "combined_favourites": 1077,
+            "role_edge_count": 1,
+            "descriptors": [
+              "adventurous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.82539603,
+            "row_weight": 2.82539603,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7414097457,
+            "x_score": -1.9527759785,
+            "amplitude": -1.9527759785,
+            "x_direct": false
+          },
+          {
+            "character_id": 89331,
+            "name": "Misaki Tobisawa",
+            "anime": "AOKANA: Four Rhythm Across the Blue",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+            "site_url": "https://anilist.co/character/89331",
+            "favourites": 297,
+            "anilist_favourites": 297,
+            "bangumi_collects": 465,
+            "bangumi_comments": 162,
+            "bangumi_character_id": 22881,
+            "bangumi_url": "https://bgm.tv/character/22881",
+            "combined_favourites": 762,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "lazy",
+              "mischievous",
+              "moody",
+              "passionate",
+              "spontaneous",
+              "strange",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.76355894,
+            "row_weight": 2.76355894,
+            "unweighted_row_norm": 6.53843079,
+            "x_raw_score": 6.2211486809,
+            "x_score": 3.5269629567,
+            "amplitude": 3.5269629567,
+            "x_direct": true
+          },
+          {
+            "character_id": 6169,
+            "name": "Yukiho Hagiwara",
+            "anime": "The Idol Master",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+            "site_url": "https://anilist.co/character/6169",
+            "favourites": 145,
+            "anilist_favourites": 145,
+            "bangumi_collects": 202,
+            "bangumi_comments": 61,
+            "bangumi_character_id": 7191,
+            "bangumi_url": "https://bgm.tv/character/7191",
+            "combined_favourites": 347,
+            "role_edge_count": 3,
+            "descriptors": [
+              "shy",
+              "strange"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.61767119,
+            "row_weight": 1.51131317,
+            "unweighted_row_norm": 1.80408559,
+            "x_raw_score": 1.5389776697,
+            "x_score": -1.1552080546,
+            "amplitude": -1.1552080546,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 2.6941857242
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "spontaneous / strange / blunt / +9",
+        "support": 5,
+        "variance": 4.0309397685,
+        "seed_descriptor": "spontaneous",
+        "components": [
+          {
+            "descriptor": "spontaneous",
+            "weight": 0.16379735,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "strange",
+            "weight": 0.11075701,
+            "similarity_to_seed": 0.69147212,
+            "support": 2
+          },
+          {
+            "descriptor": "blunt",
+            "weight": 0.09071191,
+            "similarity_to_seed": 0.62577935,
+            "support": 2
+          },
+          {
+            "descriptor": "mischievous",
+            "weight": 0.08320665,
+            "similarity_to_seed": 0.7127309,
+            "support": 1
+          },
+          {
+            "descriptor": "naive",
+            "weight": 0.07674355,
+            "similarity_to_seed": 0.68449063,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.07034155,
+            "similarity_to_seed": 0.65531865,
+            "support": 1
+          },
+          {
+            "descriptor": "adventurous",
+            "weight": 0.06965956,
+            "similarity_to_seed": 0.65213415,
+            "support": 1
+          },
+          {
+            "descriptor": "aggressive",
+            "weight": 0.06822687,
+            "similarity_to_seed": 0.64539306,
+            "support": 1
+          },
+          {
+            "descriptor": "lazy",
+            "weight": 0.06801639,
+            "similarity_to_seed": 0.64439676,
+            "support": 1
+          },
+          {
+            "descriptor": "passionate",
+            "weight": 0.0666294,
+            "similarity_to_seed": 0.63779268,
+            "support": 1
+          },
+          {
+            "descriptor": "stubborn",
+            "weight": 0.06613684,
+            "similarity_to_seed": 0.63543084,
+            "support": 1
+          },
+          {
+            "descriptor": "daring",
+            "weight": 0.06577292,
+            "similarity_to_seed": 0.6336802,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 4.0309397685,
+        "minimum_y_projection_variance": 1.0077349421,
+        "best_rejected_correlation": 0.9940009071,
+        "best_rejected_lane_cosine": 0.8497477496,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": 0.9940009071,
+        "candidate_count": 19,
+        "x_component_count": 12,
+        "y_candidates_after_component_exclusion": 18,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.4030939769,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 1.0077349421,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 2.0154698843,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": {
+          "descriptor": "kind-hearted / affectionate / sadistic",
+          "variance": 3.2342149398,
+          "correlation": 0.9940009071,
+          "abs_correlation": 0.9940009071,
+          "lane_cosine": 0.8497477496,
+          "orthogonality_score": 0.2779287621,
+          "objective": 0.8988813546,
+          "components": [
+            {
+              "descriptor": "kind-hearted",
+              "weight": 0.40864523,
+              "similarity_to_seed": 0.78148205,
+              "support": 1
+            },
+            {
+              "descriptor": "affectionate",
+              "weight": 0.32344724,
+              "similarity_to_seed": 0.69526041,
+              "support": 1
+            },
+            {
+              "descriptor": "sadistic",
+              "weight": 0.26790753,
+              "similarity_to_seed": 0.63275887,
+              "support": 1
+            }
+          ]
+        },
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 88205,
+          "name": "Isuke Inukai",
+          "anime": "Riddle Story of Devil",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
+          "site_url": "https://anilist.co/character/88205",
+          "favourites": 1384,
+          "anilist_favourites": 1384,
+          "bangumi_collects": 33,
+          "bangumi_comments": 1,
+          "bangumi_character_id": 20922,
+          "bangumi_url": "https://bgm.tv/character/20922",
+          "combined_favourites": 1417,
+          "role_edge_count": 1,
+          "descriptors": [
+            "affectionate",
+            "aggressive",
+            "blunt",
+            "sadistic"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.87350008,
+          "row_weight": 2.87350008,
+          "unweighted_row_norm": 3.40334628,
+          "x_raw_score": 3.1472645569,
+          "x_score": 0.346699777,
+          "amplitude": 0.346699777,
+          "x_direct": true
+        },
+        {
+          "character_id": 40136,
+          "name": "Misaki Shokuhou",
+          "anime": "A Certain Scientific Railgun S",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
+          "site_url": "https://anilist.co/character/40136",
+          "favourites": 1192,
+          "anilist_favourites": 1192,
+          "bangumi_collects": 578,
+          "bangumi_comments": 75,
+          "bangumi_character_id": 17949,
+          "bangumi_url": "https://bgm.tv/character/17949",
+          "combined_favourites": 1770,
+          "role_edge_count": 1,
+          "descriptors": [
+            "cunning"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.9119237,
+          "row_weight": 2.9119237,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7970787901,
+          "x_score": -2.0034859898,
+          "amplitude": -2.0034859898,
+          "x_direct": false
+        },
+        {
+          "character_id": 51335,
+          "name": "Asia Argento",
+          "anime": "High School DxD",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
+          "site_url": "https://anilist.co/character/51335",
+          "favourites": 1093,
+          "anilist_favourites": 1093,
+          "bangumi_collects": 130,
+          "bangumi_comments": 27,
+          "bangumi_character_id": 14861,
+          "bangumi_url": "https://bgm.tv/character/14861",
+          "combined_favourites": 1223,
+          "role_edge_count": 1,
+          "descriptors": [
+            "daring",
+            "jealous",
+            "kind",
+            "kind-hearted",
+            "naive"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.84778501,
+          "row_weight": 2.84778501,
+          "unweighted_row_norm": 4.22642378,
+          "x_raw_score": 3.9741819143,
+          "x_score": 1.1736171344,
+          "amplitude": 1.1736171344,
+          "x_direct": true
+        },
+        {
+          "character_id": 67213,
+          "name": "Kumin Tsuyuri",
+          "anime": "Love, Chunibyo & Other Delusions",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
+          "site_url": "https://anilist.co/character/67213",
+          "favourites": 902,
+          "anilist_favourites": 902,
+          "bangumi_collects": 175,
+          "bangumi_comments": 18,
+          "bangumi_character_id": 17368,
+          "bangumi_url": "https://bgm.tv/character/17368",
+          "combined_favourites": 1077,
+          "role_edge_count": 1,
+          "descriptors": [
+            "adventurous"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.82539603,
+          "row_weight": 2.82539603,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.8267549249,
+          "x_score": -1.973809855,
+          "amplitude": -1.973809855,
+          "x_direct": true
+        },
+        {
+          "character_id": 89331,
+          "name": "Misaki Tobisawa",
+          "anime": "AOKANA: Four Rhythm Across the Blue",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+          "site_url": "https://anilist.co/character/89331",
+          "favourites": 297,
+          "anilist_favourites": 297,
+          "bangumi_collects": 465,
+          "bangumi_comments": 162,
+          "bangumi_character_id": 22881,
+          "bangumi_url": "https://bgm.tv/character/22881",
+          "combined_favourites": 762,
+          "role_edge_count": 1,
+          "descriptors": [
+            "blunt",
+            "lazy",
+            "mischievous",
+            "moody",
+            "passionate",
+            "spontaneous",
+            "strange",
+            "stubborn"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.76355894,
+          "row_weight": 2.76355894,
+          "unweighted_row_norm": 6.53843079,
+          "x_raw_score": 6.4539054279,
+          "x_score": 3.653340648,
+          "amplitude": 3.653340648,
+          "x_direct": true
+        },
+        {
+          "character_id": 6169,
+          "name": "Yukiho Hagiwara",
+          "anime": "The Idol Master",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+          "site_url": "https://anilist.co/character/6169",
+          "favourites": 145,
+          "anilist_favourites": 145,
+          "bangumi_collects": 202,
+          "bangumi_comments": 61,
+          "bangumi_character_id": 7191,
+          "bangumi_url": "https://bgm.tv/character/7191",
+          "combined_favourites": 347,
+          "role_edge_count": 3,
+          "descriptors": [
+            "shy",
+            "strange"
+          ],
+          "shared_role_weight": 0.57735027,
+          "popularity_row_weight": 2.61767119,
+          "row_weight": 1.51131317,
+          "unweighted_row_norm": 1.80408559,
+          "x_raw_score": 1.6042030652,
+          "x_score": -1.1963617147,
+          "amplitude": -1.1963617147,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 2.8005647799
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.7274647377,
+      "mass_percent": 6.980371,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 41.88337,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "cunning",
+            "amplitude": 0.4188337,
+            "abs_amplitude": 0.4188337,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "cunning",
+            "fit_percent": 41.88337,
+            "residual_gain_percent": 17.542167
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 40136,
+            "name": "Misaki Shokuhou",
+            "anime": "A Certain Scientific Railgun S",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
+            "site_url": "https://anilist.co/character/40136",
+            "favourites": 1192,
+            "anilist_favourites": 1192,
+            "bangumi_collects": 578,
+            "bangumi_comments": 75,
+            "bangumi_character_id": 17949,
+            "bangumi_url": "https://bgm.tv/character/17949",
+            "combined_favourites": 1770,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cunning"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.9119237,
+            "row_weight": 2.9119237,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.7060125459,
+            "abs_amplitude": 0.7060125459,
+            "percent": 49.845372
+          },
+          {
+            "character_id": 88205,
+            "name": "Isuke Inukai",
+            "anime": "Riddle Story of Devil",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
+            "site_url": "https://anilist.co/character/88205",
+            "favourites": 1384,
+            "anilist_favourites": 1384,
+            "bangumi_collects": 33,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 20922,
+            "bangumi_url": "https://bgm.tv/character/20922",
+            "combined_favourites": 1417,
+            "role_edge_count": 1,
+            "descriptors": [
+              "affectionate",
+              "aggressive",
+              "blunt",
+              "sadistic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.87350008,
+            "row_weight": 2.87350008,
+            "unweighted_row_norm": 3.40334628,
+            "amplitude": 0.035938754,
+            "abs_amplitude": 0.035938754,
+            "percent": 0.129159
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 43.134287,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "adventurous",
+            "amplitude": 0.4313428699,
+            "abs_amplitude": 0.4313428699,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "adventurous",
+            "fit_percent": 43.134287,
+            "residual_gain_percent": 18.605667
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 67213,
+            "name": "Kumin Tsuyuri",
+            "anime": "Love, Chunibyo & Other Delusions",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
+            "site_url": "https://anilist.co/character/67213",
+            "favourites": 902,
+            "anilist_favourites": 902,
+            "bangumi_collects": 175,
+            "bangumi_comments": 18,
+            "bangumi_character_id": 17368,
+            "bangumi_url": "https://bgm.tv/character/17368",
+            "combined_favourites": 1077,
+            "role_edge_count": 1,
+            "descriptors": [
+              "adventurous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.82539603,
+            "row_weight": 2.82539603,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.705493089,
+            "abs_amplitude": 0.705493089,
+            "percent": 49.77205
+          },
+          {
+            "character_id": 51335,
+            "name": "Asia Argento",
+            "anime": "High School DxD",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
+            "site_url": "https://anilist.co/character/51335",
+            "favourites": 1093,
+            "anilist_favourites": 1093,
+            "bangumi_collects": 130,
+            "bangumi_comments": 27,
+            "bangumi_character_id": 14861,
+            "bangumi_url": "https://bgm.tv/character/14861",
+            "combined_favourites": 1223,
+            "role_edge_count": 1,
+            "descriptors": [
+              "daring",
+              "jealous",
+              "kind",
+              "kind-hearted",
+              "naive"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.84778501,
+            "row_weight": 2.84778501,
+            "unweighted_row_norm": 4.22642378,
+            "amplitude": -0.0486060643,
+            "abs_amplitude": 0.0486060643,
+            "percent": 0.236255
+          },
+          {
+            "character_id": 89331,
+            "name": "Misaki Tobisawa",
+            "anime": "AOKANA: Four Rhythm Across the Blue",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+            "site_url": "https://anilist.co/character/89331",
+            "favourites": 297,
+            "anilist_favourites": 297,
+            "bangumi_collects": 465,
+            "bangumi_comments": 162,
+            "bangumi_character_id": 22881,
+            "bangumi_url": "https://bgm.tv/character/22881",
+            "combined_favourites": 762,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "lazy",
+              "mischievous",
+              "moody",
+              "passionate",
+              "spontaneous",
+              "strange",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.76355894,
+            "row_weight": 2.76355894,
+            "unweighted_row_norm": 6.53843079,
+            "amplitude": -0.0113230671,
+            "abs_amplitude": 0.0113230671,
+            "percent": 0.012821
+          },
+          {
+            "character_id": 6169,
+            "name": "Yukiho Hagiwara",
+            "anime": "The Idol Master",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+            "site_url": "https://anilist.co/character/6169",
+            "favourites": 145,
+            "anilist_favourites": 145,
+            "bangumi_collects": 202,
+            "bangumi_comments": 61,
+            "bangumi_character_id": 7191,
+            "bangumi_url": "https://bgm.tv/character/7191",
+            "combined_favourites": 347,
+            "role_edge_count": 3,
+            "descriptors": [
+              "shy",
+              "strange"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.61767119,
+            "row_weight": 1.51131317,
+            "unweighted_row_norm": 1.80408559,
+            "amplitude": -0.0065902125,
+            "abs_amplitude": 0.0065902125,
+            "percent": 0.004343
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "kind": "variation_axis",
+      "singular_value": 1.5137354104,
+      "mass_percent": 5.359942,
+      "relative_to_sv2_percent": 87.627572,
+      "positive_pole": {
+        "descriptor_fit_percent": 33.09643,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "adventurous",
+            "amplitude": 0.1944208382,
+            "abs_amplitude": 0.1944208382,
+            "percent": 53.188107
+          },
+          {
+            "rank": 2,
+            "descriptor": "cunning",
+            "amplitude": 0.1711135823,
+            "abs_amplitude": 0.1711135823,
+            "percent": 46.811893
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "adventurous",
+            "fit_percent": 30.361193,
+            "residual_gain_percent": 9.21802
+          },
+          {
+            "step": 2,
+            "descriptor": "cunning",
+            "fit_percent": 33.09643,
+            "residual_gain_percent": 1.911961
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 40136,
+            "name": "Misaki Shokuhou",
+            "anime": "A Certain Scientific Railgun S",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b40136-m9mT3WAabqXa.png",
+            "site_url": "https://anilist.co/character/40136",
+            "favourites": 1192,
+            "anilist_favourites": 1192,
+            "bangumi_collects": 578,
+            "bangumi_comments": 75,
+            "bangumi_character_id": 17949,
+            "bangumi_url": "https://bgm.tv/character/17949",
+            "combined_favourites": 1770,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cunning"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.9119237,
+            "row_weight": 2.9119237,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.5678233897,
+            "abs_amplitude": 0.5678233897,
+            "percent": 32.24234
+          },
+          {
+            "character_id": 67213,
+            "name": "Kumin Tsuyuri",
+            "anime": "Love, Chunibyo & Other Delusions",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b67213-ullAaqYtUG1N.png",
+            "site_url": "https://anilist.co/character/67213",
+            "favourites": 902,
+            "anilist_favourites": 902,
+            "bangumi_collects": 175,
+            "bangumi_comments": 18,
+            "bangumi_character_id": 17368,
+            "bangumi_url": "https://bgm.tv/character/17368",
+            "combined_favourites": 1077,
+            "role_edge_count": 1,
+            "descriptors": [
+              "adventurous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.82539603,
+            "row_weight": 2.82539603,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.5666934417,
+            "abs_amplitude": 0.5666934417,
+            "percent": 32.114146
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 33.334658,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "sadistic",
+            "amplitude": 0.1932276246,
+            "abs_amplitude": 0.1932276246,
+            "percent": 51.483549
+          },
+          {
+            "rank": 2,
+            "descriptor": "emotional",
+            "amplitude": 0.1065774976,
+            "abs_amplitude": 0.1065774976,
+            "percent": 28.396498
+          },
+          {
+            "rank": 3,
+            "descriptor": "burdened",
+            "amplitude": 0.0755140369,
+            "abs_amplitude": 0.0755140369,
+            "percent": 20.119953
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "sadistic",
+            "fit_percent": 31.298797,
+            "residual_gain_percent": 9.796147
+          },
+          {
+            "step": 2,
+            "descriptor": "emotional",
+            "fit_percent": 32.948354,
+            "residual_gain_percent": 1.174887
+          },
+          {
+            "step": 3,
+            "descriptor": "burdened",
+            "fit_percent": 33.334658,
+            "residual_gain_percent": 0.287236
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 88205,
+            "name": "Isuke Inukai",
+            "anime": "Riddle Story of Devil",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88205-qBAjyCor8PZJ.png",
+            "site_url": "https://anilist.co/character/88205",
+            "favourites": 1384,
+            "anilist_favourites": 1384,
+            "bangumi_collects": 33,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 20922,
+            "bangumi_url": "https://bgm.tv/character/20922",
+            "combined_favourites": 1417,
+            "role_edge_count": 1,
+            "descriptors": [
+              "affectionate",
+              "aggressive",
+              "blunt",
+              "sadistic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.87350008,
+            "row_weight": 2.87350008,
+            "unweighted_row_norm": 3.40334628,
+            "amplitude": -0.4561491744,
+            "abs_amplitude": 0.4561491744,
+            "percent": 20.807207
+          },
+          {
+            "character_id": 89331,
+            "name": "Misaki Tobisawa",
+            "anime": "AOKANA: Four Rhythm Across the Blue",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89331-4Iyf1OPvPtXk.png",
+            "site_url": "https://anilist.co/character/89331",
+            "favourites": 297,
+            "anilist_favourites": 297,
+            "bangumi_collects": 465,
+            "bangumi_comments": 162,
+            "bangumi_character_id": 22881,
+            "bangumi_url": "https://bgm.tv/character/22881",
+            "combined_favourites": 762,
+            "role_edge_count": 1,
+            "descriptors": [
+              "blunt",
+              "lazy",
+              "mischievous",
+              "moody",
+              "passionate",
+              "spontaneous",
+              "strange",
+              "stubborn"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.76355894,
+            "row_weight": 2.76355894,
+            "unweighted_row_norm": 6.53843079,
+            "amplitude": -0.2619798599,
+            "abs_amplitude": 0.2619798599,
+            "percent": 6.863345
+          },
+          {
+            "character_id": 51335,
+            "name": "Asia Argento",
+            "anime": "High School DxD",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b51335-qc4XaXfPODjw.png",
+            "site_url": "https://anilist.co/character/51335",
+            "favourites": 1093,
+            "anilist_favourites": 1093,
+            "bangumi_collects": 130,
+            "bangumi_comments": 27,
+            "bangumi_character_id": 14861,
+            "bangumi_url": "https://bgm.tv/character/14861",
+            "combined_favourites": 1223,
+            "role_edge_count": 1,
+            "descriptors": [
+              "daring",
+              "jealous",
+              "kind",
+              "kind-hearted",
+              "naive"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.84778501,
+            "row_weight": 2.84778501,
+            "unweighted_row_norm": 4.22642378,
+            "amplitude": -0.2319378875,
+            "abs_amplitude": 0.2319378875,
+            "percent": 5.379518
+          },
+          {
+            "character_id": 6169,
+            "name": "Yukiho Hagiwara",
+            "anime": "The Idol Master",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b6169-MLq38jMxnEYl.png",
+            "site_url": "https://anilist.co/character/6169",
+            "favourites": 145,
+            "anilist_favourites": 145,
+            "bangumi_collects": 202,
+            "bangumi_comments": 61,
+            "bangumi_character_id": 7191,
+            "bangumi_url": "https://bgm.tv/character/7191",
+            "combined_favourites": 347,
+            "role_edge_count": 3,
+            "descriptors": [
+              "shy",
+              "strange"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.61767119,
+            "row_weight": 1.51131317,
+            "unweighted_row_norm": 1.80408559,
+            "amplitude": -0.1610417377,
+            "abs_amplitude": 0.1610417377,
+            "percent": 2.593444
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 5.9670346705,
+      "mass_percent": 83.287005,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.7274647377,
+      "mass_percent": 6.980371,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.5137354104,
+      "mass_percent": 5.359942,
+      "relative_to_sv2_percent": 87.627572
+    },
+    {
+      "rank": 4,
+      "singular_value": 0.9159826182,
+      "mass_percent": 1.962613,
+      "relative_to_sv2_percent": 53.024678
+    },
+    {
+      "rank": 5,
+      "singular_value": 0.8276714108,
+      "mass_percent": 1.602419,
+      "relative_to_sv2_percent": 47.912492
+    },
+    {
+      "rank": 6,
+      "singular_value": 0.5876001114,
+      "mass_percent": 0.807651,
+      "relative_to_sv2_percent": 34.015173
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

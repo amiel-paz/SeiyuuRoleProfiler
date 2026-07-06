@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SeiyuuRoleProfiler Clusters</title>
+  <style>
+    :root { color-scheme: light; --ink:#101a16; --muted:#60716b; --line:#dbe6e1; --soft:#edf5f2; --accent:#a83d57; --bg:#fbfcfb; --panel:#ffffff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    button, input { font:inherit; }
+    .shell { max-width:1180px; margin:0 auto; padding:32px 22px 72px; }
+    .home { min-height:78vh; display:grid; place-items:center; }
+    .lookup { width:min(740px, 100%); position:relative; }
+    h1 { margin:0 0 22px; font-size:clamp(42px, 7vw, 84px); line-height:.94; letter-spacing:0; }
+    .searchRow { display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; }
+    input { width:100%; border:1px solid var(--line); border-radius:8px; padding:18px 20px; font-size:28px; font-weight:800; color:var(--ink); background:white; outline:none; }
+    input:focus { border-color:#aebfb7; box-shadow:0 0 0 4px rgba(64,96,84,.1); }
+    .suggestions { position:absolute; left:0; right:0; top:calc(100% + 8px); background:white; border:1px solid var(--line); border-radius:8px; overflow:hidden; z-index:20; box-shadow:0 18px 50px rgba(24,34,30,.12); }
+    .suggestion { display:grid; grid-template-columns:42px 1fr auto; gap:12px; align-items:center; padding:10px 12px; border-bottom:1px solid #edf2ef; cursor:pointer; }
+    .suggestion:hover { background:var(--soft); }
+    .suggestion:last-child { border-bottom:0; }
+    .suggestion img { width:42px; height:42px; object-fit:cover; border-radius:6px; background:var(--soft); }
+    .native { color:var(--muted); font-weight:700; }
+    .samples { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
+    .sample { border:1px solid var(--line); border-radius:999px; background:white; color:var(--muted); padding:7px 12px; cursor:pointer; font-size:14px; }
+    .topbar { display:flex; justify-content:space-between; gap:16px; align-items:center; margin-bottom:26px; }
+    .back { border:1px solid var(--line); background:white; color:var(--muted); border-radius:8px; padding:10px 14px; cursor:pointer; }
+    .kControl { display:flex; gap:6px; padding:5px; border:1px solid var(--line); border-radius:999px; background:white; }
+    .kControl button { width:42px; height:34px; border:0; border-radius:999px; background:transparent; color:var(--muted); cursor:pointer; font-weight:900; }
+    .kControl button.active { background:var(--accent); color:white; }
+    .profileHead { display:grid; grid-template-columns:130px 1fr; gap:26px; align-items:center; margin:8px 0 28px; }
+    .profileHead img { width:130px; height:130px; object-fit:cover; border-radius:8px; border:1px solid var(--line); background:var(--soft); }
+    h2 { margin:0 0 14px; font-size:clamp(42px, 6vw, 72px); line-height:.95; letter-spacing:0; }
+    .chips { display:flex; flex-wrap:wrap; gap:10px; }
+    .chip { background:var(--soft); border-radius:999px; color:var(--muted); padding:8px 13px; font-size:18px; }
+    .state { border:1px solid var(--line); background:white; border-radius:8px; padding:18px; color:var(--muted); font-size:20px; }
+    .metaLine { color:var(--muted); margin:0 0 20px; font-size:16px; }
+    .clusters { display:grid; gap:18px; }
+    .cluster { border:1px solid var(--line); background:white; border-radius:8px; overflow:hidden; }
+    .clusterHead { display:grid; grid-template-columns:1fr auto; gap:16px; align-items:start; padding:18px 20px; background:var(--soft); }
+    .clusterHead h3 { margin:0 0 12px; color:#174f49; font-size:30px; line-height:1.05; }
+    .clusterSize { color:var(--accent); font-size:28px; font-weight:900; white-space:nowrap; }
+    .descriptorPills { display:flex; flex-wrap:wrap; gap:8px; }
+    .descriptor { display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); background:white; border-radius:999px; padding:7px 11px; font-weight:850; }
+    .descriptor small { color:var(--muted); font-weight:800; }
+    .chars { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:16px; padding:18px 20px 22px; }
+    .char { min-width:0; position:relative; display:block; }
+    .char img, .fallback { width:100%; aspect-ratio:1; object-fit:cover; border-radius:8px; border:1px solid var(--line); background:var(--soft); display:grid; place-items:center; color:var(--muted); font-size:36px; font-weight:900; }
+    .charName { margin-top:8px; font-size:20px; font-weight:900; line-height:1.08; overflow-wrap:anywhere; }
+    .anime { color:var(--muted); margin-top:4px; font-size:14px; line-height:1.2; }
+    .distance { margin-top:6px; color:var(--accent); font-weight:900; font-size:15px; }
+    .char:after { content:attr(data-tooltip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); width:max-content; max-width:280px; background:#15201b; color:white; padding:8px 10px; border-radius:6px; opacity:0; pointer-events:none; transition:opacity .12s ease; font-size:13px; z-index:10; white-space:pre-line; }
+    .char:hover:after { opacity:1; }
+    @media (max-width:680px) {
+      .searchRow { grid-template-columns:1fr; }
+      input { font-size:22px; }
+      .profileHead { grid-template-columns:90px 1fr; gap:16px; }
+      .profileHead img { width:90px; height:90px; }
+      .clusterHead { grid-template-columns:1fr; }
+      .clusterSize { font-size:22px; }
+      .chars { grid-template-columns:repeat(auto-fill, minmax(112px, 1fr)); }
+      .charName { font-size:16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell" id="app"></main>
+  <script>
+    const app = document.getElementById('app');
+    let indexData = null;
+    let activeProfile = null;
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const norm = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const intFmt = new Intl.NumberFormat('en-US');
+    const params = () => new URLSearchParams(location.search);
+    const currentK = () => Math.min(4, Math.max(1, Number(params().get('k') || 2)));
+    const findProfile = query => {
+      const key = norm(query);
+      if (!key) return null;
+      return indexData.profiles.find(profile => profile.aliases.includes(key))
+        || indexData.profiles.find(profile => profile.aliases.some(alias => alias.includes(key) || key.includes(alias)));
+    };
+    const updateUrl = (name, k) => {
+      history.pushState(null, '', `?q=${encodeURIComponent(name)}&k=${k}`);
+    };
+    function searchMarkup() {
+      return `<section class="home"><div class="lookup"><h1>SeiyuuRoleProfiler</h1><div class="searchRow"><input id="search" autocomplete="off" placeholder="Seiyuu name" autofocus></div><div id="suggestions" class="suggestions" hidden></div><div class="samples">${indexData.samples.slice(0,18).map(sample => `<button class="sample" data-name="${esc(sample.name)}">${esc(sample.name)}</button>`).join('')}</div></div></section>`;
+    }
+    function wireLookup() {
+      const input = document.getElementById('search');
+      const suggestions = document.getElementById('suggestions');
+      const update = () => {
+        const query = norm(input.value);
+        const rows = query ? indexData.profiles.filter(profile => profile.aliases.some(alias => alias.includes(query))).slice(0, 8) : [];
+        suggestions.hidden = rows.length === 0;
+        suggestions.innerHTML = rows.map(profile => `<div class="suggestion" data-name="${esc(profile.name)}"><img src="${esc(profile.image)}" alt=""><strong>${esc(profile.name)}</strong><span class="native">${esc(profile.native_name)}</span></div>`).join('');
+      };
+      input.addEventListener('input', update);
+      input.addEventListener('keydown', event => {
+        if (event.key === 'Enter') {
+          const profile = findProfile(input.value);
+          if (profile) loadClusterProfile(profile.name, currentK());
+        }
+      });
+      app.addEventListener('click', event => {
+        const target = event.target.closest('[data-name]');
+        if (target) loadClusterProfile(target.dataset.name, currentK());
+      }, { once:false });
+    }
+    function renderHome() {
+      activeProfile = null;
+      app.innerHTML = searchMarkup();
+      wireLookup();
+    }
+    function renderLoading(profile, k) {
+      app.innerHTML = `${topbar(k)}${profileHead(profile)}<section class="state">Clustering ${esc(profile.name)} at K=${k}...</section>`;
+    }
+    function profileHead(profile) {
+      return `<section class="profileHead"><a href="${esc(profile.site_url)}" target="_blank" rel="noreferrer"><img src="${esc(profile.image)}" alt="${esc(profile.name)}"></a><div><h2>${esc(profile.name)} <span class="native">${esc(profile.native_name)}</span></h2><div class="chips"><span class="chip">roles ${intFmt.format(profile.role_count || 0)}</span><span class="chip">characters ${intFmt.format(profile.character_count || 0)}</span><span class="chip">first year ${profile.first_year || 'unknown'}</span></div></div></section>`;
+    }
+    function topbar(k) {
+      return `<div class="topbar"><button class="back" id="backBtn">Search</button><div class="kControl" aria-label="Cluster count">${[1,2,3,4].map(value => `<button class="${value === k ? 'active' : ''}" data-k="${value}">${value}</button>`).join('')}</div></div>`;
+    }
+    function renderError(profile, k, message) {
+      app.innerHTML = `${topbar(k)}${profileHead(profile)}<section class="state">${esc(message)}</section>`;
+      wireProfileControls(profile, k);
+    }
+    function descriptorPills(cluster) {
+      const rows = (cluster.enriched_descriptors || []).slice(0, 12);
+      if (!rows.length) return '<p class="metaLine">No direct descriptors.</p>';
+      return `<div class="descriptorPills">${rows.map(row => `<span class="descriptor">${esc(row.descriptor)}<small>${Number(row.score || 0).toFixed(2)}</small></span>`).join('')}</div>`;
+    }
+    function characterCard(character) {
+      const distance = Number(character.cosine_distance_to_centroid || 0);
+      const favs = Number(character.combined_favourites || 0);
+      const tooltip = `${character.name}\n${character.anime || ''}\ndistance ${distance.toFixed(3)}${favs ? `\n${intFmt.format(favs)} favs/collects` : ''}`;
+      const image = character.image ? `<img src="${esc(character.image)}" alt="${esc(character.name)}">` : `<div class="fallback">${esc((character.name || '?').slice(0, 1))}</div>`;
+      return `<a class="char" href="${esc(character.site_url || '#')}" target="_blank" rel="noreferrer" data-tooltip="${esc(tooltip)}">${image}<div class="charName">${esc(character.name)}</div><div class="anime">${esc(character.anime || '')}</div><div class="distance">distance ${distance.toFixed(3)}</div></a>`;
+    }
+    function renderClusters(profile, k, payload) {
+      const diagnostics = payload.cluster_diagnostics || {};
+      const clusters = [...(payload.clusters || [])].sort((a, b) => b.size - a.size || a.cluster - b.cluster);
+      app.innerHTML = `${topbar(k)}${profileHead(profile)}<p class="metaLine">K=${k} · cluster sizes ${(diagnostics.cluster_sizes || []).join(' / ') || 'unknown'} · characters are sorted closest to centroid first</p><section class="clusters">${clusters.map((cluster, index) => {
+        const characters = [...(cluster.characters || [])].sort((a, b) => Number(a.cosine_distance_to_centroid || 0) - Number(b.cosine_distance_to_centroid || 0));
+        return `<article class="cluster"><header class="clusterHead"><div><h3>Cluster ${index + 1}</h3>${descriptorPills(cluster)}</div><div class="clusterSize">${cluster.size} chars</div></header><div class="chars">${characters.map(characterCard).join('')}</div></article>`;
+      }).join('')}</section>`;
+      wireProfileControls(profile, k);
+    }
+    function wireProfileControls(profile, k) {
+      document.getElementById('backBtn')?.addEventListener('click', () => {
+        history.pushState(null, '', location.pathname);
+        renderHome();
+      });
+      document.querySelectorAll('[data-k]').forEach(button => {
+        button.addEventListener('click', () => loadClusterProfile(profile.name, Number(button.dataset.k)));
+      });
+    }
+    async function loadClusterProfile(name, k) {
+      const profile = findProfile(name);
+      if (!profile) {
+        renderHome();
+        return;
+      }
+      activeProfile = profile;
+      updateUrl(profile.name, k);
+      renderLoading(profile, k);
+      try {
+        const response = await fetch(`/api/semantic-clusters?q=${encodeURIComponent(profile.name)}&k=${k}`, { cache:'no-store' });
+        const payload = await response.json();
+        if (!response.ok) throw new Error(payload.error || 'Clustering failed');
+        renderClusters(profile, k, payload);
+      } catch (error) {
+        renderError(profile, k, error.message || String(error));
+      }
+    }
+    async function init() {
+      const response = await fetch(`profiles.json?v=${Date.now()}`, { cache:'no-store' });
+      indexData = await response.json();
+      const query = params().get('q');
+      if (query) await loadClusterProfile(query, currentK());
+      else renderHome();
+    }
+    window.addEventListener('popstate', () => {
+      const query = params().get('q');
+      if (query) loadClusterProfile(query, currentK());
+      else renderHome();
+    });
+    init().catch(error => {
+      app.innerHTML = `<section class="state">${esc(error.message || String(error))}</section>`;
+    });
+  </script>
+</body>
+</html>

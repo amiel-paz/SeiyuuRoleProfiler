@@ -5,2278 +5,358 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/12524.jpg",
   "site_url": "https://anilist.co/staff/107524",
   "role_count": 6,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2014,
   "aliases": [
     "fuminori komatsu",
     "komatsu fuminori"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/fuminori_komatsu.json",
+  "sv1_mass_percent": 87.063233,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.5796869519,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.5796869519,
-        "mass_percent": 76.128193
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.1844201194,
-        "mass_percent": 17.831824
-      },
-      {
-        "rank": 3,
-        "singular_value": 1.8533195952,
-        "mass_percent": 6.039983
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 265.241008,
-      "normalized_entanglement": 0.690732,
-      "top5_mass_percent": 4.247298,
-      "top10_mass_percent": 7.729391
-    },
-    "character_participation": {
-      "effective_count": 1.55632,
-      "normalized_entanglement": 0.518773,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.119562,
-      "semantic_spread": 1.259921,
-      "axis_concentration_percent": 78.960557,
-      "lane_count": 1.672766,
-      "direction_range": 0.653256,
-      "direction_spread": 0.735287,
-      "direction_axis_concentration_percent": 78.93216,
-      "direction_lane_count": 1.673394
-    },
-    "explained_sv_l2_percent": 76.128193,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.1004488713,
+    "mass_percent": 88.214963,
+    "descriptor_fit_percent": 95.761157,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "fast / quick / fast-paced / quick-acting / +2",
-        "descriptor_index": 2460,
-        "amplitude": 0.0981629523,
-        "abs_amplitude": 0.0981629523,
-        "raw_amplitude": 0.2944888568,
-        "percent": 17.008016,
-        "raw_percent": 19.621788,
-        "coverage_percent": 17.008016,
-        "member_count": 6,
-        "members": [
-          "fast",
-          "quick",
-          "fast-paced",
-          "quick-acting",
-          "fast-footed",
-          "nimble"
-        ],
+        "descriptor": "humorous",
+        "amplitude": 0.487492066,
+        "abs_amplitude": 0.487492066,
+        "percent": 44.608538,
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.2944888569,
-            "similarity": 1.0,
-            "matched_descriptor": "fast"
+            "character_id": 135851,
+            "name": "Takeuchi",
+            "anime": "A Silent Voice",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
+            "site_url": "https://anilist.co/character/135851",
+            "combined_favourites": 174
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "formidable / fearsome / imposing / menacing / +1",
-        "descriptor_index": 2739,
-        "amplitude": 0.0794492318,
-        "abs_amplitude": 0.0794492318,
-        "raw_amplitude": 0.2122123423,
-        "percent": 13.765619,
-        "raw_percent": 14.139705,
-        "coverage_percent": 30.773635,
-        "member_count": 5,
-        "members": [
-          "formidable",
-          "fearsome",
-          "imposing",
-          "menacing",
-          "ominous"
-        ],
-        "support": 2,
-        "effective_support": 1.123157,
-        "support_factor": 0.374386,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.1998583781,
-            "similarity": 1.0,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0123539642,
-            "similarity": 0.886529,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "brash / fierce / provocative / audacious",
-        "descriptor_index": 799,
-        "amplitude": 0.0673155193,
-        "abs_amplitude": 0.0673155193,
-        "raw_amplitude": 0.1103061777,
-        "percent": 11.663295,
-        "raw_percent": 7.349699,
-        "coverage_percent": 42.43693,
-        "member_count": 4,
-        "members": [
-          "brash",
-          "fierce",
-          "provocative",
-          "audacious"
-        ],
-        "support": 2,
-        "effective_support": 1.830782,
-        "support_factor": 0.610261,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0719208425,
-            "similarity": 1.0,
-            "matched_descriptor": "brash"
-          },
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0383853351,
-            "similarity": 0.89077,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "hasty / snappy",
-        "descriptor_index": 3371,
-        "amplitude": 0.022323246,
-        "abs_amplitude": 0.022323246,
-        "raw_amplitude": 0.0669697381,
-        "percent": 3.867794,
-        "raw_percent": 4.462193,
-        "coverage_percent": 46.304724,
-        "member_count": 2,
-        "members": [
-          "hasty",
-          "snappy"
-        ],
+        "descriptor": "avoidant",
+        "amplitude": 0.6053302665,
+        "abs_amplitude": 0.6053302665,
+        "percent": 55.391462,
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0669697381,
-            "similarity": 0.898334,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "fearless / unashamed / plucky / brave / +2",
-        "descriptor_index": 2486,
-        "amplitude": 0.0203977271,
-        "abs_amplitude": 0.0203977271,
-        "raw_amplitude": 0.0324244102,
-        "percent": 3.534173,
-        "raw_percent": 2.160438,
-        "coverage_percent": 49.838897,
-        "member_count": 6,
-        "members": [
-          "fearless",
-          "unashamed",
-          "plucky",
-          "brave",
-          "unafraid",
-          "courageous"
-        ],
-        "support": 2,
-        "effective_support": 1.887257,
-        "support_factor": 0.629086,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.020174732,
-            "similarity": 0.886851,
-            "matched_descriptor": "brash"
-          },
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0122496781,
-            "similarity": 0.869819,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "overconfident / vain / cocky",
-        "descriptor_index": 5414,
-        "amplitude": 0.0201303238,
-        "abs_amplitude": 0.0201303238,
-        "raw_amplitude": 0.0603909713,
-        "percent": 3.487842,
-        "raw_percent": 4.023849,
-        "coverage_percent": 53.326739,
-        "member_count": 3,
-        "members": [
-          "overconfident",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0603909712,
-            "similarity": 1.0,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "threatening / intimidating / belligerent",
-        "descriptor_index": 7825,
-        "amplitude": 0.0183558686,
-        "abs_amplitude": 0.0183558686,
-        "raw_amplitude": 0.0434139728,
-        "percent": 3.180394,
-        "raw_percent": 2.892672,
-        "coverage_percent": 56.507134,
-        "member_count": 3,
-        "members": [
-          "threatening",
-          "intimidating",
-          "belligerent"
-        ],
-        "support": 2,
-        "effective_support": 1.26843,
-        "support_factor": 0.42281,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0381921783,
-            "similarity": 0.897999,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0052217945,
-            "similarity": 0.873082,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "bold / brave-faced",
-        "descriptor_index": 745,
-        "amplitude": 0.0183358436,
-        "abs_amplitude": 0.0183358436,
-        "raw_amplitude": 0.0279773268,
-        "percent": 3.176925,
-        "raw_percent": 1.864129,
-        "coverage_percent": 59.684058,
-        "member_count": 2,
-        "members": [
-          "bold",
-          "brave-faced"
-        ],
-        "support": 2,
-        "effective_support": 1.966147,
-        "support_factor": 0.655382,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0158242221,
-            "similarity": 0.873322,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0121531046,
-            "similarity": 0.882661,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "humorous / comical / funny / amusing / +3",
-        "descriptor_index": 3645,
-        "amplitude": 0.0162763551,
-        "abs_amplitude": 0.0162763551,
-        "raw_amplitude": 0.0488290653,
-        "percent": 2.820092,
-        "raw_percent": 3.25348,
-        "coverage_percent": 62.50415,
-        "member_count": 7,
-        "members": [
-          "humorous",
-          "comical",
-          "funny",
-          "amusing",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 135851,
             "name": "Takeuchi",
-            "native_name": "竹内",
             "anime": "A Silent Voice",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
             "site_url": "https://anilist.co/character/135851",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "SUPPORTING",
-            "favourites": 173,
-            "row_weight": 2.48174441,
-            "projection": 0.0488290652,
-            "similarity": 1.0,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "domineering / oppressive",
-        "descriptor_index": 1920,
-        "amplitude": 0.0130457161,
-        "abs_amplitude": 0.0130457161,
-        "raw_amplitude": 0.0323641272,
-        "percent": 2.260341,
-        "raw_percent": 2.156421,
-        "coverage_percent": 64.764491,
-        "member_count": 2,
-        "members": [
-          "domineering",
-          "oppressive"
-        ],
-        "support": 2,
-        "effective_support": 1.209276,
-        "support_factor": 0.403092,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0292673684,
-            "similarity": 0.889194,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0030967588,
-            "similarity": 0.867163,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "strong / macho",
-        "descriptor_index": 7332,
-        "amplitude": 0.0122092254,
-        "abs_amplitude": 0.0122092254,
-        "raw_amplitude": 0.0215145417,
-        "percent": 2.115408,
-        "raw_percent": 1.433514,
-        "coverage_percent": 66.879899,
-        "member_count": 2,
-        "members": [
-          "strong",
-          "macho"
-        ],
-        "support": 2,
-        "effective_support": 1.702461,
-        "support_factor": 0.567487,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0152543978,
-            "similarity": 0.884825,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0062601439,
-            "similarity": 0.871969,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "troublesome",
-        "descriptor_index": 8001,
-        "amplitude": 0.0106448109,
-        "abs_amplitude": 0.0106448109,
-        "raw_amplitude": 0.0319344328,
-        "percent": 1.844353,
-        "raw_percent": 2.127791,
-        "coverage_percent": 68.724252,
-        "member_count": 1,
-        "members": [
-          "troublesome"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0319344328,
-            "similarity": 1.0,
-            "matched_descriptor": "troublesome"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "jumpy / wild / unstable / unpredictable",
-        "descriptor_index": 4076,
-        "amplitude": 0.0096290324,
-        "abs_amplitude": 0.0096290324,
-        "raw_amplitude": 0.0288870972,
-        "percent": 1.668356,
-        "raw_percent": 1.924747,
-        "coverage_percent": 70.392608,
-        "member_count": 4,
-        "members": [
-          "jumpy",
-          "wild",
-          "unstable",
-          "unpredictable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0288870971,
-            "similarity": 0.865,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "savage",
-        "descriptor_index": 6468,
-        "amplitude": 0.0093032003,
-        "abs_amplitude": 0.0093032003,
-        "raw_amplitude": 0.016485902,
-        "percent": 1.611901,
-        "raw_percent": 1.098455,
-        "coverage_percent": 72.004509,
-        "member_count": 1,
-        "members": [
-          "savage"
-        ],
-        "support": 2,
-        "effective_support": 1.692937,
-        "support_factor": 0.564312,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0117535052,
-            "similarity": 0.877724,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0047323968,
-            "similarity": 0.874698,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "self confident / self-confident / self-assured",
-        "descriptor_index": 6606,
-        "amplitude": 0.0090754226,
-        "abs_amplitude": 0.0090754226,
-        "raw_amplitude": 0.0272262679,
-        "percent": 1.572436,
-        "raw_percent": 1.814086,
-        "coverage_percent": 73.576945,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-confident",
-          "self-assured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0272262679,
-            "similarity": 0.898076,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "unbelieving / disbelieving / doubting / cynical",
-        "descriptor_index": 8065,
-        "amplitude": 0.0085862655,
-        "abs_amplitude": 0.0085862655,
-        "raw_amplitude": 0.0257587964,
-        "percent": 1.487683,
-        "raw_percent": 1.716308,
-        "coverage_percent": 75.064627,
-        "member_count": 4,
-        "members": [
-          "unbelieving",
-          "disbelieving",
-          "doubting",
-          "cynical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 135851,
-            "name": "Takeuchi",
-            "native_name": "竹内",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-            "site_url": "https://anilist.co/character/135851",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "SUPPORTING",
-            "favourites": 173,
-            "row_weight": 2.48174441,
-            "projection": 0.0257587964,
-            "similarity": 1.0,
-            "matched_descriptor": "unbelieving"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "irritating / annoying",
-        "descriptor_index": 4016,
-        "amplitude": 0.0067719067,
-        "abs_amplitude": 0.0067719067,
-        "raw_amplitude": 0.0203157202,
-        "percent": 1.173321,
-        "raw_percent": 1.353636,
-        "coverage_percent": 76.237949,
-        "member_count": 2,
-        "members": [
-          "irritating",
-          "annoying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0203157203,
-            "similarity": 0.892548,
-            "matched_descriptor": "troublesome"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "impetuous / impulsive",
-        "descriptor_index": 3782,
-        "amplitude": 0.0061737238,
-        "abs_amplitude": 0.0061737238,
-        "raw_amplitude": 0.0185211714,
-        "percent": 1.069678,
-        "raw_percent": 1.234065,
-        "coverage_percent": 77.307627,
-        "member_count": 2,
-        "members": [
-          "impetuous",
-          "impulsive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0185211713,
-            "similarity": 0.877436,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "boastful / bragging / show-off",
-        "descriptor_index": 735,
-        "amplitude": 0.0061382064,
-        "abs_amplitude": 0.0061382064,
-        "raw_amplitude": 0.0184146193,
-        "percent": 1.063525,
-        "raw_percent": 1.226966,
-        "coverage_percent": 78.371152,
-        "member_count": 3,
-        "members": [
-          "boastful",
-          "bragging",
-          "show-off"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0184146193,
-            "similarity": 0.894133,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "forgiving / tolerant / grudge-free",
-        "descriptor_index": 2667,
-        "amplitude": 0.0059675828,
-        "abs_amplitude": 0.0059675828,
-        "raw_amplitude": 0.0179027483,
-        "percent": 1.033962,
-        "raw_percent": 1.19286,
-        "coverage_percent": 79.405114,
-        "member_count": 3,
-        "members": [
-          "forgiving",
-          "tolerant",
-          "grudge-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 135851,
-            "name": "Takeuchi",
-            "native_name": "竹内",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-            "site_url": "https://anilist.co/character/135851",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "SUPPORTING",
-            "favourites": 173,
-            "row_weight": 2.48174441,
-            "projection": 0.0179027484,
-            "similarity": 1.0,
-            "matched_descriptor": "forgiving"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.005177246,
-        "abs_amplitude": 0.005177246,
-        "raw_amplitude": 0.0155317379,
-        "percent": 0.897026,
-        "raw_percent": 1.034879,
-        "coverage_percent": 80.302139,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0155317379,
-            "similarity": 0.885534,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "reactive",
-        "descriptor_index": 6135,
-        "amplitude": 0.0049425679,
-        "abs_amplitude": 0.0049425679,
-        "raw_amplitude": 0.0148277037,
-        "percent": 0.856365,
-        "raw_percent": 0.98797,
-        "coverage_percent": 81.158504,
-        "member_count": 1,
-        "members": [
-          "reactive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0148277037,
-            "similarity": 0.859006,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "slow-paced",
-        "descriptor_index": 6981,
-        "amplitude": 0.0046955482,
-        "abs_amplitude": 0.0046955482,
-        "raw_amplitude": 0.0140866447,
-        "percent": 0.813565,
-        "raw_percent": 0.938593,
-        "coverage_percent": 81.972069,
-        "member_count": 1,
-        "members": [
-          "slow-paced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0140866447,
-            "similarity": 0.883004,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "fiery",
-        "descriptor_index": 2536,
-        "amplitude": 0.0044147965,
-        "abs_amplitude": 0.0044147965,
-        "raw_amplitude": 0.0082473319,
-        "percent": 0.764921,
-        "raw_percent": 0.54952,
-        "coverage_percent": 82.73699,
-        "member_count": 1,
-        "members": [
-          "fiery"
-        ],
-        "support": 2,
-        "effective_support": 1.6059,
-        "support_factor": 0.5353,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0061664737,
-            "similarity": 0.881304,
-            "matched_descriptor": "brash"
-          },
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0020808582,
-            "similarity": 0.85773,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "frustrated / annoyed / irritated",
-        "descriptor_index": 2843,
-        "amplitude": 0.0043480781,
-        "abs_amplitude": 0.0043480781,
-        "raw_amplitude": 0.0130442344,
-        "percent": 0.753361,
-        "raw_percent": 0.869137,
-        "coverage_percent": 83.490352,
-        "member_count": 3,
-        "members": [
-          "frustrated",
-          "annoyed",
-          "irritated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0130442345,
-            "similarity": 0.857434,
-            "matched_descriptor": "troublesome"
+            "combined_favourites": 174
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "fast / quick / fast-paced / quick-acting / +2",
-        "descriptor_index": 2460,
-        "amplitude": 0.0981629523,
-        "abs_amplitude": 0.0981629523,
-        "raw_amplitude": 0.2944888568,
-        "percent": 17.008016,
-        "raw_percent": 19.621788,
-        "coverage_percent": 17.008016,
-        "member_count": 6,
-        "members": [
-          "fast",
-          "quick",
-          "fast-paced",
-          "quick-acting",
-          "fast-footed",
-          "nimble"
-        ],
+        "step": 1,
+        "descriptor": "humorous",
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.2944888569,
-            "similarity": 1.0,
-            "matched_descriptor": "fast"
-          }
-        ]
+        "fit_percent": 80.846823,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "formidable / fearsome / imposing / menacing / +1",
-        "descriptor_index": 2739,
-        "amplitude": 0.0794492318,
-        "abs_amplitude": 0.0794492318,
-        "raw_amplitude": 0.2122123423,
-        "percent": 13.765619,
-        "raw_percent": 14.139705,
-        "coverage_percent": 30.773635,
-        "member_count": 5,
-        "members": [
-          "formidable",
-          "fearsome",
-          "imposing",
-          "menacing",
-          "ominous"
-        ],
-        "support": 2,
-        "effective_support": 1.123157,
-        "support_factor": 0.374386,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.1998583781,
-            "similarity": 1.0,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0123539642,
-            "similarity": 0.886529,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "brash / fierce / provocative / audacious",
-        "descriptor_index": 799,
-        "amplitude": 0.0673155193,
-        "abs_amplitude": 0.0673155193,
-        "raw_amplitude": 0.1103061777,
-        "percent": 11.663295,
-        "raw_percent": 7.349699,
-        "coverage_percent": 42.43693,
-        "member_count": 4,
-        "members": [
-          "brash",
-          "fierce",
-          "provocative",
-          "audacious"
-        ],
-        "support": 2,
-        "effective_support": 1.830782,
-        "support_factor": 0.610261,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0719208425,
-            "similarity": 1.0,
-            "matched_descriptor": "brash"
-          },
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0383853351,
-            "similarity": 0.89077,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "hasty / snappy",
-        "descriptor_index": 3371,
-        "amplitude": 0.022323246,
-        "abs_amplitude": 0.022323246,
-        "raw_amplitude": 0.0669697381,
-        "percent": 3.867794,
-        "raw_percent": 4.462193,
-        "coverage_percent": 46.304724,
-        "member_count": 2,
-        "members": [
-          "hasty",
-          "snappy"
-        ],
+        "step": 2,
+        "descriptor": "avoidant",
+        "weighted_support": 2.4828987,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0669697381,
-            "similarity": 0.898334,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "fearless / unashamed / plucky / brave / +2",
-        "descriptor_index": 2486,
-        "amplitude": 0.0203977271,
-        "abs_amplitude": 0.0203977271,
-        "raw_amplitude": 0.0324244102,
-        "percent": 3.534173,
-        "raw_percent": 2.160438,
-        "coverage_percent": 49.838897,
-        "member_count": 6,
-        "members": [
-          "fearless",
-          "unashamed",
-          "plucky",
-          "brave",
-          "unafraid",
-          "courageous"
-        ],
-        "support": 2,
-        "effective_support": 1.887257,
-        "support_factor": 0.629086,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.020174732,
-            "similarity": 0.886851,
-            "matched_descriptor": "brash"
-          },
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0122496781,
-            "similarity": 0.869819,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "overconfident / vain / cocky",
-        "descriptor_index": 5414,
-        "amplitude": 0.0201303238,
-        "abs_amplitude": 0.0201303238,
-        "raw_amplitude": 0.0603909713,
-        "percent": 3.487842,
-        "raw_percent": 4.023849,
-        "coverage_percent": 53.326739,
-        "member_count": 3,
-        "members": [
-          "overconfident",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0603909712,
-            "similarity": 1.0,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "threatening / intimidating / belligerent",
-        "descriptor_index": 7825,
-        "amplitude": 0.0183558686,
-        "abs_amplitude": 0.0183558686,
-        "raw_amplitude": 0.0434139728,
-        "percent": 3.180394,
-        "raw_percent": 2.892672,
-        "coverage_percent": 56.507134,
-        "member_count": 3,
-        "members": [
-          "threatening",
-          "intimidating",
-          "belligerent"
-        ],
-        "support": 2,
-        "effective_support": 1.26843,
-        "support_factor": 0.42281,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0381921783,
-            "similarity": 0.897999,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0052217945,
-            "similarity": 0.873082,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "bold / brave-faced",
-        "descriptor_index": 745,
-        "amplitude": 0.0183358436,
-        "abs_amplitude": 0.0183358436,
-        "raw_amplitude": 0.0279773268,
-        "percent": 3.176925,
-        "raw_percent": 1.864129,
-        "coverage_percent": 59.684058,
-        "member_count": 2,
-        "members": [
-          "bold",
-          "brave-faced"
-        ],
-        "support": 2,
-        "effective_support": 1.966147,
-        "support_factor": 0.655382,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0158242221,
-            "similarity": 0.873322,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0121531046,
-            "similarity": 0.882661,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "humorous / comical / funny / amusing / +3",
-        "descriptor_index": 3645,
-        "amplitude": 0.0162763551,
-        "abs_amplitude": 0.0162763551,
-        "raw_amplitude": 0.0488290653,
-        "percent": 2.820092,
-        "raw_percent": 3.25348,
-        "coverage_percent": 62.50415,
-        "member_count": 7,
-        "members": [
-          "humorous",
-          "comical",
-          "funny",
-          "amusing",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 135851,
-            "name": "Takeuchi",
-            "native_name": "竹内",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-            "site_url": "https://anilist.co/character/135851",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "SUPPORTING",
-            "favourites": 173,
-            "row_weight": 2.48174441,
-            "projection": 0.0488290652,
-            "similarity": 1.0,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "domineering / oppressive",
-        "descriptor_index": 1920,
-        "amplitude": 0.0130457161,
-        "abs_amplitude": 0.0130457161,
-        "raw_amplitude": 0.0323641272,
-        "percent": 2.260341,
-        "raw_percent": 2.156421,
-        "coverage_percent": 64.764491,
-        "member_count": 2,
-        "members": [
-          "domineering",
-          "oppressive"
-        ],
-        "support": 2,
-        "effective_support": 1.209276,
-        "support_factor": 0.403092,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0292673684,
-            "similarity": 0.889194,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0030967588,
-            "similarity": 0.867163,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "strong / macho",
-        "descriptor_index": 7332,
-        "amplitude": 0.0122092254,
-        "abs_amplitude": 0.0122092254,
-        "raw_amplitude": 0.0215145417,
-        "percent": 2.115408,
-        "raw_percent": 1.433514,
-        "coverage_percent": 66.879899,
-        "member_count": 2,
-        "members": [
-          "strong",
-          "macho"
-        ],
-        "support": 2,
-        "effective_support": 1.702461,
-        "support_factor": 0.567487,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0152543978,
-            "similarity": 0.884825,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0062601439,
-            "similarity": 0.871969,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "troublesome",
-        "descriptor_index": 8001,
-        "amplitude": 0.0106448109,
-        "abs_amplitude": 0.0106448109,
-        "raw_amplitude": 0.0319344328,
-        "percent": 1.844353,
-        "raw_percent": 2.127791,
-        "coverage_percent": 68.724252,
-        "member_count": 1,
-        "members": [
-          "troublesome"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0319344328,
-            "similarity": 1.0,
-            "matched_descriptor": "troublesome"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "jumpy / wild / unstable / unpredictable",
-        "descriptor_index": 4076,
-        "amplitude": 0.0096290324,
-        "abs_amplitude": 0.0096290324,
-        "raw_amplitude": 0.0288870972,
-        "percent": 1.668356,
-        "raw_percent": 1.924747,
-        "coverage_percent": 70.392608,
-        "member_count": 4,
-        "members": [
-          "jumpy",
-          "wild",
-          "unstable",
-          "unpredictable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0288870971,
-            "similarity": 0.865,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "savage",
-        "descriptor_index": 6468,
-        "amplitude": 0.0093032003,
-        "abs_amplitude": 0.0093032003,
-        "raw_amplitude": 0.016485902,
-        "percent": 1.611901,
-        "raw_percent": 1.098455,
-        "coverage_percent": 72.004509,
-        "member_count": 1,
-        "members": [
-          "savage"
-        ],
-        "support": 2,
-        "effective_support": 1.692937,
-        "support_factor": 0.564312,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0117535052,
-            "similarity": 0.877724,
-            "matched_descriptor": "formidable"
-          },
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0047323968,
-            "similarity": 0.874698,
-            "matched_descriptor": "brash"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "self confident / self-confident / self-assured",
-        "descriptor_index": 6606,
-        "amplitude": 0.0090754226,
-        "abs_amplitude": 0.0090754226,
-        "raw_amplitude": 0.0272262679,
-        "percent": 1.572436,
-        "raw_percent": 1.814086,
-        "coverage_percent": 73.576945,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-confident",
-          "self-assured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0272262679,
-            "similarity": 0.898076,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "unbelieving / disbelieving / doubting / cynical",
-        "descriptor_index": 8065,
-        "amplitude": 0.0085862655,
-        "abs_amplitude": 0.0085862655,
-        "raw_amplitude": 0.0257587964,
-        "percent": 1.487683,
-        "raw_percent": 1.716308,
-        "coverage_percent": 75.064627,
-        "member_count": 4,
-        "members": [
-          "unbelieving",
-          "disbelieving",
-          "doubting",
-          "cynical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 135851,
-            "name": "Takeuchi",
-            "native_name": "竹内",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-            "site_url": "https://anilist.co/character/135851",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "SUPPORTING",
-            "favourites": 173,
-            "row_weight": 2.48174441,
-            "projection": 0.0257587964,
-            "similarity": 1.0,
-            "matched_descriptor": "unbelieving"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "irritating / annoying",
-        "descriptor_index": 4016,
-        "amplitude": 0.0067719067,
-        "abs_amplitude": 0.0067719067,
-        "raw_amplitude": 0.0203157202,
-        "percent": 1.173321,
-        "raw_percent": 1.353636,
-        "coverage_percent": 76.237949,
-        "member_count": 2,
-        "members": [
-          "irritating",
-          "annoying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0203157203,
-            "similarity": 0.892548,
-            "matched_descriptor": "troublesome"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "impetuous / impulsive",
-        "descriptor_index": 3782,
-        "amplitude": 0.0061737238,
-        "abs_amplitude": 0.0061737238,
-        "raw_amplitude": 0.0185211714,
-        "percent": 1.069678,
-        "raw_percent": 1.234065,
-        "coverage_percent": 77.307627,
-        "member_count": 2,
-        "members": [
-          "impetuous",
-          "impulsive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0185211713,
-            "similarity": 0.877436,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "boastful / bragging / show-off",
-        "descriptor_index": 735,
-        "amplitude": 0.0061382064,
-        "abs_amplitude": 0.0061382064,
-        "raw_amplitude": 0.0184146193,
-        "percent": 1.063525,
-        "raw_percent": 1.226966,
-        "coverage_percent": 78.371152,
-        "member_count": 3,
-        "members": [
-          "boastful",
-          "bragging",
-          "show-off"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0184146193,
-            "similarity": 0.894133,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "forgiving / tolerant / grudge-free",
-        "descriptor_index": 2667,
-        "amplitude": 0.0059675828,
-        "abs_amplitude": 0.0059675828,
-        "raw_amplitude": 0.0179027483,
-        "percent": 1.033962,
-        "raw_percent": 1.19286,
-        "coverage_percent": 79.405114,
-        "member_count": 3,
-        "members": [
-          "forgiving",
-          "tolerant",
-          "grudge-free"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 135851,
-            "name": "Takeuchi",
-            "native_name": "竹内",
-            "anime": "A Silent Voice",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-            "site_url": "https://anilist.co/character/135851",
-            "anime_url": "https://myanimelist.net/anime/28851",
-            "role": "SUPPORTING",
-            "favourites": 173,
-            "row_weight": 2.48174441,
-            "projection": 0.0179027484,
-            "similarity": 1.0,
-            "matched_descriptor": "forgiving"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.005177246,
-        "abs_amplitude": 0.005177246,
-        "raw_amplitude": 0.0155317379,
-        "percent": 0.897026,
-        "raw_percent": 1.034879,
-        "coverage_percent": 80.302139,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0155317379,
-            "similarity": 0.885534,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "reactive",
-        "descriptor_index": 6135,
-        "amplitude": 0.0049425679,
-        "abs_amplitude": 0.0049425679,
-        "raw_amplitude": 0.0148277037,
-        "percent": 0.856365,
-        "raw_percent": 0.98797,
-        "coverage_percent": 81.158504,
-        "member_count": 1,
-        "members": [
-          "reactive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0148277037,
-            "similarity": 0.859006,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "slow-paced",
-        "descriptor_index": 6981,
-        "amplitude": 0.0046955482,
-        "abs_amplitude": 0.0046955482,
-        "raw_amplitude": 0.0140866447,
-        "percent": 0.813565,
-        "raw_percent": 0.938593,
-        "coverage_percent": 81.972069,
-        "member_count": 1,
-        "members": [
-          "slow-paced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0140866447,
-            "similarity": 0.883004,
-            "matched_descriptor": "fast"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "fiery",
-        "descriptor_index": 2536,
-        "amplitude": 0.0044147965,
-        "abs_amplitude": 0.0044147965,
-        "raw_amplitude": 0.0082473319,
-        "percent": 0.764921,
-        "raw_percent": 0.54952,
-        "coverage_percent": 82.73699,
-        "member_count": 1,
-        "members": [
-          "fiery"
-        ],
-        "support": 2,
-        "effective_support": 1.6059,
-        "support_factor": 0.5353,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0061664737,
-            "similarity": 0.881304,
-            "matched_descriptor": "brash"
-          },
-          {
-            "character_id": 79913,
-            "name": "Hebi",
-            "native_name": "蛇",
-            "anime": "Vinland Saga Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-            "site_url": "https://anilist.co/character/79913",
-            "anime_url": "https://myanimelist.net/anime/49387",
-            "role": "SUPPORTING",
-            "favourites": 707,
-            "row_weight": 2.74998984,
-            "projection": 0.0020808582,
-            "similarity": 0.85773,
-            "matched_descriptor": "formidable"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "frustrated / annoyed / irritated",
-        "descriptor_index": 2843,
-        "amplitude": 0.0043480781,
-        "abs_amplitude": 0.0043480781,
-        "raw_amplitude": 0.0130442344,
-        "percent": 0.753361,
-        "raw_percent": 0.869137,
-        "coverage_percent": 83.490352,
-        "member_count": 3,
-        "members": [
-          "frustrated",
-          "annoyed",
-          "irritated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 4368,
-            "name": "Jean-Pierre Polnareff",
-            "native_name": "ジャン＝ピエール・ポルナレフ",
-            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
-            "site_url": "https://anilist.co/character/4368",
-            "anime_url": "https://myanimelist.net/anime/20899",
-            "role": "MAIN",
-            "favourites": 4619,
-            "row_weight": 2.1723432,
-            "projection": 0.0130442345,
-            "similarity": 0.857434,
-            "matched_descriptor": "troublesome"
-          }
-        ]
+        "fit_percent": 95.761157,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 79913,
-        "name": "Hebi",
-        "native_name": "蛇",
-        "anime": "Vinland Saga Season 2",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-        "site_url": "https://anilist.co/character/79913",
-        "anime_url": "https://myanimelist.net/anime/49387",
-        "role": "SUPPORTING",
-        "favourites": 707,
-        "row_weight": 2.74998984,
-        "amplitude": 0.8825304135,
-        "abs_amplitude": 0.8825304135,
-        "percent": 77.885993
+        "character_id": 135851,
+        "name": "Takeuchi",
+        "anime": "A Silent Voice",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
+        "site_url": "https://anilist.co/character/135851",
+        "favourites": 173,
+        "anilist_favourites": 173,
+        "bangumi_collects": 1,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 54856,
+        "bangumi_url": "https://bgm.tv/character/54856",
+        "combined_favourites": 174,
+        "role_edge_count": 1,
+        "descriptors": [
+          "avoidant",
+          "humorous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4828987,
+        "row_weight": 2.4828987,
+        "unweighted_row_norm": 1.74942828,
+        "amplitude": 0.7655087108,
+        "abs_amplitude": 0.7655087108,
+        "percent": 58.600359
       },
       {
         "character_id": 4368,
         "name": "Jean-Pierre Polnareff",
-        "native_name": "ジャン＝ピエール・ポルナレフ",
         "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
         "site_url": "https://anilist.co/character/4368",
-        "anime_url": "https://myanimelist.net/anime/20899",
-        "role": "MAIN",
         "favourites": 4619,
-        "row_weight": 2.1723432,
-        "amplitude": 0.4316129324,
-        "abs_amplitude": 0.4316129324,
-        "percent": 18.628972
-      },
-      {
-        "character_id": 135851,
-        "name": "Takeuchi",
-        "native_name": "竹内",
-        "anime": "A Silent Voice",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-        "site_url": "https://anilist.co/character/135851",
-        "anime_url": "https://myanimelist.net/anime/28851",
-        "role": "SUPPORTING",
-        "favourites": 173,
-        "row_weight": 2.48174441,
-        "amplitude": 0.1866824733,
-        "abs_amplitude": 0.1866824733,
-        "percent": 3.485035
+        "anilist_favourites": 4619,
+        "bangumi_collects": 123,
+        "bangumi_comments": 33,
+        "bangumi_character_id": 18570,
+        "bangumi_url": "https://bgm.tv/character/18570",
+        "combined_favourites": 4742,
+        "role_edge_count": 2,
+        "descriptors": [
+          "brash",
+          "overconfident"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.07643058,
+        "row_weight": 2.17536493,
+        "unweighted_row_norm": 1.76238047,
+        "amplitude": 0.6434255308,
+        "abs_amplitude": 0.6434255308,
+        "percent": 41.399641
       }
     ],
     "positive_characters": [
       {
-        "character_id": 79913,
-        "name": "Hebi",
-        "native_name": "蛇",
-        "anime": "Vinland Saga Season 2",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b79913-FKEmQ3dutqp3.jpg",
-        "site_url": "https://anilist.co/character/79913",
-        "anime_url": "https://myanimelist.net/anime/49387",
-        "role": "SUPPORTING",
-        "favourites": 707,
-        "row_weight": 2.74998984,
-        "amplitude": 0.8825304135,
-        "abs_amplitude": 0.8825304135,
-        "percent": 77.885993
+        "character_id": 135851,
+        "name": "Takeuchi",
+        "anime": "A Silent Voice",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
+        "site_url": "https://anilist.co/character/135851",
+        "favourites": 173,
+        "anilist_favourites": 173,
+        "bangumi_collects": 1,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 54856,
+        "bangumi_url": "https://bgm.tv/character/54856",
+        "combined_favourites": 174,
+        "role_edge_count": 1,
+        "descriptors": [
+          "avoidant",
+          "humorous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4828987,
+        "row_weight": 2.4828987,
+        "unweighted_row_norm": 1.74942828,
+        "amplitude": 0.7655087108,
+        "abs_amplitude": 0.7655087108,
+        "percent": 58.600359
       },
       {
         "character_id": 4368,
         "name": "Jean-Pierre Polnareff",
-        "native_name": "ジャン＝ピエール・ポルナレフ",
         "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
         "site_url": "https://anilist.co/character/4368",
-        "anime_url": "https://myanimelist.net/anime/20899",
-        "role": "MAIN",
         "favourites": 4619,
-        "row_weight": 2.1723432,
-        "amplitude": 0.4316129324,
-        "abs_amplitude": 0.4316129324,
-        "percent": 18.628972
-      },
-      {
-        "character_id": 135851,
-        "name": "Takeuchi",
-        "native_name": "竹内",
-        "anime": "A Silent Voice",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
-        "site_url": "https://anilist.co/character/135851",
-        "anime_url": "https://myanimelist.net/anime/28851",
-        "role": "SUPPORTING",
-        "favourites": 173,
-        "row_weight": 2.48174441,
-        "amplitude": 0.1866824733,
-        "abs_amplitude": 0.1866824733,
-        "percent": 3.485035
+        "anilist_favourites": 4619,
+        "bangumi_collects": 123,
+        "bangumi_comments": 33,
+        "bangumi_character_id": 18570,
+        "bangumi_url": "https://bgm.tv/character/18570",
+        "combined_favourites": 4742,
+        "role_edge_count": 2,
+        "descriptors": [
+          "brash",
+          "overconfident"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.07643058,
+        "row_weight": 2.17536493,
+        "unweighted_row_norm": 1.76238047,
+        "amplitude": 0.6434255308,
+        "abs_amplitude": 0.6434255308,
+        "percent": 41.399641
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.942527,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.1332322504,
+      "mass_percent": 11.785037,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 40.876351,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "brash",
+            "amplitude": 0.3212224676,
+            "abs_amplitude": 0.3212224676,
+            "percent": 70.980434
+          },
+          {
+            "rank": 2,
+            "descriptor": "overconfident",
+            "amplitude": 0.1313282566,
+            "abs_amplitude": 0.1313282566,
+            "percent": 29.019566
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "brash",
+            "fit_percent": 39.3846,
+            "residual_gain_percent": 15.511467
+          },
+          {
+            "step": 2,
+            "descriptor": "overconfident",
+            "fit_percent": 40.876351,
+            "residual_gain_percent": 1.417107
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 4368,
+            "name": "Jean-Pierre Polnareff",
+            "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b4368-1KToX8uSi1U1.png",
+            "site_url": "https://anilist.co/character/4368",
+            "favourites": 4619,
+            "anilist_favourites": 4619,
+            "bangumi_collects": 123,
+            "bangumi_comments": 33,
+            "bangumi_character_id": 18570,
+            "bangumi_url": "https://bgm.tv/character/18570",
+            "combined_favourites": 4742,
+            "role_edge_count": 2,
+            "descriptors": [
+              "brash",
+              "overconfident"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 3.07643058,
+            "row_weight": 2.17536493,
+            "unweighted_row_norm": 1.76238047,
+            "amplitude": 0.7655087108,
+            "abs_amplitude": 0.7655087108,
+            "percent": 58.600359
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 34.696734,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "humorous",
+            "amplitude": 0.3469673378,
+            "abs_amplitude": 0.3469673378,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "humorous",
+            "fit_percent": 34.696734,
+            "residual_gain_percent": 12.038633
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 135851,
+            "name": "Takeuchi",
+            "anime": "A Silent Voice",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b135851-7gmFc8ZB594q.jpg",
+            "site_url": "https://anilist.co/character/135851",
+            "favourites": 173,
+            "anilist_favourites": 173,
+            "bangumi_collects": 1,
+            "bangumi_comments": 4,
+            "bangumi_character_id": 54856,
+            "bangumi_url": "https://bgm.tv/character/54856",
+            "combined_favourites": 174,
+            "role_edge_count": 1,
+            "descriptors": [
+              "avoidant",
+              "humorous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.4828987,
+            "row_weight": 2.4828987,
+            "unweighted_row_norm": 1.74942828,
+            "amplitude": -0.6434255308,
+            "abs_amplitude": 0.6434255308,
+            "percent": 41.399641
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.1004488713,
+      "mass_percent": 88.214963,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.1332322504,
+      "mass_percent": 11.785037,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

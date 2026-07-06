@@ -5,2341 +5,1487 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95149-xNDmN92Feq8y.png",
   "site_url": "https://anilist.co/staff/95149",
   "role_count": 22,
-  "character_count": 6,
+  "character_count": 4,
   "first_year": 2007,
   "aliases": [
     "kobayashi sanae",
     "sanae kobayashi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/sanae_kobayashi.json",
+  "sv1_mass_percent": 64.746701,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 2,
+  "supported_character_count": 4,
   "major_lane": {
     "rank": 1,
-    "singular_value": 12.3975821476,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 12.3975821476,
-        "mass_percent": 89.442335
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.4006702071,
-        "mass_percent": 3.353777
-      },
-      {
-        "rank": 3,
-        "singular_value": 1.9630700786,
-        "mass_percent": 2.242543
-      },
-      {
-        "rank": 4,
-        "singular_value": 1.8773597563,
-        "mass_percent": 2.050993
-      },
-      {
-        "rank": 5,
-        "singular_value": 1.71936145,
-        "mass_percent": 1.720297
-      },
-      {
-        "rank": 6,
-        "singular_value": 1.4300425264,
-        "mass_percent": 1.190055
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 347.831942,
-      "normalized_entanglement": 0.905812,
-      "top5_mass_percent": 2.711688,
-      "top10_mass_percent": 5.017102
-    },
-    "character_participation": {
-      "effective_count": 3.718587,
-      "normalized_entanglement": 0.619764,
-      "top5_mass_percent": 96.079884,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.880668,
-      "semantic_spread": 1.135163,
-      "axis_concentration_percent": 60.187693,
-      "lane_count": 3.29942,
-      "direction_range": 0.295734,
-      "direction_spread": 0.479811,
-      "direction_axis_concentration_percent": 37.989214,
-      "direction_lane_count": 3.936818
-    },
-    "explained_sv_l2_percent": 89.442335,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.1602323887,
+    "mass_percent": 70.961741,
+    "descriptor_fit_percent": 95.236899,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "kind / well-meaning / humane / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.1510632063,
-        "abs_amplitude": 0.1510632063,
-        "raw_amplitude": 0.4255214345,
-        "percent": 18.786465,
-        "raw_percent": 18.960161,
-        "coverage_percent": 18.786465,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "well-meaning",
-          "humane",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-natured",
-          "good-hearted",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 2,
-        "effective_support": 1.065022,
-        "support_factor": 0.355007,
-        "top_characters": [
+        "descriptor": "kind",
+        "amplitude": 0.5394292569,
+        "abs_amplitude": 0.5394292569,
+        "percent": 50.35157,
+        "weighted_support": 2.62832322,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 13886,
             "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
             "anime": "Natsume's Book of Friends Season 1",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
             "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.4121091954,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0134122392,
-            "similarity": 0.895731,
-            "matched_descriptor": "grateful"
+            "combined_favourites": 367
           }
         ]
       },
       {
         "rank": 2,
         "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.1489633354,
-        "abs_amplitude": 0.1489633354,
-        "raw_amplitude": 0.4468900062,
-        "percent": 18.525322,
-        "raw_percent": 19.912291,
-        "coverage_percent": 37.311787,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
+        "amplitude": 0.5318963321,
+        "abs_amplitude": 0.5318963321,
+        "percent": 49.64843,
+        "weighted_support": 2.58460299,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 3060,
             "name": "Ennis",
-            "native_name": "エニス",
             "anime": "Baccano!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
             "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.4468900062,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "clean-cut / cool / sophisticated / refined / +7",
-        "descriptor_index": 1162,
-        "amplitude": 0.0554512822,
-        "abs_amplitude": 0.0554512822,
-        "raw_amplitude": 0.1656661584,
-        "percent": 6.896011,
-        "raw_percent": 7.381666,
-        "coverage_percent": 44.207798,
-        "member_count": 11,
-        "members": [
-          "clean-cut",
-          "cool",
-          "sophisticated",
-          "refined",
-          "beautiful",
-          "elegant",
-          "aesthetic",
-          "flashy",
-          "neat",
-          "nice",
-          "realistic"
-        ],
-        "support": 2,
-        "effective_support": 1.004151,
-        "support_factor": 0.334717,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.1653230251,
-            "similarity": 1.0,
-            "matched_descriptor": "clean-cut"
-          },
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0003431334,
-            "similarity": 0.839782,
-            "matched_descriptor": "detail-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "absent / lost",
-        "descriptor_index": 15,
-        "amplitude": 0.0475165253,
-        "abs_amplitude": 0.0475165253,
-        "raw_amplitude": 0.1089824277,
-        "percent": 5.909232,
-        "raw_percent": 4.855982,
-        "coverage_percent": 50.11703,
-        "member_count": 2,
-        "members": [
-          "absent",
-          "lost"
-        ],
-        "support": 2,
-        "effective_support": 1.308005,
-        "support_factor": 0.436002,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.0941256963,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0148567315,
-            "similarity": 0.879018,
-            "matched_descriptor": "lost girl"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "grateful / openhearted",
-        "descriptor_index": 3146,
-        "amplitude": 0.0308451084,
-        "abs_amplitude": 0.0308451084,
-        "raw_amplitude": 0.0676326252,
-        "percent": 3.835948,
-        "raw_percent": 3.013539,
-        "coverage_percent": 53.952977,
-        "member_count": 2,
-        "members": [
-          "grateful",
-          "openhearted"
-        ],
-        "support": 2,
-        "effective_support": 1.368205,
-        "support_factor": 0.456068,
-        "top_characters": [
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0567957049,
-            "similarity": 1.0,
-            "matched_descriptor": "grateful"
-          },
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0108369204,
-            "similarity": 0.884188,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "good / polite / pleasant / open-hearted / +1",
-        "descriptor_index": 3047,
-        "amplitude": 0.0262198021,
-        "abs_amplitude": 0.0262198021,
-        "raw_amplitude": 0.0438171648,
-        "percent": 3.260737,
-        "raw_percent": 1.952382,
-        "coverage_percent": 57.213714,
-        "member_count": 5,
-        "members": [
-          "good",
-          "polite",
-          "pleasant",
-          "open-hearted",
-          "amicable"
-        ],
-        "support": 2,
-        "effective_support": 1.795173,
-        "support_factor": 0.598391,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0293089675,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0145081973,
-            "similarity": 0.892106,
-            "matched_descriptor": "grateful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "detail-oriented / meticulous / rigorous / precise",
-        "descriptor_index": 1768,
-        "amplitude": 0.0158091919,
-        "abs_amplitude": 0.0158091919,
-        "raw_amplitude": 0.0474275757,
-        "percent": 1.966057,
-        "raw_percent": 2.113253,
-        "coverage_percent": 59.179771,
-        "member_count": 4,
-        "members": [
-          "detail-oriented",
-          "meticulous",
-          "rigorous",
-          "precise"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0474275757,
-            "similarity": 1.0,
-            "matched_descriptor": "detail-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0151549209,
-        "abs_amplitude": 0.0151549209,
-        "raw_amplitude": 0.0454647628,
-        "percent": 1.884691,
-        "raw_percent": 2.025795,
-        "coverage_percent": 61.064462,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0454647627,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0142391844,
-        "abs_amplitude": 0.0142391844,
-        "raw_amplitude": 0.0427175531,
-        "percent": 1.770808,
-        "raw_percent": 1.903386,
-        "coverage_percent": 62.83527,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0427175532,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "satisfaction-seeking / pleasure-seeking / entertainment-focused",
-        "descriptor_index": 6467,
-        "amplitude": 0.0132122504,
-        "abs_amplitude": 0.0132122504,
-        "raw_amplitude": 0.0396367512,
-        "percent": 1.643097,
-        "raw_percent": 1.766114,
-        "coverage_percent": 64.478367,
-        "member_count": 3,
-        "members": [
-          "satisfaction-seeking",
-          "pleasure-seeking",
-          "entertainment-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0396367513,
-            "similarity": 1.0,
-            "matched_descriptor": "satisfaction-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0115712183,
-        "abs_amplitude": 0.0115712183,
-        "raw_amplitude": 0.0347136548,
-        "percent": 1.439015,
-        "raw_percent": 1.546753,
-        "coverage_percent": 65.917382,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0347136548,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0104040112,
-        "abs_amplitude": 0.0104040112,
-        "raw_amplitude": 0.0312120335,
-        "percent": 1.29386,
-        "raw_percent": 1.390729,
-        "coverage_percent": 67.211242,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0312120335,
-            "similarity": 1.0,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "game-focused / gamer",
-        "descriptor_index": 2884,
-        "amplitude": 0.0098936421,
-        "abs_amplitude": 0.0098936421,
-        "raw_amplitude": 0.0296809262,
-        "percent": 1.230389,
-        "raw_percent": 1.322507,
-        "coverage_percent": 68.441631,
-        "member_count": 2,
-        "members": [
-          "game-focused",
-          "gamer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0296809262,
-            "similarity": 1.0,
-            "matched_descriptor": "game-focused"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "reliant / needy",
-        "descriptor_index": 6219,
-        "amplitude": 0.0094659562,
-        "abs_amplitude": 0.0094659562,
-        "raw_amplitude": 0.0145538587,
-        "percent": 1.177202,
-        "raw_percent": 0.648483,
-        "coverage_percent": 69.618833,
-        "member_count": 2,
-        "members": [
-          "reliant",
-          "needy"
-        ],
-        "support": 2,
-        "effective_support": 1.951226,
-        "support_factor": 0.650409,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0084274336,
-            "similarity": 0.864709,
-            "matched_descriptor": "helpful"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0061264251,
-            "similarity": 0.838325,
-            "matched_descriptor": "lost girl"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "stamina-rich / vigorous",
-        "descriptor_index": 7219,
-        "amplitude": 0.0087172519,
-        "abs_amplitude": 0.0087172519,
-        "raw_amplitude": 0.0261517558,
-        "percent": 1.084092,
-        "raw_percent": 1.165256,
-        "coverage_percent": 70.702924,
-        "member_count": 2,
-        "members": [
-          "stamina-rich",
-          "vigorous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0261517558,
-            "similarity": 0.916063,
-            "matched_descriptor": "powerful spirit"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "encouraging / inspiring / inspirational",
-        "descriptor_index": 2163,
-        "amplitude": 0.0068506952,
-        "abs_amplitude": 0.0068506952,
-        "raw_amplitude": 0.0140966164,
-        "percent": 0.851964,
-        "raw_percent": 0.62811,
-        "coverage_percent": 71.554888,
-        "member_count": 3,
-        "members": [
-          "encouraging",
-          "inspiring",
-          "inspirational"
-        ],
-        "support": 2,
-        "effective_support": 1.457945,
-        "support_factor": 0.485982,
-        "top_characters": [
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0113460094,
-            "similarity": 0.881194,
-            "matched_descriptor": "grateful"
-          },
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.002750607,
-            "similarity": 0.854619,
-            "matched_descriptor": "satisfaction-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fashion-forward / fashionable",
-        "descriptor_index": 2458,
-        "amplitude": 0.0067485522,
-        "abs_amplitude": 0.0067485522,
-        "raw_amplitude": 0.0202456567,
-        "percent": 0.839261,
-        "raw_percent": 0.902095,
-        "coverage_percent": 72.394149,
-        "member_count": 2,
-        "members": [
-          "fashion-forward",
-          "fashionable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0202456567,
-            "similarity": 0.89998,
-            "matched_descriptor": "clean-cut"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "dormant",
-        "descriptor_index": 1928,
-        "amplitude": 0.0064847281,
-        "abs_amplitude": 0.0064847281,
-        "raw_amplitude": 0.0194541844,
-        "percent": 0.806451,
-        "raw_percent": 0.866829,
-        "coverage_percent": 73.2006,
-        "member_count": 1,
-        "members": [
-          "dormant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.0194541844,
-            "similarity": 0.811751,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0064683456,
-        "abs_amplitude": 0.0064683456,
-        "raw_amplitude": 0.0194050368,
-        "percent": 0.804414,
-        "raw_percent": 0.864639,
-        "coverage_percent": 74.005014,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0194050368,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "volunteer / humanitarian",
-        "descriptor_index": 8411,
-        "amplitude": 0.0063866435,
-        "abs_amplitude": 0.0063866435,
-        "raw_amplitude": 0.0191599306,
-        "percent": 0.794253,
-        "raw_percent": 0.853718,
-        "coverage_percent": 74.799267,
-        "member_count": 2,
-        "members": [
-          "volunteer",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0191599306,
-            "similarity": 0.861211,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "respectable / honorable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0063731883,
-        "abs_amplitude": 0.0063731883,
-        "raw_amplitude": 0.019119565,
-        "percent": 0.79258,
-        "raw_percent": 0.85192,
-        "coverage_percent": 75.591847,
-        "member_count": 2,
-        "members": [
-          "respectable",
-          "honorable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.019119565,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "glamorous / seductive / gorgeous",
-        "descriptor_index": 3009,
-        "amplitude": 0.0061360867,
-        "abs_amplitude": 0.0061360867,
-        "raw_amplitude": 0.0184082601,
-        "percent": 0.763094,
-        "raw_percent": 0.820226,
-        "coverage_percent": 76.354941,
-        "member_count": 3,
-        "members": [
-          "glamorous",
-          "seductive",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0184082601,
-            "similarity": 0.887039,
-            "matched_descriptor": "clean-cut"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "homeless-like / homeless",
-        "descriptor_index": 3542,
-        "amplitude": 0.005755955,
-        "abs_amplitude": 0.005755955,
-        "raw_amplitude": 0.017267865,
-        "percent": 0.71582,
-        "raw_percent": 0.769412,
-        "coverage_percent": 77.070761,
-        "member_count": 2,
-        "members": [
-          "homeless-like",
-          "homeless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.017267865,
-            "similarity": 0.853785,
-            "matched_descriptor": "lost girl"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "uncommitted",
-        "descriptor_index": 8076,
-        "amplitude": 0.0055632093,
-        "abs_amplitude": 0.0055632093,
-        "raw_amplitude": 0.016689628,
-        "percent": 0.69185,
-        "raw_percent": 0.743648,
-        "coverage_percent": 77.762611,
-        "member_count": 1,
-        "members": [
-          "uncommitted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.016689628,
-            "similarity": 0.789788,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "rambunctious / energetic / hyper-active / active / +2",
-        "descriptor_index": 6113,
-        "amplitude": 0.0052209667,
-        "abs_amplitude": 0.0052209667,
-        "raw_amplitude": 0.0156629,
-        "percent": 0.649288,
-        "raw_percent": 0.697899,
-        "coverage_percent": 78.411898,
-        "member_count": 6,
-        "members": [
-          "rambunctious",
-          "energetic",
-          "hyper-active",
-          "active",
-          "exuberant",
-          "spirited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0156628999,
-            "similarity": 0.868121,
-            "matched_descriptor": "powerful spirit"
+            "combined_favourites": 292
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "kind / well-meaning / humane / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.1510632063,
-        "abs_amplitude": 0.1510632063,
-        "raw_amplitude": 0.4255214345,
-        "percent": 18.786465,
-        "raw_percent": 18.960161,
-        "coverage_percent": 18.786465,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "well-meaning",
-          "humane",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-natured",
-          "good-hearted",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 2,
-        "effective_support": 1.065022,
-        "support_factor": 0.355007,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.4121091954,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0134122392,
-            "similarity": 0.895731,
-            "matched_descriptor": "grateful"
-          }
-        ]
+        "step": 1,
+        "descriptor": "kind",
+        "weighted_support": 2.62832322,
+        "support": 1,
+        "fit_percent": 84.818991,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
+        "step": 2,
         "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.1489633354,
-        "abs_amplitude": 0.1489633354,
-        "raw_amplitude": 0.4468900062,
-        "percent": 18.525322,
-        "raw_percent": 19.912291,
-        "coverage_percent": 37.311787,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
+        "weighted_support": 2.58460299,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.4468900062,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "clean-cut / cool / sophisticated / refined / +7",
-        "descriptor_index": 1162,
-        "amplitude": 0.0554512822,
-        "abs_amplitude": 0.0554512822,
-        "raw_amplitude": 0.1656661584,
-        "percent": 6.896011,
-        "raw_percent": 7.381666,
-        "coverage_percent": 44.207798,
-        "member_count": 11,
-        "members": [
-          "clean-cut",
-          "cool",
-          "sophisticated",
-          "refined",
-          "beautiful",
-          "elegant",
-          "aesthetic",
-          "flashy",
-          "neat",
-          "nice",
-          "realistic"
-        ],
-        "support": 2,
-        "effective_support": 1.004151,
-        "support_factor": 0.334717,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.1653230251,
-            "similarity": 1.0,
-            "matched_descriptor": "clean-cut"
-          },
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0003431334,
-            "similarity": 0.839782,
-            "matched_descriptor": "detail-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "absent / lost",
-        "descriptor_index": 15,
-        "amplitude": 0.0475165253,
-        "abs_amplitude": 0.0475165253,
-        "raw_amplitude": 0.1089824277,
-        "percent": 5.909232,
-        "raw_percent": 4.855982,
-        "coverage_percent": 50.11703,
-        "member_count": 2,
-        "members": [
-          "absent",
-          "lost"
-        ],
-        "support": 2,
-        "effective_support": 1.308005,
-        "support_factor": 0.436002,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.0941256963,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0148567315,
-            "similarity": 0.879018,
-            "matched_descriptor": "lost girl"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "grateful / openhearted",
-        "descriptor_index": 3146,
-        "amplitude": 0.0308451084,
-        "abs_amplitude": 0.0308451084,
-        "raw_amplitude": 0.0676326252,
-        "percent": 3.835948,
-        "raw_percent": 3.013539,
-        "coverage_percent": 53.952977,
-        "member_count": 2,
-        "members": [
-          "grateful",
-          "openhearted"
-        ],
-        "support": 2,
-        "effective_support": 1.368205,
-        "support_factor": 0.456068,
-        "top_characters": [
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0567957049,
-            "similarity": 1.0,
-            "matched_descriptor": "grateful"
-          },
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0108369204,
-            "similarity": 0.884188,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "good / polite / pleasant / open-hearted / +1",
-        "descriptor_index": 3047,
-        "amplitude": 0.0262198021,
-        "abs_amplitude": 0.0262198021,
-        "raw_amplitude": 0.0438171648,
-        "percent": 3.260737,
-        "raw_percent": 1.952382,
-        "coverage_percent": 57.213714,
-        "member_count": 5,
-        "members": [
-          "good",
-          "polite",
-          "pleasant",
-          "open-hearted",
-          "amicable"
-        ],
-        "support": 2,
-        "effective_support": 1.795173,
-        "support_factor": 0.598391,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0293089675,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0145081973,
-            "similarity": 0.892106,
-            "matched_descriptor": "grateful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "detail-oriented / meticulous / rigorous / precise",
-        "descriptor_index": 1768,
-        "amplitude": 0.0158091919,
-        "abs_amplitude": 0.0158091919,
-        "raw_amplitude": 0.0474275757,
-        "percent": 1.966057,
-        "raw_percent": 2.113253,
-        "coverage_percent": 59.179771,
-        "member_count": 4,
-        "members": [
-          "detail-oriented",
-          "meticulous",
-          "rigorous",
-          "precise"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0474275757,
-            "similarity": 1.0,
-            "matched_descriptor": "detail-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0151549209,
-        "abs_amplitude": 0.0151549209,
-        "raw_amplitude": 0.0454647628,
-        "percent": 1.884691,
-        "raw_percent": 2.025795,
-        "coverage_percent": 61.064462,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0454647627,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0142391844,
-        "abs_amplitude": 0.0142391844,
-        "raw_amplitude": 0.0427175531,
-        "percent": 1.770808,
-        "raw_percent": 1.903386,
-        "coverage_percent": 62.83527,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0427175532,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "satisfaction-seeking / pleasure-seeking / entertainment-focused",
-        "descriptor_index": 6467,
-        "amplitude": 0.0132122504,
-        "abs_amplitude": 0.0132122504,
-        "raw_amplitude": 0.0396367512,
-        "percent": 1.643097,
-        "raw_percent": 1.766114,
-        "coverage_percent": 64.478367,
-        "member_count": 3,
-        "members": [
-          "satisfaction-seeking",
-          "pleasure-seeking",
-          "entertainment-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0396367513,
-            "similarity": 1.0,
-            "matched_descriptor": "satisfaction-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0115712183,
-        "abs_amplitude": 0.0115712183,
-        "raw_amplitude": 0.0347136548,
-        "percent": 1.439015,
-        "raw_percent": 1.546753,
-        "coverage_percent": 65.917382,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0347136548,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0104040112,
-        "abs_amplitude": 0.0104040112,
-        "raw_amplitude": 0.0312120335,
-        "percent": 1.29386,
-        "raw_percent": 1.390729,
-        "coverage_percent": 67.211242,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0312120335,
-            "similarity": 1.0,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "game-focused / gamer",
-        "descriptor_index": 2884,
-        "amplitude": 0.0098936421,
-        "abs_amplitude": 0.0098936421,
-        "raw_amplitude": 0.0296809262,
-        "percent": 1.230389,
-        "raw_percent": 1.322507,
-        "coverage_percent": 68.441631,
-        "member_count": 2,
-        "members": [
-          "game-focused",
-          "gamer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.0296809262,
-            "similarity": 1.0,
-            "matched_descriptor": "game-focused"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "reliant / needy",
-        "descriptor_index": 6219,
-        "amplitude": 0.0094659562,
-        "abs_amplitude": 0.0094659562,
-        "raw_amplitude": 0.0145538587,
-        "percent": 1.177202,
-        "raw_percent": 0.648483,
-        "coverage_percent": 69.618833,
-        "member_count": 2,
-        "members": [
-          "reliant",
-          "needy"
-        ],
-        "support": 2,
-        "effective_support": 1.951226,
-        "support_factor": 0.650409,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0084274336,
-            "similarity": 0.864709,
-            "matched_descriptor": "helpful"
-          },
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0061264251,
-            "similarity": 0.838325,
-            "matched_descriptor": "lost girl"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "stamina-rich / vigorous",
-        "descriptor_index": 7219,
-        "amplitude": 0.0087172519,
-        "abs_amplitude": 0.0087172519,
-        "raw_amplitude": 0.0261517558,
-        "percent": 1.084092,
-        "raw_percent": 1.165256,
-        "coverage_percent": 70.702924,
-        "member_count": 2,
-        "members": [
-          "stamina-rich",
-          "vigorous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0261517558,
-            "similarity": 0.916063,
-            "matched_descriptor": "powerful spirit"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "encouraging / inspiring / inspirational",
-        "descriptor_index": 2163,
-        "amplitude": 0.0068506952,
-        "abs_amplitude": 0.0068506952,
-        "raw_amplitude": 0.0140966164,
-        "percent": 0.851964,
-        "raw_percent": 0.62811,
-        "coverage_percent": 71.554888,
-        "member_count": 3,
-        "members": [
-          "encouraging",
-          "inspiring",
-          "inspirational"
-        ],
-        "support": 2,
-        "effective_support": 1.457945,
-        "support_factor": 0.485982,
-        "top_characters": [
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0113460094,
-            "similarity": 0.881194,
-            "matched_descriptor": "grateful"
-          },
-          {
-            "character_id": 1305,
-            "name": "Asuka Tenjouin",
-            "native_name": "天上院明日香",
-            "anime": "Yu-Gi-Oh! ARC-V",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-            "site_url": "https://anilist.co/character/1305",
-            "anime_url": "https://myanimelist.net/anime/21639",
-            "role": "SUPPORTING",
-            "favourites": 233,
-            "row_weight": 2.5407324,
-            "projection": 0.002750607,
-            "similarity": 0.854619,
-            "matched_descriptor": "satisfaction-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fashion-forward / fashionable",
-        "descriptor_index": 2458,
-        "amplitude": 0.0067485522,
-        "abs_amplitude": 0.0067485522,
-        "raw_amplitude": 0.0202456567,
-        "percent": 0.839261,
-        "raw_percent": 0.902095,
-        "coverage_percent": 72.394149,
-        "member_count": 2,
-        "members": [
-          "fashion-forward",
-          "fashionable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0202456567,
-            "similarity": 0.89998,
-            "matched_descriptor": "clean-cut"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "dormant",
-        "descriptor_index": 1928,
-        "amplitude": 0.0064847281,
-        "abs_amplitude": 0.0064847281,
-        "raw_amplitude": 0.0194541844,
-        "percent": 0.806451,
-        "raw_percent": 0.866829,
-        "coverage_percent": 73.2006,
-        "member_count": 1,
-        "members": [
-          "dormant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.0194541844,
-            "similarity": 0.811751,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0064683456,
-        "abs_amplitude": 0.0064683456,
-        "raw_amplitude": 0.0194050368,
-        "percent": 0.804414,
-        "raw_percent": 0.864639,
-        "coverage_percent": 74.005014,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0194050368,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "volunteer / humanitarian",
-        "descriptor_index": 8411,
-        "amplitude": 0.0063866435,
-        "abs_amplitude": 0.0063866435,
-        "raw_amplitude": 0.0191599306,
-        "percent": 0.794253,
-        "raw_percent": 0.853718,
-        "coverage_percent": 74.799267,
-        "member_count": 2,
-        "members": [
-          "volunteer",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0191599306,
-            "similarity": 0.861211,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "respectable / honorable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0063731883,
-        "abs_amplitude": 0.0063731883,
-        "raw_amplitude": 0.019119565,
-        "percent": 0.79258,
-        "raw_percent": 0.85192,
-        "coverage_percent": 75.591847,
-        "member_count": 2,
-        "members": [
-          "respectable",
-          "honorable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13886,
-            "name": "Reiko Natsume",
-            "native_name": "夏目レイコ",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
-            "site_url": "https://anilist.co/character/13886",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "SUPPORTING",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.019119565,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "glamorous / seductive / gorgeous",
-        "descriptor_index": 3009,
-        "amplitude": 0.0061360867,
-        "abs_amplitude": 0.0061360867,
-        "raw_amplitude": 0.0184082601,
-        "percent": 0.763094,
-        "raw_percent": 0.820226,
-        "coverage_percent": 76.354941,
-        "member_count": 3,
-        "members": [
-          "glamorous",
-          "seductive",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 31783,
-            "name": "Natsumi Raimon",
-            "native_name": "雷門夏未",
-            "anime": "Inazuma Eleven",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-            "site_url": "https://anilist.co/character/31783",
-            "anime_url": "https://myanimelist.net/anime/5231",
-            "role": "SUPPORTING",
-            "favourites": 152,
-            "row_weight": 2.455695,
-            "projection": 0.0184082601,
-            "similarity": 0.887039,
-            "matched_descriptor": "clean-cut"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "homeless-like / homeless",
-        "descriptor_index": 3542,
-        "amplitude": 0.005755955,
-        "abs_amplitude": 0.005755955,
-        "raw_amplitude": 0.017267865,
-        "percent": 0.71582,
-        "raw_percent": 0.769412,
-        "coverage_percent": 77.070761,
-        "member_count": 2,
-        "members": [
-          "homeless-like",
-          "homeless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120901,
-            "name": "Kitten",
-            "native_name": "キトゥン",
-            "anime": "Gravity Rush: The Animation - Overture",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-            "site_url": "https://anilist.co/character/120901",
-            "anime_url": "https://myanimelist.net/anime/33697",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.017267865,
-            "similarity": 0.853785,
-            "matched_descriptor": "lost girl"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "uncommitted",
-        "descriptor_index": 8076,
-        "amplitude": 0.0055632093,
-        "abs_amplitude": 0.0055632093,
-        "raw_amplitude": 0.016689628,
-        "percent": 0.69185,
-        "raw_percent": 0.743648,
-        "coverage_percent": 77.762611,
-        "member_count": 1,
-        "members": [
-          "uncommitted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3060,
-            "name": "Ennis",
-            "native_name": "エニス",
-            "anime": "Baccano!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-            "site_url": "https://anilist.co/character/3060",
-            "anime_url": "https://myanimelist.net/anime/2251",
-            "role": "MAIN",
-            "favourites": 238,
-            "row_weight": 2.54488969,
-            "projection": 0.016689628,
-            "similarity": 0.789788,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "rambunctious / energetic / hyper-active / active / +2",
-        "descriptor_index": 6113,
-        "amplitude": 0.0052209667,
-        "abs_amplitude": 0.0052209667,
-        "raw_amplitude": 0.0156629,
-        "percent": 0.649288,
-        "raw_percent": 0.697899,
-        "coverage_percent": 78.411898,
-        "member_count": 6,
-        "members": [
-          "rambunctious",
-          "energetic",
-          "hyper-active",
-          "active",
-          "exuberant",
-          "spirited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13784,
-            "name": "Madara",
-            "native_name": "斑",
-            "anime": "Natsume's Book of Friends Season 1",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
-            "site_url": "https://anilist.co/character/13784",
-            "anime_url": "https://myanimelist.net/anime/4081",
-            "role": "MAIN",
-            "favourites": 1590,
-            "row_weight": 2.04598607,
-            "projection": 0.0156628999,
-            "similarity": 0.868121,
-            "matched_descriptor": "powerful spirit"
-          }
-        ]
+        "fit_percent": 95.236899,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 3060,
-        "name": "Ennis",
-        "native_name": "エニス",
-        "anime": "Baccano!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-        "site_url": "https://anilist.co/character/3060",
-        "anime_url": "https://myanimelist.net/anime/2251",
-        "role": "MAIN",
-        "favourites": 238,
-        "row_weight": 2.54488969,
-        "amplitude": 0.5891431929,
-        "abs_amplitude": 0.5891431929,
-        "percent": 34.70897
+        "character_id": 1305,
+        "name": "Asuka Tenjouin",
+        "anime": "Yu-Gi-Oh! ARC-V",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+        "site_url": "https://anilist.co/character/1305",
+        "favourites": 233,
+        "anilist_favourites": 233,
+        "bangumi_collects": 40,
+        "bangumi_comments": 15,
+        "bangumi_character_id": 25430,
+        "bangumi_url": "https://bgm.tv/character/25430",
+        "combined_favourites": 273,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.5716003,
+        "row_weight": 2.5716003,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5459848218,
+        "abs_amplitude": 0.5459848218,
+        "percent": 29.809943
       },
       {
         "character_id": 13886,
         "name": "Reiko Natsume",
-        "native_name": "夏目レイコ",
         "anime": "Natsume's Book of Friends Season 1",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
         "site_url": "https://anilist.co/character/13886",
-        "anime_url": "https://myanimelist.net/anime/4081",
-        "role": "SUPPORTING",
         "favourites": 246,
-        "row_weight": 2.5513503,
-        "amplitude": 0.578284063,
-        "abs_amplitude": 0.578284063,
-        "percent": 33.441246
+        "anilist_favourites": 246,
+        "bangumi_collects": 121,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 76,
+        "bangumi_url": "https://bgm.tv/character/76",
+        "combined_favourites": 367,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.62832322,
+        "row_weight": 2.62832322,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5358636326,
+        "abs_amplitude": 0.5358636326,
+        "percent": 28.714983
       },
       {
-        "character_id": 31783,
-        "name": "Natsumi Raimon",
-        "native_name": "雷門夏未",
-        "anime": "Inazuma Eleven",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-        "site_url": "https://anilist.co/character/31783",
-        "anime_url": "https://myanimelist.net/anime/5231",
-        "role": "SUPPORTING",
-        "favourites": 152,
-        "row_weight": 2.455695,
-        "amplitude": 0.4132601692,
-        "abs_amplitude": 0.4132601692,
-        "percent": 17.078397
-      },
-      {
-        "character_id": 1305,
-        "name": "Asuka Tenjouin",
-        "native_name": "天上院明日香",
-        "anime": "Yu-Gi-Oh! ARC-V",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-        "site_url": "https://anilist.co/character/1305",
-        "anime_url": "https://myanimelist.net/anime/21639",
-        "role": "SUPPORTING",
-        "favourites": 233,
-        "row_weight": 2.5407324,
-        "amplitude": 0.2404032872,
-        "abs_amplitude": 0.2404032872,
-        "percent": 5.779374
-      },
-      {
-        "character_id": 120901,
-        "name": "Kitten",
-        "native_name": "キトゥン",
-        "anime": "Gravity Rush: The Animation - Overture",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-        "site_url": "https://anilist.co/character/120901",
-        "anime_url": "https://myanimelist.net/anime/33697",
-        "role": "MAIN",
-        "favourites": 109,
-        "row_weight": 2.38756788,
-        "amplitude": 0.2252087251,
-        "abs_amplitude": 0.2252087251,
-        "percent": 5.071897
+        "character_id": 3060,
+        "name": "Ennis",
+        "anime": "Baccano!",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+        "site_url": "https://anilist.co/character/3060",
+        "favourites": 238,
+        "anilist_favourites": 238,
+        "bangumi_collects": 54,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 32126,
+        "bangumi_url": "https://bgm.tv/character/32126",
+        "combined_favourites": 292,
+        "role_edge_count": 1,
+        "descriptors": [
+          "reserved"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.58460299,
+        "row_weight": 2.58460299,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5249866554,
+        "abs_amplitude": 0.5249866554,
+        "percent": 27.561099
       },
       {
         "character_id": 13784,
         "name": "Madara",
-        "native_name": "斑",
         "anime": "Natsume's Book of Friends Season 1",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
         "site_url": "https://anilist.co/character/13784",
-        "anime_url": "https://myanimelist.net/anime/4081",
-        "role": "MAIN",
         "favourites": 1590,
-        "row_weight": 2.04598607,
-        "amplitude": 0.1979928358,
-        "abs_amplitude": 0.1979928358,
-        "percent": 3.920116
+        "anilist_favourites": 1590,
+        "bangumi_collects": 8,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 70298,
+        "bangumi_url": "https://bgm.tv/character/70298",
+        "combined_favourites": 1598,
+        "role_edge_count": 2,
+        "descriptors": [
+          "powerful"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.89432785,
+        "row_weight": 2.04659885,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3730144144,
+        "abs_amplitude": 0.3730144144,
+        "percent": 13.913975
       }
     ],
     "positive_characters": [
       {
-        "character_id": 3060,
-        "name": "Ennis",
-        "native_name": "エニス",
-        "anime": "Baccano!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
-        "site_url": "https://anilist.co/character/3060",
-        "anime_url": "https://myanimelist.net/anime/2251",
-        "role": "MAIN",
-        "favourites": 238,
-        "row_weight": 2.54488969,
-        "amplitude": 0.5891431929,
-        "abs_amplitude": 0.5891431929,
-        "percent": 34.70897
+        "character_id": 1305,
+        "name": "Asuka Tenjouin",
+        "anime": "Yu-Gi-Oh! ARC-V",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+        "site_url": "https://anilist.co/character/1305",
+        "favourites": 233,
+        "anilist_favourites": 233,
+        "bangumi_collects": 40,
+        "bangumi_comments": 15,
+        "bangumi_character_id": 25430,
+        "bangumi_url": "https://bgm.tv/character/25430",
+        "combined_favourites": 273,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.5716003,
+        "row_weight": 2.5716003,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5459848218,
+        "abs_amplitude": 0.5459848218,
+        "percent": 29.809943
       },
       {
         "character_id": 13886,
         "name": "Reiko Natsume",
-        "native_name": "夏目レイコ",
         "anime": "Natsume's Book of Friends Season 1",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
         "site_url": "https://anilist.co/character/13886",
-        "anime_url": "https://myanimelist.net/anime/4081",
-        "role": "SUPPORTING",
         "favourites": 246,
-        "row_weight": 2.5513503,
-        "amplitude": 0.578284063,
-        "abs_amplitude": 0.578284063,
-        "percent": 33.441246
+        "anilist_favourites": 246,
+        "bangumi_collects": 121,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 76,
+        "bangumi_url": "https://bgm.tv/character/76",
+        "combined_favourites": 367,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.62832322,
+        "row_weight": 2.62832322,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5358636326,
+        "abs_amplitude": 0.5358636326,
+        "percent": 28.714983
       },
       {
-        "character_id": 31783,
-        "name": "Natsumi Raimon",
-        "native_name": "雷門夏未",
-        "anime": "Inazuma Eleven",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b31783-F4bSTx1oJiBg.png",
-        "site_url": "https://anilist.co/character/31783",
-        "anime_url": "https://myanimelist.net/anime/5231",
-        "role": "SUPPORTING",
-        "favourites": 152,
-        "row_weight": 2.455695,
-        "amplitude": 0.4132601692,
-        "abs_amplitude": 0.4132601692,
-        "percent": 17.078397
-      },
-      {
-        "character_id": 1305,
-        "name": "Asuka Tenjouin",
-        "native_name": "天上院明日香",
-        "anime": "Yu-Gi-Oh! ARC-V",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
-        "site_url": "https://anilist.co/character/1305",
-        "anime_url": "https://myanimelist.net/anime/21639",
-        "role": "SUPPORTING",
-        "favourites": 233,
-        "row_weight": 2.5407324,
-        "amplitude": 0.2404032872,
-        "abs_amplitude": 0.2404032872,
-        "percent": 5.779374
-      },
-      {
-        "character_id": 120901,
-        "name": "Kitten",
-        "native_name": "キトゥン",
-        "anime": "Gravity Rush: The Animation - Overture",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120901-srTFK7UTwQPW.png",
-        "site_url": "https://anilist.co/character/120901",
-        "anime_url": "https://myanimelist.net/anime/33697",
-        "role": "MAIN",
-        "favourites": 109,
-        "row_weight": 2.38756788,
-        "amplitude": 0.2252087251,
-        "abs_amplitude": 0.2252087251,
-        "percent": 5.071897
+        "character_id": 3060,
+        "name": "Ennis",
+        "anime": "Baccano!",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+        "site_url": "https://anilist.co/character/3060",
+        "favourites": 238,
+        "anilist_favourites": 238,
+        "bangumi_collects": 54,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 32126,
+        "bangumi_url": "https://bgm.tv/character/32126",
+        "combined_favourites": 292,
+        "role_edge_count": 1,
+        "descriptors": [
+          "reserved"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.58460299,
+        "row_weight": 2.58460299,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5249866554,
+        "abs_amplitude": 0.5249866554,
+        "percent": 27.561099
       },
       {
         "character_id": 13784,
         "name": "Madara",
-        "native_name": "斑",
         "anime": "Natsume's Book of Friends Season 1",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
         "site_url": "https://anilist.co/character/13784",
-        "anime_url": "https://myanimelist.net/anime/4081",
-        "role": "MAIN",
         "favourites": 1590,
-        "row_weight": 2.04598607,
-        "amplitude": 0.1979928358,
-        "abs_amplitude": 0.1979928358,
-        "percent": 3.920116
+        "anilist_favourites": 1590,
+        "bangumi_collects": 8,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 70298,
+        "bangumi_url": "https://bgm.tv/character/70298",
+        "combined_favourites": 1598,
+        "role_edge_count": 2,
+        "descriptors": [
+          "powerful"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.89432785,
+        "row_weight": 2.04659885,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3730144144,
+        "abs_amplitude": 0.3730144144,
+        "percent": 13.913975
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 3.750381,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "reserved / loyal / kind / +1",
+          "support": 4,
+          "variance": 0.0065470206,
+          "seed_descriptor": "reserved",
+          "components": [
+            {
+              "descriptor": "reserved",
+              "weight": 0.48566599,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "loyal",
+              "weight": 0.22011941,
+              "similarity_to_seed": 0.67322513,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.16365437,
+              "similarity_to_seed": 0.58049029,
+              "support": 1
+            },
+            {
+              "descriptor": "powerful",
+              "weight": 0.13056023,
+              "similarity_to_seed": 0.5184855,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.0065470206,
+          "minimum_y_projection_variance": 0.0016367551,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 4,
+          "x_component_count": 4,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0006547021,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0016367551,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0032735103,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 13784,
+            "name": "Madara",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
+            "site_url": "https://anilist.co/character/13784",
+            "favourites": 1590,
+            "anilist_favourites": 1590,
+            "bangumi_collects": 8,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 70298,
+            "bangumi_url": "https://bgm.tv/character/70298",
+            "combined_favourites": 1598,
+            "role_edge_count": 2,
+            "descriptors": [
+              "powerful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.89432785,
+            "row_weight": 2.04659885,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7151135835,
+            "x_score": -0.1012794235,
+            "amplitude": -0.1012794235,
+            "x_direct": true
+          },
+          {
+            "character_id": 13886,
+            "name": "Reiko Natsume",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
+            "site_url": "https://anilist.co/character/13886",
+            "favourites": 246,
+            "anilist_favourites": 246,
+            "bangumi_collects": 121,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 76,
+            "bangumi_url": "https://bgm.tv/character/76",
+            "combined_favourites": 367,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62832322,
+            "row_weight": 2.62832322,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7703800508,
+            "x_score": -0.0460129562,
+            "amplitude": -0.0460129562,
+            "x_direct": true
+          },
+          {
+            "character_id": 3060,
+            "name": "Ennis",
+            "anime": "Baccano!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+            "site_url": "https://anilist.co/character/3060",
+            "favourites": 238,
+            "anilist_favourites": 238,
+            "bangumi_collects": 54,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 32126,
+            "bangumi_url": "https://bgm.tv/character/32126",
+            "combined_favourites": 292,
+            "role_edge_count": 1,
+            "descriptors": [
+              "reserved"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.58460299,
+            "row_weight": 2.58460299,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.9285479361,
+            "x_score": 0.1121549292,
+            "amplitude": 0.1121549292,
+            "x_direct": true
+          },
+          {
+            "character_id": 1305,
+            "name": "Asuka Tenjouin",
+            "anime": "Yu-Gi-Oh! ARC-V",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+            "site_url": "https://anilist.co/character/1305",
+            "favourites": 233,
+            "anilist_favourites": 233,
+            "bangumi_collects": 40,
+            "bangumi_comments": 15,
+            "bangumi_character_id": 25430,
+            "bangumi_url": "https://bgm.tv/character/25430",
+            "combined_favourites": 273,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.5716003,
+            "row_weight": 2.5716003,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.8515304574,
+            "x_score": 0.0351374505,
+            "amplitude": 0.0351374505,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 0.816393007
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 2,
+        "x_axis": {
+          "descriptor": "powerful / powerless / forceful / +9",
+          "support": 1,
+          "variance": 0.0077858199,
+          "seed_descriptor": "powerful",
+          "components": [
+            {
+              "descriptor": "powerful",
+              "weight": 0.14849834,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "powerless",
+              "weight": 0.08824812,
+              "similarity_to_seed": 0.77088914,
+              "support": 0
+            },
+            {
+              "descriptor": "forceful",
+              "weight": 0.08564856,
+              "similarity_to_seed": 0.75945009,
+              "support": 0
+            },
+            {
+              "descriptor": "fierce",
+              "weight": 0.08179564,
+              "similarity_to_seed": 0.74217152,
+              "support": 0
+            },
+            {
+              "descriptor": "formidable",
+              "weight": 0.07877713,
+              "similarity_to_seed": 0.72834858,
+              "support": 0
+            },
+            {
+              "descriptor": "daring",
+              "weight": 0.07590746,
+              "similarity_to_seed": 0.71495947,
+              "support": 0
+            },
+            {
+              "descriptor": "strong-willed",
+              "weight": 0.07575917,
+              "similarity_to_seed": 0.71426079,
+              "support": 0
+            },
+            {
+              "descriptor": "passionate",
+              "weight": 0.07517193,
+              "similarity_to_seed": 0.71148712,
+              "support": 0
+            },
+            {
+              "descriptor": "courageous",
+              "weight": 0.07510624,
+              "similarity_to_seed": 0.71117622,
+              "support": 0
+            },
+            {
+              "descriptor": "heroic",
+              "weight": 0.07324737,
+              "similarity_to_seed": 0.70232029,
+              "support": 0
+            },
+            {
+              "descriptor": "dominant",
+              "weight": 0.07135365,
+              "similarity_to_seed": 0.69318205,
+              "support": 0
+            },
+            {
+              "descriptor": "tough",
+              "weight": 0.07048641,
+              "similarity_to_seed": 0.68895664,
+              "support": 0
+            }
+          ]
+        },
+        "y_axis": {
+          "descriptor": "kind / kind-hearted / amiable / +9",
+          "support": 1,
+          "variance": 0.0077240656,
+          "seed_descriptor": "kind",
+          "components": [
+            {
+              "descriptor": "kind",
+              "weight": 0.1438704,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "kind-hearted",
+              "weight": 0.08786369,
+              "similarity_to_seed": 0.78148205,
+              "support": 0
+            },
+            {
+              "descriptor": "amiable",
+              "weight": 0.08199609,
+              "similarity_to_seed": 0.75493723,
+              "support": 0
+            },
+            {
+              "descriptor": "pleasant",
+              "weight": 0.07973937,
+              "similarity_to_seed": 0.74447599,
+              "support": 0
+            },
+            {
+              "descriptor": "nice",
+              "weight": 0.07953554,
+              "similarity_to_seed": 0.74352385,
+              "support": 0
+            },
+            {
+              "descriptor": "good-natured",
+              "weight": 0.07768742,
+              "similarity_to_seed": 0.73483466,
+              "support": 0
+            },
+            {
+              "descriptor": "hedonistic",
+              "weight": 0.07710698,
+              "similarity_to_seed": 0.73208435,
+              "support": 0
+            },
+            {
+              "descriptor": "good",
+              "weight": 0.0768323,
+              "similarity_to_seed": 0.73077926,
+              "support": 0
+            },
+            {
+              "descriptor": "benevolent",
+              "weight": 0.07485803,
+              "similarity_to_seed": 0.72132916,
+              "support": 0
+            },
+            {
+              "descriptor": "thoughtful",
+              "weight": 0.07381502,
+              "similarity_to_seed": 0.71628631,
+              "support": 0
+            },
+            {
+              "descriptor": "gentlemanly",
+              "weight": 0.07357302,
+              "similarity_to_seed": 0.71511118,
+              "support": 0
+            },
+            {
+              "descriptor": "pure",
+              "weight": 0.07312214,
+              "similarity_to_seed": 0.71291659,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "Two strictly positive descriptor-mixture lanes are selected by maximizing centered 2D volume while penalizing semantic non-orthogonality.",
+          "component_scope": "universal_515",
+          "correlation": -0.3384783845,
+          "lane_cosine": 0.8115848564,
+          "volume_score": 6.01382e-05,
+          "orthogonality_score": 0.3413300208,
+          "objective": 0.0026364555,
+          "y_residual_variance_after_x": 0.0077240656,
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "minimum_y_projection_variance": 0.001946455,
+          "x_projection_variance": 0.0077858199,
+          "y_projection_variance": 0.0077240656,
+          "neighbor_count": 12,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": true,
+                "passing_count": 69,
+                "minimum_y_projection_variance": 0.000778582,
+                "best_y_descriptor": "kind / kind-hearted / amiable / +9",
+                "best_y_variance": 0.0077240656,
+                "best_correlation": -0.3384783845,
+                "best_lane_cosine": 0.8115848564
+              },
+              "25pct": {
+                "passes": true,
+                "passing_count": 69,
+                "minimum_y_projection_variance": 0.001946455,
+                "best_y_descriptor": "kind / kind-hearted / amiable / +9",
+                "best_y_variance": 0.0077240656,
+                "best_correlation": -0.3384783845,
+                "best_lane_cosine": 0.8115848564
+              },
+              "50pct": {
+                "passes": true,
+                "passing_count": 10,
+                "minimum_y_projection_variance": 0.0038929099,
+                "best_y_descriptor": "kind / kind-hearted / amiable / +9",
+                "best_y_variance": 0.0077240656,
+                "best_correlation": -0.3384783845,
+                "best_lane_cosine": 0.8115848564
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "kind / kind-hearted / amiable / +9",
+            "variance": 0.0077240656,
+            "correlation": -0.3384783845,
+            "abs_correlation": 0.3384783845,
+            "lane_cosine": 0.8115848564,
+            "orthogonality_score": 0.3413300208,
+            "objective": 0.0026364555,
+            "components": [
+              {
+                "descriptor": "kind",
+                "weight": 0.1438704,
+                "similarity_to_seed": 1.0,
+                "support": 1
+              },
+              {
+                "descriptor": "kind-hearted",
+                "weight": 0.08786369,
+                "similarity_to_seed": 0.78148205,
+                "support": 0
+              },
+              {
+                "descriptor": "amiable",
+                "weight": 0.08199609,
+                "similarity_to_seed": 0.75493723,
+                "support": 0
+              },
+              {
+                "descriptor": "pleasant",
+                "weight": 0.07973937,
+                "similarity_to_seed": 0.74447599,
+                "support": 0
+              },
+              {
+                "descriptor": "nice",
+                "weight": 0.07953554,
+                "similarity_to_seed": 0.74352385,
+                "support": 0
+              },
+              {
+                "descriptor": "good-natured",
+                "weight": 0.07768742,
+                "similarity_to_seed": 0.73483466,
+                "support": 0
+              },
+              {
+                "descriptor": "hedonistic",
+                "weight": 0.07710698,
+                "similarity_to_seed": 0.73208435,
+                "support": 0
+              },
+              {
+                "descriptor": "good",
+                "weight": 0.0768323,
+                "similarity_to_seed": 0.73077926,
+                "support": 0
+              },
+              {
+                "descriptor": "benevolent",
+                "weight": 0.07485803,
+                "similarity_to_seed": 0.72132916,
+                "support": 0
+              },
+              {
+                "descriptor": "thoughtful",
+                "weight": 0.07381502,
+                "similarity_to_seed": 0.71628631,
+                "support": 0
+              },
+              {
+                "descriptor": "gentlemanly",
+                "weight": 0.07357302,
+                "similarity_to_seed": 0.71511118,
+                "support": 0
+              },
+              {
+                "descriptor": "pure",
+                "weight": 0.07312214,
+                "similarity_to_seed": 0.71291659,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1.",
+          "selection_order": "x is the highest-variance positive lane; y is chosen by lowest feasible correlation tier, then residual variance, then semantic orthogonality.",
+          "similarity_floor": 0.35,
+          "orthogonality_penalty": 1.0
+        },
+        "characters": [
+          {
+            "character_id": 13784,
+            "name": "Madara",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
+            "site_url": "https://anilist.co/character/13784",
+            "favourites": 1590,
+            "anilist_favourites": 1590,
+            "bangumi_collects": 8,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 70298,
+            "bangumi_url": "https://bgm.tv/character/70298",
+            "combined_favourites": 1598,
+            "role_edge_count": 2,
+            "descriptors": [
+              "powerful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.89432785,
+            "row_weight": 2.04659885,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.8955645086,
+            "y_raw_score": 0.6751980137,
+            "x_direct": true,
+            "y_direct": false,
+            "x_score": 0.1448445839,
+            "y_score": -0.0722176552
+          },
+          {
+            "character_id": 13886,
+            "name": "Reiko Natsume",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
+            "site_url": "https://anilist.co/character/13886",
+            "favourites": 246,
+            "anilist_favourites": 246,
+            "bangumi_collects": 121,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 76,
+            "bangumi_url": "https://bgm.tv/character/76",
+            "combined_favourites": 367,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62832322,
+            "row_weight": 2.62832322,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7164713094,
+            "y_raw_score": 0.8972376137,
+            "x_direct": false,
+            "y_direct": true,
+            "x_score": -0.0342486153,
+            "y_score": 0.1498219448
+          },
+          {
+            "character_id": 3060,
+            "name": "Ennis",
+            "anime": "Baccano!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+            "site_url": "https://anilist.co/character/3060",
+            "favourites": 238,
+            "anilist_favourites": 238,
+            "bangumi_collects": 54,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 32126,
+            "bangumi_url": "https://bgm.tv/character/32126",
+            "combined_favourites": 292,
+            "role_edge_count": 1,
+            "descriptors": [
+              "reserved"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.58460299,
+            "row_weight": 2.58460299,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.6575100415,
+            "y_raw_score": 0.6980531081,
+            "x_direct": false,
+            "y_direct": false,
+            "x_score": -0.0932098832,
+            "y_score": -0.0493625608
+          },
+          {
+            "character_id": 1305,
+            "name": "Asuka Tenjouin",
+            "anime": "Yu-Gi-Oh! ARC-V",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+            "site_url": "https://anilist.co/character/1305",
+            "favourites": 233,
+            "anilist_favourites": 233,
+            "bangumi_collects": 40,
+            "bangumi_comments": 15,
+            "bangumi_character_id": 25430,
+            "bangumi_url": "https://bgm.tv/character/25430",
+            "combined_favourites": 273,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.5716003,
+            "row_weight": 2.5716003,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7333338395,
+            "y_raw_score": 0.7191739403,
+            "x_direct": false,
+            "y_direct": false,
+            "x_score": -0.0173860853,
+            "y_score": -0.0282417287
+          }
+        ],
+        "center": {
+          "x_raw_mean": 0.7507199248,
+          "y_raw_mean": 0.747415669
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x/y are dot products onto positive descriptor-mixture lanes, then centered by subtracting this seiyuu's mean x/y projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "reserved / loyal / kind / +1",
+        "support": 4,
+        "variance": 0.0065470206,
+        "seed_descriptor": "reserved",
+        "components": [
+          {
+            "descriptor": "reserved",
+            "weight": 0.48566599,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "loyal",
+            "weight": 0.22011941,
+            "similarity_to_seed": 0.67322513,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.16365437,
+            "similarity_to_seed": 0.58049029,
+            "support": 1
+          },
+          {
+            "descriptor": "powerful",
+            "weight": 0.13056023,
+            "similarity_to_seed": 0.5184855,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.0065470206,
+        "minimum_y_projection_variance": 0.0016367551,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 4,
+        "x_component_count": 4,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0006547021,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0016367551,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0032735103,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 13784,
+          "name": "Madara",
+          "anime": "Natsume's Book of Friends Season 1",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
+          "site_url": "https://anilist.co/character/13784",
+          "favourites": 1590,
+          "anilist_favourites": 1590,
+          "bangumi_collects": 8,
+          "bangumi_comments": 1,
+          "bangumi_character_id": 70298,
+          "bangumi_url": "https://bgm.tv/character/70298",
+          "combined_favourites": 1598,
+          "role_edge_count": 2,
+          "descriptors": [
+            "powerful"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.89432785,
+          "row_weight": 2.04659885,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7151135835,
+          "x_score": -0.1012794235,
+          "amplitude": -0.1012794235,
+          "x_direct": true
+        },
+        {
+          "character_id": 13886,
+          "name": "Reiko Natsume",
+          "anime": "Natsume's Book of Friends Season 1",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
+          "site_url": "https://anilist.co/character/13886",
+          "favourites": 246,
+          "anilist_favourites": 246,
+          "bangumi_collects": 121,
+          "bangumi_comments": 11,
+          "bangumi_character_id": 76,
+          "bangumi_url": "https://bgm.tv/character/76",
+          "combined_favourites": 367,
+          "role_edge_count": 1,
+          "descriptors": [
+            "kind"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.62832322,
+          "row_weight": 2.62832322,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7703800508,
+          "x_score": -0.0460129562,
+          "amplitude": -0.0460129562,
+          "x_direct": true
+        },
+        {
+          "character_id": 3060,
+          "name": "Ennis",
+          "anime": "Baccano!",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+          "site_url": "https://anilist.co/character/3060",
+          "favourites": 238,
+          "anilist_favourites": 238,
+          "bangumi_collects": 54,
+          "bangumi_comments": 7,
+          "bangumi_character_id": 32126,
+          "bangumi_url": "https://bgm.tv/character/32126",
+          "combined_favourites": 292,
+          "role_edge_count": 1,
+          "descriptors": [
+            "reserved"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.58460299,
+          "row_weight": 2.58460299,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.9285479361,
+          "x_score": 0.1121549292,
+          "amplitude": 0.1121549292,
+          "x_direct": true
+        },
+        {
+          "character_id": 1305,
+          "name": "Asuka Tenjouin",
+          "anime": "Yu-Gi-Oh! ARC-V",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+          "site_url": "https://anilist.co/character/1305",
+          "favourites": 233,
+          "anilist_favourites": 233,
+          "bangumi_collects": 40,
+          "bangumi_comments": 15,
+          "bangumi_character_id": 25430,
+          "bangumi_url": "https://bgm.tv/character/25430",
+          "combined_favourites": 273,
+          "role_edge_count": 1,
+          "descriptors": [
+            "loyal"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.5716003,
+          "row_weight": 2.5716003,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.8515304574,
+          "x_score": 0.0351374505,
+          "amplitude": 0.0351374505,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 0.816393007
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.7189415509,
+      "mass_percent": 12.114662,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 44.900902,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.4490090187,
+            "abs_amplitude": 0.4490090187,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 44.900902,
+            "residual_gain_percent": 20.16091
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 13886,
+            "name": "Reiko Natsume",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
+            "site_url": "https://anilist.co/character/13886",
+            "favourites": 246,
+            "anilist_favourites": 246,
+            "bangumi_collects": 121,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 76,
+            "bangumi_url": "https://bgm.tv/character/76",
+            "combined_favourites": 367,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62832322,
+            "row_weight": 2.62832322,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6865508767,
+            "abs_amplitude": 0.6865508767,
+            "percent": 47.135211
+          },
+          {
+            "character_id": 13784,
+            "name": "Madara",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
+            "site_url": "https://anilist.co/character/13784",
+            "favourites": 1590,
+            "anilist_favourites": 1590,
+            "bangumi_collects": 8,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 70298,
+            "bangumi_url": "https://bgm.tv/character/70298",
+            "combined_favourites": 1598,
+            "role_edge_count": 2,
+            "descriptors": [
+              "powerful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.89432785,
+            "row_weight": 2.04659885,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.2323217583,
+            "abs_amplitude": 0.2323217583,
+            "percent": 5.39734
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 43.887452,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "reserved",
+            "amplitude": 0.4388745163,
+            "abs_amplitude": 0.4388745163,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "reserved",
+            "fit_percent": 43.887452,
+            "residual_gain_percent": 19.261084
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 3060,
+            "name": "Ennis",
+            "anime": "Baccano!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+            "site_url": "https://anilist.co/character/3060",
+            "favourites": 238,
+            "anilist_favourites": 238,
+            "bangumi_collects": 54,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 32126,
+            "bangumi_url": "https://bgm.tv/character/32126",
+            "combined_favourites": 292,
+            "role_edge_count": 1,
+            "descriptors": [
+              "reserved"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.58460299,
+            "row_weight": 2.58460299,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.6598923541,
+            "abs_amplitude": 0.6598923541,
+            "percent": 43.545792
+          },
+          {
+            "character_id": 1305,
+            "name": "Asuka Tenjouin",
+            "anime": "Yu-Gi-Oh! ARC-V",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+            "site_url": "https://anilist.co/character/1305",
+            "favourites": 233,
+            "anilist_favourites": 233,
+            "bangumi_collects": 40,
+            "bangumi_comments": 15,
+            "bangumi_character_id": 25430,
+            "bangumi_url": "https://bgm.tv/character/25430",
+            "combined_favourites": 273,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.5716003,
+            "row_weight": 2.5716003,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.1980317533,
+            "abs_amplitude": 0.1980317533,
+            "percent": 3.921658
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "kind": "variation_axis",
+      "singular_value": 1.5151178299,
+      "mass_percent": 9.412,
+      "relative_to_sv2_percent": 88.142487,
+      "positive_pole": {
+        "descriptor_fit_percent": 41.598639,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "powerful",
+            "amplitude": 0.3591799489,
+            "abs_amplitude": 0.3591799489,
+            "percent": 81.072664
+          },
+          {
+            "rank": 2,
+            "descriptor": "loyal",
+            "amplitude": 0.0838546444,
+            "abs_amplitude": 0.0838546444,
+            "percent": 18.927336
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "powerful",
+            "fit_percent": 41.069012,
+            "residual_gain_percent": 16.866637
+          },
+          {
+            "step": 2,
+            "descriptor": "loyal",
+            "fit_percent": 41.598639,
+            "residual_gain_percent": 0.52666
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 13784,
+            "name": "Madara",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/13784.jpg",
+            "site_url": "https://anilist.co/character/13784",
+            "favourites": 1590,
+            "anilist_favourites": 1590,
+            "bangumi_collects": 8,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 70298,
+            "bangumi_url": "https://bgm.tv/character/70298",
+            "combined_favourites": 1598,
+            "role_edge_count": 2,
+            "descriptors": [
+              "powerful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.89432785,
+            "row_weight": 2.04659885,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.5547541605,
+            "abs_amplitude": 0.5547541605,
+            "percent": 30.775218
+          },
+          {
+            "character_id": 1305,
+            "name": "Asuka Tenjouin",
+            "anime": "Yu-Gi-Oh! ARC-V",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1305.jpg",
+            "site_url": "https://anilist.co/character/1305",
+            "favourites": 233,
+            "anilist_favourites": 233,
+            "bangumi_collects": 40,
+            "bangumi_comments": 15,
+            "bangumi_character_id": 25430,
+            "bangumi_url": "https://bgm.tv/character/25430",
+            "combined_favourites": 273,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.5716003,
+            "row_weight": 2.5716003,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.5168114627,
+            "abs_amplitude": 0.5168114627,
+            "percent": 26.709409
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 30.14936,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.1788165378,
+            "abs_amplitude": 0.1788165378,
+            "percent": 52.745352
+          },
+          {
+            "rank": 2,
+            "descriptor": "reserved",
+            "amplitude": 0.1602020334,
+            "abs_amplitude": 0.1602020334,
+            "percent": 47.254648
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 27.181226,
+            "residual_gain_percent": 7.388191
+          },
+          {
+            "step": 2,
+            "descriptor": "reserved",
+            "fit_percent": 30.14936,
+            "residual_gain_percent": 1.837399
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 13886,
+            "name": "Reiko Natsume",
+            "anime": "Natsume's Book of Friends Season 1",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13886-jvXFmldVIkEu.png",
+            "site_url": "https://anilist.co/character/13886",
+            "favourites": 246,
+            "anilist_favourites": 246,
+            "bangumi_collects": 121,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 76,
+            "bangumi_url": "https://bgm.tv/character/76",
+            "combined_favourites": 367,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.62832322,
+            "row_weight": 2.62832322,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.4715214006,
+            "abs_amplitude": 0.4715214006,
+            "percent": 22.233243
+          },
+          {
+            "character_id": 3060,
+            "name": "Ennis",
+            "anime": "Baccano!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3060-KACYVWNbbN12.png",
+            "site_url": "https://anilist.co/character/3060",
+            "favourites": 238,
+            "anilist_favourites": 238,
+            "bangumi_collects": 54,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 32126,
+            "bangumi_url": "https://bgm.tv/character/32126",
+            "combined_favourites": 292,
+            "role_edge_count": 1,
+            "descriptors": [
+              "reserved"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.58460299,
+            "row_weight": 2.58460299,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.4503568609,
+            "abs_amplitude": 0.4503568609,
+            "percent": 20.28213
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.1602323887,
+      "mass_percent": 70.961741,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.7189415509,
+      "mass_percent": 12.114662,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.5151178299,
+      "mass_percent": 9.412,
+      "relative_to_sv2_percent": 88.142487
+    },
+    {
+      "rank": 4,
+      "singular_value": 1.3535416092,
+      "mass_percent": 7.511597,
+      "relative_to_sv2_percent": 78.742736
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

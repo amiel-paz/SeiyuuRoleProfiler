@@ -10,640 +10,70 @@
   "aliases": [
     "raychell"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/raychell.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.0592353172,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.0592353172,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 272.402387,
-      "normalized_entanglement": 0.709381,
-      "top5_mass_percent": 4.246681,
-      "top10_mass_percent": 8.063897
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5086460142,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "composed / restrained / gentle / relaxed / +3",
-        "descriptor_index": 1331,
-        "amplitude": 0.1027355348,
-        "abs_amplitude": 0.1027355348,
-        "raw_amplitude": 0.3082066044,
-        "percent": 30.82066,
-        "raw_percent": 30.82066,
-        "coverage_percent": 30.82066,
-        "member_count": 7,
-        "members": [
-          "composed",
-          "restrained",
-          "gentle",
-          "relaxed",
-          "nonchalant",
-          "easygoing",
-          "steady"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.3082066044,
-            "similarity": 0.916435,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.0916814111,
-        "abs_amplitude": 0.0916814111,
-        "raw_amplitude": 0.2750442334,
-        "percent": 27.504423,
-        "raw_percent": 27.504423,
-        "coverage_percent": 58.325084,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.50864601,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 136983,
             "name": "Rei Wakana",
-            "native_name": "和奏レイ",
             "anime": "BanG Dream! 2nd Season",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
             "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.2750442334,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "mature",
-        "descriptor_index": 4666,
-        "amplitude": 0.0334834698,
-        "abs_amplitude": 0.0334834698,
-        "raw_amplitude": 0.1004504094,
-        "percent": 10.045041,
-        "raw_percent": 10.045041,
-        "coverage_percent": 68.370125,
-        "member_count": 1,
-        "members": [
-          "mature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.1004504094,
-            "similarity": 0.920305,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "matter-of-fact / straight-laced",
-        "descriptor_index": 4665,
-        "amplitude": 0.033290558,
-        "abs_amplitude": 0.033290558,
-        "raw_amplitude": 0.0998716741,
-        "percent": 9.987167,
-        "raw_percent": 9.987167,
-        "coverage_percent": 78.357292,
-        "member_count": 2,
-        "members": [
-          "matter-of-fact",
-          "straight-laced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.099871674,
-            "similarity": 0.90798,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "absent",
-        "descriptor_index": 15,
-        "amplitude": 0.0193102923,
-        "abs_amplitude": 0.0193102923,
-        "raw_amplitude": 0.057930877,
-        "percent": 5.793088,
-        "raw_percent": 5.793088,
-        "coverage_percent": 84.15038,
-        "member_count": 1,
-        "members": [
-          "absent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.057930877,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "businesslike",
-        "descriptor_index": 878,
-        "amplitude": 0.0179980337,
-        "abs_amplitude": 0.0179980337,
-        "raw_amplitude": 0.0539941011,
-        "percent": 5.39941,
-        "raw_percent": 5.39941,
-        "coverage_percent": 89.54979,
-        "member_count": 1,
-        "members": [
-          "businesslike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.0539941011,
-            "similarity": 0.8991,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "solemn",
-        "descriptor_index": 7074,
-        "amplitude": 0.0119401163,
-        "abs_amplitude": 0.0119401163,
-        "raw_amplitude": 0.0358203488,
-        "percent": 3.582035,
-        "raw_percent": 3.582035,
-        "coverage_percent": 93.131825,
-        "member_count": 1,
-        "members": [
-          "solemn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.0358203488,
-            "similarity": 0.890805,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "arrogant",
-        "descriptor_index": 358,
-        "amplitude": 0.0073276879,
-        "abs_amplitude": 0.0073276879,
-        "raw_amplitude": 0.0219830636,
-        "percent": 2.198306,
-        "raw_percent": 2.198306,
-        "coverage_percent": 95.330131,
-        "member_count": 1,
-        "members": [
-          "arrogant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.0219830636,
-            "similarity": 0.884488,
-            "matched_descriptor": "mature attitude"
+            "combined_favourites": 198
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "composed / restrained / gentle / relaxed / +3",
-        "descriptor_index": 1331,
-        "amplitude": 0.1027355348,
-        "abs_amplitude": 0.1027355348,
-        "raw_amplitude": 0.3082066044,
-        "percent": 30.82066,
-        "raw_percent": 30.82066,
-        "coverage_percent": 30.82066,
-        "member_count": 7,
-        "members": [
-          "composed",
-          "restrained",
-          "gentle",
-          "relaxed",
-          "nonchalant",
-          "easygoing",
-          "steady"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.3082066044,
-            "similarity": 0.916435,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 2,
+        "step": 1,
         "descriptor": "reserved",
-        "descriptor_index": 6250,
-        "amplitude": 0.0916814111,
-        "abs_amplitude": 0.0916814111,
-        "raw_amplitude": 0.2750442334,
-        "percent": 27.504423,
-        "raw_percent": 27.504423,
-        "coverage_percent": 58.325084,
-        "member_count": 1,
-        "members": [
-          "reserved"
-        ],
+        "weighted_support": 2.50864601,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.2750442334,
-            "similarity": 1.0,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "mature",
-        "descriptor_index": 4666,
-        "amplitude": 0.0334834698,
-        "abs_amplitude": 0.0334834698,
-        "raw_amplitude": 0.1004504094,
-        "percent": 10.045041,
-        "raw_percent": 10.045041,
-        "coverage_percent": 68.370125,
-        "member_count": 1,
-        "members": [
-          "mature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.1004504094,
-            "similarity": 0.920305,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "matter-of-fact / straight-laced",
-        "descriptor_index": 4665,
-        "amplitude": 0.033290558,
-        "abs_amplitude": 0.033290558,
-        "raw_amplitude": 0.0998716741,
-        "percent": 9.987167,
-        "raw_percent": 9.987167,
-        "coverage_percent": 78.357292,
-        "member_count": 2,
-        "members": [
-          "matter-of-fact",
-          "straight-laced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.099871674,
-            "similarity": 0.90798,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "absent",
-        "descriptor_index": 15,
-        "amplitude": 0.0193102923,
-        "abs_amplitude": 0.0193102923,
-        "raw_amplitude": 0.057930877,
-        "percent": 5.793088,
-        "raw_percent": 5.793088,
-        "coverage_percent": 84.15038,
-        "member_count": 1,
-        "members": [
-          "absent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.057930877,
-            "similarity": 0.835969,
-            "matched_descriptor": "reserved"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "businesslike",
-        "descriptor_index": 878,
-        "amplitude": 0.0179980337,
-        "abs_amplitude": 0.0179980337,
-        "raw_amplitude": 0.0539941011,
-        "percent": 5.39941,
-        "raw_percent": 5.39941,
-        "coverage_percent": 89.54979,
-        "member_count": 1,
-        "members": [
-          "businesslike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.0539941011,
-            "similarity": 0.8991,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "solemn",
-        "descriptor_index": 7074,
-        "amplitude": 0.0119401163,
-        "abs_amplitude": 0.0119401163,
-        "raw_amplitude": 0.0358203488,
-        "percent": 3.582035,
-        "raw_percent": 3.582035,
-        "coverage_percent": 93.131825,
-        "member_count": 1,
-        "members": [
-          "solemn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.0358203488,
-            "similarity": 0.890805,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "arrogant",
-        "descriptor_index": 358,
-        "amplitude": 0.0073276879,
-        "abs_amplitude": 0.0073276879,
-        "raw_amplitude": 0.0219830636,
-        "percent": 2.198306,
-        "raw_percent": 2.198306,
-        "coverage_percent": 95.330131,
-        "member_count": 1,
-        "members": [
-          "arrogant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 136983,
-            "name": "Rei Wakana",
-            "native_name": "和奏レイ",
-            "anime": "BanG Dream! 2nd Season",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
-            "site_url": "https://anilist.co/character/136983",
-            "anime_url": "https://myanimelist.net/anime/37869",
-            "role": "SUPPORTING",
-            "favourites": 154,
-            "row_weight": 2.45833788,
-            "projection": 0.0219830636,
-            "similarity": 0.884488,
-            "matched_descriptor": "mature attitude"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 136983,
         "name": "Rei Wakana",
-        "native_name": "和奏レイ",
         "anime": "BanG Dream! 2nd Season",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
         "site_url": "https://anilist.co/character/136983",
-        "anime_url": "https://myanimelist.net/anime/37869",
-        "role": "SUPPORTING",
         "favourites": 154,
-        "row_weight": 2.45833788,
+        "anilist_favourites": 154,
+        "bangumi_collects": 44,
+        "bangumi_comments": 17,
+        "bangumi_character_id": 68267,
+        "bangumi_url": "https://bgm.tv/character/68267",
+        "combined_favourites": 198,
+        "role_edge_count": 1,
+        "descriptors": [
+          "reserved"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.50864601,
+        "row_weight": 2.50864601,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -653,19 +83,67 @@
       {
         "character_id": 136983,
         "name": "Rei Wakana",
-        "native_name": "和奏レイ",
         "anime": "BanG Dream! 2nd Season",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b136983-cLucL6a6d9n2.png",
         "site_url": "https://anilist.co/character/136983",
-        "anime_url": "https://myanimelist.net/anime/37869",
-        "role": "SUPPORTING",
         "favourites": 154,
-        "row_weight": 2.45833788,
+        "anilist_favourites": 154,
+        "bangumi_collects": 44,
+        "bangumi_comments": 17,
+        "bangumi_character_id": 68267,
+        "bangumi_url": "https://bgm.tv/character/68267",
+        "combined_favourites": 198,
+        "role_edge_count": 1,
+        "descriptors": [
+          "reserved"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.50864601,
+        "row_weight": 2.50864601,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5086460142,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

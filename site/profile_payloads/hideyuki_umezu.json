@@ -5,579 +5,146 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n101602-wUvWtCkvNGNB.jpg",
   "site_url": "https://anilist.co/staff/101602",
   "role_count": 6,
-  "character_count": 2,
+  "character_count": 1,
   "first_year": 2009,
   "aliases": [
     "hideyuki umezu",
     "umezu hideyuki"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/hideyuki_umezu.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.4050751931,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.4050751931,
-        "mass_percent": 87.723417
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.7701957539,
-        "mass_percent": 12.276583
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 314.896902,
-      "normalized_entanglement": 0.820044,
-      "top5_mass_percent": 3.01225,
-      "top10_mass_percent": 5.716141
-    },
-    "character_participation": {
-      "effective_count": 1.016172,
-      "normalized_entanglement": 0.508086,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.067167,
-      "semantic_spread": 2.067167,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.893924,
-      "direction_spread": 0.893924,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 87.723417,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4782379943,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "note-taker",
-        "descriptor_index": 5212,
-        "amplitude": 0.2300701154,
-        "abs_amplitude": 0.2300701154,
-        "raw_amplitude": 0.6902103463,
-        "percent": 63.339039,
-        "raw_percent": 63.581933,
-        "coverage_percent": 63.339039,
-        "member_count": 1,
-        "members": [
-          "note-taker"
-        ],
+        "descriptor": "easygoing",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.47823799,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5428,
-            "name": "Barry the Chopper",
-            "native_name": "バリー・ザ・チョッパー",
-            "anime": "Fullmetal Alchemist: Brotherhood",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-            "site_url": "https://anilist.co/character/5428",
-            "anime_url": "https://myanimelist.net/anime/5114",
-            "role": "SUPPORTING",
-            "favourites": 209,
-            "row_weight": 2.51934665,
-            "projection": 0.6902103463,
-            "similarity": 0.826687,
-            "matched_descriptor": "experiment subject"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "volunteer / humanitarian",
-        "descriptor_index": 8411,
-        "amplitude": 0.0556678538,
-        "abs_amplitude": 0.0556678538,
-        "raw_amplitude": 0.1628162837,
-        "percent": 15.325538,
-        "raw_percent": 14.998578,
-        "coverage_percent": 78.664578,
-        "member_count": 2,
-        "members": [
-          "volunteer",
-          "humanitarian"
-        ],
-        "support": 2,
-        "effective_support": 1.025718,
-        "support_factor": 0.341906,
-        "top_characters": [
-          {
-            "character_id": 5428,
-            "name": "Barry the Chopper",
-            "native_name": "バリー・ザ・チョッパー",
-            "anime": "Fullmetal Alchemist: Brotherhood",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-            "site_url": "https://anilist.co/character/5428",
-            "anime_url": "https://myanimelist.net/anime/5114",
-            "role": "SUPPORTING",
-            "favourites": 209,
-            "row_weight": 2.51934665,
-            "projection": 0.1607488875,
-            "similarity": 0.795233,
-            "matched_descriptor": "experiment subject"
-          },
+        "supporting_characters": [
           {
             "character_id": 19573,
             "name": "Oscar Vessalius",
-            "native_name": "オスカー・ベザリウス",
             "anime": "PandoraHearts",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
             "site_url": "https://anilist.co/character/19573",
-            "anime_url": "https://myanimelist.net/anime/5530",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0020673963,
-            "similarity": 0.861211,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "abnormality-detecting",
-        "descriptor_index": 13,
-        "amplitude": 0.0483406217,
-        "abs_amplitude": 0.0483406217,
-        "raw_amplitude": 0.1450218652,
-        "percent": 13.308328,
-        "raw_percent": 13.359363,
-        "coverage_percent": 91.972906,
-        "member_count": 1,
-        "members": [
-          "abnormality-detecting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5428,
-            "name": "Barry the Chopper",
-            "native_name": "バリー・ザ・チョッパー",
-            "anime": "Fullmetal Alchemist: Brotherhood",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-            "site_url": "https://anilist.co/character/5428",
-            "anime_url": "https://myanimelist.net/anime/5114",
-            "role": "SUPPORTING",
-            "favourites": 209,
-            "row_weight": 2.51934665,
-            "projection": 0.1450218652,
-            "similarity": 0.794572,
-            "matched_descriptor": "experiment subject"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "caring / soft-spotted / compassionate / loving / +18",
-        "descriptor_index": 958,
-        "amplitude": 0.0082634321,
-        "abs_amplitude": 0.0082634321,
-        "raw_amplitude": 0.0247902964,
-        "percent": 2.274949,
-        "raw_percent": 2.283673,
-        "coverage_percent": 94.247855,
-        "member_count": 22,
-        "members": [
-          "caring",
-          "soft-spotted",
-          "compassionate",
-          "loving",
-          "good-natured",
-          "soft-hearted",
-          "kindhearted",
-          "warm-hearted",
-          "benevolent",
-          "kinder",
-          "tender-hearted",
-          "openhearted",
-          "humane",
-          "cordial",
-          "gentle-hearted",
-          "romantic",
-          "sweet-natured",
-          "pure-hearted",
-          "good-hearted",
-          "soft",
-          "friendly-type",
-          "soft-side"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 19573,
-            "name": "Oscar Vessalius",
-            "native_name": "オスカー・ベザリウス",
-            "anime": "PandoraHearts",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
-            "site_url": "https://anilist.co/character/19573",
-            "anime_url": "https://myanimelist.net/anime/5530",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0247902963,
-            "similarity": 1.0,
-            "matched_descriptor": "caring"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "easy-going / low-energy / chilling / non-violent / +10",
-        "descriptor_index": 2035,
-        "amplitude": 0.0062568104,
-        "abs_amplitude": 0.0062568104,
-        "raw_amplitude": 0.0187704311,
-        "percent": 1.72252,
-        "raw_percent": 1.729125,
-        "coverage_percent": 95.970375,
-        "member_count": 14,
-        "members": [
-          "easy-going",
-          "low-energy",
-          "chilling",
-          "non-violent",
-          "calmest",
-          "cool-headed",
-          "casual",
-          "easygoing",
-          "soothing",
-          "care-free",
-          "carefree",
-          "mild-mannered",
-          "laid-back",
-          "relaxed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 19573,
-            "name": "Oscar Vessalius",
-            "native_name": "オスカー・ベザリウス",
-            "anime": "PandoraHearts",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
-            "site_url": "https://anilist.co/character/19573",
-            "anime_url": "https://myanimelist.net/anime/5530",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0187704311,
-            "similarity": 1.0,
-            "matched_descriptor": "easy-going"
+            "combined_favourites": 170
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "note-taker",
-        "descriptor_index": 5212,
-        "amplitude": 0.2300701154,
-        "abs_amplitude": 0.2300701154,
-        "raw_amplitude": 0.6902103463,
-        "percent": 63.339039,
-        "raw_percent": 63.581933,
-        "coverage_percent": 63.339039,
-        "member_count": 1,
-        "members": [
-          "note-taker"
-        ],
+        "step": 1,
+        "descriptor": "easygoing",
+        "weighted_support": 2.47823799,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5428,
-            "name": "Barry the Chopper",
-            "native_name": "バリー・ザ・チョッパー",
-            "anime": "Fullmetal Alchemist: Brotherhood",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-            "site_url": "https://anilist.co/character/5428",
-            "anime_url": "https://myanimelist.net/anime/5114",
-            "role": "SUPPORTING",
-            "favourites": 209,
-            "row_weight": 2.51934665,
-            "projection": 0.6902103463,
-            "similarity": 0.826687,
-            "matched_descriptor": "experiment subject"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "volunteer / humanitarian",
-        "descriptor_index": 8411,
-        "amplitude": 0.0556678538,
-        "abs_amplitude": 0.0556678538,
-        "raw_amplitude": 0.1628162837,
-        "percent": 15.325538,
-        "raw_percent": 14.998578,
-        "coverage_percent": 78.664578,
-        "member_count": 2,
-        "members": [
-          "volunteer",
-          "humanitarian"
-        ],
-        "support": 2,
-        "effective_support": 1.025718,
-        "support_factor": 0.341906,
-        "top_characters": [
-          {
-            "character_id": 5428,
-            "name": "Barry the Chopper",
-            "native_name": "バリー・ザ・チョッパー",
-            "anime": "Fullmetal Alchemist: Brotherhood",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-            "site_url": "https://anilist.co/character/5428",
-            "anime_url": "https://myanimelist.net/anime/5114",
-            "role": "SUPPORTING",
-            "favourites": 209,
-            "row_weight": 2.51934665,
-            "projection": 0.1607488875,
-            "similarity": 0.795233,
-            "matched_descriptor": "experiment subject"
-          },
-          {
-            "character_id": 19573,
-            "name": "Oscar Vessalius",
-            "native_name": "オスカー・ベザリウス",
-            "anime": "PandoraHearts",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
-            "site_url": "https://anilist.co/character/19573",
-            "anime_url": "https://myanimelist.net/anime/5530",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0020673963,
-            "similarity": 0.861211,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "abnormality-detecting",
-        "descriptor_index": 13,
-        "amplitude": 0.0483406217,
-        "abs_amplitude": 0.0483406217,
-        "raw_amplitude": 0.1450218652,
-        "percent": 13.308328,
-        "raw_percent": 13.359363,
-        "coverage_percent": 91.972906,
-        "member_count": 1,
-        "members": [
-          "abnormality-detecting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5428,
-            "name": "Barry the Chopper",
-            "native_name": "バリー・ザ・チョッパー",
-            "anime": "Fullmetal Alchemist: Brotherhood",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-            "site_url": "https://anilist.co/character/5428",
-            "anime_url": "https://myanimelist.net/anime/5114",
-            "role": "SUPPORTING",
-            "favourites": 209,
-            "row_weight": 2.51934665,
-            "projection": 0.1450218652,
-            "similarity": 0.794572,
-            "matched_descriptor": "experiment subject"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "caring / soft-spotted / compassionate / loving / +18",
-        "descriptor_index": 958,
-        "amplitude": 0.0082634321,
-        "abs_amplitude": 0.0082634321,
-        "raw_amplitude": 0.0247902964,
-        "percent": 2.274949,
-        "raw_percent": 2.283673,
-        "coverage_percent": 94.247855,
-        "member_count": 22,
-        "members": [
-          "caring",
-          "soft-spotted",
-          "compassionate",
-          "loving",
-          "good-natured",
-          "soft-hearted",
-          "kindhearted",
-          "warm-hearted",
-          "benevolent",
-          "kinder",
-          "tender-hearted",
-          "openhearted",
-          "humane",
-          "cordial",
-          "gentle-hearted",
-          "romantic",
-          "sweet-natured",
-          "pure-hearted",
-          "good-hearted",
-          "soft",
-          "friendly-type",
-          "soft-side"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 19573,
-            "name": "Oscar Vessalius",
-            "native_name": "オスカー・ベザリウス",
-            "anime": "PandoraHearts",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
-            "site_url": "https://anilist.co/character/19573",
-            "anime_url": "https://myanimelist.net/anime/5530",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0247902963,
-            "similarity": 1.0,
-            "matched_descriptor": "caring"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "easy-going / low-energy / chilling / non-violent / +10",
-        "descriptor_index": 2035,
-        "amplitude": 0.0062568104,
-        "abs_amplitude": 0.0062568104,
-        "raw_amplitude": 0.0187704311,
-        "percent": 1.72252,
-        "raw_percent": 1.729125,
-        "coverage_percent": 95.970375,
-        "member_count": 14,
-        "members": [
-          "easy-going",
-          "low-energy",
-          "chilling",
-          "non-violent",
-          "calmest",
-          "cool-headed",
-          "casual",
-          "easygoing",
-          "soothing",
-          "care-free",
-          "carefree",
-          "mild-mannered",
-          "laid-back",
-          "relaxed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 19573,
-            "name": "Oscar Vessalius",
-            "native_name": "オスカー・ベザリウス",
-            "anime": "PandoraHearts",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
-            "site_url": "https://anilist.co/character/19573",
-            "anime_url": "https://myanimelist.net/anime/5530",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0187704311,
-            "similarity": 1.0,
-            "matched_descriptor": "easy-going"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 5428,
-        "name": "Barry the Chopper",
-        "native_name": "バリー・ザ・チョッパー",
-        "anime": "Fullmetal Alchemist: Brotherhood",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-        "site_url": "https://anilist.co/character/5428",
-        "anime_url": "https://myanimelist.net/anime/5114",
-        "role": "SUPPORTING",
-        "favourites": 209,
-        "row_weight": 2.51934665,
-        "amplitude": 0.9959810989,
-        "abs_amplitude": 0.9959810989,
-        "percent": 99.197835
-      },
-      {
         "character_id": 19573,
         "name": "Oscar Vessalius",
-        "native_name": "オスカー・ベザリウス",
         "anime": "PandoraHearts",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
         "site_url": "https://anilist.co/character/19573",
-        "anime_url": "https://myanimelist.net/anime/5530",
-        "role": "SUPPORTING",
         "favourites": 165,
-        "row_weight": 2.47224347,
-        "amplitude": 0.0895636681,
-        "abs_amplitude": 0.0895636681,
-        "percent": 0.802165
+        "anilist_favourites": 165,
+        "bangumi_collects": 5,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 30916,
+        "bangumi_url": "https://bgm.tv/character/30916",
+        "combined_favourites": 170,
+        "role_edge_count": 1,
+        "descriptors": [
+          "easygoing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47823799,
+        "row_weight": 2.47823799,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
     "positive_characters": [
       {
-        "character_id": 5428,
-        "name": "Barry the Chopper",
-        "native_name": "バリー・ザ・チョッパー",
-        "anime": "Fullmetal Alchemist: Brotherhood",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5428-ZIjtbA5UxvSB.png",
-        "site_url": "https://anilist.co/character/5428",
-        "anime_url": "https://myanimelist.net/anime/5114",
-        "role": "SUPPORTING",
-        "favourites": 209,
-        "row_weight": 2.51934665,
-        "amplitude": 0.9959810989,
-        "abs_amplitude": 0.9959810989,
-        "percent": 99.197835
-      },
-      {
         "character_id": 19573,
         "name": "Oscar Vessalius",
-        "native_name": "オスカー・ベザリウス",
         "anime": "PandoraHearts",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b19573-kDNWw3W59Hok.jpg",
         "site_url": "https://anilist.co/character/19573",
-        "anime_url": "https://myanimelist.net/anime/5530",
-        "role": "SUPPORTING",
         "favourites": 165,
-        "row_weight": 2.47224347,
-        "amplitude": 0.0895636681,
-        "abs_amplitude": 0.0895636681,
-        "percent": 0.802165
+        "anilist_favourites": 165,
+        "bangumi_collects": 5,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 30916,
+        "bangumi_url": "https://bgm.tv/character/30916",
+        "combined_favourites": 170,
+        "role_edge_count": 1,
+        "descriptors": [
+          "easygoing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47823799,
+        "row_weight": 2.47823799,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4782379943,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

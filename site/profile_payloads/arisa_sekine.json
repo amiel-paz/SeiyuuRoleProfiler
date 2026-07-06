@@ -5,1494 +5,206 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/125130-0tQuMPLTpr8V.jpg",
   "site_url": "https://anilist.co/staff/125130",
   "role_count": 5,
-  "character_count": 2,
+  "character_count": 1,
   "first_year": 2017,
   "aliases": [
     "arisa sekine",
     "sekine arisa"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/arisa_sekine.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 10.3348387042,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 10.3348387042,
-        "mass_percent": 97.715447
-      },
-      {
-        "rank": 2,
-        "singular_value": 1.5802389196,
-        "mass_percent": 2.284553
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 252.668857,
-      "normalized_entanglement": 0.657992,
-      "top5_mass_percent": 4.980823,
-      "top10_mass_percent": 8.956134
-    },
-    "character_participation": {
-      "effective_count": 1.258714,
-      "normalized_entanglement": 0.629357,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 4.512102,
-      "semantic_spread": 4.512102,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.377884,
-      "direction_spread": 1.377884,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 97.715447,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.1974192703,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 97.914787,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.0357736593,
-        "abs_amplitude": 0.0357736593,
-        "raw_amplitude": 0.1073209779,
-        "percent": 11.416435,
-        "raw_percent": 11.416435,
-        "coverage_percent": 11.416435,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
+        "descriptor": "selfish",
+        "amplitude": 0.3850269384,
+        "abs_amplitude": 0.3850269384,
+        "percent": 33.891241,
+        "weighted_support": 2.19741927,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89226,
             "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
             "anime": "My Hero Academia",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
             "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.1073209778,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
+            "combined_favourites": 5751
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "angry / furious / enraged / mad / +3",
-        "descriptor_index": 240,
-        "amplitude": 0.0266350118,
-        "abs_amplitude": 0.0266350118,
-        "raw_amplitude": 0.0799050355,
-        "percent": 8.500022,
-        "raw_percent": 8.500022,
-        "coverage_percent": 19.916457,
-        "member_count": 7,
-        "members": [
-          "angry",
-          "furious",
-          "enraged",
-          "mad",
-          "ill-tempered",
-          "berserk",
-          "spiteful"
-        ],
+        "descriptor": "malevolent",
+        "amplitude": 0.3906220497,
+        "abs_amplitude": 0.3906220497,
+        "percent": 34.38374,
+        "weighted_support": 2.19741927,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89226,
             "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
             "anime": "My Hero Academia",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
             "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0799050355,
-            "similarity": 0.999999,
-            "matched_descriptor": "angry"
+            "combined_favourites": 5751
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "selfish / self-serving / self-involved / self-indulgent",
-        "descriptor_index": 6675,
-        "amplitude": 0.0191405008,
-        "abs_amplitude": 0.0191405008,
-        "raw_amplitude": 0.0574215023,
-        "percent": 6.108301,
-        "raw_percent": 6.108301,
-        "coverage_percent": 26.024758,
-        "member_count": 4,
-        "members": [
-          "selfish",
-          "self-serving",
-          "self-involved",
-          "self-indulgent"
-        ],
+        "descriptor": "dependent",
+        "amplitude": 0.3604172321,
+        "abs_amplitude": 0.3604172321,
+        "percent": 31.72502,
+        "weighted_support": 2.19741927,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89226,
             "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
             "anime": "My Hero Academia",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
             "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0574215023,
-            "similarity": 1.0,
-            "matched_descriptor": "selfish"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "malevolent / malicious / sinister",
-        "descriptor_index": 4555,
-        "amplitude": 0.0152304446,
-        "abs_amplitude": 0.0152304446,
-        "raw_amplitude": 0.0456913339,
-        "percent": 4.860486,
-        "raw_percent": 4.860486,
-        "coverage_percent": 30.885244,
-        "member_count": 3,
-        "members": [
-          "malevolent",
-          "malicious",
-          "sinister"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0456913339,
-            "similarity": 1.0,
-            "matched_descriptor": "malevolent"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "blunt / forthright / honest / direct / +1",
-        "descriptor_index": 727,
-        "amplitude": 0.0134214901,
-        "abs_amplitude": 0.0134214901,
-        "raw_amplitude": 0.0402644703,
-        "percent": 4.283195,
-        "raw_percent": 4.283195,
-        "coverage_percent": 35.168439,
-        "member_count": 5,
-        "members": [
-          "blunt",
-          "forthright",
-          "honest",
-          "direct",
-          "guileless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0402644703,
-            "similarity": 0.936002,
-            "matched_descriptor": "lacking subtlety"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "simple / no-nonsense / plain / simplistic",
-        "descriptor_index": 6863,
-        "amplitude": 0.0129611289,
-        "abs_amplitude": 0.0129611289,
-        "raw_amplitude": 0.0388833867,
-        "percent": 4.13628,
-        "raw_percent": 4.13628,
-        "coverage_percent": 39.304719,
-        "member_count": 4,
-        "members": [
-          "simple",
-          "no-nonsense",
-          "plain",
-          "simplistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0388833868,
-            "similarity": 0.949401,
-            "matched_descriptor": "lacking subtlety"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "quick-tempered / hot-headed / bad-tempered / irritable / +6",
-        "descriptor_index": 6081,
-        "amplitude": 0.0124273597,
-        "abs_amplitude": 0.0124273597,
-        "raw_amplitude": 0.0372820792,
-        "percent": 3.965939,
-        "raw_percent": 3.965939,
-        "coverage_percent": 43.270658,
-        "member_count": 10,
-        "members": [
-          "quick-tempered",
-          "hot-headed",
-          "bad-tempered",
-          "irritable",
-          "annoyed-prone",
-          "hot-tempered",
-          "prone-to-anger",
-          "cranky",
-          "short-temperedness",
-          "short-tempered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0372820791,
-            "similarity": 0.889757,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "demanding / stringent",
-        "descriptor_index": 1688,
-        "amplitude": 0.0100553946,
-        "abs_amplitude": 0.0100553946,
-        "raw_amplitude": 0.0301661837,
-        "percent": 3.208974,
-        "raw_percent": 3.208974,
-        "coverage_percent": 46.479633,
-        "member_count": 2,
-        "members": [
-          "demanding",
-          "stringent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0301661837,
-            "similarity": 1.0,
-            "matched_descriptor": "demanding"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "dependent / obedient",
-        "descriptor_index": 1735,
-        "amplitude": 0.0100476003,
-        "abs_amplitude": 0.0100476003,
-        "raw_amplitude": 0.0301428009,
-        "percent": 3.206487,
-        "raw_percent": 3.206487,
-        "coverage_percent": 49.68612,
-        "member_count": 2,
-        "members": [
-          "dependent",
-          "obedient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0301428009,
-            "similarity": 1.0,
-            "matched_descriptor": "dependent"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "psychopathic / sociopathic",
-        "descriptor_index": 6003,
-        "amplitude": 0.0075727459,
-        "abs_amplitude": 0.0075727459,
-        "raw_amplitude": 0.0227182376,
-        "percent": 2.416688,
-        "raw_percent": 2.416688,
-        "coverage_percent": 52.102807,
-        "member_count": 2,
-        "members": [
-          "psychopathic",
-          "sociopathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0227182376,
-            "similarity": 0.941572,
-            "matched_descriptor": "sociopath"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "twisted",
-        "descriptor_index": 8035,
-        "amplitude": 0.0069286862,
-        "abs_amplitude": 0.0069286862,
-        "raw_amplitude": 0.0207860587,
-        "percent": 2.211149,
-        "raw_percent": 2.211149,
-        "coverage_percent": 54.313956,
-        "member_count": 1,
-        "members": [
-          "twisted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0207860587,
-            "similarity": 1.0,
-            "matched_descriptor": "twisted"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "displeased / dissatisfied / grumpy / sad / +4",
-        "descriptor_index": 1874,
-        "amplitude": 0.0064340979,
-        "abs_amplitude": 0.0064340979,
-        "raw_amplitude": 0.0193022938,
-        "percent": 2.053311,
-        "raw_percent": 2.053311,
-        "coverage_percent": 56.367268,
-        "member_count": 8,
-        "members": [
-          "displeased",
-          "dissatisfied",
-          "grumpy",
-          "sad",
-          "aggravated",
-          "impatient",
-          "grouchy",
-          "irritated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0193022938,
-            "similarity": 0.886754,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "ego-centric / self-centred / egotistic / egotistical",
-        "descriptor_index": 2066,
-        "amplitude": 0.0049682241,
-        "abs_amplitude": 0.0049682241,
-        "raw_amplitude": 0.0149046724,
-        "percent": 1.585508,
-        "raw_percent": 1.585508,
-        "coverage_percent": 57.952775,
-        "member_count": 4,
-        "members": [
-          "ego-centric",
-          "self-centred",
-          "egotistic",
-          "egotistical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0149046724,
-            "similarity": 0.88996,
-            "matched_descriptor": "selfish / arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "insane / deranged / crazy / daft / +1",
-        "descriptor_index": 3909,
-        "amplitude": 0.0048350512,
-        "abs_amplitude": 0.0048350512,
-        "raw_amplitude": 0.0145051537,
-        "percent": 1.543008,
-        "raw_percent": 1.543008,
-        "coverage_percent": 59.495784,
-        "member_count": 5,
-        "members": [
-          "insane",
-          "deranged",
-          "crazy",
-          "daft",
-          "unhinged"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0145051537,
-            "similarity": 0.880711,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "detail-oriented / meticulous / rigorous / precise",
-        "descriptor_index": 1768,
-        "amplitude": 0.0045959175,
-        "abs_amplitude": 0.0045959175,
-        "raw_amplitude": 0.0137877525,
-        "percent": 1.466693,
-        "raw_percent": 1.466693,
-        "coverage_percent": 60.962477,
-        "member_count": 4,
-        "members": [
-          "detail-oriented",
-          "meticulous",
-          "rigorous",
-          "precise"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0137877526,
-            "similarity": 0.876743,
-            "matched_descriptor": "demanding / lacking subtlety"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "aggressive / offensive / belligerent / vicious / +2",
-        "descriptor_index": 124,
-        "amplitude": 0.0045030812,
-        "abs_amplitude": 0.0045030812,
-        "raw_amplitude": 0.0135092436,
-        "percent": 1.437067,
-        "raw_percent": 1.437067,
-        "coverage_percent": 62.399544,
-        "member_count": 6,
-        "members": [
-          "aggressive",
-          "offensive",
-          "belligerent",
-          "vicious",
-          "pushy",
-          "combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0135092436,
-            "similarity": 0.889977,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "corrupt / evil / disgusting-doer",
-        "descriptor_index": 1446,
-        "amplitude": 0.0043842189,
-        "abs_amplitude": 0.0043842189,
-        "raw_amplitude": 0.0131526566,
-        "percent": 1.399134,
-        "raw_percent": 1.399134,
-        "coverage_percent": 63.798678,
-        "member_count": 3,
-        "members": [
-          "corrupt",
-          "evil",
-          "disgusting-doer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0131526565,
-            "similarity": 0.889607,
-            "matched_descriptor": "sociopath"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "subservient / servile / dutiful / rule-abiding",
-        "descriptor_index": 7453,
-        "amplitude": 0.0040962636,
-        "abs_amplitude": 0.0040962636,
-        "raw_amplitude": 0.0122887909,
-        "percent": 1.307239,
-        "raw_percent": 1.307239,
-        "coverage_percent": 65.105917,
-        "member_count": 4,
-        "members": [
-          "subservient",
-          "servile",
-          "dutiful",
-          "rule-abiding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0122887909,
-            "similarity": 0.894066,
-            "matched_descriptor": "dependent"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "indignant / resentful / bitter",
-        "descriptor_index": 3844,
-        "amplitude": 0.0037499872,
-        "abs_amplitude": 0.0037499872,
-        "raw_amplitude": 0.0112499617,
-        "percent": 1.196732,
-        "raw_percent": 1.196732,
-        "coverage_percent": 66.302649,
-        "member_count": 3,
-        "members": [
-          "indignant",
-          "resentful",
-          "bitter"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0112499617,
-            "similarity": 0.892353,
-            "matched_descriptor": "angry"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "revenge-seeking / revenge-driven / revengeful / vindictive / +1",
-        "descriptor_index": 6285,
-        "amplitude": 0.0035313881,
-        "abs_amplitude": 0.0035313881,
-        "raw_amplitude": 0.0105941643,
-        "percent": 1.126971,
-        "raw_percent": 1.126971,
-        "coverage_percent": 67.42962,
-        "member_count": 5,
-        "members": [
-          "revenge-seeking",
-          "revenge-driven",
-          "revengeful",
-          "vindictive",
-          "vengeful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0105941643,
-            "similarity": 0.857478,
-            "matched_descriptor": "malevolent / angry"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "unselfish / altruistic / selfless",
-        "descriptor_index": 8218,
-        "amplitude": 0.0029488715,
-        "abs_amplitude": 0.0029488715,
-        "raw_amplitude": 0.0088466144,
-        "percent": 0.941072,
-        "raw_percent": 0.941072,
-        "coverage_percent": 68.370692,
-        "member_count": 3,
-        "members": [
-          "unselfish",
-          "altruistic",
-          "selfless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0088466144,
-            "similarity": 0.874114,
-            "matched_descriptor": "selfish"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "informal / casual",
-        "descriptor_index": 3871,
-        "amplitude": 0.0027929519,
-        "abs_amplitude": 0.0027929519,
-        "raw_amplitude": 0.0083788556,
-        "percent": 0.891314,
-        "raw_percent": 0.891314,
-        "coverage_percent": 69.262006,
-        "member_count": 2,
-        "members": [
-          "informal",
-          "casual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0083788556,
-            "similarity": 0.88618,
-            "matched_descriptor": "lacking subtlety"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "fussy",
-        "descriptor_index": 2863,
-        "amplitude": 0.0025977359,
-        "abs_amplitude": 0.0025977359,
-        "raw_amplitude": 0.0077932077,
-        "percent": 0.829015,
-        "raw_percent": 0.829015,
-        "coverage_percent": 70.09102,
-        "member_count": 1,
-        "members": [
-          "fussy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0077932077,
-            "similarity": 0.895679,
-            "matched_descriptor": "demanding"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "straightforward / plain-spoken / straight-forward",
-        "descriptor_index": 7284,
-        "amplitude": 0.0025545144,
-        "abs_amplitude": 0.0025545144,
-        "raw_amplitude": 0.0076635433,
-        "percent": 0.815221,
-        "raw_percent": 0.815221,
-        "coverage_percent": 70.906241,
-        "member_count": 3,
-        "members": [
-          "straightforward",
-          "plain-spoken",
-          "straight-forward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0076635433,
-            "similarity": 0.865397,
-            "matched_descriptor": "lacking subtlety"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "subordinate",
-        "descriptor_index": 7450,
-        "amplitude": 0.0025458807,
-        "abs_amplitude": 0.0025458807,
-        "raw_amplitude": 0.0076376422,
-        "percent": 0.812466,
-        "raw_percent": 0.812466,
-        "coverage_percent": 71.718707,
-        "member_count": 1,
-        "members": [
-          "subordinate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89226,
-            "name": "Tomura Shigaraki",
-            "native_name": "死柄木弔",
-            "anime": "My Hero Academia",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
-            "site_url": "https://anilist.co/character/89226",
-            "anime_url": "https://myanimelist.net/anime/31964",
-            "role": "MAIN",
-            "favourites": 5742,
-            "row_weight": 2.19724111,
-            "projection": 0.0076376422,
-            "similarity": 0.893094,
-            "matched_descriptor": "dependent"
+            "combined_favourites": 5751
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +12",
-        "descriptor_index": 944,
-        "amplitude": 0.0774917362,
-        "abs_amplitude": 0.0774917362,
-        "raw_amplitude": 0.2324752087,
-        "percent": 68.170994,
-        "raw_percent": 68.170994,
-        "coverage_percent": 68.170994,
-        "member_count": 16,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "good-humored",
-          "laid-back",
-          "easy-going",
-          "permissive",
-          "flighty",
-          "chilling",
-          "playful",
-          "accommodating",
-          "mild-mannered",
-          "relaxed",
-          "mellow"
-        ],
+        "step": 1,
+        "descriptor": "selfish",
+        "weighted_support": 2.19741927,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.2324752087,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "fit_percent": 86.500772,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "low-energy / non-violent / soothing / cool-headed / +2",
-        "descriptor_index": 4439,
-        "amplitude": 0.0073844467,
-        "abs_amplitude": 0.0073844467,
-        "raw_amplitude": 0.0221533401,
-        "percent": 6.496242,
-        "raw_percent": 6.496242,
-        "coverage_percent": 74.667236,
-        "member_count": 6,
-        "members": [
-          "low-energy",
-          "non-violent",
-          "soothing",
-          "cool-headed",
-          "calmest",
-          "calmer"
-        ],
+        "step": 2,
+        "descriptor": "malevolent",
+        "weighted_support": 2.19741927,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0221533401,
-            "similarity": 0.902036,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "fit_percent": 94.316108,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "cordial / amiable / non-hostile / amicable / +1",
-        "descriptor_index": 1441,
-        "amplitude": 0.0052485569,
-        "abs_amplitude": 0.0052485569,
-        "raw_amplitude": 0.0157456707,
-        "percent": 4.617258,
-        "raw_percent": 4.617258,
-        "coverage_percent": 79.284494,
-        "member_count": 5,
-        "members": [
-          "cordial",
-          "amiable",
-          "non-hostile",
-          "amicable",
-          "friendlier"
-        ],
+        "step": 3,
+        "descriptor": "dependent",
+        "weighted_support": 2.19741927,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0157456706,
-            "similarity": 0.890422,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "trade-skilled",
-        "descriptor_index": 7936,
-        "amplitude": 0.0032878596,
-        "abs_amplitude": 0.0032878596,
-        "raw_amplitude": 0.0098635787,
-        "percent": 2.892394,
-        "raw_percent": 2.892394,
-        "coverage_percent": 82.176888,
-        "member_count": 1,
-        "members": [
-          "trade-skilled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0098635787,
-            "similarity": 0.867976,
-            "matched_descriptor": "good negotiator"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "comfortable",
-        "descriptor_index": 1266,
-        "amplitude": 0.0030015866,
-        "abs_amplitude": 0.0030015866,
-        "raw_amplitude": 0.0090047598,
-        "percent": 2.640554,
-        "raw_percent": 2.640554,
-        "coverage_percent": 84.817443,
-        "member_count": 1,
-        "members": [
-          "comfortable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0090047598,
-            "similarity": 0.899235,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "light-hearted / giddy / good-humoured",
-        "descriptor_index": 4318,
-        "amplitude": 0.0027627102,
-        "abs_amplitude": 0.0027627102,
-        "raw_amplitude": 0.0082881305,
-        "percent": 2.43041,
-        "raw_percent": 2.43041,
-        "coverage_percent": 87.247853,
-        "member_count": 3,
-        "members": [
-          "light-hearted",
-          "giddy",
-          "good-humoured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0082881306,
-            "similarity": 0.888312,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "cheerful indifferent",
-        "descriptor_index": 1044,
-        "amplitude": 0.0023479418,
-        "abs_amplitude": 0.0023479418,
-        "raw_amplitude": 0.0070438255,
-        "percent": 2.06553,
-        "raw_percent": 2.06553,
-        "coverage_percent": 89.313383,
-        "member_count": 1,
-        "members": [
-          "cheerful indifferent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0070438255,
-            "similarity": 0.892252,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "outgoing / gregarious",
-        "descriptor_index": 5383,
-        "amplitude": 0.0020277707,
-        "abs_amplitude": 0.0020277707,
-        "raw_amplitude": 0.0060833122,
-        "percent": 1.78387,
-        "raw_percent": 1.78387,
-        "coverage_percent": 91.097253,
-        "member_count": 2,
-        "members": [
-          "outgoing",
-          "gregarious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0060833122,
-            "similarity": 0.883692,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "easy-pleased",
-        "descriptor_index": 2036,
-        "amplitude": 0.0016331745,
-        "abs_amplitude": 0.0016331745,
-        "raw_amplitude": 0.0048995234,
-        "percent": 1.436735,
-        "raw_percent": 1.436735,
-        "coverage_percent": 92.533988,
-        "member_count": 1,
-        "members": [
-          "easy-pleased"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0048995234,
-            "similarity": 0.884617,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "lenient",
-        "descriptor_index": 4273,
-        "amplitude": 0.0016310764,
-        "abs_amplitude": 0.0016310764,
-        "raw_amplitude": 0.0048932293,
-        "percent": 1.43489,
-        "raw_percent": 1.43489,
-        "coverage_percent": 93.968878,
-        "member_count": 1,
-        "members": [
-          "lenient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0048932293,
-            "similarity": 0.884595,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "humble",
-        "descriptor_index": 3640,
-        "amplitude": 0.0016247345,
-        "abs_amplitude": 0.0016247345,
-        "raw_amplitude": 0.0048742034,
-        "percent": 1.429311,
-        "raw_percent": 1.429311,
-        "coverage_percent": 95.398188,
-        "member_count": 1,
-        "members": [
-          "humble"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 226254,
-            "name": "Rody Soul",
-            "native_name": "ロディ・ソウル",
-            "anime": "My Hero Academia: World Heroes' Mission",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-            "site_url": "https://anilist.co/character/226254",
-            "anime_url": "https://myanimelist.net/anime/44200",
-            "role": "SUPPORTING",
-            "favourites": 281,
-            "row_weight": 1.82234836,
-            "projection": 0.0048742034,
-            "similarity": 0.886147,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "fit_percent": 97.914787,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 89226,
         "name": "Tomura Shigaraki",
-        "native_name": "死柄木弔",
         "anime": "My Hero Academia",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
         "site_url": "https://anilist.co/character/89226",
-        "anime_url": "https://myanimelist.net/anime/31964",
-        "role": "MAIN",
         "favourites": 5742,
-        "row_weight": 2.19724111,
-        "amplitude": 0.9400568468,
-        "abs_amplitude": 0.9400568468,
-        "percent": 88.370688
-      },
-      {
-        "character_id": 226254,
-        "name": "Rody Soul",
-        "native_name": "ロディ・ソウル",
-        "anime": "My Hero Academia: World Heroes' Mission",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-        "site_url": "https://anilist.co/character/226254",
-        "anime_url": "https://myanimelist.net/anime/44200",
-        "role": "SUPPORTING",
-        "favourites": 281,
-        "row_weight": 1.82234836,
-        "amplitude": -0.3410177778,
-        "abs_amplitude": 0.3410177778,
-        "percent": 11.629312
+        "anilist_favourites": 5742,
+        "bangumi_collects": 9,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 41744,
+        "bangumi_url": "https://bgm.tv/character/41744",
+        "combined_favourites": 5751,
+        "role_edge_count": 2,
+        "descriptors": [
+          "demanding",
+          "dependent",
+          "malevolent",
+          "selfish"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.10762013,
+        "row_weight": 2.19741927,
+        "unweighted_row_norm": 3.38125145,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
     "positive_characters": [
       {
         "character_id": 89226,
         "name": "Tomura Shigaraki",
-        "native_name": "死柄木弔",
         "anime": "My Hero Academia",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89226-C1ZKm2U3bR4T.png",
         "site_url": "https://anilist.co/character/89226",
-        "anime_url": "https://myanimelist.net/anime/31964",
-        "role": "MAIN",
         "favourites": 5742,
-        "row_weight": 2.19724111,
-        "amplitude": 0.9400568468,
-        "abs_amplitude": 0.9400568468,
-        "percent": 88.370688
+        "anilist_favourites": 5742,
+        "bangumi_collects": 9,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 41744,
+        "bangumi_url": "https://bgm.tv/character/41744",
+        "combined_favourites": 5751,
+        "role_edge_count": 2,
+        "descriptors": [
+          "demanding",
+          "dependent",
+          "malevolent",
+          "selfish"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.10762013,
+        "row_weight": 2.19741927,
+        "unweighted_row_norm": 3.38125145,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 226254,
-        "name": "Rody Soul",
-        "native_name": "ロディ・ソウル",
-        "anime": "My Hero Academia: World Heroes' Mission",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b226254-TgPDmuHpjn34.png",
-        "site_url": "https://anilist.co/character/226254",
-        "anime_url": "https://myanimelist.net/anime/44200",
-        "role": "SUPPORTING",
-        "favourites": 281,
-        "row_weight": 1.82234836,
-        "amplitude": -0.3410177778,
-        "abs_amplitude": 0.3410177778,
-        "percent": 11.629312
-      }
-    ]
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.1974192703,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

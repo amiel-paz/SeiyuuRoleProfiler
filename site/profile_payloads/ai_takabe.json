@@ -11,542 +11,98 @@
     "ai takabe",
     "takabe ai"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ai_takabe.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.20439555,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.20439555,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 272.84348,
-      "normalized_entanglement": 0.71053,
-      "top5_mass_percent": 4.135762,
-      "top10_mass_percent": 7.6072
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4983488578,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "laid-back / relaxed / mellow / easygoing / +14",
-        "descriptor_index": 4197,
-        "amplitude": 0.1439301363,
-        "abs_amplitude": 0.1439301363,
-        "raw_amplitude": 0.4317904088,
-        "percent": 43.179041,
-        "raw_percent": 43.179041,
-        "coverage_percent": 43.179041,
-        "member_count": 18,
-        "members": [
-          "laid-back",
-          "relaxed",
-          "mellow",
-          "easygoing",
-          "nonchalant",
-          "care-free",
-          "carefree",
-          "composed",
-          "easy-going",
-          "amiable",
-          "calmer",
-          "peaceful",
-          "casual",
-          "non-violent",
-          "mild-mannered",
-          "mild",
-          "agreeable",
-          "tranquil"
-        ],
+        "descriptor": "laid-back",
+        "amplitude": 0.5649549281,
+        "abs_amplitude": 0.5649549281,
+        "percent": 50.0,
+        "weighted_support": 2.49834886,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 33582,
             "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
             "anime": "Kill Me Baby",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
             "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.4317904088,
-            "similarity": 1.0,
-            "matched_descriptor": "laid-back"
+            "combined_favourites": 188
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "humorous / comical / funny / amusing / +3",
-        "descriptor_index": 3645,
-        "amplitude": 0.1316477207,
-        "abs_amplitude": 0.1316477207,
-        "raw_amplitude": 0.3949431621,
-        "percent": 39.494316,
-        "raw_percent": 39.494316,
-        "coverage_percent": 82.673357,
-        "member_count": 7,
-        "members": [
-          "humorous",
-          "comical",
-          "funny",
-          "amusing",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
+        "descriptor": "humorous",
+        "amplitude": 0.5649549281,
+        "abs_amplitude": 0.5649549281,
+        "percent": 50.0,
+        "weighted_support": 2.49834886,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 33582,
             "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
             "anime": "Kill Me Baby",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
             "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.3949431622,
-            "similarity": 1.0,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "joking / sarcastic / teasing",
-        "descriptor_index": 4062,
-        "amplitude": 0.0149004265,
-        "abs_amplitude": 0.0149004265,
-        "raw_amplitude": 0.0447012795,
-        "percent": 4.470128,
-        "raw_percent": 4.470128,
-        "coverage_percent": 87.143485,
-        "member_count": 3,
-        "members": [
-          "joking",
-          "sarcastic",
-          "teasing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0447012794,
-            "similarity": 0.872716,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "clownish / goofy",
-        "descriptor_index": 1189,
-        "amplitude": 0.0133334614,
-        "abs_amplitude": 0.0133334614,
-        "raw_amplitude": 0.0400003843,
-        "percent": 4.000038,
-        "raw_percent": 4.000038,
-        "coverage_percent": 91.143523,
-        "member_count": 2,
-        "members": [
-          "clownish",
-          "goofy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0400003843,
-            "similarity": 0.866373,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "pun-loving",
-        "descriptor_index": 6012,
-        "amplitude": 0.0116442195,
-        "abs_amplitude": 0.0116442195,
-        "raw_amplitude": 0.0349326585,
-        "percent": 3.493266,
-        "raw_percent": 3.493266,
-        "coverage_percent": 94.636789,
-        "member_count": 1,
-        "members": [
-          "pun-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0349326585,
-            "similarity": 0.891974,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "daft / empty-headed / foolish",
-        "descriptor_index": 1568,
-        "amplitude": 0.0076942461,
-        "abs_amplitude": 0.0076942461,
-        "raw_amplitude": 0.0230827383,
-        "percent": 2.308274,
-        "raw_percent": 2.308274,
-        "coverage_percent": 96.945063,
-        "member_count": 3,
-        "members": [
-          "daft",
-          "empty-headed",
-          "foolish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0230827383,
-            "similarity": 0.85605,
-            "matched_descriptor": "humorous"
+            "combined_favourites": 188
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "laid-back / relaxed / mellow / easygoing / +14",
-        "descriptor_index": 4197,
-        "amplitude": 0.1439301363,
-        "abs_amplitude": 0.1439301363,
-        "raw_amplitude": 0.4317904088,
-        "percent": 43.179041,
-        "raw_percent": 43.179041,
-        "coverage_percent": 43.179041,
-        "member_count": 18,
-        "members": [
-          "laid-back",
-          "relaxed",
-          "mellow",
-          "easygoing",
-          "nonchalant",
-          "care-free",
-          "carefree",
-          "composed",
-          "easy-going",
-          "amiable",
-          "calmer",
-          "peaceful",
-          "casual",
-          "non-violent",
-          "mild-mannered",
-          "mild",
-          "agreeable",
-          "tranquil"
-        ],
+        "step": 1,
+        "descriptor": "laid-back",
+        "weighted_support": 2.49834886,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.4317904088,
-            "similarity": 1.0,
-            "matched_descriptor": "laid-back"
-          }
-        ]
+        "fit_percent": 88.502635,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "humorous / comical / funny / amusing / +3",
-        "descriptor_index": 3645,
-        "amplitude": 0.1316477207,
-        "abs_amplitude": 0.1316477207,
-        "raw_amplitude": 0.3949431621,
-        "percent": 39.494316,
-        "raw_percent": 39.494316,
-        "coverage_percent": 82.673357,
-        "member_count": 7,
-        "members": [
-          "humorous",
-          "comical",
-          "funny",
-          "amusing",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
+        "step": 2,
+        "descriptor": "humorous",
+        "weighted_support": 2.49834886,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.3949431622,
-            "similarity": 1.0,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "joking / sarcastic / teasing",
-        "descriptor_index": 4062,
-        "amplitude": 0.0149004265,
-        "abs_amplitude": 0.0149004265,
-        "raw_amplitude": 0.0447012795,
-        "percent": 4.470128,
-        "raw_percent": 4.470128,
-        "coverage_percent": 87.143485,
-        "member_count": 3,
-        "members": [
-          "joking",
-          "sarcastic",
-          "teasing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0447012794,
-            "similarity": 0.872716,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "clownish / goofy",
-        "descriptor_index": 1189,
-        "amplitude": 0.0133334614,
-        "abs_amplitude": 0.0133334614,
-        "raw_amplitude": 0.0400003843,
-        "percent": 4.000038,
-        "raw_percent": 4.000038,
-        "coverage_percent": 91.143523,
-        "member_count": 2,
-        "members": [
-          "clownish",
-          "goofy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0400003843,
-            "similarity": 0.866373,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "pun-loving",
-        "descriptor_index": 6012,
-        "amplitude": 0.0116442195,
-        "abs_amplitude": 0.0116442195,
-        "raw_amplitude": 0.0349326585,
-        "percent": 3.493266,
-        "raw_percent": 3.493266,
-        "coverage_percent": 94.636789,
-        "member_count": 1,
-        "members": [
-          "pun-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0349326585,
-            "similarity": 0.891974,
-            "matched_descriptor": "humorous"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "daft / empty-headed / foolish",
-        "descriptor_index": 1568,
-        "amplitude": 0.0076942461,
-        "abs_amplitude": 0.0076942461,
-        "raw_amplitude": 0.0230827383,
-        "percent": 2.308274,
-        "raw_percent": 2.308274,
-        "coverage_percent": 96.945063,
-        "member_count": 3,
-        "members": [
-          "daft",
-          "empty-headed",
-          "foolish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 33582,
-            "name": "Agiri Goshiki",
-            "native_name": "呉織あぎり",
-            "anime": "Kill Me Baby",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
-            "site_url": "https://anilist.co/character/33582",
-            "anime_url": "https://myanimelist.net/anime/11079",
-            "role": "MAIN",
-            "favourites": 141,
-            "row_weight": 2.44045632,
-            "projection": 0.0230827383,
-            "similarity": 0.85605,
-            "matched_descriptor": "humorous"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 33582,
         "name": "Agiri Goshiki",
-        "native_name": "呉織あぎり",
         "anime": "Kill Me Baby",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
         "site_url": "https://anilist.co/character/33582",
-        "anime_url": "https://myanimelist.net/anime/11079",
-        "role": "MAIN",
         "favourites": 141,
-        "row_weight": 2.44045632,
+        "anilist_favourites": 141,
+        "bangumi_collects": 47,
+        "bangumi_comments": 12,
+        "bangumi_character_id": 14684,
+        "bangumi_url": "https://bgm.tv/character/14684",
+        "combined_favourites": 188,
+        "role_edge_count": 1,
+        "descriptors": [
+          "humorous",
+          "laid-back"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49834886,
+        "row_weight": 2.49834886,
+        "unweighted_row_norm": 1.77005271,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -556,19 +112,68 @@
       {
         "character_id": 33582,
         "name": "Agiri Goshiki",
-        "native_name": "呉織あぎり",
         "anime": "Kill Me Baby",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/33582.jpg",
         "site_url": "https://anilist.co/character/33582",
-        "anime_url": "https://myanimelist.net/anime/11079",
-        "role": "MAIN",
         "favourites": 141,
-        "row_weight": 2.44045632,
+        "anilist_favourites": 141,
+        "bangumi_collects": 47,
+        "bangumi_comments": 12,
+        "bangumi_character_id": 14684,
+        "bangumi_url": "https://bgm.tv/character/14684",
+        "combined_favourites": 188,
+        "role_edge_count": 1,
+        "descriptors": [
+          "humorous",
+          "laid-back"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.49834886,
+        "row_weight": 2.49834886,
+        "unweighted_row_norm": 1.77005271,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4983488578,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

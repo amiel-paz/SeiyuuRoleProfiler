@@ -11,446 +11,216 @@
     "nanaka suwa",
     "suwa nanaka"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/nanaka_suwa.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.7372518117,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.7372518117,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 349.866289,
-      "normalized_entanglement": 0.91111,
-      "top5_mass_percent": 2.426701,
-      "top10_mass_percent": 4.673548
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.2729911792,
-        "abs_amplitude": 0.2729911792,
-        "raw_amplitude": 0.8189735375,
-        "percent": 81.897354,
-        "raw_percent": 81.897354,
-        "coverage_percent": 81.897354,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
+        "descriptor": "happy",
+        "amplitude": 0.2065701677,
+        "abs_amplitude": 0.2065701677,
+        "percent": 16.666667,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89846,
             "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
             "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
             "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.8189735375,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
+            "combined_favourites": 583
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "non-combative / pacifistic / calmer",
-        "descriptor_index": 5176,
-        "amplitude": 0.0208842167,
-        "abs_amplitude": 0.0208842167,
-        "raw_amplitude": 0.0626526502,
-        "percent": 6.265265,
-        "raw_percent": 6.265265,
-        "coverage_percent": 88.162619,
-        "member_count": 3,
-        "members": [
-          "non-combative",
-          "pacifistic",
-          "calmer"
-        ],
+        "descriptor": "carefree",
+        "amplitude": 0.2065701675,
+        "abs_amplitude": 0.2065701675,
+        "percent": 16.666667,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89846,
             "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
             "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
             "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0626526502,
-            "similarity": 0.888059,
-            "matched_descriptor": "calm"
+            "combined_favourites": 583
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "pensive",
-        "descriptor_index": 5519,
-        "amplitude": 0.0094854396,
-        "abs_amplitude": 0.0094854396,
-        "raw_amplitude": 0.0284563188,
-        "percent": 2.845632,
-        "raw_percent": 2.845632,
-        "coverage_percent": 91.008251,
-        "member_count": 1,
-        "members": [
-          "pensive"
-        ],
+        "descriptor": "imaginative",
+        "amplitude": 0.2065701674,
+        "abs_amplitude": 0.2065701674,
+        "percent": 16.666667,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89846,
             "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
             "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
             "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0284563188,
-            "similarity": 0.874447,
-            "matched_descriptor": "calm"
+            "combined_favourites": 583
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "phlegmatic / subdued",
-        "descriptor_index": 5588,
-        "amplitude": 0.0093014685,
-        "abs_amplitude": 0.0093014685,
-        "raw_amplitude": 0.0279044054,
-        "percent": 2.790441,
-        "raw_percent": 2.790441,
-        "coverage_percent": 93.798691,
-        "member_count": 2,
-        "members": [
-          "phlegmatic",
-          "subdued"
-        ],
+        "descriptor": "worrying",
+        "amplitude": 0.2065701673,
+        "abs_amplitude": 0.2065701673,
+        "percent": 16.666667,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89846,
             "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
             "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
             "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0279044055,
-            "similarity": 0.885912,
-            "matched_descriptor": "calm"
+            "combined_favourites": 583
           }
         ]
       },
       {
         "rank": 5,
-        "descriptor": "easy-going",
-        "descriptor_index": 2035,
-        "amplitude": 0.0068650646,
-        "abs_amplitude": 0.0068650646,
-        "raw_amplitude": 0.0205951938,
-        "percent": 2.059519,
-        "raw_percent": 2.059519,
-        "coverage_percent": 95.858211,
-        "member_count": 1,
-        "members": [
-          "easy-going"
-        ],
+        "descriptor": "calm",
+        "amplitude": 0.2065701673,
+        "abs_amplitude": 0.2065701673,
+        "percent": 16.666667,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 89846,
             "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
             "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
             "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0205951938,
-            "similarity": 0.883204,
-            "matched_descriptor": "calm"
+            "combined_favourites": 583
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "descriptor": "helpful",
+        "amplitude": 0.2065701669,
+        "abs_amplitude": 0.2065701669,
+        "percent": 16.666667,
+        "support": 1,
+        "supporting_characters": [
+          {
+            "character_id": 89846,
+            "name": "Kanan Matsuura",
+            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
+            "site_url": "https://anilist.co/character/89846",
+            "combined_favourites": 583
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.2729911792,
-        "abs_amplitude": 0.2729911792,
-        "raw_amplitude": 0.8189735375,
-        "percent": 81.897354,
-        "raw_percent": 81.897354,
-        "coverage_percent": 81.897354,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89846,
-            "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
-            "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.8189735375,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "step": 1,
+        "descriptor": "imaginative",
+        "fit_percent": 83.568292,
+        "residual_gain_percent": 69.836595
       },
       {
-        "rank": 2,
-        "descriptor": "non-combative / pacifistic / calmer",
-        "descriptor_index": 5176,
-        "amplitude": 0.0208842167,
-        "abs_amplitude": 0.0208842167,
-        "raw_amplitude": 0.0626526502,
-        "percent": 6.265265,
-        "raw_percent": 6.265265,
-        "coverage_percent": 88.162619,
-        "member_count": 3,
-        "members": [
-          "non-combative",
-          "pacifistic",
-          "calmer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89846,
-            "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
-            "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0626526502,
-            "similarity": 0.888059,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "step": 2,
+        "descriptor": "carefree",
+        "fit_percent": 93.602629,
+        "residual_gain_percent": 58.938726
       },
       {
-        "rank": 3,
-        "descriptor": "pensive",
-        "descriptor_index": 5519,
-        "amplitude": 0.0094854396,
-        "abs_amplitude": 0.0094854396,
-        "raw_amplitude": 0.0284563188,
-        "percent": 2.845632,
-        "raw_percent": 2.845632,
-        "coverage_percent": 91.008251,
-        "member_count": 1,
-        "members": [
-          "pensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89846,
-            "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
-            "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0284563188,
-            "similarity": 0.874447,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "step": 3,
+        "descriptor": "calm",
+        "fit_percent": 97.058416,
+        "residual_gain_percent": 53.1981
       },
       {
-        "rank": 4,
-        "descriptor": "phlegmatic / subdued",
-        "descriptor_index": 5588,
-        "amplitude": 0.0093014685,
-        "abs_amplitude": 0.0093014685,
-        "raw_amplitude": 0.0279044054,
-        "percent": 2.790441,
-        "raw_percent": 2.790441,
-        "coverage_percent": 93.798691,
-        "member_count": 2,
-        "members": [
-          "phlegmatic",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89846,
-            "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
-            "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0279044055,
-            "similarity": 0.885912,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "step": 4,
+        "descriptor": "worrying",
+        "fit_percent": 98.602367,
+        "residual_gain_percent": 52.114793
       },
       {
-        "rank": 5,
-        "descriptor": "easy-going",
-        "descriptor_index": 2035,
-        "amplitude": 0.0068650646,
-        "abs_amplitude": 0.0068650646,
-        "raw_amplitude": 0.0205951938,
-        "percent": 2.059519,
-        "raw_percent": 2.059519,
-        "coverage_percent": 95.858211,
-        "member_count": 1,
-        "members": [
-          "easy-going"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89846,
-            "name": "Kanan Matsuura",
-            "native_name": "松浦果南",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
-            "site_url": "https://anilist.co/character/89846",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "SUPPORTING",
-            "favourites": 526,
-            "row_weight": 2.69577457,
-            "projection": 0.0205951938,
-            "similarity": 0.883204,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "step": 5,
+        "descriptor": "helpful",
+        "fit_percent": 99.210318,
+        "residual_gain_percent": 43.325685
+      },
+      {
+        "step": 6,
+        "descriptor": "happy",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
+      },
+      {
+        "step": 7,
+        "descriptor": "modest",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 59.843418
+      },
+      {
+        "step": 8,
+        "descriptor": "pacifistic",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 96.606064
+      },
+      {
+        "step": 9,
+        "descriptor": "rough",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 5.555343
+      },
+      {
+        "step": 10,
+        "descriptor": "moody",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -38.402734
       }
     ],
     "characters": [
       {
         "character_id": 89846,
         "name": "Kanan Matsuura",
-        "native_name": "松浦果南",
         "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
         "site_url": "https://anilist.co/character/89846",
-        "anime_url": "https://myanimelist.net/anime/31780",
-        "role": "SUPPORTING",
         "favourites": 526,
-        "row_weight": 2.69577457,
+        "anilist_favourites": 526,
+        "bangumi_collects": 57,
+        "bangumi_comments": 14,
+        "bangumi_character_id": 37803,
+        "bangumi_url": "https://bgm.tv/character/37803",
+        "combined_favourites": 583,
+        "role_edge_count": 1,
+        "descriptors": [
+          "calm",
+          "carefree",
+          "happy",
+          "helpful",
+          "imaginative",
+          "worrying"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 4.84097008,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -460,19 +230,67 @@
       {
         "character_id": 89846,
         "name": "Kanan Matsuura",
-        "native_name": "松浦果南",
         "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89846-e78QbB8WupZl.png",
         "site_url": "https://anilist.co/character/89846",
-        "anime_url": "https://myanimelist.net/anime/31780",
-        "role": "SUPPORTING",
         "favourites": 526,
-        "row_weight": 2.69577457,
+        "anilist_favourites": 526,
+        "bangumi_collects": 57,
+        "bangumi_comments": 14,
+        "bangumi_character_id": 37803,
+        "bangumi_url": "https://bgm.tv/character/37803",
+        "combined_favourites": 583,
+        "role_edge_count": 1,
+        "descriptors": [
+          "calm",
+          "carefree",
+          "happy",
+          "helpful",
+          "imaginative",
+          "worrying"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 4.84097008,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 1501,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

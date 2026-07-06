@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seiyuu Descriptor Map</title>
+  <style>
+    :root {
+      --ink: #101b17;
+      --muted: #60706b;
+      --line: #c8d7d2;
+      --soft: #edf5f2;
+      --x: #15594f;
+      --y: #b23f60;
+      --bg: #fbfcfb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 18px/1.35 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(1480px, calc(100vw - 48px));
+      margin: 32px auto 80px;
+    }
+    h1 {
+      margin: 0 0 24px;
+      font-size: clamp(48px, 7vw, 104px);
+      line-height: .92;
+      letter-spacing: 0;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(220px, 1fr) 170px auto;
+      gap: 14px;
+      align-items: end;
+      margin: 0 0 24px;
+    }
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      font-size: 14px;
+    }
+    input, button {
+      width: 100%;
+      min-height: 54px;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--ink);
+      font: inherit;
+      font-weight: 760;
+      padding: 10px 14px;
+      border-radius: 0;
+    }
+    button {
+      cursor: pointer;
+      background: var(--ink);
+      color: white;
+      border-color: var(--ink);
+      padding-inline: 22px;
+    }
+    .status {
+      min-height: 30px;
+      color: var(--muted);
+      font-size: 22px;
+      margin: 8px 0 16px;
+    }
+    .status strong { color: var(--ink); }
+    .status .x { color: var(--x); }
+    .status .y { color: var(--y); }
+    .plotWrap {
+      position: relative;
+      height: min(76vh, 860px);
+      min-height: 560px;
+      background: white;
+      overflow: hidden;
+      border: 1px solid #e3ece8;
+    }
+    .axis {
+      position: absolute;
+      background: #b9cbc5;
+      pointer-events: none;
+    }
+    .axis.xAxis { left: 42px; right: 42px; top: 50%; height: 4px; transform: translateY(-50%); }
+    .axis.yAxis { top: 42px; bottom: 42px; left: 50%; width: 4px; transform: translateX(-50%); }
+    .axisLabel {
+      position: absolute;
+      font-weight: 900;
+      font-size: clamp(22px, 2.4vw, 38px);
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    .xLow { left: 42px; top: calc(50% + 14px); color: var(--muted); }
+    .xHigh { right: 42px; top: calc(50% + 14px); color: var(--x); }
+    .yLow { left: calc(50% + 22px); bottom: 32px; color: var(--muted); }
+    .yHigh { left: calc(50% + 22px); top: 32px; color: var(--y); }
+    .dot {
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      transform: translate(-50%, -50%);
+      border-radius: 999px;
+      background: #11201b;
+      opacity: .28;
+      border: 2px solid rgba(255,255,255,.85);
+      box-shadow: 0 6px 16px rgba(0,0,0,.16);
+      cursor: default;
+    }
+    .dot:hover {
+      opacity: .96;
+      z-index: 5;
+      background: var(--y);
+      transform: translate(-50%, -50%) scale(1.45);
+    }
+    .results {
+      margin-top: 26px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    }
+    .result {
+      display: grid;
+      grid-template-columns: 78px 1fr;
+      gap: 14px;
+      align-items: start;
+      padding: 0 0 16px;
+      border-bottom: 1px solid #dce7e3;
+    }
+    .result img {
+      width: 78px;
+      height: 78px;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      background: var(--soft);
+    }
+    .name {
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1.05;
+    }
+    .score {
+      color: var(--y);
+      font-weight: 900;
+      margin-top: 4px;
+    }
+    .roles {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .role {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      max-width: 100%;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 650;
+    }
+    .role img {
+      width: 30px;
+      height: 30px;
+      border-radius: 0;
+      flex: 0 0 auto;
+    }
+    .tooltip {
+      position: fixed;
+      z-index: 20;
+      max-width: 420px;
+      background: #101b17;
+      color: white;
+      padding: 12px 14px;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(14px, 14px);
+      font-size: 15px;
+      box-shadow: 0 14px 40px rgba(0,0,0,.24);
+    }
+    .tooltip .tName { font-size: 21px; font-weight: 900; margin-bottom: 4px; }
+    .tooltip .tMeta { color: #d7e2de; margin-bottom: 8px; }
+    .tooltip .tRole { color: #f4fbf8; }
+    @media (max-width: 760px) {
+      main { width: min(100vw - 24px, 1480px); }
+      .controls { grid-template-columns: 1fr; }
+      .plotWrap { min-height: 460px; }
+      .results { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Seiyuu Descriptor Map</h1>
+    <div class="controls">
+      <label>X descriptor
+        <input id="xInput" list="descriptorOptions" autocomplete="off" placeholder="tsundere">
+      </label>
+      <label>Y descriptor
+        <input id="yInput" list="descriptorOptions" autocomplete="off" placeholder="optional">
+      </label>
+      <label>Min chars
+        <input id="minCharsInput" type="number" min="1" step="1" value="10">
+      </label>
+      <button id="goButton" type="button">Plot</button>
+    </div>
+    <datalist id="descriptorOptions"></datalist>
+    <div id="status" class="status"></div>
+    <section id="plot" class="plotWrap" aria-label="seiyuu descriptor scatter"></section>
+    <section id="results" class="results" aria-label="top seiyuu"></section>
+  </main>
+  <div id="tooltip" class="tooltip"></div>
+  <script>
+    const state = { payload: null };
+    const els = {
+      x: document.getElementById("xInput"),
+      y: document.getElementById("yInput"),
+      minChars: document.getElementById("minCharsInput"),
+      go: document.getElementById("goButton"),
+      options: document.getElementById("descriptorOptions"),
+      status: document.getElementById("status"),
+      plot: document.getElementById("plot"),
+      results: document.getElementById("results"),
+      tooltip: document.getElementById("tooltip"),
+    };
+
+    const params = new URLSearchParams(location.search);
+    els.x.value = params.get("x") || "tsundere";
+    els.y.value = params.get("y") || "";
+    els.minChars.value = params.get("min_chars") || "10";
+
+    function normalize(value) {
+      return String(value || "").trim().toLowerCase();
+    }
+
+    function descriptorIndex(value) {
+      const wanted = normalize(value);
+      if (!wanted || !state.payload) return -1;
+      return state.payload.descriptors.findIndex((descriptor) => descriptor.toLowerCase() === wanted);
+    }
+
+    function nearestDescriptor(value) {
+      const wanted = normalize(value);
+      if (!wanted || !state.payload) return "";
+      const exact = state.payload.descriptors.find((descriptor) => descriptor.toLowerCase() === wanted);
+      if (exact) return exact;
+      const starts = state.payload.descriptors.find((descriptor) => descriptor.toLowerCase().startsWith(wanted));
+      if (starts) return starts;
+      return state.payload.descriptors.find((descriptor) => descriptor.toLowerCase().includes(wanted)) || "";
+    }
+
+    function formatScore(value) {
+      return `${Math.round(value)}th pct`;
+    }
+
+    function roleText(role) {
+      const anime = role.anime ? ` · ${role.anime}` : "";
+      const favs = role.favourites ? ` · ${role.favourites.toLocaleString()} favs` : "";
+      return `${role.name}${anime}${favs}`;
+    }
+
+    function tooltipHtml(row, xName, xValue, yName, yValue) {
+      const roles = row.notable_roles.slice(0, 4).map((role) => `<div class="tRole">${roleText(role)}</div>`).join("");
+      const yPart = yName ? ` · ${yName} ${formatScore(yValue)}` : "";
+      return `<div class="tName">${row.name}</div><div class="tMeta">${xName} ${formatScore(xValue)}${yPart} · ${row.character_count} chars</div>${roles}`;
+    }
+
+    function attachRelativeScores(rows, yName) {
+      const indexed = rows.map((row, index) => ({ row, index }));
+      const rankField = (scoreField, outputField) => {
+        const ranked = [...indexed].sort((a, b) => (
+          a.row[scoreField] - b.row[scoreField] || a.row.name.localeCompare(b.row.name)
+        ));
+        const denominator = Math.max(ranked.length - 1, 1);
+        ranked.forEach((item, rank) => {
+          item.row[outputField] = (rank / denominator) * 100;
+        });
+      };
+      rankField("xScore", "xRelative");
+      if (yName) rankField("yScore", "yRelative");
+      else rows.forEach((row) => { row.yRelative = 0; });
+      return rows;
+    }
+
+    function scale(values, low, high) {
+      const min = Math.min(...values);
+      const max = Math.max(...values);
+      const span = Math.max(max - min, 1e-9);
+      return (value) => low + ((value - min) / span) * (high - low);
+    }
+
+    function showTooltip(event, html) {
+      els.tooltip.innerHTML = html;
+      els.tooltip.style.opacity = "1";
+      const margin = 14;
+      const rect = els.tooltip.getBoundingClientRect();
+      let left = event.clientX + margin;
+      let top = event.clientY + margin;
+      if (left + rect.width + margin > window.innerWidth) {
+        left = event.clientX - rect.width - margin;
+      }
+      if (top + rect.height + margin > window.innerHeight) {
+        top = event.clientY - rect.height - margin;
+      }
+      els.tooltip.style.left = `${Math.max(margin, left)}px`;
+      els.tooltip.style.top = `${Math.max(margin, top)}px`;
+    }
+
+    function hideTooltip() {
+      els.tooltip.style.opacity = "0";
+    }
+
+    function renderPlot(rows, xName, yName) {
+      els.plot.innerHTML = "";
+      const xVals = rows.map((row) => row.xScore);
+      const yVals = yName ? rows.map((row) => row.yScore) : rows.map(() => 0);
+      const widthPad = 58;
+      const heightPad = 58;
+      const xScale = scale(xVals, widthPad, els.plot.clientWidth - widthPad);
+      const yScale = yName ? scale(yVals, els.plot.clientHeight - heightPad, heightPad) : (() => els.plot.clientHeight / 2);
+
+      const xAxis = document.createElement("div");
+      xAxis.className = "axis xAxis";
+      const yAxis = document.createElement("div");
+      yAxis.className = "axis yAxis";
+      els.plot.append(xAxis, yAxis);
+
+      const labels = [
+        ["axisLabel xLow", `less ${xName}`],
+        ["axisLabel xHigh", `more ${xName}`],
+      ];
+      if (yName) {
+        labels.push(["axisLabel yLow", `less ${yName}`], ["axisLabel yHigh", `more ${yName}`]);
+      }
+      labels.forEach(([className, text]) => {
+        const node = document.createElement("div");
+        node.className = className;
+        node.textContent = text;
+        els.plot.appendChild(node);
+      });
+
+      rows.forEach((row) => {
+        const dot = document.createElement("div");
+        dot.className = "dot";
+        dot.style.left = `${xScale(row.xScore)}px`;
+        dot.style.top = `${yScale(row.yScore)}px`;
+        const html = tooltipHtml(row, xName, row.xRelative, yName, row.yRelative);
+        dot.addEventListener("mousemove", (event) => showTooltip(event, html));
+        dot.addEventListener("mouseleave", hideTooltip);
+        els.plot.appendChild(dot);
+      });
+    }
+
+    function renderResults(rows, xName, yName) {
+      const ranked = [...rows].sort((a, b) => {
+        const av = yName ? Math.hypot(Math.max(a.xScore, 0), Math.max(a.yScore, 0)) : a.xScore;
+        const bv = yName ? Math.hypot(Math.max(b.xScore, 0), Math.max(b.yScore, 0)) : b.xScore;
+        return bv - av || b.character_count - a.character_count || a.name.localeCompare(b.name);
+      }).slice(0, 24);
+      els.results.innerHTML = ranked.map((row) => {
+        const roles = row.notable_roles.slice(0, 3).map((role) => `
+          <a class="role" href="${role.site_url || "#"}" target="_blank" rel="noreferrer">
+            ${role.image ? `<img src="${role.image}" alt="">` : ""}
+            <span>${roleText(role)}</span>
+          </a>
+        `).join("");
+        return `
+          <article class="result">
+            <a href="${row.site_url || "#"}" target="_blank" rel="noreferrer">
+              ${row.image ? `<img src="${row.image}" alt="">` : ""}
+            </a>
+            <div>
+              <div class="name">${row.name}</div>
+              <div class="score">${xName} ${formatScore(row.xRelative)}${yName ? ` · ${yName} ${formatScore(row.yRelative)}` : ""}</div>
+              <div class="roles">${roles}</div>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function render() {
+      if (!state.payload) return;
+      const xName = nearestDescriptor(els.x.value);
+      const yName = nearestDescriptor(els.y.value);
+      const xIndex = descriptorIndex(xName);
+      const yIndex = descriptorIndex(yName);
+      if (xIndex < 0) {
+        els.status.textContent = "Choose an X descriptor from the list.";
+        return;
+      }
+      const minChars = Math.max(1, Number.parseInt(els.minChars.value || "10", 10));
+      const rows = attachRelativeScores(state.payload.seiyuu.filter((row) => row.character_count >= minChars).map((row) => ({
+        ...row,
+        xScore: row.descriptor_scores[xIndex],
+        yScore: yIndex >= 0 ? row.descriptor_scores[yIndex] : 0,
+      })), yIndex >= 0 ? yName : "");
+      const yPhrase = yIndex >= 0 ? ` versus <span class="y">${yName}</span>` : "";
+      els.status.innerHTML = `Relative global SV1 rank for <strong class="x">${xName}</strong>${yPhrase}. ${rows.length.toLocaleString()} seiyuu with at least ${minChars} supported characters.`;
+      renderPlot(rows, xName, yIndex >= 0 ? yName : "");
+      renderResults(rows, xName, yIndex >= 0 ? yName : "");
+      const url = new URL(location.href);
+      url.searchParams.set("x", xName);
+      if (yIndex >= 0) url.searchParams.set("y", yName);
+      else url.searchParams.delete("y");
+      url.searchParams.set("min_chars", String(minChars));
+      history.replaceState(null, "", url);
+    }
+
+    els.go.addEventListener("click", render);
+    els.x.addEventListener("change", render);
+    els.y.addEventListener("change", render);
+    els.minChars.addEventListener("change", render);
+    window.addEventListener("resize", () => render());
+
+    fetch("seiyuu_descriptor_map.json")
+      .then((response) => response.json())
+      .then((payload) => {
+        state.payload = payload;
+        els.options.innerHTML = payload.descriptors.map((descriptor) => `<option value="${descriptor}"></option>`).join("");
+        render();
+      })
+      .catch((error) => {
+        els.status.textContent = `Could not load seiyuu_descriptor_map.json: ${error}`;
+      });
+  </script>
+</body>
+</html>

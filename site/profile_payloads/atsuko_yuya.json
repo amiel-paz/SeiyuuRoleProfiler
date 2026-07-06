@@ -11,1931 +11,333 @@
     "atsuko yuya",
     "yuya atsuko"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/atsuko_yuya.json",
+  "sv1_mass_percent": 81.891899,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.3997659207,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.3997659207,
-        "mass_percent": 86.881892
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.4867667689,
-        "mass_percent": 13.118108
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 246.762545,
-      "normalized_entanglement": 0.642611,
-      "top5_mass_percent": 4.933373,
-      "top10_mass_percent": 8.987759
-    },
-    "character_participation": {
-      "effective_count": 1.678359,
-      "normalized_entanglement": 0.83918,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.17984,
-      "semantic_spread": 1.17984,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.547045,
-      "direction_spread": 0.547045,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 86.881892,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.1090907155,
+    "mass_percent": 79.973512,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "resilient",
-        "descriptor_index": 6252,
-        "amplitude": 0.1437916266,
-        "abs_amplitude": 0.1437916266,
-        "raw_amplitude": 0.4313748799,
-        "percent": 31.302732,
-        "raw_percent": 31.302732,
-        "coverage_percent": 31.302732,
-        "member_count": 1,
-        "members": [
-          "resilient"
-        ],
+        "descriptor": "cheerful",
+        "amplitude": 0.5761570457,
+        "abs_amplitude": 0.5761570457,
+        "percent": 51.526027,
+        "weighted_support": 2.48631928,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.4313748799,
-            "similarity": 1.0,
-            "matched_descriptor": "resilient"
+            "character_id": 13975,
+            "name": "Miwako Satou",
+            "anime": "Case Closed: Jolly Roger in the Deep Azure",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
+            "site_url": "https://anilist.co/character/13975",
+            "combined_favourites": 177
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "daring / courageous / brave / unafraid / +5",
-        "descriptor_index": 1588,
-        "amplitude": 0.0593012863,
-        "abs_amplitude": 0.0593012863,
-        "raw_amplitude": 0.1779038588,
-        "percent": 12.909599,
-        "raw_percent": 12.909599,
-        "coverage_percent": 44.212332,
-        "member_count": 9,
-        "members": [
-          "daring",
-          "courageous",
-          "brave",
-          "unafraid",
-          "fearless",
-          "audacious",
-          "plucky",
-          "valiant",
-          "unashamed"
-        ],
+        "descriptor": "resilient",
+        "amplitude": 0.5420293918,
+        "abs_amplitude": 0.5420293918,
+        "percent": 48.473973,
+        "weighted_support": 2.43007711,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.1779038587,
-            "similarity": 1.0,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "near-death",
-        "descriptor_index": 5071,
-        "amplitude": 0.0419775823,
-        "abs_amplitude": 0.0419775823,
-        "raw_amplitude": 0.125932747,
-        "percent": 9.138314,
-        "raw_percent": 9.138314,
-        "coverage_percent": 53.350645,
-        "member_count": 1,
-        "members": [
-          "near-death"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 12664,
             "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
             "anime": "Resident Evil: Death Island",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
             "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.125932747,
-            "similarity": 0.850148,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "dead",
-        "descriptor_index": 1608,
-        "amplitude": 0.0249533119,
-        "abs_amplitude": 0.0249533119,
-        "raw_amplitude": 0.0748599358,
-        "percent": 5.432214,
-        "raw_percent": 5.432214,
-        "coverage_percent": 58.782859,
-        "member_count": 1,
-        "members": [
-          "dead"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0748599358,
-            "similarity": 0.81378,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "dangerous / vicious / threatening",
-        "descriptor_index": 1581,
-        "amplitude": 0.0189045856,
-        "abs_amplitude": 0.0189045856,
-        "raw_amplitude": 0.0567137569,
-        "percent": 4.115436,
-        "raw_percent": 4.115436,
-        "coverage_percent": 62.898295,
-        "member_count": 3,
-        "members": [
-          "dangerous",
-          "vicious",
-          "threatening"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0567137568,
-            "similarity": 1.0,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "tragic",
-        "descriptor_index": 7943,
-        "amplitude": 0.0179662674,
-        "abs_amplitude": 0.0179662674,
-        "raw_amplitude": 0.0538988021,
-        "percent": 3.911168,
-        "raw_percent": 3.911168,
-        "coverage_percent": 66.809463,
-        "member_count": 1,
-        "members": [
-          "tragic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0538988021,
-            "similarity": 0.825654,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "last alive",
-        "descriptor_index": 4218,
-        "amplitude": 0.0159462836,
-        "abs_amplitude": 0.0159462836,
-        "raw_amplitude": 0.0478388509,
-        "percent": 3.471428,
-        "raw_percent": 3.471428,
-        "coverage_percent": 70.280891,
-        "member_count": 1,
-        "members": [
-          "last alive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0478388509,
-            "similarity": 0.818599,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "revived",
-        "descriptor_index": 6292,
-        "amplitude": 0.0125651313,
-        "abs_amplitude": 0.0125651313,
-        "raw_amplitude": 0.0376953939,
-        "percent": 2.735367,
-        "raw_percent": 2.735367,
-        "coverage_percent": 73.016258,
-        "member_count": 1,
-        "members": [
-          "revived"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0376953939,
-            "similarity": 0.794368,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "reckless",
-        "descriptor_index": 6157,
-        "amplitude": 0.0099703074,
-        "abs_amplitude": 0.0099703074,
-        "raw_amplitude": 0.0299109223,
-        "percent": 2.170487,
-        "raw_percent": 2.170487,
-        "coverage_percent": 75.186745,
-        "member_count": 1,
-        "members": [
-          "reckless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0299109223,
-            "similarity": 1.0,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "horrified / scary / scared / afraid / +2",
-        "descriptor_index": 3573,
-        "amplitude": 0.0095659363,
-        "abs_amplitude": 0.0095659363,
-        "raw_amplitude": 0.028697809,
-        "percent": 2.082457,
-        "raw_percent": 2.082457,
-        "coverage_percent": 77.269203,
-        "member_count": 6,
-        "members": [
-          "horrified",
-          "scary",
-          "scared",
-          "afraid",
-          "frightened",
-          "terrified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.028697809,
-            "similarity": 0.884068,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "runaway",
-        "descriptor_index": 6397,
-        "amplitude": 0.0088934054,
-        "abs_amplitude": 0.0088934054,
-        "raw_amplitude": 0.0266802163,
-        "percent": 1.936051,
-        "raw_percent": 1.936051,
-        "coverage_percent": 79.205254,
-        "member_count": 1,
-        "members": [
-          "runaway"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0266802163,
-            "similarity": 0.788615,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "patient",
-        "descriptor_index": 5492,
-        "amplitude": 0.0075578131,
-        "abs_amplitude": 0.0075578131,
-        "raw_amplitude": 0.0226734393,
-        "percent": 1.645299,
-        "raw_percent": 1.645299,
-        "coverage_percent": 80.850552,
-        "member_count": 1,
-        "members": [
-          "patient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0226734393,
-            "similarity": 0.800166,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "intimidating / menacing / ominous",
-        "descriptor_index": 3971,
-        "amplitude": 0.005720999,
-        "abs_amplitude": 0.005720999,
-        "raw_amplitude": 0.0171629971,
-        "percent": 1.245433,
-        "raw_percent": 1.245433,
-        "coverage_percent": 82.095986,
-        "member_count": 3,
-        "members": [
-          "intimidating",
-          "menacing",
-          "ominous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0171629971,
-            "similarity": 0.878331,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "survival-focused",
-        "descriptor_index": 7564,
-        "amplitude": 0.0051762496,
-        "abs_amplitude": 0.0051762496,
-        "raw_amplitude": 0.0155287487,
-        "percent": 1.126844,
-        "raw_percent": 1.126844,
-        "coverage_percent": 83.22283,
-        "member_count": 1,
-        "members": [
-          "survival-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0155287487,
-            "similarity": 0.789897,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "spontaneous / impulsive / immature",
-        "descriptor_index": 7189,
-        "amplitude": 0.0050496577,
-        "abs_amplitude": 0.0050496577,
-        "raw_amplitude": 0.015148973,
-        "percent": 1.099286,
-        "raw_percent": 1.099286,
-        "coverage_percent": 84.322116,
-        "member_count": 3,
-        "members": [
-          "spontaneous",
-          "impulsive",
-          "immature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.015148973,
-            "similarity": 0.877991,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "bold / brave-faced",
-        "descriptor_index": 745,
-        "amplitude": 0.0049176718,
-        "abs_amplitude": 0.0049176718,
-        "raw_amplitude": 0.0147530153,
-        "percent": 1.070553,
-        "raw_percent": 1.070553,
-        "coverage_percent": 85.392669,
-        "member_count": 2,
-        "members": [
-          "bold",
-          "brave-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0147530153,
-            "similarity": 0.890871,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "brutal / harsh / cruel",
-        "descriptor_index": 849,
-        "amplitude": 0.0047175521,
-        "abs_amplitude": 0.0047175521,
-        "raw_amplitude": 0.0141526564,
-        "percent": 1.026988,
-        "raw_percent": 1.026988,
-        "coverage_percent": 86.419657,
-        "member_count": 3,
-        "members": [
-          "brutal",
-          "harsh",
-          "cruel"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0141526563,
-            "similarity": 0.873859,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "fierce / brash",
-        "descriptor_index": 2527,
-        "amplitude": 0.0040507106,
-        "abs_amplitude": 0.0040507106,
-        "raw_amplitude": 0.0121521317,
-        "percent": 0.88182,
-        "raw_percent": 0.88182,
-        "coverage_percent": 87.301477,
-        "member_count": 2,
-        "members": [
-          "fierce",
-          "brash"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0121521317,
-            "similarity": 0.887951,
-            "matched_descriptor": "daring / reckless"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "risk-averse / skittish",
-        "descriptor_index": 6327,
-        "amplitude": 0.0033684562,
-        "abs_amplitude": 0.0033684562,
-        "raw_amplitude": 0.0101053686,
-        "percent": 0.733296,
-        "raw_percent": 0.733296,
-        "coverage_percent": 88.034773,
-        "member_count": 2,
-        "members": [
-          "risk-averse",
-          "skittish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0101053686,
-            "similarity": 0.873933,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "gallant",
-        "descriptor_index": 2874,
-        "amplitude": 0.0032147725,
-        "abs_amplitude": 0.0032147725,
-        "raw_amplitude": 0.0096443176,
-        "percent": 0.69984,
-        "raw_percent": 0.69984,
-        "coverage_percent": 88.734613,
-        "member_count": 1,
-        "members": [
-          "gallant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0096443176,
-            "similarity": 0.889481,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "weak-hearted / fearful / scaredy-cat",
-        "descriptor_index": 8488,
-        "amplitude": 0.0031220878,
-        "abs_amplitude": 0.0031220878,
-        "raw_amplitude": 0.0093662635,
-        "percent": 0.679663,
-        "raw_percent": 0.679663,
-        "coverage_percent": 89.414276,
-        "member_count": 3,
-        "members": [
-          "weak-hearted",
-          "fearful",
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0093662636,
-            "similarity": 0.867372,
-            "matched_descriptor": "dangerous / reckless"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "worrisome / worried / anxious",
-        "descriptor_index": 8629,
-        "amplitude": 0.0029624445,
-        "abs_amplitude": 0.0029624445,
-        "raw_amplitude": 0.0088873334,
-        "percent": 0.64491,
-        "raw_percent": 0.64491,
-        "coverage_percent": 90.059186,
-        "member_count": 3,
-        "members": [
-          "worrisome",
-          "worried",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0088873334,
-            "similarity": 0.856208,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "risky",
-        "descriptor_index": 6329,
-        "amplitude": 0.002953303,
-        "abs_amplitude": 0.002953303,
-        "raw_amplitude": 0.0088599089,
-        "percent": 0.64292,
-        "raw_percent": 0.64292,
-        "coverage_percent": 90.702106,
-        "member_count": 1,
-        "members": [
-          "risky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0088599089,
-            "similarity": 0.887831,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "risk-taking",
-        "descriptor_index": 6328,
-        "amplitude": 0.0027813705,
-        "abs_amplitude": 0.0027813705,
-        "raw_amplitude": 0.0083441114,
-        "percent": 0.605491,
-        "raw_percent": 0.605491,
-        "coverage_percent": 91.307596,
-        "member_count": 1,
-        "members": [
-          "risk-taking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0083441114,
-            "similarity": 0.884968,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "malicious / sinister",
-        "descriptor_index": 4556,
-        "amplitude": 0.0026583106,
-        "abs_amplitude": 0.0026583106,
-        "raw_amplitude": 0.0079749318,
-        "percent": 0.578701,
-        "raw_percent": 0.578701,
-        "coverage_percent": 91.886298,
-        "member_count": 2,
-        "members": [
-          "malicious",
-          "sinister"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0079749318,
-            "similarity": 0.857898,
-            "matched_descriptor": "dangerous"
+            "combined_favourites": 134
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
+        "step": 1,
+        "descriptor": "cheerful",
+        "weighted_support": 2.48631928,
+        "support": 1,
+        "fit_percent": 90.093585,
+        "selection": "weighted_support"
+      },
+      {
+        "step": 2,
         "descriptor": "resilient",
-        "descriptor_index": 6252,
-        "amplitude": 0.1437916266,
-        "abs_amplitude": 0.1437916266,
-        "raw_amplitude": 0.4313748799,
-        "percent": 31.302732,
-        "raw_percent": 31.302732,
-        "coverage_percent": 31.302732,
-        "member_count": 1,
-        "members": [
-          "resilient"
-        ],
+        "weighted_support": 2.43007711,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.4313748799,
-            "similarity": 1.0,
-            "matched_descriptor": "resilient"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "daring / courageous / brave / unafraid / +5",
-        "descriptor_index": 1588,
-        "amplitude": 0.0593012863,
-        "abs_amplitude": 0.0593012863,
-        "raw_amplitude": 0.1779038588,
-        "percent": 12.909599,
-        "raw_percent": 12.909599,
-        "coverage_percent": 44.212332,
-        "member_count": 9,
-        "members": [
-          "daring",
-          "courageous",
-          "brave",
-          "unafraid",
-          "fearless",
-          "audacious",
-          "plucky",
-          "valiant",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.1779038587,
-            "similarity": 1.0,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "near-death",
-        "descriptor_index": 5071,
-        "amplitude": 0.0419775823,
-        "abs_amplitude": 0.0419775823,
-        "raw_amplitude": 0.125932747,
-        "percent": 9.138314,
-        "raw_percent": 9.138314,
-        "coverage_percent": 53.350645,
-        "member_count": 1,
-        "members": [
-          "near-death"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.125932747,
-            "similarity": 0.850148,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "dead",
-        "descriptor_index": 1608,
-        "amplitude": 0.0249533119,
-        "abs_amplitude": 0.0249533119,
-        "raw_amplitude": 0.0748599358,
-        "percent": 5.432214,
-        "raw_percent": 5.432214,
-        "coverage_percent": 58.782859,
-        "member_count": 1,
-        "members": [
-          "dead"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0748599358,
-            "similarity": 0.81378,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "dangerous / vicious / threatening",
-        "descriptor_index": 1581,
-        "amplitude": 0.0189045856,
-        "abs_amplitude": 0.0189045856,
-        "raw_amplitude": 0.0567137569,
-        "percent": 4.115436,
-        "raw_percent": 4.115436,
-        "coverage_percent": 62.898295,
-        "member_count": 3,
-        "members": [
-          "dangerous",
-          "vicious",
-          "threatening"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0567137568,
-            "similarity": 1.0,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "tragic",
-        "descriptor_index": 7943,
-        "amplitude": 0.0179662674,
-        "abs_amplitude": 0.0179662674,
-        "raw_amplitude": 0.0538988021,
-        "percent": 3.911168,
-        "raw_percent": 3.911168,
-        "coverage_percent": 66.809463,
-        "member_count": 1,
-        "members": [
-          "tragic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0538988021,
-            "similarity": 0.825654,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "last alive",
-        "descriptor_index": 4218,
-        "amplitude": 0.0159462836,
-        "abs_amplitude": 0.0159462836,
-        "raw_amplitude": 0.0478388509,
-        "percent": 3.471428,
-        "raw_percent": 3.471428,
-        "coverage_percent": 70.280891,
-        "member_count": 1,
-        "members": [
-          "last alive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0478388509,
-            "similarity": 0.818599,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "revived",
-        "descriptor_index": 6292,
-        "amplitude": 0.0125651313,
-        "abs_amplitude": 0.0125651313,
-        "raw_amplitude": 0.0376953939,
-        "percent": 2.735367,
-        "raw_percent": 2.735367,
-        "coverage_percent": 73.016258,
-        "member_count": 1,
-        "members": [
-          "revived"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0376953939,
-            "similarity": 0.794368,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "reckless",
-        "descriptor_index": 6157,
-        "amplitude": 0.0099703074,
-        "abs_amplitude": 0.0099703074,
-        "raw_amplitude": 0.0299109223,
-        "percent": 2.170487,
-        "raw_percent": 2.170487,
-        "coverage_percent": 75.186745,
-        "member_count": 1,
-        "members": [
-          "reckless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0299109223,
-            "similarity": 1.0,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "horrified / scary / scared / afraid / +2",
-        "descriptor_index": 3573,
-        "amplitude": 0.0095659363,
-        "abs_amplitude": 0.0095659363,
-        "raw_amplitude": 0.028697809,
-        "percent": 2.082457,
-        "raw_percent": 2.082457,
-        "coverage_percent": 77.269203,
-        "member_count": 6,
-        "members": [
-          "horrified",
-          "scary",
-          "scared",
-          "afraid",
-          "frightened",
-          "terrified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.028697809,
-            "similarity": 0.884068,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "runaway",
-        "descriptor_index": 6397,
-        "amplitude": 0.0088934054,
-        "abs_amplitude": 0.0088934054,
-        "raw_amplitude": 0.0266802163,
-        "percent": 1.936051,
-        "raw_percent": 1.936051,
-        "coverage_percent": 79.205254,
-        "member_count": 1,
-        "members": [
-          "runaway"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0266802163,
-            "similarity": 0.788615,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "patient",
-        "descriptor_index": 5492,
-        "amplitude": 0.0075578131,
-        "abs_amplitude": 0.0075578131,
-        "raw_amplitude": 0.0226734393,
-        "percent": 1.645299,
-        "raw_percent": 1.645299,
-        "coverage_percent": 80.850552,
-        "member_count": 1,
-        "members": [
-          "patient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0226734393,
-            "similarity": 0.800166,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "intimidating / menacing / ominous",
-        "descriptor_index": 3971,
-        "amplitude": 0.005720999,
-        "abs_amplitude": 0.005720999,
-        "raw_amplitude": 0.0171629971,
-        "percent": 1.245433,
-        "raw_percent": 1.245433,
-        "coverage_percent": 82.095986,
-        "member_count": 3,
-        "members": [
-          "intimidating",
-          "menacing",
-          "ominous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0171629971,
-            "similarity": 0.878331,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "survival-focused",
-        "descriptor_index": 7564,
-        "amplitude": 0.0051762496,
-        "abs_amplitude": 0.0051762496,
-        "raw_amplitude": 0.0155287487,
-        "percent": 1.126844,
-        "raw_percent": 1.126844,
-        "coverage_percent": 83.22283,
-        "member_count": 1,
-        "members": [
-          "survival-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 12664,
-            "name": "Jill Valentine",
-            "native_name": "ジル・バレンタイン",
-            "anime": "Resident Evil: Death Island",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-            "site_url": "https://anilist.co/character/12664",
-            "anime_url": "https://myanimelist.net/anime/54398",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 2.38756788,
-            "projection": 0.0155287487,
-            "similarity": 0.789897,
-            "matched_descriptor": "survivor"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "spontaneous / impulsive / immature",
-        "descriptor_index": 7189,
-        "amplitude": 0.0050496577,
-        "abs_amplitude": 0.0050496577,
-        "raw_amplitude": 0.015148973,
-        "percent": 1.099286,
-        "raw_percent": 1.099286,
-        "coverage_percent": 84.322116,
-        "member_count": 3,
-        "members": [
-          "spontaneous",
-          "impulsive",
-          "immature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.015148973,
-            "similarity": 0.877991,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "bold / brave-faced",
-        "descriptor_index": 745,
-        "amplitude": 0.0049176718,
-        "abs_amplitude": 0.0049176718,
-        "raw_amplitude": 0.0147530153,
-        "percent": 1.070553,
-        "raw_percent": 1.070553,
-        "coverage_percent": 85.392669,
-        "member_count": 2,
-        "members": [
-          "bold",
-          "brave-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0147530153,
-            "similarity": 0.890871,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "brutal / harsh / cruel",
-        "descriptor_index": 849,
-        "amplitude": 0.0047175521,
-        "abs_amplitude": 0.0047175521,
-        "raw_amplitude": 0.0141526564,
-        "percent": 1.026988,
-        "raw_percent": 1.026988,
-        "coverage_percent": 86.419657,
-        "member_count": 3,
-        "members": [
-          "brutal",
-          "harsh",
-          "cruel"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0141526563,
-            "similarity": 0.873859,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "fierce / brash",
-        "descriptor_index": 2527,
-        "amplitude": 0.0040507106,
-        "abs_amplitude": 0.0040507106,
-        "raw_amplitude": 0.0121521317,
-        "percent": 0.88182,
-        "raw_percent": 0.88182,
-        "coverage_percent": 87.301477,
-        "member_count": 2,
-        "members": [
-          "fierce",
-          "brash"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0121521317,
-            "similarity": 0.887951,
-            "matched_descriptor": "daring / reckless"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "risk-averse / skittish",
-        "descriptor_index": 6327,
-        "amplitude": 0.0033684562,
-        "abs_amplitude": 0.0033684562,
-        "raw_amplitude": 0.0101053686,
-        "percent": 0.733296,
-        "raw_percent": 0.733296,
-        "coverage_percent": 88.034773,
-        "member_count": 2,
-        "members": [
-          "risk-averse",
-          "skittish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0101053686,
-            "similarity": 0.873933,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "gallant",
-        "descriptor_index": 2874,
-        "amplitude": 0.0032147725,
-        "abs_amplitude": 0.0032147725,
-        "raw_amplitude": 0.0096443176,
-        "percent": 0.69984,
-        "raw_percent": 0.69984,
-        "coverage_percent": 88.734613,
-        "member_count": 1,
-        "members": [
-          "gallant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0096443176,
-            "similarity": 0.889481,
-            "matched_descriptor": "daring"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "weak-hearted / fearful / scaredy-cat",
-        "descriptor_index": 8488,
-        "amplitude": 0.0031220878,
-        "abs_amplitude": 0.0031220878,
-        "raw_amplitude": 0.0093662635,
-        "percent": 0.679663,
-        "raw_percent": 0.679663,
-        "coverage_percent": 89.414276,
-        "member_count": 3,
-        "members": [
-          "weak-hearted",
-          "fearful",
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0093662636,
-            "similarity": 0.867372,
-            "matched_descriptor": "dangerous / reckless"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "worrisome / worried / anxious",
-        "descriptor_index": 8629,
-        "amplitude": 0.0029624445,
-        "abs_amplitude": 0.0029624445,
-        "raw_amplitude": 0.0088873334,
-        "percent": 0.64491,
-        "raw_percent": 0.64491,
-        "coverage_percent": 90.059186,
-        "member_count": 3,
-        "members": [
-          "worrisome",
-          "worried",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0088873334,
-            "similarity": 0.856208,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "risky",
-        "descriptor_index": 6329,
-        "amplitude": 0.002953303,
-        "abs_amplitude": 0.002953303,
-        "raw_amplitude": 0.0088599089,
-        "percent": 0.64292,
-        "raw_percent": 0.64292,
-        "coverage_percent": 90.702106,
-        "member_count": 1,
-        "members": [
-          "risky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0088599089,
-            "similarity": 0.887831,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "risk-taking",
-        "descriptor_index": 6328,
-        "amplitude": 0.0027813705,
-        "abs_amplitude": 0.0027813705,
-        "raw_amplitude": 0.0083441114,
-        "percent": 0.605491,
-        "raw_percent": 0.605491,
-        "coverage_percent": 91.307596,
-        "member_count": 1,
-        "members": [
-          "risk-taking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0083441114,
-            "similarity": 0.884968,
-            "matched_descriptor": "reckless"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "malicious / sinister",
-        "descriptor_index": 4556,
-        "amplitude": 0.0026583106,
-        "abs_amplitude": 0.0026583106,
-        "raw_amplitude": 0.0079749318,
-        "percent": 0.578701,
-        "raw_percent": 0.578701,
-        "coverage_percent": 91.886298,
-        "member_count": 2,
-        "members": [
-          "malicious",
-          "sinister"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 13975,
-            "name": "Miwako Satou",
-            "native_name": "佐藤美和子",
-            "anime": "Case Closed: Jolly Roger in the Deep Azure",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
-            "site_url": "https://anilist.co/character/13975",
-            "anime_url": "https://myanimelist.net/anime/2171",
-            "role": "SUPPORTING",
-            "favourites": 135,
-            "row_weight": 2.43159513,
-            "projection": 0.0079749318,
-            "similarity": 0.857898,
-            "matched_descriptor": "dangerous"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 12664,
-        "name": "Jill Valentine",
-        "native_name": "ジル・バレンタイン",
-        "anime": "Resident Evil: Death Island",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-        "site_url": "https://anilist.co/character/12664",
-        "anime_url": "https://myanimelist.net/anime/54398",
-        "role": "MAIN",
-        "favourites": 109,
-        "row_weight": 2.38756788,
-        "amplitude": 0.8478699348,
-        "abs_amplitude": 0.8478699348,
-        "percent": 71.888343
-      },
-      {
         "character_id": 13975,
         "name": "Miwako Satou",
-        "native_name": "佐藤美和子",
         "anime": "Case Closed: Jolly Roger in the Deep Azure",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
         "site_url": "https://anilist.co/character/13975",
-        "anime_url": "https://myanimelist.net/anime/2171",
-        "role": "SUPPORTING",
         "favourites": 135,
-        "row_weight": 2.43159513,
-        "amplitude": 0.5302042754,
-        "abs_amplitude": 0.5302042754,
-        "percent": 28.111657
+        "anilist_favourites": 135,
+        "bangumi_collects": 42,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 7063,
+        "bangumi_url": "https://bgm.tv/character/7063",
+        "combined_favourites": 177,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.48631928,
+        "row_weight": 2.48631928,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7204724424,
+        "abs_amplitude": 0.7204724424,
+        "percent": 51.908054
+      },
+      {
+        "character_id": 12664,
+        "name": "Jill Valentine",
+        "anime": "Resident Evil: Death Island",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
+        "site_url": "https://anilist.co/character/12664",
+        "favourites": 109,
+        "anilist_favourites": 109,
+        "bangumi_collects": 25,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 28589,
+        "bangumi_url": "https://bgm.tv/character/28589",
+        "combined_favourites": 134,
+        "role_edge_count": 1,
+        "descriptors": [
+          "resilient"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.43007711,
+        "row_weight": 2.43007711,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.6934835685,
+        "abs_amplitude": 0.6934835685,
+        "percent": 48.091946
       }
     ],
     "positive_characters": [
       {
-        "character_id": 12664,
-        "name": "Jill Valentine",
-        "native_name": "ジル・バレンタイン",
-        "anime": "Resident Evil: Death Island",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
-        "site_url": "https://anilist.co/character/12664",
-        "anime_url": "https://myanimelist.net/anime/54398",
-        "role": "MAIN",
-        "favourites": 109,
-        "row_weight": 2.38756788,
-        "amplitude": 0.8478699348,
-        "abs_amplitude": 0.8478699348,
-        "percent": 71.888343
-      },
-      {
         "character_id": 13975,
         "name": "Miwako Satou",
-        "native_name": "佐藤美和子",
         "anime": "Case Closed: Jolly Roger in the Deep Azure",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
         "site_url": "https://anilist.co/character/13975",
-        "anime_url": "https://myanimelist.net/anime/2171",
-        "role": "SUPPORTING",
         "favourites": 135,
-        "row_weight": 2.43159513,
-        "amplitude": 0.5302042754,
-        "abs_amplitude": 0.5302042754,
-        "percent": 28.111657
+        "anilist_favourites": 135,
+        "bangumi_collects": 42,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 7063,
+        "bangumi_url": "https://bgm.tv/character/7063",
+        "combined_favourites": 177,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.48631928,
+        "row_weight": 2.48631928,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7204724424,
+        "abs_amplitude": 0.7204724424,
+        "percent": 51.908054
+      },
+      {
+        "character_id": 12664,
+        "name": "Jill Valentine",
+        "anime": "Resident Evil: Death Island",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
+        "site_url": "https://anilist.co/character/12664",
+        "favourites": 109,
+        "anilist_favourites": 109,
+        "bangumi_collects": 25,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 28589,
+        "bangumi_url": "https://bgm.tv/character/28589",
+        "combined_favourites": 134,
+        "role_edge_count": 1,
+        "descriptors": [
+          "resilient"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.43007711,
+        "row_weight": 2.43007711,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.6934835685,
+        "abs_amplitude": 0.6934835685,
+        "percent": 48.091946
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.997092,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.5558320126,
+      "mass_percent": 20.026488,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 43.395229,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "cheerful",
+            "amplitude": 0.4339522867,
+            "abs_amplitude": 0.4339522867,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "cheerful",
+            "fit_percent": 43.395229,
+            "residual_gain_percent": 18.831459
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 13975,
+            "name": "Miwako Satou",
+            "anime": "Case Closed: Jolly Roger in the Deep Azure",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13975-0vSVf8z18ghU.png",
+            "site_url": "https://anilist.co/character/13975",
+            "favourites": 135,
+            "anilist_favourites": 135,
+            "bangumi_collects": 42,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 7063,
+            "bangumi_url": "https://bgm.tv/character/7063",
+            "combined_favourites": 177,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cheerful"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.48631928,
+            "row_weight": 2.48631928,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6934835685,
+            "abs_amplitude": 0.6934835685,
+            "percent": 48.091946
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 46.127511,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "resilient",
+            "amplitude": 0.4612751109,
+            "abs_amplitude": 0.4612751109,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "resilient",
+            "fit_percent": 46.127511,
+            "residual_gain_percent": 21.277473
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 12664,
+            "name": "Jill Valentine",
+            "anime": "Resident Evil: Death Island",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b12664-eVuO8OpCf1EO.png",
+            "site_url": "https://anilist.co/character/12664",
+            "favourites": 109,
+            "anilist_favourites": 109,
+            "bangumi_collects": 25,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 28589,
+            "bangumi_url": "https://bgm.tv/character/28589",
+            "combined_favourites": 134,
+            "role_edge_count": 1,
+            "descriptors": [
+              "resilient"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.43007711,
+            "row_weight": 2.43007711,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.7204724424,
+            "abs_amplitude": 0.7204724424,
+            "percent": 51.908054
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.1090907155,
+      "mass_percent": 79.973512,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.5558320126,
+      "mass_percent": 20.026488,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

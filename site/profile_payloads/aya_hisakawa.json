@@ -5,1685 +5,1381 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95080-7dOAcrnsSghI.jpg",
   "site_url": "https://anilist.co/staff/95080",
   "role_count": 19,
-  "character_count": 3,
+  "character_count": 4,
   "first_year": 2007,
   "aliases": [
     "aya hisakawa",
     "hisakawa aya"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/aya_hisakawa.json",
+  "sv1_mass_percent": 76.786625,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 4,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.9957339537,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.9957339537,
-        "mass_percent": 79.277729
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.5306442602,
-        "mass_percent": 15.457614
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.060476978,
-        "mass_percent": 5.264657
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 210.402162,
-      "normalized_entanglement": 0.547922,
-      "top5_mass_percent": 7.005296,
-      "top10_mass_percent": 11.590647
-    },
-    "character_participation": {
-      "effective_count": 1.908767,
-      "normalized_entanglement": 0.636256,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.942484,
-      "semantic_spread": 2.186311,
-      "axis_concentration_percent": 78.93887,
-      "lane_count": 1.673246,
-      "direction_range": 0.902397,
-      "direction_spread": 0.991335,
-      "direction_axis_concentration_percent": 82.861804,
-      "direction_lane_count": 1.581021
-    },
-    "explained_sv_l2_percent": 79.277729,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.1299796305,
+    "mass_percent": 79.224748,
+    "descriptor_fit_percent": 98.478152,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "caring / loving / soft-spotted / warm-hearted / +15",
-        "descriptor_index": 958,
-        "amplitude": 0.0905940541,
-        "abs_amplitude": 0.0905940541,
-        "raw_amplitude": 0.1703256265,
-        "percent": 17.831433,
-        "raw_percent": 12.204894,
-        "coverage_percent": 17.831433,
-        "member_count": 19,
-        "members": [
-          "caring",
-          "loving",
-          "soft-spotted",
-          "warm-hearted",
-          "romantic",
-          "kindhearted",
-          "compassionate",
-          "good-hearted",
-          "good-natured",
-          "soft-hearted",
-          "benevolent",
-          "kinder",
-          "tender-hearted",
-          "openhearted",
-          "humane",
-          "cordial",
-          "gentle-hearted",
-          "sweet-natured",
-          "friendly-type"
-        ],
-        "support": 2,
-        "effective_support": 1.595662,
-        "support_factor": 0.531887,
-        "top_characters": [
+        "descriptor": "soft-spoken",
+        "amplitude": 0.2538490884,
+        "abs_amplitude": 0.2538490884,
+        "percent": 21.742508,
+        "weighted_support": 2.86519463,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 3845,
             "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
             "anime": "Bleach the Movie: The DiamondDust Rebellion",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
             "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.128032637,
-            "similarity": 1.0,
-            "matched_descriptor": "caring"
-          },
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0422929893,
-            "similarity": 0.917609,
-            "matched_descriptor": "affectionate"
+            "combined_favourites": 1351
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "egotistic / egotistical / narcissistic / self-centered / +6",
-        "descriptor_index": 2068,
-        "amplitude": 0.0527996373,
-        "abs_amplitude": 0.0527996373,
-        "raw_amplitude": 0.158398912,
-        "percent": 10.392439,
-        "raw_percent": 11.35027,
-        "coverage_percent": 28.223872,
-        "member_count": 10,
-        "members": [
-          "egotistic",
-          "egotistical",
-          "narcissistic",
-          "self-centered",
-          "prideful",
-          "egoistic",
-          "ego-centric",
-          "smug",
-          "self-centred",
-          "pompous"
-        ],
+        "descriptor": "resentful",
+        "amplitude": 0.2320117688,
+        "abs_amplitude": 0.2320117688,
+        "percent": 19.872113,
+        "weighted_support": 2.86519463,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.158398912,
-            "similarity": 1.0,
-            "matched_descriptor": "egotistical"
+            "character_id": 3845,
+            "name": "Retsu Unohana",
+            "anime": "Bleach the Movie: The DiamondDust Rebellion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
+            "site_url": "https://anilist.co/character/3845",
+            "combined_favourites": 1351
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.0397727896,
-        "abs_amplitude": 0.0397727896,
-        "raw_amplitude": 0.1193183689,
-        "percent": 7.828393,
-        "raw_percent": 8.549906,
-        "coverage_percent": 36.052264,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
+        "descriptor": "polite",
+        "amplitude": 0.2698200309,
+        "abs_amplitude": 0.2698200309,
+        "percent": 23.11044,
+        "weighted_support": 2.86519463,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 3845,
             "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
             "anime": "Bleach the Movie: The DiamondDust Rebellion",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
             "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.1193183688,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
+            "combined_favourites": 1351
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "polite / well-mannered / courteous / respectful / +8",
-        "descriptor_index": 5689,
-        "amplitude": 0.0285143642,
-        "abs_amplitude": 0.0285143642,
-        "raw_amplitude": 0.0855430926,
-        "percent": 5.612421,
-        "raw_percent": 6.129696,
-        "coverage_percent": 41.664685,
-        "member_count": 12,
-        "members": [
-          "polite",
-          "well-mannered",
-          "courteous",
-          "respectful",
-          "pleasant",
-          "formal",
-          "gentle",
-          "good",
-          "admirable",
-          "well-meaning",
-          "warm",
-          "soft"
-        ],
+        "descriptor": "self-sacrificing",
+        "amplitude": 0.4118435118,
+        "abs_amplitude": 0.4118435118,
+        "percent": 35.274938,
+        "weighted_support": 2.53561543,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0855430926,
-            "similarity": 1.0,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "bossy / authoritative / commanding / dominant",
-        "descriptor_index": 774,
-        "amplitude": 0.0244906439,
-        "abs_amplitude": 0.0244906439,
-        "raw_amplitude": 0.0734719318,
-        "percent": 4.820441,
-        "raw_percent": 5.264722,
-        "coverage_percent": 46.485126,
-        "member_count": 4,
-        "members": [
-          "bossy",
-          "authoritative",
-          "commanding",
-          "dominant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0734719318,
-            "similarity": 1.0,
-            "matched_descriptor": "bossy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "affectionate / adoring",
-        "descriptor_index": 107,
-        "amplitude": 0.0154242396,
-        "abs_amplitude": 0.0154242396,
-        "raw_amplitude": 0.0412656518,
-        "percent": 3.03592,
-        "raw_percent": 2.956941,
-        "coverage_percent": 49.521046,
-        "member_count": 2,
-        "members": [
-          "affectionate",
-          "adoring"
-        ],
-        "support": 2,
-        "effective_support": 1.121337,
-        "support_factor": 0.373779,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0388970668,
-            "similarity": 1.0,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0023685849,
-            "similarity": 0.896873,
-            "matched_descriptor": "caring"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "gluttonous / food-obsessed",
-        "descriptor_index": 3018,
-        "amplitude": 0.0150349103,
-        "abs_amplitude": 0.0150349103,
-        "raw_amplitude": 0.045104731,
-        "percent": 2.959289,
-        "raw_percent": 3.232035,
-        "coverage_percent": 52.480335,
-        "member_count": 2,
-        "members": [
-          "gluttonous",
-          "food-obsessed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.045104731,
-            "similarity": 1.0,
-            "matched_descriptor": "gluttonous"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "demanding / stringent",
-        "descriptor_index": 1688,
-        "amplitude": 0.0137513857,
-        "abs_amplitude": 0.0137513857,
-        "raw_amplitude": 0.0412541571,
-        "percent": 2.706656,
-        "raw_percent": 2.956118,
-        "coverage_percent": 55.18699,
-        "member_count": 2,
-        "members": [
-          "demanding",
-          "stringent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0412541571,
-            "similarity": 1.0,
-            "matched_descriptor": "demanding"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "soft-spoken / sweet-voiced / delicate-voice / subdued",
-        "descriptor_index": 7061,
-        "amplitude": 0.0129027226,
-        "abs_amplitude": 0.0129027226,
-        "raw_amplitude": 0.0387081678,
-        "percent": 2.539615,
-        "raw_percent": 2.773682,
-        "coverage_percent": 57.726605,
-        "member_count": 4,
-        "members": [
-          "soft-spoken",
-          "sweet-voiced",
-          "delicate-voice",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0387081678,
-            "similarity": 1.0,
-            "matched_descriptor": "soft-spoken"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "game-focused / gamer",
-        "descriptor_index": 2884,
-        "amplitude": 0.0113876198,
-        "abs_amplitude": 0.0113876198,
-        "raw_amplitude": 0.0341628594,
-        "percent": 2.241401,
-        "raw_percent": 2.447982,
-        "coverage_percent": 59.968006,
-        "member_count": 2,
-        "members": [
-          "game-focused",
-          "gamer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0341628594,
-            "similarity": 0.909812,
-            "matched_descriptor": "video game enthusiast"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "outspoken / vocal / eloquent / loud-voiced / +3",
-        "descriptor_index": 5392,
-        "amplitude": 0.0089061337,
-        "abs_amplitude": 0.0089061337,
-        "raw_amplitude": 0.0267184011,
-        "percent": 1.752975,
-        "raw_percent": 1.91454,
-        "coverage_percent": 61.720981,
-        "member_count": 7,
-        "members": [
-          "outspoken",
-          "vocal",
-          "eloquent",
-          "loud-voiced",
-          "tough-talking",
-          "articulate",
-          "well-spoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.026718401,
-            "similarity": 0.894332,
-            "matched_descriptor": "soft-spoken"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "haughty / snooty / snobbish / holier-than-thou / +2",
-        "descriptor_index": 3376,
-        "amplitude": 0.0086777296,
-        "abs_amplitude": 0.0086777296,
-        "raw_amplitude": 0.0260331888,
-        "percent": 1.708019,
-        "raw_percent": 1.86544,
-        "coverage_percent": 63.429,
-        "member_count": 6,
-        "members": [
-          "haughty",
-          "snooty",
-          "snobbish",
-          "holier-than-thou",
-          "arrogant",
-          "condescending"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0260331887,
-            "similarity": 0.899666,
-            "matched_descriptor": "egotistical"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "hunger-inducing / hungry",
-        "descriptor_index": 3647,
-        "amplitude": 0.0084282997,
-        "abs_amplitude": 0.0084282997,
-        "raw_amplitude": 0.0252848991,
-        "percent": 1.658924,
-        "raw_percent": 1.811821,
-        "coverage_percent": 65.087924,
-        "member_count": 2,
-        "members": [
-          "hunger-inducing",
-          "hungry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.025284899,
-            "similarity": 0.898234,
-            "matched_descriptor": "gluttonous"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "vain / cocky / conceited",
-        "descriptor_index": 8270,
-        "amplitude": 0.0078313313,
-        "abs_amplitude": 0.0078313313,
-        "raw_amplitude": 0.023493994,
-        "percent": 1.541424,
-        "raw_percent": 1.683491,
-        "coverage_percent": 66.629348,
-        "member_count": 3,
-        "members": [
-          "vain",
-          "cocky",
-          "conceited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0234939941,
-            "similarity": 0.896464,
-            "matched_descriptor": "egotistical"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "big-hearted / bighearted / pure-hearted",
-        "descriptor_index": 648,
-        "amplitude": 0.0063172531,
-        "abs_amplitude": 0.0063172531,
-        "raw_amplitude": 0.0122763771,
-        "percent": 1.243411,
-        "raw_percent": 0.879679,
-        "coverage_percent": 67.872759,
-        "member_count": 3,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "pure-hearted"
-        ],
-        "support": 2,
-        "effective_support": 1.543758,
-        "support_factor": 0.514586,
-        "top_characters": [
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0094751259,
-            "similarity": 0.905999,
-            "matched_descriptor": "caring"
-          },
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0028012512,
-            "similarity": 0.864856,
-            "matched_descriptor": "affectionate"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "mute / taciturn / reticent / voiceless / +3",
-        "descriptor_index": 5006,
-        "amplitude": 0.0062070044,
-        "abs_amplitude": 0.0062070044,
-        "raw_amplitude": 0.0186210131,
-        "percent": 1.221711,
-        "raw_percent": 1.334312,
-        "coverage_percent": 69.094471,
-        "member_count": 7,
-        "members": [
-          "mute",
-          "taciturn",
-          "reticent",
-          "voiceless",
-          "untalkative",
-          "quiet",
-          "silent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.018621013,
-            "similarity": 0.884554,
-            "matched_descriptor": "soft-spoken"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "diabolical",
-        "descriptor_index": 1797,
-        "amplitude": 0.0061869396,
-        "abs_amplitude": 0.0061869396,
-        "raw_amplitude": 0.0185608188,
-        "percent": 1.217762,
-        "raw_percent": 1.329998,
-        "coverage_percent": 70.312233,
-        "member_count": 1,
-        "members": [
-          "diabolical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0185608188,
-            "similarity": 1.0,
-            "matched_descriptor": "diabolical"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "authoritarian / despotic",
-        "descriptor_index": 475,
-        "amplitude": 0.0059489259,
-        "abs_amplitude": 0.0059489259,
-        "raw_amplitude": 0.0178467778,
-        "percent": 1.170914,
-        "raw_percent": 1.278833,
-        "coverage_percent": 71.483147,
-        "member_count": 2,
-        "members": [
-          "authoritarian",
-          "despotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0178467778,
-            "similarity": 0.894568,
-            "matched_descriptor": "bossy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "detail-oriented / meticulous / rigorous / precise",
-        "descriptor_index": 1768,
-        "amplitude": 0.005703823,
-        "abs_amplitude": 0.005703823,
-        "raw_amplitude": 0.0171114689,
-        "percent": 1.122671,
-        "raw_percent": 1.226144,
-        "coverage_percent": 72.605818,
-        "member_count": 4,
-        "members": [
-          "detail-oriented",
-          "meticulous",
-          "rigorous",
-          "precise"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0171114689,
-            "similarity": 0.876743,
-            "matched_descriptor": "demanding"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "power-seeking / power-hungry",
-        "descriptor_index": 5769,
-        "amplitude": 0.0056317907,
-        "abs_amplitude": 0.0056317907,
-        "raw_amplitude": 0.0168953721,
-        "percent": 1.108493,
-        "raw_percent": 1.210659,
-        "coverage_percent": 73.714311,
-        "member_count": 2,
-        "members": [
-          "power-seeking",
-          "power-hungry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0168953721,
-            "similarity": 0.878714,
-            "matched_descriptor": "bossy"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "magic-user",
-        "descriptor_index": 4505,
-        "amplitude": 0.005415274,
-        "abs_amplitude": 0.005415274,
-        "raw_amplitude": 0.016245822,
-        "percent": 1.065877,
-        "raw_percent": 1.164115,
-        "coverage_percent": 74.780188,
-        "member_count": 1,
-        "members": [
-          "magic-user"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.016245822,
-            "similarity": 0.931159,
-            "matched_descriptor": "mysticism expert"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "healing-type",
-        "descriptor_index": 3405,
-        "amplitude": 0.0048211585,
-        "abs_amplitude": 0.0048211585,
-        "raw_amplitude": 0.0144634756,
-        "percent": 0.948938,
-        "raw_percent": 1.036398,
-        "coverage_percent": 75.729126,
-        "member_count": 1,
-        "members": [
-          "healing-type"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0144634756,
-            "similarity": 0.956857,
-            "matched_descriptor": "healer"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "spell-caster",
-        "descriptor_index": 7152,
-        "amplitude": 0.0044900599,
-        "abs_amplitude": 0.0044900599,
-        "raw_amplitude": 0.0134701796,
-        "percent": 0.883769,
-        "raw_percent": 0.965222,
-        "coverage_percent": 76.612895,
-        "member_count": 1,
-        "members": [
-          "spell-caster"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0134701796,
-            "similarity": 0.915472,
-            "matched_descriptor": "mysticism expert"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "heartfelt / empathic",
-        "descriptor_index": 3422,
-        "amplitude": 0.00430887,
-        "abs_amplitude": 0.00430887,
-        "raw_amplitude": 0.0105426708,
-        "percent": 0.848106,
-        "raw_percent": 0.755448,
-        "coverage_percent": 77.461001,
-        "member_count": 2,
-        "members": [
-          "heartfelt",
-          "empathic"
-        ],
-        "support": 2,
-        "effective_support": 1.226123,
-        "support_factor": 0.408708,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.0094591712,
-            "similarity": 0.89239,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 3845,
-            "name": "Retsu Unohana",
-            "native_name": "卯ノ花烈",
-            "anime": "Bleach the Movie: The DiamondDust Rebellion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
-            "site_url": "https://anilist.co/character/3845",
-            "anime_url": "https://myanimelist.net/anime/2889",
-            "role": "SUPPORTING",
-            "favourites": 1305,
-            "row_weight": 2.85914748,
-            "projection": 0.0010834996,
-            "similarity": 0.888688,
-            "matched_descriptor": "caring"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "game-playing",
-        "descriptor_index": 2886,
-        "amplitude": 0.0039228427,
-        "abs_amplitude": 0.0039228427,
-        "raw_amplitude": 0.011768528,
-        "percent": 0.772125,
-        "raw_percent": 0.843288,
-        "coverage_percent": 78.233126,
-        "member_count": 1,
-        "members": [
-          "game-playing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2897,
-            "name": "Cerberus",
-            "native_name": "ケルベロス",
-            "anime": "CLAMP in Wonderland 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-            "site_url": "https://anilist.co/character/2897",
-            "anime_url": "https://myanimelist.net/anime/33354",
-            "role": "MAIN",
-            "favourites": 1239,
-            "row_weight": 2.01529981,
-            "projection": 0.011768528,
-            "similarity": 0.865189,
-            "matched_descriptor": "video game enthusiast"
+            "character_id": 32195,
+            "name": "Yuri Tsukikage",
+            "anime": "Heartcatch Precure!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+            "site_url": "https://anilist.co/character/32195",
+            "combined_favourites": 227
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0089735176,
-        "abs_amplitude": 0.0089735176,
-        "raw_amplitude": 0.0269205529,
-        "percent": 27.980565,
-        "raw_percent": 27.977633,
-        "coverage_percent": 27.980565,
-        "member_count": 2,
-        "members": [
-          "brilliant",
-          "smartest"
-        ],
+        "step": 1,
+        "descriptor": "soft-spoken",
+        "weighted_support": 2.86519463,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0269205529,
-            "similarity": 0.956457,
-            "matched_descriptor": "genius"
-          }
-        ]
+        "fit_percent": 82.219294,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "searching",
-        "descriptor_index": 6536,
-        "amplitude": 0.0065130629,
-        "abs_amplitude": 0.0065130629,
-        "raw_amplitude": 0.0195391888,
-        "percent": 20.308556,
-        "raw_percent": 20.306428,
-        "coverage_percent": 48.289121,
-        "member_count": 1,
-        "members": [
-          "searching"
-        ],
+        "step": 2,
+        "descriptor": "resentful",
+        "weighted_support": 2.86519463,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0195391888,
-            "similarity": 1.0,
-            "matched_descriptor": "searching"
-          }
-        ]
+        "fit_percent": 92.136853,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0040169462,
-        "abs_amplitude": 0.0040169462,
-        "raw_amplitude": 0.0120508385,
-        "percent": 12.525347,
-        "raw_percent": 12.524035,
-        "coverage_percent": 60.814468,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
+        "step": 3,
+        "descriptor": "polite",
+        "weighted_support": 2.86519463,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0120508385,
-            "similarity": 0.883101,
-            "matched_descriptor": "searching"
-          }
-        ]
+        "fit_percent": 93.818101,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "brainy / quick-witted / intelligent / smart / +1",
-        "descriptor_index": 797,
-        "amplitude": 0.0033092971,
-        "abs_amplitude": 0.0033092971,
-        "raw_amplitude": 0.0099278912,
-        "percent": 10.318808,
-        "raw_percent": 10.317726,
-        "coverage_percent": 71.133276,
-        "member_count": 5,
-        "members": [
-          "brainy",
-          "quick-witted",
-          "intelligent",
-          "smart",
-          "clever"
-        ],
+        "step": 4,
+        "descriptor": "self-sacrificing",
+        "weighted_support": 2.53561543,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0099278912,
-            "similarity": 0.865895,
-            "matched_descriptor": "genius"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "attached",
-        "descriptor_index": 458,
-        "amplitude": 0.0014909096,
-        "abs_amplitude": 0.0014909096,
-        "raw_amplitude": 0.0044727288,
-        "percent": 4.648845,
-        "raw_percent": 4.648358,
-        "coverage_percent": 75.782121,
-        "member_count": 1,
-        "members": [
-          "attached"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0044727288,
-            "similarity": 0.845947,
-            "matched_descriptor": "rocky relationship"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "shifting-allegiance",
-        "descriptor_index": 6789,
-        "amplitude": 0.0012060176,
-        "abs_amplitude": 0.0012060176,
-        "raw_amplitude": 0.0036180527,
-        "percent": 3.760516,
-        "raw_percent": 3.760122,
-        "coverage_percent": 79.542637,
-        "member_count": 1,
-        "members": [
-          "shifting-allegiance"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0036180527,
-            "similarity": 0.838712,
-            "matched_descriptor": "rocky relationship"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "tool-developer",
-        "descriptor_index": 7870,
-        "amplitude": 0.00080153,
-        "abs_amplitude": 0.00080153,
-        "raw_amplitude": 0.00240459,
-        "percent": 2.499272,
-        "raw_percent": 2.49901,
-        "coverage_percent": 82.041909,
-        "member_count": 1,
-        "members": [
-          "tool-developer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.00240459,
-            "similarity": 0.820479,
-            "matched_descriptor": "inventor"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "talented",
-        "descriptor_index": 7651,
-        "amplitude": 0.000753115,
-        "abs_amplitude": 0.000753115,
-        "raw_amplitude": 0.0022593449,
-        "percent": 2.348308,
-        "raw_percent": 2.348062,
-        "coverage_percent": 84.390217,
-        "member_count": 1,
-        "members": [
-          "talented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0022593449,
-            "similarity": 0.876348,
-            "matched_descriptor": "genius"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unflappable",
-        "descriptor_index": 8139,
-        "amplitude": 0.0006798815,
-        "abs_amplitude": 0.0006798815,
-        "raw_amplitude": 0.0020396446,
-        "percent": 2.119957,
-        "raw_percent": 2.119735,
-        "coverage_percent": 86.510174,
-        "member_count": 1,
-        "members": [
-          "unflappable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0020396446,
-            "similarity": 0.847319,
-            "matched_descriptor": "rocky relationship"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "lost",
-        "descriptor_index": 4396,
-        "amplitude": 0.0006605176,
-        "abs_amplitude": 0.0006605176,
-        "raw_amplitude": 0.0019815529,
-        "percent": 2.059578,
-        "raw_percent": 2.059362,
-        "coverage_percent": 88.569751,
-        "member_count": 1,
-        "members": [
-          "lost"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0019815529,
-            "similarity": 0.834365,
-            "matched_descriptor": "searching"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "spiraling",
-        "descriptor_index": 7158,
-        "amplitude": 0.0006282164,
-        "abs_amplitude": 0.0006282164,
-        "raw_amplitude": 0.0018846493,
-        "percent": 1.958859,
-        "raw_percent": 1.958653,
-        "coverage_percent": 90.52861,
-        "member_count": 1,
-        "members": [
-          "spiraling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0018846493,
-            "similarity": 0.831312,
-            "matched_descriptor": "rocky relationship"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "unstable / volatile",
-        "descriptor_index": 8224,
-        "amplitude": 0.0005320144,
-        "abs_amplitude": 0.0005320144,
-        "raw_amplitude": 0.0015960432,
-        "percent": 1.658888,
-        "raw_percent": 1.658715,
-        "coverage_percent": 92.187498,
-        "member_count": 2,
-        "members": [
-          "unstable",
-          "volatile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0015960432,
-            "similarity": 0.847075,
-            "matched_descriptor": "rocky relationship"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "computer-literate",
-        "descriptor_index": 1345,
-        "amplitude": 0.0004830759,
-        "abs_amplitude": 0.0004830759,
-        "raw_amplitude": 0.0014492278,
-        "percent": 1.506292,
-        "raw_percent": 1.506134,
-        "coverage_percent": 93.69379,
-        "member_count": 1,
-        "members": [
-          "computer-literate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0014492278,
-            "similarity": 0.834245,
-            "matched_descriptor": "inventor"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "reconciling",
-        "descriptor_index": 6161,
-        "amplitude": 0.0004420913,
-        "abs_amplitude": 0.0004420913,
-        "raw_amplitude": 0.0013262739,
-        "percent": 1.378497,
-        "raw_percent": 1.378352,
-        "coverage_percent": 95.072287,
-        "member_count": 1,
-        "members": [
-          "reconciling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 678,
-            "name": "Bulma",
-            "native_name": "ブルマ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
-            "site_url": "https://anilist.co/character/678",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 1562,
-            "row_weight": 1.66876824,
-            "projection": 0.0013262739,
-            "similarity": 0.824981,
-            "matched_descriptor": "rocky relationship"
-          }
-        ]
+        "fit_percent": 98.478152,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 2897,
-        "name": "Cerberus",
-        "native_name": "ケルベロス",
-        "anime": "CLAMP in Wonderland 2",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-        "site_url": "https://anilist.co/character/2897",
-        "anime_url": "https://myanimelist.net/anime/33354",
-        "role": "MAIN",
-        "favourites": 1239,
-        "row_weight": 2.01529981,
-        "amplitude": 0.7898597407,
-        "abs_amplitude": 0.7898597407,
-        "percent": 62.387841
-      },
-      {
         "character_id": 3845,
         "name": "Retsu Unohana",
-        "native_name": "卯ノ花烈",
         "anime": "Bleach the Movie: The DiamondDust Rebellion",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
         "site_url": "https://anilist.co/character/3845",
-        "anime_url": "https://myanimelist.net/anime/2889",
-        "role": "SUPPORTING",
         "favourites": 1305,
-        "row_weight": 2.85914748,
-        "amplitude": 0.6056921458,
-        "abs_amplitude": 0.6056921458,
-        "percent": 36.686298
+        "anilist_favourites": 1305,
+        "bangumi_collects": 46,
+        "bangumi_comments": 5,
+        "bangumi_character_id": 7819,
+        "bangumi_url": "https://bgm.tv/character/7819",
+        "combined_favourites": 1351,
+        "role_edge_count": 1,
+        "descriptors": [
+          "polite",
+          "resentful",
+          "soft-spoken"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.86519463,
+        "row_weight": 2.86519463,
+        "unweighted_row_norm": 2.6272415,
+        "amplitude": 0.6497080055,
+        "abs_amplitude": 0.6497080055,
+        "percent": 42.212049
+      },
+      {
+        "character_id": 32195,
+        "name": "Yuri Tsukikage",
+        "anime": "Heartcatch Precure!",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+        "site_url": "https://anilist.co/character/32195",
+        "favourites": 165,
+        "anilist_favourites": 165,
+        "bangumi_collects": 62,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 20681,
+        "bangumi_url": "https://bgm.tv/character/20681",
+        "combined_favourites": 227,
+        "role_edge_count": 1,
+        "descriptors": [
+          "self-sacrificing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53561543,
+        "row_weight": 2.53561543,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5218250277,
+        "abs_amplitude": 0.5218250277,
+        "percent": 27.230136
+      },
+      {
+        "character_id": 2897,
+        "name": "Cerberus",
+        "anime": "CLAMP in Wonderland 2",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
+        "site_url": "https://anilist.co/character/2897",
+        "favourites": 1239,
+        "anilist_favourites": 1239,
+        "bangumi_collects": 86,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 6528,
+        "bangumi_url": "https://bgm.tv/character/6528",
+        "combined_favourites": 1325,
+        "role_edge_count": 2,
+        "descriptors": [
+          "affectionate",
+          "bossy",
+          "charming",
+          "demanding",
+          "egotistical"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.86180401,
+        "row_weight": 2.02360102,
+        "unweighted_row_norm": 4.07306689,
+        "amplitude": 0.4576472959,
+        "abs_amplitude": 0.4576472959,
+        "percent": 20.944105
       },
       {
         "character_id": 678,
         "name": "Bulma",
-        "native_name": "ブルマ",
         "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
         "site_url": "https://anilist.co/character/678",
-        "anime_url": "https://myanimelist.net/anime/56894",
-        "role": "SUPPORTING",
         "favourites": 1562,
-        "row_weight": 1.66876824,
-        "amplitude": -0.0962216946,
-        "abs_amplitude": 0.0962216946,
-        "percent": 0.925861
+        "anilist_favourites": 1562,
+        "bangumi_collects": 53,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 15142,
+        "bangumi_url": "https://bgm.tv/character/15142",
+        "combined_favourites": 1615,
+        "role_edge_count": 3,
+        "descriptors": [
+          "ambitious"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 2.89615422,
+        "row_weight": 1.67209542,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3100598339,
+        "abs_amplitude": 0.3100598339,
+        "percent": 9.61371
       }
     ],
     "positive_characters": [
       {
-        "character_id": 2897,
-        "name": "Cerberus",
-        "native_name": "ケルベロス",
-        "anime": "CLAMP in Wonderland 2",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
-        "site_url": "https://anilist.co/character/2897",
-        "anime_url": "https://myanimelist.net/anime/33354",
-        "role": "MAIN",
-        "favourites": 1239,
-        "row_weight": 2.01529981,
-        "amplitude": 0.7898597407,
-        "abs_amplitude": 0.7898597407,
-        "percent": 62.387841
-      },
-      {
         "character_id": 3845,
         "name": "Retsu Unohana",
-        "native_name": "卯ノ花烈",
         "anime": "Bleach the Movie: The DiamondDust Rebellion",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
         "site_url": "https://anilist.co/character/3845",
-        "anime_url": "https://myanimelist.net/anime/2889",
-        "role": "SUPPORTING",
         "favourites": 1305,
-        "row_weight": 2.85914748,
-        "amplitude": 0.6056921458,
-        "abs_amplitude": 0.6056921458,
-        "percent": 36.686298
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 1305,
+        "bangumi_collects": 46,
+        "bangumi_comments": 5,
+        "bangumi_character_id": 7819,
+        "bangumi_url": "https://bgm.tv/character/7819",
+        "combined_favourites": 1351,
+        "role_edge_count": 1,
+        "descriptors": [
+          "polite",
+          "resentful",
+          "soft-spoken"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.86519463,
+        "row_weight": 2.86519463,
+        "unweighted_row_norm": 2.6272415,
+        "amplitude": 0.6497080055,
+        "abs_amplitude": 0.6497080055,
+        "percent": 42.212049
+      },
+      {
+        "character_id": 32195,
+        "name": "Yuri Tsukikage",
+        "anime": "Heartcatch Precure!",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+        "site_url": "https://anilist.co/character/32195",
+        "favourites": 165,
+        "anilist_favourites": 165,
+        "bangumi_collects": 62,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 20681,
+        "bangumi_url": "https://bgm.tv/character/20681",
+        "combined_favourites": 227,
+        "role_edge_count": 1,
+        "descriptors": [
+          "self-sacrificing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53561543,
+        "row_weight": 2.53561543,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5218250277,
+        "abs_amplitude": 0.5218250277,
+        "percent": 27.230136
+      },
+      {
+        "character_id": 2897,
+        "name": "Cerberus",
+        "anime": "CLAMP in Wonderland 2",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
+        "site_url": "https://anilist.co/character/2897",
+        "favourites": 1239,
+        "anilist_favourites": 1239,
+        "bangumi_collects": 86,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 6528,
+        "bangumi_url": "https://bgm.tv/character/6528",
+        "combined_favourites": 1325,
+        "role_edge_count": 2,
+        "descriptors": [
+          "affectionate",
+          "bossy",
+          "charming",
+          "demanding",
+          "egotistical"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.86180401,
+        "row_weight": 2.02360102,
+        "unweighted_row_norm": 4.07306689,
+        "amplitude": 0.4576472959,
+        "abs_amplitude": 0.4576472959,
+        "percent": 20.944105
+      },
       {
         "character_id": 678,
         "name": "Bulma",
-        "native_name": "ブルマ",
         "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
         "site_url": "https://anilist.co/character/678",
-        "anime_url": "https://myanimelist.net/anime/56894",
-        "role": "SUPPORTING",
         "favourites": 1562,
-        "row_weight": 1.66876824,
-        "amplitude": -0.0962216946,
-        "abs_amplitude": 0.0962216946,
-        "percent": 0.925861
+        "anilist_favourites": 1562,
+        "bangumi_collects": 53,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 15142,
+        "bangumi_url": "https://bgm.tv/character/15142",
+        "combined_favourites": 1615,
+        "role_edge_count": 3,
+        "descriptors": [
+          "ambitious"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 2.89615422,
+        "row_weight": 1.67209542,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3100598339,
+        "abs_amplitude": 0.3100598339,
+        "percent": 9.61371
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 3.273948,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "affectionate / charming / polite / +7",
+          "support": 4,
+          "variance": 1.8058547961,
+          "seed_descriptor": "affectionate",
+          "components": [
+            {
+              "descriptor": "affectionate",
+              "weight": 0.22037867,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "charming",
+              "weight": 0.11239621,
+              "similarity_to_seed": 0.71415265,
+              "support": 1
+            },
+            {
+              "descriptor": "polite",
+              "weight": 0.10761675,
+              "similarity_to_seed": 0.69880365,
+              "support": 1
+            },
+            {
+              "descriptor": "soft-spoken",
+              "weight": 0.09521832,
+              "similarity_to_seed": 0.65731794,
+              "support": 1
+            },
+            {
+              "descriptor": "resentful",
+              "weight": 0.09154758,
+              "similarity_to_seed": 0.64452335,
+              "support": 1
+            },
+            {
+              "descriptor": "demanding",
+              "weight": 0.086955,
+              "similarity_to_seed": 0.62814874,
+              "support": 1
+            },
+            {
+              "descriptor": "self-sacrificing",
+              "weight": 0.07263468,
+              "similarity_to_seed": 0.57409958,
+              "support": 1
+            },
+            {
+              "descriptor": "egotistical",
+              "weight": 0.07164512,
+              "similarity_to_seed": 0.57017546,
+              "support": 1
+            },
+            {
+              "descriptor": "ambitious",
+              "weight": 0.07092834,
+              "similarity_to_seed": 0.56731612,
+              "support": 1
+            },
+            {
+              "descriptor": "bossy",
+              "weight": 0.07067933,
+              "similarity_to_seed": 0.56631939,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 1.8058547961,
+          "minimum_y_projection_variance": 0.451463699,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 10,
+          "x_component_count": 10,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1805854796,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.451463699,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.9029273981,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 678,
+            "name": "Bulma",
+            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
+            "site_url": "https://anilist.co/character/678",
+            "favourites": 1562,
+            "anilist_favourites": 1562,
+            "bangumi_collects": 53,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 15142,
+            "bangumi_url": "https://bgm.tv/character/15142",
+            "combined_favourites": 1615,
+            "role_edge_count": 3,
+            "descriptors": [
+              "ambitious"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.89615422,
+            "row_weight": 1.67209542,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7641813349,
+            "x_score": -1.2210620104,
+            "amplitude": -1.2210620104,
+            "x_direct": true
+          },
+          {
+            "character_id": 3845,
+            "name": "Retsu Unohana",
+            "anime": "Bleach the Movie: The DiamondDust Rebellion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
+            "site_url": "https://anilist.co/character/3845",
+            "favourites": 1305,
+            "anilist_favourites": 1305,
+            "bangumi_collects": 46,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 7819,
+            "bangumi_url": "https://bgm.tv/character/7819",
+            "combined_favourites": 1351,
+            "role_edge_count": 1,
+            "descriptors": [
+              "polite",
+              "resentful",
+              "soft-spoken"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.86519463,
+            "row_weight": 2.86519463,
+            "unweighted_row_norm": 2.6272415,
+            "x_raw_score": 2.4505406478,
+            "x_score": 0.4652973024,
+            "amplitude": 0.4652973024,
+            "x_direct": true
+          },
+          {
+            "character_id": 2897,
+            "name": "Cerberus",
+            "anime": "CLAMP in Wonderland 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
+            "site_url": "https://anilist.co/character/2897",
+            "favourites": 1239,
+            "anilist_favourites": 1239,
+            "bangumi_collects": 86,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 6528,
+            "bangumi_url": "https://bgm.tv/character/6528",
+            "combined_favourites": 1325,
+            "role_edge_count": 2,
+            "descriptors": [
+              "affectionate",
+              "bossy",
+              "charming",
+              "demanding",
+              "egotistical"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.86180401,
+            "row_weight": 2.02360102,
+            "unweighted_row_norm": 4.07306689,
+            "x_raw_score": 3.9802736555,
+            "x_score": 1.9950303102,
+            "amplitude": 1.9950303102,
+            "x_direct": true
+          },
+          {
+            "character_id": 32195,
+            "name": "Yuri Tsukikage",
+            "anime": "Heartcatch Precure!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+            "site_url": "https://anilist.co/character/32195",
+            "favourites": 165,
+            "anilist_favourites": 165,
+            "bangumi_collects": 62,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 20681,
+            "bangumi_url": "https://bgm.tv/character/20681",
+            "combined_favourites": 227,
+            "role_edge_count": 1,
+            "descriptors": [
+              "self-sacrificing"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.53561543,
+            "row_weight": 2.53561543,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7459777431,
+            "x_score": -1.2392656022,
+            "amplitude": -1.2392656022,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.9852433453
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "affectionate / flirtatious / romantic / +9",
+          "support": 1,
+          "variance": 1.6732794677,
+          "seed_descriptor": "affectionate",
+          "components": [
+            {
+              "descriptor": "affectionate",
+              "weight": 0.14714036,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "flirtatious",
+              "weight": 0.08222288,
+              "similarity_to_seed": 0.74753309,
+              "support": 0
+            },
+            {
+              "descriptor": "romantic",
+              "weight": 0.08203204,
+              "similarity_to_seed": 0.74666509,
+              "support": 0
+            },
+            {
+              "descriptor": "mannered",
+              "weight": 0.08023668,
+              "similarity_to_seed": 0.7384491,
+              "support": 0
+            },
+            {
+              "descriptor": "passionate",
+              "weight": 0.07816893,
+              "similarity_to_seed": 0.72887182,
+              "support": 0
+            },
+            {
+              "descriptor": "instinctive",
+              "weight": 0.07782475,
+              "similarity_to_seed": 0.72726547,
+              "support": 0
+            },
+            {
+              "descriptor": "amiable",
+              "weight": 0.07704134,
+              "similarity_to_seed": 0.72359575,
+              "support": 0
+            },
+            {
+              "descriptor": "outspoken",
+              "weight": 0.07631323,
+              "similarity_to_seed": 0.7201683,
+              "support": 0
+            },
+            {
+              "descriptor": "charming",
+              "weight": 0.07504365,
+              "similarity_to_seed": 0.71415265,
+              "support": 1
+            },
+            {
+              "descriptor": "habitual",
+              "weight": 0.07485347,
+              "similarity_to_seed": 0.71324719,
+              "support": 0
+            },
+            {
+              "descriptor": "reclusive",
+              "weight": 0.07471409,
+              "similarity_to_seed": 0.71258283,
+              "support": 0
+            },
+            {
+              "descriptor": "prideful",
+              "weight": 0.07440857,
+              "similarity_to_seed": 0.71112438,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 1.6732794677,
+          "minimum_y_projection_variance": 0.4183198669,
+          "best_rejected_correlation": 0.9962113983,
+          "best_rejected_lane_cosine": 0.8977169513,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9960280411,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1673279468,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.4183198669,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.8366397339,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "stingy / fussy / grumpy / +9",
+            "variance": 1.4949635262,
+            "correlation": 0.9997339837,
+            "abs_correlation": 0.9997339837,
+            "lane_cosine": 0.8168728712,
+            "orthogonality_score": 0.3327187122,
+            "objective": 0.4974023393,
+            "components": [
+              {
+                "descriptor": "stingy",
+                "weight": 0.14764192,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "fussy",
+                "weight": 0.08778396,
+                "similarity_to_seed": 0.77108587,
+                "support": 0
+              },
+              {
+                "descriptor": "grumpy",
+                "weight": 0.07825164,
+                "similarity_to_seed": 0.72801761,
+                "support": 0
+              },
+              {
+                "descriptor": "exasperated",
+                "weight": 0.0781748,
+                "similarity_to_seed": 0.72766005,
+                "support": 0
+              },
+              {
+                "descriptor": "picky",
+                "weight": 0.07804719,
+                "similarity_to_seed": 0.7270659,
+                "support": 0
+              },
+              {
+                "descriptor": "obnoxious",
+                "weight": 0.07777967,
+                "similarity_to_seed": 0.72581877,
+                "support": 0
+              },
+              {
+                "descriptor": "masochistic",
+                "weight": 0.07681071,
+                "similarity_to_seed": 0.72128356,
+                "support": 0
+              },
+              {
+                "descriptor": "prickly",
+                "weight": 0.0757273,
+                "similarity_to_seed": 0.71617871,
+                "support": 0
+              },
+              {
+                "descriptor": "clingy",
+                "weight": 0.07568719,
+                "similarity_to_seed": 0.71598897,
+                "support": 0
+              },
+              {
+                "descriptor": "gloomy",
+                "weight": 0.07484922,
+                "similarity_to_seed": 0.71201445,
+                "support": 0
+              },
+              {
+                "descriptor": "irritated",
+                "weight": 0.07465699,
+                "similarity_to_seed": 0.71109954,
+                "support": 0
+              },
+              {
+                "descriptor": "ditzy",
+                "weight": 0.07458941,
+                "similarity_to_seed": 0.71077764,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 678,
+            "name": "Bulma",
+            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
+            "site_url": "https://anilist.co/character/678",
+            "favourites": 1562,
+            "anilist_favourites": 1562,
+            "bangumi_collects": 53,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 15142,
+            "bangumi_url": "https://bgm.tv/character/15142",
+            "combined_favourites": 1615,
+            "role_edge_count": 3,
+            "descriptors": [
+              "ambitious"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.89615422,
+            "row_weight": 1.67209542,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7209428343,
+            "x_score": -1.1642725562,
+            "amplitude": -1.1642725562,
+            "x_direct": false
+          },
+          {
+            "character_id": 3845,
+            "name": "Retsu Unohana",
+            "anime": "Bleach the Movie: The DiamondDust Rebellion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
+            "site_url": "https://anilist.co/character/3845",
+            "favourites": 1305,
+            "anilist_favourites": 1305,
+            "bangumi_collects": 46,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 7819,
+            "bangumi_url": "https://bgm.tv/character/7819",
+            "combined_favourites": 1351,
+            "role_edge_count": 1,
+            "descriptors": [
+              "polite",
+              "resentful",
+              "soft-spoken"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.86519463,
+            "row_weight": 2.86519463,
+            "unweighted_row_norm": 2.6272415,
+            "x_raw_score": 2.3270259289,
+            "x_score": 0.4418105384,
+            "amplitude": 0.4418105384,
+            "x_direct": false
+          },
+          {
+            "character_id": 2897,
+            "name": "Cerberus",
+            "anime": "CLAMP in Wonderland 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
+            "site_url": "https://anilist.co/character/2897",
+            "favourites": 1239,
+            "anilist_favourites": 1239,
+            "bangumi_collects": 86,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 6528,
+            "bangumi_url": "https://bgm.tv/character/6528",
+            "combined_favourites": 1325,
+            "role_edge_count": 2,
+            "descriptors": [
+              "affectionate",
+              "bossy",
+              "charming",
+              "demanding",
+              "egotistical"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.86180401,
+            "row_weight": 2.02360102,
+            "unweighted_row_norm": 4.07306689,
+            "x_raw_score": 3.8087227914,
+            "x_score": 1.923507401,
+            "amplitude": 1.923507401,
+            "x_direct": true
+          },
+          {
+            "character_id": 32195,
+            "name": "Yuri Tsukikage",
+            "anime": "Heartcatch Precure!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+            "site_url": "https://anilist.co/character/32195",
+            "favourites": 165,
+            "anilist_favourites": 165,
+            "bangumi_collects": 62,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 20681,
+            "bangumi_url": "https://bgm.tv/character/20681",
+            "combined_favourites": 227,
+            "role_edge_count": 1,
+            "descriptors": [
+              "self-sacrificing"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.53561543,
+            "row_weight": 2.53561543,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.6841700073,
+            "x_score": -1.2010453832,
+            "amplitude": -1.2010453832,
+            "x_direct": false
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.8852153905
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "affectionate / charming / polite / +7",
+        "support": 4,
+        "variance": 1.8058547961,
+        "seed_descriptor": "affectionate",
+        "components": [
+          {
+            "descriptor": "affectionate",
+            "weight": 0.22037867,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "charming",
+            "weight": 0.11239621,
+            "similarity_to_seed": 0.71415265,
+            "support": 1
+          },
+          {
+            "descriptor": "polite",
+            "weight": 0.10761675,
+            "similarity_to_seed": 0.69880365,
+            "support": 1
+          },
+          {
+            "descriptor": "soft-spoken",
+            "weight": 0.09521832,
+            "similarity_to_seed": 0.65731794,
+            "support": 1
+          },
+          {
+            "descriptor": "resentful",
+            "weight": 0.09154758,
+            "similarity_to_seed": 0.64452335,
+            "support": 1
+          },
+          {
+            "descriptor": "demanding",
+            "weight": 0.086955,
+            "similarity_to_seed": 0.62814874,
+            "support": 1
+          },
+          {
+            "descriptor": "self-sacrificing",
+            "weight": 0.07263468,
+            "similarity_to_seed": 0.57409958,
+            "support": 1
+          },
+          {
+            "descriptor": "egotistical",
+            "weight": 0.07164512,
+            "similarity_to_seed": 0.57017546,
+            "support": 1
+          },
+          {
+            "descriptor": "ambitious",
+            "weight": 0.07092834,
+            "similarity_to_seed": 0.56731612,
+            "support": 1
+          },
+          {
+            "descriptor": "bossy",
+            "weight": 0.07067933,
+            "similarity_to_seed": 0.56631939,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 1.8058547961,
+        "minimum_y_projection_variance": 0.451463699,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 10,
+        "x_component_count": 10,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1805854796,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.451463699,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.9029273981,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 678,
+          "name": "Bulma",
+          "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
+          "site_url": "https://anilist.co/character/678",
+          "favourites": 1562,
+          "anilist_favourites": 1562,
+          "bangumi_collects": 53,
+          "bangumi_comments": 9,
+          "bangumi_character_id": 15142,
+          "bangumi_url": "https://bgm.tv/character/15142",
+          "combined_favourites": 1615,
+          "role_edge_count": 3,
+          "descriptors": [
+            "ambitious"
+          ],
+          "shared_role_weight": 0.57735027,
+          "popularity_row_weight": 2.89615422,
+          "row_weight": 1.67209542,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7641813349,
+          "x_score": -1.2210620104,
+          "amplitude": -1.2210620104,
+          "x_direct": true
+        },
+        {
+          "character_id": 3845,
+          "name": "Retsu Unohana",
+          "anime": "Bleach the Movie: The DiamondDust Rebellion",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
+          "site_url": "https://anilist.co/character/3845",
+          "favourites": 1305,
+          "anilist_favourites": 1305,
+          "bangumi_collects": 46,
+          "bangumi_comments": 5,
+          "bangumi_character_id": 7819,
+          "bangumi_url": "https://bgm.tv/character/7819",
+          "combined_favourites": 1351,
+          "role_edge_count": 1,
+          "descriptors": [
+            "polite",
+            "resentful",
+            "soft-spoken"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.86519463,
+          "row_weight": 2.86519463,
+          "unweighted_row_norm": 2.6272415,
+          "x_raw_score": 2.4505406478,
+          "x_score": 0.4652973024,
+          "amplitude": 0.4652973024,
+          "x_direct": true
+        },
+        {
+          "character_id": 2897,
+          "name": "Cerberus",
+          "anime": "CLAMP in Wonderland 2",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
+          "site_url": "https://anilist.co/character/2897",
+          "favourites": 1239,
+          "anilist_favourites": 1239,
+          "bangumi_collects": 86,
+          "bangumi_comments": 16,
+          "bangumi_character_id": 6528,
+          "bangumi_url": "https://bgm.tv/character/6528",
+          "combined_favourites": 1325,
+          "role_edge_count": 2,
+          "descriptors": [
+            "affectionate",
+            "bossy",
+            "charming",
+            "demanding",
+            "egotistical"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.86180401,
+          "row_weight": 2.02360102,
+          "unweighted_row_norm": 4.07306689,
+          "x_raw_score": 3.9802736555,
+          "x_score": 1.9950303102,
+          "amplitude": 1.9950303102,
+          "x_direct": true
+        },
+        {
+          "character_id": 32195,
+          "name": "Yuri Tsukikage",
+          "anime": "Heartcatch Precure!",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+          "site_url": "https://anilist.co/character/32195",
+          "favourites": 165,
+          "anilist_favourites": 165,
+          "bangumi_collects": 62,
+          "bangumi_comments": 16,
+          "bangumi_character_id": 20681,
+          "bangumi_url": "https://bgm.tv/character/20681",
+          "combined_favourites": 227,
+          "role_edge_count": 1,
+          "descriptors": [
+            "self-sacrificing"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.53561543,
+          "row_weight": 2.53561543,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7459777431,
+          "x_score": -1.2392656022,
+          "amplitude": -1.2392656022,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.9852433453
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.5799332413,
+      "mass_percent": 11.594246,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 52.064762,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "self-sacrificing",
+            "amplitude": 0.5206476221,
+            "abs_amplitude": 0.5206476221,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "self-sacrificing",
+            "fit_percent": 52.064762,
+            "residual_gain_percent": 27.107395
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 32195,
+            "name": "Yuri Tsukikage",
+            "anime": "Heartcatch Precure!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b32195-GhMucyqfH55R.jpg",
+            "site_url": "https://anilist.co/character/32195",
+            "favourites": 165,
+            "anilist_favourites": 165,
+            "bangumi_collects": 62,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 20681,
+            "bangumi_url": "https://bgm.tv/character/20681",
+            "combined_favourites": 227,
+            "role_edge_count": 1,
+            "descriptors": [
+              "self-sacrificing"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.53561543,
+            "row_weight": 2.53561543,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.8355809674,
+            "abs_amplitude": 0.8355809674,
+            "percent": 69.819555
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 35.235954,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "polite",
+            "amplitude": 0.3163628249,
+            "abs_amplitude": 0.3163628249,
+            "percent": 85.844336
+          },
+          {
+            "rank": 2,
+            "descriptor": "gruff",
+            "amplitude": 0.0521679817,
+            "abs_amplitude": 0.0521679817,
+            "percent": 14.155664
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "polite",
+            "fit_percent": 35.010621,
+            "residual_gain_percent": 12.257436
+          },
+          {
+            "step": 2,
+            "descriptor": "gruff",
+            "fit_percent": 35.235954,
+            "residual_gain_percent": 0.180401
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 3845,
+            "name": "Retsu Unohana",
+            "anime": "Bleach the Movie: The DiamondDust Rebellion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b3845-B0r5OCEkdJOR.png",
+            "site_url": "https://anilist.co/character/3845",
+            "favourites": 1305,
+            "anilist_favourites": 1305,
+            "bangumi_collects": 46,
+            "bangumi_comments": 5,
+            "bangumi_character_id": 7819,
+            "bangumi_url": "https://bgm.tv/character/7819",
+            "combined_favourites": 1351,
+            "role_edge_count": 1,
+            "descriptors": [
+              "polite",
+              "resentful",
+              "soft-spoken"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.86519463,
+            "row_weight": 2.86519463,
+            "unweighted_row_norm": 2.6272415,
+            "amplitude": -0.5125805903,
+            "abs_amplitude": 0.5125805903,
+            "percent": 26.273886
+          },
+          {
+            "character_id": 2897,
+            "name": "Cerberus",
+            "anime": "CLAMP in Wonderland 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2897-Ckmv1Y2i9hZZ.jpg",
+            "site_url": "https://anilist.co/character/2897",
+            "favourites": 1239,
+            "anilist_favourites": 1239,
+            "bangumi_collects": 86,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 6528,
+            "bangumi_url": "https://bgm.tv/character/6528",
+            "combined_favourites": 1325,
+            "role_edge_count": 2,
+            "descriptors": [
+              "affectionate",
+              "bossy",
+              "charming",
+              "demanding",
+              "egotistical"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.86180401,
+            "row_weight": 2.02360102,
+            "unweighted_row_norm": 4.07306689,
+            "amplitude": -0.1912426293,
+            "abs_amplitude": 0.1912426293,
+            "percent": 3.657374
+          },
+          {
+            "character_id": 678,
+            "name": "Bulma",
+            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b678-2YCe13F0tFos.jpg",
+            "site_url": "https://anilist.co/character/678",
+            "favourites": 1562,
+            "anilist_favourites": 1562,
+            "bangumi_collects": 53,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 15142,
+            "bangumi_url": "https://bgm.tv/character/15142",
+            "combined_favourites": 1615,
+            "role_edge_count": 3,
+            "descriptors": [
+              "ambitious"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 2.89615422,
+            "row_weight": 1.67209542,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.0499183533,
+            "abs_amplitude": 0.0499183533,
+            "percent": 0.249184
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.1299796305,
+      "mass_percent": 79.224748,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.5799332413,
+      "mass_percent": 11.594246,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.2204600732,
+      "mass_percent": 6.918504,
+      "relative_to_sv2_percent": 77.247572
+    },
+    {
+      "rank": 4,
+      "singular_value": 0.6979301292,
+      "mass_percent": 2.262502,
+      "relative_to_sv2_percent": 44.174659
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

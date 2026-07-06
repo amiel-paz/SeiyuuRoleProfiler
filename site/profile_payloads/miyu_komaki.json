@@ -11,1070 +11,70 @@
     "komaki miyu",
     "miyu komaki"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/miyu_komaki.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.536687776,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.536687776,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 295.256593,
-      "normalized_entanglement": 0.768897,
-      "top5_mass_percent": 3.384069,
-      "top10_mass_percent": 6.371028
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.651543939,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "irritable / cranky / annoyed-prone / quick-tempered / +19",
-        "descriptor_index": 4014,
-        "amplitude": 0.1721112277,
-        "abs_amplitude": 0.1721112277,
-        "raw_amplitude": 0.5163336832,
-        "percent": 51.633368,
-        "raw_percent": 51.633368,
-        "coverage_percent": 51.633368,
-        "member_count": 23,
-        "members": [
-          "irritable",
-          "cranky",
-          "annoyed-prone",
-          "quick-tempered",
-          "aggravated",
-          "hot-tempered",
-          "irritated",
-          "displeased",
-          "friction-prone",
-          "impatient",
-          "ill-tempered",
-          "bad-tempered",
-          "enraged",
-          "dissatisfied",
-          "prone-to-anger",
-          "grouchy",
-          "grumpy",
-          "short-tempered",
-          "short-temperedness",
-          "annoyed",
-          "furious",
-          "hot-headed",
-          "mad"
-        ],
+        "descriptor": "loyal",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.65154394,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 146015,
             "name": "Murr",
-            "native_name": "ムル",
             "anime": "The Case Study of Vanitas",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
             "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.5163336832,
-            "similarity": 1.0,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.0791801312,
-        "abs_amplitude": 0.0791801312,
-        "raw_amplitude": 0.2375403936,
-        "percent": 23.754039,
-        "raw_percent": 23.754039,
-        "coverage_percent": 75.387408,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.2375403936,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "tactless / ill-mannered / rude / disrespectful / +2",
-        "descriptor_index": 7649,
-        "amplitude": 0.0110911318,
-        "abs_amplitude": 0.0110911318,
-        "raw_amplitude": 0.0332733955,
-        "percent": 3.32734,
-        "raw_percent": 3.32734,
-        "coverage_percent": 78.714747,
-        "member_count": 6,
-        "members": [
-          "tactless",
-          "ill-mannered",
-          "rude",
-          "disrespectful",
-          "irreverent",
-          "abrasive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0332733955,
-            "similarity": 0.886681,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "indignant / spiteful / resentful / bitter",
-        "descriptor_index": 3844,
-        "amplitude": 0.010048607,
-        "abs_amplitude": 0.010048607,
-        "raw_amplitude": 0.0301458209,
-        "percent": 3.014582,
-        "raw_percent": 3.014582,
-        "coverage_percent": 81.729329,
-        "member_count": 4,
-        "members": [
-          "indignant",
-          "spiteful",
-          "resentful",
-          "bitter"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0301458208,
-            "similarity": 0.890083,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unconcerned / apathetic / cold / uncaring / +2",
-        "descriptor_index": 8079,
-        "amplitude": 0.0090004268,
-        "abs_amplitude": 0.0090004268,
-        "raw_amplitude": 0.0270012803,
-        "percent": 2.700128,
-        "raw_percent": 2.700128,
-        "coverage_percent": 84.429457,
-        "member_count": 6,
-        "members": [
-          "unconcerned",
-          "apathetic",
-          "cold",
-          "uncaring",
-          "unenthusiastic",
-          "indifferent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0270012804,
-            "similarity": 0.883907,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "moody / disapproving / sullen / grim",
-        "descriptor_index": 4925,
-        "amplitude": 0.007305923,
-        "abs_amplitude": 0.007305923,
-        "raw_amplitude": 0.0219177689,
-        "percent": 2.191777,
-        "raw_percent": 2.191777,
-        "coverage_percent": 86.621234,
-        "member_count": 4,
-        "members": [
-          "moody",
-          "disapproving",
-          "sullen",
-          "grim"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0219177689,
-            "similarity": 0.897956,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0067408681,
-        "abs_amplitude": 0.0067408681,
-        "raw_amplitude": 0.0202226043,
-        "percent": 2.02226,
-        "raw_percent": 2.02226,
-        "coverage_percent": 88.643495,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0202226044,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0057538689,
-        "abs_amplitude": 0.0057538689,
-        "raw_amplitude": 0.0172616068,
-        "percent": 1.726161,
-        "raw_percent": 1.726161,
-        "coverage_percent": 90.369655,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0172616068,
-            "similarity": 0.893527,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "annoying / irritating",
-        "descriptor_index": 264,
-        "amplitude": 0.0043557794,
-        "abs_amplitude": 0.0043557794,
-        "raw_amplitude": 0.0130673381,
-        "percent": 1.306734,
-        "raw_percent": 1.306734,
-        "coverage_percent": 91.676389,
-        "member_count": 2,
-        "members": [
-          "annoying",
-          "irritating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0130673381,
-            "similarity": 0.879166,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0036505794,
-        "abs_amplitude": 0.0036505794,
-        "raw_amplitude": 0.0109517381,
-        "percent": 1.095174,
-        "raw_percent": 1.095174,
-        "coverage_percent": 92.771563,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0109517381,
-            "similarity": 0.871604,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "frustrated",
-        "descriptor_index": 2843,
-        "amplitude": 0.0034712873,
-        "abs_amplitude": 0.0034712873,
-        "raw_amplitude": 0.0104138619,
-        "percent": 1.041386,
-        "raw_percent": 1.041386,
-        "coverage_percent": 93.812949,
-        "member_count": 1,
-        "members": [
-          "frustrated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0104138619,
-            "similarity": 0.889818,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "unpleasant",
-        "descriptor_index": 8198,
-        "amplitude": 0.0033748523,
-        "abs_amplitude": 0.0033748523,
-        "raw_amplitude": 0.0101245569,
-        "percent": 1.012456,
-        "raw_percent": 1.012456,
-        "coverage_percent": 94.825405,
-        "member_count": 1,
-        "members": [
-          "unpleasant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0101245569,
-            "similarity": 0.888968,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "angry",
-        "descriptor_index": 240,
-        "amplitude": 0.0033193603,
-        "abs_amplitude": 0.0033193603,
-        "raw_amplitude": 0.0099580809,
-        "percent": 0.995808,
-        "raw_percent": 0.995808,
-        "coverage_percent": 95.821213,
-        "member_count": 1,
-        "members": [
-          "angry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0099580809,
-            "similarity": 0.888479,
-            "matched_descriptor": "irritable"
+            "combined_favourites": 415
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "irritable / cranky / annoyed-prone / quick-tempered / +19",
-        "descriptor_index": 4014,
-        "amplitude": 0.1721112277,
-        "abs_amplitude": 0.1721112277,
-        "raw_amplitude": 0.5163336832,
-        "percent": 51.633368,
-        "raw_percent": 51.633368,
-        "coverage_percent": 51.633368,
-        "member_count": 23,
-        "members": [
-          "irritable",
-          "cranky",
-          "annoyed-prone",
-          "quick-tempered",
-          "aggravated",
-          "hot-tempered",
-          "irritated",
-          "displeased",
-          "friction-prone",
-          "impatient",
-          "ill-tempered",
-          "bad-tempered",
-          "enraged",
-          "dissatisfied",
-          "prone-to-anger",
-          "grouchy",
-          "grumpy",
-          "short-tempered",
-          "short-temperedness",
-          "annoyed",
-          "furious",
-          "hot-headed",
-          "mad"
-        ],
+        "step": 1,
+        "descriptor": "loyal",
+        "weighted_support": 2.65154394,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.5163336832,
-            "similarity": 1.0,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.0791801312,
-        "abs_amplitude": 0.0791801312,
-        "raw_amplitude": 0.2375403936,
-        "percent": 23.754039,
-        "raw_percent": 23.754039,
-        "coverage_percent": 75.387408,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.2375403936,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "tactless / ill-mannered / rude / disrespectful / +2",
-        "descriptor_index": 7649,
-        "amplitude": 0.0110911318,
-        "abs_amplitude": 0.0110911318,
-        "raw_amplitude": 0.0332733955,
-        "percent": 3.32734,
-        "raw_percent": 3.32734,
-        "coverage_percent": 78.714747,
-        "member_count": 6,
-        "members": [
-          "tactless",
-          "ill-mannered",
-          "rude",
-          "disrespectful",
-          "irreverent",
-          "abrasive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0332733955,
-            "similarity": 0.886681,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "indignant / spiteful / resentful / bitter",
-        "descriptor_index": 3844,
-        "amplitude": 0.010048607,
-        "abs_amplitude": 0.010048607,
-        "raw_amplitude": 0.0301458209,
-        "percent": 3.014582,
-        "raw_percent": 3.014582,
-        "coverage_percent": 81.729329,
-        "member_count": 4,
-        "members": [
-          "indignant",
-          "spiteful",
-          "resentful",
-          "bitter"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0301458208,
-            "similarity": 0.890083,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unconcerned / apathetic / cold / uncaring / +2",
-        "descriptor_index": 8079,
-        "amplitude": 0.0090004268,
-        "abs_amplitude": 0.0090004268,
-        "raw_amplitude": 0.0270012803,
-        "percent": 2.700128,
-        "raw_percent": 2.700128,
-        "coverage_percent": 84.429457,
-        "member_count": 6,
-        "members": [
-          "unconcerned",
-          "apathetic",
-          "cold",
-          "uncaring",
-          "unenthusiastic",
-          "indifferent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0270012804,
-            "similarity": 0.883907,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "moody / disapproving / sullen / grim",
-        "descriptor_index": 4925,
-        "amplitude": 0.007305923,
-        "abs_amplitude": 0.007305923,
-        "raw_amplitude": 0.0219177689,
-        "percent": 2.191777,
-        "raw_percent": 2.191777,
-        "coverage_percent": 86.621234,
-        "member_count": 4,
-        "members": [
-          "moody",
-          "disapproving",
-          "sullen",
-          "grim"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0219177689,
-            "similarity": 0.897956,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0067408681,
-        "abs_amplitude": 0.0067408681,
-        "raw_amplitude": 0.0202226043,
-        "percent": 2.02226,
-        "raw_percent": 2.02226,
-        "coverage_percent": 88.643495,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0202226044,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0057538689,
-        "abs_amplitude": 0.0057538689,
-        "raw_amplitude": 0.0172616068,
-        "percent": 1.726161,
-        "raw_percent": 1.726161,
-        "coverage_percent": 90.369655,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0172616068,
-            "similarity": 0.893527,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "annoying / irritating",
-        "descriptor_index": 264,
-        "amplitude": 0.0043557794,
-        "abs_amplitude": 0.0043557794,
-        "raw_amplitude": 0.0130673381,
-        "percent": 1.306734,
-        "raw_percent": 1.306734,
-        "coverage_percent": 91.676389,
-        "member_count": 2,
-        "members": [
-          "annoying",
-          "irritating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0130673381,
-            "similarity": 0.879166,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0036505794,
-        "abs_amplitude": 0.0036505794,
-        "raw_amplitude": 0.0109517381,
-        "percent": 1.095174,
-        "raw_percent": 1.095174,
-        "coverage_percent": 92.771563,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0109517381,
-            "similarity": 0.871604,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "frustrated",
-        "descriptor_index": 2843,
-        "amplitude": 0.0034712873,
-        "abs_amplitude": 0.0034712873,
-        "raw_amplitude": 0.0104138619,
-        "percent": 1.041386,
-        "raw_percent": 1.041386,
-        "coverage_percent": 93.812949,
-        "member_count": 1,
-        "members": [
-          "frustrated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0104138619,
-            "similarity": 0.889818,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "unpleasant",
-        "descriptor_index": 8198,
-        "amplitude": 0.0033748523,
-        "abs_amplitude": 0.0033748523,
-        "raw_amplitude": 0.0101245569,
-        "percent": 1.012456,
-        "raw_percent": 1.012456,
-        "coverage_percent": 94.825405,
-        "member_count": 1,
-        "members": [
-          "unpleasant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0101245569,
-            "similarity": 0.888968,
-            "matched_descriptor": "irritable"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "angry",
-        "descriptor_index": 240,
-        "amplitude": 0.0033193603,
-        "abs_amplitude": 0.0033193603,
-        "raw_amplitude": 0.0099580809,
-        "percent": 0.995808,
-        "raw_percent": 0.995808,
-        "coverage_percent": 95.821213,
-        "member_count": 1,
-        "members": [
-          "angry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 146015,
-            "name": "Murr",
-            "native_name": "ムル",
-            "anime": "The Case Study of Vanitas",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
-            "site_url": "https://anilist.co/character/146015",
-            "anime_url": "https://myanimelist.net/anime/48580",
-            "role": "SUPPORTING",
-            "favourites": 409,
-            "row_weight": 2.64880297,
-            "projection": 0.0099580809,
-            "similarity": 0.888479,
-            "matched_descriptor": "irritable"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 146015,
         "name": "Murr",
-        "native_name": "ムル",
         "anime": "The Case Study of Vanitas",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
         "site_url": "https://anilist.co/character/146015",
-        "anime_url": "https://myanimelist.net/anime/48580",
-        "role": "SUPPORTING",
         "favourites": 409,
-        "row_weight": 2.64880297,
+        "anilist_favourites": 409,
+        "bangumi_collects": 6,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 78616,
+        "bangumi_url": "https://bgm.tv/character/78616",
+        "combined_favourites": 415,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.65154394,
+        "row_weight": 2.65154394,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1084,19 +84,67 @@
       {
         "character_id": 146015,
         "name": "Murr",
-        "native_name": "ムル",
         "anime": "The Case Study of Vanitas",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b146015-TTM14WCYx74X.jpg",
         "site_url": "https://anilist.co/character/146015",
-        "anime_url": "https://myanimelist.net/anime/48580",
-        "role": "SUPPORTING",
         "favourites": 409,
-        "row_weight": 2.64880297,
+        "anilist_favourites": 409,
+        "bangumi_collects": 6,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 78616,
+        "bangumi_url": "https://bgm.tv/character/78616",
+        "combined_favourites": 415,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.65154394,
+        "row_weight": 2.65154394,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.651543939,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

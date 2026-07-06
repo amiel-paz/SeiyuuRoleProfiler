@@ -11,1181 +11,361 @@
     "honizumi rina",
     "rina honizumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/rina_honizumi.json",
+  "sv1_mass_percent": 79.462518,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.6128735641,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.6128735641,
-        "mass_percent": 86.028963
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.0678957201,
-        "mass_percent": 13.971037
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 335.873997,
-      "normalized_entanglement": 0.874672,
-      "top5_mass_percent": 2.567533,
-      "top10_mass_percent": 4.967273
-    },
-    "character_participation": {
-      "effective_count": 1.0371,
-      "normalized_entanglement": 0.51855,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.469705,
-      "semantic_spread": 2.469705,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.125976,
-      "direction_spread": 1.125976,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 86.028963,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.3439058092,
+    "mass_percent": 85.618639,
+    "descriptor_fit_percent": 96.930244,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "solitary / lone / isolated / self-sufficient / +1",
-        "descriptor_index": 7076,
-        "amplitude": 0.1774738217,
-        "abs_amplitude": 0.1774738217,
-        "raw_amplitude": 0.5324214651,
-        "percent": 53.733868,
-        "raw_percent": 53.733868,
-        "coverage_percent": 53.733868,
-        "member_count": 5,
-        "members": [
-          "solitary",
-          "lone",
-          "isolated",
-          "self-sufficient",
-          "self-reliant"
-        ],
+        "descriptor": "solitary",
+        "amplitude": 0.7011841044,
+        "abs_amplitude": 0.7011841044,
+        "percent": 66.594964,
+        "weighted_support": 2.60516744,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 141533,
             "name": "Hina",
-            "native_name": "陽菜",
             "anime": "Plunderer",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
             "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.532421465,
-            "similarity": 1.0,
-            "matched_descriptor": "solitary"
+            "combined_favourites": 325
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "friendless / disconnected / reclusive",
-        "descriptor_index": 2819,
-        "amplitude": 0.0352901397,
-        "abs_amplitude": 0.0352901397,
-        "raw_amplitude": 0.105870419,
-        "percent": 10.684819,
-        "raw_percent": 10.684819,
-        "coverage_percent": 64.418687,
-        "member_count": 3,
-        "members": [
-          "friendless",
-          "disconnected",
-          "reclusive"
-        ],
+        "descriptor": "mysterious",
+        "amplitude": 0.3517244974,
+        "abs_amplitude": 0.3517244974,
+        "percent": 33.405036,
+        "weighted_support": 2.50459569,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.105870419,
-            "similarity": 0.86847,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "solo",
-        "descriptor_index": 7081,
-        "amplitude": 0.0229293557,
-        "abs_amplitude": 0.0229293557,
-        "raw_amplitude": 0.0687880671,
-        "percent": 6.942336,
-        "raw_percent": 6.942336,
-        "coverage_percent": 71.361023,
-        "member_count": 1,
-        "members": [
-          "solo"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.0687880671,
-            "similarity": 0.889026,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "abandoned / neglected",
-        "descriptor_index": 3,
-        "amplitude": 0.0175659858,
-        "abs_amplitude": 0.0175659858,
-        "raw_amplitude": 0.0526979573,
-        "percent": 5.318465,
-        "raw_percent": 5.318465,
-        "coverage_percent": 76.679489,
-        "member_count": 2,
-        "members": [
-          "abandoned",
-          "neglected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.0526979573,
-            "similarity": 0.852084,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "independent",
-        "descriptor_index": 3832,
-        "amplitude": 0.0155358437,
-        "abs_amplitude": 0.0155358437,
-        "raw_amplitude": 0.046607531,
-        "percent": 4.703798,
-        "raw_percent": 4.703798,
-        "coverage_percent": 81.383287,
-        "member_count": 1,
-        "members": [
-          "independent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.046607531,
-            "similarity": 0.891845,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "works-alone",
-        "descriptor_index": 8614,
-        "amplitude": 0.0151680419,
-        "abs_amplitude": 0.0151680419,
-        "raw_amplitude": 0.0455041257,
-        "percent": 4.592438,
-        "raw_percent": 4.592438,
-        "coverage_percent": 85.975725,
-        "member_count": 1,
-        "members": [
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.0455041257,
-            "similarity": 0.857847,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "unmarried",
-        "descriptor_index": 8186,
-        "amplitude": 0.0120605578,
-        "abs_amplitude": 0.0120605578,
-        "raw_amplitude": 0.0361816734,
-        "percent": 3.651583,
-        "raw_percent": 3.651583,
-        "coverage_percent": 89.627308,
-        "member_count": 1,
-        "members": [
-          "unmarried"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.0361816734,
-            "similarity": 0.845364,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.01201928,
-        "abs_amplitude": 0.01201928,
-        "raw_amplitude": 0.0360578399,
-        "percent": 3.639085,
-        "raw_percent": 3.639085,
-        "coverage_percent": 93.266393,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.0360578399,
-            "similarity": 0.845198,
-            "matched_descriptor": "solitary"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "recluse",
-        "descriptor_index": 6159,
-        "amplitude": 0.0118912306,
-        "abs_amplitude": 0.0118912306,
-        "raw_amplitude": 0.0356736918,
-        "percent": 3.600316,
-        "raw_percent": 3.600316,
-        "coverage_percent": 96.866709,
-        "member_count": 1,
-        "members": [
-          "recluse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 141533,
-            "name": "Hina",
-            "native_name": "陽菜",
-            "anime": "Plunderer",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
-            "site_url": "https://anilist.co/character/141533",
-            "anime_url": "https://myanimelist.net/anime/37345",
-            "role": "MAIN",
-            "favourites": 301,
-            "row_weight": 2.59044919,
-            "projection": 0.0356736918,
-            "similarity": 0.872769,
-            "matched_descriptor": "solitary"
+            "character_id": 262416,
+            "name": "Shizuku Hinomori",
+            "anime": "Puchi Seka",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
+            "site_url": "https://anilist.co/character/262416",
+            "combined_favourites": 194
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0169811746,
-        "abs_amplitude": 0.0169811746,
-        "raw_amplitude": 0.0509435239,
-        "percent": 37.746166,
-        "raw_percent": 37.74282,
-        "coverage_percent": 37.746166,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "step": 1,
+        "descriptor": "solitary",
+        "weighted_support": 2.60516744,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0509435239,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "fit_percent": 93.234875,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "mature / matured",
-        "descriptor_index": 4666,
-        "amplitude": 0.0044823135,
-        "abs_amplitude": 0.0044823135,
-        "raw_amplitude": 0.0134469406,
-        "percent": 9.963395,
-        "raw_percent": 9.962512,
-        "coverage_percent": 47.70956,
-        "member_count": 2,
-        "members": [
-          "mature",
-          "matured"
-        ],
+        "step": 2,
+        "descriptor": "mysterious",
+        "weighted_support": 2.50459569,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0134469406,
-            "similarity": 1.0,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "fashionable / fashion-forward / aesthetic / cool",
-        "descriptor_index": 2459,
-        "amplitude": 0.0034564793,
-        "abs_amplitude": 0.0034564793,
-        "raw_amplitude": 0.0103694378,
-        "percent": 7.683146,
-        "raw_percent": 7.682465,
-        "coverage_percent": 55.392706,
-        "member_count": 4,
-        "members": [
-          "fashionable",
-          "fashion-forward",
-          "aesthetic",
-          "cool"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0103694379,
-            "similarity": 0.879946,
-            "matched_descriptor": "stylish"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "stylish",
-        "descriptor_index": 7442,
-        "amplitude": 0.0032059706,
-        "abs_amplitude": 0.0032059706,
-        "raw_amplitude": 0.0096179118,
-        "percent": 7.126309,
-        "raw_percent": 7.125677,
-        "coverage_percent": 62.519015,
-        "member_count": 1,
-        "members": [
-          "stylish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0096179118,
-            "similarity": 1.0,
-            "matched_descriptor": "stylish"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0018733993,
-        "abs_amplitude": 0.0018733993,
-        "raw_amplitude": 0.0056201979,
-        "percent": 4.164237,
-        "raw_percent": 4.163868,
-        "coverage_percent": 66.683252,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0056201978,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "idiotic / brainless",
-        "descriptor_index": 3692,
-        "amplitude": 0.0017782277,
-        "abs_amplitude": 0.0017782277,
-        "raw_amplitude": 0.0053346832,
-        "percent": 3.952688,
-        "raw_percent": 3.952337,
-        "coverage_percent": 70.63594,
-        "member_count": 2,
-        "members": [
-          "idiotic",
-          "brainless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0053346832,
-            "similarity": 0.894983,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0017601991,
-        "abs_amplitude": 0.0017601991,
-        "raw_amplitude": 0.0052805973,
-        "percent": 3.912613,
-        "raw_percent": 3.912266,
-        "coverage_percent": 74.548553,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0052805973,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "good / openhearted / pleasant / open-hearted / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0016278473,
-        "abs_amplitude": 0.0016278473,
-        "raw_amplitude": 0.0048835419,
-        "percent": 3.618418,
-        "raw_percent": 3.618098,
-        "coverage_percent": 78.166971,
-        "member_count": 6,
-        "members": [
-          "good",
-          "openhearted",
-          "pleasant",
-          "open-hearted",
-          "polite",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.004883542,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "air-head",
-        "descriptor_index": 141,
-        "amplitude": 0.0013869812,
-        "abs_amplitude": 0.0013869812,
-        "raw_amplitude": 0.0041609437,
-        "percent": 3.083015,
-        "raw_percent": 3.082742,
-        "coverage_percent": 81.249987,
-        "member_count": 1,
-        "members": [
-          "air-head"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0041609437,
-            "similarity": 0.927189,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "restrained / composed",
-        "descriptor_index": 6272,
-        "amplitude": 0.0009886971,
-        "abs_amplitude": 0.0009886971,
-        "raw_amplitude": 0.0029660914,
-        "percent": 2.1977,
-        "raw_percent": 2.197505,
-        "coverage_percent": 83.447687,
-        "member_count": 2,
-        "members": [
-          "restrained",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0029660914,
-            "similarity": 0.89759,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "simple-minded / naive / innocent / childish",
-        "descriptor_index": 6870,
-        "amplitude": 0.0009478518,
-        "abs_amplitude": 0.0009478518,
-        "raw_amplitude": 0.0028435553,
-        "percent": 2.106908,
-        "raw_percent": 2.106721,
-        "coverage_percent": 85.554595,
-        "member_count": 4,
-        "members": [
-          "simple-minded",
-          "naive",
-          "innocent",
-          "childish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0028435552,
-            "similarity": 0.88015,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "respectable / honorable",
-        "descriptor_index": 6262,
-        "amplitude": 0.0007878317,
-        "abs_amplitude": 0.0007878317,
-        "raw_amplitude": 0.002363495,
-        "percent": 1.751211,
-        "raw_percent": 1.751056,
-        "coverage_percent": 87.305806,
-        "member_count": 2,
-        "members": [
-          "respectable",
-          "honorable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.002363495,
-            "similarity": 0.891182,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "asocial / recluse",
-        "descriptor_index": 384,
-        "amplitude": 0.0006411579,
-        "abs_amplitude": 0.0006411579,
-        "raw_amplitude": 0.0019234737,
-        "percent": 1.425181,
-        "raw_percent": 1.425055,
-        "coverage_percent": 88.730987,
-        "member_count": 2,
-        "members": [
-          "asocial",
-          "recluse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0019234736,
-            "similarity": 0.877888,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "slacker",
-        "descriptor_index": 6946,
-        "amplitude": 0.0005396604,
-        "abs_amplitude": 0.0005396604,
-        "raw_amplitude": 0.0016189811,
-        "percent": 1.19957,
-        "raw_percent": 1.199464,
-        "coverage_percent": 89.930557,
-        "member_count": 1,
-        "members": [
-          "slacker"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0016189811,
-            "similarity": 0.876136,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "scaredy-cat",
-        "descriptor_index": 6478,
-        "amplitude": 0.000485749,
-        "abs_amplitude": 0.000485749,
-        "raw_amplitude": 0.0014572471,
-        "percent": 1.079735,
-        "raw_percent": 1.079639,
-        "coverage_percent": 91.010292,
-        "member_count": 1,
-        "members": [
-          "scaredy-cat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0014572471,
-            "similarity": 0.874627,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "flighty",
-        "descriptor_index": 2610,
-        "amplitude": 0.0004783713,
-        "abs_amplitude": 0.0004783713,
-        "raw_amplitude": 0.0014351138,
-        "percent": 1.063335,
-        "raw_percent": 1.063241,
-        "coverage_percent": 92.073627,
-        "member_count": 1,
-        "members": [
-          "flighty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0014351138,
-            "similarity": 0.873289,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "youthful / childlike",
-        "descriptor_index": 8687,
-        "amplitude": 0.0004540254,
-        "abs_amplitude": 0.0004540254,
-        "raw_amplitude": 0.0013620762,
-        "percent": 1.009219,
-        "raw_percent": 1.009129,
-        "coverage_percent": 93.082846,
-        "member_count": 2,
-        "members": [
-          "youthful",
-          "childlike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0013620763,
-            "similarity": 0.885457,
-            "matched_descriptor": "mature / kind"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "obnoxious",
-        "descriptor_index": 5238,
-        "amplitude": 0.0003579101,
-        "abs_amplitude": 0.0003579101,
-        "raw_amplitude": 0.0010737304,
-        "percent": 0.795571,
-        "raw_percent": 0.795501,
-        "coverage_percent": 93.878417,
-        "member_count": 1,
-        "members": [
-          "obnoxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0010737304,
-            "similarity": 0.867693,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "dandy",
-        "descriptor_index": 1579,
-        "amplitude": 0.0003337731,
-        "abs_amplitude": 0.0003337731,
-        "raw_amplitude": 0.0010013194,
-        "percent": 0.741919,
-        "raw_percent": 0.741853,
-        "coverage_percent": 94.620336,
-        "member_count": 1,
-        "members": [
-          "dandy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0010013194,
-            "similarity": 0.839158,
-            "matched_descriptor": "stylish"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "awkward",
-        "descriptor_index": 503,
-        "amplitude": 0.0003226707,
-        "abs_amplitude": 0.0003226707,
-        "raw_amplitude": 0.0009680122,
-        "percent": 0.71724,
-        "raw_percent": 0.717177,
-        "coverage_percent": 95.337576,
-        "member_count": 1,
-        "members": [
-          "awkward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262416,
-            "name": "Shizuku Hinomori",
-            "native_name": "日野森雫",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
-            "site_url": "https://anilist.co/character/262416",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 172,
-            "row_weight": 2.48058291,
-            "projection": 0.0009680122,
-            "similarity": 0.867061,
-            "matched_descriptor": "airhead"
-          }
-        ]
+        "fit_percent": 96.930244,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 141533,
         "name": "Hina",
-        "native_name": "陽菜",
         "anime": "Plunderer",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
         "site_url": "https://anilist.co/character/141533",
-        "anime_url": "https://myanimelist.net/anime/37345",
-        "role": "MAIN",
         "favourites": 301,
-        "row_weight": 2.59044919,
-        "amplitude": 0.9908489495,
-        "abs_amplitude": 0.9908489495,
-        "percent": 98.178164
+        "anilist_favourites": 301,
+        "bangumi_collects": 24,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 71763,
+        "bangumi_url": "https://bgm.tv/character/71763",
+        "combined_favourites": 325,
+        "role_edge_count": 1,
+        "descriptors": [
+          "solitary"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.60516744,
+        "row_weight": 2.60516744,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.72637351,
+        "abs_amplitude": 0.72637351,
+        "percent": 52.761848
       },
       {
         "character_id": 262416,
         "name": "Shizuku Hinomori",
-        "native_name": "日野森雫",
         "anime": "Puchi Seka",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
         "site_url": "https://anilist.co/character/262416",
-        "anime_url": "https://myanimelist.net/anime/49939",
-        "role": "MAIN",
         "favourites": 172,
-        "row_weight": 2.48058291,
-        "amplitude": -0.1349754027,
-        "abs_amplitude": 0.1349754027,
-        "percent": 1.821836
+        "anilist_favourites": 172,
+        "bangumi_collects": 22,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 77910,
+        "bangumi_url": "https://bgm.tv/character/77910",
+        "combined_favourites": 194,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "kind",
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.50459569,
+        "row_weight": 2.50459569,
+        "unweighted_row_norm": 2.579383,
+        "amplitude": 0.6873001702,
+        "abs_amplitude": 0.6873001702,
+        "percent": 47.238152
       }
     ],
     "positive_characters": [
       {
         "character_id": 141533,
         "name": "Hina",
-        "native_name": "陽菜",
         "anime": "Plunderer",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
         "site_url": "https://anilist.co/character/141533",
-        "anime_url": "https://myanimelist.net/anime/37345",
-        "role": "MAIN",
         "favourites": 301,
-        "row_weight": 2.59044919,
-        "amplitude": 0.9908489495,
-        "abs_amplitude": 0.9908489495,
-        "percent": 98.178164
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 301,
+        "bangumi_collects": 24,
+        "bangumi_comments": 7,
+        "bangumi_character_id": 71763,
+        "bangumi_url": "https://bgm.tv/character/71763",
+        "combined_favourites": 325,
+        "role_edge_count": 1,
+        "descriptors": [
+          "solitary"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.60516744,
+        "row_weight": 2.60516744,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.72637351,
+        "abs_amplitude": 0.72637351,
+        "percent": 52.761848
+      },
       {
         "character_id": 262416,
         "name": "Shizuku Hinomori",
-        "native_name": "日野森雫",
         "anime": "Puchi Seka",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
         "site_url": "https://anilist.co/character/262416",
-        "anime_url": "https://myanimelist.net/anime/49939",
-        "role": "MAIN",
         "favourites": 172,
-        "row_weight": 2.48058291,
-        "amplitude": -0.1349754027,
-        "abs_amplitude": 0.1349754027,
-        "percent": 1.821836
+        "anilist_favourites": 172,
+        "bangumi_collects": 22,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 77910,
+        "bangumi_url": "https://bgm.tv/character/77910",
+        "combined_favourites": 194,
+        "role_edge_count": 1,
+        "descriptors": [
+          "jealous",
+          "kind",
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.50459569,
+        "row_weight": 2.50459569,
+        "unweighted_row_norm": 2.579383,
+        "amplitude": 0.6873001702,
+        "abs_amplitude": 0.6873001702,
+        "percent": 47.238152
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.993916,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3704710428,
+      "mass_percent": 14.381361,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 36.156025,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "solitary",
+            "amplitude": 0.3615602464,
+            "abs_amplitude": 0.3615602464,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "solitary",
+            "fit_percent": 36.156025,
+            "residual_gain_percent": 13.072581
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 141533,
+            "name": "Hina",
+            "anime": "Plunderer",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b141533-w7BKIR6ZxHST.jpg",
+            "site_url": "https://anilist.co/character/141533",
+            "favourites": 301,
+            "anilist_favourites": 301,
+            "bangumi_collects": 24,
+            "bangumi_comments": 7,
+            "bangumi_character_id": 71763,
+            "bangumi_url": "https://bgm.tv/character/71763",
+            "combined_favourites": 325,
+            "role_edge_count": 1,
+            "descriptors": [
+              "solitary"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.60516744,
+            "row_weight": 2.60516744,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6873001702,
+            "abs_amplitude": 0.6873001702,
+            "percent": 47.238152
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 41.834195,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "jealous",
+            "amplitude": 0.285592948,
+            "abs_amplitude": 0.285592948,
+            "percent": 61.723951
+          },
+          {
+            "rank": 2,
+            "descriptor": "kind",
+            "amplitude": 0.1737420308,
+            "abs_amplitude": 0.1737420308,
+            "percent": 37.550103
+          },
+          {
+            "rank": 3,
+            "descriptor": "mysterious",
+            "amplitude": 0.0033589069,
+            "abs_amplitude": 0.0033589069,
+            "percent": 0.725946
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "jealous",
+            "fit_percent": 39.503376,
+            "residual_gain_percent": 15.605167
+          },
+          {
+            "step": 2,
+            "descriptor": "kind",
+            "fit_percent": 41.83346,
+            "residual_gain_percent": 2.245655
+          },
+          {
+            "step": 3,
+            "descriptor": "mysterious",
+            "fit_percent": 41.834195,
+            "residual_gain_percent": 0.000746
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 262416,
+            "name": "Shizuku Hinomori",
+            "anime": "Puchi Seka",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262416-bWAvGZ7F4EGm.png",
+            "site_url": "https://anilist.co/character/262416",
+            "favourites": 172,
+            "anilist_favourites": 172,
+            "bangumi_collects": 22,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 77910,
+            "bangumi_url": "https://bgm.tv/character/77910",
+            "combined_favourites": 194,
+            "role_edge_count": 1,
+            "descriptors": [
+              "jealous",
+              "kind",
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.50459569,
+            "row_weight": 2.50459569,
+            "unweighted_row_norm": 2.579383,
+            "amplitude": -0.72637351,
+            "abs_amplitude": 0.72637351,
+            "percent": 52.761848
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.3439058092,
+      "mass_percent": 85.618639,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3704710428,
+      "mass_percent": 14.381361,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

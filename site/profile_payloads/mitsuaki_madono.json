@@ -5,2018 +5,384 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95394-BMiqrbgY0gIp.jpg",
   "site_url": "https://anilist.co/staff/95394",
   "role_count": 10,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2008,
   "aliases": [
     "madono mitsuaki",
     "mitsuaki madono"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/mitsuaki_madono.json",
+  "sv1_mass_percent": 91.096742,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 30.8349005449,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 30.8349005449,
-        "mass_percent": 98.45114
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.616877466,
-        "mass_percent": 1.354576
-      },
-      {
-        "rank": 3,
-        "singular_value": 1.369781594,
-        "mass_percent": 0.194285
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 288.321635,
-      "normalized_entanglement": 0.750838,
-      "top5_mass_percent": 4.214726,
-      "top10_mass_percent": 7.495931
-    },
-    "character_participation": {
-      "effective_count": 1.082324,
-      "normalized_entanglement": 0.360775,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 7.659959,
-      "semantic_spread": 7.688395,
-      "axis_concentration_percent": 99.261658,
-      "lane_count": 1.044562,
-      "direction_range": 1.081662,
-      "direction_spread": 1.142069,
-      "direction_axis_concentration_percent": 89.701266,
-      "direction_lane_count": 1.393192
-    },
-    "explained_sv_l2_percent": 98.45114,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.7492745536,
+    "mass_percent": 93.897855,
+    "descriptor_fit_percent": 97.106377,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "cheerful / jovial / upbeat / cheery / +15",
-        "descriptor_index": 1036,
-        "amplitude": 0.0508377887,
-        "abs_amplitude": 0.0508377887,
-        "raw_amplitude": 0.1525133661,
-        "percent": 15.559951,
-        "raw_percent": 15.559764,
-        "coverage_percent": 15.559951,
-        "member_count": 19,
-        "members": [
-          "cheerful",
-          "jovial",
-          "upbeat",
-          "cheery",
-          "joyous",
-          "jocular",
-          "happy",
-          "smiling",
-          "gleeful",
-          "joyful",
-          "exuberant",
-          "vivacious",
-          "spirited",
-          "encouraging",
-          "sunny",
-          "cheerful-looking",
-          "energetic",
-          "lighthearted",
-          "happiness-experiencing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "descriptor": "cruel",
+        "amplitude": 0.5925673981,
+        "abs_amplitude": 0.5925673981,
+        "percent": 55.272858,
+        "weighted_support": 5.47173857,
+        "support": 2,
+        "supporting_characters": [
+          {
+            "character_id": 1089,
+            "name": "Kon",
+            "anime": "Bleach the Movie: Fade to Black",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
+            "site_url": "https://anilist.co/character/1089",
+            "combined_favourites": 721
+          },
           {
             "character_id": 18855,
             "name": "Tooru Adachi",
-            "native_name": "足立透",
             "anime": "Persona 4 the Animation",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
             "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.152513366,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful / jovial"
+            "combined_favourites": 594
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +11",
-        "descriptor_index": 944,
-        "amplitude": 0.0319821563,
-        "abs_amplitude": 0.0319821563,
-        "raw_amplitude": 0.095946469,
-        "percent": 9.788797,
-        "raw_percent": 9.788679,
-        "coverage_percent": 25.348748,
-        "member_count": 15,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "good-humored",
-          "laid-back",
-          "easy-going",
-          "permissive",
-          "flighty",
-          "chilling",
-          "accommodating",
-          "mild-mannered",
-          "relaxed",
-          "mellow"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.4795092451,
+        "abs_amplitude": 0.4795092451,
+        "percent": 44.727142,
+        "weighted_support": 2.75354774,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.095946469,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0292719244,
-        "abs_amplitude": 0.0292719244,
-        "raw_amplitude": 0.0878157731,
-        "percent": 8.959275,
-        "raw_percent": 8.959167,
-        "coverage_percent": 34.308023,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "astute",
-          "clever",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0878157731,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sharp-tongued / rough-talking / trash-talking / insulting / +4",
-        "descriptor_index": 6778,
-        "amplitude": 0.0204324355,
-        "abs_amplitude": 0.0204324355,
-        "raw_amplitude": 0.0612973066,
-        "percent": 6.253767,
-        "raw_percent": 6.253692,
-        "coverage_percent": 40.56179,
-        "member_count": 8,
-        "members": [
-          "sharp-tongued",
-          "rough-talking",
-          "trash-talking",
-          "insulting",
-          "gruff",
-          "undiplomatic",
-          "vulgar",
-          "foul-mouthed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0612973066,
-            "similarity": 1.0,
-            "matched_descriptor": "sharp-tongued"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "cruel / brutal / merciless / harsh",
-        "descriptor_index": 1520,
-        "amplitude": 0.0149119716,
-        "abs_amplitude": 0.0149119716,
-        "raw_amplitude": 0.0447359149,
-        "percent": 4.564116,
-        "raw_percent": 4.564061,
-        "coverage_percent": 45.125906,
-        "member_count": 4,
-        "members": [
-          "cruel",
-          "brutal",
-          "merciless",
-          "harsh"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0447359149,
-            "similarity": 1.0,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "fun-loving / giddy / playful / perky / +1",
-        "descriptor_index": 2857,
-        "amplitude": 0.0099774635,
-        "abs_amplitude": 0.0099774635,
-        "raw_amplitude": 0.0299323905,
-        "percent": 3.053808,
-        "raw_percent": 3.053771,
-        "coverage_percent": 48.179714,
-        "member_count": 5,
-        "members": [
-          "fun-loving",
-          "giddy",
-          "playful",
-          "perky",
-          "likable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0299323905,
-            "similarity": 0.930982,
-            "matched_descriptor": "jovial"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.0097406688,
-        "abs_amplitude": 0.0097406688,
-        "raw_amplitude": 0.0292220064,
-        "percent": 2.981332,
-        "raw_percent": 2.981296,
-        "coverage_percent": 51.161046,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0292220063,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "psychopathic / sociopathic",
-        "descriptor_index": 6003,
-        "amplitude": 0.0058527065,
-        "abs_amplitude": 0.0058527065,
-        "raw_amplitude": 0.0175581194,
-        "percent": 1.791341,
-        "raw_percent": 1.79132,
-        "coverage_percent": 52.952387,
-        "member_count": 2,
-        "members": [
-          "psychopathic",
-          "sociopathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0175581194,
-            "similarity": 0.941572,
-            "matched_descriptor": "sociopath"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "manipulative",
-        "descriptor_index": 4586,
-        "amplitude": 0.0053549434,
-        "abs_amplitude": 0.0053549434,
-        "raw_amplitude": 0.0160648302,
-        "percent": 1.638991,
-        "raw_percent": 1.638971,
-        "coverage_percent": 54.591378,
-        "member_count": 1,
-        "members": [
-          "manipulative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0160648302,
-            "similarity": 1.0,
-            "matched_descriptor": "manipulative"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "pessimistic / cynical",
-        "descriptor_index": 5563,
-        "amplitude": 0.0051645838,
-        "abs_amplitude": 0.0051645838,
-        "raw_amplitude": 0.0154937514,
-        "percent": 1.580727,
-        "raw_percent": 1.580708,
-        "coverage_percent": 56.172105,
-        "member_count": 2,
-        "members": [
-          "pessimistic",
-          "cynical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0154937514,
-            "similarity": 0.921189,
-            "matched_descriptor": "cynic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "unbelieving / disbelieving / doubting",
-        "descriptor_index": 8065,
-        "amplitude": 0.0046732163,
-        "abs_amplitude": 0.0046732163,
-        "raw_amplitude": 0.0140196489,
-        "percent": 1.430334,
-        "raw_percent": 1.430317,
-        "coverage_percent": 57.602439,
-        "member_count": 3,
-        "members": [
-          "unbelieving",
-          "disbelieving",
-          "doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0140196488,
-            "similarity": 0.877126,
-            "matched_descriptor": "nihilist / cynic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "sensible / prudent / deliberative / careful / +1",
-        "descriptor_index": 6701,
-        "amplitude": 0.0040927808,
-        "abs_amplitude": 0.0040927808,
-        "raw_amplitude": 0.0122783423,
-        "percent": 1.25268,
-        "raw_percent": 1.252665,
-        "coverage_percent": 58.855119,
-        "member_count": 5,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "careful",
-          "no-nonsense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0122783422,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0037700447,
-        "abs_amplitude": 0.0037700447,
-        "raw_amplitude": 0.011310134,
-        "percent": 1.1539,
-        "raw_percent": 1.153886,
-        "coverage_percent": 60.009018,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.011310134,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0036115861,
-        "abs_amplitude": 0.0036115861,
-        "raw_amplitude": 0.0108347584,
-        "percent": 1.1054,
-        "raw_percent": 1.105387,
-        "coverage_percent": 61.114419,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0108347585,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "skeptical / doubtful / indecisive / cautious",
-        "descriptor_index": 6902,
-        "amplitude": 0.0035320867,
-        "abs_amplitude": 0.0035320867,
-        "raw_amplitude": 0.0105962602,
-        "percent": 1.081068,
-        "raw_percent": 1.081055,
-        "coverage_percent": 62.195486,
-        "member_count": 4,
-        "members": [
-          "skeptical",
-          "doubtful",
-          "indecisive",
-          "cautious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0105962603,
-            "similarity": 0.861821,
-            "matched_descriptor": "cynic"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "corrupt / evil / disgusting-doer",
-        "descriptor_index": 1446,
-        "amplitude": 0.0033884071,
-        "abs_amplitude": 0.0033884071,
-        "raw_amplitude": 0.0101652214,
-        "percent": 1.037092,
-        "raw_percent": 1.037079,
-        "coverage_percent": 63.232578,
-        "member_count": 3,
-        "members": [
-          "corrupt",
-          "evil",
-          "disgusting-doer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0101652214,
-            "similarity": 0.889607,
-            "matched_descriptor": "sociopath"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "low-energy / non-violent / soothing / cool-headed / +2",
-        "descriptor_index": 4439,
-        "amplitude": 0.003180046,
-        "abs_amplitude": 0.003180046,
-        "raw_amplitude": 0.0095401379,
-        "percent": 0.973318,
-        "raw_percent": 0.973307,
-        "coverage_percent": 64.205897,
-        "member_count": 6,
-        "members": [
-          "low-energy",
-          "non-violent",
-          "soothing",
-          "cool-headed",
-          "calmest",
-          "calmer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0095401379,
-            "similarity": 0.902036,
-            "matched_descriptor": "carefree"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "nihilistic",
-        "descriptor_index": 5145,
-        "amplitude": 0.0030293673,
-        "abs_amplitude": 0.0030293673,
-        "raw_amplitude": 0.009088102,
-        "percent": 0.9272,
-        "raw_percent": 0.927189,
-        "coverage_percent": 65.133097,
-        "member_count": 1,
-        "members": [
-          "nihilistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.009088102,
-            "similarity": 0.915532,
-            "matched_descriptor": "nihilist"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "sleepy / drowsy / somnolent / narcoleptic",
-        "descriptor_index": 6962,
-        "amplitude": 0.0028536794,
-        "abs_amplitude": 0.0028536794,
-        "raw_amplitude": 0.0085610382,
-        "percent": 0.873427,
-        "raw_percent": 0.873417,
-        "coverage_percent": 66.006524,
-        "member_count": 4,
-        "members": [
-          "sleepy",
-          "drowsy",
-          "somnolent",
-          "narcoleptic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0085610383,
-            "similarity": 0.853262,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "entertained / amused",
-        "descriptor_index": 2199,
-        "amplitude": 0.0027323514,
-        "abs_amplitude": 0.0027323514,
-        "raw_amplitude": 0.0081970543,
-        "percent": 0.836292,
-        "raw_percent": 0.836282,
-        "coverage_percent": 66.842816,
-        "member_count": 2,
-        "members": [
-          "entertained",
-          "amused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0081970543,
-            "similarity": 0.897778,
-            "matched_descriptor": "jovial"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "sadistic",
-        "descriptor_index": 6432,
-        "amplitude": 0.0026484815,
-        "abs_amplitude": 0.0026484815,
-        "raw_amplitude": 0.0079454446,
-        "percent": 0.810622,
-        "raw_percent": 0.810613,
-        "coverage_percent": 67.653439,
-        "member_count": 1,
-        "members": [
-          "sadistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0079454446,
-            "similarity": 0.900706,
-            "matched_descriptor": "sadist"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0026222379,
-        "abs_amplitude": 0.0026222379,
-        "raw_amplitude": 0.0078667136,
-        "percent": 0.80259,
-        "raw_percent": 0.80258,
-        "coverage_percent": 68.456029,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0078667136,
-            "similarity": 0.884867,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "snide / taunting / derisive / irreverent",
-        "descriptor_index": 7024,
-        "amplitude": 0.002499145,
-        "abs_amplitude": 0.002499145,
-        "raw_amplitude": 0.0074974351,
-        "percent": 0.764915,
-        "raw_percent": 0.764906,
-        "coverage_percent": 69.220943,
-        "member_count": 4,
-        "members": [
-          "snide",
-          "taunting",
-          "derisive",
-          "irreverent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0074974351,
-            "similarity": 0.890446,
-            "matched_descriptor": "sharp-tongued"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "inventive / crafty",
-        "descriptor_index": 3986,
-        "amplitude": 0.0024759319,
-        "abs_amplitude": 0.0024759319,
-        "raw_amplitude": 0.0074277957,
-        "percent": 0.75781,
-        "raw_percent": 0.757801,
-        "coverage_percent": 69.978753,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0074277957,
-            "similarity": 0.890893,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "honesty-deficient / dishonest / untrustworthy",
-        "descriptor_index": 3558,
-        "amplitude": 0.0024690806,
-        "abs_amplitude": 0.0024690806,
-        "raw_amplitude": 0.0074072419,
-        "percent": 0.755713,
-        "raw_percent": 0.755704,
-        "coverage_percent": 70.734466,
-        "member_count": 3,
-        "members": [
-          "honesty-deficient",
-          "dishonest",
-          "untrustworthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 18855,
-            "name": "Tooru Adachi",
-            "native_name": "足立透",
-            "anime": "Persona 4 the Animation",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-            "site_url": "https://anilist.co/character/18855",
-            "anime_url": "https://myanimelist.net/anime/10588",
-            "role": "SUPPORTING",
-            "favourites": 549,
-            "row_weight": 2.70368605,
-            "projection": 0.0074072419,
-            "similarity": 0.842225,
-            "matched_descriptor": "nihilist"
+            "character_id": 1089,
+            "name": "Kon",
+            "anime": "Bleach the Movie: Fade to Black",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
+            "site_url": "https://anilist.co/character/1089",
+            "combined_favourites": 721
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "powerful / super-strong / physically-strong",
-        "descriptor_index": 5771,
-        "amplitude": 0.0226573244,
-        "abs_amplitude": 0.0226573244,
-        "raw_amplitude": 0.0679719731,
-        "percent": 24.810189,
-        "raw_percent": 24.810189,
-        "coverage_percent": 24.810189,
-        "member_count": 3,
-        "members": [
-          "powerful",
-          "super-strong",
-          "physically-strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0679719732,
-            "similarity": 0.945935,
-            "matched_descriptor": "immense power"
-          }
-        ]
+        "step": 1,
+        "descriptor": "cruel",
+        "weighted_support": 5.47173857,
+        "support": 2,
+        "fit_percent": 89.793318,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "cruel / brutal / merciless / harsh",
-        "descriptor_index": 1520,
-        "amplitude": 0.0144873296,
-        "abs_amplitude": 0.0144873296,
-        "raw_amplitude": 0.0434619889,
-        "percent": 15.863894,
-        "raw_percent": 15.863894,
-        "coverage_percent": 40.674084,
-        "member_count": 4,
-        "members": [
-          "cruel",
-          "brutal",
-          "merciless",
-          "harsh"
-        ],
+        "step": 2,
+        "descriptor": "jealous",
+        "weighted_support": 2.75354774,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0434619889,
-            "similarity": 1.0,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "stamina-rich / vigorous",
-        "descriptor_index": 7219,
-        "amplitude": 0.010859481,
-        "abs_amplitude": 0.010859481,
-        "raw_amplitude": 0.032578443,
-        "percent": 11.891333,
-        "raw_percent": 11.891333,
-        "coverage_percent": 52.565416,
-        "member_count": 2,
-        "members": [
-          "stamina-rich",
-          "vigorous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.032578443,
-            "similarity": 0.900116,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "hyper-active / rambunctious",
-        "descriptor_index": 3661,
-        "amplitude": 0.0052908287,
-        "abs_amplitude": 0.0052908287,
-        "raw_amplitude": 0.0158724861,
-        "percent": 5.793555,
-        "raw_percent": 5.793555,
-        "coverage_percent": 58.358972,
-        "member_count": 2,
-        "members": [
-          "hyper-active",
-          "rambunctious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0158724861,
-            "similarity": 0.87402,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "strong",
-        "descriptor_index": 7332,
-        "amplitude": 0.003219659,
-        "abs_amplitude": 0.003219659,
-        "raw_amplitude": 0.009658977,
-        "percent": 3.525586,
-        "raw_percent": 3.525586,
-        "coverage_percent": 61.884558,
-        "member_count": 1,
-        "members": [
-          "strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.009658977,
-            "similarity": 0.879945,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "superhuman",
-        "descriptor_index": 7499,
-        "amplitude": 0.0027056293,
-        "abs_amplitude": 0.0027056293,
-        "raw_amplitude": 0.008116888,
-        "percent": 2.962714,
-        "raw_percent": 2.962714,
-        "coverage_percent": 64.847272,
-        "member_count": 1,
-        "members": [
-          "superhuman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.008116888,
-            "similarity": 0.873085,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "barbaric / savage",
-        "descriptor_index": 549,
-        "amplitude": 0.0023170522,
-        "abs_amplitude": 0.0023170522,
-        "raw_amplitude": 0.0069511565,
-        "percent": 2.537215,
-        "raw_percent": 2.537215,
-        "coverage_percent": 67.384487,
-        "member_count": 2,
-        "members": [
-          "barbaric",
-          "savage"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0069511565,
-            "similarity": 0.891558,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "ruthless",
-        "descriptor_index": 6406,
-        "amplitude": 0.0021583216,
-        "abs_amplitude": 0.0021583216,
-        "raw_amplitude": 0.0064749649,
-        "percent": 2.363402,
-        "raw_percent": 2.363402,
-        "coverage_percent": 69.747889,
-        "member_count": 1,
-        "members": [
-          "ruthless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0064749649,
-            "similarity": 0.899844,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.002156817,
-        "abs_amplitude": 0.002156817,
-        "raw_amplitude": 0.006470451,
-        "percent": 2.361755,
-        "raw_percent": 2.361755,
-        "coverage_percent": 72.109644,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.006470451,
-            "similarity": 0.862844,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "explosive",
-        "descriptor_index": 2325,
-        "amplitude": 0.0020359914,
-        "abs_amplitude": 0.0020359914,
-        "raw_amplitude": 0.0061079742,
-        "percent": 2.229448,
-        "raw_percent": 2.229448,
-        "coverage_percent": 74.339092,
-        "member_count": 1,
-        "members": [
-          "explosive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0061079742,
-            "similarity": 0.861736,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "unstoppable",
-        "descriptor_index": 8226,
-        "amplitude": 0.0018468029,
-        "abs_amplitude": 0.0018468029,
-        "raw_amplitude": 0.0055404088,
-        "percent": 2.022283,
-        "raw_percent": 2.022283,
-        "coverage_percent": 76.361375,
-        "member_count": 1,
-        "members": [
-          "unstoppable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0055404088,
-            "similarity": 0.861258,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "fervent / intense",
-        "descriptor_index": 2512,
-        "amplitude": 0.001800331,
-        "abs_amplitude": 0.001800331,
-        "raw_amplitude": 0.005400993,
-        "percent": 1.971396,
-        "raw_percent": 1.971396,
-        "coverage_percent": 78.332771,
-        "member_count": 2,
-        "members": [
-          "fervent",
-          "intense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0054009931,
-            "similarity": 0.855166,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0017789694,
-        "abs_amplitude": 0.0017789694,
-        "raw_amplitude": 0.0053369083,
-        "percent": 1.948004,
-        "raw_percent": 1.948004,
-        "coverage_percent": 80.280775,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0053369083,
-            "similarity": 0.859381,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "painful / tormented / self-abusive",
-        "descriptor_index": 5442,
-        "amplitude": 0.001736689,
-        "abs_amplitude": 0.001736689,
-        "raw_amplitude": 0.0052100669,
-        "percent": 1.901707,
-        "raw_percent": 1.901707,
-        "coverage_percent": 82.182482,
-        "member_count": 3,
-        "members": [
-          "painful",
-          "tormented",
-          "self-abusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0052100669,
-            "similarity": 0.870489,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "model",
-        "descriptor_index": 4884,
-        "amplitude": 0.0016184469,
-        "abs_amplitude": 0.0016184469,
-        "raw_amplitude": 0.0048553407,
-        "percent": 1.772229,
-        "raw_percent": 1.772229,
-        "coverage_percent": 83.954711,
-        "member_count": 1,
-        "members": [
-          "model"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0048553407,
-            "similarity": 0.87778,
-            "matched_descriptor": "plushie body"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "psychopathic",
-        "descriptor_index": 6003,
-        "amplitude": 0.0014651587,
-        "abs_amplitude": 0.0014651587,
-        "raw_amplitude": 0.0043954761,
-        "percent": 1.604376,
-        "raw_percent": 1.604376,
-        "coverage_percent": 85.559087,
-        "member_count": 1,
-        "members": [
-          "psychopathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0043954761,
-            "similarity": 0.881689,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "vicious / dangerous / offensive",
-        "descriptor_index": 8337,
-        "amplitude": 0.001318855,
-        "abs_amplitude": 0.001318855,
-        "raw_amplitude": 0.0039565651,
-        "percent": 1.444171,
-        "raw_percent": 1.444171,
-        "coverage_percent": 87.003258,
-        "member_count": 3,
-        "members": [
-          "vicious",
-          "dangerous",
-          "offensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0039565652,
-            "similarity": 0.874893,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "paper-doll-manipulator",
-        "descriptor_index": 5454,
-        "amplitude": 0.0012859727,
-        "abs_amplitude": 0.0012859727,
-        "raw_amplitude": 0.0038579182,
-        "percent": 1.408164,
-        "raw_percent": 1.408164,
-        "coverage_percent": 88.411422,
-        "member_count": 1,
-        "members": [
-          "paper-doll-manipulator"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0038579182,
-            "similarity": 0.844394,
-            "matched_descriptor": "plushie body"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "hatred-filled",
-        "descriptor_index": 3375,
-        "amplitude": 0.001142395,
-        "abs_amplitude": 0.001142395,
-        "raw_amplitude": 0.0034271851,
-        "percent": 1.250944,
-        "raw_percent": 1.250944,
-        "coverage_percent": 89.662366,
-        "member_count": 1,
-        "members": [
-          "hatred-filled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0034271851,
-            "similarity": 0.866418,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "unconscious hurtful",
-        "descriptor_index": 8081,
-        "amplitude": 0.0010792713,
-        "abs_amplitude": 0.0010792713,
-        "raw_amplitude": 0.003237814,
-        "percent": 1.181822,
-        "raw_percent": 1.181822,
-        "coverage_percent": 90.844188,
-        "member_count": 1,
-        "members": [
-          "unconscious hurtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.003237814,
-            "similarity": 0.864341,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "black-hearted",
-        "descriptor_index": 677,
-        "amplitude": 0.0009689929,
-        "abs_amplitude": 0.0009689929,
-        "raw_amplitude": 0.0029069787,
-        "percent": 1.061065,
-        "raw_percent": 1.061065,
-        "coverage_percent": 91.905253,
-        "member_count": 1,
-        "members": [
-          "black-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0029069787,
-            "similarity": 0.873928,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "resentful / spiteful",
-        "descriptor_index": 6249,
-        "amplitude": 0.0008226424,
-        "abs_amplitude": 0.0008226424,
-        "raw_amplitude": 0.0024679271,
-        "percent": 0.900809,
-        "raw_percent": 0.900809,
-        "coverage_percent": 92.806061,
-        "member_count": 2,
-        "members": [
-          "resentful",
-          "spiteful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.002467927,
-            "similarity": 0.864098,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "contemptible",
-        "descriptor_index": 1396,
-        "amplitude": 0.000672913,
-        "abs_amplitude": 0.000672913,
-        "raw_amplitude": 0.002018739,
-        "percent": 0.736852,
-        "raw_percent": 0.736852,
-        "coverage_percent": 93.542914,
-        "member_count": 1,
-        "members": [
-          "contemptible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.002018739,
-            "similarity": 0.850971,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "strongest",
-        "descriptor_index": 7376,
-        "amplitude": 0.0006591647,
-        "abs_amplitude": 0.0006591647,
-        "raw_amplitude": 0.0019774942,
-        "percent": 0.721798,
-        "raw_percent": 0.721798,
-        "coverage_percent": 94.264711,
-        "member_count": 1,
-        "members": [
-          "strongest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9240,
-            "name": "Shaka",
-            "native_name": "シャカ",
-            "anime": "Saint Seiya: LEGEND of SANCTUARY",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-            "site_url": "https://anilist.co/character/9240",
-            "anime_url": "https://myanimelist.net/anime/28215",
-            "role": "SUPPORTING",
-            "favourites": 302,
-            "row_weight": 1.83217532,
-            "projection": 0.0019774942,
-            "similarity": 0.84912,
-            "matched_descriptor": "immense power"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "downtrodden",
-        "descriptor_index": 1947,
-        "amplitude": 0.0006461229,
-        "abs_amplitude": 0.0006461229,
-        "raw_amplitude": 0.0019383688,
-        "percent": 0.707517,
-        "raw_percent": 0.707517,
-        "coverage_percent": 94.972228,
-        "member_count": 1,
-        "members": [
-          "downtrodden"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1089,
-            "name": "Kon",
-            "native_name": "コン",
-            "anime": "Bleach the Movie: Fade to Black",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
-            "site_url": "https://anilist.co/character/1089",
-            "anime_url": "https://myanimelist.net/anime/35118",
-            "role": "SUPPORTING",
-            "favourites": 713,
-            "row_weight": 2.75152375,
-            "projection": 0.0019383688,
-            "similarity": 0.85009,
-            "matched_descriptor": "cruel"
-          }
-        ]
+        "fit_percent": 97.106377,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 18855,
-        "name": "Tooru Adachi",
-        "native_name": "足立透",
-        "anime": "Persona 4 the Animation",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-        "site_url": "https://anilist.co/character/18855",
-        "anime_url": "https://myanimelist.net/anime/10588",
-        "role": "SUPPORTING",
-        "favourites": 549,
-        "row_weight": 2.70368605,
-        "amplitude": 0.9801778674,
-        "abs_amplitude": 0.9801778674,
-        "percent": 96.074865
-      },
-      {
-        "character_id": 9240,
-        "name": "Shaka",
-        "native_name": "シャカ",
-        "anime": "Saint Seiya: LEGEND of SANCTUARY",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-        "site_url": "https://anilist.co/character/9240",
-        "anime_url": "https://myanimelist.net/anime/28215",
-        "role": "SUPPORTING",
-        "favourites": 302,
-        "row_weight": 1.83217532,
-        "amplitude": -0.1663278387,
-        "abs_amplitude": 0.1663278387,
-        "percent": 2.766495
-      },
-      {
         "character_id": 1089,
         "name": "Kon",
-        "native_name": "コン",
         "anime": "Bleach the Movie: Fade to Black",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
         "site_url": "https://anilist.co/character/1089",
-        "anime_url": "https://myanimelist.net/anime/35118",
-        "role": "SUPPORTING",
         "favourites": 713,
-        "row_weight": 2.75152375,
-        "amplitude": -0.1076401338,
-        "abs_amplitude": 0.1076401338,
-        "percent": 1.15864
+        "anilist_favourites": 713,
+        "bangumi_collects": 8,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 7478,
+        "bangumi_url": "https://bgm.tv/character/7478",
+        "combined_favourites": 721,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cruel",
+          "jealous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75354774,
+        "row_weight": 2.75354774,
+        "unweighted_row_norm": 1.80932573,
+        "amplitude": 0.7122918327,
+        "abs_amplitude": 0.7122918327,
+        "percent": 50.735965
+      },
+      {
+        "character_id": 18855,
+        "name": "Tooru Adachi",
+        "anime": "Persona 4 the Animation",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
+        "site_url": "https://anilist.co/character/18855",
+        "favourites": 549,
+        "anilist_favourites": 549,
+        "bangumi_collects": 45,
+        "bangumi_comments": 31,
+        "bangumi_character_id": 25871,
+        "bangumi_url": "https://bgm.tv/character/25871",
+        "combined_favourites": 594,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "cruel",
+          "jovial",
+          "lazy",
+          "manipulative"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.71819083,
+        "row_weight": 2.71819083,
+        "unweighted_row_norm": 4.02210513,
+        "amplitude": 0.7018834269,
+        "abs_amplitude": 0.7018834269,
+        "percent": 49.264035
       }
     ],
     "positive_characters": [
       {
-        "character_id": 18855,
-        "name": "Tooru Adachi",
-        "native_name": "足立透",
-        "anime": "Persona 4 the Animation",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
-        "site_url": "https://anilist.co/character/18855",
-        "anime_url": "https://myanimelist.net/anime/10588",
-        "role": "SUPPORTING",
-        "favourites": 549,
-        "row_weight": 2.70368605,
-        "amplitude": 0.9801778674,
-        "abs_amplitude": 0.9801778674,
-        "percent": 96.074865
-      }
-    ],
-    "negative_characters": [
-      {
-        "character_id": 9240,
-        "name": "Shaka",
-        "native_name": "シャカ",
-        "anime": "Saint Seiya: LEGEND of SANCTUARY",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9240-Va8ShmkScOm8.png",
-        "site_url": "https://anilist.co/character/9240",
-        "anime_url": "https://myanimelist.net/anime/28215",
-        "role": "SUPPORTING",
-        "favourites": 302,
-        "row_weight": 1.83217532,
-        "amplitude": -0.1663278387,
-        "abs_amplitude": 0.1663278387,
-        "percent": 2.766495
-      },
-      {
         "character_id": 1089,
         "name": "Kon",
-        "native_name": "コン",
         "anime": "Bleach the Movie: Fade to Black",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
         "site_url": "https://anilist.co/character/1089",
-        "anime_url": "https://myanimelist.net/anime/35118",
-        "role": "SUPPORTING",
         "favourites": 713,
-        "row_weight": 2.75152375,
-        "amplitude": -0.1076401338,
-        "abs_amplitude": 0.1076401338,
-        "percent": 1.15864
+        "anilist_favourites": 713,
+        "bangumi_collects": 8,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 7478,
+        "bangumi_url": "https://bgm.tv/character/7478",
+        "combined_favourites": 721,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cruel",
+          "jealous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75354774,
+        "row_weight": 2.75354774,
+        "unweighted_row_norm": 1.80932573,
+        "amplitude": 0.7122918327,
+        "abs_amplitude": 0.7122918327,
+        "percent": 50.735965
+      },
+      {
+        "character_id": 18855,
+        "name": "Tooru Adachi",
+        "anime": "Persona 4 the Animation",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
+        "site_url": "https://anilist.co/character/18855",
+        "favourites": 549,
+        "anilist_favourites": 549,
+        "bangumi_collects": 45,
+        "bangumi_comments": 31,
+        "bangumi_character_id": 25871,
+        "bangumi_url": "https://bgm.tv/character/25871",
+        "combined_favourites": 594,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "cruel",
+          "jovial",
+          "lazy",
+          "manipulative"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.71819083,
+        "row_weight": 2.71819083,
+        "unweighted_row_norm": 4.02210513,
+        "amplitude": 0.7018834269,
+        "abs_amplitude": 0.7018834269,
+        "percent": 49.264035
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.999567,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 0.9557859938,
+      "mass_percent": 6.102145,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 30.213043,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "jealous",
+            "amplitude": 0.3021304313,
+            "abs_amplitude": 0.3021304313,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "jealous",
+            "fit_percent": 30.213043,
+            "residual_gain_percent": 9.12828
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 1089,
+            "name": "Kon",
+            "anime": "Bleach the Movie: Fade to Black",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/1089.jpg",
+            "site_url": "https://anilist.co/character/1089",
+            "favourites": 713,
+            "anilist_favourites": 713,
+            "bangumi_collects": 8,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 7478,
+            "bangumi_url": "https://bgm.tv/character/7478",
+            "combined_favourites": 721,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cruel",
+              "jealous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75354774,
+            "row_weight": 2.75354774,
+            "unweighted_row_norm": 1.80932573,
+            "amplitude": 0.7018834269,
+            "abs_amplitude": 0.7018834269,
+            "percent": 49.264035
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 46.161136,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "jovial",
+            "amplitude": 0.2947702437,
+            "abs_amplitude": 0.2947702437,
+            "percent": 54.787981
+          },
+          {
+            "rank": 2,
+            "descriptor": "no-nonsense",
+            "amplitude": 0.1385932699,
+            "abs_amplitude": 0.1385932699,
+            "percent": 25.759878
+          },
+          {
+            "rank": 3,
+            "descriptor": "methodical",
+            "amplitude": 0.1046563935,
+            "abs_amplitude": 0.1046563935,
+            "percent": 19.452141
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "jovial",
+            "fit_percent": 42.418289,
+            "residual_gain_percent": 17.993112
+          },
+          {
+            "step": 2,
+            "descriptor": "no-nonsense",
+            "fit_percent": 45.570985,
+            "residual_gain_percent": 3.382684
+          },
+          {
+            "step": 3,
+            "descriptor": "methodical",
+            "fit_percent": 46.161136,
+            "residual_gain_percent": 0.683249
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 18855,
+            "name": "Tooru Adachi",
+            "anime": "Persona 4 the Animation",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b18855-1luD6XFoJ9RH.png",
+            "site_url": "https://anilist.co/character/18855",
+            "favourites": 549,
+            "anilist_favourites": 549,
+            "bangumi_collects": 45,
+            "bangumi_comments": 31,
+            "bangumi_character_id": 25871,
+            "bangumi_url": "https://bgm.tv/character/25871",
+            "combined_favourites": 594,
+            "role_edge_count": 1,
+            "descriptors": [
+              "cheerful",
+              "cruel",
+              "jovial",
+              "lazy",
+              "manipulative"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.71819083,
+            "row_weight": 2.71819083,
+            "unweighted_row_norm": 4.02210513,
+            "amplitude": -0.7122918327,
+            "abs_amplitude": 0.7122918327,
+            "percent": 50.735965
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.7492745536,
+      "mass_percent": 93.897855,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 0.9557859938,
+      "mass_percent": 6.102145,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

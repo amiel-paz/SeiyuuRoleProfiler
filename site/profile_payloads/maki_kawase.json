@@ -11,2666 +11,1429 @@
     "kawase maki",
     "maki kawase"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/maki_kawase.json",
+  "sv1_mass_percent": 72.803185,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 5,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.9786489375,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.9786489375,
-        "mass_percent": 71.574527
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.6052066963,
-        "mass_percent": 9.974707
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.4053111711,
-        "mass_percent": 8.502729
-      },
-      {
-        "rank": 4,
-        "singular_value": 1.8887782211,
-        "mass_percent": 5.242974
-      },
-      {
-        "rank": 5,
-        "singular_value": 1.7892657682,
-        "mass_percent": 4.705063
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 306.436812,
-      "normalized_entanglement": 0.798013,
-      "top5_mass_percent": 3.190583,
-      "top10_mass_percent": 5.903746
-    },
-    "character_participation": {
-      "effective_count": 2.479125,
-      "normalized_entanglement": 0.495825,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.817143,
-      "semantic_spread": 1.171411,
-      "axis_concentration_percent": 48.660595,
-      "lane_count": 3.364058,
-      "direction_range": 0.551845,
-      "direction_spread": 0.825857,
-      "direction_axis_concentration_percent": 44.650341,
-      "direction_lane_count": 3.233483
-    },
-    "explained_sv_l2_percent": 71.574527,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.8346398428,
+    "mass_percent": 76.747827,
+    "descriptor_fit_percent": 96.981662,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.1521948113,
-        "abs_amplitude": 0.1521948113,
-        "raw_amplitude": 0.443521031,
-        "percent": 21.331491,
-        "raw_percent": 24.323739,
-        "coverage_percent": 21.331491,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "unassertive",
-          "untalkative",
-          "unsociable",
-          "faint-hearted",
-          "taciturn",
-          "modest",
-          "demure",
-          "meek",
-          "subdued"
-        ],
-        "support": 2,
-        "effective_support": 1.029454,
-        "support_factor": 0.343151,
-        "top_characters": [
+        "descriptor": "shy",
+        "amplitude": 0.5918474495,
+        "abs_amplitude": 0.5918474495,
+        "percent": 54.780852,
+        "weighted_support": 2.83849203,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 127541,
             "name": "Junko Konno",
-            "native_name": "紺野純子",
             "anime": "ZOMBIE LAND SAGA",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
             "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.437082749,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.006438282,
-            "similarity": 0.872135,
-            "matched_descriptor": "naive / tsundere"
+            "combined_favourites": 1160
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "intelligent / brainy / smart / clever / +4",
-        "descriptor_index": 3945,
-        "amplitude": 0.0825950115,
-        "abs_amplitude": 0.0825950115,
-        "raw_amplitude": 0.1489777069,
-        "percent": 11.576444,
-        "raw_percent": 8.170289,
-        "coverage_percent": 32.907935,
-        "member_count": 8,
-        "members": [
-          "intelligent",
-          "brainy",
-          "smart",
-          "clever",
-          "shrewd",
-          "quick-witted",
-          "astute",
-          "inventive"
-        ],
-        "support": 3,
-        "effective_support": 1.663236,
-        "support_factor": 0.554412,
-        "top_characters": [
+        "descriptor": "lazy",
+        "amplitude": 0.488543647,
+        "abs_amplitude": 0.488543647,
+        "percent": 45.219148,
+        "weighted_support": 2.80066955,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 156323,
             "name": "Yuna",
-            "native_name": "ユナ",
             "anime": "Kuma Kuma Kuma Bear",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
             "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.1088219823,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.038727521,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent / clever"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0014282035,
-            "similarity": 0.866345,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0538811768,
-        "abs_amplitude": 0.0538811768,
-        "raw_amplitude": 0.1616435303,
-        "percent": 7.551938,
-        "raw_percent": 8.864912,
-        "coverage_percent": 40.459874,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "temperamental",
-          "irritable",
-          "semi-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.1616435303,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +9",
-        "descriptor_index": 944,
-        "amplitude": 0.0431851052,
-        "abs_amplitude": 0.0431851052,
-        "raw_amplitude": 0.1223547657,
-        "percent": 6.052786,
-        "raw_percent": 6.710224,
-        "coverage_percent": 46.51266,
-        "member_count": 13,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "accommodating",
-          "good-humored",
-          "laid-back",
-          "permissive",
-          "flighty",
-          "playful",
-          "relaxed",
-          "mellow"
-        ],
-        "support": 3,
-        "effective_support": 1.05885,
-        "support_factor": 0.35295,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.1188641652,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0031330049,
-            "similarity": 0.878306,
-            "matched_descriptor": "naive"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0003575957,
-            "similarity": 0.863031,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +5",
-        "descriptor_index": 8223,
-        "amplitude": 0.0404400296,
-        "abs_amplitude": 0.0404400296,
-        "raw_amplitude": 0.06896218,
-        "percent": 5.668039,
-        "raw_percent": 3.782049,
-        "coverage_percent": 52.180699,
-        "member_count": 9,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "disinterested",
-          "indifferent",
-          "uncaring",
-          "non-interfering",
-          "detached"
-        ],
-        "support": 3,
-        "effective_support": 1.759226,
-        "support_factor": 0.586409,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.047303276,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0215808069,
-            "similarity": 0.890998,
-            "matched_descriptor": "naive / tsundere"
-          },
-          {
-            "character_id": 129745,
-            "name": "William Maryblood",
-            "native_name": "ウィリアム・G・マリーブラッド",
-            "anime": "The Faraway Paladin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
-            "site_url": "https://anilist.co/character/129745",
-            "anime_url": "https://myanimelist.net/anime/50664",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 1.83127145,
-            "projection": 7.80973e-05,
-            "similarity": 0.843524,
-            "matched_descriptor": "lone"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "low-energy / easy-going / cool-headed / chilling / +6",
-        "descriptor_index": 4439,
-        "amplitude": 0.0281976856,
-        "abs_amplitude": 0.0281976856,
-        "raw_amplitude": 0.0471824927,
-        "percent": 3.952163,
-        "raw_percent": 2.587599,
-        "coverage_percent": 56.132862,
-        "member_count": 10,
-        "members": [
-          "low-energy",
-          "easy-going",
-          "cool-headed",
-          "chilling",
-          "mild-mannered",
-          "non-violent",
-          "non-hostile",
-          "soothing",
-          "calmest",
-          "calmer"
-        ],
-        "support": 2,
-        "effective_support": 1.792891,
-        "support_factor": 0.59763,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.031609387,
-            "similarity": 0.906972,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0155731057,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.026418226,
-        "abs_amplitude": 0.026418226,
-        "raw_amplitude": 0.0792546781,
-        "percent": 3.702755,
-        "raw_percent": 4.346513,
-        "coverage_percent": 59.835617,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0792546781,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "naive / simple-minded / clueless",
-        "descriptor_index": 5027,
-        "amplitude": 0.0149565292,
-        "abs_amplitude": 0.0149565292,
-        "raw_amplitude": 0.0448695876,
-        "percent": 2.096294,
-        "raw_percent": 2.460754,
-        "coverage_percent": 61.931911,
-        "member_count": 3,
-        "members": [
-          "naive",
-          "simple-minded",
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0448695877,
-            "similarity": 1.0,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "furious / indignant / berserk / spiteful / +5",
-        "descriptor_index": 2860,
-        "amplitude": 0.013529685,
-        "abs_amplitude": 0.013529685,
-        "raw_amplitude": 0.0405890549,
-        "percent": 1.896309,
-        "raw_percent": 2.225999,
-        "coverage_percent": 63.82822,
-        "member_count": 9,
-        "members": [
-          "furious",
-          "indignant",
-          "berserk",
-          "spiteful",
-          "ill-tempered",
-          "mad",
-          "enraged",
-          "angry",
-          "resentful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0405890547,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.0132198139,
-        "abs_amplitude": 0.0132198139,
-        "raw_amplitude": 0.0396594417,
-        "percent": 1.852878,
-        "raw_percent": 2.175017,
-        "coverage_percent": 65.681097,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0396594417,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "timid / withdrawn / inhibited",
-        "descriptor_index": 7851,
-        "amplitude": 0.0126042519,
-        "abs_amplitude": 0.0126042519,
-        "raw_amplitude": 0.036560251,
-        "percent": 1.766601,
-        "raw_percent": 2.00505,
-        "coverage_percent": 67.447698,
-        "member_count": 3,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited"
-        ],
-        "support": 2,
-        "effective_support": 1.034259,
-        "support_factor": 0.344753,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0359443676,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0006158834,
-            "similarity": 0.854158,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "quick-thinking / quick-minded",
-        "descriptor_index": 6082,
-        "amplitude": 0.0111298679,
-        "abs_amplitude": 0.0111298679,
-        "raw_amplitude": 0.0205881247,
-        "percent": 1.559953,
-        "raw_percent": 1.129101,
-        "coverage_percent": 69.007651,
-        "member_count": 2,
-        "members": [
-          "quick-thinking",
-          "quick-minded"
-        ],
-        "support": 2,
-        "effective_support": 1.621789,
-        "support_factor": 0.540596,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0152652066,
-            "similarity": 0.895359,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0053229181,
-            "similarity": 0.912363,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0094103977,
-        "abs_amplitude": 0.0094103977,
-        "raw_amplitude": 0.028231193,
-        "percent": 1.318953,
-        "raw_percent": 1.548265,
-        "coverage_percent": 70.326604,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.028231193,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "tsundere-like",
-        "descriptor_index": 8027,
-        "amplitude": 0.0073538416,
-        "abs_amplitude": 0.0073538416,
-        "raw_amplitude": 0.0220615248,
-        "percent": 1.030708,
-        "raw_percent": 1.209906,
-        "coverage_percent": 71.357312,
-        "member_count": 1,
-        "members": [
-          "tsundere-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0220615248,
-            "similarity": 0.993592,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "stern / stringent",
-        "descriptor_index": 7255,
-        "amplitude": 0.0069264306,
-        "abs_amplitude": 0.0069264306,
-        "raw_amplitude": 0.0207792918,
-        "percent": 0.970802,
-        "raw_percent": 1.139585,
-        "coverage_percent": 72.328114,
-        "member_count": 2,
-        "members": [
-          "stern",
-          "stringent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0207792918,
-            "similarity": 0.860259,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "cranky / bad-tempered / grouchy / grumpy / +1",
-        "descriptor_index": 1483,
-        "amplitude": 0.0067817561,
-        "abs_amplitude": 0.0067817561,
-        "raw_amplitude": 0.0203452684,
-        "percent": 0.950525,
-        "raw_percent": 1.115782,
-        "coverage_percent": 73.278639,
-        "member_count": 5,
-        "members": [
-          "cranky",
-          "bad-tempered",
-          "grouchy",
-          "grumpy",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0203452684,
-            "similarity": 0.89975,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "smartest / brilliant",
-        "descriptor_index": 7002,
-        "amplitude": 0.0066501117,
-        "abs_amplitude": 0.0066501117,
-        "raw_amplitude": 0.0127927475,
-        "percent": 0.932074,
-        "raw_percent": 0.701584,
-        "coverage_percent": 74.210713,
-        "member_count": 2,
-        "members": [
-          "smartest",
-          "brilliant"
-        ],
-        "support": 2,
-        "effective_support": 1.559504,
-        "support_factor": 0.519835,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0097958488,
-            "similarity": 0.87172,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0029968987,
-            "similarity": 0.873898,
-            "matched_descriptor": "intelligent / clever"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "refined",
-        "descriptor_index": 6177,
-        "amplitude": 0.0061688514,
-        "abs_amplitude": 0.0061688514,
-        "raw_amplitude": 0.0077928125,
-        "percent": 0.864621,
-        "raw_percent": 0.427376,
-        "coverage_percent": 75.075334,
-        "member_count": 1,
-        "members": [
-          "refined"
-        ],
-        "support": 3,
-        "effective_support": 2.374823,
-        "support_factor": 0.791608,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0043163048,
-            "similarity": 0.838938,
-            "matched_descriptor": "serious"
-          },
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0024083336,
-            "similarity": 0.848476,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0010681741,
-            "similarity": 0.869325,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0057800116,
-        "abs_amplitude": 0.0057800116,
-        "raw_amplitude": 0.0102393066,
-        "percent": 0.810121,
-        "raw_percent": 0.561548,
-        "coverage_percent": 75.885455,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 2,
-        "effective_support": 1.693477,
-        "support_factor": 0.564492,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0072977746,
-            "similarity": 0.877143,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.002941532,
-            "similarity": 0.880072,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "friendlier / cordial / amiable / agreeable",
-        "descriptor_index": 2820,
-        "amplitude": 0.0053230133,
-        "abs_amplitude": 0.0053230133,
-        "raw_amplitude": 0.0095099341,
-        "percent": 0.746069,
-        "raw_percent": 0.521547,
-        "coverage_percent": 76.631524,
-        "member_count": 4,
-        "members": [
-          "friendlier",
-          "cordial",
-          "amiable",
-          "agreeable"
-        ],
-        "support": 2,
-        "effective_support": 1.679196,
-        "support_factor": 0.559732,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0068333091,
-            "similarity": 0.890422,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0026766251,
-            "similarity": 0.887154,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0050538293,
-        "abs_amplitude": 0.0050538293,
-        "raw_amplitude": 0.0151614879,
-        "percent": 0.70834,
-        "raw_percent": 0.831492,
-        "coverage_percent": 77.339864,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0151614879,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "crafty",
-        "descriptor_index": 1482,
-        "amplitude": 0.005052709,
-        "abs_amplitude": 0.005052709,
-        "raw_amplitude": 0.0082290738,
-        "percent": 0.708183,
-        "raw_percent": 0.451302,
-        "coverage_percent": 78.048048,
-        "member_count": 1,
-        "members": [
-          "crafty"
-        ],
-        "support": 2,
-        "effective_support": 1.842021,
-        "support_factor": 0.614007,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0053194988,
-            "similarity": 0.872031,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.002909575,
-            "similarity": 0.910329,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "sensible / prudent / deliberative",
-        "descriptor_index": 6701,
-        "amplitude": 0.0047710087,
-        "abs_amplitude": 0.0047710087,
-        "raw_amplitude": 0.0087363844,
-        "percent": 0.6687,
-        "raw_percent": 0.479124,
-        "coverage_percent": 78.716748,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative"
-        ],
-        "support": 2,
-        "effective_support": 1.638324,
-        "support_factor": 0.546108,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0064205916,
-            "similarity": 0.878601,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0023157928,
-            "similarity": 0.878601,
-            "matched_descriptor": "intelligent / clever"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0047668095,
-        "abs_amplitude": 0.0047668095,
-        "raw_amplitude": 0.0143004284,
-        "percent": 0.668112,
-        "raw_percent": 0.784269,
-        "coverage_percent": 79.38486,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0143004284,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0044351896,
-        "abs_amplitude": 0.0044351896,
-        "raw_amplitude": 0.0133055689,
-        "percent": 0.621632,
-        "raw_percent": 0.729709,
-        "coverage_percent": 80.006492,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0133055689,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
+            "combined_favourites": 937
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.1521948113,
-        "abs_amplitude": 0.1521948113,
-        "raw_amplitude": 0.443521031,
-        "percent": 21.331491,
-        "raw_percent": 24.323739,
-        "coverage_percent": 21.331491,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "unassertive",
-          "untalkative",
-          "unsociable",
-          "faint-hearted",
-          "taciturn",
-          "modest",
-          "demure",
-          "meek",
-          "subdued"
-        ],
-        "support": 2,
-        "effective_support": 1.029454,
-        "support_factor": 0.343151,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.437082749,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.006438282,
-            "similarity": 0.872135,
-            "matched_descriptor": "naive / tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "intelligent / brainy / smart / clever / +4",
-        "descriptor_index": 3945,
-        "amplitude": 0.0825950115,
-        "abs_amplitude": 0.0825950115,
-        "raw_amplitude": 0.1489777069,
-        "percent": 11.576444,
-        "raw_percent": 8.170289,
-        "coverage_percent": 32.907935,
-        "member_count": 8,
-        "members": [
-          "intelligent",
-          "brainy",
-          "smart",
-          "clever",
-          "shrewd",
-          "quick-witted",
-          "astute",
-          "inventive"
-        ],
-        "support": 3,
-        "effective_support": 1.663236,
-        "support_factor": 0.554412,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.1088219823,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.038727521,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent / clever"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0014282035,
-            "similarity": 0.866345,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0538811768,
-        "abs_amplitude": 0.0538811768,
-        "raw_amplitude": 0.1616435303,
-        "percent": 7.551938,
-        "raw_percent": 8.864912,
-        "coverage_percent": 40.459874,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "temperamental",
-          "irritable",
-          "semi-aggressive"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.83849203,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.1616435303,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
+        "fit_percent": 88.887161,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +9",
-        "descriptor_index": 944,
-        "amplitude": 0.0431851052,
-        "abs_amplitude": 0.0431851052,
-        "raw_amplitude": 0.1223547657,
-        "percent": 6.052786,
-        "raw_percent": 6.710224,
-        "coverage_percent": 46.51266,
-        "member_count": 13,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "accommodating",
-          "good-humored",
-          "laid-back",
-          "permissive",
-          "flighty",
-          "playful",
-          "relaxed",
-          "mellow"
-        ],
-        "support": 3,
-        "effective_support": 1.05885,
-        "support_factor": 0.35295,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.1188641652,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0031330049,
-            "similarity": 0.878306,
-            "matched_descriptor": "naive"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0003575957,
-            "similarity": 0.863031,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +5",
-        "descriptor_index": 8223,
-        "amplitude": 0.0404400296,
-        "abs_amplitude": 0.0404400296,
-        "raw_amplitude": 0.06896218,
-        "percent": 5.668039,
-        "raw_percent": 3.782049,
-        "coverage_percent": 52.180699,
-        "member_count": 9,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "disinterested",
-          "indifferent",
-          "uncaring",
-          "non-interfering",
-          "detached"
-        ],
-        "support": 3,
-        "effective_support": 1.759226,
-        "support_factor": 0.586409,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.047303276,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0215808069,
-            "similarity": 0.890998,
-            "matched_descriptor": "naive / tsundere"
-          },
-          {
-            "character_id": 129745,
-            "name": "William Maryblood",
-            "native_name": "ウィリアム・G・マリーブラッド",
-            "anime": "The Faraway Paladin",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
-            "site_url": "https://anilist.co/character/129745",
-            "anime_url": "https://myanimelist.net/anime/50664",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 1.83127145,
-            "projection": 7.80973e-05,
-            "similarity": 0.843524,
-            "matched_descriptor": "lone"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "low-energy / easy-going / cool-headed / chilling / +6",
-        "descriptor_index": 4439,
-        "amplitude": 0.0281976856,
-        "abs_amplitude": 0.0281976856,
-        "raw_amplitude": 0.0471824927,
-        "percent": 3.952163,
-        "raw_percent": 2.587599,
-        "coverage_percent": 56.132862,
-        "member_count": 10,
-        "members": [
-          "low-energy",
-          "easy-going",
-          "cool-headed",
-          "chilling",
-          "mild-mannered",
-          "non-violent",
-          "non-hostile",
-          "soothing",
-          "calmest",
-          "calmer"
-        ],
-        "support": 2,
-        "effective_support": 1.792891,
-        "support_factor": 0.59763,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.031609387,
-            "similarity": 0.906972,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0155731057,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.026418226,
-        "abs_amplitude": 0.026418226,
-        "raw_amplitude": 0.0792546781,
-        "percent": 3.702755,
-        "raw_percent": 4.346513,
-        "coverage_percent": 59.835617,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
+        "step": 2,
+        "descriptor": "lazy",
+        "weighted_support": 2.80066955,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0792546781,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "naive / simple-minded / clueless",
-        "descriptor_index": 5027,
-        "amplitude": 0.0149565292,
-        "abs_amplitude": 0.0149565292,
-        "raw_amplitude": 0.0448695876,
-        "percent": 2.096294,
-        "raw_percent": 2.460754,
-        "coverage_percent": 61.931911,
-        "member_count": 3,
-        "members": [
-          "naive",
-          "simple-minded",
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0448695877,
-            "similarity": 1.0,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "furious / indignant / berserk / spiteful / +5",
-        "descriptor_index": 2860,
-        "amplitude": 0.013529685,
-        "abs_amplitude": 0.013529685,
-        "raw_amplitude": 0.0405890549,
-        "percent": 1.896309,
-        "raw_percent": 2.225999,
-        "coverage_percent": 63.82822,
-        "member_count": 9,
-        "members": [
-          "furious",
-          "indignant",
-          "berserk",
-          "spiteful",
-          "ill-tempered",
-          "mad",
-          "enraged",
-          "angry",
-          "resentful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0405890547,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.0132198139,
-        "abs_amplitude": 0.0132198139,
-        "raw_amplitude": 0.0396594417,
-        "percent": 1.852878,
-        "raw_percent": 2.175017,
-        "coverage_percent": 65.681097,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0396594417,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "timid / withdrawn / inhibited",
-        "descriptor_index": 7851,
-        "amplitude": 0.0126042519,
-        "abs_amplitude": 0.0126042519,
-        "raw_amplitude": 0.036560251,
-        "percent": 1.766601,
-        "raw_percent": 2.00505,
-        "coverage_percent": 67.447698,
-        "member_count": 3,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited"
-        ],
-        "support": 2,
-        "effective_support": 1.034259,
-        "support_factor": 0.344753,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0359443676,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0006158834,
-            "similarity": 0.854158,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "quick-thinking / quick-minded",
-        "descriptor_index": 6082,
-        "amplitude": 0.0111298679,
-        "abs_amplitude": 0.0111298679,
-        "raw_amplitude": 0.0205881247,
-        "percent": 1.559953,
-        "raw_percent": 1.129101,
-        "coverage_percent": 69.007651,
-        "member_count": 2,
-        "members": [
-          "quick-thinking",
-          "quick-minded"
-        ],
-        "support": 2,
-        "effective_support": 1.621789,
-        "support_factor": 0.540596,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0152652066,
-            "similarity": 0.895359,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0053229181,
-            "similarity": 0.912363,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0094103977,
-        "abs_amplitude": 0.0094103977,
-        "raw_amplitude": 0.028231193,
-        "percent": 1.318953,
-        "raw_percent": 1.548265,
-        "coverage_percent": 70.326604,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.028231193,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "tsundere-like",
-        "descriptor_index": 8027,
-        "amplitude": 0.0073538416,
-        "abs_amplitude": 0.0073538416,
-        "raw_amplitude": 0.0220615248,
-        "percent": 1.030708,
-        "raw_percent": 1.209906,
-        "coverage_percent": 71.357312,
-        "member_count": 1,
-        "members": [
-          "tsundere-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0220615248,
-            "similarity": 0.993592,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "stern / stringent",
-        "descriptor_index": 7255,
-        "amplitude": 0.0069264306,
-        "abs_amplitude": 0.0069264306,
-        "raw_amplitude": 0.0207792918,
-        "percent": 0.970802,
-        "raw_percent": 1.139585,
-        "coverage_percent": 72.328114,
-        "member_count": 2,
-        "members": [
-          "stern",
-          "stringent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0207792918,
-            "similarity": 0.860259,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "cranky / bad-tempered / grouchy / grumpy / +1",
-        "descriptor_index": 1483,
-        "amplitude": 0.0067817561,
-        "abs_amplitude": 0.0067817561,
-        "raw_amplitude": 0.0203452684,
-        "percent": 0.950525,
-        "raw_percent": 1.115782,
-        "coverage_percent": 73.278639,
-        "member_count": 5,
-        "members": [
-          "cranky",
-          "bad-tempered",
-          "grouchy",
-          "grumpy",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0203452684,
-            "similarity": 0.89975,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "smartest / brilliant",
-        "descriptor_index": 7002,
-        "amplitude": 0.0066501117,
-        "abs_amplitude": 0.0066501117,
-        "raw_amplitude": 0.0127927475,
-        "percent": 0.932074,
-        "raw_percent": 0.701584,
-        "coverage_percent": 74.210713,
-        "member_count": 2,
-        "members": [
-          "smartest",
-          "brilliant"
-        ],
-        "support": 2,
-        "effective_support": 1.559504,
-        "support_factor": 0.519835,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0097958488,
-            "similarity": 0.87172,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0029968987,
-            "similarity": 0.873898,
-            "matched_descriptor": "intelligent / clever"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "refined",
-        "descriptor_index": 6177,
-        "amplitude": 0.0061688514,
-        "abs_amplitude": 0.0061688514,
-        "raw_amplitude": 0.0077928125,
-        "percent": 0.864621,
-        "raw_percent": 0.427376,
-        "coverage_percent": 75.075334,
-        "member_count": 1,
-        "members": [
-          "refined"
-        ],
-        "support": 3,
-        "effective_support": 2.374823,
-        "support_factor": 0.791608,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0043163048,
-            "similarity": 0.838938,
-            "matched_descriptor": "serious"
-          },
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0024083336,
-            "similarity": 0.848476,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0010681741,
-            "similarity": 0.869325,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0057800116,
-        "abs_amplitude": 0.0057800116,
-        "raw_amplitude": 0.0102393066,
-        "percent": 0.810121,
-        "raw_percent": 0.561548,
-        "coverage_percent": 75.885455,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 2,
-        "effective_support": 1.693477,
-        "support_factor": 0.564492,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0072977746,
-            "similarity": 0.877143,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.002941532,
-            "similarity": 0.880072,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "friendlier / cordial / amiable / agreeable",
-        "descriptor_index": 2820,
-        "amplitude": 0.0053230133,
-        "abs_amplitude": 0.0053230133,
-        "raw_amplitude": 0.0095099341,
-        "percent": 0.746069,
-        "raw_percent": 0.521547,
-        "coverage_percent": 76.631524,
-        "member_count": 4,
-        "members": [
-          "friendlier",
-          "cordial",
-          "amiable",
-          "agreeable"
-        ],
-        "support": 2,
-        "effective_support": 1.679196,
-        "support_factor": 0.559732,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0068333091,
-            "similarity": 0.890422,
-            "matched_descriptor": "carefree"
-          },
-          {
-            "character_id": 270817,
-            "name": "Akira Ogata",
-            "native_name": "緒方旭",
-            "anime": "My Dress-Up Darling Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-            "site_url": "https://anilist.co/character/270817",
-            "anime_url": "https://myanimelist.net/anime/53065",
-            "role": "SUPPORTING",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0026766251,
-            "similarity": 0.887154,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0050538293,
-        "abs_amplitude": 0.0050538293,
-        "raw_amplitude": 0.0151614879,
-        "percent": 0.70834,
-        "raw_percent": 0.831492,
-        "coverage_percent": 77.339864,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0151614879,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "crafty",
-        "descriptor_index": 1482,
-        "amplitude": 0.005052709,
-        "abs_amplitude": 0.005052709,
-        "raw_amplitude": 0.0082290738,
-        "percent": 0.708183,
-        "raw_percent": 0.451302,
-        "coverage_percent": 78.048048,
-        "member_count": 1,
-        "members": [
-          "crafty"
-        ],
-        "support": 2,
-        "effective_support": 1.842021,
-        "support_factor": 0.614007,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0053194988,
-            "similarity": 0.872031,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.002909575,
-            "similarity": 0.910329,
-            "matched_descriptor": "clever"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "sensible / prudent / deliberative",
-        "descriptor_index": 6701,
-        "amplitude": 0.0047710087,
-        "abs_amplitude": 0.0047710087,
-        "raw_amplitude": 0.0087363844,
-        "percent": 0.6687,
-        "raw_percent": 0.479124,
-        "coverage_percent": 78.716748,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative"
-        ],
-        "support": 2,
-        "effective_support": 1.638324,
-        "support_factor": 0.546108,
-        "top_characters": [
-          {
-            "character_id": 156323,
-            "name": "Yuna",
-            "native_name": "ユナ",
-            "anime": "Kuma Kuma Kuma Bear",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
-            "site_url": "https://anilist.co/character/156323",
-            "anime_url": "https://myanimelist.net/anime/43353",
-            "role": "MAIN",
-            "favourites": 884,
-            "row_weight": 2.79026659,
-            "projection": 0.0064205916,
-            "similarity": 0.878601,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 13020,
-            "name": "Askeladd",
-            "native_name": "アシェラッド",
-            "anime": "Vinland Saga",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
-            "site_url": "https://anilist.co/character/13020",
-            "anime_url": "https://myanimelist.net/anime/37521",
-            "role": "MAIN",
-            "favourites": 16393,
-            "row_weight": 1.88897421,
-            "projection": 0.0023157928,
-            "similarity": 0.878601,
-            "matched_descriptor": "intelligent / clever"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0047668095,
-        "abs_amplitude": 0.0047668095,
-        "raw_amplitude": 0.0143004284,
-        "percent": 0.668112,
-        "raw_percent": 0.784269,
-        "coverage_percent": 79.38486,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0143004284,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0044351896,
-        "abs_amplitude": 0.0044351896,
-        "raw_amplitude": 0.0133055689,
-        "percent": 0.621632,
-        "raw_percent": 0.729709,
-        "coverage_percent": 80.006492,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 127541,
-            "name": "Junko Konno",
-            "native_name": "紺野純子",
-            "anime": "ZOMBIE LAND SAGA",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
-            "site_url": "https://anilist.co/character/127541",
-            "anime_url": "https://myanimelist.net/anime/37976",
-            "role": "MAIN",
-            "favourites": 735,
-            "row_weight": 2.75703285,
-            "projection": 0.0133055689,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 96.981662,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
+        "character_id": 270817,
+        "name": "Akira Ogata",
+        "anime": "My Dress-Up Darling Season 2",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
+        "site_url": "https://anilist.co/character/270817",
+        "favourites": 714,
+        "anilist_favourites": 714,
+        "bangumi_collects": 31,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 109064,
+        "bangumi_url": "https://bgm.tv/character/109064",
+        "combined_favourites": 745,
+        "role_edge_count": 1,
+        "descriptors": [
+          "naive",
+          "short-tempered",
+          "tsundere"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75947923,
+        "row_weight": 2.75947923,
+        "unweighted_row_norm": 2.54101579,
+        "amplitude": 0.5294630905,
+        "abs_amplitude": 0.5294630905,
+        "percent": 28.033116
+      },
+      {
         "character_id": 127541,
         "name": "Junko Konno",
-        "native_name": "紺野純子",
         "anime": "ZOMBIE LAND SAGA",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
         "site_url": "https://anilist.co/character/127541",
-        "anime_url": "https://myanimelist.net/anime/37976",
-        "role": "MAIN",
         "favourites": 735,
-        "row_weight": 2.75703285,
-        "amplitude": 0.745677223,
-        "abs_amplitude": 0.745677223,
-        "percent": 55.603452
+        "anilist_favourites": 735,
+        "bangumi_collects": 425,
+        "bangumi_comments": 84,
+        "bangumi_character_id": 65986,
+        "bangumi_url": "https://bgm.tv/character/65986",
+        "combined_favourites": 1160,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.83849203,
+        "row_weight": 2.83849203,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5218703084,
+        "abs_amplitude": 0.5218703084,
+        "percent": 27.234862
       },
       {
         "character_id": 156323,
         "name": "Yuna",
-        "native_name": "ユナ",
         "anime": "Kuma Kuma Kuma Bear",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
         "site_url": "https://anilist.co/character/156323",
-        "anime_url": "https://myanimelist.net/anime/43353",
-        "role": "MAIN",
         "favourites": 884,
-        "row_weight": 2.79026659,
-        "amplitude": 0.4829598946,
-        "abs_amplitude": 0.4829598946,
-        "percent": 23.325026
-      },
-      {
-        "character_id": 270817,
-        "name": "Akira Ogata",
-        "native_name": "緒方旭",
-        "anime": "My Dress-Up Darling Season 2",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-        "site_url": "https://anilist.co/character/270817",
-        "anime_url": "https://myanimelist.net/anime/53065",
-        "role": "SUPPORTING",
-        "favourites": 714,
-        "row_weight": 2.75177807,
-        "amplitude": 0.4464097929,
-        "abs_amplitude": 0.4464097929,
-        "percent": 19.92817
+        "anilist_favourites": 884,
+        "bangumi_collects": 53,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 76749,
+        "bangumi_url": "https://bgm.tv/character/76749",
+        "combined_favourites": 937,
+        "role_edge_count": 1,
+        "descriptors": [
+          "lazy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.80066955,
+        "row_weight": 2.80066955,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4914567015,
+        "abs_amplitude": 0.4914567015,
+        "percent": 24.152969
       },
       {
         "character_id": 13020,
         "name": "Askeladd",
-        "native_name": "アシェラッド",
         "anime": "Vinland Saga",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
         "site_url": "https://anilist.co/character/13020",
-        "anime_url": "https://myanimelist.net/anime/37521",
-        "role": "MAIN",
         "favourites": 16393,
-        "row_weight": 1.88897421,
-        "amplitude": 0.0888091907,
-        "abs_amplitude": 0.0888091907,
-        "percent": 0.788707
+        "anilist_favourites": 16393,
+        "bangumi_collects": 321,
+        "bangumi_comments": 97,
+        "bangumi_character_id": 69820,
+        "bangumi_url": "https://bgm.tv/character/69820",
+        "combined_favourites": 16714,
+        "role_edge_count": 3,
+        "descriptors": [
+          "easygoing",
+          "manipulative"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 3.27476133,
+        "row_weight": 1.89068434,
+        "unweighted_row_norm": 1.79425811,
+        "amplitude": 0.3350435338,
+        "abs_amplitude": 0.3350435338,
+        "percent": 11.225417
       },
       {
         "character_id": 129745,
         "name": "William Maryblood",
-        "native_name": "ウィリアム・G・マリーブラッド",
-        "anime": "The Faraway Paladin",
+        "anime": "The Faraway Paladin: The Lord of Rust Mountains",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
         "site_url": "https://anilist.co/character/129745",
-        "anime_url": "https://myanimelist.net/anime/50664",
-        "role": "MAIN",
         "favourites": 300,
-        "row_weight": 1.83127145,
-        "amplitude": 0.0595520255,
-        "abs_amplitude": 0.0595520255,
-        "percent": 0.354644
+        "anilist_favourites": 300,
+        "bangumi_collects": 7,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 57738,
+        "bangumi_url": "https://bgm.tv/character/57738",
+        "combined_favourites": 307,
+        "role_edge_count": 2,
+        "descriptors": [
+          "lone"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.59424359,
+        "row_weight": 1.83440723,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3058371428,
+        "abs_amplitude": 0.3058371428,
+        "percent": 9.353636
       }
     ],
     "positive_characters": [
       {
+        "character_id": 270817,
+        "name": "Akira Ogata",
+        "anime": "My Dress-Up Darling Season 2",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
+        "site_url": "https://anilist.co/character/270817",
+        "favourites": 714,
+        "anilist_favourites": 714,
+        "bangumi_collects": 31,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 109064,
+        "bangumi_url": "https://bgm.tv/character/109064",
+        "combined_favourites": 745,
+        "role_edge_count": 1,
+        "descriptors": [
+          "naive",
+          "short-tempered",
+          "tsundere"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.75947923,
+        "row_weight": 2.75947923,
+        "unweighted_row_norm": 2.54101579,
+        "amplitude": 0.5294630905,
+        "abs_amplitude": 0.5294630905,
+        "percent": 28.033116
+      },
+      {
         "character_id": 127541,
         "name": "Junko Konno",
-        "native_name": "紺野純子",
         "anime": "ZOMBIE LAND SAGA",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
         "site_url": "https://anilist.co/character/127541",
-        "anime_url": "https://myanimelist.net/anime/37976",
-        "role": "MAIN",
         "favourites": 735,
-        "row_weight": 2.75703285,
-        "amplitude": 0.745677223,
-        "abs_amplitude": 0.745677223,
-        "percent": 55.603452
+        "anilist_favourites": 735,
+        "bangumi_collects": 425,
+        "bangumi_comments": 84,
+        "bangumi_character_id": 65986,
+        "bangumi_url": "https://bgm.tv/character/65986",
+        "combined_favourites": 1160,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.83849203,
+        "row_weight": 2.83849203,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5218703084,
+        "abs_amplitude": 0.5218703084,
+        "percent": 27.234862
       },
       {
         "character_id": 156323,
         "name": "Yuna",
-        "native_name": "ユナ",
         "anime": "Kuma Kuma Kuma Bear",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
         "site_url": "https://anilist.co/character/156323",
-        "anime_url": "https://myanimelist.net/anime/43353",
-        "role": "MAIN",
         "favourites": 884,
-        "row_weight": 2.79026659,
-        "amplitude": 0.4829598946,
-        "abs_amplitude": 0.4829598946,
-        "percent": 23.325026
-      },
-      {
-        "character_id": 270817,
-        "name": "Akira Ogata",
-        "native_name": "緒方旭",
-        "anime": "My Dress-Up Darling Season 2",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
-        "site_url": "https://anilist.co/character/270817",
-        "anime_url": "https://myanimelist.net/anime/53065",
-        "role": "SUPPORTING",
-        "favourites": 714,
-        "row_weight": 2.75177807,
-        "amplitude": 0.4464097929,
-        "abs_amplitude": 0.4464097929,
-        "percent": 19.92817
+        "anilist_favourites": 884,
+        "bangumi_collects": 53,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 76749,
+        "bangumi_url": "https://bgm.tv/character/76749",
+        "combined_favourites": 937,
+        "role_edge_count": 1,
+        "descriptors": [
+          "lazy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.80066955,
+        "row_weight": 2.80066955,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4914567015,
+        "abs_amplitude": 0.4914567015,
+        "percent": 24.152969
       },
       {
         "character_id": 13020,
         "name": "Askeladd",
-        "native_name": "アシェラッド",
         "anime": "Vinland Saga",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
         "site_url": "https://anilist.co/character/13020",
-        "anime_url": "https://myanimelist.net/anime/37521",
-        "role": "MAIN",
         "favourites": 16393,
-        "row_weight": 1.88897421,
-        "amplitude": 0.0888091907,
-        "abs_amplitude": 0.0888091907,
-        "percent": 0.788707
+        "anilist_favourites": 16393,
+        "bangumi_collects": 321,
+        "bangumi_comments": 97,
+        "bangumi_character_id": 69820,
+        "bangumi_url": "https://bgm.tv/character/69820",
+        "combined_favourites": 16714,
+        "role_edge_count": 3,
+        "descriptors": [
+          "easygoing",
+          "manipulative"
+        ],
+        "shared_role_weight": 0.57735027,
+        "popularity_row_weight": 3.27476133,
+        "row_weight": 1.89068434,
+        "unweighted_row_norm": 1.79425811,
+        "amplitude": 0.3350435338,
+        "abs_amplitude": 0.3350435338,
+        "percent": 11.225417
       },
       {
         "character_id": 129745,
         "name": "William Maryblood",
-        "native_name": "ウィリアム・G・マリーブラッド",
-        "anime": "The Faraway Paladin",
+        "anime": "The Faraway Paladin: The Lord of Rust Mountains",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
         "site_url": "https://anilist.co/character/129745",
-        "anime_url": "https://myanimelist.net/anime/50664",
-        "role": "MAIN",
         "favourites": 300,
-        "row_weight": 1.83127145,
-        "amplitude": 0.0595520255,
-        "abs_amplitude": 0.0595520255,
-        "percent": 0.354644
+        "anilist_favourites": 300,
+        "bangumi_collects": 7,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 57738,
+        "bangumi_url": "https://bgm.tv/character/57738",
+        "combined_favourites": 307,
+        "role_edge_count": 2,
+        "descriptors": [
+          "lone"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.59424359,
+        "row_weight": 1.83440723,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.3058371428,
+        "abs_amplitude": 0.3058371428,
+        "percent": 9.353636
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 4.302075,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "tsundere / lone / easygoing / +5",
+          "support": 5,
+          "variance": 0.4259583323,
+          "seed_descriptor": "tsundere",
+          "components": [
+            {
+              "descriptor": "tsundere",
+              "weight": 0.35057225,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "lone",
+              "weight": 0.10346333,
+              "similarity_to_seed": 0.54325592,
+              "support": 1
+            },
+            {
+              "descriptor": "easygoing",
+              "weight": 0.09520187,
+              "similarity_to_seed": 0.52111548,
+              "support": 1
+            },
+            {
+              "descriptor": "shy",
+              "weight": 0.09330105,
+              "similarity_to_seed": 0.5158869,
+              "support": 1
+            },
+            {
+              "descriptor": "lazy",
+              "weight": 0.09245144,
+              "similarity_to_seed": 0.51353266,
+              "support": 1
+            },
+            {
+              "descriptor": "short-tempered",
+              "weight": 0.09228936,
+              "similarity_to_seed": 0.51308233,
+              "support": 1
+            },
+            {
+              "descriptor": "naive",
+              "weight": 0.08834521,
+              "similarity_to_seed": 0.50199887,
+              "support": 1
+            },
+            {
+              "descriptor": "manipulative",
+              "weight": 0.08437549,
+              "similarity_to_seed": 0.49059079,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.4259583323,
+          "minimum_y_projection_variance": 0.1064895831,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 8,
+          "x_component_count": 8,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0425958332,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1064895831,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.2129791661,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 13020,
+            "name": "Askeladd",
+            "anime": "Vinland Saga",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
+            "site_url": "https://anilist.co/character/13020",
+            "favourites": 16393,
+            "anilist_favourites": 16393,
+            "bangumi_collects": 321,
+            "bangumi_comments": 97,
+            "bangumi_character_id": 69820,
+            "bangumi_url": "https://bgm.tv/character/69820",
+            "combined_favourites": 16714,
+            "role_edge_count": 3,
+            "descriptors": [
+              "easygoing",
+              "manipulative"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 3.27476133,
+            "row_weight": 1.89068434,
+            "unweighted_row_norm": 1.79425811,
+            "x_raw_score": 1.520875231,
+            "x_score": 0.256043711,
+            "amplitude": 0.256043711,
+            "x_direct": true
+          },
+          {
+            "character_id": 156323,
+            "name": "Yuna",
+            "anime": "Kuma Kuma Kuma Bear",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
+            "site_url": "https://anilist.co/character/156323",
+            "favourites": 884,
+            "anilist_favourites": 884,
+            "bangumi_collects": 53,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 76749,
+            "bangumi_url": "https://bgm.tv/character/76749",
+            "combined_favourites": 937,
+            "role_edge_count": 1,
+            "descriptors": [
+              "lazy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.80066955,
+            "row_weight": 2.80066955,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7702663105,
+            "x_score": -0.4945652095,
+            "amplitude": -0.4945652095,
+            "x_direct": true
+          },
+          {
+            "character_id": 127541,
+            "name": "Junko Konno",
+            "anime": "ZOMBIE LAND SAGA",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
+            "site_url": "https://anilist.co/character/127541",
+            "favourites": 735,
+            "anilist_favourites": 735,
+            "bangumi_collects": 425,
+            "bangumi_comments": 84,
+            "bangumi_character_id": 65986,
+            "bangumi_url": "https://bgm.tv/character/65986",
+            "combined_favourites": 1160,
+            "role_edge_count": 1,
+            "descriptors": [
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.83849203,
+            "row_weight": 2.83849203,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.8068544835,
+            "x_score": -0.4579770365,
+            "amplitude": -0.4579770365,
+            "x_direct": true
+          },
+          {
+            "character_id": 270817,
+            "name": "Akira Ogata",
+            "anime": "My Dress-Up Darling Season 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
+            "site_url": "https://anilist.co/character/270817",
+            "favourites": 714,
+            "anilist_favourites": 714,
+            "bangumi_collects": 31,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 109064,
+            "bangumi_url": "https://bgm.tv/character/109064",
+            "combined_favourites": 745,
+            "role_edge_count": 1,
+            "descriptors": [
+              "naive",
+              "short-tempered",
+              "tsundere"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75947923,
+            "row_weight": 2.75947923,
+            "unweighted_row_norm": 2.54101579,
+            "x_raw_score": 2.4399243223,
+            "x_score": 1.1750928024,
+            "amplitude": 1.1750928024,
+            "x_direct": true
+          },
+          {
+            "character_id": 129745,
+            "name": "William Maryblood",
+            "anime": "The Faraway Paladin: The Lord of Rust Mountains",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
+            "site_url": "https://anilist.co/character/129745",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 7,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 57738,
+            "bangumi_url": "https://bgm.tv/character/57738",
+            "combined_favourites": 307,
+            "role_edge_count": 2,
+            "descriptors": [
+              "lone"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.59424359,
+            "row_weight": 1.83440723,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7862372525,
+            "x_score": -0.4785942674,
+            "amplitude": -0.4785942674,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.26483152
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "short-tempered / quick-tempered / bad-tempered / +9",
+          "support": 2,
+          "variance": 0.3944763493,
+          "seed_descriptor": "short-tempered",
+          "components": [
+            {
+              "descriptor": "short-tempered",
+              "weight": 0.13228015,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "quick-tempered",
+              "weight": 0.10526982,
+              "similarity_to_seed": 0.89208163,
+              "support": 0
+            },
+            {
+              "descriptor": "bad-tempered",
+              "weight": 0.09225379,
+              "similarity_to_seed": 0.83511207,
+              "support": 0
+            },
+            {
+              "descriptor": "ill-tempered",
+              "weight": 0.09217423,
+              "similarity_to_seed": 0.83475189,
+              "support": 0
+            },
+            {
+              "descriptor": "even-tempered",
+              "weight": 0.08266639,
+              "similarity_to_seed": 0.79052778,
+              "support": 0
+            },
+            {
+              "descriptor": "hot-tempered",
+              "weight": 0.07885362,
+              "similarity_to_seed": 0.77208209,
+              "support": 0
+            },
+            {
+              "descriptor": "aggressive",
+              "weight": 0.07481715,
+              "similarity_to_seed": 0.75206128,
+              "support": 0
+            },
+            {
+              "descriptor": "hostile",
+              "weight": 0.07177289,
+              "similarity_to_seed": 0.73660196,
+              "support": 0
+            },
+            {
+              "descriptor": "mild",
+              "weight": 0.06880995,
+              "similarity_to_seed": 0.72123747,
+              "support": 0
+            },
+            {
+              "descriptor": "shy",
+              "weight": 0.06742745,
+              "similarity_to_seed": 0.71395532,
+              "support": 1
+            },
+            {
+              "descriptor": "naive",
+              "weight": 0.06730362,
+              "similarity_to_seed": 0.71329942,
+              "support": 1
+            },
+            {
+              "descriptor": "nonchalant",
+              "weight": 0.06637096,
+              "similarity_to_seed": 0.7083399,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.3944763493,
+          "minimum_y_projection_variance": 0.0986190873,
+          "best_rejected_correlation": 0.9710866293,
+          "best_rejected_lane_cosine": 0.8485607186,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9710866293,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0394476349,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0986190873,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1972381746,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "tsundere / servile / amiable / +9",
+            "variance": 0.3824934721,
+            "correlation": 0.9986406236,
+            "abs_correlation": 0.9986406236,
+            "lane_cosine": 0.8314499867,
+            "orthogonality_score": 0.3086909196,
+            "objective": 0.1180722616,
+            "components": [
+              {
+                "descriptor": "tsundere",
+                "weight": 0.20413528,
+                "similarity_to_seed": 1.0,
+                "support": 1
+              },
+              {
+                "descriptor": "servile",
+                "weight": 0.08808498,
+                "similarity_to_seed": 0.65688886,
+                "support": 0
+              },
+              {
+                "descriptor": "amiable",
+                "weight": 0.07572624,
+                "similarity_to_seed": 0.60906572,
+                "support": 0
+              },
+              {
+                "descriptor": "mannered",
+                "weight": 0.07207949,
+                "similarity_to_seed": 0.59421941,
+                "support": 0
+              },
+              {
+                "descriptor": "timid",
+                "weight": 0.07183216,
+                "similarity_to_seed": 0.59319902,
+                "support": 0
+              },
+              {
+                "descriptor": "chuunibyou",
+                "weight": 0.07128944,
+                "similarity_to_seed": 0.59095385,
+                "support": 0
+              },
+              {
+                "descriptor": "forthright",
+                "weight": 0.07094919,
+                "similarity_to_seed": 0.5895419,
+                "support": 0
+              },
+              {
+                "descriptor": "kind",
+                "weight": 0.07082111,
+                "similarity_to_seed": 0.58900954,
+                "support": 0
+              },
+              {
+                "descriptor": "generous",
+                "weight": 0.06993158,
+                "similarity_to_seed": 0.58529882,
+                "support": 0
+              },
+              {
+                "descriptor": "wise",
+                "weight": 0.06992068,
+                "similarity_to_seed": 0.5852532,
+                "support": 0
+              },
+              {
+                "descriptor": "polite",
+                "weight": 0.06775814,
+                "similarity_to_seed": 0.57613162,
+                "support": 0
+              },
+              {
+                "descriptor": "teasing",
+                "weight": 0.06747171,
+                "similarity_to_seed": 0.57491259,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 13020,
+            "name": "Askeladd",
+            "anime": "Vinland Saga",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
+            "site_url": "https://anilist.co/character/13020",
+            "favourites": 16393,
+            "anilist_favourites": 16393,
+            "bangumi_collects": 321,
+            "bangumi_comments": 97,
+            "bangumi_character_id": 69820,
+            "bangumi_url": "https://bgm.tv/character/69820",
+            "combined_favourites": 16714,
+            "role_edge_count": 3,
+            "descriptors": [
+              "easygoing",
+              "manipulative"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 3.27476133,
+            "row_weight": 1.89068434,
+            "unweighted_row_norm": 1.79425811,
+            "x_raw_score": 1.4562377528,
+            "x_score": 0.257020432,
+            "amplitude": 0.257020432,
+            "x_direct": false
+          },
+          {
+            "character_id": 156323,
+            "name": "Yuna",
+            "anime": "Kuma Kuma Kuma Bear",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
+            "site_url": "https://anilist.co/character/156323",
+            "favourites": 884,
+            "anilist_favourites": 884,
+            "bangumi_collects": 53,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 76749,
+            "bangumi_url": "https://bgm.tv/character/76749",
+            "combined_favourites": 937,
+            "role_edge_count": 1,
+            "descriptors": [
+              "lazy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.80066955,
+            "row_weight": 2.80066955,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7129948998,
+            "x_score": -0.486222421,
+            "amplitude": -0.486222421,
+            "x_direct": false
+          },
+          {
+            "character_id": 127541,
+            "name": "Junko Konno",
+            "anime": "ZOMBIE LAND SAGA",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
+            "site_url": "https://anilist.co/character/127541",
+            "favourites": 735,
+            "anilist_favourites": 735,
+            "bangumi_collects": 425,
+            "bangumi_comments": 84,
+            "bangumi_character_id": 65986,
+            "bangumi_url": "https://bgm.tv/character/65986",
+            "combined_favourites": 1160,
+            "role_edge_count": 1,
+            "descriptors": [
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.83849203,
+            "row_weight": 2.83849203,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.797042732,
+            "x_score": -0.4021745887,
+            "amplitude": -0.4021745887,
+            "x_direct": true
+          },
+          {
+            "character_id": 270817,
+            "name": "Akira Ogata",
+            "anime": "My Dress-Up Darling Season 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
+            "site_url": "https://anilist.co/character/270817",
+            "favourites": 714,
+            "anilist_favourites": 714,
+            "bangumi_collects": 31,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 109064,
+            "bangumi_url": "https://bgm.tv/character/109064",
+            "combined_favourites": 745,
+            "role_edge_count": 1,
+            "descriptors": [
+              "naive",
+              "short-tempered",
+              "tsundere"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75947923,
+            "row_weight": 2.75947923,
+            "unweighted_row_norm": 2.54101579,
+            "x_raw_score": 2.3238701979,
+            "x_score": 1.1246528771,
+            "amplitude": 1.1246528771,
+            "x_direct": true
+          },
+          {
+            "character_id": 129745,
+            "name": "William Maryblood",
+            "anime": "The Faraway Paladin: The Lord of Rust Mountains",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
+            "site_url": "https://anilist.co/character/129745",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 7,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 57738,
+            "bangumi_url": "https://bgm.tv/character/57738",
+            "combined_favourites": 307,
+            "role_edge_count": 2,
+            "descriptors": [
+              "lone"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.59424359,
+            "row_weight": 1.83440723,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7059410213,
+            "x_score": -0.4932762994,
+            "amplitude": -0.4932762994,
+            "x_direct": false
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.1992173208
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "tsundere / lone / easygoing / +5",
+        "support": 5,
+        "variance": 0.4259583323,
+        "seed_descriptor": "tsundere",
+        "components": [
+          {
+            "descriptor": "tsundere",
+            "weight": 0.35057225,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "lone",
+            "weight": 0.10346333,
+            "similarity_to_seed": 0.54325592,
+            "support": 1
+          },
+          {
+            "descriptor": "easygoing",
+            "weight": 0.09520187,
+            "similarity_to_seed": 0.52111548,
+            "support": 1
+          },
+          {
+            "descriptor": "shy",
+            "weight": 0.09330105,
+            "similarity_to_seed": 0.5158869,
+            "support": 1
+          },
+          {
+            "descriptor": "lazy",
+            "weight": 0.09245144,
+            "similarity_to_seed": 0.51353266,
+            "support": 1
+          },
+          {
+            "descriptor": "short-tempered",
+            "weight": 0.09228936,
+            "similarity_to_seed": 0.51308233,
+            "support": 1
+          },
+          {
+            "descriptor": "naive",
+            "weight": 0.08834521,
+            "similarity_to_seed": 0.50199887,
+            "support": 1
+          },
+          {
+            "descriptor": "manipulative",
+            "weight": 0.08437549,
+            "similarity_to_seed": 0.49059079,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.4259583323,
+        "minimum_y_projection_variance": 0.1064895831,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 8,
+        "x_component_count": 8,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0425958332,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1064895831,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.2129791661,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 13020,
+          "name": "Askeladd",
+          "anime": "Vinland Saga",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
+          "site_url": "https://anilist.co/character/13020",
+          "favourites": 16393,
+          "anilist_favourites": 16393,
+          "bangumi_collects": 321,
+          "bangumi_comments": 97,
+          "bangumi_character_id": 69820,
+          "bangumi_url": "https://bgm.tv/character/69820",
+          "combined_favourites": 16714,
+          "role_edge_count": 3,
+          "descriptors": [
+            "easygoing",
+            "manipulative"
+          ],
+          "shared_role_weight": 0.57735027,
+          "popularity_row_weight": 3.27476133,
+          "row_weight": 1.89068434,
+          "unweighted_row_norm": 1.79425811,
+          "x_raw_score": 1.520875231,
+          "x_score": 0.256043711,
+          "amplitude": 0.256043711,
+          "x_direct": true
+        },
+        {
+          "character_id": 156323,
+          "name": "Yuna",
+          "anime": "Kuma Kuma Kuma Bear",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
+          "site_url": "https://anilist.co/character/156323",
+          "favourites": 884,
+          "anilist_favourites": 884,
+          "bangumi_collects": 53,
+          "bangumi_comments": 24,
+          "bangumi_character_id": 76749,
+          "bangumi_url": "https://bgm.tv/character/76749",
+          "combined_favourites": 937,
+          "role_edge_count": 1,
+          "descriptors": [
+            "lazy"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.80066955,
+          "row_weight": 2.80066955,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7702663105,
+          "x_score": -0.4945652095,
+          "amplitude": -0.4945652095,
+          "x_direct": true
+        },
+        {
+          "character_id": 127541,
+          "name": "Junko Konno",
+          "anime": "ZOMBIE LAND SAGA",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
+          "site_url": "https://anilist.co/character/127541",
+          "favourites": 735,
+          "anilist_favourites": 735,
+          "bangumi_collects": 425,
+          "bangumi_comments": 84,
+          "bangumi_character_id": 65986,
+          "bangumi_url": "https://bgm.tv/character/65986",
+          "combined_favourites": 1160,
+          "role_edge_count": 1,
+          "descriptors": [
+            "shy"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.83849203,
+          "row_weight": 2.83849203,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.8068544835,
+          "x_score": -0.4579770365,
+          "amplitude": -0.4579770365,
+          "x_direct": true
+        },
+        {
+          "character_id": 270817,
+          "name": "Akira Ogata",
+          "anime": "My Dress-Up Darling Season 2",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
+          "site_url": "https://anilist.co/character/270817",
+          "favourites": 714,
+          "anilist_favourites": 714,
+          "bangumi_collects": 31,
+          "bangumi_comments": 11,
+          "bangumi_character_id": 109064,
+          "bangumi_url": "https://bgm.tv/character/109064",
+          "combined_favourites": 745,
+          "role_edge_count": 1,
+          "descriptors": [
+            "naive",
+            "short-tempered",
+            "tsundere"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.75947923,
+          "row_weight": 2.75947923,
+          "unweighted_row_norm": 2.54101579,
+          "x_raw_score": 2.4399243223,
+          "x_score": 1.1750928024,
+          "amplitude": 1.1750928024,
+          "x_direct": true
+        },
+        {
+          "character_id": 129745,
+          "name": "William Maryblood",
+          "anime": "The Faraway Paladin: The Lord of Rust Mountains",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
+          "site_url": "https://anilist.co/character/129745",
+          "favourites": 300,
+          "anilist_favourites": 300,
+          "bangumi_collects": 7,
+          "bangumi_comments": 9,
+          "bangumi_character_id": 57738,
+          "bangumi_url": "https://bgm.tv/character/57738",
+          "combined_favourites": 307,
+          "role_edge_count": 2,
+          "descriptors": [
+            "lone"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.59424359,
+          "row_weight": 1.83440723,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7862372525,
+          "x_score": -0.4785942674,
+          "amplitude": -0.4785942674,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.26483152
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.7789844577,
+      "mass_percent": 10.391593,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 50.58956,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "lazy",
+            "amplitude": 0.5058956024,
+            "abs_amplitude": 0.5058956024,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "lazy",
+            "fit_percent": 50.58956,
+            "residual_gain_percent": 25.593036
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 156323,
+            "name": "Yuna",
+            "anime": "Kuma Kuma Kuma Bear",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b156323-JZbBp6YPZhmN.png",
+            "site_url": "https://anilist.co/character/156323",
+            "favourites": 884,
+            "anilist_favourites": 884,
+            "bangumi_collects": 53,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 76749,
+            "bangumi_url": "https://bgm.tv/character/76749",
+            "combined_favourites": 937,
+            "role_edge_count": 1,
+            "descriptors": [
+              "lazy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.80066955,
+            "row_weight": 2.80066955,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.7964355197,
+            "abs_amplitude": 0.7964355197,
+            "percent": 63.430954
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 37.13102,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "shy",
+            "amplitude": 0.3713101992,
+            "abs_amplitude": 0.3713101992,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "shy",
+            "fit_percent": 37.13102,
+            "residual_gain_percent": 13.787126
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 127541,
+            "name": "Junko Konno",
+            "anime": "ZOMBIE LAND SAGA",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b127541-6J7dwza3BDa0.jpg",
+            "site_url": "https://anilist.co/character/127541",
+            "favourites": 735,
+            "anilist_favourites": 735,
+            "bangumi_collects": 425,
+            "bangumi_comments": 84,
+            "bangumi_character_id": 65986,
+            "bangumi_url": "https://bgm.tv/character/65986",
+            "combined_favourites": 1160,
+            "role_edge_count": 1,
+            "descriptors": [
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.83849203,
+            "row_weight": 2.83849203,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.5924509542,
+            "abs_amplitude": 0.5924509542,
+            "percent": 35.099813
+          },
+          {
+            "character_id": 270817,
+            "name": "Akira Ogata",
+            "anime": "My Dress-Up Darling Season 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b270817-JDPMFJW3H20f.png",
+            "site_url": "https://anilist.co/character/270817",
+            "favourites": 714,
+            "anilist_favourites": 714,
+            "bangumi_collects": 31,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 109064,
+            "bangumi_url": "https://bgm.tv/character/109064",
+            "combined_favourites": 745,
+            "role_edge_count": 1,
+            "descriptors": [
+              "naive",
+              "short-tempered",
+              "tsundere"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.75947923,
+            "row_weight": 2.75947923,
+            "unweighted_row_norm": 2.54101579,
+            "amplitude": -0.0914126403,
+            "abs_amplitude": 0.0914126403,
+            "percent": 0.835627
+          },
+          {
+            "character_id": 129745,
+            "name": "William Maryblood",
+            "anime": "The Faraway Paladin: The Lord of Rust Mountains",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n129745-gmUvsvhY0FPw.jpg",
+            "site_url": "https://anilist.co/character/129745",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 7,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 57738,
+            "bangumi_url": "https://bgm.tv/character/57738",
+            "combined_favourites": 307,
+            "role_edge_count": 2,
+            "descriptors": [
+              "lone"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.59424359,
+            "row_weight": 1.83440723,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.0708298897,
+            "abs_amplitude": 0.0708298897,
+            "percent": 0.501687
+          },
+          {
+            "character_id": 13020,
+            "name": "Askeladd",
+            "anime": "Vinland Saga",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b13020-ZdiYlNmpRUNS.png",
+            "site_url": "https://anilist.co/character/13020",
+            "favourites": 16393,
+            "anilist_favourites": 16393,
+            "bangumi_collects": 321,
+            "bangumi_comments": 97,
+            "bangumi_character_id": 69820,
+            "bangumi_url": "https://bgm.tv/character/69820",
+            "combined_favourites": 16714,
+            "role_edge_count": 3,
+            "descriptors": [
+              "easygoing",
+              "manipulative"
+            ],
+            "shared_role_weight": 0.57735027,
+            "popularity_row_weight": 3.27476133,
+            "row_weight": 1.89068434,
+            "unweighted_row_norm": 1.79425811,
+            "amplitude": -0.0363205968,
+            "abs_amplitude": 0.0363205968,
+            "percent": 0.131919
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.8346398428,
+      "mass_percent": 76.747827,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.7789844577,
+      "mass_percent": 10.391593,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.2684587089,
+      "mass_percent": 5.28312,
+      "relative_to_sv2_percent": 71.302405
+    },
+    {
+      "rank": 4,
+      "singular_value": 1.1456342074,
+      "mass_percent": 4.309529,
+      "relative_to_sv2_percent": 64.398213
+    },
+    {
+      "rank": 5,
+      "singular_value": 0.9976253532,
+      "mass_percent": 3.26793,
+      "relative_to_sv2_percent": 56.078363
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

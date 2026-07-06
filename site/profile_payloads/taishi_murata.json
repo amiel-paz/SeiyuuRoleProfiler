@@ -5,2171 +5,424 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n107705-lVfYRzWY5AFW.jpg",
   "site_url": "https://anilist.co/staff/107705",
   "role_count": 23,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2014,
   "aliases": [
     "murata taishi",
     "taishi murata"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/taishi_murata.json",
+  "sv1_mass_percent": 94.050616,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.8035027679,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.8035027679,
-        "mass_percent": 57.672746
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.482099951,
-        "mass_percent": 24.560754
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.111054122,
-        "mass_percent": 17.7665
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 96.789732,
-      "normalized_entanglement": 0.252057,
-      "top5_mass_percent": 15.401968,
-      "top10_mass_percent": 21.682034
-    },
-    "character_participation": {
-      "effective_count": 2.055368,
-      "normalized_entanglement": 0.685123,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.058767,
-      "semantic_spread": 1.26795,
-      "axis_concentration_percent": 69.726213,
-      "lane_count": 1.846268,
-      "direction_range": 0.842886,
-      "direction_spread": 1.009918,
-      "direction_axis_concentration_percent": 69.657125,
-      "direction_lane_count": 1.84733
-    },
-    "explained_sv_l2_percent": 57.672746,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.9343824093,
+    "mass_percent": 93.429693,
+    "descriptor_fit_percent": 98.491075,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "cold / standoffish / unsocial / numb / +13",
-        "descriptor_index": 1222,
-        "amplitude": 0.0941320084,
-        "abs_amplitude": 0.0941320084,
-        "raw_amplitude": 0.2086853557,
-        "percent": 17.528783,
-        "raw_percent": 15.284376,
-        "coverage_percent": 17.528783,
-        "member_count": 17,
-        "members": [
-          "cold",
-          "standoffish",
-          "unsocial",
-          "numb",
-          "disinterested",
-          "indifferent",
-          "distant",
-          "insensitive",
-          "dispassionate",
-          "cold-hearted",
-          "frigid",
-          "cold-blooded",
-          "unemotional",
-          "uncaring",
-          "apathetic",
-          "bored",
-          "unconcerned"
-        ],
+        "descriptor": "loyal",
+        "amplitude": 0.4525917099,
+        "abs_amplitude": 0.4525917099,
+        "percent": 39.727514,
+        "weighted_support": 4.24104568,
         "support": 2,
-        "effective_support": 1.353214,
-        "support_factor": 0.451071,
-        "top_characters": [
+        "supporting_characters": [
+          {
+            "character_id": 5408,
+            "name": "Artemis",
+            "anime": "Sailor Moon Crystal",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
+            "site_url": "https://anilist.co/character/5408",
+            "combined_favourites": 217
+          },
           {
             "character_id": 123188,
             "name": "Jiruo",
-            "native_name": "ジルオ",
             "anime": "Made in Abyss",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
             "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.1764798067,
-            "similarity": 1.0,
-            "matched_descriptor": "cold"
-          },
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0322055492,
-            "similarity": 0.900841,
-            "matched_descriptor": "quiet"
+            "combined_favourites": 151
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "quiet / taciturn / untalkative / reticent / +3",
-        "descriptor_index": 6084,
-        "amplitude": 0.0698282952,
-        "abs_amplitude": 0.0698282952,
-        "raw_amplitude": 0.1902577361,
-        "percent": 13.003069,
-        "raw_percent": 13.934715,
-        "coverage_percent": 30.531852,
-        "member_count": 7,
-        "members": [
-          "quiet",
-          "taciturn",
-          "untalkative",
-          "reticent",
-          "unsociable",
-          "mute",
-          "voiceless"
-        ],
-        "support": 2,
-        "effective_support": 1.101058,
-        "support_factor": 0.367019,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.1810842106,
-            "similarity": 1.0,
-            "matched_descriptor": "quiet"
-          },
+        "descriptor": "trustworthy",
+        "amplitude": 0.3346128726,
+        "abs_amplitude": 0.3346128726,
+        "percent": 29.371589,
+        "weighted_support": 2.45435949,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 123188,
             "name": "Jiruo",
-            "native_name": "ジルオ",
             "anime": "Made in Abyss",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
             "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0091735256,
-            "similarity": 0.895106,
-            "matched_descriptor": "cold"
+            "combined_favourites": 151
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "realistic / photographic / aesthetic / clean-cut / +2",
-        "descriptor_index": 6141,
-        "amplitude": 0.0392761958,
-        "abs_amplitude": 0.0392761958,
-        "raw_amplitude": 0.1178285875,
-        "percent": 7.313813,
-        "raw_percent": 8.629913,
-        "coverage_percent": 37.845665,
-        "member_count": 6,
-        "members": [
-          "realistic",
-          "photographic",
-          "aesthetic",
-          "clean-cut",
-          "effeminate",
-          "beautiful"
-        ],
+        "descriptor": "stern",
+        "amplitude": 0.3520353707,
+        "abs_amplitude": 0.3520353707,
+        "percent": 30.900898,
+        "weighted_support": 2.45435949,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.1178285876,
-            "similarity": 1.0,
-            "matched_descriptor": "realistic"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.0384182751,
-        "abs_amplitude": 0.0384182751,
-        "raw_amplitude": 0.0641638955,
-        "percent": 7.154055,
-        "raw_percent": 4.699444,
-        "coverage_percent": 44.99972,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
-        "support": 2,
-        "effective_support": 1.796257,
-        "support_factor": 0.598752,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.042886785,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          },
+        "supporting_characters": [
           {
             "character_id": 123188,
             "name": "Jiruo",
-            "native_name": "ジルオ",
             "anime": "Made in Abyss",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
             "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0212771105,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "stern / stringent",
-        "descriptor_index": 7255,
-        "amplitude": 0.0250260603,
-        "abs_amplitude": 0.0250260603,
-        "raw_amplitude": 0.0482341919,
-        "percent": 4.660225,
-        "raw_percent": 3.532733,
-        "coverage_percent": 49.659946,
-        "member_count": 2,
-        "members": [
-          "stern",
-          "stringent"
-        ],
-        "support": 2,
-        "effective_support": 1.556534,
-        "support_factor": 0.518845,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0369899721,
-            "similarity": 1.0,
-            "matched_descriptor": "stern"
-          },
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0112442197,
-            "similarity": 0.860259,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "aloof / detached / modest / coy",
-        "descriptor_index": 177,
-        "amplitude": 0.021617061,
-        "abs_amplitude": 0.021617061,
-        "raw_amplitude": 0.0430758254,
-        "percent": 4.025419,
-        "raw_percent": 3.154927,
-        "coverage_percent": 53.685365,
-        "member_count": 4,
-        "members": [
-          "aloof",
-          "detached",
-          "modest",
-          "coy"
-        ],
-        "support": 2,
-        "effective_support": 1.505512,
-        "support_factor": 0.501837,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0338814386,
-            "similarity": 0.899186,
-            "matched_descriptor": "quiet"
-          },
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0091943868,
-            "similarity": 0.898099,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "insightful / philosophical / discerning / focused / +1",
-        "descriptor_index": 3919,
-        "amplitude": 0.0160794856,
-        "abs_amplitude": 0.0160794856,
-        "raw_amplitude": 0.0482384569,
-        "percent": 2.99424,
-        "raw_percent": 3.533045,
-        "coverage_percent": 56.679605,
-        "member_count": 5,
-        "members": [
-          "insightful",
-          "philosophical",
-          "discerning",
-          "focused",
-          "aware"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0482384568,
-            "similarity": 1.0,
-            "matched_descriptor": "insightful"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "meek / shy / faint-hearted / wimpy / +2",
-        "descriptor_index": 4713,
-        "amplitude": 0.014404021,
-        "abs_amplitude": 0.014404021,
-        "raw_amplitude": 0.0272534331,
-        "percent": 2.682243,
-        "raw_percent": 1.996076,
-        "coverage_percent": 59.361848,
-        "member_count": 6,
-        "members": [
-          "meek",
-          "shy",
-          "faint-hearted",
-          "wimpy",
-          "unassertive",
-          "passive"
-        ],
-        "support": 2,
-        "effective_support": 1.585564,
-        "support_factor": 0.528521,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0205934318,
-            "similarity": 0.892012,
-            "matched_descriptor": "quiet"
-          },
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0066600014,
-            "similarity": 0.876613,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "sophisticated / cool / pretentious / elegant",
-        "descriptor_index": 7097,
-        "amplitude": 0.0089677494,
-        "abs_amplitude": 0.0089677494,
-        "raw_amplitude": 0.0269032483,
-        "percent": 1.669929,
-        "raw_percent": 1.970428,
-        "coverage_percent": 61.031776,
-        "member_count": 4,
-        "members": [
-          "sophisticated",
-          "cool",
-          "pretentious",
-          "elegant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0269032483,
-            "similarity": 0.893565,
-            "matched_descriptor": "realistic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "informed / wise / well-versed",
-        "descriptor_index": 3881,
-        "amplitude": 0.0085477106,
-        "abs_amplitude": 0.0085477106,
-        "raw_amplitude": 0.0167750781,
-        "percent": 1.591711,
-        "raw_percent": 1.228628,
-        "coverage_percent": 62.623488,
-        "member_count": 3,
-        "members": [
-          "informed",
-          "wise",
-          "well-versed"
-        ],
-        "support": 2,
-        "effective_support": 1.528645,
-        "support_factor": 0.509548,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0130450679,
-            "similarity": 0.862952,
-            "matched_descriptor": "wise actor"
-          },
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0037300101,
-            "similarity": 0.88153,
-            "matched_descriptor": "insightful"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "fashion-forward / fashionable",
-        "descriptor_index": 2458,
-        "amplitude": 0.0080859719,
-        "abs_amplitude": 0.0080859719,
-        "raw_amplitude": 0.0242579158,
-        "percent": 1.505728,
-        "raw_percent": 1.77668,
-        "coverage_percent": 64.129216,
-        "member_count": 2,
-        "members": [
-          "fashion-forward",
-          "fashionable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0242579159,
-            "similarity": 0.899603,
-            "matched_descriptor": "realistic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0070923726,
-        "abs_amplitude": 0.0070923726,
-        "raw_amplitude": 0.0212771179,
-        "percent": 1.320705,
-        "raw_percent": 1.558363,
-        "coverage_percent": 65.449922,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0212771179,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "older / middle-aged / oldest",
-        "descriptor_index": 5296,
-        "amplitude": 0.0068501496,
-        "abs_amplitude": 0.0068501496,
-        "raw_amplitude": 0.0205504487,
-        "percent": 1.2756,
-        "raw_percent": 1.505141,
-        "coverage_percent": 66.725522,
-        "member_count": 3,
-        "members": [
-          "older",
-          "middle-aged",
-          "oldest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0205504486,
-            "similarity": 0.866471,
-            "matched_descriptor": "wise actor"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "traditional / old-fashioned",
-        "descriptor_index": 7937,
-        "amplitude": 0.0067795933,
-        "abs_amplitude": 0.0067795933,
-        "raw_amplitude": 0.02033878,
-        "percent": 1.262461,
-        "raw_percent": 1.489638,
-        "coverage_percent": 67.987983,
-        "member_count": 2,
-        "members": [
-          "traditional",
-          "old-fashioned"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0203387801,
-            "similarity": 0.897372,
-            "matched_descriptor": "realistic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "accomplished / proficient / expert / skilled / +1",
-        "descriptor_index": 40,
-        "amplitude": 0.0059747833,
-        "abs_amplitude": 0.0059747833,
-        "raw_amplitude": 0.0179243499,
-        "percent": 1.112594,
-        "raw_percent": 1.312802,
-        "coverage_percent": 69.100577,
-        "member_count": 5,
-        "members": [
-          "accomplished",
-          "proficient",
-          "expert",
-          "skilled",
-          "skill-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.01792435,
-            "similarity": 0.868528,
-            "matched_descriptor": "wise actor"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "smart / shrewd / astute / brainy / +1",
-        "descriptor_index": 6995,
-        "amplitude": 0.005951804,
-        "abs_amplitude": 0.005951804,
-        "raw_amplitude": 0.017855412,
-        "percent": 1.108315,
-        "raw_percent": 1.307753,
-        "coverage_percent": 70.208891,
-        "member_count": 5,
-        "members": [
-          "smart",
-          "shrewd",
-          "astute",
-          "brainy",
-          "intelligent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.017855412,
-            "similarity": 0.896591,
-            "matched_descriptor": "insightful"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "slothful / listless",
-        "descriptor_index": 6976,
-        "amplitude": 0.005340402,
-        "abs_amplitude": 0.005340402,
-        "raw_amplitude": 0.0117415966,
-        "percent": 0.994462,
-        "raw_percent": 0.859969,
-        "coverage_percent": 71.203354,
-        "member_count": 2,
-        "members": [
-          "slothful",
-          "listless"
-        ],
-        "support": 2,
-        "effective_support": 1.364483,
-        "support_factor": 0.454828,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0098774058,
-            "similarity": 0.871465,
-            "matched_descriptor": "quiet"
-          },
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0018641908,
-            "similarity": 0.868277,
-            "matched_descriptor": "cold"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "dormant",
-        "descriptor_index": 1928,
-        "amplitude": 0.0049271236,
-        "abs_amplitude": 0.0049271236,
-        "raw_amplitude": 0.0147813709,
-        "percent": 0.917504,
-        "raw_percent": 1.082606,
-        "coverage_percent": 72.120857,
-        "member_count": 1,
-        "members": [
-          "dormant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0147813709,
-            "similarity": 0.890128,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "wiser",
-        "descriptor_index": 8584,
-        "amplitude": 0.0049086576,
-        "abs_amplitude": 0.0049086576,
-        "raw_amplitude": 0.0147259728,
-        "percent": 0.914065,
-        "raw_percent": 1.078549,
-        "coverage_percent": 73.034923,
-        "member_count": 1,
-        "members": [
-          "wiser"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0147259728,
-            "similarity": 0.89023,
-            "matched_descriptor": "wise actor"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "sage-like / sage",
-        "descriptor_index": 6442,
-        "amplitude": 0.0048574644,
-        "abs_amplitude": 0.0048574644,
-        "raw_amplitude": 0.0145723933,
-        "percent": 0.904532,
-        "raw_percent": 1.0673,
-        "coverage_percent": 73.939455,
-        "member_count": 2,
-        "members": [
-          "sage-like",
-          "sage"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0145723933,
-            "similarity": 0.877008,
-            "matched_descriptor": "wise actor"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0039646575,
-        "abs_amplitude": 0.0039646575,
-        "raw_amplitude": 0.0118939725,
-        "percent": 0.738278,
-        "raw_percent": 0.871129,
-        "coverage_percent": 74.677733,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0118939726,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "feminine",
-        "descriptor_index": 2505,
-        "amplitude": 0.0038525894,
-        "abs_amplitude": 0.0038525894,
-        "raw_amplitude": 0.0115577681,
-        "percent": 0.71741,
-        "raw_percent": 0.846505,
-        "coverage_percent": 75.395143,
-        "member_count": 1,
-        "members": [
-          "feminine"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0115577681,
-            "similarity": 0.895211,
-            "matched_descriptor": "realistic"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "untouchable",
-        "descriptor_index": 8234,
-        "amplitude": 0.0036205138,
-        "abs_amplitude": 0.0036205138,
-        "raw_amplitude": 0.0057520863,
-        "percent": 0.674194,
-        "raw_percent": 0.42129,
-        "coverage_percent": 76.069336,
-        "member_count": 1,
-        "members": [
-          "untouchable"
-        ],
-        "support": 2,
-        "effective_support": 1.888279,
-        "support_factor": 0.629426,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0035756121,
-            "similarity": 0.884635,
-            "matched_descriptor": "cold"
-          },
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.0021764741,
-            "similarity": 0.840852,
-            "matched_descriptor": "quiet"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "perceptive / watchful",
-        "descriptor_index": 5522,
-        "amplitude": 0.0036014366,
-        "abs_amplitude": 0.0036014366,
-        "raw_amplitude": 0.0108043097,
-        "percent": 0.670641,
-        "raw_percent": 0.791321,
-        "coverage_percent": 76.739978,
-        "member_count": 2,
-        "members": [
-          "perceptive",
-          "watchful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0108043097,
-            "similarity": 0.899221,
-            "matched_descriptor": "insightful"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "inarticulate",
-        "descriptor_index": 3803,
-        "amplitude": 0.0035863616,
-        "abs_amplitude": 0.0035863616,
-        "raw_amplitude": 0.0092691827,
-        "percent": 0.667834,
-        "raw_percent": 0.678887,
-        "coverage_percent": 77.407812,
-        "member_count": 1,
-        "members": [
-          "inarticulate"
-        ],
-        "support": 2,
-        "effective_support": 1.160737,
-        "support_factor": 0.386912,
-        "top_characters": [
-          {
-            "character_id": 85775,
-            "name": "Shun Ibusaki",
-            "native_name": "伊武崎峻",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-            "site_url": "https://anilist.co/character/85775",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 339,
-            "row_weight": 2.61322514,
-            "projection": 0.008575474,
-            "similarity": 0.865867,
-            "matched_descriptor": "quiet"
-          },
-          {
-            "character_id": 123188,
-            "name": "Jiruo",
-            "native_name": "ジルオ",
-            "anime": "Made in Abyss",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
-            "site_url": "https://anilist.co/character/123188",
-            "anime_url": "https://myanimelist.net/anime/34599",
-            "role": "SUPPORTING",
-            "favourites": 132,
-            "row_weight": 2.42700415,
-            "projection": 0.0006937087,
-            "similarity": 0.865853,
-            "matched_descriptor": "cold"
+            "combined_favourites": 151
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "chilling / non-violent / low-energy / easy-going / +12",
-        "descriptor_index": 1103,
-        "amplitude": 0.0255335885,
-        "abs_amplitude": 0.0255335885,
-        "raw_amplitude": 0.0766007656,
-        "percent": 34.182435,
-        "raw_percent": 34.180902,
-        "coverage_percent": 34.182435,
-        "member_count": 16,
-        "members": [
-          "chilling",
-          "non-violent",
-          "low-energy",
-          "easy-going",
-          "soothing",
-          "care-free",
-          "carefree",
-          "mild-mannered",
-          "non-combative",
-          "untroubled",
-          "calmest",
-          "serene",
-          "non-hostile",
-          "tranquil",
-          "calm",
-          "calmer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0766007654,
-            "similarity": 0.965969,
-            "matched_descriptor": "easy going / comforting"
-          }
-        ]
+        "step": 1,
+        "descriptor": "loyal",
+        "weighted_support": 4.24104568,
+        "support": 2,
+        "fit_percent": 89.036358,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "comforting / reassuring / peaceful",
-        "descriptor_index": 1269,
-        "amplitude": 0.0082729686,
-        "abs_amplitude": 0.0082729686,
-        "raw_amplitude": 0.0248189058,
-        "percent": 11.075224,
-        "raw_percent": 11.074727,
-        "coverage_percent": 45.257658,
-        "member_count": 3,
-        "members": [
-          "comforting",
-          "reassuring",
-          "peaceful"
-        ],
+        "step": 2,
+        "descriptor": "trustworthy",
+        "weighted_support": 2.45435949,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0248189058,
-            "similarity": 1.0,
-            "matched_descriptor": "comforting"
-          }
-        ]
+        "fit_percent": 94.429316,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "lazy / lackadaisical / slothful",
-        "descriptor_index": 4232,
-        "amplitude": 0.0073055659,
-        "abs_amplitude": 0.0073055659,
-        "raw_amplitude": 0.0219166978,
-        "percent": 9.780138,
-        "raw_percent": 9.7797,
-        "coverage_percent": 55.037797,
-        "member_count": 3,
-        "members": [
-          "lazy",
-          "lackadaisical",
-          "slothful"
-        ],
+        "step": 3,
+        "descriptor": "stern",
+        "weighted_support": 2.45435949,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0219166978,
-            "similarity": 1.0,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "easygoing / nonchalant / mellow / laid-back",
-        "descriptor_index": 2037,
-        "amplitude": 0.0027102015,
-        "abs_amplitude": 0.0027102015,
-        "raw_amplitude": 0.0081306044,
-        "percent": 3.628212,
-        "raw_percent": 3.62805,
-        "coverage_percent": 58.666009,
-        "member_count": 4,
-        "members": [
-          "easygoing",
-          "nonchalant",
-          "mellow",
-          "laid-back"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0081306043,
-            "similarity": 0.924562,
-            "matched_descriptor": "easy going / comforting"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "even-tempered / cool-headed / level-headed",
-        "descriptor_index": 2229,
-        "amplitude": 0.0026453092,
-        "abs_amplitude": 0.0026453092,
-        "raw_amplitude": 0.0079359277,
-        "percent": 3.54134,
-        "raw_percent": 3.541181,
-        "coverage_percent": 62.207349,
-        "member_count": 3,
-        "members": [
-          "even-tempered",
-          "cool-headed",
-          "level-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0079359277,
-            "similarity": 0.896954,
-            "matched_descriptor": "easy going"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "happy-go-lucky / flighty / permissive",
-        "descriptor_index": 3337,
-        "amplitude": 0.0023829785,
-        "abs_amplitude": 0.0023829785,
-        "raw_amplitude": 0.0071489356,
-        "percent": 3.190151,
-        "raw_percent": 3.190008,
-        "coverage_percent": 65.3975,
-        "member_count": 3,
-        "members": [
-          "happy-go-lucky",
-          "flighty",
-          "permissive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0071489356,
-            "similarity": 0.909464,
-            "matched_descriptor": "easy going"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sleepy / drowsy / somnolent / narcoleptic",
-        "descriptor_index": 6962,
-        "amplitude": 0.0021402784,
-        "abs_amplitude": 0.0021402784,
-        "raw_amplitude": 0.0064208352,
-        "percent": 2.865243,
-        "raw_percent": 2.865114,
-        "coverage_percent": 68.262743,
-        "member_count": 4,
-        "members": [
-          "sleepy",
-          "drowsy",
-          "somnolent",
-          "narcoleptic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0064208352,
-            "similarity": 0.853262,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "exhausted / tired / sleep-deprived",
-        "descriptor_index": 2305,
-        "amplitude": 0.0017832796,
-        "abs_amplitude": 0.0017832796,
-        "raw_amplitude": 0.0053498389,
-        "percent": 2.38732,
-        "raw_percent": 2.387213,
-        "coverage_percent": 70.650062,
-        "member_count": 3,
-        "members": [
-          "exhausted",
-          "tired",
-          "sleep-deprived"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0053498389,
-            "similarity": 0.852585,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unmotivated / unenthusiastic",
-        "descriptor_index": 8188,
-        "amplitude": 0.0017764573,
-        "abs_amplitude": 0.0017764573,
-        "raw_amplitude": 0.0053293718,
-        "percent": 2.378186,
-        "raw_percent": 2.37808,
-        "coverage_percent": 73.028249,
-        "member_count": 2,
-        "members": [
-          "unmotivated",
-          "unenthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0053293719,
-            "similarity": 0.883669,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "dormant / sleeping",
-        "descriptor_index": 1928,
-        "amplitude": 0.0017300491,
-        "abs_amplitude": 0.0017300491,
-        "raw_amplitude": 0.0051901473,
-        "percent": 2.316059,
-        "raw_percent": 2.315955,
-        "coverage_percent": 75.344308,
-        "member_count": 2,
-        "members": [
-          "dormant",
-          "sleeping"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0051901472,
-            "similarity": 0.861544,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "maternal / daughter-focused",
-        "descriptor_index": 4656,
-        "amplitude": 0.0015410268,
-        "abs_amplitude": 0.0015410268,
-        "raw_amplitude": 0.0046230804,
-        "percent": 2.06301,
-        "raw_percent": 2.062917,
-        "coverage_percent": 77.407318,
-        "member_count": 2,
-        "members": [
-          "maternal",
-          "daughter-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0046230804,
-            "similarity": 0.878913,
-            "matched_descriptor": "good father"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "doting",
-        "descriptor_index": 1933,
-        "amplitude": 0.0012800544,
-        "abs_amplitude": 0.0012800544,
-        "raw_amplitude": 0.0038401632,
-        "percent": 1.71364,
-        "raw_percent": 1.713563,
-        "coverage_percent": 79.120957,
-        "member_count": 1,
-        "members": [
-          "doting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0038401632,
-            "similarity": 0.90446,
-            "matched_descriptor": "good father"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "lethargic",
-        "descriptor_index": 4281,
-        "amplitude": 0.0012064232,
-        "abs_amplitude": 0.0012064232,
-        "raw_amplitude": 0.0036192697,
-        "percent": 1.615068,
-        "raw_percent": 1.614996,
-        "coverage_percent": 80.736026,
-        "member_count": 1,
-        "members": [
-          "lethargic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0036192697,
-            "similarity": 0.872497,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "boredom-prone",
-        "descriptor_index": 766,
-        "amplitude": 0.0011902629,
-        "abs_amplitude": 0.0011902629,
-        "raw_amplitude": 0.0035707888,
-        "percent": 1.593434,
-        "raw_percent": 1.593362,
-        "coverage_percent": 82.329459,
-        "member_count": 1,
-        "members": [
-          "boredom-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0035707888,
-            "similarity": 0.871764,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "reluctant / unwilling / hesitant",
-        "descriptor_index": 6221,
-        "amplitude": 0.0011704763,
-        "abs_amplitude": 0.0011704763,
-        "raw_amplitude": 0.0035114289,
-        "percent": 1.566945,
-        "raw_percent": 1.566875,
-        "coverage_percent": 83.896404,
-        "member_count": 3,
-        "members": [
-          "reluctant",
-          "unwilling",
-          "hesitant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0035114289,
-            "similarity": 0.864731,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "comfortable",
-        "descriptor_index": 1266,
-        "amplitude": 0.0010838335,
-        "abs_amplitude": 0.0010838335,
-        "raw_amplitude": 0.0032515005,
-        "percent": 1.450954,
-        "raw_percent": 1.450889,
-        "coverage_percent": 85.347359,
-        "member_count": 1,
-        "members": [
-          "comfortable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0032515005,
-            "similarity": 0.896289,
-            "matched_descriptor": "easy going"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "easy-pleased",
-        "descriptor_index": 2036,
-        "amplitude": 0.0010404433,
-        "abs_amplitude": 0.0010404433,
-        "raw_amplitude": 0.00312133,
-        "percent": 1.392867,
-        "raw_percent": 1.392804,
-        "coverage_percent": 86.740225,
-        "member_count": 1,
-        "members": [
-          "easy-pleased"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.00312133,
-            "similarity": 0.894755,
-            "matched_descriptor": "easy going"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "slacker",
-        "descriptor_index": 6946,
-        "amplitude": 0.0009820177,
-        "abs_amplitude": 0.0009820177,
-        "raw_amplitude": 0.0029460532,
-        "percent": 1.314651,
-        "raw_percent": 1.314592,
-        "coverage_percent": 88.054876,
-        "member_count": 1,
-        "members": [
-          "slacker"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0029460532,
-            "similarity": 0.880937,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "paternal",
-        "descriptor_index": 5489,
-        "amplitude": 0.0009334518,
-        "abs_amplitude": 0.0009334518,
-        "raw_amplitude": 0.0028003554,
-        "percent": 1.249635,
-        "raw_percent": 1.249579,
-        "coverage_percent": 89.304511,
-        "member_count": 1,
-        "members": [
-          "paternal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0028003554,
-            "similarity": 0.874687,
-            "matched_descriptor": "good father"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "casual",
-        "descriptor_index": 975,
-        "amplitude": 0.0009095737,
-        "abs_amplitude": 0.0009095737,
-        "raw_amplitude": 0.0027287211,
-        "percent": 1.217668,
-        "raw_percent": 1.217614,
-        "coverage_percent": 90.522179,
-        "member_count": 1,
-        "members": [
-          "casual"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0027287211,
-            "similarity": 0.895318,
-            "matched_descriptor": "easy going"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "kindhearted / soft / gentle-hearted / good-hearted / +2",
-        "descriptor_index": 4146,
-        "amplitude": 0.0007188365,
-        "abs_amplitude": 0.0007188365,
-        "raw_amplitude": 0.0021565095,
-        "percent": 0.962324,
-        "raw_percent": 0.962281,
-        "coverage_percent": 91.484503,
-        "member_count": 6,
-        "members": [
-          "kindhearted",
-          "soft",
-          "gentle-hearted",
-          "good-hearted",
-          "tender-hearted",
-          "soft-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0021565094,
-            "similarity": 0.886012,
-            "matched_descriptor": "comforting / good father"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "bored",
-        "descriptor_index": 764,
-        "amplitude": 0.0007141154,
-        "abs_amplitude": 0.0007141154,
-        "raw_amplitude": 0.0021423463,
-        "percent": 0.956004,
-        "raw_percent": 0.955961,
-        "coverage_percent": 92.440507,
-        "member_count": 1,
-        "members": [
-          "bored"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0021423463,
-            "similarity": 0.873694,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "listless / unimpressed / boring",
-        "descriptor_index": 4330,
-        "amplitude": 0.0006745673,
-        "abs_amplitude": 0.0006745673,
-        "raw_amplitude": 0.002023702,
-        "percent": 0.90306,
-        "raw_percent": 0.903019,
-        "coverage_percent": 93.343566,
-        "member_count": 3,
-        "members": [
-          "listless",
-          "unimpressed",
-          "boring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.002023702,
-            "similarity": 0.841209,
-            "matched_descriptor": "lazy"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "dispassionate / stoic / numb",
-        "descriptor_index": 1872,
-        "amplitude": 0.0006719297,
-        "abs_amplitude": 0.0006719297,
-        "raw_amplitude": 0.002015789,
-        "percent": 0.899529,
-        "raw_percent": 0.899488,
-        "coverage_percent": 94.243095,
-        "member_count": 3,
-        "members": [
-          "dispassionate",
-          "stoic",
-          "numb"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.002015789,
-            "similarity": 0.877735,
-            "matched_descriptor": "easy going"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "mindful",
-        "descriptor_index": 4826,
-        "amplitude": 0.0006502079,
-        "abs_amplitude": 0.0006502079,
-        "raw_amplitude": 0.0019506238,
-        "percent": 0.870449,
-        "raw_percent": 0.87041,
-        "coverage_percent": 95.113544,
-        "member_count": 1,
-        "members": [
-          "mindful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 5408,
-            "name": "Artemis",
-            "native_name": "アルテミス",
-            "anime": "Sailor Moon Crystal",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
-            "site_url": "https://anilist.co/character/5408",
-            "anime_url": "https://myanimelist.net/anime/14751",
-            "role": "MAIN",
-            "favourites": 214,
-            "row_weight": 1.7847462,
-            "projection": 0.0019506238,
-            "similarity": 0.882239,
-            "matched_descriptor": "comforting"
-          }
-        ]
+        "fit_percent": 98.491075,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 85775,
-        "name": "Shun Ibusaki",
-        "native_name": "伊武崎峻",
-        "anime": "Food Wars!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-        "site_url": "https://anilist.co/character/85775",
-        "anime_url": "https://myanimelist.net/anime/28171",
-        "role": "SUPPORTING",
-        "favourites": 339,
-        "row_weight": 2.61322514,
-        "amplitude": 0.7767126312,
-        "abs_amplitude": 0.7767126312,
-        "percent": 60.328251
-      },
-      {
         "character_id": 123188,
         "name": "Jiruo",
-        "native_name": "ジルオ",
         "anime": "Made in Abyss",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
         "site_url": "https://anilist.co/character/123188",
-        "anime_url": "https://myanimelist.net/anime/34599",
-        "role": "SUPPORTING",
         "favourites": 132,
-        "row_weight": 2.42700415,
-        "amplitude": 0.5886381665,
-        "abs_amplitude": 0.5886381665,
-        "percent": 34.649489
+        "anilist_favourites": 132,
+        "bangumi_collects": 19,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 57752,
+        "bangumi_url": "https://bgm.tv/character/57752",
+        "combined_favourites": 151,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "stern",
+          "trustworthy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.45435949,
+        "row_weight": 2.45435949,
+        "unweighted_row_norm": 2.58608115,
+        "amplitude": 0.8227180107,
+        "abs_amplitude": 0.8227180107,
+        "percent": 67.686493
       },
       {
         "character_id": 5408,
         "name": "Artemis",
-        "native_name": "アルテミス",
         "anime": "Sailor Moon Crystal",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
         "site_url": "https://anilist.co/character/5408",
-        "anime_url": "https://myanimelist.net/anime/14751",
-        "role": "MAIN",
         "favourites": 214,
-        "row_weight": 1.7847462,
-        "amplitude": -0.2241039882,
-        "abs_amplitude": 0.2241039882,
-        "percent": 5.02226
+        "anilist_favourites": 214,
+        "bangumi_collects": 3,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 6705,
+        "bangumi_url": "https://bgm.tv/character/6705",
+        "combined_favourites": 217,
+        "role_edge_count": 2,
+        "descriptors": [
+          "easygoing",
+          "flirtatious",
+          "lazy",
+          "loyal"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.52675584,
+        "row_weight": 1.78668619,
+        "unweighted_row_norm": 3.35686428,
+        "amplitude": 0.5684497118,
+        "abs_amplitude": 0.5684497118,
+        "percent": 32.313507
       }
     ],
     "positive_characters": [
       {
-        "character_id": 85775,
-        "name": "Shun Ibusaki",
-        "native_name": "伊武崎峻",
-        "anime": "Food Wars!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b85775-pDqXEd0DzFkt.png",
-        "site_url": "https://anilist.co/character/85775",
-        "anime_url": "https://myanimelist.net/anime/28171",
-        "role": "SUPPORTING",
-        "favourites": 339,
-        "row_weight": 2.61322514,
-        "amplitude": 0.7767126312,
-        "abs_amplitude": 0.7767126312,
-        "percent": 60.328251
-      },
-      {
         "character_id": 123188,
         "name": "Jiruo",
-        "native_name": "ジルオ",
         "anime": "Made in Abyss",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
         "site_url": "https://anilist.co/character/123188",
-        "anime_url": "https://myanimelist.net/anime/34599",
-        "role": "SUPPORTING",
         "favourites": 132,
-        "row_weight": 2.42700415,
-        "amplitude": 0.5886381665,
-        "abs_amplitude": 0.5886381665,
-        "percent": 34.649489
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 132,
+        "bangumi_collects": 19,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 57752,
+        "bangumi_url": "https://bgm.tv/character/57752",
+        "combined_favourites": 151,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "stern",
+          "trustworthy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.45435949,
+        "row_weight": 2.45435949,
+        "unweighted_row_norm": 2.58608115,
+        "amplitude": 0.8227180107,
+        "abs_amplitude": 0.8227180107,
+        "percent": 67.686493
+      },
       {
         "character_id": 5408,
         "name": "Artemis",
-        "native_name": "アルテミス",
         "anime": "Sailor Moon Crystal",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
         "site_url": "https://anilist.co/character/5408",
-        "anime_url": "https://myanimelist.net/anime/14751",
-        "role": "MAIN",
         "favourites": 214,
-        "row_weight": 1.7847462,
-        "amplitude": -0.2241039882,
-        "abs_amplitude": 0.2241039882,
-        "percent": 5.02226
+        "anilist_favourites": 214,
+        "bangumi_collects": 3,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 6705,
+        "bangumi_url": "https://bgm.tv/character/6705",
+        "combined_favourites": 217,
+        "role_edge_count": 2,
+        "descriptors": [
+          "easygoing",
+          "flirtatious",
+          "lazy",
+          "loyal"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.52675584,
+        "row_weight": 1.78668619,
+        "unweighted_row_norm": 3.35686428,
+        "amplitude": 0.5684497118,
+        "abs_amplitude": 0.5684497118,
+        "percent": 32.313507
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.777581,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 0.7781567503,
+      "mass_percent": 6.570307,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 47.91284,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "easygoing",
+            "amplitude": 0.2493027033,
+            "abs_amplitude": 0.2493027033,
+            "percent": 45.692136
+          },
+          {
+            "rank": 2,
+            "descriptor": "lazy",
+            "amplitude": 0.2039726163,
+            "abs_amplitude": 0.2039726163,
+            "percent": 37.384049
+          },
+          {
+            "rank": 3,
+            "descriptor": "flirtatious",
+            "amplitude": 0.0923387122,
+            "abs_amplitude": 0.0923387122,
+            "percent": 16.923816
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "easygoing",
+            "fit_percent": 44.16225,
+            "residual_gain_percent": 19.503043
+          },
+          {
+            "step": 2,
+            "descriptor": "lazy",
+            "fit_percent": 47.455998,
+            "residual_gain_percent": 3.748806
+          },
+          {
+            "step": 3,
+            "descriptor": "flirtatious",
+            "fit_percent": 47.91284,
+            "residual_gain_percent": 0.562324
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 5408,
+            "name": "Artemis",
+            "anime": "Sailor Moon Crystal",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b5408-eh4f6CArQ8G8.png",
+            "site_url": "https://anilist.co/character/5408",
+            "favourites": 214,
+            "anilist_favourites": 214,
+            "bangumi_collects": 3,
+            "bangumi_comments": 0,
+            "bangumi_character_id": 6705,
+            "bangumi_url": "https://bgm.tv/character/6705",
+            "combined_favourites": 217,
+            "role_edge_count": 2,
+            "descriptors": [
+              "easygoing",
+              "flirtatious",
+              "lazy",
+              "loyal"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.52675584,
+            "row_weight": 1.78668619,
+            "unweighted_row_norm": 3.35686428,
+            "amplitude": 0.8227180107,
+            "abs_amplitude": 0.8227180107,
+            "percent": 67.686493
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 24.637364,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "stern",
+            "amplitude": 0.1511590406,
+            "abs_amplitude": 0.1511590406,
+            "percent": 54.324983
+          },
+          {
+            "rank": 2,
+            "descriptor": "trustworthy",
+            "amplitude": 0.1270905473,
+            "abs_amplitude": 0.1270905473,
+            "percent": 45.675017
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "stern",
+            "fit_percent": 22.293414,
+            "residual_gain_percent": 4.969963
+          },
+          {
+            "step": 2,
+            "descriptor": "trustworthy",
+            "fit_percent": 24.637364,
+            "residual_gain_percent": 1.157565
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 123188,
+            "name": "Jiruo",
+            "anime": "Made in Abyss",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b123188-9yVeXsmPmtAY.png",
+            "site_url": "https://anilist.co/character/123188",
+            "favourites": 132,
+            "anilist_favourites": 132,
+            "bangumi_collects": 19,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 57752,
+            "bangumi_url": "https://bgm.tv/character/57752",
+            "combined_favourites": 151,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal",
+              "stern",
+              "trustworthy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.45435949,
+            "row_weight": 2.45435949,
+            "unweighted_row_norm": 2.58608115,
+            "amplitude": -0.5684497118,
+            "abs_amplitude": 0.5684497118,
+            "percent": 32.313507
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.9343824093,
+      "mass_percent": 93.429693,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 0.7781567503,
+      "mass_percent": 6.570307,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1212 +11,70 @@
     "iizuka mayu",
     "mayu iizuka"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/mayu_iizuka.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.3714698043,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.3714698043,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 137.201444,
-      "normalized_entanglement": 0.357295,
-      "top5_mass_percent": 9.628833,
-      "top10_mass_percent": 16.267331
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.7073457307,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "self-worth conscious / image-conscious",
-        "descriptor_index": 6673,
-        "amplitude": 0.0693130446,
-        "abs_amplitude": 0.0693130446,
-        "raw_amplitude": 0.2079391337,
-        "percent": 20.793913,
-        "raw_percent": 20.793913,
-        "coverage_percent": 20.793913,
-        "member_count": 2,
-        "members": [
-          "self-worth conscious",
-          "image-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.2079391338,
-            "similarity": 1.0,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "descriptor": "self-sacrificing",
-        "descriptor_index": 6668,
-        "amplitude": 0.0479623552,
-        "abs_amplitude": 0.0479623552,
-        "raw_amplitude": 0.1438870656,
-        "percent": 14.388707,
-        "raw_percent": 14.388707,
-        "coverage_percent": 35.18262,
-        "member_count": 1,
-        "members": [
-          "self-sacrificing"
-        ],
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.70734573,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 355726,
             "name": "Teoritta",
-            "native_name": "テオリッタ",
             "anime": "Sentenced to Be a Hero",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
             "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.1438870656,
-            "similarity": 1.0,
-            "matched_descriptor": "self-sacrificing"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "praise-seeking",
-        "descriptor_index": 5814,
-        "amplitude": 0.0479623388,
-        "abs_amplitude": 0.0479623388,
-        "raw_amplitude": 0.1438870165,
-        "percent": 14.388702,
-        "raw_percent": 14.388702,
-        "coverage_percent": 49.571322,
-        "member_count": 1,
-        "members": [
-          "praise-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.1438870165,
-            "similarity": 1.0,
-            "matched_descriptor": "praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sword-wielding",
-        "descriptor_index": 7613,
-        "amplitude": 0.0222605367,
-        "abs_amplitude": 0.0222605367,
-        "raw_amplitude": 0.0667816101,
-        "percent": 6.678161,
-        "raw_percent": 6.678161,
-        "coverage_percent": 56.249483,
-        "member_count": 1,
-        "members": [
-          "sword-wielding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0667816101,
-            "similarity": 0.905201,
-            "matched_descriptor": "sword summoner"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "self-assured / self-loving / self confident / convinced / +1",
-        "descriptor_index": 6611,
-        "amplitude": 0.0215761695,
-        "abs_amplitude": 0.0215761695,
-        "raw_amplitude": 0.0647285084,
-        "percent": 6.472851,
-        "raw_percent": 6.472851,
-        "coverage_percent": 62.722333,
-        "member_count": 5,
-        "members": [
-          "self-assured",
-          "self-loving",
-          "self confident",
-          "convinced",
-          "self-confident"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0647285084,
-            "similarity": 0.882681,
-            "matched_descriptor": "self-worth conscious / praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "selfish / self-serving / self-involved / self-indulgent",
-        "descriptor_index": 6675,
-        "amplitude": 0.0168365521,
-        "abs_amplitude": 0.0168365521,
-        "raw_amplitude": 0.0505096564,
-        "percent": 5.050966,
-        "raw_percent": 5.050966,
-        "coverage_percent": 67.773299,
-        "member_count": 4,
-        "members": [
-          "selfish",
-          "self-serving",
-          "self-involved",
-          "self-indulgent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0505096564,
-            "similarity": 0.859537,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "favor-seeking",
-        "descriptor_index": 2476,
-        "amplitude": 0.0164837384,
-        "abs_amplitude": 0.0164837384,
-        "raw_amplitude": 0.0494512153,
-        "percent": 4.945122,
-        "raw_percent": 4.945122,
-        "coverage_percent": 72.718421,
-        "member_count": 1,
-        "members": [
-          "favor-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0494512153,
-            "similarity": 0.885193,
-            "matched_descriptor": "praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "needy",
-        "descriptor_index": 5078,
-        "amplitude": 0.0137051387,
-        "abs_amplitude": 0.0137051387,
-        "raw_amplitude": 0.041115416,
-        "percent": 4.111542,
-        "raw_percent": 4.111542,
-        "coverage_percent": 76.829962,
-        "member_count": 1,
-        "members": [
-          "needy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.041115416,
-            "similarity": 0.875059,
-            "matched_descriptor": "praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "vain / overconfident / cocky",
-        "descriptor_index": 8270,
-        "amplitude": 0.0134155252,
-        "abs_amplitude": 0.0134155252,
-        "raw_amplitude": 0.0402465756,
-        "percent": 4.024658,
-        "raw_percent": 4.024658,
-        "coverage_percent": 80.85462,
-        "member_count": 3,
-        "members": [
-          "vain",
-          "overconfident",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0402465756,
-            "similarity": 0.878809,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "accepting / receptive / non-judgemental",
-        "descriptor_index": 30,
-        "amplitude": 0.0106844429,
-        "abs_amplitude": 0.0106844429,
-        "raw_amplitude": 0.0320533287,
-        "percent": 3.205333,
-        "raw_percent": 3.205333,
-        "coverage_percent": 84.059953,
-        "member_count": 3,
-        "members": [
-          "accepting",
-          "receptive",
-          "non-judgemental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0320533287,
-            "similarity": 0.87312,
-            "matched_descriptor": "praise-seeking / self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "materialistic",
-        "descriptor_index": 4655,
-        "amplitude": 0.0080186301,
-        "abs_amplitude": 0.0080186301,
-        "raw_amplitude": 0.0240558903,
-        "percent": 2.405589,
-        "raw_percent": 2.405589,
-        "coverage_percent": 86.465542,
-        "member_count": 1,
-        "members": [
-          "materialistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0240558903,
-            "similarity": 0.859246,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "respected",
-        "descriptor_index": 6263,
-        "amplitude": 0.0069388695,
-        "abs_amplitude": 0.0069388695,
-        "raw_amplitude": 0.0208166084,
-        "percent": 2.081661,
-        "raw_percent": 2.081661,
-        "coverage_percent": 88.547202,
-        "member_count": 1,
-        "members": [
-          "respected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0208166084,
-            "similarity": 0.857884,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unselfish",
-        "descriptor_index": 8218,
-        "amplitude": 0.006816935,
-        "abs_amplitude": 0.006816935,
-        "raw_amplitude": 0.0204508051,
-        "percent": 2.045081,
-        "raw_percent": 2.045081,
-        "coverage_percent": 90.592283,
-        "member_count": 1,
-        "members": [
-          "unselfish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0204508051,
-            "similarity": 0.855011,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "opinionated",
-        "descriptor_index": 5336,
-        "amplitude": 0.0065082623,
-        "abs_amplitude": 0.0065082623,
-        "raw_amplitude": 0.019524787,
-        "percent": 1.952479,
-        "raw_percent": 1.952479,
-        "coverage_percent": 92.544762,
-        "member_count": 1,
-        "members": [
-          "opinionated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.019524787,
-            "similarity": 0.867775,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "ego-centric",
-        "descriptor_index": 2066,
-        "amplitude": 0.0058644728,
-        "abs_amplitude": 0.0058644728,
-        "raw_amplitude": 0.0175934185,
-        "percent": 1.759342,
-        "raw_percent": 1.759342,
-        "coverage_percent": 94.304104,
-        "member_count": 1,
-        "members": [
-          "ego-centric"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0175934185,
-            "similarity": 0.85219,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "appearance-conscious / beauty-conscious",
-        "descriptor_index": 304,
-        "amplitude": 0.0051727004,
-        "abs_amplitude": 0.0051727004,
-        "raw_amplitude": 0.0155181012,
-        "percent": 1.55181,
-        "raw_percent": 1.55181,
-        "coverage_percent": 95.855914,
-        "member_count": 2,
-        "members": [
-          "appearance-conscious",
-          "beauty-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0155181013,
-            "similarity": 0.85156,
-            "matched_descriptor": "self-worth conscious / praise-seeking"
+            "combined_favourites": 560
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "self-worth conscious / image-conscious",
-        "descriptor_index": 6673,
-        "amplitude": 0.0693130446,
-        "abs_amplitude": 0.0693130446,
-        "raw_amplitude": 0.2079391337,
-        "percent": 20.793913,
-        "raw_percent": 20.793913,
-        "coverage_percent": 20.793913,
-        "member_count": 2,
-        "members": [
-          "self-worth conscious",
-          "image-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.2079391338,
-            "similarity": 1.0,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 2,
+        "step": 1,
         "descriptor": "self-sacrificing",
-        "descriptor_index": 6668,
-        "amplitude": 0.0479623552,
-        "abs_amplitude": 0.0479623552,
-        "raw_amplitude": 0.1438870656,
-        "percent": 14.388707,
-        "raw_percent": 14.388707,
-        "coverage_percent": 35.18262,
-        "member_count": 1,
-        "members": [
-          "self-sacrificing"
-        ],
+        "weighted_support": 2.70734573,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.1438870656,
-            "similarity": 1.0,
-            "matched_descriptor": "self-sacrificing"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "praise-seeking",
-        "descriptor_index": 5814,
-        "amplitude": 0.0479623388,
-        "abs_amplitude": 0.0479623388,
-        "raw_amplitude": 0.1438870165,
-        "percent": 14.388702,
-        "raw_percent": 14.388702,
-        "coverage_percent": 49.571322,
-        "member_count": 1,
-        "members": [
-          "praise-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.1438870165,
-            "similarity": 1.0,
-            "matched_descriptor": "praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "sword-wielding",
-        "descriptor_index": 7613,
-        "amplitude": 0.0222605367,
-        "abs_amplitude": 0.0222605367,
-        "raw_amplitude": 0.0667816101,
-        "percent": 6.678161,
-        "raw_percent": 6.678161,
-        "coverage_percent": 56.249483,
-        "member_count": 1,
-        "members": [
-          "sword-wielding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0667816101,
-            "similarity": 0.905201,
-            "matched_descriptor": "sword summoner"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "self-assured / self-loving / self confident / convinced / +1",
-        "descriptor_index": 6611,
-        "amplitude": 0.0215761695,
-        "abs_amplitude": 0.0215761695,
-        "raw_amplitude": 0.0647285084,
-        "percent": 6.472851,
-        "raw_percent": 6.472851,
-        "coverage_percent": 62.722333,
-        "member_count": 5,
-        "members": [
-          "self-assured",
-          "self-loving",
-          "self confident",
-          "convinced",
-          "self-confident"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0647285084,
-            "similarity": 0.882681,
-            "matched_descriptor": "self-worth conscious / praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "selfish / self-serving / self-involved / self-indulgent",
-        "descriptor_index": 6675,
-        "amplitude": 0.0168365521,
-        "abs_amplitude": 0.0168365521,
-        "raw_amplitude": 0.0505096564,
-        "percent": 5.050966,
-        "raw_percent": 5.050966,
-        "coverage_percent": 67.773299,
-        "member_count": 4,
-        "members": [
-          "selfish",
-          "self-serving",
-          "self-involved",
-          "self-indulgent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0505096564,
-            "similarity": 0.859537,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "favor-seeking",
-        "descriptor_index": 2476,
-        "amplitude": 0.0164837384,
-        "abs_amplitude": 0.0164837384,
-        "raw_amplitude": 0.0494512153,
-        "percent": 4.945122,
-        "raw_percent": 4.945122,
-        "coverage_percent": 72.718421,
-        "member_count": 1,
-        "members": [
-          "favor-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0494512153,
-            "similarity": 0.885193,
-            "matched_descriptor": "praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "needy",
-        "descriptor_index": 5078,
-        "amplitude": 0.0137051387,
-        "abs_amplitude": 0.0137051387,
-        "raw_amplitude": 0.041115416,
-        "percent": 4.111542,
-        "raw_percent": 4.111542,
-        "coverage_percent": 76.829962,
-        "member_count": 1,
-        "members": [
-          "needy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.041115416,
-            "similarity": 0.875059,
-            "matched_descriptor": "praise-seeking"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "vain / overconfident / cocky",
-        "descriptor_index": 8270,
-        "amplitude": 0.0134155252,
-        "abs_amplitude": 0.0134155252,
-        "raw_amplitude": 0.0402465756,
-        "percent": 4.024658,
-        "raw_percent": 4.024658,
-        "coverage_percent": 80.85462,
-        "member_count": 3,
-        "members": [
-          "vain",
-          "overconfident",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0402465756,
-            "similarity": 0.878809,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "accepting / receptive / non-judgemental",
-        "descriptor_index": 30,
-        "amplitude": 0.0106844429,
-        "abs_amplitude": 0.0106844429,
-        "raw_amplitude": 0.0320533287,
-        "percent": 3.205333,
-        "raw_percent": 3.205333,
-        "coverage_percent": 84.059953,
-        "member_count": 3,
-        "members": [
-          "accepting",
-          "receptive",
-          "non-judgemental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0320533287,
-            "similarity": 0.87312,
-            "matched_descriptor": "praise-seeking / self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "materialistic",
-        "descriptor_index": 4655,
-        "amplitude": 0.0080186301,
-        "abs_amplitude": 0.0080186301,
-        "raw_amplitude": 0.0240558903,
-        "percent": 2.405589,
-        "raw_percent": 2.405589,
-        "coverage_percent": 86.465542,
-        "member_count": 1,
-        "members": [
-          "materialistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0240558903,
-            "similarity": 0.859246,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "respected",
-        "descriptor_index": 6263,
-        "amplitude": 0.0069388695,
-        "abs_amplitude": 0.0069388695,
-        "raw_amplitude": 0.0208166084,
-        "percent": 2.081661,
-        "raw_percent": 2.081661,
-        "coverage_percent": 88.547202,
-        "member_count": 1,
-        "members": [
-          "respected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0208166084,
-            "similarity": 0.857884,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "unselfish",
-        "descriptor_index": 8218,
-        "amplitude": 0.006816935,
-        "abs_amplitude": 0.006816935,
-        "raw_amplitude": 0.0204508051,
-        "percent": 2.045081,
-        "raw_percent": 2.045081,
-        "coverage_percent": 90.592283,
-        "member_count": 1,
-        "members": [
-          "unselfish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0204508051,
-            "similarity": 0.855011,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "opinionated",
-        "descriptor_index": 5336,
-        "amplitude": 0.0065082623,
-        "abs_amplitude": 0.0065082623,
-        "raw_amplitude": 0.019524787,
-        "percent": 1.952479,
-        "raw_percent": 1.952479,
-        "coverage_percent": 92.544762,
-        "member_count": 1,
-        "members": [
-          "opinionated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.019524787,
-            "similarity": 0.867775,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "ego-centric",
-        "descriptor_index": 2066,
-        "amplitude": 0.0058644728,
-        "abs_amplitude": 0.0058644728,
-        "raw_amplitude": 0.0175934185,
-        "percent": 1.759342,
-        "raw_percent": 1.759342,
-        "coverage_percent": 94.304104,
-        "member_count": 1,
-        "members": [
-          "ego-centric"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0175934185,
-            "similarity": 0.85219,
-            "matched_descriptor": "self-worth conscious"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "appearance-conscious / beauty-conscious",
-        "descriptor_index": 304,
-        "amplitude": 0.0051727004,
-        "abs_amplitude": 0.0051727004,
-        "raw_amplitude": 0.0155181012,
-        "percent": 1.55181,
-        "raw_percent": 1.55181,
-        "coverage_percent": 95.855914,
-        "member_count": 2,
-        "members": [
-          "appearance-conscious",
-          "beauty-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 355726,
-            "name": "Teoritta",
-            "native_name": "テオリッタ",
-            "anime": "Sentenced to Be a Hero",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
-            "site_url": "https://anilist.co/character/355726",
-            "anime_url": "https://myanimelist.net/anime/56009",
-            "role": "MAIN",
-            "favourites": 426,
-            "row_weight": 2.65646081,
-            "projection": 0.0155181013,
-            "similarity": 0.85156,
-            "matched_descriptor": "self-worth conscious / praise-seeking"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 355726,
         "name": "Teoritta",
-        "native_name": "テオリッタ",
         "anime": "Sentenced to Be a Hero",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
         "site_url": "https://anilist.co/character/355726",
-        "anime_url": "https://myanimelist.net/anime/56009",
-        "role": "MAIN",
         "favourites": 426,
-        "row_weight": 2.65646081,
+        "anilist_favourites": 426,
+        "bangumi_collects": 134,
+        "bangumi_comments": 66,
+        "bangumi_character_id": 169683,
+        "bangumi_url": "https://bgm.tv/character/169683",
+        "combined_favourites": 560,
+        "role_edge_count": 1,
+        "descriptors": [
+          "self-sacrificing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.70734573,
+        "row_weight": 2.70734573,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1226,19 +84,67 @@
       {
         "character_id": 355726,
         "name": "Teoritta",
-        "native_name": "テオリッタ",
         "anime": "Sentenced to Be a Hero",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b355726-PzgGZOHK5X8v.png",
         "site_url": "https://anilist.co/character/355726",
-        "anime_url": "https://myanimelist.net/anime/56009",
-        "role": "MAIN",
         "favourites": 426,
-        "row_weight": 2.65646081,
+        "anilist_favourites": 426,
+        "bangumi_collects": 134,
+        "bangumi_comments": 66,
+        "bangumi_character_id": 169683,
+        "bangumi_url": "https://bgm.tv/character/169683",
+        "combined_favourites": 560,
+        "role_edge_count": 1,
+        "descriptors": [
+          "self-sacrificing"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.70734573,
+        "row_weight": 2.70734573,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.7073457307,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

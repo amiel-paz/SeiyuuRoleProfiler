@@ -11,766 +11,70 @@
     "ogasawara saki",
     "saki ogasawara"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/saki_ogasawara.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.927247091,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.927247091,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 171.368266,
-      "normalized_entanglement": 0.446272,
-      "top5_mass_percent": 7.376645,
-      "top10_mass_percent": 13.369556
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.6826188935,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "spirited / exuberant / energetic / vivacious / +5",
-        "descriptor_index": 7174,
-        "amplitude": 0.1180724187,
-        "abs_amplitude": 0.1180724187,
-        "raw_amplitude": 0.354217256,
-        "percent": 35.421726,
-        "raw_percent": 35.421726,
-        "coverage_percent": 35.421726,
-        "member_count": 9,
-        "members": [
-          "spirited",
-          "exuberant",
-          "energetic",
-          "vivacious",
-          "enthusiastic",
-          "rambunctious",
-          "feisty",
-          "boisterous",
-          "perky"
-        ],
+        "descriptor": "spirited",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.68261889,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 126064,
             "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
             "anime": "My Hero Academia Season 2",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
             "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.354217256,
-            "similarity": 1.0,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "sunny / cheery / upbeat / cheerful / +12",
-        "descriptor_index": 7484,
-        "amplitude": 0.1073771498,
-        "abs_amplitude": 0.1073771498,
-        "raw_amplitude": 0.3221314493,
-        "percent": 32.213145,
-        "raw_percent": 32.213145,
-        "coverage_percent": 67.634871,
-        "member_count": 16,
-        "members": [
-          "sunny",
-          "cheery",
-          "upbeat",
-          "cheerful",
-          "optimistic",
-          "positive-thinking",
-          "lighthearted",
-          "happiness-experiencing",
-          "proud",
-          "contented",
-          "happy",
-          "sweet-faced",
-          "joyous",
-          "gleeful",
-          "smiling",
-          "cheerful-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.3221314492,
-            "similarity": 0.955023,
-            "matched_descriptor": "cheerful personality / spirited"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "critical",
-        "descriptor_index": 1509,
-        "amplitude": 0.0269293623,
-        "abs_amplitude": 0.0269293623,
-        "raw_amplitude": 0.0807880869,
-        "percent": 8.078809,
-        "raw_percent": 8.078809,
-        "coverage_percent": 75.713679,
-        "member_count": 1,
-        "members": [
-          "critical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0807880869,
-            "similarity": 1.0,
-            "matched_descriptor": "critical"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "soft-side / sweet-natured / friendly-type / mellow / +1",
-        "descriptor_index": 7060,
-        "amplitude": 0.0187252987,
-        "abs_amplitude": 0.0187252987,
-        "raw_amplitude": 0.0561758961,
-        "percent": 5.61759,
-        "raw_percent": 5.61759,
-        "coverage_percent": 81.331269,
-        "member_count": 5,
-        "members": [
-          "soft-side",
-          "sweet-natured",
-          "friendly-type",
-          "mellow",
-          "pleasant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0561758962,
-            "similarity": 0.91737,
-            "matched_descriptor": "cheerful personality"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "hyper-active / vigorous / active / excitable",
-        "descriptor_index": 3661,
-        "amplitude": 0.0143294926,
-        "abs_amplitude": 0.0143294926,
-        "raw_amplitude": 0.0429884777,
-        "percent": 4.298848,
-        "raw_percent": 4.298848,
-        "coverage_percent": 85.630117,
-        "member_count": 4,
-        "members": [
-          "hyper-active",
-          "vigorous",
-          "active",
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0429884776,
-            "similarity": 0.885913,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "fun-loving / giddy / jovial",
-        "descriptor_index": 2857,
-        "amplitude": 0.011237011,
-        "abs_amplitude": 0.011237011,
-        "raw_amplitude": 0.0337110329,
-        "percent": 3.371103,
-        "raw_percent": 3.371103,
-        "coverage_percent": 89.00122,
-        "member_count": 3,
-        "members": [
-          "fun-loving",
-          "giddy",
-          "jovial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0337110329,
-            "similarity": 0.895798,
-            "matched_descriptor": "spirited / cheerful personality"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "charismatic / charming / seductive",
-        "descriptor_index": 1020,
-        "amplitude": 0.0107880201,
-        "abs_amplitude": 0.0107880201,
-        "raw_amplitude": 0.0323640603,
-        "percent": 3.236406,
-        "raw_percent": 3.236406,
-        "coverage_percent": 92.237626,
-        "member_count": 3,
-        "members": [
-          "charismatic",
-          "charming",
-          "seductive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0323640603,
-            "similarity": 0.895999,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fervent / zealous",
-        "descriptor_index": 2512,
-        "amplitude": 0.0068995881,
-        "abs_amplitude": 0.0068995881,
-        "raw_amplitude": 0.0206987644,
-        "percent": 2.069876,
-        "raw_percent": 2.069876,
-        "coverage_percent": 94.307502,
-        "member_count": 2,
-        "members": [
-          "fervent",
-          "zealous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0206987644,
-            "similarity": 0.885508,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "spunky",
-        "descriptor_index": 7195,
-        "amplitude": 0.004603578,
-        "abs_amplitude": 0.004603578,
-        "raw_amplitude": 0.013810734,
-        "percent": 1.381073,
-        "raw_percent": 1.381073,
-        "coverage_percent": 95.688576,
-        "member_count": 1,
-        "members": [
-          "spunky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.013810734,
-            "similarity": 0.887972,
-            "matched_descriptor": "spirited"
+            "combined_favourites": 490
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "spirited / exuberant / energetic / vivacious / +5",
-        "descriptor_index": 7174,
-        "amplitude": 0.1180724187,
-        "abs_amplitude": 0.1180724187,
-        "raw_amplitude": 0.354217256,
-        "percent": 35.421726,
-        "raw_percent": 35.421726,
-        "coverage_percent": 35.421726,
-        "member_count": 9,
-        "members": [
-          "spirited",
-          "exuberant",
-          "energetic",
-          "vivacious",
-          "enthusiastic",
-          "rambunctious",
-          "feisty",
-          "boisterous",
-          "perky"
-        ],
+        "step": 1,
+        "descriptor": "spirited",
+        "weighted_support": 2.68261889,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.354217256,
-            "similarity": 1.0,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "sunny / cheery / upbeat / cheerful / +12",
-        "descriptor_index": 7484,
-        "amplitude": 0.1073771498,
-        "abs_amplitude": 0.1073771498,
-        "raw_amplitude": 0.3221314493,
-        "percent": 32.213145,
-        "raw_percent": 32.213145,
-        "coverage_percent": 67.634871,
-        "member_count": 16,
-        "members": [
-          "sunny",
-          "cheery",
-          "upbeat",
-          "cheerful",
-          "optimistic",
-          "positive-thinking",
-          "lighthearted",
-          "happiness-experiencing",
-          "proud",
-          "contented",
-          "happy",
-          "sweet-faced",
-          "joyous",
-          "gleeful",
-          "smiling",
-          "cheerful-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.3221314492,
-            "similarity": 0.955023,
-            "matched_descriptor": "cheerful personality / spirited"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "critical",
-        "descriptor_index": 1509,
-        "amplitude": 0.0269293623,
-        "abs_amplitude": 0.0269293623,
-        "raw_amplitude": 0.0807880869,
-        "percent": 8.078809,
-        "raw_percent": 8.078809,
-        "coverage_percent": 75.713679,
-        "member_count": 1,
-        "members": [
-          "critical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0807880869,
-            "similarity": 1.0,
-            "matched_descriptor": "critical"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "soft-side / sweet-natured / friendly-type / mellow / +1",
-        "descriptor_index": 7060,
-        "amplitude": 0.0187252987,
-        "abs_amplitude": 0.0187252987,
-        "raw_amplitude": 0.0561758961,
-        "percent": 5.61759,
-        "raw_percent": 5.61759,
-        "coverage_percent": 81.331269,
-        "member_count": 5,
-        "members": [
-          "soft-side",
-          "sweet-natured",
-          "friendly-type",
-          "mellow",
-          "pleasant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0561758962,
-            "similarity": 0.91737,
-            "matched_descriptor": "cheerful personality"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "hyper-active / vigorous / active / excitable",
-        "descriptor_index": 3661,
-        "amplitude": 0.0143294926,
-        "abs_amplitude": 0.0143294926,
-        "raw_amplitude": 0.0429884777,
-        "percent": 4.298848,
-        "raw_percent": 4.298848,
-        "coverage_percent": 85.630117,
-        "member_count": 4,
-        "members": [
-          "hyper-active",
-          "vigorous",
-          "active",
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0429884776,
-            "similarity": 0.885913,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "fun-loving / giddy / jovial",
-        "descriptor_index": 2857,
-        "amplitude": 0.011237011,
-        "abs_amplitude": 0.011237011,
-        "raw_amplitude": 0.0337110329,
-        "percent": 3.371103,
-        "raw_percent": 3.371103,
-        "coverage_percent": 89.00122,
-        "member_count": 3,
-        "members": [
-          "fun-loving",
-          "giddy",
-          "jovial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0337110329,
-            "similarity": 0.895798,
-            "matched_descriptor": "spirited / cheerful personality"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "charismatic / charming / seductive",
-        "descriptor_index": 1020,
-        "amplitude": 0.0107880201,
-        "abs_amplitude": 0.0107880201,
-        "raw_amplitude": 0.0323640603,
-        "percent": 3.236406,
-        "raw_percent": 3.236406,
-        "coverage_percent": 92.237626,
-        "member_count": 3,
-        "members": [
-          "charismatic",
-          "charming",
-          "seductive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0323640603,
-            "similarity": 0.895999,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fervent / zealous",
-        "descriptor_index": 2512,
-        "amplitude": 0.0068995881,
-        "abs_amplitude": 0.0068995881,
-        "raw_amplitude": 0.0206987644,
-        "percent": 2.069876,
-        "raw_percent": 2.069876,
-        "coverage_percent": 94.307502,
-        "member_count": 2,
-        "members": [
-          "fervent",
-          "zealous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.0206987644,
-            "similarity": 0.885508,
-            "matched_descriptor": "spirited"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "spunky",
-        "descriptor_index": 7195,
-        "amplitude": 0.004603578,
-        "abs_amplitude": 0.004603578,
-        "raw_amplitude": 0.013810734,
-        "percent": 1.381073,
-        "raw_percent": 1.381073,
-        "coverage_percent": 95.688576,
-        "member_count": 1,
-        "members": [
-          "spunky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 126064,
-            "name": "Itsuka Kendou",
-            "native_name": "拳藤一佳",
-            "anime": "My Hero Academia Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
-            "site_url": "https://anilist.co/character/126064",
-            "anime_url": "https://myanimelist.net/anime/33486",
-            "role": "SUPPORTING",
-            "favourites": 479,
-            "row_weight": 2.67839245,
-            "projection": 0.013810734,
-            "similarity": 0.887972,
-            "matched_descriptor": "spirited"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 126064,
         "name": "Itsuka Kendou",
-        "native_name": "拳藤一佳",
         "anime": "My Hero Academia Season 2",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
         "site_url": "https://anilist.co/character/126064",
-        "anime_url": "https://myanimelist.net/anime/33486",
-        "role": "SUPPORTING",
         "favourites": 479,
-        "row_weight": 2.67839245,
+        "anilist_favourites": 479,
+        "bangumi_collects": 11,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 32493,
+        "bangumi_url": "https://bgm.tv/character/32493",
+        "combined_favourites": 490,
+        "role_edge_count": 1,
+        "descriptors": [
+          "spirited"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.68261889,
+        "row_weight": 2.68261889,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -780,19 +84,67 @@
       {
         "character_id": 126064,
         "name": "Itsuka Kendou",
-        "native_name": "拳藤一佳",
         "anime": "My Hero Academia Season 2",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b126064-xJCuJjtODlU2.png",
         "site_url": "https://anilist.co/character/126064",
-        "anime_url": "https://myanimelist.net/anime/33486",
-        "role": "SUPPORTING",
         "favourites": 479,
-        "row_weight": 2.67839245,
+        "anilist_favourites": 479,
+        "bangumi_collects": 11,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 32493,
+        "bangumi_url": "https://bgm.tv/character/32493",
+        "combined_favourites": 490,
+        "role_edge_count": 1,
+        "descriptors": [
+          "spirited"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.68261889,
+        "row_weight": 2.68261889,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.6826188935,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

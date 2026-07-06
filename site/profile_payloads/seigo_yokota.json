@@ -11,874 +11,71 @@
     "seigo yokota",
     "yokota seigo"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/seigo_yokota.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.9280661044,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.9280661044,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 333.999787,
-      "normalized_entanglement": 0.869791,
-      "top5_mass_percent": 3.104039,
-      "top10_mass_percent": 5.578931
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "smiling / cheery / cheerful-looking / sunny / +8",
-        "descriptor_index": 7007,
-        "amplitude": 0.1012490334,
-        "abs_amplitude": 0.1012490334,
-        "raw_amplitude": 0.3037471002,
-        "percent": 30.37471,
-        "raw_percent": 30.37471,
-        "coverage_percent": 30.37471,
-        "member_count": 12,
-        "members": [
-          "smiling",
-          "cheery",
-          "cheerful-looking",
-          "sunny",
-          "joyous",
-          "joyful",
-          "happiness-experiencing",
-          "giddy",
-          "happy",
-          "contented",
-          "cheerful",
-          "frequent-smiler"
-        ],
+        "descriptor": "proud",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 73673,
             "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
             "anime": "HAIKYU!!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
             "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.3037471002,
-            "similarity": 0.904983,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "proud / self-confident / suave",
-        "descriptor_index": 5976,
-        "amplitude": 0.0962618853,
-        "abs_amplitude": 0.0962618853,
-        "raw_amplitude": 0.2887856559,
-        "percent": 28.878566,
-        "raw_percent": 28.878566,
-        "coverage_percent": 59.253276,
-        "member_count": 3,
-        "members": [
-          "proud",
-          "self-confident",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.2887856559,
-            "similarity": 1.0,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self confident / self-assured / vain",
-        "descriptor_index": 6606,
-        "amplitude": 0.0379710695,
-        "abs_amplitude": 0.0379710695,
-        "raw_amplitude": 0.1139132084,
-        "percent": 11.391321,
-        "raw_percent": 11.391321,
-        "coverage_percent": 70.644596,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-assured",
-          "vain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.1139132084,
-            "similarity": 0.898831,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "brazen / shameless / unashamed",
-        "descriptor_index": 808,
-        "amplitude": 0.019224933,
-        "abs_amplitude": 0.019224933,
-        "raw_amplitude": 0.0576747989,
-        "percent": 5.76748,
-        "raw_percent": 5.76748,
-        "coverage_percent": 76.412076,
-        "member_count": 3,
-        "members": [
-          "brazen",
-          "shameless",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0576747989,
-            "similarity": 0.875732,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "spirited",
-        "descriptor_index": 7174,
-        "amplitude": 0.0121019894,
-        "abs_amplitude": 0.0121019894,
-        "raw_amplitude": 0.0363059682,
-        "percent": 3.630597,
-        "raw_percent": 3.630597,
-        "coverage_percent": 80.042673,
-        "member_count": 1,
-        "members": [
-          "spirited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0363059682,
-            "similarity": 0.891802,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "brave-faced / bold",
-        "descriptor_index": 807,
-        "amplitude": 0.0116096723,
-        "abs_amplitude": 0.0116096723,
-        "raw_amplitude": 0.034829017,
-        "percent": 3.482902,
-        "raw_percent": 3.482902,
-        "coverage_percent": 83.525575,
-        "member_count": 2,
-        "members": [
-          "brave-faced",
-          "bold"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.034829017,
-            "similarity": 0.879857,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "charismatic / charming",
-        "descriptor_index": 1020,
-        "amplitude": 0.0103493444,
-        "abs_amplitude": 0.0103493444,
-        "raw_amplitude": 0.0310480333,
-        "percent": 3.104803,
-        "raw_percent": 3.104803,
-        "coverage_percent": 86.630378,
-        "member_count": 2,
-        "members": [
-          "charismatic",
-          "charming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0310480333,
-            "similarity": 0.876335,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "pure-hearted",
-        "descriptor_index": 6039,
-        "amplitude": 0.0098892876,
-        "abs_amplitude": 0.0098892876,
-        "raw_amplitude": 0.0296678629,
-        "percent": 2.966786,
-        "raw_percent": 2.966786,
-        "coverage_percent": 89.597164,
-        "member_count": 1,
-        "members": [
-          "pure-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0296678629,
-            "similarity": 0.894987,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "poised",
-        "descriptor_index": 5664,
-        "amplitude": 0.0081889797,
-        "abs_amplitude": 0.0081889797,
-        "raw_amplitude": 0.0245669391,
-        "percent": 2.456694,
-        "raw_percent": 2.456694,
-        "coverage_percent": 92.053858,
-        "member_count": 1,
-        "members": [
-          "poised"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0245669391,
-            "similarity": 0.882844,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "cheeky",
-        "descriptor_index": 1034,
-        "amplitude": 0.0059085001,
-        "abs_amplitude": 0.0059085001,
-        "raw_amplitude": 0.0177255003,
-        "percent": 1.77255,
-        "raw_percent": 1.77255,
-        "coverage_percent": 93.826408,
-        "member_count": 1,
-        "members": [
-          "cheeky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0177255003,
-            "similarity": 0.871989,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "encouraging",
-        "descriptor_index": 2163,
-        "amplitude": 0.0057021932,
-        "abs_amplitude": 0.0057021932,
-        "raw_amplitude": 0.0171065795,
-        "percent": 1.710658,
-        "raw_percent": 1.710658,
-        "coverage_percent": 95.537066,
-        "member_count": 1,
-        "members": [
-          "encouraging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0171065795,
-            "similarity": 0.871507,
-            "matched_descriptor": "proud"
+            "combined_favourites": 125
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "smiling / cheery / cheerful-looking / sunny / +8",
-        "descriptor_index": 7007,
-        "amplitude": 0.1012490334,
-        "abs_amplitude": 0.1012490334,
-        "raw_amplitude": 0.3037471002,
-        "percent": 30.37471,
-        "raw_percent": 30.37471,
-        "coverage_percent": 30.37471,
-        "member_count": 12,
-        "members": [
-          "smiling",
-          "cheery",
-          "cheerful-looking",
-          "sunny",
-          "joyous",
-          "joyful",
-          "happiness-experiencing",
-          "giddy",
-          "happy",
-          "contented",
-          "cheerful",
-          "frequent-smiler"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.3037471002,
-            "similarity": 0.904983,
-            "matched_descriptor": "proud"
-          }
-        ]
+        "step": 1,
+        "descriptor": "proud",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 2,
-        "descriptor": "proud / self-confident / suave",
-        "descriptor_index": 5976,
-        "amplitude": 0.0962618853,
-        "abs_amplitude": 0.0962618853,
-        "raw_amplitude": 0.2887856559,
-        "percent": 28.878566,
-        "raw_percent": 28.878566,
-        "coverage_percent": 59.253276,
-        "member_count": 3,
-        "members": [
-          "proud",
-          "self-confident",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.2887856559,
-            "similarity": 1.0,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self confident / self-assured / vain",
-        "descriptor_index": 6606,
-        "amplitude": 0.0379710695,
-        "abs_amplitude": 0.0379710695,
-        "raw_amplitude": 0.1139132084,
-        "percent": 11.391321,
-        "raw_percent": 11.391321,
-        "coverage_percent": 70.644596,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-assured",
-          "vain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.1139132084,
-            "similarity": 0.898831,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "brazen / shameless / unashamed",
-        "descriptor_index": 808,
-        "amplitude": 0.019224933,
-        "abs_amplitude": 0.019224933,
-        "raw_amplitude": 0.0576747989,
-        "percent": 5.76748,
-        "raw_percent": 5.76748,
-        "coverage_percent": 76.412076,
-        "member_count": 3,
-        "members": [
-          "brazen",
-          "shameless",
-          "unashamed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0576747989,
-            "similarity": 0.875732,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "spirited",
-        "descriptor_index": 7174,
-        "amplitude": 0.0121019894,
-        "abs_amplitude": 0.0121019894,
-        "raw_amplitude": 0.0363059682,
-        "percent": 3.630597,
-        "raw_percent": 3.630597,
-        "coverage_percent": 80.042673,
-        "member_count": 1,
-        "members": [
-          "spirited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0363059682,
-            "similarity": 0.891802,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "brave-faced / bold",
-        "descriptor_index": 807,
-        "amplitude": 0.0116096723,
-        "abs_amplitude": 0.0116096723,
-        "raw_amplitude": 0.034829017,
-        "percent": 3.482902,
-        "raw_percent": 3.482902,
-        "coverage_percent": 83.525575,
-        "member_count": 2,
-        "members": [
-          "brave-faced",
-          "bold"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.034829017,
-            "similarity": 0.879857,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "charismatic / charming",
-        "descriptor_index": 1020,
-        "amplitude": 0.0103493444,
-        "abs_amplitude": 0.0103493444,
-        "raw_amplitude": 0.0310480333,
-        "percent": 3.104803,
-        "raw_percent": 3.104803,
-        "coverage_percent": 86.630378,
-        "member_count": 2,
-        "members": [
-          "charismatic",
-          "charming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0310480333,
-            "similarity": 0.876335,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "pure-hearted",
-        "descriptor_index": 6039,
-        "amplitude": 0.0098892876,
-        "abs_amplitude": 0.0098892876,
-        "raw_amplitude": 0.0296678629,
-        "percent": 2.966786,
-        "raw_percent": 2.966786,
-        "coverage_percent": 89.597164,
-        "member_count": 1,
-        "members": [
-          "pure-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0296678629,
-            "similarity": 0.894987,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "poised",
-        "descriptor_index": 5664,
-        "amplitude": 0.0081889797,
-        "abs_amplitude": 0.0081889797,
-        "raw_amplitude": 0.0245669391,
-        "percent": 2.456694,
-        "raw_percent": 2.456694,
-        "coverage_percent": 92.053858,
-        "member_count": 1,
-        "members": [
-          "poised"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0245669391,
-            "similarity": 0.882844,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "cheeky",
-        "descriptor_index": 1034,
-        "amplitude": 0.0059085001,
-        "abs_amplitude": 0.0059085001,
-        "raw_amplitude": 0.0177255003,
-        "percent": 1.77255,
-        "raw_percent": 1.77255,
-        "coverage_percent": 93.826408,
-        "member_count": 1,
-        "members": [
-          "cheeky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0177255003,
-            "similarity": 0.871989,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "encouraging",
-        "descriptor_index": 2163,
-        "amplitude": 0.0057021932,
-        "abs_amplitude": 0.0057021932,
-        "raw_amplitude": 0.0171065795,
-        "percent": 1.710658,
-        "raw_percent": 1.710658,
-        "coverage_percent": 95.537066,
-        "member_count": 1,
-        "members": [
-          "encouraging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 73673,
-            "name": "Taketora Yamamoto",
-            "native_name": "山本猛虎",
-            "anime": "HAIKYU!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
-            "site_url": "https://anilist.co/character/73673",
-            "anime_url": "https://myanimelist.net/anime/20583",
-            "role": "SUPPORTING",
-            "favourites": 123,
-            "row_weight": 2.41252597,
-            "projection": 0.0171065795,
-            "similarity": 0.871507,
-            "matched_descriptor": "proud"
-          }
-        ]
+        "step": 2,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 73673,
         "name": "Taketora Yamamoto",
-        "native_name": "山本猛虎",
         "anime": "HAIKYU!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
         "site_url": "https://anilist.co/character/73673",
-        "anime_url": "https://myanimelist.net/anime/20583",
-        "role": "SUPPORTING",
         "favourites": 123,
-        "row_weight": 2.41252597,
+        "anilist_favourites": 123,
+        "bangumi_collects": 2,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 37021,
+        "bangumi_url": "https://bgm.tv/character/37021",
+        "combined_favourites": 125,
+        "role_edge_count": 1,
+        "descriptors": [
+          "proud"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -888,19 +85,66 @@
       {
         "character_id": 73673,
         "name": "Taketora Yamamoto",
-        "native_name": "山本猛虎",
         "anime": "HAIKYU!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n73673-SbfcLzHol5y7.jpg",
         "site_url": "https://anilist.co/character/73673",
-        "anime_url": "https://myanimelist.net/anime/20583",
-        "role": "SUPPORTING",
         "favourites": 123,
-        "row_weight": 2.41252597,
+        "anilist_favourites": 123,
+        "bangumi_collects": 2,
+        "bangumi_comments": 0,
+        "bangumi_character_id": 37021,
+        "bangumi_url": "https://bgm.tv/character/37021",
+        "combined_favourites": 125,
+        "role_edge_count": 1,
+        "descriptors": [
+          "proud"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 515,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

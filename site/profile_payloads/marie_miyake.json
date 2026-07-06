@@ -5,1219 +5,146 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/12588.jpg",
   "site_url": "https://anilist.co/staff/107588",
   "role_count": 17,
-  "character_count": 2,
+  "character_count": 1,
   "first_year": 2011,
   "aliases": [
     "marie miyake",
     "miyake marie"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/marie_miyake.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.1799084058,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.1799084058,
-        "mass_percent": 87.486743
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.7153946329,
-        "mass_percent": 12.513257
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 326.878743,
-      "normalized_entanglement": 0.851247,
-      "top5_mass_percent": 3.085066,
-      "top10_mass_percent": 5.713154
-    },
-    "character_participation": {
-      "effective_count": 1.036031,
-      "normalized_entanglement": 0.518015,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.999037,
-      "semantic_spread": 1.999037,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.84481,
-      "direction_spread": 0.84481,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 87.486743,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4734578655,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "uncertain / unsure / suspicious / indecisive / +3",
-        "descriptor_index": 8071,
-        "amplitude": 0.225609284,
-        "abs_amplitude": 0.225609284,
-        "raw_amplitude": 0.6768278519,
-        "percent": 60.207823,
-        "raw_percent": 60.207502,
-        "coverage_percent": 60.207823,
-        "member_count": 7,
-        "members": [
-          "uncertain",
-          "unsure",
-          "suspicious",
-          "indecisive",
-          "skeptical",
-          "doubtful",
-          "cautious"
-        ],
+        "descriptor": "persistent",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.47345787,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.6768278519,
-            "similarity": 1.0,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "mistrustful",
-        "descriptor_index": 4868,
-        "amplitude": 0.0174288717,
-        "abs_amplitude": 0.0174288717,
-        "raw_amplitude": 0.0522866151,
-        "percent": 4.651202,
-        "raw_percent": 4.651178,
-        "coverage_percent": 64.859026,
-        "member_count": 1,
-        "members": [
-          "mistrustful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0522866151,
-            "similarity": 0.890498,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unbelieving / doubting / disbelieving",
-        "descriptor_index": 8065,
-        "amplitude": 0.014877087,
-        "abs_amplitude": 0.014877087,
-        "raw_amplitude": 0.044631261,
-        "percent": 3.970214,
-        "raw_percent": 3.970192,
-        "coverage_percent": 68.829239,
-        "member_count": 3,
-        "members": [
-          "unbelieving",
-          "doubting",
-          "disbelieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.044631261,
-            "similarity": 0.83503,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "nice / beautiful / cool / clean-cut / +3",
-        "descriptor_index": 5126,
-        "amplitude": 0.0137604886,
-        "abs_amplitude": 0.0137604886,
-        "raw_amplitude": 0.0412814659,
-        "percent": 3.67223,
-        "raw_percent": 3.67221,
-        "coverage_percent": 72.501469,
-        "member_count": 7,
-        "members": [
-          "nice",
-          "beautiful",
-          "cool",
-          "clean-cut",
-          "good-looking",
-          "adorable",
-          "sweet-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 120774,
             "name": "Nana Abe",
-            "native_name": "安部菜々",
             "anime": "THE IDOLM@STER CINDERELLA GIRLS",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
             "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0412814659,
-            "similarity": 1.0,
-            "matched_descriptor": "nice"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unintentional / accidental",
-        "descriptor_index": 8152,
-        "amplitude": 0.013242461,
-        "abs_amplitude": 0.013242461,
-        "raw_amplitude": 0.039727383,
-        "percent": 3.533985,
-        "raw_percent": 3.533966,
-        "coverage_percent": 76.035454,
-        "member_count": 2,
-        "members": [
-          "unintentional",
-          "accidental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.039727383,
-            "similarity": 0.838789,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "clueless",
-        "descriptor_index": 1202,
-        "amplitude": 0.0122364337,
-        "abs_amplitude": 0.0122364337,
-        "raw_amplitude": 0.036709301,
-        "percent": 3.265509,
-        "raw_percent": 3.265491,
-        "coverage_percent": 79.300962,
-        "member_count": 1,
-        "members": [
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.036709301,
-            "similarity": 0.858836,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "confused",
-        "descriptor_index": 1369,
-        "amplitude": 0.0116086067,
-        "abs_amplitude": 0.0116086067,
-        "raw_amplitude": 0.0348258202,
-        "percent": 3.097962,
-        "raw_percent": 3.097945,
-        "coverage_percent": 82.398924,
-        "member_count": 1,
-        "members": [
-          "confused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0348258202,
-            "similarity": 0.875024,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0088786031,
-        "abs_amplitude": 0.0088786031,
-        "raw_amplitude": 0.0266358094,
-        "percent": 2.369412,
-        "raw_percent": 2.369399,
-        "coverage_percent": 84.768336,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0266358094,
-            "similarity": 1.0,
-            "matched_descriptor": "hardworking"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "misguided",
-        "descriptor_index": 4852,
-        "amplitude": 0.0080285671,
-        "abs_amplitude": 0.0080285671,
-        "raw_amplitude": 0.0240857014,
-        "percent": 2.142565,
-        "raw_percent": 2.142554,
-        "coverage_percent": 86.910901,
-        "member_count": 1,
-        "members": [
-          "misguided"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0240857014,
-            "similarity": 0.834741,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "weak-hearted",
-        "descriptor_index": 8488,
-        "amplitude": 0.0069678007,
-        "abs_amplitude": 0.0069678007,
-        "raw_amplitude": 0.0209034022,
-        "percent": 1.859481,
-        "raw_percent": 1.859471,
-        "coverage_percent": 88.770382,
-        "member_count": 1,
-        "members": [
-          "weak-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0209034022,
-            "similarity": 0.86818,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "speculative",
-        "descriptor_index": 7148,
-        "amplitude": 0.0065117889,
-        "abs_amplitude": 0.0065117889,
-        "raw_amplitude": 0.0195353666,
-        "percent": 1.737786,
-        "raw_percent": 1.737777,
-        "coverage_percent": 90.508168,
-        "member_count": 1,
-        "members": [
-          "speculative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0195353666,
-            "similarity": 0.828368,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "uncommitted",
-        "descriptor_index": 8076,
-        "amplitude": 0.0048518121,
-        "abs_amplitude": 0.0048518121,
-        "raw_amplitude": 0.0145554363,
-        "percent": 1.294792,
-        "raw_percent": 1.294785,
-        "coverage_percent": 91.802959,
-        "member_count": 1,
-        "members": [
-          "uncommitted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0145554363,
-            "similarity": 0.821394,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "strong-minded / unyielding / stubborn / strong-willed / +1",
-        "descriptor_index": 7372,
-        "amplitude": 0.004775364,
-        "abs_amplitude": 0.004775364,
-        "raw_amplitude": 0.0143260919,
-        "percent": 1.27439,
-        "raw_percent": 1.274383,
-        "coverage_percent": 93.07735,
-        "member_count": 5,
-        "members": [
-          "strong-minded",
-          "unyielding",
-          "stubborn",
-          "strong-willed",
-          "resolute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0143260919,
-            "similarity": 0.897799,
-            "matched_descriptor": "determined"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "misunderstood",
-        "descriptor_index": 4871,
-        "amplitude": 0.0047432857,
-        "abs_amplitude": 0.0047432857,
-        "raw_amplitude": 0.0142298571,
-        "percent": 1.26583,
-        "raw_percent": 1.265823,
-        "coverage_percent": 94.343179,
-        "member_count": 1,
-        "members": [
-          "misunderstood"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0142298571,
-            "similarity": 0.837986,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "determined",
-        "descriptor_index": 1778,
-        "amplitude": 0.0044393016,
-        "abs_amplitude": 0.0044393016,
-        "raw_amplitude": 0.0133179047,
-        "percent": 1.184706,
-        "raw_percent": 1.1847,
-        "coverage_percent": 95.527885,
-        "member_count": 1,
-        "members": [
-          "determined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0133179047,
-            "similarity": 1.0,
-            "matched_descriptor": "determined"
+            "combined_favourites": 166
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "uncertain / unsure / suspicious / indecisive / +3",
-        "descriptor_index": 8071,
-        "amplitude": 0.225609284,
-        "abs_amplitude": 0.225609284,
-        "raw_amplitude": 0.6768278519,
-        "percent": 60.207823,
-        "raw_percent": 60.207502,
-        "coverage_percent": 60.207823,
-        "member_count": 7,
-        "members": [
-          "uncertain",
-          "unsure",
-          "suspicious",
-          "indecisive",
-          "skeptical",
-          "doubtful",
-          "cautious"
-        ],
+        "step": 1,
+        "descriptor": "persistent",
+        "weighted_support": 2.47345787,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.6768278519,
-            "similarity": 1.0,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "mistrustful",
-        "descriptor_index": 4868,
-        "amplitude": 0.0174288717,
-        "abs_amplitude": 0.0174288717,
-        "raw_amplitude": 0.0522866151,
-        "percent": 4.651202,
-        "raw_percent": 4.651178,
-        "coverage_percent": 64.859026,
-        "member_count": 1,
-        "members": [
-          "mistrustful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0522866151,
-            "similarity": 0.890498,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "unbelieving / doubting / disbelieving",
-        "descriptor_index": 8065,
-        "amplitude": 0.014877087,
-        "abs_amplitude": 0.014877087,
-        "raw_amplitude": 0.044631261,
-        "percent": 3.970214,
-        "raw_percent": 3.970192,
-        "coverage_percent": 68.829239,
-        "member_count": 3,
-        "members": [
-          "unbelieving",
-          "doubting",
-          "disbelieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.044631261,
-            "similarity": 0.83503,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "nice / beautiful / cool / clean-cut / +3",
-        "descriptor_index": 5126,
-        "amplitude": 0.0137604886,
-        "abs_amplitude": 0.0137604886,
-        "raw_amplitude": 0.0412814659,
-        "percent": 3.67223,
-        "raw_percent": 3.67221,
-        "coverage_percent": 72.501469,
-        "member_count": 7,
-        "members": [
-          "nice",
-          "beautiful",
-          "cool",
-          "clean-cut",
-          "good-looking",
-          "adorable",
-          "sweet-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0412814659,
-            "similarity": 1.0,
-            "matched_descriptor": "nice"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unintentional / accidental",
-        "descriptor_index": 8152,
-        "amplitude": 0.013242461,
-        "abs_amplitude": 0.013242461,
-        "raw_amplitude": 0.039727383,
-        "percent": 3.533985,
-        "raw_percent": 3.533966,
-        "coverage_percent": 76.035454,
-        "member_count": 2,
-        "members": [
-          "unintentional",
-          "accidental"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.039727383,
-            "similarity": 0.838789,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "clueless",
-        "descriptor_index": 1202,
-        "amplitude": 0.0122364337,
-        "abs_amplitude": 0.0122364337,
-        "raw_amplitude": 0.036709301,
-        "percent": 3.265509,
-        "raw_percent": 3.265491,
-        "coverage_percent": 79.300962,
-        "member_count": 1,
-        "members": [
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.036709301,
-            "similarity": 0.858836,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "confused",
-        "descriptor_index": 1369,
-        "amplitude": 0.0116086067,
-        "abs_amplitude": 0.0116086067,
-        "raw_amplitude": 0.0348258202,
-        "percent": 3.097962,
-        "raw_percent": 3.097945,
-        "coverage_percent": 82.398924,
-        "member_count": 1,
-        "members": [
-          "confused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0348258202,
-            "similarity": 0.875024,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0088786031,
-        "abs_amplitude": 0.0088786031,
-        "raw_amplitude": 0.0266358094,
-        "percent": 2.369412,
-        "raw_percent": 2.369399,
-        "coverage_percent": 84.768336,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0266358094,
-            "similarity": 1.0,
-            "matched_descriptor": "hardworking"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "misguided",
-        "descriptor_index": 4852,
-        "amplitude": 0.0080285671,
-        "abs_amplitude": 0.0080285671,
-        "raw_amplitude": 0.0240857014,
-        "percent": 2.142565,
-        "raw_percent": 2.142554,
-        "coverage_percent": 86.910901,
-        "member_count": 1,
-        "members": [
-          "misguided"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0240857014,
-            "similarity": 0.834741,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "weak-hearted",
-        "descriptor_index": 8488,
-        "amplitude": 0.0069678007,
-        "abs_amplitude": 0.0069678007,
-        "raw_amplitude": 0.0209034022,
-        "percent": 1.859481,
-        "raw_percent": 1.859471,
-        "coverage_percent": 88.770382,
-        "member_count": 1,
-        "members": [
-          "weak-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0209034022,
-            "similarity": 0.86818,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "speculative",
-        "descriptor_index": 7148,
-        "amplitude": 0.0065117889,
-        "abs_amplitude": 0.0065117889,
-        "raw_amplitude": 0.0195353666,
-        "percent": 1.737786,
-        "raw_percent": 1.737777,
-        "coverage_percent": 90.508168,
-        "member_count": 1,
-        "members": [
-          "speculative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0195353666,
-            "similarity": 0.828368,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "uncommitted",
-        "descriptor_index": 8076,
-        "amplitude": 0.0048518121,
-        "abs_amplitude": 0.0048518121,
-        "raw_amplitude": 0.0145554363,
-        "percent": 1.294792,
-        "raw_percent": 1.294785,
-        "coverage_percent": 91.802959,
-        "member_count": 1,
-        "members": [
-          "uncommitted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0145554363,
-            "similarity": 0.821394,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "strong-minded / unyielding / stubborn / strong-willed / +1",
-        "descriptor_index": 7372,
-        "amplitude": 0.004775364,
-        "abs_amplitude": 0.004775364,
-        "raw_amplitude": 0.0143260919,
-        "percent": 1.27439,
-        "raw_percent": 1.274383,
-        "coverage_percent": 93.07735,
-        "member_count": 5,
-        "members": [
-          "strong-minded",
-          "unyielding",
-          "stubborn",
-          "strong-willed",
-          "resolute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0143260919,
-            "similarity": 0.897799,
-            "matched_descriptor": "determined"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "misunderstood",
-        "descriptor_index": 4871,
-        "amplitude": 0.0047432857,
-        "abs_amplitude": 0.0047432857,
-        "raw_amplitude": 0.0142298571,
-        "percent": 1.26583,
-        "raw_percent": 1.265823,
-        "coverage_percent": 94.343179,
-        "member_count": 1,
-        "members": [
-          "misunderstood"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 53243,
-            "name": "Aki Mikage",
-            "native_name": "御影アキ",
-            "anime": "Silver Spoon",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-            "site_url": "https://anilist.co/character/53243",
-            "anime_url": "https://myanimelist.net/anime/16918",
-            "role": "MAIN",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0142298571,
-            "similarity": 0.837986,
-            "matched_descriptor": "uncertain"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "determined",
-        "descriptor_index": 1778,
-        "amplitude": 0.0044393016,
-        "abs_amplitude": 0.0044393016,
-        "raw_amplitude": 0.0133179047,
-        "percent": 1.184706,
-        "raw_percent": 1.1847,
-        "coverage_percent": 95.527885,
-        "member_count": 1,
-        "members": [
-          "determined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 120774,
-            "name": "Nana Abe",
-            "native_name": "安部菜々",
-            "anime": "THE IDOLM@STER CINDERELLA GIRLS",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
-            "site_url": "https://anilist.co/character/120774",
-            "anime_url": "https://myanimelist.net/anime/30344",
-            "role": "SUPPORTING",
-            "favourites": 108,
-            "row_weight": 2.3856546,
-            "projection": 0.0133179047,
-            "similarity": 1.0,
-            "matched_descriptor": "determined"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 53243,
-        "name": "Aki Mikage",
-        "native_name": "御影アキ",
-        "anime": "Silver Spoon",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-        "site_url": "https://anilist.co/character/53243",
-        "anime_url": "https://myanimelist.net/anime/16918",
-        "role": "MAIN",
-        "favourites": 137,
-        "row_weight": 2.43459518,
-        "amplitude": 0.9911094298,
-        "abs_amplitude": 0.9911094298,
-        "percent": 98.22979
-      },
-      {
         "character_id": 120774,
         "name": "Nana Abe",
-        "native_name": "安部菜々",
         "anime": "THE IDOLM@STER CINDERELLA GIRLS",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
         "site_url": "https://anilist.co/character/120774",
-        "anime_url": "https://myanimelist.net/anime/30344",
-        "role": "SUPPORTING",
         "favourites": 108,
-        "row_weight": 2.3856546,
-        "amplitude": 0.1330492319,
-        "abs_amplitude": 0.1330492319,
-        "percent": 1.77021
+        "anilist_favourites": 108,
+        "bangumi_collects": 58,
+        "bangumi_comments": 29,
+        "bangumi_character_id": 34659,
+        "bangumi_url": "https://bgm.tv/character/34659",
+        "combined_favourites": 166,
+        "role_edge_count": 1,
+        "descriptors": [
+          "persistent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47345787,
+        "row_weight": 2.47345787,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
     "positive_characters": [
       {
-        "character_id": 53243,
-        "name": "Aki Mikage",
-        "native_name": "御影アキ",
-        "anime": "Silver Spoon",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n53243-OwJ1Hv4Gg8wK.png",
-        "site_url": "https://anilist.co/character/53243",
-        "anime_url": "https://myanimelist.net/anime/16918",
-        "role": "MAIN",
-        "favourites": 137,
-        "row_weight": 2.43459518,
-        "amplitude": 0.9911094298,
-        "abs_amplitude": 0.9911094298,
-        "percent": 98.22979
-      },
-      {
         "character_id": 120774,
         "name": "Nana Abe",
-        "native_name": "安部菜々",
         "anime": "THE IDOLM@STER CINDERELLA GIRLS",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b120774-dw3NnSfHcrcP.png",
         "site_url": "https://anilist.co/character/120774",
-        "anime_url": "https://myanimelist.net/anime/30344",
-        "role": "SUPPORTING",
         "favourites": 108,
-        "row_weight": 2.3856546,
-        "amplitude": 0.1330492319,
-        "abs_amplitude": 0.1330492319,
-        "percent": 1.77021
+        "anilist_favourites": 108,
+        "bangumi_collects": 58,
+        "bangumi_comments": 29,
+        "bangumi_character_id": 34659,
+        "bangumi_url": "https://bgm.tv/character/34659",
+        "combined_favourites": 166,
+        "role_edge_count": 1,
+        "descriptors": [
+          "persistent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47345787,
+        "row_weight": 2.47345787,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4734578655,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

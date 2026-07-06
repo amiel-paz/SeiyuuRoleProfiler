@@ -5,1473 +5,417 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n122874-Ay8XWEJ7ljUf.jpg",
   "site_url": "https://anilist.co/staff/122874",
   "role_count": 16,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2018,
   "aliases": [
     "itou kento",
     "kento itou"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/kento_itou.json",
+  "sv1_mass_percent": 87.668386,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 19.7728591396,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 19.7728591396,
-        "mass_percent": 94.648736
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.4015589114,
-        "mass_percent": 2.801121
-      },
-      {
-        "rank": 3,
-        "singular_value": 3.2455947385,
-        "mass_percent": 2.550143
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 213.042063,
-      "normalized_entanglement": 0.554797,
-      "top5_mass_percent": 6.145309,
-      "top10_mass_percent": 11.044079
-    },
-    "character_participation": {
-      "effective_count": 1.050423,
-      "normalized_entanglement": 0.350141,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 4.458279,
-      "semantic_spread": 4.575317,
-      "axis_concentration_percent": 94.949379,
-      "lane_count": 1.221406,
-      "direction_range": 0.920769,
-      "direction_spread": 1.099226,
-      "direction_axis_concentration_percent": 70.166117,
-      "direction_lane_count": 1.83942
-    },
-    "explained_sv_l2_percent": 94.648736,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.2897687602,
+    "mass_percent": 88.348443,
+    "descriptor_fit_percent": 95.323527,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0406020743,
-        "abs_amplitude": 0.0406020743,
-        "raw_amplitude": 0.1218062229,
-        "percent": 11.780363,
-        "raw_percent": 11.942339,
-        "coverage_percent": 11.780363,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "temperamental",
-          "irritable",
-          "semi-aggressive"
-        ],
+        "descriptor": "timid",
+        "amplitude": 0.3167845888,
+        "abs_amplitude": 0.3167845888,
+        "percent": 27.824325,
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 131613,
             "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
             "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
             "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.121806223,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
+            "combined_favourites": 682
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "cautious / mistrustful / indecisive / suspicious / +6",
-        "descriptor_index": 997,
-        "amplitude": 0.033974777,
-        "abs_amplitude": 0.033974777,
-        "raw_amplitude": 0.1019243311,
-        "percent": 9.857506,
-        "raw_percent": 9.993044,
-        "coverage_percent": 21.637869,
-        "member_count": 10,
-        "members": [
-          "cautious",
-          "mistrustful",
-          "indecisive",
-          "suspicious",
-          "wary",
-          "distrustful",
-          "skeptical",
-          "uncertain",
-          "alert",
-          "circumspect"
-        ],
+        "descriptor": "short-tempered",
+        "amplitude": 0.3021978163,
+        "abs_amplitude": 0.3021978163,
+        "percent": 26.543117,
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 131613,
             "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
             "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
             "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.1019243312,
-            "similarity": 1.0,
-            "matched_descriptor": "cautious"
+            "combined_favourites": 682
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "low self-esteem / poor self-esteem / insecure / self-doubting",
-        "descriptor_index": 4435,
-        "amplitude": 0.0181106892,
-        "abs_amplitude": 0.0181106892,
-        "raw_amplitude": 0.0543320676,
-        "percent": 5.25467,
-        "raw_percent": 5.32692,
-        "coverage_percent": 26.892539,
-        "member_count": 4,
-        "members": [
-          "low self-esteem",
-          "poor self-esteem",
-          "insecure",
-          "self-doubting"
-        ],
+        "descriptor": "pessimistic",
+        "amplitude": 0.2631357239,
+        "abs_amplitude": 0.2631357239,
+        "percent": 23.112153,
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 131613,
             "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
             "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
             "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0543320676,
-            "similarity": 1.0,
-            "matched_descriptor": "low self-esteem"
+            "combined_favourites": 682
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "timid / withdrawn / inhibited / introverted / +1",
-        "descriptor_index": 7851,
-        "amplitude": 0.0159502718,
-        "abs_amplitude": 0.0159502718,
-        "raw_amplitude": 0.0478508153,
-        "percent": 4.627842,
-        "raw_percent": 4.691473,
-        "coverage_percent": 31.520381,
-        "member_count": 5,
-        "members": [
-          "timid",
-          "withdrawn",
-          "inhibited",
-          "introverted",
-          "bashful"
-        ],
+        "descriptor": "introverted",
+        "amplitude": 0.2563985581,
+        "abs_amplitude": 0.2563985581,
+        "percent": 22.520404,
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 131613,
             "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
             "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
             "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0478508154,
-            "similarity": 1.0,
-            "matched_descriptor": "timid"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "articulate / talkative / vocal / outspoken / +3",
-        "descriptor_index": 366,
-        "amplitude": 0.0144420839,
-        "abs_amplitude": 0.0144420839,
-        "raw_amplitude": 0.0433262518,
-        "percent": 4.190254,
-        "raw_percent": 4.247868,
-        "coverage_percent": 35.710635,
-        "member_count": 7,
-        "members": [
-          "articulate",
-          "talkative",
-          "vocal",
-          "outspoken",
-          "well-spoken",
-          "communicative",
-          "eloquent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0433262518,
-            "similarity": 0.922392,
-            "matched_descriptor": "mutterer"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "downhearted / depressed / sorrowful / sad / +4",
-        "descriptor_index": 1946,
-        "amplitude": 0.0134130515,
-        "abs_amplitude": 0.0134130515,
-        "raw_amplitude": 0.0402391546,
-        "percent": 3.891688,
-        "raw_percent": 3.945198,
-        "coverage_percent": 39.602323,
-        "member_count": 8,
-        "members": [
-          "downhearted",
-          "depressed",
-          "sorrowful",
-          "sad",
-          "dejected",
-          "upset",
-          "miserable",
-          "despairing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0402391546,
-            "similarity": 0.894495,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "docile / yielding / servile / well-behaved",
-        "descriptor_index": 1900,
-        "amplitude": 0.0125267072,
-        "abs_amplitude": 0.0125267072,
-        "raw_amplitude": 0.0375801215,
-        "percent": 3.634523,
-        "raw_percent": 3.684496,
-        "coverage_percent": 43.236846,
-        "member_count": 4,
-        "members": [
-          "docile",
-          "yielding",
-          "servile",
-          "well-behaved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0375801215,
-            "similarity": 1.0,
-            "matched_descriptor": "docile"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "exhausted / tired / sleep-deprived",
-        "descriptor_index": 2305,
-        "amplitude": 0.0124868308,
-        "abs_amplitude": 0.0124868308,
-        "raw_amplitude": 0.0374604924,
-        "percent": 3.622953,
-        "raw_percent": 3.672767,
-        "coverage_percent": 46.859799,
-        "member_count": 3,
-        "members": [
-          "exhausted",
-          "tired",
-          "sleep-deprived"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0374604925,
-            "similarity": 1.0,
-            "matched_descriptor": "exhausted"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "gloomy / grim / melancholic",
-        "descriptor_index": 3015,
-        "amplitude": 0.011781123,
-        "abs_amplitude": 0.011781123,
-        "raw_amplitude": 0.0353433689,
-        "percent": 3.418197,
-        "raw_percent": 3.465196,
-        "coverage_percent": 50.277996,
-        "member_count": 3,
-        "members": [
-          "gloomy",
-          "grim",
-          "melancholic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0353433689,
-            "similarity": 1.0,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "furious / indignant / berserk / spiteful / +5",
-        "descriptor_index": 2860,
-        "amplitude": 0.0101952724,
-        "abs_amplitude": 0.0101952724,
-        "raw_amplitude": 0.0305858172,
-        "percent": 2.958076,
-        "raw_percent": 2.998748,
-        "coverage_percent": 53.236072,
-        "member_count": 9,
-        "members": [
-          "furious",
-          "indignant",
-          "berserk",
-          "spiteful",
-          "ill-tempered",
-          "mad",
-          "enraged",
-          "angry",
-          "resentful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0305858172,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "skittish / weak-hearted / risk-averse / nervous / +3",
-        "descriptor_index": 6944,
-        "amplitude": 0.0097448794,
-        "abs_amplitude": 0.0097448794,
-        "raw_amplitude": 0.0292346383,
-        "percent": 2.827398,
-        "raw_percent": 2.866274,
-        "coverage_percent": 56.06347,
-        "member_count": 7,
-        "members": [
-          "skittish",
-          "weak-hearted",
-          "risk-averse",
-          "nervous",
-          "anxious",
-          "worried",
-          "horrified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0292346383,
-            "similarity": 0.894024,
-            "matched_descriptor": "cautious"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "laid-back / non-violent / composed / nonchalant / +11",
-        "descriptor_index": 4197,
-        "amplitude": 0.0087929323,
-        "abs_amplitude": 0.0087929323,
-        "raw_amplitude": 0.0173032245,
-        "percent": 2.551198,
-        "raw_percent": 1.696473,
-        "coverage_percent": 58.614668,
-        "member_count": 15,
-        "members": [
-          "laid-back",
-          "non-violent",
-          "composed",
-          "nonchalant",
-          "mellow",
-          "relaxed",
-          "easygoing",
-          "mild-mannered",
-          "tranquil",
-          "peaceful",
-          "easy-going",
-          "mild",
-          "amiable",
-          "care-free",
-          "carefree"
-        ],
-        "support": 2,
-        "effective_support": 1.524502,
-        "support_factor": 0.508167,
-        "top_characters": [
-          {
-            "character_id": 122189,
-            "name": "Hirotaka Nifuji",
-            "native_name": "二藤宏高",
-            "anime": "Wotakoi: Love is Hard for Otaku",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122189-ai5CYyRv1CAH.png",
-            "site_url": "https://anilist.co/character/122189",
-            "anime_url": "https://myanimelist.net/anime/35968",
-            "role": "MAIN",
-            "favourites": 4626,
-            "row_weight": 2.17251743,
-            "projection": 0.0134833963,
-            "similarity": 0.985171,
-            "matched_descriptor": "low tension preference"
-          },
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0038198283,
-            "similarity": 0.889606,
-            "matched_descriptor": "docile / timid"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "pessimistic / cynical",
-        "descriptor_index": 5563,
-        "amplitude": 0.008474774,
-        "abs_amplitude": 0.008474774,
-        "raw_amplitude": 0.0254243221,
-        "percent": 2.458887,
-        "raw_percent": 2.492696,
-        "coverage_percent": 61.073555,
-        "member_count": 2,
-        "members": [
-          "pessimistic",
-          "cynical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0254243221,
-            "similarity": 1.0,
-            "matched_descriptor": "pessimistic"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0070051314,
-        "abs_amplitude": 0.0070051314,
-        "raw_amplitude": 0.0210153942,
-        "percent": 2.032482,
-        "raw_percent": 2.060428,
-        "coverage_percent": 63.106037,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0210153942,
-            "similarity": 0.938187,
-            "matched_descriptor": "hard worker"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "drowsy / sleepy / somnolent / narcoleptic",
-        "descriptor_index": 1985,
-        "amplitude": 0.0061597141,
-        "abs_amplitude": 0.0061597141,
-        "raw_amplitude": 0.0184791422,
-        "percent": 1.787191,
-        "raw_percent": 1.811764,
-        "coverage_percent": 64.893228,
-        "member_count": 4,
-        "members": [
-          "drowsy",
-          "sleepy",
-          "somnolent",
-          "narcoleptic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0184791422,
-            "similarity": 0.87896,
-            "matched_descriptor": "exhausted"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "shy / demure / reticent / taciturn / +4",
-        "descriptor_index": 6837,
-        "amplitude": 0.0059090128,
-        "abs_amplitude": 0.0059090128,
-        "raw_amplitude": 0.0177270385,
-        "percent": 1.714452,
-        "raw_percent": 1.738025,
-        "coverage_percent": 66.60768,
-        "member_count": 8,
-        "members": [
-          "shy",
-          "demure",
-          "reticent",
-          "taciturn",
-          "faint-hearted",
-          "discreet",
-          "coy",
-          "modest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0177270385,
-            "similarity": 0.899131,
-            "matched_descriptor": "timid / mutterer / docile"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "unsure / doubtful",
-        "descriptor_index": 8230,
-        "amplitude": 0.0046375504,
-        "abs_amplitude": 0.0046375504,
-        "raw_amplitude": 0.0139126512,
-        "percent": 1.345548,
-        "raw_percent": 1.364049,
-        "coverage_percent": 67.953228,
-        "member_count": 2,
-        "members": [
-          "unsure",
-          "doubtful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0139126512,
-            "similarity": 0.89932,
-            "matched_descriptor": "cautious"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "disbelieving / unbelieving / doubting",
-        "descriptor_index": 1834,
-        "amplitude": 0.0045482373,
-        "abs_amplitude": 0.0045482373,
-        "raw_amplitude": 0.0136447119,
-        "percent": 1.319634,
-        "raw_percent": 1.337779,
-        "coverage_percent": 69.272862,
-        "member_count": 3,
-        "members": [
-          "disbelieving",
-          "unbelieving",
-          "doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0136447119,
-            "similarity": 0.877126,
-            "matched_descriptor": "cynic"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "cranky / bad-tempered / grumpy / aggravated",
-        "descriptor_index": 1483,
-        "amplitude": 0.004274604,
-        "abs_amplitude": 0.004274604,
-        "raw_amplitude": 0.0128238119,
-        "percent": 1.240242,
-        "raw_percent": 1.257295,
-        "coverage_percent": 70.513104,
-        "member_count": 4,
-        "members": [
-          "cranky",
-          "bad-tempered",
-          "grumpy",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0128238118,
-            "similarity": 0.89975,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "loud-voiced / loud",
-        "descriptor_index": 4407,
-        "amplitude": 0.003295681,
-        "abs_amplitude": 0.003295681,
-        "raw_amplitude": 0.0098870431,
-        "percent": 0.956215,
-        "raw_percent": 0.969363,
-        "coverage_percent": 71.469319,
-        "member_count": 2,
-        "members": [
-          "loud-voiced",
-          "loud"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0098870431,
-            "similarity": 0.89919,
-            "matched_descriptor": "mutterer"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "good-natured / kind-hearted / good / amicable / +2",
-        "descriptor_index": 3108,
-        "amplitude": 0.0031794977,
-        "abs_amplitude": 0.0031794977,
-        "raw_amplitude": 0.007608502,
-        "percent": 0.922506,
-        "raw_percent": 0.745966,
-        "coverage_percent": 72.391825,
-        "member_count": 6,
-        "members": [
-          "good-natured",
-          "kind-hearted",
-          "good",
-          "amicable",
-          "non-hostile",
-          "soft"
-        ],
-        "support": 2,
-        "effective_support": 1.253662,
-        "support_factor": 0.417887,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0067395105,
-            "similarity": 0.894785,
-            "matched_descriptor": "docile"
-          },
-          {
-            "character_id": 122189,
-            "name": "Hirotaka Nifuji",
-            "native_name": "二藤宏高",
-            "anime": "Wotakoi: Love is Hard for Otaku",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122189-ai5CYyRv1CAH.png",
-            "site_url": "https://anilist.co/character/122189",
-            "anime_url": "https://myanimelist.net/anime/35968",
-            "role": "MAIN",
-            "favourites": 4626,
-            "row_weight": 2.17251743,
-            "projection": 0.0008689915,
-            "similarity": 0.913292,
-            "matched_descriptor": "low tension preference"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "stress-prone / cry-prone / pressure-susceptible",
-        "descriptor_index": 7317,
-        "amplitude": 0.0030900363,
-        "abs_amplitude": 0.0030900363,
-        "raw_amplitude": 0.0092701088,
-        "percent": 0.896549,
-        "raw_percent": 0.908876,
-        "coverage_percent": 73.288374,
-        "member_count": 3,
-        "members": [
-          "stress-prone",
-          "cry-prone",
-          "pressure-susceptible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0092701088,
-            "similarity": 0.891274,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "dormant / sleeping",
-        "descriptor_index": 1928,
-        "amplitude": 0.0030667677,
-        "abs_amplitude": 0.0030667677,
-        "raw_amplitude": 0.0092003031,
-        "percent": 0.889798,
-        "raw_percent": 0.902032,
-        "coverage_percent": 74.178172,
-        "member_count": 2,
-        "members": [
-          "dormant",
-          "sleeping"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0092003031,
-            "similarity": 0.862649,
-            "matched_descriptor": "exhausted"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "passive / meek",
-        "descriptor_index": 5484,
-        "amplitude": 0.0028722351,
-        "abs_amplitude": 0.0028722351,
-        "raw_amplitude": 0.0086167053,
-        "percent": 0.833356,
-        "raw_percent": 0.844814,
-        "coverage_percent": 75.011527,
-        "member_count": 2,
-        "members": [
-          "passive",
-          "meek"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0086167053,
-            "similarity": 0.899217,
-            "matched_descriptor": "docile"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "remorseful / guilt-ridden / regretful",
-        "descriptor_index": 6229,
-        "amplitude": 0.0027002656,
-        "abs_amplitude": 0.0027002656,
-        "raw_amplitude": 0.0081007967,
-        "percent": 0.78346,
-        "raw_percent": 0.794232,
-        "coverage_percent": 75.794987,
-        "member_count": 3,
-        "members": [
-          "remorseful",
-          "guilt-ridden",
-          "regretful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 131613,
-            "name": "Doppo Kannonzaka",
-            "native_name": "観音坂独歩",
-            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
-            "site_url": "https://anilist.co/character/131613",
-            "anime_url": "https://myanimelist.net/anime/40803",
-            "role": "MAIN",
-            "favourites": 662,
-            "row_weight": 2.73802392,
-            "projection": 0.0081007967,
-            "similarity": 0.885856,
-            "matched_descriptor": "low self-esteem"
+            "combined_favourites": 682
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.0310708747,
-        "abs_amplitude": 0.0310708747,
-        "raw_amplitude": 0.0932126241,
-        "percent": 60.758339,
-        "raw_percent": 60.758339,
-        "coverage_percent": 60.758339,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
+        "step": 1,
+        "descriptor": "timid",
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0932126242,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "fit_percent": 79.668966,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "silent / voiceless / mute",
-        "descriptor_index": 6854,
-        "amplitude": 0.0096695896,
-        "abs_amplitude": 0.0096695896,
-        "raw_amplitude": 0.0290087689,
-        "percent": 18.908647,
-        "raw_percent": 18.908647,
-        "coverage_percent": 79.666987,
-        "member_count": 3,
-        "members": [
-          "silent",
-          "voiceless",
-          "mute"
-        ],
+        "step": 2,
+        "descriptor": "short-tempered",
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0290087689,
-            "similarity": 1.0,
-            "matched_descriptor": "silent"
-          }
-        ]
+        "fit_percent": 90.299642,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "non-combative / pacifistic / calmer",
-        "descriptor_index": 5176,
-        "amplitude": 0.0023769665,
-        "abs_amplitude": 0.0023769665,
-        "raw_amplitude": 0.0071308994,
-        "percent": 4.6481,
-        "raw_percent": 4.6481,
-        "coverage_percent": 84.315087,
-        "member_count": 3,
-        "members": [
-          "non-combative",
-          "pacifistic",
-          "calmer"
-        ],
+        "step": 3,
+        "descriptor": "pessimistic",
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0071308994,
-            "similarity": 0.888059,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "fit_percent": 93.443472,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "loud / noisy / tough-talking",
-        "descriptor_index": 4401,
-        "amplitude": 0.0014123292,
-        "abs_amplitude": 0.0014123292,
-        "raw_amplitude": 0.0042369875,
-        "percent": 2.761775,
-        "raw_percent": 2.761775,
-        "coverage_percent": 87.076862,
-        "member_count": 3,
-        "members": [
-          "loud",
-          "noisy",
-          "tough-talking"
-        ],
+        "step": 4,
+        "descriptor": "introverted",
+        "weighted_support": 2.7434458,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0042369875,
-            "similarity": 0.851427,
-            "matched_descriptor": "silent"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "inarticulate",
-        "descriptor_index": 3803,
-        "amplitude": 0.0012735373,
-        "abs_amplitude": 0.0012735373,
-        "raw_amplitude": 0.0038206119,
-        "percent": 2.490371,
-        "raw_percent": 2.490371,
-        "coverage_percent": 89.567233,
-        "member_count": 1,
-        "members": [
-          "inarticulate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0038206119,
-            "similarity": 0.87421,
-            "matched_descriptor": "silent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "pensive",
-        "descriptor_index": 5519,
-        "amplitude": 0.0010795986,
-        "abs_amplitude": 0.0010795986,
-        "raw_amplitude": 0.0032387959,
-        "percent": 2.111129,
-        "raw_percent": 2.111129,
-        "coverage_percent": 91.678362,
-        "member_count": 1,
-        "members": [
-          "pensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0032387959,
-            "similarity": 0.874447,
-            "matched_descriptor": "calm"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "phlegmatic / subdued",
-        "descriptor_index": 5588,
-        "amplitude": 0.0010586597,
-        "abs_amplitude": 0.0010586597,
-        "raw_amplitude": 0.0031759791,
-        "percent": 2.070183,
-        "raw_percent": 2.070183,
-        "coverage_percent": 93.748545,
-        "member_count": 2,
-        "members": [
-          "phlegmatic",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0031759791,
-            "similarity": 0.885912,
-            "matched_descriptor": "calm"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "easy-going",
-        "descriptor_index": 2035,
-        "amplitude": 0.000781357,
-        "abs_amplitude": 0.000781357,
-        "raw_amplitude": 0.0023440709,
-        "percent": 1.527925,
-        "raw_percent": 1.527925,
-        "coverage_percent": 95.27647,
-        "member_count": 1,
-        "members": [
-          "easy-going"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262904,
-            "name": "Toya Aoyagi",
-            "native_name": "青柳冬弥",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-            "site_url": "https://anilist.co/character/262904",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 298,
-            "row_weight": 2.5885215,
-            "projection": 0.0023440709,
-            "similarity": 0.883204,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "fit_percent": 95.323527,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 131613,
         "name": "Doppo Kannonzaka",
-        "native_name": "観音坂独歩",
         "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
         "site_url": "https://anilist.co/character/131613",
-        "anime_url": "https://myanimelist.net/anime/40803",
-        "role": "MAIN",
         "favourites": 662,
-        "row_weight": 2.73802392,
-        "amplitude": 0.9876331127,
-        "abs_amplitude": 0.9876331127,
-        "percent": 97.541917
-      },
-      {
-        "character_id": 262904,
-        "name": "Toya Aoyagi",
-        "native_name": "青柳冬弥",
-        "anime": "Puchi Seka",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-        "site_url": "https://anilist.co/character/262904",
-        "anime_url": "https://myanimelist.net/anime/49939",
-        "role": "MAIN",
-        "favourites": 298,
-        "row_weight": 2.5885215,
-        "amplitude": -0.1534153583,
-        "abs_amplitude": 0.1534153583,
-        "percent": 2.353627
+        "anilist_favourites": 662,
+        "bangumi_collects": 20,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 66012,
+        "bangumi_url": "https://bgm.tv/character/66012",
+        "combined_favourites": 682,
+        "role_edge_count": 1,
+        "descriptors": [
+          "docile",
+          "gloomy",
+          "introverted",
+          "pessimistic",
+          "short-tempered",
+          "timid"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.7434458,
+        "row_weight": 2.7434458,
+        "unweighted_row_norm": 4.88645088,
+        "amplitude": 0.805714916,
+        "abs_amplitude": 0.805714916,
+        "percent": 64.917653
       },
       {
         "character_id": 122189,
         "name": "Hirotaka Nifuji",
-        "native_name": "二藤宏高",
         "anime": "Wotakoi: Love is Hard for Otaku",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122189-ai5CYyRv1CAH.png",
         "site_url": "https://anilist.co/character/122189",
-        "anime_url": "https://myanimelist.net/anime/35968",
-        "role": "MAIN",
         "favourites": 4626,
-        "row_weight": 2.17251743,
-        "amplitude": 0.032319694,
-        "abs_amplitude": 0.032319694,
-        "percent": 0.104456
+        "anilist_favourites": 4626,
+        "bangumi_collects": 33,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 53304,
+        "bangumi_url": "https://bgm.tv/character/53304",
+        "combined_favourites": 4659,
+        "role_edge_count": 2,
+        "descriptors": [
+          "selective"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.07355994,
+        "row_weight": 2.17333508,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5923035321,
+        "abs_amplitude": 0.5923035321,
+        "percent": 35.082347
       }
     ],
     "positive_characters": [
       {
         "character_id": 131613,
         "name": "Doppo Kannonzaka",
-        "native_name": "観音坂独歩",
         "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
         "site_url": "https://anilist.co/character/131613",
-        "anime_url": "https://myanimelist.net/anime/40803",
-        "role": "MAIN",
         "favourites": 662,
-        "row_weight": 2.73802392,
-        "amplitude": 0.9876331127,
-        "abs_amplitude": 0.9876331127,
-        "percent": 97.541917
+        "anilist_favourites": 662,
+        "bangumi_collects": 20,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 66012,
+        "bangumi_url": "https://bgm.tv/character/66012",
+        "combined_favourites": 682,
+        "role_edge_count": 1,
+        "descriptors": [
+          "docile",
+          "gloomy",
+          "introverted",
+          "pessimistic",
+          "short-tempered",
+          "timid"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.7434458,
+        "row_weight": 2.7434458,
+        "unweighted_row_norm": 4.88645088,
+        "amplitude": 0.805714916,
+        "abs_amplitude": 0.805714916,
+        "percent": 64.917653
       },
       {
         "character_id": 122189,
         "name": "Hirotaka Nifuji",
-        "native_name": "二藤宏高",
         "anime": "Wotakoi: Love is Hard for Otaku",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122189-ai5CYyRv1CAH.png",
         "site_url": "https://anilist.co/character/122189",
-        "anime_url": "https://myanimelist.net/anime/35968",
-        "role": "MAIN",
         "favourites": 4626,
-        "row_weight": 2.17251743,
-        "amplitude": 0.032319694,
-        "abs_amplitude": 0.032319694,
-        "percent": 0.104456
+        "anilist_favourites": 4626,
+        "bangumi_collects": 33,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 53304,
+        "bangumi_url": "https://bgm.tv/character/53304",
+        "combined_favourites": 4659,
+        "role_edge_count": 2,
+        "descriptors": [
+          "selective"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.07355994,
+        "row_weight": 2.17333508,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5923035321,
+        "abs_amplitude": 0.5923035321,
+        "percent": 35.082347
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 262904,
-        "name": "Toya Aoyagi",
-        "native_name": "青柳冬弥",
-        "anime": "Puchi Seka",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262904-2PolVvlRDHJ1.png",
-        "site_url": "https://anilist.co/character/262904",
-        "anime_url": "https://myanimelist.net/anime/49939",
-        "role": "MAIN",
-        "favourites": 298,
-        "row_weight": 2.5885215,
-        "amplitude": -0.1534153583,
-        "abs_amplitude": 0.1534153583,
-        "percent": 2.353627
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.836523,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.1946973372,
+      "mass_percent": 11.651557,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 44.290707,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "selective",
+            "amplitude": 0.4429070667,
+            "abs_amplitude": 0.4429070667,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "selective",
+            "fit_percent": 44.290707,
+            "residual_gain_percent": 19.616667
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 122189,
+            "name": "Hirotaka Nifuji",
+            "anime": "Wotakoi: Love is Hard for Otaku",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122189-ai5CYyRv1CAH.png",
+            "site_url": "https://anilist.co/character/122189",
+            "favourites": 4626,
+            "anilist_favourites": 4626,
+            "bangumi_collects": 33,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 53304,
+            "bangumi_url": "https://bgm.tv/character/53304",
+            "combined_favourites": 4659,
+            "role_edge_count": 2,
+            "descriptors": [
+              "selective"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 3.07355994,
+            "row_weight": 2.17333508,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.805714916,
+            "abs_amplitude": 0.805714916,
+            "percent": 64.917653
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 33.826589,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "gloomy",
+            "amplitude": 0.2335967648,
+            "abs_amplitude": 0.2335967648,
+            "percent": 65.798427
+          },
+          {
+            "rank": 2,
+            "descriptor": "pessimistic",
+            "amplitude": 0.1214220019,
+            "abs_amplitude": 0.1214220019,
+            "percent": 34.201573
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "gloomy",
+            "fit_percent": 33.015859,
+            "residual_gain_percent": 10.90047
+          },
+          {
+            "step": 2,
+            "descriptor": "pessimistic",
+            "fit_percent": 33.826589,
+            "residual_gain_percent": 0.608209
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 131613,
+            "name": "Doppo Kannonzaka",
+            "anime": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b131613-L7CcTclCFrpG.png",
+            "site_url": "https://anilist.co/character/131613",
+            "favourites": 662,
+            "anilist_favourites": 662,
+            "bangumi_collects": 20,
+            "bangumi_comments": 3,
+            "bangumi_character_id": 66012,
+            "bangumi_url": "https://bgm.tv/character/66012",
+            "combined_favourites": 682,
+            "role_edge_count": 1,
+            "descriptors": [
+              "docile",
+              "gloomy",
+              "introverted",
+              "pessimistic",
+              "short-tempered",
+              "timid"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.7434458,
+            "row_weight": 2.7434458,
+            "unweighted_row_norm": 4.88645088,
+            "amplitude": -0.5923035321,
+            "abs_amplitude": 0.5923035321,
+            "percent": 35.082347
+          }
+        ]
       }
-    ]
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.2897687602,
+      "mass_percent": 88.348443,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.1946973372,
+      "mass_percent": 11.651557,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

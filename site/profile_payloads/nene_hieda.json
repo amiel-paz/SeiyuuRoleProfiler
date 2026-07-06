@@ -5,2071 +5,390 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n163903-22LPSYo8TEYU.png",
   "site_url": "https://anilist.co/staff/163903",
   "role_count": 20,
-  "character_count": 4,
+  "character_count": 2,
   "first_year": 2020,
   "aliases": [
     "hieda nene",
     "nene hieda"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/nene_hieda.json",
+  "sv1_mass_percent": 90.086446,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 21.0613141039,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 21.0613141039,
-        "mass_percent": 97.343955
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.5620133694,
-        "mass_percent": 1.440459
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.0155638286,
-        "mass_percent": 0.89152
-      },
-      {
-        "rank": 4,
-        "singular_value": 1.2152001231,
-        "mass_percent": 0.324066
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 294.869568,
-      "normalized_entanglement": 0.767889,
-      "top5_mass_percent": 3.972674,
-      "top10_mass_percent": 7.228316
-    },
-    "character_participation": {
-      "effective_count": 1.431478,
-      "normalized_entanglement": 0.357869,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 4.935479,
-      "semantic_spread": 4.974117,
-      "axis_concentration_percent": 98.452484,
-      "lane_count": 1.094037,
-      "direction_range": 0.956236,
-      "direction_spread": 1.014624,
-      "direction_axis_concentration_percent": 88.821891,
-      "direction_lane_count": 1.483768
-    },
-    "explained_sv_l2_percent": 97.343955,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.5968309408,
+    "mass_percent": 92.151526,
+    "descriptor_fit_percent": 96.881367,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +12",
-        "descriptor_index": 944,
-        "amplitude": 0.0325361533,
-        "abs_amplitude": 0.0325361533,
-        "raw_amplitude": 0.0976084598,
-        "percent": 10.730901,
-        "raw_percent": 10.730901,
-        "coverage_percent": 10.730901,
-        "member_count": 16,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "good-humored",
-          "laid-back",
-          "easy-going",
-          "permissive",
-          "flighty",
-          "chilling",
-          "playful",
-          "accommodating",
-          "mild-mannered",
-          "relaxed",
-          "mellow"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "descriptor": "kind",
+        "amplitude": 0.7854967836,
+        "abs_amplitude": 0.7854967836,
+        "percent": 75.321727,
+        "weighted_support": 5.28977569,
+        "support": 2,
+        "supporting_characters": [
           {
             "character_id": 280051,
             "name": "Kamome Kushima",
-            "native_name": "久島鴎",
             "anime": "Summer Pockets",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
             "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0976084599,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
+            "combined_favourites": 934
+          },
+          {
+            "character_id": 161222,
+            "name": "Yuuzu Izumi",
+            "anime": "Bottom-Tier Character Tomozaki",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b161222-N4sFa1qUg5C6.png",
+            "site_url": "https://anilist.co/character/161222",
+            "combined_favourites": 180
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0276539894,
-        "abs_amplitude": 0.0276539894,
-        "raw_amplitude": 0.0829619681,
-        "percent": 9.120692,
-        "raw_percent": 9.120692,
-        "coverage_percent": 19.851593,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.082961968,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0227152305,
-        "abs_amplitude": 0.0227152305,
-        "raw_amplitude": 0.0681456914,
-        "percent": 7.491817,
-        "raw_percent": 7.491817,
-        "coverage_percent": 27.343409,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0681456915,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "outgoing / social / gregarious / extroverted / +1",
-        "descriptor_index": 5383,
-        "amplitude": 0.0169231147,
-        "abs_amplitude": 0.0169231147,
-        "raw_amplitude": 0.0507693441,
-        "percent": 5.581492,
-        "raw_percent": 5.581492,
-        "coverage_percent": 32.924901,
-        "member_count": 5,
-        "members": [
-          "outgoing",
-          "social",
-          "gregarious",
-          "extroverted",
-          "sociable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0507693441,
-            "similarity": 1.0,
-            "matched_descriptor": "outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.0119393908,
-        "abs_amplitude": 0.0119393908,
-        "raw_amplitude": 0.0358181724,
-        "percent": 3.937786,
-        "raw_percent": 3.937786,
-        "coverage_percent": 36.862687,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0358181723,
-            "similarity": 1.0,
-            "matched_descriptor": "mischievous"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "dangerous / vicious / threatening",
-        "descriptor_index": 1581,
-        "amplitude": 0.0098993895,
-        "abs_amplitude": 0.0098993895,
-        "raw_amplitude": 0.0296981685,
-        "percent": 3.264964,
-        "raw_percent": 3.264964,
-        "coverage_percent": 40.127651,
-        "member_count": 3,
-        "members": [
-          "dangerous",
-          "vicious",
-          "threatening"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0296981685,
-            "similarity": 1.0,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0089687109,
-        "abs_amplitude": 0.0089687109,
-        "raw_amplitude": 0.0269061328,
-        "percent": 2.958013,
-        "raw_percent": 2.958013,
-        "coverage_percent": 43.085664,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0269061328,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "secretive / concealing",
-        "descriptor_index": 6580,
-        "amplitude": 0.0077549569,
-        "abs_amplitude": 0.0077549569,
-        "raw_amplitude": 0.0232648706,
-        "percent": 2.557699,
-        "raw_percent": 2.557699,
-        "coverage_percent": 45.643363,
-        "member_count": 2,
-        "members": [
-          "secretive",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0232648706,
-            "similarity": 1.0,
-            "matched_descriptor": "secretive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "refined / clean-cut",
-        "descriptor_index": 6177,
-        "amplitude": 0.0076908695,
-        "abs_amplitude": 0.0076908695,
-        "raw_amplitude": 0.0230726086,
-        "percent": 2.536562,
-        "raw_percent": 2.536562,
-        "coverage_percent": 48.179924,
-        "member_count": 2,
-        "members": [
-          "refined",
-          "clean-cut"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0230726085,
-            "similarity": 1.0,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "horrified / scary / scared / afraid / +3",
-        "descriptor_index": 3573,
-        "amplitude": 0.0057058359,
-        "abs_amplitude": 0.0057058359,
-        "raw_amplitude": 0.0171175076,
-        "percent": 1.881868,
-        "raw_percent": 1.881868,
-        "coverage_percent": 50.061793,
-        "member_count": 7,
-        "members": [
-          "horrified",
-          "scary",
-          "scared",
-          "afraid",
-          "fearful",
-          "frightened",
-          "terrified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0171175077,
-            "similarity": 0.884068,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
         "descriptor": "whimsical",
-        "descriptor_index": 8539,
-        "amplitude": 0.0052209518,
-        "abs_amplitude": 0.0052209518,
-        "raw_amplitude": 0.0156628554,
-        "percent": 1.721947,
-        "raw_percent": 1.721947,
-        "coverage_percent": 51.783739,
-        "member_count": 1,
-        "members": [
-          "whimsical"
-        ],
+        "amplitude": 0.2573587284,
+        "abs_amplitude": 0.2573587284,
+        "percent": 24.678273,
+        "weighted_support": 2.80009759,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 280051,
             "name": "Kamome Kushima",
-            "native_name": "久島鴎",
             "anime": "Summer Pockets",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
             "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0156628554,
-            "similarity": 1.0,
-            "matched_descriptor": "whimsical"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.0052209516,
-        "abs_amplitude": 0.0052209516,
-        "raw_amplitude": 0.0156628547,
-        "percent": 1.721946,
-        "raw_percent": 1.721946,
-        "coverage_percent": 53.505686,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0156628547,
-            "similarity": 1.0,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "low-energy / non-violent / cool-headed / non-hostile / +4",
-        "descriptor_index": 4439,
-        "amplitude": 0.0038934156,
-        "abs_amplitude": 0.0038934156,
-        "raw_amplitude": 0.0116802469,
-        "percent": 1.284106,
-        "raw_percent": 1.284106,
-        "coverage_percent": 54.789791,
-        "member_count": 8,
-        "members": [
-          "low-energy",
-          "non-violent",
-          "cool-headed",
-          "non-hostile",
-          "soothing",
-          "taciturn",
-          "calmest",
-          "calmer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0116802468,
-            "similarity": 0.902036,
-            "matched_descriptor": "carefree / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "good / openhearted / cordial / pleasant / +1",
-        "descriptor_index": 3047,
-        "amplitude": 0.0031744407,
-        "abs_amplitude": 0.0031744407,
-        "raw_amplitude": 0.0095233222,
-        "percent": 1.046977,
-        "raw_percent": 1.046977,
-        "coverage_percent": 55.836769,
-        "member_count": 5,
-        "members": [
-          "good",
-          "openhearted",
-          "cordial",
-          "pleasant",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0095233222,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind / blunt / carefree"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "approachable / amiable / warm / agreeable",
-        "descriptor_index": 316,
-        "amplitude": 0.0031076913,
-        "abs_amplitude": 0.0031076913,
-        "raw_amplitude": 0.0093230739,
-        "percent": 1.024962,
-        "raw_percent": 1.024962,
-        "coverage_percent": 56.861731,
-        "member_count": 4,
-        "members": [
-          "approachable",
-          "amiable",
-          "warm",
-          "agreeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0093230739,
-            "similarity": 0.894787,
-            "matched_descriptor": "outgoing"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0030508469,
-        "abs_amplitude": 0.0030508469,
-        "raw_amplitude": 0.0091525407,
-        "percent": 1.006214,
-        "raw_percent": 1.006214,
-        "coverage_percent": 57.867945,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0091525408,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "intimidating / menacing / ominous",
-        "descriptor_index": 3971,
-        "amplitude": 0.0029958021,
-        "abs_amplitude": 0.0029958021,
-        "raw_amplitude": 0.0089874064,
-        "percent": 0.98806,
-        "raw_percent": 0.98806,
-        "coverage_percent": 58.856004,
-        "member_count": 3,
-        "members": [
-          "intimidating",
-          "menacing",
-          "ominous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0089874063,
-            "similarity": 0.878331,
-            "matched_descriptor": "dangerous"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "intangible / dark",
-        "descriptor_index": 3941,
-        "amplitude": 0.0029716682,
-        "abs_amplitude": 0.0029716682,
-        "raw_amplitude": 0.0089150047,
-        "percent": 0.9801,
-        "raw_percent": 0.9801,
-        "coverage_percent": 59.836104,
-        "member_count": 2,
-        "members": [
-          "intangible",
-          "dark"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0089150047,
-            "similarity": 0.885974,
-            "matched_descriptor": "mysterious"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "idiotic / brainless",
-        "descriptor_index": 3692,
-        "amplitude": 0.0028958592,
-        "abs_amplitude": 0.0028958592,
-        "raw_amplitude": 0.0086875776,
-        "percent": 0.955097,
-        "raw_percent": 0.955097,
-        "coverage_percent": 60.791201,
-        "member_count": 2,
-        "members": [
-          "idiotic",
-          "brainless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0086875776,
-            "similarity": 0.894983,
-            "matched_descriptor": "airhead"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0028664994,
-        "abs_amplitude": 0.0028664994,
-        "raw_amplitude": 0.0085994982,
-        "percent": 0.945414,
-        "raw_percent": 0.945414,
-        "coverage_percent": 61.736615,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0085994983,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "modest / coy / self-effacing / reticent / +2",
-        "descriptor_index": 4896,
-        "amplitude": 0.0028470361,
-        "abs_amplitude": 0.0028470361,
-        "raw_amplitude": 0.0085411082,
-        "percent": 0.938994,
-        "raw_percent": 0.938994,
-        "coverage_percent": 62.675609,
-        "member_count": 6,
-        "members": [
-          "modest",
-          "coy",
-          "self-effacing",
-          "reticent",
-          "aloof",
-          "non-arrogant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0085411083,
-            "similarity": 0.8786,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "straightforward / straight-forward",
-        "descriptor_index": 7284,
-        "amplitude": 0.0026574717,
-        "abs_amplitude": 0.0026574717,
-        "raw_amplitude": 0.007972415,
-        "percent": 0.876473,
-        "raw_percent": 0.876473,
-        "coverage_percent": 63.552082,
-        "member_count": 2,
-        "members": [
-          "straightforward",
-          "straight-forward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0079724149,
-            "similarity": 0.898051,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "plain / simple",
-        "descriptor_index": 5633,
-        "amplitude": 0.0026241653,
-        "abs_amplitude": 0.0026241653,
-        "raw_amplitude": 0.007872496,
-        "percent": 0.865488,
-        "raw_percent": 0.865488,
-        "coverage_percent": 64.41757,
-        "member_count": 2,
-        "members": [
-          "plain",
-          "simple"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.007872496,
-            "similarity": 0.897895,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "elegant / sophisticated",
-        "descriptor_index": 2102,
-        "amplitude": 0.0026169013,
-        "abs_amplitude": 0.0026169013,
-        "raw_amplitude": 0.0078507038,
-        "percent": 0.863092,
-        "raw_percent": 0.863092,
-        "coverage_percent": 65.280663,
-        "member_count": 2,
-        "members": [
-          "elegant",
-          "sophisticated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0078507038,
-            "similarity": 0.892461,
-            "matched_descriptor": "refined"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "impish / devious",
-        "descriptor_index": 3783,
-        "amplitude": 0.0025663333,
-        "abs_amplitude": 0.0025663333,
-        "raw_amplitude": 0.0076989998,
-        "percent": 0.846414,
-        "raw_percent": 0.846414,
-        "coverage_percent": 66.127077,
-        "member_count": 2,
-        "members": [
-          "impish",
-          "devious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280051,
-            "name": "Kamome Kushima",
-            "native_name": "久島鴎",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
-            "site_url": "https://anilist.co/character/280051",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 253,
-            "row_weight": 2.55682113,
-            "projection": 0.0076989998,
-            "similarity": 0.887841,
-            "matched_descriptor": "mischievous"
+            "combined_favourites": 934
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "deadly-aptitude-for-swordfighting / veteran",
-        "descriptor_index": 1611,
-        "amplitude": 0.0760490308,
-        "abs_amplitude": 0.0760490308,
-        "raw_amplitude": 0.2281470925,
-        "percent": 33.62628,
-        "raw_percent": 33.625707,
-        "coverage_percent": 33.62628,
-        "member_count": 2,
-        "members": [
-          "deadly-aptitude-for-swordfighting",
-          "veteran"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 283422,
-            "name": "Amyu",
-            "native_name": "アミュ",
-            "anime": "Saikyou Onmyouji Mini",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b283422-sQeTzokEtyZt.png",
-            "site_url": "https://anilist.co/character/283422",
-            "anime_url": "https://myanimelist.net/anime/54683",
-            "role": "MAIN",
-            "favourites": 115,
-            "row_weight": 2.39866425,
-            "projection": 0.2281470925,
-            "similarity": 0.959376,
-            "matched_descriptor": "sword master"
-          }
-        ]
+        "step": 1,
+        "descriptor": "kind",
+        "weighted_support": 5.28977569,
+        "support": 2,
+        "fit_percent": 94.804438,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "skeptical / doubtful / indecisive / unsure / +5",
-        "descriptor_index": 6902,
-        "amplitude": 0.0448640879,
-        "abs_amplitude": 0.0448640879,
-        "raw_amplitude": 0.1345922638,
-        "percent": 19.837365,
-        "raw_percent": 19.837027,
-        "coverage_percent": 53.463645,
-        "member_count": 9,
-        "members": [
-          "skeptical",
-          "doubtful",
-          "indecisive",
-          "unsure",
-          "uncertain",
-          "suspicious",
-          "cautious",
-          "doubting",
-          "unwilling"
-        ],
+        "step": 2,
+        "descriptor": "whimsical",
+        "weighted_support": 2.80009759,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.1345922638,
-            "similarity": 1.0,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "sword-wielding",
-        "descriptor_index": 7613,
-        "amplitude": 0.0247638011,
-        "abs_amplitude": 0.0247638011,
-        "raw_amplitude": 0.0742914033,
-        "percent": 10.949706,
-        "raw_percent": 10.949519,
-        "coverage_percent": 64.413351,
-        "member_count": 1,
-        "members": [
-          "sword-wielding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 283422,
-            "name": "Amyu",
-            "native_name": "アミュ",
-            "anime": "Saikyou Onmyouji Mini",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b283422-sQeTzokEtyZt.png",
-            "site_url": "https://anilist.co/character/283422",
-            "anime_url": "https://myanimelist.net/anime/54683",
-            "role": "MAIN",
-            "favourites": 115,
-            "row_weight": 2.39866425,
-            "projection": 0.0742914033,
-            "similarity": 0.897359,
-            "matched_descriptor": "sword master"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "friendship-oriented / trusted / trustful / loyal",
-        "descriptor_index": 2833,
-        "amplitude": 0.0115422825,
-        "abs_amplitude": 0.0115422825,
-        "raw_amplitude": 0.0346268476,
-        "percent": 5.103603,
-        "raw_percent": 5.103515,
-        "coverage_percent": 69.516953,
-        "member_count": 4,
-        "members": [
-          "friendship-oriented",
-          "trusted",
-          "trustful",
-          "loyal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0346268477,
-            "similarity": 0.971062,
-            "matched_descriptor": "good friend"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "karate-chopper",
-        "descriptor_index": 4098,
-        "amplitude": 0.0079046074,
-        "abs_amplitude": 0.0079046074,
-        "raw_amplitude": 0.0237138221,
-        "percent": 3.495147,
-        "raw_percent": 3.495087,
-        "coverage_percent": 73.0121,
-        "member_count": 1,
-        "members": [
-          "karate-chopper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 283422,
-            "name": "Amyu",
-            "native_name": "アミュ",
-            "anime": "Saikyou Onmyouji Mini",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b283422-sQeTzokEtyZt.png",
-            "site_url": "https://anilist.co/character/283422",
-            "anime_url": "https://myanimelist.net/anime/54683",
-            "role": "MAIN",
-            "favourites": 115,
-            "row_weight": 2.39866425,
-            "projection": 0.0237138221,
-            "similarity": 0.875026,
-            "matched_descriptor": "sword master"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "disbelieving / unbelieving",
-        "descriptor_index": 1834,
-        "amplitude": 0.0058182078,
-        "abs_amplitude": 0.0058182078,
-        "raw_amplitude": 0.0174546233,
-        "percent": 2.572612,
-        "raw_percent": 2.572569,
-        "coverage_percent": 75.584713,
-        "member_count": 2,
-        "members": [
-          "disbelieving",
-          "unbelieving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0174546233,
-            "similarity": 0.892582,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sharp / focused / glaring / dark-eyed / +1",
-        "descriptor_index": 6766,
-        "amplitude": 0.0053678769,
-        "abs_amplitude": 0.0053678769,
-        "raw_amplitude": 0.0161036308,
-        "percent": 2.373492,
-        "raw_percent": 2.373451,
-        "coverage_percent": 77.958205,
-        "member_count": 5,
-        "members": [
-          "sharp",
-          "focused",
-          "glaring",
-          "dark-eyed",
-          "sharp-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0161036306,
-            "similarity": 0.924346,
-            "matched_descriptor": "cool expression"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "faithful / devoted / committed",
-        "descriptor_index": 2379,
-        "amplitude": 0.004906802,
-        "abs_amplitude": 0.004906802,
-        "raw_amplitude": 0.0147204061,
-        "percent": 2.16962,
-        "raw_percent": 2.169583,
-        "coverage_percent": 80.127825,
-        "member_count": 3,
-        "members": [
-          "faithful",
-          "devoted",
-          "committed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0147204061,
-            "similarity": 0.914477,
-            "matched_descriptor": "good friend"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "mistrustful / distrustful",
-        "descriptor_index": 4868,
-        "amplitude": 0.0038747234,
-        "abs_amplitude": 0.0038747234,
-        "raw_amplitude": 0.0116241701,
-        "percent": 1.71327,
-        "raw_percent": 1.713241,
-        "coverage_percent": 81.841095,
-        "member_count": 2,
-        "members": [
-          "mistrustful",
-          "distrustful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0116241701,
-            "similarity": 0.895356,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "nervous / anxious / worried / skittish / +2",
-        "descriptor_index": 5100,
-        "amplitude": 0.0037753429,
-        "abs_amplitude": 0.0037753429,
-        "raw_amplitude": 0.0113260287,
-        "percent": 1.669327,
-        "raw_percent": 1.669299,
-        "coverage_percent": 83.510422,
-        "member_count": 6,
-        "members": [
-          "nervous",
-          "anxious",
-          "worried",
-          "skittish",
-          "troubling",
-          "uneasy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0113260287,
-            "similarity": 0.858238,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "cynical / pessimistic",
-        "descriptor_index": 1565,
-        "amplitude": 0.0033266502,
-        "abs_amplitude": 0.0033266502,
-        "raw_amplitude": 0.0099799505,
-        "percent": 1.470931,
-        "raw_percent": 1.470906,
-        "coverage_percent": 84.981353,
-        "member_count": 2,
-        "members": [
-          "cynical",
-          "pessimistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0099799505,
-            "similarity": 0.867733,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "confused",
-        "descriptor_index": 1369,
-        "amplitude": 0.0027553793,
-        "abs_amplitude": 0.0027553793,
-        "raw_amplitude": 0.0082661378,
-        "percent": 1.218334,
-        "raw_percent": 1.218314,
-        "coverage_percent": 86.199688,
-        "member_count": 1,
-        "members": [
-          "confused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0082661378,
-            "similarity": 0.892657,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "weak-hearted",
-        "descriptor_index": 8488,
-        "amplitude": 0.0023848657,
-        "abs_amplitude": 0.0023848657,
-        "raw_amplitude": 0.007154597,
-        "percent": 1.054506,
-        "raw_percent": 1.054488,
-        "coverage_percent": 87.254194,
-        "member_count": 1,
-        "members": [
-          "weak-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.007154597,
-            "similarity": 0.892478,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unsmiling / disapproving / impassive / expressionless / +1",
-        "descriptor_index": 8221,
-        "amplitude": 0.002196264,
-        "abs_amplitude": 0.002196264,
-        "raw_amplitude": 0.0065887921,
-        "percent": 0.971113,
-        "raw_percent": 0.971096,
-        "coverage_percent": 88.225306,
-        "member_count": 5,
-        "members": [
-          "unsmiling",
-          "disapproving",
-          "impassive",
-          "expressionless",
-          "straight-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0065887921,
-            "similarity": 0.889046,
-            "matched_descriptor": "cool expression"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "silent-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0020741772,
-        "abs_amplitude": 0.0020741772,
-        "raw_amplitude": 0.0062225317,
-        "percent": 0.91713,
-        "raw_percent": 0.917115,
-        "coverage_percent": 89.142437,
-        "member_count": 1,
-        "members": [
-          "silent-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0062225317,
-            "similarity": 0.933959,
-            "matched_descriptor": "cool expression"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0019883035,
-        "abs_amplitude": 0.0019883035,
-        "raw_amplitude": 0.0059649104,
-        "percent": 0.87916,
-        "raw_percent": 0.879145,
-        "coverage_percent": 90.021596,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0059649104,
-            "similarity": 0.887356,
-            "matched_descriptor": "good friend"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "photographic / realistic",
-        "descriptor_index": 5595,
-        "amplitude": 0.0017172187,
-        "abs_amplitude": 0.0017172187,
-        "raw_amplitude": 0.0051516562,
-        "percent": 0.759295,
-        "raw_percent": 0.759282,
-        "coverage_percent": 90.780892,
-        "member_count": 2,
-        "members": [
-          "photographic",
-          "realistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0051516562,
-            "similarity": 0.881368,
-            "matched_descriptor": "doll appearance"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "insecure / self-doubting",
-        "descriptor_index": 3916,
-        "amplitude": 0.001568786,
-        "abs_amplitude": 0.001568786,
-        "raw_amplitude": 0.004706358,
-        "percent": 0.693664,
-        "raw_percent": 0.693652,
-        "coverage_percent": 91.474555,
-        "member_count": 2,
-        "members": [
-          "insecure",
-          "self-doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.004706358,
-            "similarity": 0.860176,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "model",
-        "descriptor_index": 4884,
-        "amplitude": 0.0014801521,
-        "abs_amplitude": 0.0014801521,
-        "raw_amplitude": 0.0044404562,
-        "percent": 0.654473,
-        "raw_percent": 0.654461,
-        "coverage_percent": 92.129028,
-        "member_count": 1,
-        "members": [
-          "model"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0044404562,
-            "similarity": 0.891698,
-            "matched_descriptor": "doll appearance"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0013988886,
-        "abs_amplitude": 0.0013988886,
-        "raw_amplitude": 0.0041966659,
-        "percent": 0.618541,
-        "raw_percent": 0.61853,
-        "coverage_percent": 92.747569,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0041966659,
-            "similarity": 0.889533,
-            "matched_descriptor": "good friend"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "tough-looking / brave-faced",
-        "descriptor_index": 7916,
-        "amplitude": 0.0013836893,
-        "abs_amplitude": 0.0013836893,
-        "raw_amplitude": 0.0041510678,
-        "percent": 0.61182,
-        "raw_percent": 0.61181,
-        "coverage_percent": 93.359389,
-        "member_count": 2,
-        "members": [
-          "tough-looking",
-          "brave-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0041510678,
-            "similarity": 0.891811,
-            "matched_descriptor": "cool expression"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "bullheaded / refractory",
-        "descriptor_index": 862,
-        "amplitude": 0.0012520414,
-        "abs_amplitude": 0.0012520414,
-        "raw_amplitude": 0.0037561241,
-        "percent": 0.55361,
-        "raw_percent": 0.5536,
-        "coverage_percent": 93.912999,
-        "member_count": 2,
-        "members": [
-          "bullheaded",
-          "refractory"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0037561241,
-            "similarity": 0.868434,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "hesitant / reluctant",
-        "descriptor_index": 3474,
-        "amplitude": 0.0012253202,
-        "abs_amplitude": 0.0012253202,
-        "raw_amplitude": 0.0036759607,
-        "percent": 0.541795,
-        "raw_percent": 0.541785,
-        "coverage_percent": 94.454793,
-        "member_count": 2,
-        "members": [
-          "hesitant",
-          "reluctant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 187851,
-            "name": "Misa Ilioroagu",
-            "native_name": "ミサ・イリオローグ",
-            "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-            "site_url": "https://anilist.co/character/187851",
-            "anime_url": "https://myanimelist.net/anime/40496",
-            "role": "SUPPORTING",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0036759608,
-            "similarity": 0.843717,
-            "matched_descriptor": "skeptical"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "beauty-conscious",
-        "descriptor_index": 601,
-        "amplitude": 0.0011821574,
-        "abs_amplitude": 0.0011821574,
-        "raw_amplitude": 0.0035464721,
-        "percent": 0.52271,
-        "raw_percent": 0.522701,
-        "coverage_percent": 94.977503,
-        "member_count": 1,
-        "members": [
-          "beauty-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.0035464721,
-            "similarity": 0.901652,
-            "matched_descriptor": "cool expression"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "old-fashioned / traditional",
-        "descriptor_index": 5293,
-        "amplitude": 0.0008635147,
-        "abs_amplitude": 0.0008635147,
-        "raw_amplitude": 0.002590544,
-        "percent": 0.381817,
-        "raw_percent": 0.38181,
-        "coverage_percent": 95.359319,
-        "member_count": 2,
-        "members": [
-          "old-fashioned",
-          "traditional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248385,
-            "name": "Shisei Houjou",
-            "native_name": "北条糸青",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-            "site_url": "https://anilist.co/character/248385",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "SUPPORTING",
-            "favourites": 221,
-            "row_weight": 2.53035124,
-            "projection": 0.002590544,
-            "similarity": 0.856374,
-            "matched_descriptor": "doll appearance"
-          }
-        ]
+        "fit_percent": 96.881367,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 280051,
         "name": "Kamome Kushima",
-        "native_name": "久島鴎",
         "anime": "Summer Pockets",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
         "site_url": "https://anilist.co/character/280051",
-        "anime_url": "https://myanimelist.net/anime/50694",
-        "role": "MAIN",
         "favourites": 253,
-        "row_weight": 2.55682113,
-        "amplitude": 0.9096017122,
-        "abs_amplitude": 0.9096017122,
-        "percent": 82.737527
+        "anilist_favourites": 253,
+        "bangumi_collects": 681,
+        "bangumi_comments": 205,
+        "bangumi_character_id": 59848,
+        "bangumi_url": "https://bgm.tv/character/59848",
+        "combined_favourites": 934,
+        "role_edge_count": 1,
+        "descriptors": [
+          "adventurous",
+          "blunt",
+          "kind",
+          "mischievous",
+          "mysterious",
+          "outgoing",
+          "refined",
+          "whimsical"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.80009759,
+        "row_weight": 2.80009759,
+        "unweighted_row_norm": 6.55207454,
+        "amplitude": 0.7545664963,
+        "abs_amplitude": 0.7545664963,
+        "percent": 56.93706
       },
       {
-        "character_id": 283422,
-        "name": "Amyu",
-        "native_name": "アミュ",
-        "anime": "Saikyou Onmyouji Mini",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b283422-sQeTzokEtyZt.png",
-        "site_url": "https://anilist.co/character/283422",
-        "anime_url": "https://myanimelist.net/anime/54683",
-        "role": "MAIN",
-        "favourites": 115,
-        "row_weight": 2.39866425,
-        "amplitude": -0.3261523179,
-        "abs_amplitude": 0.3261523179,
-        "percent": 10.637533
-      },
-      {
-        "character_id": 187851,
-        "name": "Misa Ilioroagu",
-        "native_name": "ミサ・イリオローグ",
-        "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-        "site_url": "https://anilist.co/character/187851",
-        "anime_url": "https://myanimelist.net/anime/40496",
-        "role": "SUPPORTING",
-        "favourites": 109,
-        "row_weight": 1.68826544,
-        "amplitude": -0.2218768373,
-        "abs_amplitude": 0.2218768373,
-        "percent": 4.922933
-      },
-      {
-        "character_id": 248385,
-        "name": "Shisei Houjou",
-        "native_name": "北条糸青",
-        "anime": "I'm Getting Married to a Girl I Hate in My Class",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-        "site_url": "https://anilist.co/character/248385",
-        "anime_url": "https://myanimelist.net/anime/59135",
-        "role": "SUPPORTING",
-        "favourites": 221,
-        "row_weight": 2.53035124,
-        "amplitude": -0.1304609509,
-        "abs_amplitude": 0.1304609509,
-        "percent": 1.702006
+        "character_id": 161222,
+        "name": "Yuuzu Izumi",
+        "anime": "Bottom-Tier Character Tomozaki",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b161222-N4sFa1qUg5C6.png",
+        "site_url": "https://anilist.co/character/161222",
+        "favourites": 154,
+        "anilist_favourites": 154,
+        "bangumi_collects": 26,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 77971,
+        "bangumi_url": "https://bgm.tv/character/77971",
+        "combined_favourites": 180,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4896781,
+        "row_weight": 2.4896781,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.656223592,
+        "abs_amplitude": 0.656223592,
+        "percent": 43.06294
       }
     ],
     "positive_characters": [
       {
         "character_id": 280051,
         "name": "Kamome Kushima",
-        "native_name": "久島鴎",
         "anime": "Summer Pockets",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
         "site_url": "https://anilist.co/character/280051",
-        "anime_url": "https://myanimelist.net/anime/50694",
-        "role": "MAIN",
         "favourites": 253,
-        "row_weight": 2.55682113,
-        "amplitude": 0.9096017122,
-        "abs_amplitude": 0.9096017122,
-        "percent": 82.737527
+        "anilist_favourites": 253,
+        "bangumi_collects": 681,
+        "bangumi_comments": 205,
+        "bangumi_character_id": 59848,
+        "bangumi_url": "https://bgm.tv/character/59848",
+        "combined_favourites": 934,
+        "role_edge_count": 1,
+        "descriptors": [
+          "adventurous",
+          "blunt",
+          "kind",
+          "mischievous",
+          "mysterious",
+          "outgoing",
+          "refined",
+          "whimsical"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.80009759,
+        "row_weight": 2.80009759,
+        "unweighted_row_norm": 6.55207454,
+        "amplitude": 0.7545664963,
+        "abs_amplitude": 0.7545664963,
+        "percent": 56.93706
+      },
+      {
+        "character_id": 161222,
+        "name": "Yuuzu Izumi",
+        "anime": "Bottom-Tier Character Tomozaki",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b161222-N4sFa1qUg5C6.png",
+        "site_url": "https://anilist.co/character/161222",
+        "favourites": 154,
+        "anilist_favourites": 154,
+        "bangumi_collects": 26,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 77971,
+        "bangumi_url": "https://bgm.tv/character/77971",
+        "combined_favourites": 180,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.4896781,
+        "row_weight": 2.4896781,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.656223592,
+        "abs_amplitude": 0.656223592,
+        "percent": 43.06294
       }
     ],
-    "negative_characters": [
-      {
-        "character_id": 283422,
-        "name": "Amyu",
-        "native_name": "アミュ",
-        "anime": "Saikyou Onmyouji Mini",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b283422-sQeTzokEtyZt.png",
-        "site_url": "https://anilist.co/character/283422",
-        "anime_url": "https://myanimelist.net/anime/54683",
-        "role": "MAIN",
-        "favourites": 115,
-        "row_weight": 2.39866425,
-        "amplitude": -0.3261523179,
-        "abs_amplitude": 0.3261523179,
-        "percent": 10.637533
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.962229,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.0496907848,
+      "mass_percent": 7.848474,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 31.813812,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.3181381153,
+            "abs_amplitude": 0.3181381153,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 31.813812,
+            "residual_gain_percent": 10.121186
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 161222,
+            "name": "Yuuzu Izumi",
+            "anime": "Bottom-Tier Character Tomozaki",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b161222-N4sFa1qUg5C6.png",
+            "site_url": "https://anilist.co/character/161222",
+            "favourites": 154,
+            "anilist_favourites": 154,
+            "bangumi_collects": 26,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 77971,
+            "bangumi_url": "https://bgm.tv/character/77971",
+            "combined_favourites": 180,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.4896781,
+            "row_weight": 2.4896781,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.7545664963,
+            "abs_amplitude": 0.7545664963,
+            "percent": 56.93706
+          }
+        ]
       },
-      {
-        "character_id": 187851,
-        "name": "Misa Ilioroagu",
-        "native_name": "ミサ・イリオローグ",
-        "anime": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b187851-w2aRRpzk57Jb.png",
-        "site_url": "https://anilist.co/character/187851",
-        "anime_url": "https://myanimelist.net/anime/40496",
-        "role": "SUPPORTING",
-        "favourites": 109,
-        "row_weight": 1.68826544,
-        "amplitude": -0.2218768373,
-        "abs_amplitude": 0.2218768373,
-        "percent": 4.922933
-      },
-      {
-        "character_id": 248385,
-        "name": "Shisei Houjou",
-        "native_name": "北条糸青",
-        "anime": "I'm Getting Married to a Girl I Hate in My Class",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248385-PiwiXO2h00at.jpg",
-        "site_url": "https://anilist.co/character/248385",
-        "anime_url": "https://myanimelist.net/anime/59135",
-        "role": "SUPPORTING",
-        "favourites": 221,
-        "row_weight": 2.53035124,
-        "amplitude": -0.1304609509,
-        "abs_amplitude": 0.1304609509,
-        "percent": 1.702006
+      "negative_pole": {
+        "descriptor_fit_percent": 37.259148,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "daring",
+            "amplitude": 0.2105421114,
+            "abs_amplitude": 0.2105421114,
+            "percent": 48.665002
+          },
+          {
+            "rank": 2,
+            "descriptor": "withdrawn",
+            "amplitude": 0.1185949759,
+            "abs_amplitude": 0.1185949759,
+            "percent": 27.412211
+          },
+          {
+            "rank": 3,
+            "descriptor": "ominous",
+            "amplitude": 0.1034984854,
+            "abs_amplitude": 0.1034984854,
+            "percent": 23.922787
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "daring",
+            "fit_percent": 34.242252,
+            "residual_gain_percent": 11.725318
+          },
+          {
+            "step": 2,
+            "descriptor": "withdrawn",
+            "fit_percent": 36.574745,
+            "residual_gain_percent": 1.871207
+          },
+          {
+            "step": 3,
+            "descriptor": "ominous",
+            "fit_percent": 37.259148,
+            "residual_gain_percent": 0.583358
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 280051,
+            "name": "Kamome Kushima",
+            "anime": "Summer Pockets",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280051-4cqW0YjRJ9FW.png",
+            "site_url": "https://anilist.co/character/280051",
+            "favourites": 253,
+            "anilist_favourites": 253,
+            "bangumi_collects": 681,
+            "bangumi_comments": 205,
+            "bangumi_character_id": 59848,
+            "bangumi_url": "https://bgm.tv/character/59848",
+            "combined_favourites": 934,
+            "role_edge_count": 1,
+            "descriptors": [
+              "adventurous",
+              "blunt",
+              "kind",
+              "mischievous",
+              "mysterious",
+              "outgoing",
+              "refined",
+              "whimsical"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.80009759,
+            "row_weight": 2.80009759,
+            "unweighted_row_norm": 6.55207454,
+            "amplitude": -0.656223592,
+            "abs_amplitude": 0.656223592,
+            "percent": 43.06294
+          }
+        ]
       }
-    ]
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.5968309408,
+      "mass_percent": 92.151526,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.0496907848,
+      "mass_percent": 7.848474,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

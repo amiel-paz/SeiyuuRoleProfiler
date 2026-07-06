@@ -11,618 +11,98 @@
     "ayumi tsuji",
     "tsuji ayumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ayumi_tsuji.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.3596538354,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.3596538354,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 254.040506,
-      "normalized_entanglement": 0.661564,
-      "top5_mass_percent": 4.860746,
-      "top10_mass_percent": 8.704969
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.539889457,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "cheerful / happy / upbeat / gleeful / +16",
-        "descriptor_index": 1036,
-        "amplitude": 0.233073743,
-        "abs_amplitude": 0.233073743,
-        "raw_amplitude": 0.6992212289,
-        "percent": 69.922123,
-        "raw_percent": 69.922123,
-        "coverage_percent": 69.922123,
-        "member_count": 20,
-        "members": [
-          "cheerful",
-          "happy",
-          "upbeat",
-          "gleeful",
-          "cheery",
-          "joyous",
-          "smiling",
-          "giddy",
-          "joyful",
-          "happiness-experiencing",
-          "exuberant",
-          "vivacious",
-          "spirited",
-          "cheerful-looking",
-          "jocular",
-          "encouraging",
-          "sunny",
-          "energetic",
-          "perky",
-          "jovial"
-        ],
+        "descriptor": "childish",
+        "amplitude": 0.5591855643,
+        "abs_amplitude": 0.5591855643,
+        "percent": 50.0,
+        "weighted_support": 2.53988946,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 81225,
             "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
             "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
             "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.6992212288,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful / happy"
+            "combined_favourites": 232
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "good-humored / playful / good-humoured / light-hearted / +4",
-        "descriptor_index": 3105,
-        "amplitude": 0.0431569785,
-        "abs_amplitude": 0.0431569785,
-        "raw_amplitude": 0.1294709354,
-        "percent": 12.947094,
-        "raw_percent": 12.947094,
-        "coverage_percent": 82.869216,
-        "member_count": 8,
-        "members": [
-          "good-humored",
-          "playful",
-          "good-humoured",
-          "light-hearted",
-          "lighthearted",
-          "cordial",
-          "happy-go-lucky",
-          "affable"
-        ],
+        "descriptor": "cheerful",
+        "amplitude": 0.5591855643,
+        "abs_amplitude": 0.5591855643,
+        "percent": 50.0,
+        "weighted_support": 2.53988946,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 81225,
             "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
             "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
             "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.1294709354,
-            "similarity": 0.91743,
-            "matched_descriptor": "happy / cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "sweet-faced / contented / frequent-smiler",
-        "descriptor_index": 7584,
-        "amplitude": 0.0171596575,
-        "abs_amplitude": 0.0171596575,
-        "raw_amplitude": 0.0514789726,
-        "percent": 5.147897,
-        "raw_percent": 5.147897,
-        "coverage_percent": 88.017114,
-        "member_count": 3,
-        "members": [
-          "sweet-faced",
-          "contented",
-          "frequent-smiler"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0514789726,
-            "similarity": 0.916026,
-            "matched_descriptor": "happy / cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "thrilled / delighted",
-        "descriptor_index": 7830,
-        "amplitude": 0.0079580122,
-        "abs_amplitude": 0.0079580122,
-        "raw_amplitude": 0.0238740366,
-        "percent": 2.387404,
-        "raw_percent": 2.387404,
-        "coverage_percent": 90.404517,
-        "member_count": 2,
-        "members": [
-          "thrilled",
-          "delighted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0238740366,
-            "similarity": 0.898518,
-            "matched_descriptor": "happy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "attractive / adorable / suave",
-        "descriptor_index": 466,
-        "amplitude": 0.0059063352,
-        "abs_amplitude": 0.0059063352,
-        "raw_amplitude": 0.0177190055,
-        "percent": 1.771901,
-        "raw_percent": 1.771901,
-        "coverage_percent": 92.176418,
-        "member_count": 3,
-        "members": [
-          "attractive",
-          "adorable",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0177190055,
-            "similarity": 0.888023,
-            "matched_descriptor": "happy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "optimistic",
-        "descriptor_index": 5344,
-        "amplitude": 0.0054846448,
-        "abs_amplitude": 0.0054846448,
-        "raw_amplitude": 0.0164539343,
-        "percent": 1.645393,
-        "raw_percent": 1.645393,
-        "coverage_percent": 93.821811,
-        "member_count": 1,
-        "members": [
-          "optimistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0164539343,
-            "similarity": 0.894626,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "fun-loving",
-        "descriptor_index": 2857,
-        "amplitude": 0.004991799,
-        "abs_amplitude": 0.004991799,
-        "raw_amplitude": 0.014975397,
-        "percent": 1.49754,
-        "raw_percent": 1.49754,
-        "coverage_percent": 95.319351,
-        "member_count": 1,
-        "members": [
-          "fun-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.014975397,
-            "similarity": 0.891721,
-            "matched_descriptor": "cheerful"
+            "combined_favourites": 232
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "cheerful / happy / upbeat / gleeful / +16",
-        "descriptor_index": 1036,
-        "amplitude": 0.233073743,
-        "abs_amplitude": 0.233073743,
-        "raw_amplitude": 0.6992212289,
-        "percent": 69.922123,
-        "raw_percent": 69.922123,
-        "coverage_percent": 69.922123,
-        "member_count": 20,
-        "members": [
-          "cheerful",
-          "happy",
-          "upbeat",
-          "gleeful",
-          "cheery",
-          "joyous",
-          "smiling",
-          "giddy",
-          "joyful",
-          "happiness-experiencing",
-          "exuberant",
-          "vivacious",
-          "spirited",
-          "cheerful-looking",
-          "jocular",
-          "encouraging",
-          "sunny",
-          "energetic",
-          "perky",
-          "jovial"
-        ],
+        "step": 1,
+        "descriptor": "childish",
+        "weighted_support": 2.53988946,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.6992212288,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful / happy"
-          }
-        ]
+        "fit_percent": 89.415756,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "good-humored / playful / good-humoured / light-hearted / +4",
-        "descriptor_index": 3105,
-        "amplitude": 0.0431569785,
-        "abs_amplitude": 0.0431569785,
-        "raw_amplitude": 0.1294709354,
-        "percent": 12.947094,
-        "raw_percent": 12.947094,
-        "coverage_percent": 82.869216,
-        "member_count": 8,
-        "members": [
-          "good-humored",
-          "playful",
-          "good-humoured",
-          "light-hearted",
-          "lighthearted",
-          "cordial",
-          "happy-go-lucky",
-          "affable"
-        ],
+        "step": 2,
+        "descriptor": "cheerful",
+        "weighted_support": 2.53988946,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.1294709354,
-            "similarity": 0.91743,
-            "matched_descriptor": "happy / cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "sweet-faced / contented / frequent-smiler",
-        "descriptor_index": 7584,
-        "amplitude": 0.0171596575,
-        "abs_amplitude": 0.0171596575,
-        "raw_amplitude": 0.0514789726,
-        "percent": 5.147897,
-        "raw_percent": 5.147897,
-        "coverage_percent": 88.017114,
-        "member_count": 3,
-        "members": [
-          "sweet-faced",
-          "contented",
-          "frequent-smiler"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0514789726,
-            "similarity": 0.916026,
-            "matched_descriptor": "happy / cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "thrilled / delighted",
-        "descriptor_index": 7830,
-        "amplitude": 0.0079580122,
-        "abs_amplitude": 0.0079580122,
-        "raw_amplitude": 0.0238740366,
-        "percent": 2.387404,
-        "raw_percent": 2.387404,
-        "coverage_percent": 90.404517,
-        "member_count": 2,
-        "members": [
-          "thrilled",
-          "delighted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0238740366,
-            "similarity": 0.898518,
-            "matched_descriptor": "happy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "attractive / adorable / suave",
-        "descriptor_index": 466,
-        "amplitude": 0.0059063352,
-        "abs_amplitude": 0.0059063352,
-        "raw_amplitude": 0.0177190055,
-        "percent": 1.771901,
-        "raw_percent": 1.771901,
-        "coverage_percent": 92.176418,
-        "member_count": 3,
-        "members": [
-          "attractive",
-          "adorable",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0177190055,
-            "similarity": 0.888023,
-            "matched_descriptor": "happy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "optimistic",
-        "descriptor_index": 5344,
-        "amplitude": 0.0054846448,
-        "abs_amplitude": 0.0054846448,
-        "raw_amplitude": 0.0164539343,
-        "percent": 1.645393,
-        "raw_percent": 1.645393,
-        "coverage_percent": 93.821811,
-        "member_count": 1,
-        "members": [
-          "optimistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.0164539343,
-            "similarity": 0.894626,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "fun-loving",
-        "descriptor_index": 2857,
-        "amplitude": 0.004991799,
-        "abs_amplitude": 0.004991799,
-        "raw_amplitude": 0.014975397,
-        "percent": 1.49754,
-        "raw_percent": 1.49754,
-        "coverage_percent": 95.319351,
-        "member_count": 1,
-        "members": [
-          "fun-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 81225,
-            "name": "Ouka Yuuouji",
-            "native_name": "遊王子謳歌",
-            "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
-            "site_url": "https://anilist.co/character/81225",
-            "anime_url": "https://myanimelist.net/anime/19221",
-            "role": "MAIN",
-            "favourites": 136,
-            "row_weight": 2.43310109,
-            "projection": 0.014975397,
-            "similarity": 0.891721,
-            "matched_descriptor": "cheerful"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 81225,
         "name": "Ouka Yuuouji",
-        "native_name": "遊王子謳歌",
         "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
         "site_url": "https://anilist.co/character/81225",
-        "anime_url": "https://myanimelist.net/anime/19221",
-        "role": "MAIN",
         "favourites": 136,
-        "row_weight": 2.43310109,
+        "anilist_favourites": 136,
+        "bangumi_collects": 96,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 21912,
+        "bangumi_url": "https://bgm.tv/character/21912",
+        "combined_favourites": 232,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "childish"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53988946,
+        "row_weight": 2.53988946,
+        "unweighted_row_norm": 1.78831512,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -632,19 +112,68 @@
       {
         "character_id": 81225,
         "name": "Ouka Yuuouji",
-        "native_name": "遊王子謳歌",
         "anime": "My Mental Choices Are Completely Interfering With My School Romantic Comedy",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/81225.jpg",
         "site_url": "https://anilist.co/character/81225",
-        "anime_url": "https://myanimelist.net/anime/19221",
-        "role": "MAIN",
         "favourites": 136,
-        "row_weight": 2.43310109,
+        "anilist_favourites": 136,
+        "bangumi_collects": 96,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 21912,
+        "bangumi_url": "https://bgm.tv/character/21912",
+        "combined_favourites": 232,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cheerful",
+          "childish"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53988946,
+        "row_weight": 2.53988946,
+        "unweighted_row_norm": 1.78831512,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.539889457,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

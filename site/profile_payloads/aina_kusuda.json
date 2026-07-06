@@ -11,1132 +11,70 @@
     "aina kusuda",
     "kusuda aina"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/aina_kusuda.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.8743680854,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.8743680854,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 122.899471,
-      "normalized_entanglement": 0.320051,
-      "top5_mass_percent": 10.341331,
-      "top10_mass_percent": 17.89555
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.8673743783,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "faithful / devoted / loyal / committed / +3",
-        "descriptor_index": 2379,
-        "amplitude": 0.1801932193,
-        "abs_amplitude": 0.1801932193,
-        "raw_amplitude": 0.5405796578,
-        "percent": 54.057966,
-        "raw_percent": 54.057966,
-        "coverage_percent": 54.057966,
-        "member_count": 7,
-        "members": [
-          "faithful",
-          "devoted",
-          "loyal",
-          "committed",
-          "trusted",
-          "monogamous",
-          "trustful"
-        ],
+        "descriptor": "faithful",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.86737438,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 46169,
             "name": "Nozomi Toujou",
-            "native_name": "東條希",
             "anime": "Bokura no LIVE Kimi to no LIFE",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
             "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.5405796578,
-            "similarity": 1.0,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "successful",
-        "descriptor_index": 7460,
-        "amplitude": 0.0424234176,
-        "abs_amplitude": 0.0424234176,
-        "raw_amplitude": 0.1272702527,
-        "percent": 12.727025,
-        "raw_percent": 12.727025,
-        "coverage_percent": 66.784991,
-        "member_count": 1,
-        "members": [
-          "successful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.1272702527,
-            "similarity": 1.0,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "religious / christian / catholic",
-        "descriptor_index": 6220,
-        "amplitude": 0.0172222964,
-        "abs_amplitude": 0.0172222964,
-        "raw_amplitude": 0.0516668892,
-        "percent": 5.166689,
-        "raw_percent": 5.166689,
-        "coverage_percent": 71.95168,
-        "member_count": 3,
-        "members": [
-          "religious",
-          "christian",
-          "catholic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0516668892,
-            "similarity": 0.844229,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "friendship-oriented",
-        "descriptor_index": 2833,
-        "amplitude": 0.0156835575,
-        "abs_amplitude": 0.0156835575,
-        "raw_amplitude": 0.0470506725,
-        "percent": 4.705067,
-        "raw_percent": 4.705067,
-        "coverage_percent": 76.656747,
-        "member_count": 1,
-        "members": [
-          "friendship-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0470506725,
-            "similarity": 0.899698,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0126484644,
-        "abs_amplitude": 0.0126484644,
-        "raw_amplitude": 0.0379453932,
-        "percent": 3.794539,
-        "raw_percent": 3.794539,
-        "coverage_percent": 80.451287,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0379453932,
-            "similarity": 0.888314,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "trusting",
-        "descriptor_index": 8013,
-        "amplitude": 0.0085269204,
-        "abs_amplitude": 0.0085269204,
-        "raw_amplitude": 0.0255807612,
-        "percent": 2.558076,
-        "raw_percent": 2.558076,
-        "coverage_percent": 83.009363,
-        "member_count": 1,
-        "members": [
-          "trusting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0255807612,
-            "similarity": 0.872854,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sophomore",
-        "descriptor_index": 7098,
-        "amplitude": 0.0073218152,
-        "abs_amplitude": 0.0073218152,
-        "raw_amplitude": 0.0219654457,
-        "percent": 2.196545,
-        "raw_percent": 2.196545,
-        "coverage_percent": 85.205907,
-        "member_count": 1,
-        "members": [
-          "sophomore"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0219654457,
-            "similarity": 0.834027,
-            "matched_descriptor": "school idol"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "hard-worker-rewarded",
-        "descriptor_index": 3349,
-        "amplitude": 0.0063023544,
-        "abs_amplitude": 0.0063023544,
-        "raw_amplitude": 0.0189070633,
-        "percent": 1.890706,
-        "raw_percent": 1.890706,
-        "coverage_percent": 87.096614,
-        "member_count": 1,
-        "members": [
-          "hard-worker-rewarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0189070633,
-            "similarity": 0.833545,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "runner-up",
-        "descriptor_index": 6399,
-        "amplitude": 0.0054345444,
-        "abs_amplitude": 0.0054345444,
-        "raw_amplitude": 0.0163036332,
-        "percent": 1.630363,
-        "raw_percent": 1.630363,
-        "coverage_percent": 88.726977,
-        "member_count": 1,
-        "members": [
-          "runner-up"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0163036332,
-            "similarity": 0.819113,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "angelic-being",
-        "descriptor_index": 239,
-        "amplitude": 0.0049500864,
-        "abs_amplitude": 0.0049500864,
-        "raw_amplitude": 0.0148502592,
-        "percent": 1.485026,
-        "raw_percent": 1.485026,
-        "coverage_percent": 90.212003,
-        "member_count": 1,
-        "members": [
-          "angelic-being"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0148502592,
-            "similarity": 0.846673,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0046404414,
-        "abs_amplitude": 0.0046404414,
-        "raw_amplitude": 0.0139213243,
-        "percent": 1.392132,
-        "raw_percent": 1.392132,
-        "coverage_percent": 91.604135,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0139213243,
-            "similarity": 0.858276,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "undefeated",
-        "descriptor_index": 8096,
-        "amplitude": 0.0039781575,
-        "abs_amplitude": 0.0039781575,
-        "raw_amplitude": 0.0119344724,
-        "percent": 1.193447,
-        "raw_percent": 1.193447,
-        "coverage_percent": 92.797582,
-        "member_count": 1,
-        "members": [
-          "undefeated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0119344724,
-            "similarity": 0.800001,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "angelic",
-        "descriptor_index": 236,
-        "amplitude": 0.0038286562,
-        "abs_amplitude": 0.0038286562,
-        "raw_amplitude": 0.0114859686,
-        "percent": 1.148597,
-        "raw_percent": 1.148597,
-        "coverage_percent": 93.946179,
-        "member_count": 1,
-        "members": [
-          "angelic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0114859686,
-            "similarity": 0.837846,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cleaner",
-        "descriptor_index": 1165,
-        "amplitude": 0.0033196045,
-        "abs_amplitude": 0.0033196045,
-        "raw_amplitude": 0.0099588136,
-        "percent": 0.995881,
-        "raw_percent": 0.995881,
-        "coverage_percent": 94.942061,
-        "member_count": 1,
-        "members": [
-          "cleaner"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0099588136,
-            "similarity": 0.815255,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "fallen-angel-self-view",
-        "descriptor_index": 2389,
-        "amplitude": 0.0033143957,
-        "abs_amplitude": 0.0033143957,
-        "raw_amplitude": 0.0099431872,
-        "percent": 0.994319,
-        "raw_percent": 0.994319,
-        "coverage_percent": 95.936379,
-        "member_count": 1,
-        "members": [
-          "fallen-angel-self-view"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0099431872,
-            "similarity": 0.82003,
-            "matched_descriptor": "shrine maiden"
+            "combined_favourites": 1368
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "faithful / devoted / loyal / committed / +3",
-        "descriptor_index": 2379,
-        "amplitude": 0.1801932193,
-        "abs_amplitude": 0.1801932193,
-        "raw_amplitude": 0.5405796578,
-        "percent": 54.057966,
-        "raw_percent": 54.057966,
-        "coverage_percent": 54.057966,
-        "member_count": 7,
-        "members": [
-          "faithful",
-          "devoted",
-          "loyal",
-          "committed",
-          "trusted",
-          "monogamous",
-          "trustful"
-        ],
+        "step": 1,
+        "descriptor": "faithful",
+        "weighted_support": 2.86737438,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.5405796578,
-            "similarity": 1.0,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "successful",
-        "descriptor_index": 7460,
-        "amplitude": 0.0424234176,
-        "abs_amplitude": 0.0424234176,
-        "raw_amplitude": 0.1272702527,
-        "percent": 12.727025,
-        "raw_percent": 12.727025,
-        "coverage_percent": 66.784991,
-        "member_count": 1,
-        "members": [
-          "successful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.1272702527,
-            "similarity": 1.0,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "religious / christian / catholic",
-        "descriptor_index": 6220,
-        "amplitude": 0.0172222964,
-        "abs_amplitude": 0.0172222964,
-        "raw_amplitude": 0.0516668892,
-        "percent": 5.166689,
-        "raw_percent": 5.166689,
-        "coverage_percent": 71.95168,
-        "member_count": 3,
-        "members": [
-          "religious",
-          "christian",
-          "catholic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0516668892,
-            "similarity": 0.844229,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "friendship-oriented",
-        "descriptor_index": 2833,
-        "amplitude": 0.0156835575,
-        "abs_amplitude": 0.0156835575,
-        "raw_amplitude": 0.0470506725,
-        "percent": 4.705067,
-        "raw_percent": 4.705067,
-        "coverage_percent": 76.656747,
-        "member_count": 1,
-        "members": [
-          "friendship-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0470506725,
-            "similarity": 0.899698,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0126484644,
-        "abs_amplitude": 0.0126484644,
-        "raw_amplitude": 0.0379453932,
-        "percent": 3.794539,
-        "raw_percent": 3.794539,
-        "coverage_percent": 80.451287,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0379453932,
-            "similarity": 0.888314,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "trusting",
-        "descriptor_index": 8013,
-        "amplitude": 0.0085269204,
-        "abs_amplitude": 0.0085269204,
-        "raw_amplitude": 0.0255807612,
-        "percent": 2.558076,
-        "raw_percent": 2.558076,
-        "coverage_percent": 83.009363,
-        "member_count": 1,
-        "members": [
-          "trusting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0255807612,
-            "similarity": 0.872854,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sophomore",
-        "descriptor_index": 7098,
-        "amplitude": 0.0073218152,
-        "abs_amplitude": 0.0073218152,
-        "raw_amplitude": 0.0219654457,
-        "percent": 2.196545,
-        "raw_percent": 2.196545,
-        "coverage_percent": 85.205907,
-        "member_count": 1,
-        "members": [
-          "sophomore"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0219654457,
-            "similarity": 0.834027,
-            "matched_descriptor": "school idol"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "hard-worker-rewarded",
-        "descriptor_index": 3349,
-        "amplitude": 0.0063023544,
-        "abs_amplitude": 0.0063023544,
-        "raw_amplitude": 0.0189070633,
-        "percent": 1.890706,
-        "raw_percent": 1.890706,
-        "coverage_percent": 87.096614,
-        "member_count": 1,
-        "members": [
-          "hard-worker-rewarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0189070633,
-            "similarity": 0.833545,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "runner-up",
-        "descriptor_index": 6399,
-        "amplitude": 0.0054345444,
-        "abs_amplitude": 0.0054345444,
-        "raw_amplitude": 0.0163036332,
-        "percent": 1.630363,
-        "raw_percent": 1.630363,
-        "coverage_percent": 88.726977,
-        "member_count": 1,
-        "members": [
-          "runner-up"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0163036332,
-            "similarity": 0.819113,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "angelic-being",
-        "descriptor_index": 239,
-        "amplitude": 0.0049500864,
-        "abs_amplitude": 0.0049500864,
-        "raw_amplitude": 0.0148502592,
-        "percent": 1.485026,
-        "raw_percent": 1.485026,
-        "coverage_percent": 90.212003,
-        "member_count": 1,
-        "members": [
-          "angelic-being"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0148502592,
-            "similarity": 0.846673,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0046404414,
-        "abs_amplitude": 0.0046404414,
-        "raw_amplitude": 0.0139213243,
-        "percent": 1.392132,
-        "raw_percent": 1.392132,
-        "coverage_percent": 91.604135,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0139213243,
-            "similarity": 0.858276,
-            "matched_descriptor": "faithful"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "undefeated",
-        "descriptor_index": 8096,
-        "amplitude": 0.0039781575,
-        "abs_amplitude": 0.0039781575,
-        "raw_amplitude": 0.0119344724,
-        "percent": 1.193447,
-        "raw_percent": 1.193447,
-        "coverage_percent": 92.797582,
-        "member_count": 1,
-        "members": [
-          "undefeated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0119344724,
-            "similarity": 0.800001,
-            "matched_descriptor": "successful"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "angelic",
-        "descriptor_index": 236,
-        "amplitude": 0.0038286562,
-        "abs_amplitude": 0.0038286562,
-        "raw_amplitude": 0.0114859686,
-        "percent": 1.148597,
-        "raw_percent": 1.148597,
-        "coverage_percent": 93.946179,
-        "member_count": 1,
-        "members": [
-          "angelic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0114859686,
-            "similarity": 0.837846,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cleaner",
-        "descriptor_index": 1165,
-        "amplitude": 0.0033196045,
-        "abs_amplitude": 0.0033196045,
-        "raw_amplitude": 0.0099588136,
-        "percent": 0.995881,
-        "raw_percent": 0.995881,
-        "coverage_percent": 94.942061,
-        "member_count": 1,
-        "members": [
-          "cleaner"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0099588136,
-            "similarity": 0.815255,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "fallen-angel-self-view",
-        "descriptor_index": 2389,
-        "amplitude": 0.0033143957,
-        "abs_amplitude": 0.0033143957,
-        "raw_amplitude": 0.0099431872,
-        "percent": 0.994319,
-        "raw_percent": 0.994319,
-        "coverage_percent": 95.936379,
-        "member_count": 1,
-        "members": [
-          "fallen-angel-self-view"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 46169,
-            "name": "Nozomi Toujou",
-            "native_name": "東條希",
-            "anime": "Bokura no LIVE Kimi to no LIFE",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
-            "site_url": "https://anilist.co/character/46169",
-            "anime_url": "https://myanimelist.net/anime/9907",
-            "role": "MAIN",
-            "favourites": 1179,
-            "row_weight": 2.84134998,
-            "projection": 0.0099431872,
-            "similarity": 0.82003,
-            "matched_descriptor": "shrine maiden"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 46169,
         "name": "Nozomi Toujou",
-        "native_name": "東條希",
         "anime": "Bokura no LIVE Kimi to no LIFE",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
         "site_url": "https://anilist.co/character/46169",
-        "anime_url": "https://myanimelist.net/anime/9907",
-        "role": "MAIN",
         "favourites": 1179,
-        "row_weight": 2.84134998,
+        "anilist_favourites": 1179,
+        "bangumi_collects": 189,
+        "bangumi_comments": 53,
+        "bangumi_character_id": 14964,
+        "bangumi_url": "https://bgm.tv/character/14964",
+        "combined_favourites": 1368,
+        "role_edge_count": 1,
+        "descriptors": [
+          "faithful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.86737438,
+        "row_weight": 2.86737438,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1146,19 +84,67 @@
       {
         "character_id": 46169,
         "name": "Nozomi Toujou",
-        "native_name": "東條希",
         "anime": "Bokura no LIVE Kimi to no LIFE",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b46169-yYnDgZprEtAU.png",
         "site_url": "https://anilist.co/character/46169",
-        "anime_url": "https://myanimelist.net/anime/9907",
-        "role": "MAIN",
         "favourites": 1179,
-        "row_weight": 2.84134998,
+        "anilist_favourites": 1179,
+        "bangumi_collects": 189,
+        "bangumi_comments": 53,
+        "bangumi_character_id": 14964,
+        "bangumi_url": "https://bgm.tv/character/14964",
+        "combined_favourites": 1368,
+        "role_edge_count": 1,
+        "descriptors": [
+          "faithful"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.86737438,
+        "row_weight": 2.86737438,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.8673743783,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

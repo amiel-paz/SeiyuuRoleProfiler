@@ -11,1817 +11,351 @@
     "horikawa ryou",
     "ryou horikawa"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ryou_horikawa.json",
+  "sv1_mass_percent": 90.657342,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.7072901109,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.7072901109,
-        "mass_percent": 73.423216
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.8320797186,
-        "mass_percent": 26.576784
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 185.426248,
-      "normalized_entanglement": 0.482881,
-      "top5_mass_percent": 6.822984,
-      "top10_mass_percent": 11.969656
-    },
-    "character_participation": {
-      "effective_count": 1.101153,
-      "normalized_entanglement": 0.550576,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.658335,
-      "semantic_spread": 1.658335,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.105272,
-      "direction_spread": 1.105272,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 73.423216,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.4156774803,
+    "mass_percent": 90.883325,
+    "descriptor_fit_percent": 97.324759,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "respectful / courteous / polite",
-        "descriptor_index": 6264,
-        "amplitude": 0.0784000819,
-        "abs_amplitude": 0.0784000819,
-        "raw_amplitude": 0.2352002456,
-        "percent": 24.10896,
-        "raw_percent": 24.10896,
-        "coverage_percent": 24.10896,
-        "member_count": 3,
-        "members": [
-          "respectful",
-          "courteous",
-          "polite"
-        ],
+        "descriptor": "rivalrous",
+        "amplitude": 0.5001313194,
+        "abs_amplitude": 0.5001313194,
+        "percent": 46.855987,
+        "weighted_support": 2.80738514,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 1745,
             "name": "Heiji Hattori",
-            "native_name": "服部平次",
             "anime": "Case Closed: The Jet Black Chaser",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
             "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.2352002455,
-            "similarity": 1.0,
-            "matched_descriptor": "respectful"
+            "combined_favourites": 973
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0393075829,
-        "abs_amplitude": 0.0393075829,
-        "raw_amplitude": 0.1179227487,
-        "percent": 12.08755,
-        "raw_percent": 12.08755,
-        "coverage_percent": 36.19651,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
+        "descriptor": "loyal",
+        "amplitude": 0.567248443,
+        "abs_amplitude": 0.567248443,
+        "percent": 53.144013,
+        "weighted_support": 2.80738514,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 1745,
             "name": "Heiji Hattori",
-            "native_name": "服部平次",
             "anime": "Case Closed: The Jet Black Chaser",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
             "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.1179227487,
-            "similarity": 1.0,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "volunteer / humanitarian",
-        "descriptor_index": 8411,
-        "amplitude": 0.0241294935,
-        "abs_amplitude": 0.0241294935,
-        "raw_amplitude": 0.0723884805,
-        "percent": 7.420107,
-        "raw_percent": 7.420107,
-        "coverage_percent": 43.616617,
-        "member_count": 2,
-        "members": [
-          "volunteer",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0723884806,
-            "similarity": 0.861211,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "well-mannered / pleasant / formal / gentleman-like",
-        "descriptor_index": 8529,
-        "amplitude": 0.0202747336,
-        "abs_amplitude": 0.0202747336,
-        "raw_amplitude": 0.0608242008,
-        "percent": 6.234722,
-        "raw_percent": 6.234722,
-        "coverage_percent": 49.851339,
-        "member_count": 4,
-        "members": [
-          "well-mannered",
-          "pleasant",
-          "formal",
-          "gentleman-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0608242008,
-            "similarity": 0.898913,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "honorable / respectable / principled",
-        "descriptor_index": 3561,
-        "amplitude": 0.0177847065,
-        "abs_amplitude": 0.0177847065,
-        "raw_amplitude": 0.0533541195,
-        "percent": 5.469009,
-        "raw_percent": 5.469009,
-        "coverage_percent": 55.320348,
-        "member_count": 3,
-        "members": [
-          "honorable",
-          "respectable",
-          "principled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0533541195,
-            "similarity": 0.885464,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "useful",
-        "descriptor_index": 8262,
-        "amplitude": 0.016046953,
-        "abs_amplitude": 0.016046953,
-        "raw_amplitude": 0.048140859,
-        "percent": 4.934629,
-        "raw_percent": 4.934629,
-        "coverage_percent": 60.254977,
-        "member_count": 1,
-        "members": [
-          "useful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.048140859,
-            "similarity": 0.882858,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "favor-seeking",
-        "descriptor_index": 2476,
-        "amplitude": 0.0127553337,
-        "abs_amplitude": 0.0127553337,
-        "raw_amplitude": 0.038266001,
-        "percent": 3.922417,
-        "raw_percent": 3.922417,
-        "coverage_percent": 64.177395,
-        "member_count": 1,
-        "members": [
-          "favor-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.038266001,
-            "similarity": 0.864875,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "receptive / accepting",
-        "descriptor_index": 6156,
-        "amplitude": 0.0122516661,
-        "abs_amplitude": 0.0122516661,
-        "raw_amplitude": 0.0367549983,
-        "percent": 3.767533,
-        "raw_percent": 3.767533,
-        "coverage_percent": 67.944928,
-        "member_count": 2,
-        "members": [
-          "receptive",
-          "accepting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0367549983,
-            "similarity": 0.864486,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "reliant / needy",
-        "descriptor_index": 6219,
-        "amplitude": 0.0106132798,
-        "abs_amplitude": 0.0106132798,
-        "raw_amplitude": 0.0318398395,
-        "percent": 3.26371,
-        "raw_percent": 3.26371,
-        "coverage_percent": 71.208638,
-        "member_count": 2,
-        "members": [
-          "reliant",
-          "needy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0318398395,
-            "similarity": 0.864709,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "honor-bound",
-        "descriptor_index": 3560,
-        "amplitude": 0.0105204767,
-        "abs_amplitude": 0.0105204767,
-        "raw_amplitude": 0.0315614301,
-        "percent": 3.235172,
-        "raw_percent": 3.235172,
-        "coverage_percent": 74.44381,
-        "member_count": 1,
-        "members": [
-          "honor-bound"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0315614301,
-            "similarity": 0.886082,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "support-oriented",
-        "descriptor_index": 7531,
-        "amplitude": 0.0101468204,
-        "abs_amplitude": 0.0101468204,
-        "raw_amplitude": 0.0304404611,
-        "percent": 3.120268,
-        "raw_percent": 3.120268,
-        "coverage_percent": 77.564078,
-        "member_count": 1,
-        "members": [
-          "support-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0304404611,
-            "similarity": 0.869585,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "willing / prepared",
-        "descriptor_index": 8562,
-        "amplitude": 0.0092468158,
-        "abs_amplitude": 0.0092468158,
-        "raw_amplitude": 0.0277404474,
-        "percent": 2.843506,
-        "raw_percent": 2.843506,
-        "coverage_percent": 80.407584,
-        "member_count": 2,
-        "members": [
-          "willing",
-          "prepared"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0277404474,
-            "similarity": 0.840022,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "dignified",
-        "descriptor_index": 1810,
-        "amplitude": 0.0088871422,
-        "abs_amplitude": 0.0088871422,
-        "raw_amplitude": 0.0266614265,
-        "percent": 2.732902,
-        "raw_percent": 2.732902,
-        "coverage_percent": 83.140486,
-        "member_count": 1,
-        "members": [
-          "dignified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0266614265,
-            "similarity": 0.892994,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "solemn",
-        "descriptor_index": 7074,
-        "amplitude": 0.0082204232,
-        "abs_amplitude": 0.0082204232,
-        "raw_amplitude": 0.0246612696,
-        "percent": 2.527878,
-        "raw_percent": 2.527878,
-        "coverage_percent": 85.668364,
-        "member_count": 1,
-        "members": [
-          "solemn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0246612696,
-            "similarity": 0.88897,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "admirable / admiration-worthy",
-        "descriptor_index": 76,
-        "amplitude": 0.0062147345,
-        "abs_amplitude": 0.0062147345,
-        "raw_amplitude": 0.0186442034,
-        "percent": 1.911105,
-        "raw_percent": 1.911105,
-        "coverage_percent": 87.579469,
-        "member_count": 2,
-        "members": [
-          "admirable",
-          "admiration-worthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0186442034,
-            "similarity": 0.856802,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0046775395,
-        "abs_amplitude": 0.0046775395,
-        "raw_amplitude": 0.0140326184,
-        "percent": 1.438399,
-        "raw_percent": 1.438399,
-        "coverage_percent": 89.017868,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0140326184,
-            "similarity": 0.85142,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "condescending",
-        "descriptor_index": 1355,
-        "amplitude": 0.0037281839,
-        "abs_amplitude": 0.0037281839,
-        "raw_amplitude": 0.0111845516,
-        "percent": 1.146461,
-        "raw_percent": 1.146461,
-        "coverage_percent": 90.164329,
-        "member_count": 1,
-        "members": [
-          "condescending"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0111845516,
-            "similarity": 0.882292,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0036456606,
-        "abs_amplitude": 0.0036456606,
-        "raw_amplitude": 0.0109369817,
-        "percent": 1.121084,
-        "raw_percent": 1.121084,
-        "coverage_percent": 91.285414,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0109369817,
-            "similarity": 0.812529,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "open",
-        "descriptor_index": 5327,
-        "amplitude": 0.0036346917,
-        "abs_amplitude": 0.0036346917,
-        "raw_amplitude": 0.0109040751,
-        "percent": 1.117711,
-        "raw_percent": 1.117711,
-        "coverage_percent": 92.403125,
-        "member_count": 1,
-        "members": [
-          "open"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0109040751,
-            "similarity": 0.846133,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "tolerant",
-        "descriptor_index": 7862,
-        "amplitude": 0.003535496,
-        "abs_amplitude": 0.003535496,
-        "raw_amplitude": 0.0106064879,
-        "percent": 1.087207,
-        "raw_percent": 1.087207,
-        "coverage_percent": 93.490332,
-        "member_count": 1,
-        "members": [
-          "tolerant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0106064879,
-            "similarity": 0.866346,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "respected",
-        "descriptor_index": 6263,
-        "amplitude": 0.0028755155,
-        "abs_amplitude": 0.0028755155,
-        "raw_amplitude": 0.0086265466,
-        "percent": 0.884255,
-        "raw_percent": 0.884255,
-        "coverage_percent": 94.374587,
-        "member_count": 1,
-        "members": [
-          "respected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0086265466,
-            "similarity": 0.855829,
-            "matched_descriptor": "respectful"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "conservative",
-        "descriptor_index": 1381,
-        "amplitude": 0.0027024239,
-        "abs_amplitude": 0.0027024239,
-        "raw_amplitude": 0.0081072717,
-        "percent": 0.831028,
-        "raw_percent": 0.831028,
-        "coverage_percent": 95.205615,
-        "member_count": 1,
-        "members": [
-          "conservative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 1745,
-            "name": "Heiji Hattori",
-            "native_name": "服部平次",
-            "anime": "Case Closed: The Jet Black Chaser",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
-            "site_url": "https://anilist.co/character/1745",
-            "anime_url": "https://myanimelist.net/anime/5460",
-            "role": "SUPPORTING",
-            "favourites": 869,
-            "row_weight": 2.78720168,
-            "projection": 0.0081072717,
-            "similarity": 0.872366,
-            "matched_descriptor": "respectful"
+            "combined_favourites": 973
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "haughty / arrogant / snobbish / pompous / +8",
-        "descriptor_index": 3376,
-        "amplitude": 0.0318486762,
-        "abs_amplitude": 0.0318486762,
-        "raw_amplitude": 0.0955460287,
-        "percent": 43.49324,
-        "raw_percent": 43.49324,
-        "coverage_percent": 43.49324,
-        "member_count": 12,
-        "members": [
-          "haughty",
-          "arrogant",
-          "snobbish",
-          "pompous",
-          "contemptuous",
-          "condescending",
-          "disdainful",
-          "snooty",
-          "prideful",
-          "holier-than-thou",
-          "smug",
-          "judgmental"
-        ],
+        "step": 1,
+        "descriptor": "rivalrous",
+        "weighted_support": 2.80738514,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0955460287,
-            "similarity": 1.0,
-            "matched_descriptor": "haughty / arrogant"
-          }
-        ]
+        "fit_percent": 87.534152,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "egotistic / egotistical / narcissistic / self-centered / +1",
-        "descriptor_index": 2068,
-        "amplitude": 0.0032821766,
-        "abs_amplitude": 0.0032821766,
-        "raw_amplitude": 0.0098465299,
-        "percent": 4.482211,
-        "raw_percent": 4.482211,
-        "coverage_percent": 47.975451,
-        "member_count": 5,
-        "members": [
-          "egotistic",
-          "egotistical",
-          "narcissistic",
-          "self-centered",
-          "egoistic"
-        ],
+        "step": 2,
+        "descriptor": "loyal",
+        "weighted_support": 2.80738514,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0098465298,
-            "similarity": 0.899666,
-            "matched_descriptor": "haughty"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "superior",
-        "descriptor_index": 7507,
-        "amplitude": 0.0032598664,
-        "abs_amplitude": 0.0032598664,
-        "raw_amplitude": 0.0097795992,
-        "percent": 4.451744,
-        "raw_percent": 4.451744,
-        "coverage_percent": 52.427195,
-        "member_count": 1,
-        "members": [
-          "superior"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0097795992,
-            "similarity": 0.952712,
-            "matched_descriptor": "superiority"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "ace / outstanding",
-        "descriptor_index": 47,
-        "amplitude": 0.0025672681,
-        "abs_amplitude": 0.0025672681,
-        "raw_amplitude": 0.0077018044,
-        "percent": 3.505917,
-        "raw_percent": 3.505917,
-        "coverage_percent": 55.933112,
-        "member_count": 2,
-        "members": [
-          "ace",
-          "outstanding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0077018044,
-            "similarity": 0.893281,
-            "matched_descriptor": "superiority"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "excellent / distinguished / fantastic-grades",
-        "descriptor_index": 2252,
-        "amplitude": 0.0022419785,
-        "abs_amplitude": 0.0022419785,
-        "raw_amplitude": 0.0067259354,
-        "percent": 3.061694,
-        "raw_percent": 3.061694,
-        "coverage_percent": 58.994806,
-        "member_count": 3,
-        "members": [
-          "excellent",
-          "distinguished",
-          "fantastic-grades"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0067259355,
-            "similarity": 0.869614,
-            "matched_descriptor": "superiority"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "irreverent / derisive / snide",
-        "descriptor_index": 4013,
-        "amplitude": 0.0021002028,
-        "abs_amplitude": 0.0021002028,
-        "raw_amplitude": 0.0063006085,
-        "percent": 2.868082,
-        "raw_percent": 2.868082,
-        "coverage_percent": 61.862888,
-        "member_count": 3,
-        "members": [
-          "irreverent",
-          "derisive",
-          "snide"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0063006085,
-            "similarity": 0.888466,
-            "matched_descriptor": "haughty"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "scorned / selfish-hating",
-        "descriptor_index": 6525,
-        "amplitude": 0.0019026177,
-        "abs_amplitude": 0.0019026177,
-        "raw_amplitude": 0.0057078531,
-        "percent": 2.598256,
-        "raw_percent": 2.598256,
-        "coverage_percent": 64.461144,
-        "member_count": 2,
-        "members": [
-          "scorned",
-          "selfish-hating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.005707853,
-            "similarity": 0.894314,
-            "matched_descriptor": "haughty"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "peerless / transcendent",
-        "descriptor_index": 5516,
-        "amplitude": 0.0016310564,
-        "abs_amplitude": 0.0016310564,
-        "raw_amplitude": 0.0048931693,
-        "percent": 2.227406,
-        "raw_percent": 2.227406,
-        "coverage_percent": 66.68855,
-        "member_count": 2,
-        "members": [
-          "peerless",
-          "transcendent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0048931693,
-            "similarity": 0.853856,
-            "matched_descriptor": "superiority"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "cocky / vain",
-        "descriptor_index": 1214,
-        "amplitude": 0.0016192721,
-        "abs_amplitude": 0.0016192721,
-        "raw_amplitude": 0.0048578163,
-        "percent": 2.211313,
-        "raw_percent": 2.211313,
-        "coverage_percent": 68.899863,
-        "member_count": 2,
-        "members": [
-          "cocky",
-          "vain"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0048578163,
-            "similarity": 0.893724,
-            "matched_descriptor": "haughty / arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0014996331,
-        "abs_amplitude": 0.0014996331,
-        "raw_amplitude": 0.0044988993,
-        "percent": 2.047931,
-        "raw_percent": 2.047931,
-        "coverage_percent": 70.947794,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0044988992,
-            "similarity": 0.899785,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "scarred",
-        "descriptor_index": 6479,
-        "amplitude": 0.001288761,
-        "abs_amplitude": 0.001288761,
-        "raw_amplitude": 0.003866283,
-        "percent": 1.75996,
-        "raw_percent": 1.75996,
-        "coverage_percent": 72.707754,
-        "member_count": 1,
-        "members": [
-          "scarred"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.003866283,
-            "similarity": 0.855685,
-            "matched_descriptor": "eye patch"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "untrained / uninitiated / inexperienced",
-        "descriptor_index": 8235,
-        "amplitude": 0.0012527566,
-        "abs_amplitude": 0.0012527566,
-        "raw_amplitude": 0.0037582698,
-        "percent": 1.710791,
-        "raw_percent": 1.710791,
-        "coverage_percent": 74.418545,
-        "member_count": 3,
-        "members": [
-          "untrained",
-          "uninitiated",
-          "inexperienced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0037582699,
-            "similarity": 0.834434,
-            "matched_descriptor": "training"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "trained",
-        "descriptor_index": 7948,
-        "amplitude": 0.0011983602,
-        "abs_amplitude": 0.0011983602,
-        "raw_amplitude": 0.0035950806,
-        "percent": 1.636507,
-        "raw_percent": 1.636507,
-        "coverage_percent": 76.055052,
-        "member_count": 1,
-        "members": [
-          "trained"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0035950806,
-            "similarity": 0.869292,
-            "matched_descriptor": "training"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unsympathetic / air-head / icy",
-        "descriptor_index": 8231,
-        "amplitude": 0.0011679162,
-        "abs_amplitude": 0.0011679162,
-        "raw_amplitude": 0.0035037486,
-        "percent": 1.594932,
-        "raw_percent": 1.594932,
-        "coverage_percent": 77.649983,
-        "member_count": 3,
-        "members": [
-          "unsympathetic",
-          "air-head",
-          "icy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0035037485,
-            "similarity": 0.892456,
-            "matched_descriptor": "haughty / arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "prepared / willing",
-        "descriptor_index": 5831,
-        "amplitude": 0.0011633465,
-        "abs_amplitude": 0.0011633465,
-        "raw_amplitude": 0.0034900396,
-        "percent": 1.588691,
-        "raw_percent": 1.588691,
-        "coverage_percent": 79.238674,
-        "member_count": 2,
-        "members": [
-          "prepared",
-          "willing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0034900396,
-            "similarity": 0.836206,
-            "matched_descriptor": "training"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "uninhibited / composed",
-        "descriptor_index": 8148,
-        "amplitude": 0.0009974494,
-        "abs_amplitude": 0.0009974494,
-        "raw_amplitude": 0.0029923481,
-        "percent": 1.362138,
-        "raw_percent": 1.362138,
-        "coverage_percent": 80.600813,
-        "member_count": 2,
-        "members": [
-          "uninhibited",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0029923481,
-            "similarity": 0.893679,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "b-rank",
-        "descriptor_index": 504,
-        "amplitude": 0.0009828383,
-        "abs_amplitude": 0.0009828383,
-        "raw_amplitude": 0.0029485148,
-        "percent": 1.342185,
-        "raw_percent": 1.342185,
-        "coverage_percent": 81.942998,
-        "member_count": 1,
-        "members": [
-          "b-rank"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0029485148,
-            "similarity": 0.864845,
-            "matched_descriptor": "superiority"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "action-oriented / busy / proactive / initiative",
-        "descriptor_index": 61,
-        "amplitude": 0.0009064799,
-        "abs_amplitude": 0.0009064799,
-        "raw_amplitude": 0.0027194396,
-        "percent": 1.237908,
-        "raw_percent": 1.237908,
-        "coverage_percent": 83.180906,
-        "member_count": 4,
-        "members": [
-          "action-oriented",
-          "busy",
-          "proactive",
-          "initiative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0027194396,
-            "similarity": 0.839114,
-            "matched_descriptor": "training"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "sassy / conceited",
-        "descriptor_index": 6466,
-        "amplitude": 0.0008578863,
-        "abs_amplitude": 0.0008578863,
-        "raw_amplitude": 0.0025736589,
-        "percent": 1.171548,
-        "raw_percent": 1.171548,
-        "coverage_percent": 84.352454,
-        "member_count": 2,
-        "members": [
-          "sassy",
-          "conceited"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0025736589,
-            "similarity": 0.886085,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "militaristic",
-        "descriptor_index": 4800,
-        "amplitude": 0.0007924726,
-        "abs_amplitude": 0.0007924726,
-        "raw_amplitude": 0.0023774177,
-        "percent": 1.082218,
-        "raw_percent": 1.082218,
-        "coverage_percent": 85.434672,
-        "member_count": 1,
-        "members": [
-          "militaristic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0023774177,
-            "similarity": 0.835618,
-            "matched_descriptor": "eye patch"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "improving",
-        "descriptor_index": 3793,
-        "amplitude": 0.0007769269,
-        "abs_amplitude": 0.0007769269,
-        "raw_amplitude": 0.0023307808,
-        "percent": 1.060988,
-        "raw_percent": 1.060988,
-        "coverage_percent": 86.49566,
-        "member_count": 1,
-        "members": [
-          "improving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0023307808,
-            "similarity": 0.839804,
-            "matched_descriptor": "training"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "stronger",
-        "descriptor_index": 7374,
-        "amplitude": 0.0007430358,
-        "abs_amplitude": 0.0007430358,
-        "raw_amplitude": 0.0022291073,
-        "percent": 1.014706,
-        "raw_percent": 1.014706,
-        "coverage_percent": 87.510366,
-        "member_count": 1,
-        "members": [
-          "stronger"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0022291073,
-            "similarity": 0.848871,
-            "matched_descriptor": "superiority"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "spiteful / resentful / grudge-bearing",
-        "descriptor_index": 7183,
-        "amplitude": 0.0007294768,
-        "abs_amplitude": 0.0007294768,
-        "raw_amplitude": 0.0021884305,
-        "percent": 0.996189,
-        "raw_percent": 0.996189,
-        "coverage_percent": 88.506555,
-        "member_count": 3,
-        "members": [
-          "spiteful",
-          "resentful",
-          "grudge-bearing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0021884305,
-            "similarity": 0.877438,
-            "matched_descriptor": "haughty"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "passive-aggressive",
-        "descriptor_index": 5487,
-        "amplitude": 0.0006669052,
-        "abs_amplitude": 0.0006669052,
-        "raw_amplitude": 0.0020007156,
-        "percent": 0.91074,
-        "raw_percent": 0.91074,
-        "coverage_percent": 89.417295,
-        "member_count": 1,
-        "members": [
-          "passive-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0020007156,
-            "similarity": 0.880624,
-            "matched_descriptor": "haughty"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "rank-agnostic",
-        "descriptor_index": 6116,
-        "amplitude": 0.0006273651,
-        "abs_amplitude": 0.0006273651,
-        "raw_amplitude": 0.0018820952,
-        "percent": 0.856743,
-        "raw_percent": 0.856743,
-        "coverage_percent": 90.274039,
-        "member_count": 1,
-        "members": [
-          "rank-agnostic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 913,
-            "name": "Vegeta",
-            "native_name": "ベジータ",
-            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
-            "site_url": "https://anilist.co/character/913",
-            "anime_url": "https://myanimelist.net/anime/56894",
-            "role": "SUPPORTING",
-            "favourites": 7324,
-            "row_weight": 2.22475262,
-            "projection": 0.0018820952,
-            "similarity": 0.83985,
-            "matched_descriptor": "superiority"
-          }
-        ]
+        "fit_percent": 97.324759,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 1745,
         "name": "Heiji Hattori",
-        "native_name": "服部平次",
         "anime": "Case Closed: The Jet Black Chaser",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
         "site_url": "https://anilist.co/character/1745",
-        "anime_url": "https://myanimelist.net/anime/5460",
-        "role": "SUPPORTING",
         "favourites": 869,
-        "row_weight": 2.78720168,
-        "amplitude": 0.9755719434,
-        "abs_amplitude": 0.9755719434,
-        "percent": 95.174062
+        "anilist_favourites": 869,
+        "bangumi_collects": 104,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 7056,
+        "bangumi_url": "https://bgm.tv/character/7056",
+        "combined_favourites": 973,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "rivalrous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.80738514,
+        "row_weight": 2.80738514,
+        "unweighted_row_norm": 1.82288593,
+        "amplitude": 0.7996015014,
+        "abs_amplitude": 0.7996015014,
+        "percent": 63.936256
       },
       {
         "character_id": 913,
         "name": "Vegeta",
-        "native_name": "ベジータ",
         "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
         "site_url": "https://anilist.co/character/913",
-        "anime_url": "https://myanimelist.net/anime/56894",
-        "role": "SUPPORTING",
         "favourites": 7324,
-        "row_weight": 2.22475262,
-        "amplitude": -0.219680184,
-        "abs_amplitude": 0.219680184,
-        "percent": 4.825938
+        "anilist_favourites": 7324,
+        "bangumi_collects": 92,
+        "bangumi_comments": 25,
+        "bangumi_character_id": 1684,
+        "bangumi_url": "https://bgm.tv/character/1684",
+        "combined_favourites": 7416,
+        "role_edge_count": 2,
+        "descriptors": [
+          "haughty",
+          "prideful",
+          "strong-willed"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.14825824,
+        "row_weight": 2.22615475,
+        "unweighted_row_norm": 2.61941784,
+        "amplitude": 0.6005309642,
+        "abs_amplitude": 0.6005309642,
+        "percent": 36.063744
       }
     ],
     "positive_characters": [
       {
         "character_id": 1745,
         "name": "Heiji Hattori",
-        "native_name": "服部平次",
         "anime": "Case Closed: The Jet Black Chaser",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
         "site_url": "https://anilist.co/character/1745",
-        "anime_url": "https://myanimelist.net/anime/5460",
-        "role": "SUPPORTING",
         "favourites": 869,
-        "row_weight": 2.78720168,
-        "amplitude": 0.9755719434,
-        "abs_amplitude": 0.9755719434,
-        "percent": 95.174062
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 869,
+        "bangumi_collects": 104,
+        "bangumi_comments": 16,
+        "bangumi_character_id": 7056,
+        "bangumi_url": "https://bgm.tv/character/7056",
+        "combined_favourites": 973,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "rivalrous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.80738514,
+        "row_weight": 2.80738514,
+        "unweighted_row_norm": 1.82288593,
+        "amplitude": 0.7996015014,
+        "abs_amplitude": 0.7996015014,
+        "percent": 63.936256
+      },
       {
         "character_id": 913,
         "name": "Vegeta",
-        "native_name": "ベジータ",
         "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
         "site_url": "https://anilist.co/character/913",
-        "anime_url": "https://myanimelist.net/anime/56894",
-        "role": "SUPPORTING",
         "favourites": 7324,
-        "row_weight": 2.22475262,
-        "amplitude": -0.219680184,
-        "abs_amplitude": 0.219680184,
-        "percent": 4.825938
+        "anilist_favourites": 7324,
+        "bangumi_collects": 92,
+        "bangumi_comments": 25,
+        "bangumi_character_id": 1684,
+        "bangumi_url": "https://bgm.tv/character/1684",
+        "combined_favourites": 7416,
+        "role_edge_count": 2,
+        "descriptors": [
+          "haughty",
+          "prideful",
+          "strong-willed"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 3.14825824,
+        "row_weight": 2.22615475,
+        "unweighted_row_norm": 2.61941784,
+        "amplitude": 0.6005309642,
+        "abs_amplitude": 0.6005309642,
+        "percent": 36.063744
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.855825,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.081814968,
+      "mass_percent": 9.116675,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 42.272763,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "haughty",
+            "amplitude": 0.3435147529,
+            "abs_amplitude": 0.3435147529,
+            "percent": 75.227501
+          },
+          {
+            "rank": 2,
+            "descriptor": "strong-willed",
+            "amplitude": 0.1131197886,
+            "abs_amplitude": 0.1131197886,
+            "percent": 24.772499
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "haughty",
+            "fit_percent": 41.323546,
+            "residual_gain_percent": 17.076354
+          },
+          {
+            "step": 2,
+            "descriptor": "strong-willed",
+            "fit_percent": 42.272763,
+            "residual_gain_percent": 0.956918
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 913,
+            "name": "Vegeta",
+            "anime": "Dragon Ball: Yo! Son Goku and His Friends Return!!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b913-NIFkKazWM8VO.png",
+            "site_url": "https://anilist.co/character/913",
+            "favourites": 7324,
+            "anilist_favourites": 7324,
+            "bangumi_collects": 92,
+            "bangumi_comments": 25,
+            "bangumi_character_id": 1684,
+            "bangumi_url": "https://bgm.tv/character/1684",
+            "combined_favourites": 7416,
+            "role_edge_count": 2,
+            "descriptors": [
+              "haughty",
+              "prideful",
+              "strong-willed"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 3.14825824,
+            "row_weight": 2.22615475,
+            "unweighted_row_norm": 2.61941784,
+            "amplitude": 0.7996015014,
+            "abs_amplitude": 0.7996015014,
+            "percent": 63.936256
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 25.86808,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "rivalrous",
+            "amplitude": 0.2586807998,
+            "abs_amplitude": 0.2586807998,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "rivalrous",
+            "fit_percent": 25.86808,
+            "residual_gain_percent": 6.691576
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 1745,
+            "name": "Heiji Hattori",
+            "anime": "Case Closed: The Jet Black Chaser",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b1745-EleoviDvO7qh.jpg",
+            "site_url": "https://anilist.co/character/1745",
+            "favourites": 869,
+            "anilist_favourites": 869,
+            "bangumi_collects": 104,
+            "bangumi_comments": 16,
+            "bangumi_character_id": 7056,
+            "bangumi_url": "https://bgm.tv/character/7056",
+            "combined_favourites": 973,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal",
+              "rivalrous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.80738514,
+            "row_weight": 2.80738514,
+            "unweighted_row_norm": 1.82288593,
+            "amplitude": -0.6005309642,
+            "abs_amplitude": 0.6005309642,
+            "percent": 36.063744
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.4156774803,
+      "mass_percent": 90.883325,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.081814968,
+      "mass_percent": 9.116675,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

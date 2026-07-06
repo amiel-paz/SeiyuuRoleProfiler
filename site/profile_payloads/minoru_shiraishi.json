@@ -11,2011 +11,337 @@
     "minoru shiraishi",
     "shiraishi minoru"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/minoru_shiraishi.json",
+  "sv1_mass_percent": 87.739825,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.8179676252,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.8179676252,
-        "mass_percent": 85.27932
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.4172043617,
-        "mass_percent": 14.72068
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 297.190161,
-      "normalized_entanglement": 0.773933,
-      "top5_mass_percent": 3.791973,
-      "top10_mass_percent": 6.654077
-    },
-    "character_participation": {
-      "effective_count": 1.035485,
-      "normalized_entanglement": 0.517742,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.412569,
-      "semantic_spread": 1.412569,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.864728,
-      "direction_spread": 0.864728,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 85.27932,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.6311370496,
+    "mass_percent": 87.925077,
+    "descriptor_fit_percent": 95.579773,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "condescending / snobbish / haughty / disdainful / +7",
-        "descriptor_index": 1355,
-        "amplitude": 0.2185522264,
-        "abs_amplitude": 0.2185522264,
-        "raw_amplitude": 0.6556566791,
-        "percent": 57.804781,
-        "raw_percent": 58.368932,
-        "coverage_percent": 57.804781,
-        "member_count": 11,
-        "members": [
-          "condescending",
-          "snobbish",
-          "haughty",
-          "disdainful",
-          "contemptuous",
-          "arrogant",
-          "pompous",
-          "snooty",
-          "holier-than-thou",
-          "judgmental",
-          "gruff"
-        ],
+        "descriptor": "condescending",
+        "amplitude": 0.9557977327,
+        "abs_amplitude": 0.9557977327,
+        "percent": 100.0,
+        "weighted_support": 2.92315943,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 41069,
             "name": "Sakamoto",
-            "native_name": "阪本",
             "anime": "Nichijou - My Ordinary Life: Episode 0",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
             "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.6556566792,
-            "similarity": 0.999999,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "prideful / sassy / smug / vain / +3",
-        "descriptor_index": 5840,
-        "amplitude": 0.0290754443,
-        "abs_amplitude": 0.0290754443,
-        "raw_amplitude": 0.0872263328,
-        "percent": 7.690151,
-        "raw_percent": 7.765204,
-        "coverage_percent": 65.494932,
-        "member_count": 7,
-        "members": [
-          "prideful",
-          "sassy",
-          "smug",
-          "vain",
-          "cocky",
-          "egotistic",
-          "egotistical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0872263327,
-            "similarity": 0.894715,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "freewheeling",
-        "descriptor_index": 2798,
-        "amplitude": 0.0117035458,
-        "abs_amplitude": 0.0117035458,
-        "raw_amplitude": 0.0351106374,
-        "percent": 3.095466,
-        "raw_percent": 3.125676,
-        "coverage_percent": 68.590397,
-        "member_count": 1,
-        "members": [
-          "freewheeling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0351106374,
-            "similarity": 0.893239,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "free-minded",
-        "descriptor_index": 2785,
-        "amplitude": 0.0105233206,
-        "abs_amplitude": 0.0105233206,
-        "raw_amplitude": 0.0315699617,
-        "percent": 2.783308,
-        "raw_percent": 2.810472,
-        "coverage_percent": 71.373706,
-        "member_count": 1,
-        "members": [
-          "free-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0315699617,
-            "similarity": 0.894981,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "courteous / respectful",
-        "descriptor_index": 1469,
-        "amplitude": 0.0102561163,
-        "abs_amplitude": 0.0102561163,
-        "raw_amplitude": 0.0307683489,
-        "percent": 2.712636,
-        "raw_percent": 2.73911,
-        "coverage_percent": 74.086341,
-        "member_count": 2,
-        "members": [
-          "courteous",
-          "respectful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0307683489,
-            "similarity": 0.890597,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "cat-like",
-        "descriptor_index": 986,
-        "amplitude": 0.0095471025,
-        "abs_amplitude": 0.0095471025,
-        "raw_amplitude": 0.0286413074,
-        "percent": 2.525109,
-        "raw_percent": 2.549753,
-        "coverage_percent": 76.61145,
-        "member_count": 1,
-        "members": [
-          "cat-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0286413074,
-            "similarity": 0.88539,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "frightened / terrified / afraid / scared / +5",
-        "descriptor_index": 2834,
-        "amplitude": 0.0083147193,
-        "abs_amplitude": 0.0083147193,
-        "raw_amplitude": 0.0249441578,
-        "percent": 2.199156,
-        "raw_percent": 2.220619,
-        "coverage_percent": 78.810607,
-        "member_count": 9,
-        "members": [
-          "frightened",
-          "terrified",
-          "afraid",
-          "scared",
-          "horrified",
-          "worried",
-          "fearful",
-          "skittish",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0249441578,
-            "similarity": 1.0,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "irreverent / snide / abrasive / derisive / +2",
-        "descriptor_index": 4013,
-        "amplitude": 0.0077792532,
-        "abs_amplitude": 0.0077792532,
-        "raw_amplitude": 0.0214915663,
-        "percent": 2.057531,
-        "raw_percent": 1.913257,
-        "coverage_percent": 80.868138,
-        "member_count": 6,
-        "members": [
-          "irreverent",
-          "snide",
-          "abrasive",
-          "derisive",
-          "ill-mannered",
-          "rude stubborn"
-        ],
-        "support": 2,
-        "effective_support": 1.085903,
-        "support_factor": 0.361968,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.020604914,
-            "similarity": 0.881149,
-            "matched_descriptor": "condescending"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0008866523,
-            "similarity": 0.867908,
-            "matched_descriptor": "annoying"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0075058016,
-        "abs_amplitude": 0.0075058016,
-        "raw_amplitude": 0.0190107139,
-        "percent": 1.985206,
-        "raw_percent": 1.692403,
-        "coverage_percent": 82.853344,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 2,
-        "effective_support": 1.184459,
-        "support_factor": 0.39482,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0173927135,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          },
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0016180005,
-            "similarity": 0.850681,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0072121362,
-        "abs_amplitude": 0.0072121362,
-        "raw_amplitude": 0.0216364087,
-        "percent": 1.907535,
-        "raw_percent": 1.926151,
-        "coverage_percent": 84.760879,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0216364087,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0062535373,
-        "abs_amplitude": 0.0062535373,
-        "raw_amplitude": 0.0187606118,
-        "percent": 1.653995,
-        "raw_percent": 1.670138,
-        "coverage_percent": 86.414874,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0187606118,
-            "similarity": 0.884642,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "instinctive",
-        "descriptor_index": 3931,
-        "amplitude": 0.005265615,
-        "abs_amplitude": 0.005265615,
-        "raw_amplitude": 0.015796845,
-        "percent": 1.3927,
-        "raw_percent": 1.406292,
-        "coverage_percent": 87.807574,
-        "member_count": 1,
-        "members": [
-          "instinctive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.015796845,
-            "similarity": 0.868364,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "solemn",
-        "descriptor_index": 7074,
-        "amplitude": 0.0049257962,
-        "abs_amplitude": 0.0049257962,
-        "raw_amplitude": 0.0147773885,
-        "percent": 1.302822,
-        "raw_percent": 1.315537,
-        "coverage_percent": 89.110396,
-        "member_count": 1,
-        "members": [
-          "solemn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0147773885,
-            "similarity": 0.885794,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "bouncy / active",
-        "descriptor_index": 777,
-        "amplitude": 0.0030954206,
-        "abs_amplitude": 0.0030954206,
-        "raw_amplitude": 0.0073421144,
-        "percent": 0.818706,
-        "raw_percent": 0.653622,
-        "coverage_percent": 89.929102,
-        "member_count": 2,
-        "members": [
-          "bouncy",
-          "active"
-        ],
-        "support": 2,
-        "effective_support": 1.264794,
-        "support_factor": 0.421598,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.006469947,
-            "similarity": 0.856732,
-            "matched_descriptor": "catlike habits"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0008721674,
-            "similarity": 0.873878,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "annoying / irritating / aggravated",
-        "descriptor_index": 264,
-        "amplitude": 0.0029346589,
-        "abs_amplitude": 0.0029346589,
-        "raw_amplitude": 0.0088039767,
-        "percent": 0.776187,
-        "raw_percent": 0.783762,
-        "coverage_percent": 90.705289,
-        "member_count": 3,
-        "members": [
-          "annoying",
-          "irritating",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0088039767,
-            "similarity": 1.0,
-            "matched_descriptor": "annoying"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "irritated / dissatisfied / impatient / annoyed / +4",
-        "descriptor_index": 4015,
-        "amplitude": 0.0026818585,
-        "abs_amplitude": 0.0026818585,
-        "raw_amplitude": 0.0080455756,
-        "percent": 0.709324,
-        "raw_percent": 0.716246,
-        "coverage_percent": 91.414612,
-        "member_count": 8,
-        "members": [
-          "irritated",
-          "dissatisfied",
-          "impatient",
-          "annoyed",
-          "displeased",
-          "frustrated",
-          "irritable",
-          "cranky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0080455756,
-            "similarity": 0.900045,
-            "matched_descriptor": "annoying"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "lighthearted / upbeat",
-        "descriptor_index": 4321,
-        "amplitude": 0.0024607868,
-        "abs_amplitude": 0.0024607868,
-        "raw_amplitude": 0.0064769491,
-        "percent": 0.650852,
-        "raw_percent": 0.576601,
-        "coverage_percent": 92.065465,
-        "member_count": 2,
-        "members": [
-          "lighthearted",
-          "upbeat"
-        ],
-        "support": 2,
-        "effective_support": 1.13979,
-        "support_factor": 0.37993,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0060518676,
-            "similarity": 0.874219,
-            "matched_descriptor": "catlike habits"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0004250815,
-            "similarity": 0.880152,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "unsympathetic / air-head",
-        "descriptor_index": 8231,
-        "amplitude": 0.002299898,
-        "abs_amplitude": 0.002299898,
-        "raw_amplitude": 0.0068996939,
-        "percent": 0.608299,
-        "raw_percent": 0.614236,
-        "coverage_percent": 92.673764,
-        "member_count": 2,
-        "members": [
-          "unsympathetic",
-          "air-head"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0068996938,
-            "similarity": 0.877382,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "entertainment-focused",
-        "descriptor_index": 2205,
-        "amplitude": 0.0021850861,
-        "abs_amplitude": 0.0021850861,
-        "raw_amplitude": 0.0065552584,
-        "percent": 0.577932,
-        "raw_percent": 0.583573,
-        "coverage_percent": 93.251696,
-        "member_count": 1,
-        "members": [
-          "entertainment-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0065552584,
-            "similarity": 0.856838,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "individualistic",
-        "descriptor_index": 3847,
-        "amplitude": 0.0018641853,
-        "abs_amplitude": 0.0018641853,
-        "raw_amplitude": 0.0055925559,
-        "percent": 0.493058,
-        "raw_percent": 0.49787,
-        "coverage_percent": 93.744754,
-        "member_count": 1,
-        "members": [
-          "individualistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0055925559,
-            "similarity": 0.863313,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "coquettish",
-        "descriptor_index": 1440,
-        "amplitude": 0.0016769476,
-        "abs_amplitude": 0.0016769476,
-        "raw_amplitude": 0.0050308428,
-        "percent": 0.443535,
-        "raw_percent": 0.447864,
-        "coverage_percent": 94.188289,
-        "member_count": 1,
-        "members": [
-          "coquettish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0050308428,
-            "similarity": 0.860096,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "feral",
-        "descriptor_index": 2509,
-        "amplitude": 0.0015756714,
-        "abs_amplitude": 0.0015756714,
-        "raw_amplitude": 0.0047270143,
-        "percent": 0.416749,
-        "raw_percent": 0.420816,
-        "coverage_percent": 94.605037,
-        "member_count": 1,
-        "members": [
-          "feral"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0047270143,
-            "similarity": 0.854558,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0014991873,
-        "abs_amplitude": 0.0014991873,
-        "raw_amplitude": 0.0023229635,
-        "percent": 0.396519,
-        "raw_percent": 0.206799,
-        "coverage_percent": 95.001557,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 2,
-        "effective_support": 1.936131,
-        "support_factor": 0.645377,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0013724366,
-            "similarity": 0.860655,
-            "matched_descriptor": "catlike habits"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0009505269,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
+            "combined_favourites": 1890
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "condescending / snobbish / haughty / disdainful / +7",
-        "descriptor_index": 1355,
-        "amplitude": 0.2185522264,
-        "abs_amplitude": 0.2185522264,
-        "raw_amplitude": 0.6556566791,
-        "percent": 57.804781,
-        "raw_percent": 58.368932,
-        "coverage_percent": 57.804781,
-        "member_count": 11,
-        "members": [
-          "condescending",
-          "snobbish",
-          "haughty",
-          "disdainful",
-          "contemptuous",
-          "arrogant",
-          "pompous",
-          "snooty",
-          "holier-than-thou",
-          "judgmental",
-          "gruff"
-        ],
+        "step": 1,
+        "descriptor": "condescending",
+        "weighted_support": 2.92315943,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.6556566792,
-            "similarity": 0.999999,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "prideful / sassy / smug / vain / +3",
-        "descriptor_index": 5840,
-        "amplitude": 0.0290754443,
-        "abs_amplitude": 0.0290754443,
-        "raw_amplitude": 0.0872263328,
-        "percent": 7.690151,
-        "raw_percent": 7.765204,
-        "coverage_percent": 65.494932,
-        "member_count": 7,
-        "members": [
-          "prideful",
-          "sassy",
-          "smug",
-          "vain",
-          "cocky",
-          "egotistic",
-          "egotistical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0872263327,
-            "similarity": 0.894715,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "freewheeling",
-        "descriptor_index": 2798,
-        "amplitude": 0.0117035458,
-        "abs_amplitude": 0.0117035458,
-        "raw_amplitude": 0.0351106374,
-        "percent": 3.095466,
-        "raw_percent": 3.125676,
-        "coverage_percent": 68.590397,
-        "member_count": 1,
-        "members": [
-          "freewheeling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0351106374,
-            "similarity": 0.893239,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "free-minded",
-        "descriptor_index": 2785,
-        "amplitude": 0.0105233206,
-        "abs_amplitude": 0.0105233206,
-        "raw_amplitude": 0.0315699617,
-        "percent": 2.783308,
-        "raw_percent": 2.810472,
-        "coverage_percent": 71.373706,
-        "member_count": 1,
-        "members": [
-          "free-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0315699617,
-            "similarity": 0.894981,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "courteous / respectful",
-        "descriptor_index": 1469,
-        "amplitude": 0.0102561163,
-        "abs_amplitude": 0.0102561163,
-        "raw_amplitude": 0.0307683489,
-        "percent": 2.712636,
-        "raw_percent": 2.73911,
-        "coverage_percent": 74.086341,
-        "member_count": 2,
-        "members": [
-          "courteous",
-          "respectful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0307683489,
-            "similarity": 0.890597,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "cat-like",
-        "descriptor_index": 986,
-        "amplitude": 0.0095471025,
-        "abs_amplitude": 0.0095471025,
-        "raw_amplitude": 0.0286413074,
-        "percent": 2.525109,
-        "raw_percent": 2.549753,
-        "coverage_percent": 76.61145,
-        "member_count": 1,
-        "members": [
-          "cat-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0286413074,
-            "similarity": 0.88539,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "frightened / terrified / afraid / scared / +5",
-        "descriptor_index": 2834,
-        "amplitude": 0.0083147193,
-        "abs_amplitude": 0.0083147193,
-        "raw_amplitude": 0.0249441578,
-        "percent": 2.199156,
-        "raw_percent": 2.220619,
-        "coverage_percent": 78.810607,
-        "member_count": 9,
-        "members": [
-          "frightened",
-          "terrified",
-          "afraid",
-          "scared",
-          "horrified",
-          "worried",
-          "fearful",
-          "skittish",
-          "anxious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0249441578,
-            "similarity": 1.0,
-            "matched_descriptor": "frightened"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "irreverent / snide / abrasive / derisive / +2",
-        "descriptor_index": 4013,
-        "amplitude": 0.0077792532,
-        "abs_amplitude": 0.0077792532,
-        "raw_amplitude": 0.0214915663,
-        "percent": 2.057531,
-        "raw_percent": 1.913257,
-        "coverage_percent": 80.868138,
-        "member_count": 6,
-        "members": [
-          "irreverent",
-          "snide",
-          "abrasive",
-          "derisive",
-          "ill-mannered",
-          "rude stubborn"
-        ],
-        "support": 2,
-        "effective_support": 1.085903,
-        "support_factor": 0.361968,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.020604914,
-            "similarity": 0.881149,
-            "matched_descriptor": "condescending"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0008866523,
-            "similarity": 0.867908,
-            "matched_descriptor": "annoying"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0075058016,
-        "abs_amplitude": 0.0075058016,
-        "raw_amplitude": 0.0190107139,
-        "percent": 1.985206,
-        "raw_percent": 1.692403,
-        "coverage_percent": 82.853344,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 2,
-        "effective_support": 1.184459,
-        "support_factor": 0.39482,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0173927135,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          },
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0016180005,
-            "similarity": 0.850681,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0072121362,
-        "abs_amplitude": 0.0072121362,
-        "raw_amplitude": 0.0216364087,
-        "percent": 1.907535,
-        "raw_percent": 1.926151,
-        "coverage_percent": 84.760879,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0216364087,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0062535373,
-        "abs_amplitude": 0.0062535373,
-        "raw_amplitude": 0.0187606118,
-        "percent": 1.653995,
-        "raw_percent": 1.670138,
-        "coverage_percent": 86.414874,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0187606118,
-            "similarity": 0.884642,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "instinctive",
-        "descriptor_index": 3931,
-        "amplitude": 0.005265615,
-        "abs_amplitude": 0.005265615,
-        "raw_amplitude": 0.015796845,
-        "percent": 1.3927,
-        "raw_percent": 1.406292,
-        "coverage_percent": 87.807574,
-        "member_count": 1,
-        "members": [
-          "instinctive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.015796845,
-            "similarity": 0.868364,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "solemn",
-        "descriptor_index": 7074,
-        "amplitude": 0.0049257962,
-        "abs_amplitude": 0.0049257962,
-        "raw_amplitude": 0.0147773885,
-        "percent": 1.302822,
-        "raw_percent": 1.315537,
-        "coverage_percent": 89.110396,
-        "member_count": 1,
-        "members": [
-          "solemn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0147773885,
-            "similarity": 0.885794,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "bouncy / active",
-        "descriptor_index": 777,
-        "amplitude": 0.0030954206,
-        "abs_amplitude": 0.0030954206,
-        "raw_amplitude": 0.0073421144,
-        "percent": 0.818706,
-        "raw_percent": 0.653622,
-        "coverage_percent": 89.929102,
-        "member_count": 2,
-        "members": [
-          "bouncy",
-          "active"
-        ],
-        "support": 2,
-        "effective_support": 1.264794,
-        "support_factor": 0.421598,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.006469947,
-            "similarity": 0.856732,
-            "matched_descriptor": "catlike habits"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0008721674,
-            "similarity": 0.873878,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "annoying / irritating / aggravated",
-        "descriptor_index": 264,
-        "amplitude": 0.0029346589,
-        "abs_amplitude": 0.0029346589,
-        "raw_amplitude": 0.0088039767,
-        "percent": 0.776187,
-        "raw_percent": 0.783762,
-        "coverage_percent": 90.705289,
-        "member_count": 3,
-        "members": [
-          "annoying",
-          "irritating",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0088039767,
-            "similarity": 1.0,
-            "matched_descriptor": "annoying"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "irritated / dissatisfied / impatient / annoyed / +4",
-        "descriptor_index": 4015,
-        "amplitude": 0.0026818585,
-        "abs_amplitude": 0.0026818585,
-        "raw_amplitude": 0.0080455756,
-        "percent": 0.709324,
-        "raw_percent": 0.716246,
-        "coverage_percent": 91.414612,
-        "member_count": 8,
-        "members": [
-          "irritated",
-          "dissatisfied",
-          "impatient",
-          "annoyed",
-          "displeased",
-          "frustrated",
-          "irritable",
-          "cranky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0080455756,
-            "similarity": 0.900045,
-            "matched_descriptor": "annoying"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "lighthearted / upbeat",
-        "descriptor_index": 4321,
-        "amplitude": 0.0024607868,
-        "abs_amplitude": 0.0024607868,
-        "raw_amplitude": 0.0064769491,
-        "percent": 0.650852,
-        "raw_percent": 0.576601,
-        "coverage_percent": 92.065465,
-        "member_count": 2,
-        "members": [
-          "lighthearted",
-          "upbeat"
-        ],
-        "support": 2,
-        "effective_support": 1.13979,
-        "support_factor": 0.37993,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0060518676,
-            "similarity": 0.874219,
-            "matched_descriptor": "catlike habits"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0004250815,
-            "similarity": 0.880152,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "unsympathetic / air-head",
-        "descriptor_index": 8231,
-        "amplitude": 0.002299898,
-        "abs_amplitude": 0.002299898,
-        "raw_amplitude": 0.0068996939,
-        "percent": 0.608299,
-        "raw_percent": 0.614236,
-        "coverage_percent": 92.673764,
-        "member_count": 2,
-        "members": [
-          "unsympathetic",
-          "air-head"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0068996938,
-            "similarity": 0.877382,
-            "matched_descriptor": "condescending"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "entertainment-focused",
-        "descriptor_index": 2205,
-        "amplitude": 0.0021850861,
-        "abs_amplitude": 0.0021850861,
-        "raw_amplitude": 0.0065552584,
-        "percent": 0.577932,
-        "raw_percent": 0.583573,
-        "coverage_percent": 93.251696,
-        "member_count": 1,
-        "members": [
-          "entertainment-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0065552584,
-            "similarity": 0.856838,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "individualistic",
-        "descriptor_index": 3847,
-        "amplitude": 0.0018641853,
-        "abs_amplitude": 0.0018641853,
-        "raw_amplitude": 0.0055925559,
-        "percent": 0.493058,
-        "raw_percent": 0.49787,
-        "coverage_percent": 93.744754,
-        "member_count": 1,
-        "members": [
-          "individualistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0055925559,
-            "similarity": 0.863313,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "coquettish",
-        "descriptor_index": 1440,
-        "amplitude": 0.0016769476,
-        "abs_amplitude": 0.0016769476,
-        "raw_amplitude": 0.0050308428,
-        "percent": 0.443535,
-        "raw_percent": 0.447864,
-        "coverage_percent": 94.188289,
-        "member_count": 1,
-        "members": [
-          "coquettish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0050308428,
-            "similarity": 0.860096,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "feral",
-        "descriptor_index": 2509,
-        "amplitude": 0.0015756714,
-        "abs_amplitude": 0.0015756714,
-        "raw_amplitude": 0.0047270143,
-        "percent": 0.416749,
-        "raw_percent": 0.420816,
-        "coverage_percent": 94.605037,
-        "member_count": 1,
-        "members": [
-          "feral"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0047270143,
-            "similarity": 0.854558,
-            "matched_descriptor": "catlike habits"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0014991873,
-        "abs_amplitude": 0.0014991873,
-        "raw_amplitude": 0.0023229635,
-        "percent": 0.396519,
-        "raw_percent": 0.206799,
-        "coverage_percent": 95.001557,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 2,
-        "effective_support": 1.936131,
-        "support_factor": 0.645377,
-        "top_characters": [
-          {
-            "character_id": 41069,
-            "name": "Sakamoto",
-            "native_name": "阪本",
-            "anime": "Nichijou - My Ordinary Life: Episode 0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
-            "site_url": "https://anilist.co/character/41069",
-            "anime_url": "https://myanimelist.net/anime/10165",
-            "role": "MAIN",
-            "favourites": 1609,
-            "row_weight": 2.89551195,
-            "projection": 0.0013724366,
-            "similarity": 0.860655,
-            "matched_descriptor": "catlike habits"
-          },
-          {
-            "character_id": 2728,
-            "name": "Minoru Shiraishi",
-            "native_name": "白石みのる",
-            "anime": "Lucky☆Star",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
-            "site_url": "https://anilist.co/character/2728",
-            "anime_url": "https://myanimelist.net/anime/1887",
-            "role": "SUPPORTING",
-            "favourites": 165,
-            "row_weight": 2.47224347,
-            "projection": 0.0009505269,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "fit_percent": 95.579773,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 41069,
         "name": "Sakamoto",
-        "native_name": "阪本",
         "anime": "Nichijou - My Ordinary Life: Episode 0",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
         "site_url": "https://anilist.co/character/41069",
-        "anime_url": "https://myanimelist.net/anime/10165",
-        "role": "MAIN",
         "favourites": 1609,
-        "row_weight": 2.89551195,
-        "amplitude": 0.9912423943,
-        "abs_amplitude": 0.9912423943,
-        "percent": 98.256148
+        "anilist_favourites": 1609,
+        "bangumi_collects": 281,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 11910,
+        "bangumi_url": "https://bgm.tv/character/11910",
+        "combined_favourites": 1890,
+        "role_edge_count": 1,
+        "descriptors": [
+          "condescending"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.92315943,
+        "row_weight": 2.92315943,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7694419461,
+        "abs_amplitude": 0.7694419461,
+        "percent": 59.204091
       },
       {
         "character_id": 2728,
         "name": "Minoru Shiraishi",
-        "native_name": "白石みのる",
         "anime": "Lucky☆Star",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
         "site_url": "https://anilist.co/character/2728",
-        "anime_url": "https://myanimelist.net/anime/1887",
-        "role": "SUPPORTING",
         "favourites": 165,
-        "row_weight": 2.47224347,
-        "amplitude": 0.1320549726,
-        "abs_amplitude": 0.1320549726,
-        "percent": 1.743852
+        "anilist_favourites": 165,
+        "bangumi_collects": 67,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 1096,
+        "bangumi_url": "https://bgm.tv/character/1096",
+        "combined_favourites": 232,
+        "role_edge_count": 1,
+        "descriptors": [
+          "aggressive",
+          "frightened",
+          "outspoken",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53988946,
+        "row_weight": 2.53988946,
+        "unweighted_row_norm": 3.50518685,
+        "amplitude": 0.6387167538,
+        "abs_amplitude": 0.6387167538,
+        "percent": 40.795909
       }
     ],
     "positive_characters": [
       {
         "character_id": 41069,
         "name": "Sakamoto",
-        "native_name": "阪本",
         "anime": "Nichijou - My Ordinary Life: Episode 0",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
         "site_url": "https://anilist.co/character/41069",
-        "anime_url": "https://myanimelist.net/anime/10165",
-        "role": "MAIN",
         "favourites": 1609,
-        "row_weight": 2.89551195,
-        "amplitude": 0.9912423943,
-        "abs_amplitude": 0.9912423943,
-        "percent": 98.256148
+        "anilist_favourites": 1609,
+        "bangumi_collects": 281,
+        "bangumi_comments": 24,
+        "bangumi_character_id": 11910,
+        "bangumi_url": "https://bgm.tv/character/11910",
+        "combined_favourites": 1890,
+        "role_edge_count": 1,
+        "descriptors": [
+          "condescending"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.92315943,
+        "row_weight": 2.92315943,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7694419461,
+        "abs_amplitude": 0.7694419461,
+        "percent": 59.204091
       },
       {
         "character_id": 2728,
         "name": "Minoru Shiraishi",
-        "native_name": "白石みのる",
         "anime": "Lucky☆Star",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
         "site_url": "https://anilist.co/character/2728",
-        "anime_url": "https://myanimelist.net/anime/1887",
-        "role": "SUPPORTING",
         "favourites": 165,
-        "row_weight": 2.47224347,
-        "amplitude": 0.1320549726,
-        "abs_amplitude": 0.1320549726,
-        "percent": 1.743852
+        "anilist_favourites": 165,
+        "bangumi_collects": 67,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 1096,
+        "bangumi_url": "https://bgm.tv/character/1096",
+        "combined_favourites": 232,
+        "role_edge_count": 1,
+        "descriptors": [
+          "aggressive",
+          "frightened",
+          "outspoken",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53988946,
+        "row_weight": 2.53988946,
+        "unweighted_row_norm": 3.50518685,
+        "amplitude": 0.6387167538,
+        "abs_amplitude": 0.6387167538,
+        "percent": 40.795909
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.934449,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3456386028,
+      "mass_percent": 12.074923,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 29.402499,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "condescending",
+            "amplitude": 0.294024989,
+            "abs_amplitude": 0.294024989,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "condescending",
+            "fit_percent": 29.402499,
+            "residual_gain_percent": 8.645069
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 41069,
+            "name": "Sakamoto",
+            "anime": "Nichijou - My Ordinary Life: Episode 0",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b41069-x6vyw7EIn1ET.png",
+            "site_url": "https://anilist.co/character/41069",
+            "favourites": 1609,
+            "anilist_favourites": 1609,
+            "bangumi_collects": 281,
+            "bangumi_comments": 24,
+            "bangumi_character_id": 11910,
+            "bangumi_url": "https://bgm.tv/character/11910",
+            "combined_favourites": 1890,
+            "role_edge_count": 1,
+            "descriptors": [
+              "condescending"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.92315943,
+            "row_weight": 2.92315943,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6387167538,
+            "abs_amplitude": 0.6387167538,
+            "percent": 40.795909
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 46.011263,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "fearless",
+            "amplitude": 0.287829605,
+            "abs_amplitude": 0.287829605,
+            "percent": 55.980196
+          },
+          {
+            "rank": 2,
+            "descriptor": "shy",
+            "amplitude": 0.1345947885,
+            "abs_amplitude": 0.1345947885,
+            "percent": 26.177442
+          },
+          {
+            "rank": 3,
+            "descriptor": "warm",
+            "amplitude": 0.091738872,
+            "abs_amplitude": 0.091738872,
+            "percent": 17.842362
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "fearless",
+            "fit_percent": 43.777576,
+            "residual_gain_percent": 19.164762
+          },
+          {
+            "step": 2,
+            "descriptor": "shy",
+            "fit_percent": 45.529658,
+            "residual_gain_percent": 1.935709
+          },
+          {
+            "step": 3,
+            "descriptor": "warm",
+            "fit_percent": 46.011263,
+            "residual_gain_percent": 0.556153
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 2728,
+            "name": "Minoru Shiraishi",
+            "anime": "Lucky☆Star",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/2728.jpg",
+            "site_url": "https://anilist.co/character/2728",
+            "favourites": 165,
+            "anilist_favourites": 165,
+            "bangumi_collects": 67,
+            "bangumi_comments": 13,
+            "bangumi_character_id": 1096,
+            "bangumi_url": "https://bgm.tv/character/1096",
+            "combined_favourites": 232,
+            "role_edge_count": 1,
+            "descriptors": [
+              "aggressive",
+              "frightened",
+              "outspoken",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.53988946,
+            "row_weight": 2.53988946,
+            "unweighted_row_norm": 3.50518685,
+            "amplitude": -0.7694419461,
+            "abs_amplitude": 0.7694419461,
+            "percent": 59.204091
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.6311370496,
+      "mass_percent": 87.925077,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3456386028,
+      "mass_percent": 12.074923,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

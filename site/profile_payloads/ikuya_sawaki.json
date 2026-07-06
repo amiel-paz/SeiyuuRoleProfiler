@@ -11,1332 +11,98 @@
     "ikuya sawaki",
     "sawaki ikuya"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ikuya_sawaki.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.3695540918,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.3695540918,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 181.928294,
-      "normalized_entanglement": 0.473772,
-      "top5_mass_percent": 7.414882,
-      "top10_mass_percent": 12.567905
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5583544407,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "far-sighted / near-sightedness",
-        "descriptor_index": 2447,
-        "amplitude": 0.0626260359,
-        "abs_amplitude": 0.0626260359,
-        "raw_amplitude": 0.1878781078,
-        "percent": 18.78792,
-        "raw_percent": 18.787811,
-        "coverage_percent": 18.78792,
-        "member_count": 2,
-        "members": [
-          "far-sighted",
-          "near-sightedness"
-        ],
+        "descriptor": "humorous",
+        "amplitude": 0.5704326093,
+        "abs_amplitude": 0.5704326093,
+        "percent": 50.0,
+        "weighted_support": 2.55835444,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.1878781078,
-            "similarity": 0.92433,
-            "matched_descriptor": "blindness"
+            "character_id": 2165,
+            "name": "Mao",
+            "anime": "Darker than Black",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2165-LJwr5Cgg7J4n.png",
+            "site_url": "https://anilist.co/character/2165",
+            "combined_favourites": 255
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0562166283,
-        "abs_amplitude": 0.0562166283,
-        "raw_amplitude": 0.1686498848,
-        "percent": 16.865086,
-        "raw_percent": 16.864988,
-        "coverage_percent": 35.653006,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
+        "descriptor": "aware",
+        "amplitude": 0.5704326093,
+        "abs_amplitude": 0.5704326093,
+        "percent": 50.0,
+        "weighted_support": 2.55835444,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.1686498848,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0314252633,
-        "abs_amplitude": 0.0314252633,
-        "raw_amplitude": 0.0942757898,
-        "percent": 9.427634,
-        "raw_percent": 9.427579,
-        "coverage_percent": 45.080639,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0942757898,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "blind",
-        "descriptor_index": 691,
-        "amplitude": 0.0257852895,
-        "abs_amplitude": 0.0257852895,
-        "raw_amplitude": 0.0773558686,
-        "percent": 7.735632,
-        "raw_percent": 7.735587,
-        "coverage_percent": 52.816271,
-        "member_count": 1,
-        "members": [
-          "blind"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0773558686,
-            "similarity": 0.882997,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "single-eyed",
-        "descriptor_index": 6881,
-        "amplitude": 0.0230304833,
-        "abs_amplitude": 0.0230304833,
-        "raw_amplitude": 0.0690914498,
-        "percent": 6.909185,
-        "raw_percent": 6.909145,
-        "coverage_percent": 59.725456,
-        "member_count": 1,
-        "members": [
-          "single-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0690914498,
-            "similarity": 0.873917,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "bespectacled / glasses-wearing",
-        "descriptor_index": 618,
-        "amplitude": 0.0170431007,
-        "abs_amplitude": 0.0170431007,
-        "raw_amplitude": 0.0511293021,
-        "percent": 5.11296,
-        "raw_percent": 5.11293,
-        "coverage_percent": 64.838416,
-        "member_count": 2,
-        "members": [
-          "bespectacled",
-          "glasses-wearing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.051129302,
-            "similarity": 0.826144,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "unfocused",
-        "descriptor_index": 8140,
-        "amplitude": 0.0152197006,
-        "abs_amplitude": 0.0152197006,
-        "raw_amplitude": 0.0456591019,
-        "percent": 4.565937,
-        "raw_percent": 4.56591,
-        "coverage_percent": 69.404352,
-        "member_count": 1,
-        "members": [
-          "unfocused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0456591019,
-            "similarity": 0.865448,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "nearsighted",
-        "descriptor_index": 5074,
-        "amplitude": 0.014445124,
-        "abs_amplitude": 0.014445124,
-        "raw_amplitude": 0.0433353719,
-        "percent": 4.333562,
-        "raw_percent": 4.333537,
-        "coverage_percent": 73.737915,
-        "member_count": 1,
-        "members": [
-          "nearsighted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0433353719,
-            "similarity": 0.853012,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0115489924,
-        "abs_amplitude": 0.0115489924,
-        "raw_amplitude": 0.0346469772,
-        "percent": 3.464718,
-        "raw_percent": 3.464698,
-        "coverage_percent": 77.202633,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0346469772,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0114119433,
-        "abs_amplitude": 0.0114119433,
-        "raw_amplitude": 0.0342358299,
-        "percent": 3.423603,
-        "raw_percent": 3.423583,
-        "coverage_percent": 80.626235,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0342358299,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0101274993,
-        "abs_amplitude": 0.0101274993,
-        "raw_amplitude": 0.0303824979,
-        "percent": 3.038267,
-        "raw_percent": 3.03825,
-        "coverage_percent": 83.664503,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0303824979,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "support-oriented",
-        "descriptor_index": 7531,
-        "amplitude": 0.0086034199,
-        "abs_amplitude": 0.0086034199,
-        "raw_amplitude": 0.0258102598,
-        "percent": 2.581041,
-        "raw_percent": 2.581026,
-        "coverage_percent": 86.245544,
-        "member_count": 1,
-        "members": [
-          "support-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0258102598,
-            "similarity": 0.851109,
-            "matched_descriptor": "proponent"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0067167584,
-        "abs_amplitude": 0.0067167584,
-        "raw_amplitude": 0.0201502752,
-        "percent": 2.015039,
-        "raw_percent": 2.015028,
-        "coverage_percent": 88.260583,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0201502752,
-            "similarity": 0.851501,
-            "matched_descriptor": "proponent"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0066655137,
-        "abs_amplitude": 0.0066655137,
-        "raw_amplitude": 0.0199965412,
-        "percent": 1.999666,
-        "raw_percent": 1.999654,
-        "coverage_percent": 90.260249,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0199965412,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "dependent",
-        "descriptor_index": 1735,
-        "amplitude": 0.0061268891,
-        "abs_amplitude": 0.0061268891,
-        "raw_amplitude": 0.0183806674,
-        "percent": 1.838077,
-        "raw_percent": 1.838067,
-        "coverage_percent": 92.098326,
-        "member_count": 1,
-        "members": [
-          "dependent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0183806674,
-            "similarity": 0.849414,
-            "matched_descriptor": "proponent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0047262128,
-        "abs_amplitude": 0.0047262128,
-        "raw_amplitude": 0.0141786383,
-        "percent": 1.417872,
-        "raw_percent": 1.417864,
-        "coverage_percent": 93.516198,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0141786383,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "legless",
-        "descriptor_index": 4272,
-        "amplitude": 0.0040099659,
-        "abs_amplitude": 0.0040099659,
-        "raw_amplitude": 0.0120298977,
-        "percent": 1.202997,
-        "raw_percent": 1.20299,
-        "coverage_percent": 94.719195,
-        "member_count": 1,
-        "members": [
-          "legless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0120298977,
-            "similarity": 0.794258,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "runner-up",
-        "descriptor_index": 6399,
-        "amplitude": 0.0035110982,
-        "abs_amplitude": 0.0035110982,
-        "raw_amplitude": 0.0105332945,
-        "percent": 1.053336,
-        "raw_percent": 1.053329,
-        "coverage_percent": 95.77253,
-        "member_count": 1,
-        "members": [
-          "runner-up"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0105332945,
-            "similarity": 0.828111,
-            "matched_descriptor": "proponent"
+            "character_id": 2165,
+            "name": "Mao",
+            "anime": "Darker than Black",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2165-LJwr5Cgg7J4n.png",
+            "site_url": "https://anilist.co/character/2165",
+            "combined_favourites": 255
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "far-sighted / near-sightedness",
-        "descriptor_index": 2447,
-        "amplitude": 0.0626260359,
-        "abs_amplitude": 0.0626260359,
-        "raw_amplitude": 0.1878781078,
-        "percent": 18.78792,
-        "raw_percent": 18.787811,
-        "coverage_percent": 18.78792,
-        "member_count": 2,
-        "members": [
-          "far-sighted",
-          "near-sightedness"
-        ],
+        "step": 1,
+        "descriptor": "humorous",
+        "weighted_support": 2.55835444,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.1878781078,
-            "similarity": 0.92433,
-            "matched_descriptor": "blindness"
-          }
-        ]
+        "fit_percent": 87.652773,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0562166283,
-        "abs_amplitude": 0.0562166283,
-        "raw_amplitude": 0.1686498848,
-        "percent": 16.865086,
-        "raw_percent": 16.864988,
-        "coverage_percent": 35.653006,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
+        "step": 2,
+        "descriptor": "aware",
+        "weighted_support": 2.55835444,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.1686498848,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0314252633,
-        "abs_amplitude": 0.0314252633,
-        "raw_amplitude": 0.0942757898,
-        "percent": 9.427634,
-        "raw_percent": 9.427579,
-        "coverage_percent": 45.080639,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0942757898,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "blind",
-        "descriptor_index": 691,
-        "amplitude": 0.0257852895,
-        "abs_amplitude": 0.0257852895,
-        "raw_amplitude": 0.0773558686,
-        "percent": 7.735632,
-        "raw_percent": 7.735587,
-        "coverage_percent": 52.816271,
-        "member_count": 1,
-        "members": [
-          "blind"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0773558686,
-            "similarity": 0.882997,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "single-eyed",
-        "descriptor_index": 6881,
-        "amplitude": 0.0230304833,
-        "abs_amplitude": 0.0230304833,
-        "raw_amplitude": 0.0690914498,
-        "percent": 6.909185,
-        "raw_percent": 6.909145,
-        "coverage_percent": 59.725456,
-        "member_count": 1,
-        "members": [
-          "single-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0690914498,
-            "similarity": 0.873917,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "bespectacled / glasses-wearing",
-        "descriptor_index": 618,
-        "amplitude": 0.0170431007,
-        "abs_amplitude": 0.0170431007,
-        "raw_amplitude": 0.0511293021,
-        "percent": 5.11296,
-        "raw_percent": 5.11293,
-        "coverage_percent": 64.838416,
-        "member_count": 2,
-        "members": [
-          "bespectacled",
-          "glasses-wearing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.051129302,
-            "similarity": 0.826144,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "unfocused",
-        "descriptor_index": 8140,
-        "amplitude": 0.0152197006,
-        "abs_amplitude": 0.0152197006,
-        "raw_amplitude": 0.0456591019,
-        "percent": 4.565937,
-        "raw_percent": 4.56591,
-        "coverage_percent": 69.404352,
-        "member_count": 1,
-        "members": [
-          "unfocused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0456591019,
-            "similarity": 0.865448,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "nearsighted",
-        "descriptor_index": 5074,
-        "amplitude": 0.014445124,
-        "abs_amplitude": 0.014445124,
-        "raw_amplitude": 0.0433353719,
-        "percent": 4.333562,
-        "raw_percent": 4.333537,
-        "coverage_percent": 73.737915,
-        "member_count": 1,
-        "members": [
-          "nearsighted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0433353719,
-            "similarity": 0.853012,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0115489924,
-        "abs_amplitude": 0.0115489924,
-        "raw_amplitude": 0.0346469772,
-        "percent": 3.464718,
-        "raw_percent": 3.464698,
-        "coverage_percent": 77.202633,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0346469772,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0114119433,
-        "abs_amplitude": 0.0114119433,
-        "raw_amplitude": 0.0342358299,
-        "percent": 3.423603,
-        "raw_percent": 3.423583,
-        "coverage_percent": 80.626235,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0342358299,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0101274993,
-        "abs_amplitude": 0.0101274993,
-        "raw_amplitude": 0.0303824979,
-        "percent": 3.038267,
-        "raw_percent": 3.03825,
-        "coverage_percent": 83.664503,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0303824979,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "support-oriented",
-        "descriptor_index": 7531,
-        "amplitude": 0.0086034199,
-        "abs_amplitude": 0.0086034199,
-        "raw_amplitude": 0.0258102598,
-        "percent": 2.581041,
-        "raw_percent": 2.581026,
-        "coverage_percent": 86.245544,
-        "member_count": 1,
-        "members": [
-          "support-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0258102598,
-            "similarity": 0.851109,
-            "matched_descriptor": "proponent"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0067167584,
-        "abs_amplitude": 0.0067167584,
-        "raw_amplitude": 0.0201502752,
-        "percent": 2.015039,
-        "raw_percent": 2.015028,
-        "coverage_percent": 88.260583,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0201502752,
-            "similarity": 0.851501,
-            "matched_descriptor": "proponent"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0066655137,
-        "abs_amplitude": 0.0066655137,
-        "raw_amplitude": 0.0199965412,
-        "percent": 1.999666,
-        "raw_percent": 1.999654,
-        "coverage_percent": 90.260249,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0199965412,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "dependent",
-        "descriptor_index": 1735,
-        "amplitude": 0.0061268891,
-        "abs_amplitude": 0.0061268891,
-        "raw_amplitude": 0.0183806674,
-        "percent": 1.838077,
-        "raw_percent": 1.838067,
-        "coverage_percent": 92.098326,
-        "member_count": 1,
-        "members": [
-          "dependent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0183806674,
-            "similarity": 0.849414,
-            "matched_descriptor": "proponent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0047262128,
-        "abs_amplitude": 0.0047262128,
-        "raw_amplitude": 0.0141786383,
-        "percent": 1.417872,
-        "raw_percent": 1.417864,
-        "coverage_percent": 93.516198,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0141786383,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "legless",
-        "descriptor_index": 4272,
-        "amplitude": 0.0040099659,
-        "abs_amplitude": 0.0040099659,
-        "raw_amplitude": 0.0120298977,
-        "percent": 1.202997,
-        "raw_percent": 1.20299,
-        "coverage_percent": 94.719195,
-        "member_count": 1,
-        "members": [
-          "legless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0120298977,
-            "similarity": 0.794258,
-            "matched_descriptor": "blindness"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "runner-up",
-        "descriptor_index": 6399,
-        "amplitude": 0.0035110982,
-        "abs_amplitude": 0.0035110982,
-        "raw_amplitude": 0.0105332945,
-        "percent": 1.053336,
-        "raw_percent": 1.053329,
-        "coverage_percent": 95.77253,
-        "member_count": 1,
-        "members": [
-          "runner-up"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 82259,
-            "name": "Isshou",
-            "native_name": "イッショウ",
-            "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-            "site_url": "https://anilist.co/character/82259",
-            "anime_url": "https://myanimelist.net/anime/38234",
-            "role": "SUPPORTING",
-            "favourites": 687,
-            "row_weight": 2.74477482,
-            "projection": 0.0105332945,
-            "similarity": 0.828111,
-            "matched_descriptor": "proponent"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 82259,
-        "name": "Isshou",
-        "native_name": "イッショウ",
-        "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-        "site_url": "https://anilist.co/character/82259",
-        "anime_url": "https://myanimelist.net/anime/38234",
-        "role": "SUPPORTING",
-        "favourites": 687,
-        "row_weight": 2.74477482,
+        "character_id": 2165,
+        "name": "Mao",
+        "anime": "Darker than Black",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2165-LJwr5Cgg7J4n.png",
+        "site_url": "https://anilist.co/character/2165",
+        "favourites": 221,
+        "anilist_favourites": 221,
+        "bangumi_collects": 34,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 294,
+        "bangumi_url": "https://bgm.tv/character/294",
+        "combined_favourites": 255,
+        "role_edge_count": 1,
+        "descriptors": [
+          "aware",
+          "humorous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.55835444,
+        "row_weight": 2.55835444,
+        "unweighted_row_norm": 1.75305546,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1344,21 +110,70 @@
     ],
     "positive_characters": [
       {
-        "character_id": 82259,
-        "name": "Isshou",
-        "native_name": "イッショウ",
-        "anime": "One Piece - Episode of Sabo: Bond of Three Brothers - A Miraculous Reunion and an Inherited Will",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b82259-NFdvvcSHup7Z.jpg",
-        "site_url": "https://anilist.co/character/82259",
-        "anime_url": "https://myanimelist.net/anime/38234",
-        "role": "SUPPORTING",
-        "favourites": 687,
-        "row_weight": 2.74477482,
+        "character_id": 2165,
+        "name": "Mao",
+        "anime": "Darker than Black",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n2165-LJwr5Cgg7J4n.png",
+        "site_url": "https://anilist.co/character/2165",
+        "favourites": 221,
+        "anilist_favourites": 221,
+        "bangumi_collects": 34,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 294,
+        "bangumi_url": "https://bgm.tv/character/294",
+        "combined_favourites": 255,
+        "role_edge_count": 1,
+        "descriptors": [
+          "aware",
+          "humorous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.55835444,
+        "row_weight": 2.55835444,
+        "unweighted_row_norm": 1.75305546,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5583544407,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

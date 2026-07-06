@@ -11,680 +11,98 @@
     "nakao ryouhei",
     "ryouhei nakao"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ryouhei_nakao.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.2248475028,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.2248475028,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 268.895405,
-      "normalized_entanglement": 0.700248,
-      "top5_mass_percent": 4.01953,
-      "top10_mass_percent": 7.456104
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4710211399,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "light-hearted / playful / good-humored / good-humoured / +4",
-        "descriptor_index": 4318,
-        "amplitude": 0.1466466333,
-        "abs_amplitude": 0.1466466333,
-        "raw_amplitude": 0.4399398998,
-        "percent": 43.99399,
-        "raw_percent": 43.99399,
-        "coverage_percent": 43.99399,
-        "member_count": 8,
-        "members": [
-          "light-hearted",
-          "playful",
-          "good-humored",
-          "good-humoured",
-          "gleeful",
-          "jocular",
-          "lighthearted",
-          "happy"
-        ],
+        "descriptor": "light-hearted",
+        "amplitude": 0.5847975178,
+        "abs_amplitude": 0.5847975178,
+        "percent": 50.0,
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 209887,
             "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
             "anime": "Minna Atsumare! Falcom Gakuen",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
             "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.4399398998,
-            "similarity": 1.0,
-            "matched_descriptor": "light-hearted"
+            "combined_favourites": 164
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "positive / cordial / good / non-hostile",
-        "descriptor_index": 5732,
-        "amplitude": 0.0692280549,
-        "abs_amplitude": 0.0692280549,
-        "raw_amplitude": 0.2076841646,
-        "percent": 20.768416,
-        "raw_percent": 20.768416,
-        "coverage_percent": 64.762406,
-        "member_count": 4,
-        "members": [
-          "positive",
-          "cordial",
-          "good",
-          "non-hostile"
-        ],
+        "descriptor": "dedicated",
+        "amplitude": 0.5847975178,
+        "abs_amplitude": 0.5847975178,
+        "percent": 50.0,
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 209887,
             "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
             "anime": "Minna Atsumare! Falcom Gakuen",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
             "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.2076841646,
-            "similarity": 1.0,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "joyous / jovial / joyful / upbeat / +5",
-        "descriptor_index": 4070,
-        "amplitude": 0.0405444201,
-        "abs_amplitude": 0.0405444201,
-        "raw_amplitude": 0.1216332602,
-        "percent": 12.163326,
-        "raw_percent": 12.163326,
-        "coverage_percent": 76.925732,
-        "member_count": 9,
-        "members": [
-          "joyous",
-          "jovial",
-          "joyful",
-          "upbeat",
-          "cheery",
-          "cheerful",
-          "smiling",
-          "sunny",
-          "sweet-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.1216332601,
-            "similarity": 0.891364,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "happy-go-lucky / affable / care-free / carefree / +1",
-        "descriptor_index": 3337,
-        "amplitude": 0.0240823205,
-        "abs_amplitude": 0.0240823205,
-        "raw_amplitude": 0.0722469616,
-        "percent": 7.224696,
-        "raw_percent": 7.224696,
-        "coverage_percent": 84.150429,
-        "member_count": 5,
-        "members": [
-          "happy-go-lucky",
-          "affable",
-          "care-free",
-          "carefree",
-          "flighty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0722469616,
-            "similarity": 0.893014,
-            "matched_descriptor": "light-hearted / positive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "amused / giddy / amusing",
-        "descriptor_index": 210,
-        "amplitude": 0.0182022743,
-        "abs_amplitude": 0.0182022743,
-        "raw_amplitude": 0.0546068228,
-        "percent": 5.460682,
-        "raw_percent": 5.460682,
-        "coverage_percent": 89.611111,
-        "member_count": 3,
-        "members": [
-          "amused",
-          "giddy",
-          "amusing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0546068228,
-            "similarity": 0.902568,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "vivacious / perky",
-        "descriptor_index": 8395,
-        "amplitude": 0.0095920702,
-        "abs_amplitude": 0.0095920702,
-        "raw_amplitude": 0.0287762107,
-        "percent": 2.877621,
-        "raw_percent": 2.877621,
-        "coverage_percent": 92.488732,
-        "member_count": 2,
-        "members": [
-          "vivacious",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0287762107,
-            "similarity": 0.875763,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "openhearted / good-natured / well-meaning",
-        "descriptor_index": 5334,
-        "amplitude": 0.0057002919,
-        "abs_amplitude": 0.0057002919,
-        "raw_amplitude": 0.0171008758,
-        "percent": 1.710088,
-        "raw_percent": 1.710088,
-        "coverage_percent": 94.19882,
-        "member_count": 3,
-        "members": [
-          "openhearted",
-          "good-natured",
-          "well-meaning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0171008758,
-            "similarity": 0.882725,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fun-loving",
-        "descriptor_index": 2857,
-        "amplitude": 0.0041973102,
-        "abs_amplitude": 0.0041973102,
-        "raw_amplitude": 0.0125919305,
-        "percent": 1.259193,
-        "raw_percent": 1.259193,
-        "coverage_percent": 95.458013,
-        "member_count": 1,
-        "members": [
-          "fun-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0125919305,
-            "similarity": 0.875981,
-            "matched_descriptor": "light-hearted"
+            "combined_favourites": 164
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "light-hearted / playful / good-humored / good-humoured / +4",
-        "descriptor_index": 4318,
-        "amplitude": 0.1466466333,
-        "abs_amplitude": 0.1466466333,
-        "raw_amplitude": 0.4399398998,
-        "percent": 43.99399,
-        "raw_percent": 43.99399,
-        "coverage_percent": 43.99399,
-        "member_count": 8,
-        "members": [
-          "light-hearted",
-          "playful",
-          "good-humored",
-          "good-humoured",
-          "gleeful",
-          "jocular",
-          "lighthearted",
-          "happy"
-        ],
+        "step": 1,
+        "descriptor": "light-hearted",
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.4399398998,
-            "similarity": 1.0,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
+        "fit_percent": 85.499679,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "positive / cordial / good / non-hostile",
-        "descriptor_index": 5732,
-        "amplitude": 0.0692280549,
-        "abs_amplitude": 0.0692280549,
-        "raw_amplitude": 0.2076841646,
-        "percent": 20.768416,
-        "raw_percent": 20.768416,
-        "coverage_percent": 64.762406,
-        "member_count": 4,
-        "members": [
-          "positive",
-          "cordial",
-          "good",
-          "non-hostile"
-        ],
+        "step": 2,
+        "descriptor": "dedicated",
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.2076841646,
-            "similarity": 1.0,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "joyous / jovial / joyful / upbeat / +5",
-        "descriptor_index": 4070,
-        "amplitude": 0.0405444201,
-        "abs_amplitude": 0.0405444201,
-        "raw_amplitude": 0.1216332602,
-        "percent": 12.163326,
-        "raw_percent": 12.163326,
-        "coverage_percent": 76.925732,
-        "member_count": 9,
-        "members": [
-          "joyous",
-          "jovial",
-          "joyful",
-          "upbeat",
-          "cheery",
-          "cheerful",
-          "smiling",
-          "sunny",
-          "sweet-faced"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.1216332601,
-            "similarity": 0.891364,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "happy-go-lucky / affable / care-free / carefree / +1",
-        "descriptor_index": 3337,
-        "amplitude": 0.0240823205,
-        "abs_amplitude": 0.0240823205,
-        "raw_amplitude": 0.0722469616,
-        "percent": 7.224696,
-        "raw_percent": 7.224696,
-        "coverage_percent": 84.150429,
-        "member_count": 5,
-        "members": [
-          "happy-go-lucky",
-          "affable",
-          "care-free",
-          "carefree",
-          "flighty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0722469616,
-            "similarity": 0.893014,
-            "matched_descriptor": "light-hearted / positive"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "amused / giddy / amusing",
-        "descriptor_index": 210,
-        "amplitude": 0.0182022743,
-        "abs_amplitude": 0.0182022743,
-        "raw_amplitude": 0.0546068228,
-        "percent": 5.460682,
-        "raw_percent": 5.460682,
-        "coverage_percent": 89.611111,
-        "member_count": 3,
-        "members": [
-          "amused",
-          "giddy",
-          "amusing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0546068228,
-            "similarity": 0.902568,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "vivacious / perky",
-        "descriptor_index": 8395,
-        "amplitude": 0.0095920702,
-        "abs_amplitude": 0.0095920702,
-        "raw_amplitude": 0.0287762107,
-        "percent": 2.877621,
-        "raw_percent": 2.877621,
-        "coverage_percent": 92.488732,
-        "member_count": 2,
-        "members": [
-          "vivacious",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0287762107,
-            "similarity": 0.875763,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "openhearted / good-natured / well-meaning",
-        "descriptor_index": 5334,
-        "amplitude": 0.0057002919,
-        "abs_amplitude": 0.0057002919,
-        "raw_amplitude": 0.0171008758,
-        "percent": 1.710088,
-        "raw_percent": 1.710088,
-        "coverage_percent": 94.19882,
-        "member_count": 3,
-        "members": [
-          "openhearted",
-          "good-natured",
-          "well-meaning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0171008758,
-            "similarity": 0.882725,
-            "matched_descriptor": "positive"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "fun-loving",
-        "descriptor_index": 2857,
-        "amplitude": 0.0041973102,
-        "abs_amplitude": 0.0041973102,
-        "raw_amplitude": 0.0125919305,
-        "percent": 1.259193,
-        "raw_percent": 1.259193,
-        "coverage_percent": 95.458013,
-        "member_count": 1,
-        "members": [
-          "fun-loving"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 209887,
-            "name": "Kevin Graham",
-            "native_name": "ケビン・グラハム",
-            "anime": "Minna Atsumare! Falcom Gakuen",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
-            "site_url": "https://anilist.co/character/209887",
-            "anime_url": "https://myanimelist.net/anime/21427",
-            "role": "BACKGROUND",
-            "favourites": 117,
-            "row_weight": 2.40222493,
-            "projection": 0.0125919305,
-            "similarity": 0.875981,
-            "matched_descriptor": "light-hearted"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 209887,
         "name": "Kevin Graham",
-        "native_name": "ケビン・グラハム",
         "anime": "Minna Atsumare! Falcom Gakuen",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
         "site_url": "https://anilist.co/character/209887",
-        "anime_url": "https://myanimelist.net/anime/21427",
-        "role": "BACKGROUND",
         "favourites": 117,
-        "row_weight": 2.40222493,
+        "anilist_favourites": 117,
+        "bangumi_collects": 47,
+        "bangumi_comments": 17,
+        "bangumi_character_id": 854,
+        "bangumi_url": "https://bgm.tv/character/854",
+        "combined_favourites": 164,
+        "role_edge_count": 1,
+        "descriptors": [
+          "dedicated",
+          "light-hearted"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47102114,
+        "row_weight": 2.47102114,
+        "unweighted_row_norm": 1.70999358,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -694,19 +112,68 @@
       {
         "character_id": 209887,
         "name": "Kevin Graham",
-        "native_name": "ケビン・グラハム",
         "anime": "Minna Atsumare! Falcom Gakuen",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b209887-Lbo6NrEAyRva.png",
         "site_url": "https://anilist.co/character/209887",
-        "anime_url": "https://myanimelist.net/anime/21427",
-        "role": "BACKGROUND",
         "favourites": 117,
-        "row_weight": 2.40222493,
+        "anilist_favourites": 117,
+        "bangumi_collects": 47,
+        "bangumi_comments": 17,
+        "bangumi_character_id": 854,
+        "bangumi_url": "https://bgm.tv/character/854",
+        "combined_favourites": 164,
+        "role_edge_count": 1,
+        "descriptors": [
+          "dedicated",
+          "light-hearted"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47102114,
+        "row_weight": 2.47102114,
+        "unweighted_row_norm": 1.70999358,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4710211399,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

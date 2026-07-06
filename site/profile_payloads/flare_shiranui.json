@@ -11,1228 +11,99 @@
     "flare shiranui",
     "shiranui flare"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/flare_shiranui.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.8501498025,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.8501498025,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 187.004822,
-      "normalized_entanglement": 0.486992,
-      "top5_mass_percent": 6.790956,
-      "top10_mass_percent": 11.702317
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4710211399,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 95.91773,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "sloppy undependable / irresponsible / unreliable / sloppy",
-        "descriptor_index": 6975,
-        "amplitude": 0.0787828374,
-        "abs_amplitude": 0.0787828374,
-        "raw_amplitude": 0.2363485121,
-        "percent": 23.634851,
-        "raw_percent": 23.634851,
-        "coverage_percent": 23.634851,
-        "member_count": 4,
-        "members": [
-          "sloppy undependable",
-          "irresponsible",
-          "unreliable",
-          "sloppy"
-        ],
+        "descriptor": "sloppy",
+        "amplitude": 0.4883061164,
+        "abs_amplitude": 0.4883061164,
+        "percent": 44.89011,
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 169498,
             "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
             "anime": "Holo no Graffiti",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
             "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.2363485121,
-            "similarity": 1.0,
-            "matched_descriptor": "sloppy undependable"
+            "combined_favourites": 164
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "erratic / chaotic / fickle / unstable",
-        "descriptor_index": 2218,
-        "amplitude": 0.0418222569,
-        "abs_amplitude": 0.0418222569,
-        "raw_amplitude": 0.1254667707,
-        "percent": 12.546677,
-        "raw_percent": 12.546677,
-        "coverage_percent": 36.181528,
-        "member_count": 4,
-        "members": [
-          "erratic",
-          "chaotic",
-          "fickle",
-          "unstable"
-        ],
+        "descriptor": "moody",
+        "amplitude": 0.59947496,
+        "abs_amplitude": 0.59947496,
+        "percent": 55.10989,
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 169498,
             "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
             "anime": "Holo no Graffiti",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
             "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.1254667707,
-            "similarity": 0.897145,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "half-elf",
-        "descriptor_index": 3307,
-        "amplitude": 0.0317252336,
-        "abs_amplitude": 0.0317252336,
-        "raw_amplitude": 0.0951757007,
-        "percent": 9.51757,
-        "raw_percent": 9.51757,
-        "coverage_percent": 45.699098,
-        "member_count": 1,
-        "members": [
-          "half-elf"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0951757007,
-            "similarity": 1.0,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "half-dragon / half-ghoul / half-werewolf",
-        "descriptor_index": 3306,
-        "amplitude": 0.0255509719,
-        "abs_amplitude": 0.0255509719,
-        "raw_amplitude": 0.0766529157,
-        "percent": 7.665292,
-        "raw_percent": 7.665292,
-        "coverage_percent": 53.36439,
-        "member_count": 3,
-        "members": [
-          "half-dragon",
-          "half-ghoul",
-          "half-werewolf"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0766529158,
-            "similarity": 0.882125,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "untrustworthy / mistrustful / suspicious / honesty-deficient / +2",
-        "descriptor_index": 8239,
-        "amplitude": 0.0239424415,
-        "abs_amplitude": 0.0239424415,
-        "raw_amplitude": 0.0718273246,
-        "percent": 7.182732,
-        "raw_percent": 7.182732,
-        "coverage_percent": 60.547122,
-        "member_count": 6,
-        "members": [
-          "untrustworthy",
-          "mistrustful",
-          "suspicious",
-          "honesty-deficient",
-          "distrustful",
-          "roguish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0718273247,
-            "similarity": 0.863621,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "screw-up-prone / mistake-prone",
-        "descriptor_index": 6528,
-        "amplitude": 0.0232374934,
-        "abs_amplitude": 0.0232374934,
-        "raw_amplitude": 0.0697124801,
-        "percent": 6.971248,
-        "raw_percent": 6.971248,
-        "coverage_percent": 67.51837,
-        "member_count": 2,
-        "members": [
-          "screw-up-prone",
-          "mistake-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0697124801,
-            "similarity": 0.885862,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "half-oni / half-youmu / half-demon",
-        "descriptor_index": 3310,
-        "amplitude": 0.019328864,
-        "abs_amplitude": 0.019328864,
-        "raw_amplitude": 0.0579865921,
-        "percent": 5.798659,
-        "raw_percent": 5.798659,
-        "coverage_percent": 73.31703,
-        "member_count": 3,
-        "members": [
-          "half-oni",
-          "half-youmu",
-          "half-demon"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0579865922,
-            "similarity": 0.85511,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "failure-prone",
-        "descriptor_index": 2362,
-        "amplitude": 0.0135226042,
-        "abs_amplitude": 0.0135226042,
-        "raw_amplitude": 0.0405678126,
-        "percent": 4.056781,
-        "raw_percent": 4.056781,
-        "coverage_percent": 77.373811,
-        "member_count": 1,
-        "members": [
-          "failure-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0405678126,
-            "similarity": 0.89224,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "absent-minded / scatterbrained / inattentive",
-        "descriptor_index": 17,
-        "amplitude": 0.0110254714,
-        "abs_amplitude": 0.0110254714,
-        "raw_amplitude": 0.0330764143,
-        "percent": 3.307641,
-        "raw_percent": 3.307641,
-        "coverage_percent": 80.681452,
-        "member_count": 3,
-        "members": [
-          "absent-minded",
-          "scatterbrained",
-          "inattentive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0330764143,
-            "similarity": 0.861143,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "inconstant / volatile",
-        "descriptor_index": 3814,
-        "amplitude": 0.0093863786,
-        "abs_amplitude": 0.0093863786,
-        "raw_amplitude": 0.0281591359,
-        "percent": 2.815914,
-        "raw_percent": 2.815914,
-        "coverage_percent": 83.497366,
-        "member_count": 2,
-        "members": [
-          "inconstant",
-          "volatile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0281591359,
-            "similarity": 0.863117,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "elder sister-type",
-        "descriptor_index": 2080,
-        "amplitude": 0.0090149163,
-        "abs_amplitude": 0.0090149163,
-        "raw_amplitude": 0.027044749,
-        "percent": 2.704475,
-        "raw_percent": 2.704475,
-        "coverage_percent": 86.201841,
-        "member_count": 1,
-        "members": [
-          "elder sister-type"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.027044749,
-            "similarity": 0.854212,
-            "matched_descriptor": "reliable big sis"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "elf-woman",
-        "descriptor_index": 2117,
-        "amplitude": 0.0084229165,
-        "abs_amplitude": 0.0084229165,
-        "raw_amplitude": 0.0252687494,
-        "percent": 2.526875,
-        "raw_percent": 2.526875,
-        "coverage_percent": 88.728716,
-        "member_count": 1,
-        "members": [
-          "elf-woman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0252687494,
-            "similarity": 0.850741,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "eldest",
-        "descriptor_index": 2086,
-        "amplitude": 0.0064303375,
-        "abs_amplitude": 0.0064303375,
-        "raw_amplitude": 0.0192910126,
-        "percent": 1.929101,
-        "raw_percent": 1.929101,
-        "coverage_percent": 90.657817,
-        "member_count": 1,
-        "members": [
-          "eldest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0192910126,
-            "similarity": 0.845959,
-            "matched_descriptor": "reliable big sis"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unorganised",
-        "descriptor_index": 8193,
-        "amplitude": 0.0064252697,
-        "abs_amplitude": 0.0064252697,
-        "raw_amplitude": 0.0192758092,
-        "percent": 1.927581,
-        "raw_percent": 1.927581,
-        "coverage_percent": 92.585398,
-        "member_count": 1,
-        "members": [
-          "unorganised"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0192758092,
-            "similarity": 0.862927,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "middle-aged / older",
-        "descriptor_index": 4788,
-        "amplitude": 0.0059934777,
-        "abs_amplitude": 0.0059934777,
-        "raw_amplitude": 0.0179804331,
-        "percent": 1.798043,
-        "raw_percent": 1.798043,
-        "coverage_percent": 94.383441,
-        "member_count": 2,
-        "members": [
-          "middle-aged",
-          "older"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0179804332,
-            "similarity": 0.820996,
-            "matched_descriptor": "reliable big sis"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "uncoordinated / clumsy",
-        "descriptor_index": 8093,
-        "amplitude": 0.00479506,
-        "abs_amplitude": 0.00479506,
-        "raw_amplitude": 0.0143851799,
-        "percent": 1.438518,
-        "raw_percent": 1.438518,
-        "coverage_percent": 95.821959,
-        "member_count": 2,
-        "members": [
-          "uncoordinated",
-          "clumsy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0143851799,
-            "similarity": 0.842423,
-            "matched_descriptor": "sloppy undependable"
+            "combined_favourites": 164
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "sloppy undependable / irresponsible / unreliable / sloppy",
-        "descriptor_index": 6975,
-        "amplitude": 0.0787828374,
-        "abs_amplitude": 0.0787828374,
-        "raw_amplitude": 0.2363485121,
-        "percent": 23.634851,
-        "raw_percent": 23.634851,
-        "coverage_percent": 23.634851,
-        "member_count": 4,
-        "members": [
-          "sloppy undependable",
-          "irresponsible",
-          "unreliable",
-          "sloppy"
-        ],
+        "step": 1,
+        "descriptor": "sloppy",
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.2363485121,
-            "similarity": 1.0,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
+        "fit_percent": 81.823032,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "erratic / chaotic / fickle / unstable",
-        "descriptor_index": 2218,
-        "amplitude": 0.0418222569,
-        "abs_amplitude": 0.0418222569,
-        "raw_amplitude": 0.1254667707,
-        "percent": 12.546677,
-        "raw_percent": 12.546677,
-        "coverage_percent": 36.181528,
-        "member_count": 4,
-        "members": [
-          "erratic",
-          "chaotic",
-          "fickle",
-          "unstable"
-        ],
+        "step": 2,
+        "descriptor": "moody",
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.1254667707,
-            "similarity": 0.897145,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "half-elf",
-        "descriptor_index": 3307,
-        "amplitude": 0.0317252336,
-        "abs_amplitude": 0.0317252336,
-        "raw_amplitude": 0.0951757007,
-        "percent": 9.51757,
-        "raw_percent": 9.51757,
-        "coverage_percent": 45.699098,
-        "member_count": 1,
-        "members": [
-          "half-elf"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0951757007,
-            "similarity": 1.0,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "half-dragon / half-ghoul / half-werewolf",
-        "descriptor_index": 3306,
-        "amplitude": 0.0255509719,
-        "abs_amplitude": 0.0255509719,
-        "raw_amplitude": 0.0766529157,
-        "percent": 7.665292,
-        "raw_percent": 7.665292,
-        "coverage_percent": 53.36439,
-        "member_count": 3,
-        "members": [
-          "half-dragon",
-          "half-ghoul",
-          "half-werewolf"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0766529158,
-            "similarity": 0.882125,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "untrustworthy / mistrustful / suspicious / honesty-deficient / +2",
-        "descriptor_index": 8239,
-        "amplitude": 0.0239424415,
-        "abs_amplitude": 0.0239424415,
-        "raw_amplitude": 0.0718273246,
-        "percent": 7.182732,
-        "raw_percent": 7.182732,
-        "coverage_percent": 60.547122,
-        "member_count": 6,
-        "members": [
-          "untrustworthy",
-          "mistrustful",
-          "suspicious",
-          "honesty-deficient",
-          "distrustful",
-          "roguish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0718273247,
-            "similarity": 0.863621,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "screw-up-prone / mistake-prone",
-        "descriptor_index": 6528,
-        "amplitude": 0.0232374934,
-        "abs_amplitude": 0.0232374934,
-        "raw_amplitude": 0.0697124801,
-        "percent": 6.971248,
-        "raw_percent": 6.971248,
-        "coverage_percent": 67.51837,
-        "member_count": 2,
-        "members": [
-          "screw-up-prone",
-          "mistake-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0697124801,
-            "similarity": 0.885862,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "half-oni / half-youmu / half-demon",
-        "descriptor_index": 3310,
-        "amplitude": 0.019328864,
-        "abs_amplitude": 0.019328864,
-        "raw_amplitude": 0.0579865921,
-        "percent": 5.798659,
-        "raw_percent": 5.798659,
-        "coverage_percent": 73.31703,
-        "member_count": 3,
-        "members": [
-          "half-oni",
-          "half-youmu",
-          "half-demon"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0579865922,
-            "similarity": 0.85511,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "failure-prone",
-        "descriptor_index": 2362,
-        "amplitude": 0.0135226042,
-        "abs_amplitude": 0.0135226042,
-        "raw_amplitude": 0.0405678126,
-        "percent": 4.056781,
-        "raw_percent": 4.056781,
-        "coverage_percent": 77.373811,
-        "member_count": 1,
-        "members": [
-          "failure-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0405678126,
-            "similarity": 0.89224,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "absent-minded / scatterbrained / inattentive",
-        "descriptor_index": 17,
-        "amplitude": 0.0110254714,
-        "abs_amplitude": 0.0110254714,
-        "raw_amplitude": 0.0330764143,
-        "percent": 3.307641,
-        "raw_percent": 3.307641,
-        "coverage_percent": 80.681452,
-        "member_count": 3,
-        "members": [
-          "absent-minded",
-          "scatterbrained",
-          "inattentive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0330764143,
-            "similarity": 0.861143,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "inconstant / volatile",
-        "descriptor_index": 3814,
-        "amplitude": 0.0093863786,
-        "abs_amplitude": 0.0093863786,
-        "raw_amplitude": 0.0281591359,
-        "percent": 2.815914,
-        "raw_percent": 2.815914,
-        "coverage_percent": 83.497366,
-        "member_count": 2,
-        "members": [
-          "inconstant",
-          "volatile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0281591359,
-            "similarity": 0.863117,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "elder sister-type",
-        "descriptor_index": 2080,
-        "amplitude": 0.0090149163,
-        "abs_amplitude": 0.0090149163,
-        "raw_amplitude": 0.027044749,
-        "percent": 2.704475,
-        "raw_percent": 2.704475,
-        "coverage_percent": 86.201841,
-        "member_count": 1,
-        "members": [
-          "elder sister-type"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.027044749,
-            "similarity": 0.854212,
-            "matched_descriptor": "reliable big sis"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "elf-woman",
-        "descriptor_index": 2117,
-        "amplitude": 0.0084229165,
-        "abs_amplitude": 0.0084229165,
-        "raw_amplitude": 0.0252687494,
-        "percent": 2.526875,
-        "raw_percent": 2.526875,
-        "coverage_percent": 88.728716,
-        "member_count": 1,
-        "members": [
-          "elf-woman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0252687494,
-            "similarity": 0.850741,
-            "matched_descriptor": "half-elf"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "eldest",
-        "descriptor_index": 2086,
-        "amplitude": 0.0064303375,
-        "abs_amplitude": 0.0064303375,
-        "raw_amplitude": 0.0192910126,
-        "percent": 1.929101,
-        "raw_percent": 1.929101,
-        "coverage_percent": 90.657817,
-        "member_count": 1,
-        "members": [
-          "eldest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0192910126,
-            "similarity": 0.845959,
-            "matched_descriptor": "reliable big sis"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unorganised",
-        "descriptor_index": 8193,
-        "amplitude": 0.0064252697,
-        "abs_amplitude": 0.0064252697,
-        "raw_amplitude": 0.0192758092,
-        "percent": 1.927581,
-        "raw_percent": 1.927581,
-        "coverage_percent": 92.585398,
-        "member_count": 1,
-        "members": [
-          "unorganised"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0192758092,
-            "similarity": 0.862927,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "middle-aged / older",
-        "descriptor_index": 4788,
-        "amplitude": 0.0059934777,
-        "abs_amplitude": 0.0059934777,
-        "raw_amplitude": 0.0179804331,
-        "percent": 1.798043,
-        "raw_percent": 1.798043,
-        "coverage_percent": 94.383441,
-        "member_count": 2,
-        "members": [
-          "middle-aged",
-          "older"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0179804332,
-            "similarity": 0.820996,
-            "matched_descriptor": "reliable big sis"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "uncoordinated / clumsy",
-        "descriptor_index": 8093,
-        "amplitude": 0.00479506,
-        "abs_amplitude": 0.00479506,
-        "raw_amplitude": 0.0143851799,
-        "percent": 1.438518,
-        "raw_percent": 1.438518,
-        "coverage_percent": 95.821959,
-        "member_count": 2,
-        "members": [
-          "uncoordinated",
-          "clumsy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 169498,
-            "name": "Flare Shiranui",
-            "native_name": "不知火フレア",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
-            "site_url": "https://anilist.co/character/169498",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 149,
-            "row_weight": 2.4516597,
-            "projection": 0.0143851799,
-            "similarity": 0.842423,
-            "matched_descriptor": "sloppy undependable"
-          }
-        ]
+        "fit_percent": 95.91773,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 169498,
         "name": "Flare Shiranui",
-        "native_name": "不知火フレア",
         "anime": "Holo no Graffiti",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
         "site_url": "https://anilist.co/character/169498",
-        "anime_url": "https://myanimelist.net/anime/44042",
-        "role": "MAIN",
         "favourites": 149,
-        "row_weight": 2.4516597,
+        "anilist_favourites": 149,
+        "bangumi_collects": 15,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 74538,
+        "bangumi_url": "https://bgm.tv/character/74538",
+        "combined_favourites": 164,
+        "role_edge_count": 1,
+        "descriptors": [
+          "emotional",
+          "moody",
+          "sloppy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47102114,
+        "row_weight": 2.47102114,
+        "unweighted_row_norm": 2.54864973,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1242,19 +113,69 @@
       {
         "character_id": 169498,
         "name": "Flare Shiranui",
-        "native_name": "不知火フレア",
         "anime": "Holo no Graffiti",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b169498-t1J360vDV2JT.png",
         "site_url": "https://anilist.co/character/169498",
-        "anime_url": "https://myanimelist.net/anime/44042",
-        "role": "MAIN",
         "favourites": 149,
-        "row_weight": 2.4516597,
+        "anilist_favourites": 149,
+        "bangumi_collects": 15,
+        "bangumi_comments": 3,
+        "bangumi_character_id": 74538,
+        "bangumi_url": "https://bgm.tv/character/74538",
+        "combined_favourites": 164,
+        "role_edge_count": 1,
+        "descriptors": [
+          "emotional",
+          "moody",
+          "sloppy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47102114,
+        "row_weight": 2.47102114,
+        "unweighted_row_norm": 2.54864973,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4710211399,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

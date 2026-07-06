@@ -11,2060 +11,1310 @@
     "wakui yuu",
     "yuu wakui"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yuu_wakui.json",
+  "sv1_mass_percent": 83.439801,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 3,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.5532911121,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.5532911121,
-        "mass_percent": 69.81258
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.169877993,
-        "mass_percent": 22.746674
-      },
-      {
-        "rank": 3,
-        "singular_value": 1.8129751642,
-        "mass_percent": 7.440747
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 267.293867,
-      "normalized_entanglement": 0.696078,
-      "top5_mass_percent": 3.99631,
-      "top10_mass_percent": 7.532932
-    },
-    "character_participation": {
-      "effective_count": 1.021538,
-      "normalized_entanglement": 0.340513,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.228786,
-      "semantic_spread": 1.538571,
-      "axis_concentration_percent": 63.784902,
-      "lane_count": 1.924461,
-      "direction_range": 0.8121,
-      "direction_spread": 1.002096,
-      "direction_axis_concentration_percent": 65.675157,
-      "direction_lane_count": 1.902496
-    },
-    "explained_sv_l2_percent": 69.81258,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.7163846275,
+    "mass_percent": 85.078304,
+    "descriptor_fit_percent": 96.319132,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0651842931,
-        "abs_amplitude": 0.0651842931,
-        "raw_amplitude": 0.1955528792,
-        "percent": 17.429884,
-        "raw_percent": 17.461549,
-        "coverage_percent": 17.429884,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
+        "descriptor": "mysterious",
+        "amplitude": 0.3782830003,
+        "abs_amplitude": 0.3782830003,
+        "percent": 34.668667,
+        "weighted_support": 2.60279687,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 272395,
             "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
             "anime": "A Galaxy Next Door",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
             "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.1955528792,
-            "similarity": 0.930033,
-            "matched_descriptor": "mysterious person"
+            "combined_favourites": 321
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.0457976378,
-        "abs_amplitude": 0.0457976378,
-        "raw_amplitude": 0.1373929133,
-        "percent": 12.24601,
-        "raw_percent": 12.268257,
-        "coverage_percent": 29.675894,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
+        "descriptor": "innocent",
+        "amplitude": 0.4095987752,
+        "abs_amplitude": 0.4095987752,
+        "percent": 37.538677,
+        "weighted_support": 2.60279687,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 272395,
             "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
             "anime": "A Galaxy Next Door",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
             "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.1373929133,
-            "similarity": 0.934184,
-            "matched_descriptor": "mysterious person"
+            "combined_favourites": 321
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "dark / intangible",
-        "descriptor_index": 1589,
-        "amplitude": 0.0284526051,
-        "abs_amplitude": 0.0284526051,
-        "raw_amplitude": 0.0832768357,
-        "percent": 7.608054,
-        "raw_percent": 7.436058,
-        "coverage_percent": 37.283948,
-        "member_count": 2,
-        "members": [
-          "dark",
-          "intangible"
-        ],
-        "support": 2,
-        "effective_support": 1.024989,
-        "support_factor": 0.341663,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0822490272,
-            "similarity": 0.880329,
-            "matched_descriptor": "mysterious person"
-          },
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0010278085,
-            "similarity": 0.884244,
-            "matched_descriptor": "evil"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "shadowy",
-        "descriptor_index": 6749,
-        "amplitude": 0.0243279083,
-        "abs_amplitude": 0.0243279083,
-        "raw_amplitude": 0.072983725,
-        "percent": 6.505135,
-        "raw_percent": 6.516953,
-        "coverage_percent": 43.789083,
-        "member_count": 1,
-        "members": [
-          "shadowy"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.3032562363,
+        "abs_amplitude": 0.3032562363,
+        "percent": 27.792656,
+        "weighted_support": 2.46478677,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.072983725,
-            "similarity": 0.886312,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "support-oriented / humanitarian",
-        "descriptor_index": 7531,
-        "amplitude": 0.0242313402,
-        "abs_amplitude": 0.0242313402,
-        "raw_amplitude": 0.0726940207,
-        "percent": 6.479313,
-        "raw_percent": 6.491084,
-        "coverage_percent": 50.268396,
-        "member_count": 2,
-        "members": [
-          "support-oriented",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0726940207,
-            "similarity": 0.869691,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "anonymous",
-        "descriptor_index": 267,
-        "amplitude": 0.0201547565,
-        "abs_amplitude": 0.0201547565,
-        "raw_amplitude": 0.0604642694,
-        "percent": 5.389259,
-        "raw_percent": 5.39905,
-        "coverage_percent": 55.657655,
-        "member_count": 1,
-        "members": [
-          "anonymous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0604642694,
-            "similarity": 0.877007,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0188208309,
-        "abs_amplitude": 0.0188208309,
-        "raw_amplitude": 0.0564624928,
-        "percent": 5.032576,
-        "raw_percent": 5.041719,
-        "coverage_percent": 60.690231,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0564624928,
-            "similarity": 0.874033,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0186615069,
-        "abs_amplitude": 0.0186615069,
-        "raw_amplitude": 0.0559845206,
-        "percent": 4.989974,
-        "raw_percent": 4.999039,
-        "coverage_percent": 65.680205,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0559845206,
-            "similarity": 0.853476,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0148086334,
-        "abs_amplitude": 0.0148086334,
-        "raw_amplitude": 0.0444259002,
-        "percent": 3.959739,
-        "raw_percent": 3.966932,
-        "coverage_percent": 69.639943,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0444259002,
-            "similarity": 0.882285,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "friendship-oriented / loyal",
-        "descriptor_index": 2833,
-        "amplitude": 0.013078829,
-        "abs_amplitude": 0.013078829,
-        "raw_amplitude": 0.039236487,
-        "percent": 3.497199,
-        "raw_percent": 3.503553,
-        "coverage_percent": 73.137143,
-        "member_count": 2,
-        "members": [
-          "friendship-oriented",
-          "loyal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0392364871,
-            "similarity": 0.845143,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.0121884203,
-        "abs_amplitude": 0.0121884203,
-        "raw_amplitude": 0.036565261,
-        "percent": 3.25911,
-        "raw_percent": 3.26503,
-        "coverage_percent": 76.396252,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.036565261,
-            "similarity": 0.86211,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "undercover",
-        "descriptor_index": 8099,
-        "amplitude": 0.0115959111,
-        "abs_amplitude": 0.0115959111,
-        "raw_amplitude": 0.0347877333,
-        "percent": 3.100676,
-        "raw_percent": 3.106309,
-        "coverage_percent": 79.496928,
-        "member_count": 1,
-        "members": [
-          "undercover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0347877333,
-            "similarity": 0.857923,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "useful",
-        "descriptor_index": 8262,
-        "amplitude": 0.0113444216,
-        "abs_amplitude": 0.0113444216,
-        "raw_amplitude": 0.0340332649,
-        "percent": 3.033429,
-        "raw_percent": 3.03894,
-        "coverage_percent": 82.530358,
-        "member_count": 1,
-        "members": [
-          "useful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0340332649,
-            "similarity": 0.834552,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "sneaky",
-        "descriptor_index": 7023,
-        "amplitude": 0.0109056519,
-        "abs_amplitude": 0.0109056519,
-        "raw_amplitude": 0.0327169556,
-        "percent": 2.916105,
-        "raw_percent": 2.921403,
-        "coverage_percent": 85.446463,
-        "member_count": 1,
-        "members": [
-          "sneaky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0327169556,
-            "similarity": 0.856384,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "persistent / refractory / tenacious / headstrong / +9",
-        "descriptor_index": 5543,
-        "amplitude": 0.0082703194,
-        "abs_amplitude": 0.0082703194,
-        "raw_amplitude": 0.0248109582,
-        "percent": 2.211433,
-        "raw_percent": 2.215451,
-        "coverage_percent": 87.657896,
-        "member_count": 13,
-        "members": [
-          "persistent",
-          "refractory",
-          "tenacious",
-          "headstrong",
-          "strong-willed",
-          "tough",
-          "unbending",
-          "resolute",
-          "resistant",
-          "inflexible",
-          "unyielding",
-          "stubborn",
-          "strong-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0248109582,
-            "similarity": 1.0,
-            "matched_descriptor": "persistent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "overlooked",
-        "descriptor_index": 5418,
-        "amplitude": 0.0065682086,
-        "abs_amplitude": 0.0065682086,
-        "raw_amplitude": 0.0197046258,
-        "percent": 1.756299,
-        "raw_percent": 1.75949,
-        "coverage_percent": 89.414195,
-        "member_count": 1,
-        "members": [
-          "overlooked"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0197046258,
-            "similarity": 0.846712,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "merciless / brutal / cruel / ruthless / +1",
-        "descriptor_index": 4763,
-        "amplitude": 0.0041279588,
-        "abs_amplitude": 0.0041279588,
-        "raw_amplitude": 0.0123838763,
-        "percent": 1.103791,
-        "raw_percent": 1.105796,
-        "coverage_percent": 90.517986,
-        "member_count": 5,
-        "members": [
-          "merciless",
-          "brutal",
-          "cruel",
-          "ruthless",
-          "harsh"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0123838762,
-            "similarity": 1.0,
-            "matched_descriptor": "merciless"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "talented / expert / accomplished / proficient / +2",
-        "descriptor_index": 7651,
-        "amplitude": 0.0034063057,
-        "abs_amplitude": 0.0034063057,
-        "raw_amplitude": 0.010218917,
-        "percent": 0.910825,
-        "raw_percent": 0.91248,
-        "coverage_percent": 91.428812,
-        "member_count": 6,
-        "members": [
-          "talented",
-          "expert",
-          "accomplished",
-          "proficient",
-          "skilled",
-          "skill-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0102189171,
-            "similarity": 1.0,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "enigmatic",
-        "descriptor_index": 2192,
-        "amplitude": 0.0026778486,
-        "abs_amplitude": 0.0026778486,
-        "raw_amplitude": 0.0080335459,
-        "percent": 0.71604,
-        "raw_percent": 0.717341,
-        "coverage_percent": 92.144852,
-        "member_count": 1,
-        "members": [
-          "enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0080335459,
-            "similarity": 0.838038,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "loud enigmatic",
-        "descriptor_index": 4402,
-        "amplitude": 0.0019271496,
-        "abs_amplitude": 0.0019271496,
-        "raw_amplitude": 0.0057814489,
-        "percent": 0.515308,
-        "raw_percent": 0.516244,
-        "coverage_percent": 92.66016,
-        "member_count": 1,
-        "members": [
-          "loud enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0057814489,
-            "similarity": 0.836364,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "stealthy",
-        "descriptor_index": 7241,
-        "amplitude": 0.0018640902,
-        "abs_amplitude": 0.0018640902,
-        "raw_amplitude": 0.0055922705,
-        "percent": 0.498446,
-        "raw_percent": 0.499352,
-        "coverage_percent": 93.158607,
-        "member_count": 1,
-        "members": [
-          "stealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0055922705,
-            "similarity": 0.836223,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0017630062,
-        "abs_amplitude": 0.0017630062,
-        "raw_amplitude": 0.0052890187,
-        "percent": 0.471417,
-        "raw_percent": 0.472274,
-        "coverage_percent": 93.630024,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 88522,
             "name": "Sumire\r\n Hikami",
-            "native_name": "氷上スミレ",
             "anime": "Aikatsu! Movie",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
             "site_url": "https://anilist.co/character/88522",
-            "anime_url": "https://anilist.co/anime/20794",
-            "role": "MAIN",
-            "favourites": 143,
-            "row_weight": 2.44332014,
-            "projection": 0.0052890188,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "evil / corrupt",
-        "descriptor_index": 2232,
-        "amplitude": 0.001747989,
-        "abs_amplitude": 0.001747989,
-        "raw_amplitude": 0.0052439671,
-        "percent": 0.467402,
-        "raw_percent": 0.468251,
-        "coverage_percent": 94.097425,
-        "member_count": 2,
-        "members": [
-          "evil",
-          "corrupt"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0052439671,
-            "similarity": 1.0,
-            "matched_descriptor": "evil"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "polite / well-mannered / courteous / respectful / +8",
-        "descriptor_index": 5689,
-        "amplitude": 0.0015455819,
-        "abs_amplitude": 0.0015455819,
-        "raw_amplitude": 0.0046367458,
-        "percent": 0.413279,
-        "raw_percent": 0.41403,
-        "coverage_percent": 94.510705,
-        "member_count": 12,
-        "members": [
-          "polite",
-          "well-mannered",
-          "courteous",
-          "respectful",
-          "pleasant",
-          "formal",
-          "gentle",
-          "good",
-          "openhearted",
-          "admirable",
-          "warm",
-          "soft"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88522,
-            "name": "Sumire\r\n Hikami",
-            "native_name": "氷上スミレ",
-            "anime": "Aikatsu! Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
-            "site_url": "https://anilist.co/character/88522",
-            "anime_url": "https://anilist.co/anime/20794",
-            "role": "MAIN",
-            "favourites": 143,
-            "row_weight": 2.44332014,
-            "projection": 0.004636746,
-            "similarity": 1.0,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "serene / peaceful / tranquil / mellow / +10",
-        "descriptor_index": 6707,
-        "amplitude": 0.0014788239,
-        "abs_amplitude": 0.0014788239,
-        "raw_amplitude": 0.0044364716,
-        "percent": 0.395429,
-        "raw_percent": 0.396147,
-        "coverage_percent": 94.906133,
-        "member_count": 14,
-        "members": [
-          "serene",
-          "peaceful",
-          "tranquil",
-          "mellow",
-          "untroubled",
-          "calm",
-          "soothing",
-          "subdued",
-          "contented",
-          "calmer",
-          "non-violent",
-          "calmest",
-          "chilling",
-          "non-combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88522,
-            "name": "Sumire\r\n Hikami",
-            "native_name": "氷上スミレ",
-            "anime": "Aikatsu! Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
-            "site_url": "https://anilist.co/character/88522",
-            "anime_url": "https://anilist.co/anime/20794",
-            "role": "MAIN",
-            "favourites": 143,
-            "row_weight": 2.44332014,
-            "projection": 0.0044364717,
-            "similarity": 0.962907,
-            "matched_descriptor": "calm disposition / soft-spoken"
+            "combined_favourites": 159
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "masked / concealing",
-        "descriptor_index": 4625,
-        "amplitude": 0.0651842931,
-        "abs_amplitude": 0.0651842931,
-        "raw_amplitude": 0.1955528792,
-        "percent": 17.429884,
-        "raw_percent": 17.461549,
-        "coverage_percent": 17.429884,
-        "member_count": 2,
-        "members": [
-          "masked",
-          "concealing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.1955528792,
-            "similarity": 0.930033,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 2,
+        "step": 1,
         "descriptor": "mysterious",
-        "descriptor_index": 5009,
-        "amplitude": 0.0457976378,
-        "abs_amplitude": 0.0457976378,
-        "raw_amplitude": 0.1373929133,
-        "percent": 12.24601,
-        "raw_percent": 12.268257,
-        "coverage_percent": 29.675894,
-        "member_count": 1,
-        "members": [
-          "mysterious"
-        ],
+        "weighted_support": 2.60279687,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.1373929133,
-            "similarity": 0.934184,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
+        "fit_percent": 83.580532,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "dark / intangible",
-        "descriptor_index": 1589,
-        "amplitude": 0.0284526051,
-        "abs_amplitude": 0.0284526051,
-        "raw_amplitude": 0.0832768357,
-        "percent": 7.608054,
-        "raw_percent": 7.436058,
-        "coverage_percent": 37.283948,
-        "member_count": 2,
-        "members": [
-          "dark",
-          "intangible"
-        ],
-        "support": 2,
-        "effective_support": 1.024989,
-        "support_factor": 0.341663,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0822490272,
-            "similarity": 0.880329,
-            "matched_descriptor": "mysterious person"
-          },
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0010278085,
-            "similarity": 0.884244,
-            "matched_descriptor": "evil"
-          }
-        ]
+        "step": 2,
+        "descriptor": "innocent",
+        "weighted_support": 2.60279687,
+        "support": 1,
+        "fit_percent": 94.29971,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "shadowy",
-        "descriptor_index": 6749,
-        "amplitude": 0.0243279083,
-        "abs_amplitude": 0.0243279083,
-        "raw_amplitude": 0.072983725,
-        "percent": 6.505135,
-        "raw_percent": 6.516953,
-        "coverage_percent": 43.789083,
-        "member_count": 1,
-        "members": [
-          "shadowy"
-        ],
+        "step": 3,
+        "descriptor": "shy",
+        "weighted_support": 2.46478677,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.072983725,
-            "similarity": 0.886312,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "support-oriented / humanitarian",
-        "descriptor_index": 7531,
-        "amplitude": 0.0242313402,
-        "abs_amplitude": 0.0242313402,
-        "raw_amplitude": 0.0726940207,
-        "percent": 6.479313,
-        "raw_percent": 6.491084,
-        "coverage_percent": 50.268396,
-        "member_count": 2,
-        "members": [
-          "support-oriented",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0726940207,
-            "similarity": 0.869691,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "anonymous",
-        "descriptor_index": 267,
-        "amplitude": 0.0201547565,
-        "abs_amplitude": 0.0201547565,
-        "raw_amplitude": 0.0604642694,
-        "percent": 5.389259,
-        "raw_percent": 5.39905,
-        "coverage_percent": 55.657655,
-        "member_count": 1,
-        "members": [
-          "anonymous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0604642694,
-            "similarity": 0.877007,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "secretive",
-        "descriptor_index": 6580,
-        "amplitude": 0.0188208309,
-        "abs_amplitude": 0.0188208309,
-        "raw_amplitude": 0.0564624928,
-        "percent": 5.032576,
-        "raw_percent": 5.041719,
-        "coverage_percent": 60.690231,
-        "member_count": 1,
-        "members": [
-          "secretive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0564624928,
-            "similarity": 0.874033,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0186615069,
-        "abs_amplitude": 0.0186615069,
-        "raw_amplitude": 0.0559845206,
-        "percent": 4.989974,
-        "raw_percent": 4.999039,
-        "coverage_percent": 65.680205,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0559845206,
-            "similarity": 0.853476,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0148086334,
-        "abs_amplitude": 0.0148086334,
-        "raw_amplitude": 0.0444259002,
-        "percent": 3.959739,
-        "raw_percent": 3.966932,
-        "coverage_percent": 69.639943,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0444259002,
-            "similarity": 0.882285,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "friendship-oriented / loyal",
-        "descriptor_index": 2833,
-        "amplitude": 0.013078829,
-        "abs_amplitude": 0.013078829,
-        "raw_amplitude": 0.039236487,
-        "percent": 3.497199,
-        "raw_percent": 3.503553,
-        "coverage_percent": 73.137143,
-        "member_count": 2,
-        "members": [
-          "friendship-oriented",
-          "loyal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0392364871,
-            "similarity": 0.845143,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "deceitful",
-        "descriptor_index": 1630,
-        "amplitude": 0.0121884203,
-        "abs_amplitude": 0.0121884203,
-        "raw_amplitude": 0.036565261,
-        "percent": 3.25911,
-        "raw_percent": 3.26503,
-        "coverage_percent": 76.396252,
-        "member_count": 1,
-        "members": [
-          "deceitful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.036565261,
-            "similarity": 0.86211,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "undercover",
-        "descriptor_index": 8099,
-        "amplitude": 0.0115959111,
-        "abs_amplitude": 0.0115959111,
-        "raw_amplitude": 0.0347877333,
-        "percent": 3.100676,
-        "raw_percent": 3.106309,
-        "coverage_percent": 79.496928,
-        "member_count": 1,
-        "members": [
-          "undercover"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0347877333,
-            "similarity": 0.857923,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "useful",
-        "descriptor_index": 8262,
-        "amplitude": 0.0113444216,
-        "abs_amplitude": 0.0113444216,
-        "raw_amplitude": 0.0340332649,
-        "percent": 3.033429,
-        "raw_percent": 3.03894,
-        "coverage_percent": 82.530358,
-        "member_count": 1,
-        "members": [
-          "useful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0340332649,
-            "similarity": 0.834552,
-            "matched_descriptor": "god-tier assistant"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "sneaky",
-        "descriptor_index": 7023,
-        "amplitude": 0.0109056519,
-        "abs_amplitude": 0.0109056519,
-        "raw_amplitude": 0.0327169556,
-        "percent": 2.916105,
-        "raw_percent": 2.921403,
-        "coverage_percent": 85.446463,
-        "member_count": 1,
-        "members": [
-          "sneaky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0327169556,
-            "similarity": 0.856384,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "persistent / refractory / tenacious / headstrong / +9",
-        "descriptor_index": 5543,
-        "amplitude": 0.0082703194,
-        "abs_amplitude": 0.0082703194,
-        "raw_amplitude": 0.0248109582,
-        "percent": 2.211433,
-        "raw_percent": 2.215451,
-        "coverage_percent": 87.657896,
-        "member_count": 13,
-        "members": [
-          "persistent",
-          "refractory",
-          "tenacious",
-          "headstrong",
-          "strong-willed",
-          "tough",
-          "unbending",
-          "resolute",
-          "resistant",
-          "inflexible",
-          "unyielding",
-          "stubborn",
-          "strong-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0248109582,
-            "similarity": 1.0,
-            "matched_descriptor": "persistent"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "overlooked",
-        "descriptor_index": 5418,
-        "amplitude": 0.0065682086,
-        "abs_amplitude": 0.0065682086,
-        "raw_amplitude": 0.0197046258,
-        "percent": 1.756299,
-        "raw_percent": 1.75949,
-        "coverage_percent": 89.414195,
-        "member_count": 1,
-        "members": [
-          "overlooked"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0197046258,
-            "similarity": 0.846712,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "merciless / brutal / cruel / ruthless / +1",
-        "descriptor_index": 4763,
-        "amplitude": 0.0041279588,
-        "abs_amplitude": 0.0041279588,
-        "raw_amplitude": 0.0123838763,
-        "percent": 1.103791,
-        "raw_percent": 1.105796,
-        "coverage_percent": 90.517986,
-        "member_count": 5,
-        "members": [
-          "merciless",
-          "brutal",
-          "cruel",
-          "ruthless",
-          "harsh"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0123838762,
-            "similarity": 1.0,
-            "matched_descriptor": "merciless"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "talented / expert / accomplished / proficient / +2",
-        "descriptor_index": 7651,
-        "amplitude": 0.0034063057,
-        "abs_amplitude": 0.0034063057,
-        "raw_amplitude": 0.010218917,
-        "percent": 0.910825,
-        "raw_percent": 0.91248,
-        "coverage_percent": 91.428812,
-        "member_count": 6,
-        "members": [
-          "talented",
-          "expert",
-          "accomplished",
-          "proficient",
-          "skilled",
-          "skill-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0102189171,
-            "similarity": 1.0,
-            "matched_descriptor": "talented"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "enigmatic",
-        "descriptor_index": 2192,
-        "amplitude": 0.0026778486,
-        "abs_amplitude": 0.0026778486,
-        "raw_amplitude": 0.0080335459,
-        "percent": 0.71604,
-        "raw_percent": 0.717341,
-        "coverage_percent": 92.144852,
-        "member_count": 1,
-        "members": [
-          "enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0080335459,
-            "similarity": 0.838038,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "loud enigmatic",
-        "descriptor_index": 4402,
-        "amplitude": 0.0019271496,
-        "abs_amplitude": 0.0019271496,
-        "raw_amplitude": 0.0057814489,
-        "percent": 0.515308,
-        "raw_percent": 0.516244,
-        "coverage_percent": 92.66016,
-        "member_count": 1,
-        "members": [
-          "loud enigmatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0057814489,
-            "similarity": 0.836364,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "stealthy",
-        "descriptor_index": 7241,
-        "amplitude": 0.0018640902,
-        "abs_amplitude": 0.0018640902,
-        "raw_amplitude": 0.0055922705,
-        "percent": 0.498446,
-        "raw_percent": 0.499352,
-        "coverage_percent": 93.158607,
-        "member_count": 1,
-        "members": [
-          "stealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 272395,
-            "name": "Shiori Goshiki",
-            "native_name": "五色しおり",
-            "anime": "A Galaxy Next Door",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
-            "site_url": "https://anilist.co/character/272395",
-            "anime_url": "https://myanimelist.net/anime/51705",
-            "role": "MAIN",
-            "favourites": 300,
-            "row_weight": 2.58980892,
-            "projection": 0.0055922705,
-            "similarity": 0.836223,
-            "matched_descriptor": "mysterious person"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0017630062,
-        "abs_amplitude": 0.0017630062,
-        "raw_amplitude": 0.0052890187,
-        "percent": 0.471417,
-        "raw_percent": 0.472274,
-        "coverage_percent": 93.630024,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88522,
-            "name": "Sumire\r\n Hikami",
-            "native_name": "氷上スミレ",
-            "anime": "Aikatsu! Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
-            "site_url": "https://anilist.co/character/88522",
-            "anime_url": "https://anilist.co/anime/20794",
-            "role": "MAIN",
-            "favourites": 143,
-            "row_weight": 2.44332014,
-            "projection": 0.0052890188,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "evil / corrupt",
-        "descriptor_index": 2232,
-        "amplitude": 0.001747989,
-        "abs_amplitude": 0.001747989,
-        "raw_amplitude": 0.0052439671,
-        "percent": 0.467402,
-        "raw_percent": 0.468251,
-        "coverage_percent": 94.097425,
-        "member_count": 2,
-        "members": [
-          "evil",
-          "corrupt"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 295642,
-            "name": "Noel Stollen",
-            "native_name": "ノエル・シュトーレン",
-            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-            "site_url": "https://anilist.co/character/295642",
-            "anime_url": "https://myanimelist.net/anime/58714",
-            "role": "MAIN",
-            "favourites": 313,
-            "row_weight": 1.8370347,
-            "projection": 0.0052439671,
-            "similarity": 1.0,
-            "matched_descriptor": "evil"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "polite / well-mannered / courteous / respectful / +8",
-        "descriptor_index": 5689,
-        "amplitude": 0.0015455819,
-        "abs_amplitude": 0.0015455819,
-        "raw_amplitude": 0.0046367458,
-        "percent": 0.413279,
-        "raw_percent": 0.41403,
-        "coverage_percent": 94.510705,
-        "member_count": 12,
-        "members": [
-          "polite",
-          "well-mannered",
-          "courteous",
-          "respectful",
-          "pleasant",
-          "formal",
-          "gentle",
-          "good",
-          "openhearted",
-          "admirable",
-          "warm",
-          "soft"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88522,
-            "name": "Sumire\r\n Hikami",
-            "native_name": "氷上スミレ",
-            "anime": "Aikatsu! Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
-            "site_url": "https://anilist.co/character/88522",
-            "anime_url": "https://anilist.co/anime/20794",
-            "role": "MAIN",
-            "favourites": 143,
-            "row_weight": 2.44332014,
-            "projection": 0.004636746,
-            "similarity": 1.0,
-            "matched_descriptor": "polite"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "serene / peaceful / tranquil / mellow / +10",
-        "descriptor_index": 6707,
-        "amplitude": 0.0014788239,
-        "abs_amplitude": 0.0014788239,
-        "raw_amplitude": 0.0044364716,
-        "percent": 0.395429,
-        "raw_percent": 0.396147,
-        "coverage_percent": 94.906133,
-        "member_count": 14,
-        "members": [
-          "serene",
-          "peaceful",
-          "tranquil",
-          "mellow",
-          "untroubled",
-          "calm",
-          "soothing",
-          "subdued",
-          "contented",
-          "calmer",
-          "non-violent",
-          "calmest",
-          "chilling",
-          "non-combative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 88522,
-            "name": "Sumire\r\n Hikami",
-            "native_name": "氷上スミレ",
-            "anime": "Aikatsu! Movie",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
-            "site_url": "https://anilist.co/character/88522",
-            "anime_url": "https://anilist.co/anime/20794",
-            "role": "MAIN",
-            "favourites": 143,
-            "row_weight": 2.44332014,
-            "projection": 0.0044364717,
-            "similarity": 0.962907,
-            "matched_descriptor": "calm disposition / soft-spoken"
-          }
-        ]
+        "fit_percent": 96.319132,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 272395,
         "name": "Shiori Goshiki",
-        "native_name": "五色しおり",
         "anime": "A Galaxy Next Door",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
         "site_url": "https://anilist.co/character/272395",
-        "anime_url": "https://myanimelist.net/anime/51705",
-        "role": "MAIN",
         "favourites": 300,
-        "row_weight": 2.58980892,
-        "amplitude": 0.9946613413,
-        "abs_amplitude": 0.9946613413,
-        "percent": 98.935118
-      },
-      {
-        "character_id": 295642,
-        "name": "Noel Stollen",
-        "native_name": "ノエル・シュトーレン",
-        "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-        "site_url": "https://anilist.co/character/295642",
-        "anime_url": "https://myanimelist.net/anime/58714",
-        "role": "MAIN",
-        "favourites": 313,
-        "row_weight": 1.8370347,
-        "amplitude": 0.1000770981,
-        "abs_amplitude": 0.1000770981,
-        "percent": 1.001543
+        "anilist_favourites": 300,
+        "bangumi_collects": 21,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 124323,
+        "bangumi_url": "https://bgm.tv/character/124323",
+        "combined_favourites": 321,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent",
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.60279687,
+        "row_weight": 2.60279687,
+        "unweighted_row_norm": 1.80807535,
+        "amplitude": 0.659912684,
+        "abs_amplitude": 0.659912684,
+        "percent": 43.548475
       },
       {
         "character_id": 88522,
         "name": "Sumire\r\n Hikami",
-        "native_name": "氷上スミレ",
         "anime": "Aikatsu! Movie",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
         "site_url": "https://anilist.co/character/88522",
-        "anime_url": "https://anilist.co/anime/20794",
-        "role": "MAIN",
         "favourites": 143,
-        "row_weight": 2.44332014,
-        "amplitude": 0.0251672532,
-        "abs_amplitude": 0.0251672532,
-        "percent": 0.063339
+        "anilist_favourites": 143,
+        "bangumi_collects": 16,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 27134,
+        "bangumi_url": "https://bgm.tv/character/27134",
+        "combined_favourites": 159,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind",
+          "polite",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46478677,
+        "row_weight": 2.46478677,
+        "unweighted_row_norm": 2.63240033,
+        "amplitude": 0.6247498069,
+        "abs_amplitude": 0.6247498069,
+        "percent": 39.031232
+      },
+      {
+        "character_id": 295642,
+        "name": "Noel Stollen",
+        "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+        "site_url": "https://anilist.co/character/295642",
+        "favourites": 313,
+        "anilist_favourites": 313,
+        "bangumi_collects": 6,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 156047,
+        "bangumi_url": "https://bgm.tv/character/156047",
+        "combined_favourites": 319,
+        "role_edge_count": 2,
+        "descriptors": [
+          "merciless",
+          "persistent"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.6015997,
+        "row_weight": 1.83960879,
+        "unweighted_row_norm": 1.77445433,
+        "amplitude": 0.4173762431,
+        "abs_amplitude": 0.4173762431,
+        "percent": 17.420293
       }
     ],
     "positive_characters": [
       {
         "character_id": 272395,
         "name": "Shiori Goshiki",
-        "native_name": "五色しおり",
         "anime": "A Galaxy Next Door",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
         "site_url": "https://anilist.co/character/272395",
-        "anime_url": "https://myanimelist.net/anime/51705",
-        "role": "MAIN",
         "favourites": 300,
-        "row_weight": 2.58980892,
-        "amplitude": 0.9946613413,
-        "abs_amplitude": 0.9946613413,
-        "percent": 98.935118
-      },
-      {
-        "character_id": 295642,
-        "name": "Noel Stollen",
-        "native_name": "ノエル・シュトーレン",
-        "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
-        "site_url": "https://anilist.co/character/295642",
-        "anime_url": "https://myanimelist.net/anime/58714",
-        "role": "MAIN",
-        "favourites": 313,
-        "row_weight": 1.8370347,
-        "amplitude": 0.1000770981,
-        "abs_amplitude": 0.1000770981,
-        "percent": 1.001543
+        "anilist_favourites": 300,
+        "bangumi_collects": 21,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 124323,
+        "bangumi_url": "https://bgm.tv/character/124323",
+        "combined_favourites": 321,
+        "role_edge_count": 1,
+        "descriptors": [
+          "innocent",
+          "mysterious"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.60279687,
+        "row_weight": 2.60279687,
+        "unweighted_row_norm": 1.80807535,
+        "amplitude": 0.659912684,
+        "abs_amplitude": 0.659912684,
+        "percent": 43.548475
       },
       {
         "character_id": 88522,
         "name": "Sumire\r\n Hikami",
-        "native_name": "氷上スミレ",
         "anime": "Aikatsu! Movie",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
         "site_url": "https://anilist.co/character/88522",
-        "anime_url": "https://anilist.co/anime/20794",
-        "role": "MAIN",
         "favourites": 143,
-        "row_weight": 2.44332014,
-        "amplitude": 0.0251672532,
-        "abs_amplitude": 0.0251672532,
-        "percent": 0.063339
+        "anilist_favourites": 143,
+        "bangumi_collects": 16,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 27134,
+        "bangumi_url": "https://bgm.tv/character/27134",
+        "combined_favourites": 159,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind",
+          "polite",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.46478677,
+        "row_weight": 2.46478677,
+        "unweighted_row_norm": 2.63240033,
+        "amplitude": 0.6247498069,
+        "abs_amplitude": 0.6247498069,
+        "percent": 39.031232
+      },
+      {
+        "character_id": 295642,
+        "name": "Noel Stollen",
+        "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+        "site_url": "https://anilist.co/character/295642",
+        "favourites": 313,
+        "anilist_favourites": 313,
+        "bangumi_collects": 6,
+        "bangumi_comments": 9,
+        "bangumi_character_id": 156047,
+        "bangumi_url": "https://bgm.tv/character/156047",
+        "combined_favourites": 319,
+        "role_edge_count": 2,
+        "descriptors": [
+          "merciless",
+          "persistent"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.6015997,
+        "row_weight": 1.83960879,
+        "unweighted_row_norm": 1.77445433,
+        "amplitude": 0.4173762431,
+        "abs_amplitude": 0.4173762431,
+        "percent": 17.420293
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 2.685737,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "polite / kind / innocent / +4",
+          "support": 3,
+          "variance": 0.2376340154,
+          "seed_descriptor": "polite",
+          "components": [
+            {
+              "descriptor": "polite",
+              "weight": 0.30191066,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.14895429,
+              "similarity_to_seed": 0.70240449,
+              "support": 1
+            },
+            {
+              "descriptor": "innocent",
+              "weight": 0.13685467,
+              "similarity_to_seed": 0.67327205,
+              "support": 1
+            },
+            {
+              "descriptor": "shy",
+              "weight": 0.13287119,
+              "similarity_to_seed": 0.6634011,
+              "support": 1
+            },
+            {
+              "descriptor": "merciless",
+              "weight": 0.09687252,
+              "similarity_to_seed": 0.56644933,
+              "support": 1
+            },
+            {
+              "descriptor": "persistent",
+              "weight": 0.09569997,
+              "similarity_to_seed": 0.56301072,
+              "support": 1
+            },
+            {
+              "descriptor": "mysterious",
+              "weight": 0.08683671,
+              "similarity_to_seed": 0.53630577,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.2376340154,
+          "minimum_y_projection_variance": 0.0594085039,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 7,
+          "x_component_count": 7,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0237634015,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0594085039,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1188170077,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 295642,
+            "name": "Noel Stollen",
+            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+            "site_url": "https://anilist.co/character/295642",
+            "favourites": 313,
+            "anilist_favourites": 313,
+            "bangumi_collects": 6,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 156047,
+            "bangumi_url": "https://bgm.tv/character/156047",
+            "combined_favourites": 319,
+            "role_edge_count": 2,
+            "descriptors": [
+              "merciless",
+              "persistent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.6015997,
+            "row_weight": 1.83960879,
+            "unweighted_row_norm": 1.77445433,
+            "x_raw_score": 1.4854922085,
+            "x_score": -0.3958884242,
+            "amplitude": -0.3958884242,
+            "x_direct": true
+          },
+          {
+            "character_id": 272395,
+            "name": "Shiori Goshiki",
+            "anime": "A Galaxy Next Door",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
+            "site_url": "https://anilist.co/character/272395",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 21,
+            "bangumi_comments": 13,
+            "bangumi_character_id": 124323,
+            "bangumi_url": "https://bgm.tv/character/124323",
+            "combined_favourites": 321,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent",
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.60279687,
+            "row_weight": 2.60279687,
+            "unweighted_row_norm": 1.80807535,
+            "x_raw_score": 1.5905454571,
+            "x_score": -0.2908351756,
+            "amplitude": -0.2908351756,
+            "x_direct": true
+          },
+          {
+            "character_id": 88522,
+            "name": "Sumire\r\n Hikami",
+            "anime": "Aikatsu! Movie",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
+            "site_url": "https://anilist.co/character/88522",
+            "favourites": 143,
+            "anilist_favourites": 143,
+            "bangumi_collects": 16,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 27134,
+            "bangumi_url": "https://bgm.tv/character/27134",
+            "combined_favourites": 159,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "polite",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46478677,
+            "row_weight": 2.46478677,
+            "unweighted_row_norm": 2.63240033,
+            "x_raw_score": 2.5681042324,
+            "x_score": 0.6867235998,
+            "amplitude": 0.6867235998,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.8813806327
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "polite / courteous / mannered / +9",
+          "support": 1,
+          "variance": 0.2676546866,
+          "seed_descriptor": "polite",
+          "components": [
+            {
+              "descriptor": "polite",
+              "weight": 0.1274963,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "courteous",
+              "weight": 0.09307076,
+              "similarity_to_seed": 0.85439333,
+              "support": 0
+            },
+            {
+              "descriptor": "mannered",
+              "weight": 0.08871709,
+              "similarity_to_seed": 0.83417057,
+              "support": 0
+            },
+            {
+              "descriptor": "sincere",
+              "weight": 0.08475863,
+              "similarity_to_seed": 0.81534832,
+              "support": 0
+            },
+            {
+              "descriptor": "pleasant",
+              "weight": 0.08375572,
+              "similarity_to_seed": 0.81051011,
+              "support": 0
+            },
+            {
+              "descriptor": "proper",
+              "weight": 0.08058687,
+              "similarity_to_seed": 0.7950297,
+              "support": 0
+            },
+            {
+              "descriptor": "humble",
+              "weight": 0.07619765,
+              "similarity_to_seed": 0.77307564,
+              "support": 0
+            },
+            {
+              "descriptor": "benevolent",
+              "weight": 0.07438664,
+              "similarity_to_seed": 0.76383344,
+              "support": 0
+            },
+            {
+              "descriptor": "assertive",
+              "weight": 0.07351864,
+              "similarity_to_seed": 0.75936387,
+              "support": 0
+            },
+            {
+              "descriptor": "gentlemanly",
+              "weight": 0.073128,
+              "similarity_to_seed": 0.75734378,
+              "support": 0
+            },
+            {
+              "descriptor": "rude",
+              "weight": 0.07274866,
+              "similarity_to_seed": 0.75537689,
+              "support": 0
+            },
+            {
+              "descriptor": "prudent",
+              "weight": 0.07163505,
+              "similarity_to_seed": 0.7495731,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 0.2676546866,
+          "minimum_y_projection_variance": 0.0669136716,
+          "best_rejected_correlation": 0.9923866767,
+          "best_rejected_lane_cosine": 0.854986837,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9923866767,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0267654687,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.0669136716,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.1338273433,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "introverted / extroverted / sociable / +9",
+            "variance": 0.2031132939,
+            "correlation": 0.9998541967,
+            "abs_correlation": 0.9998541967,
+            "lane_cosine": 0.8381023186,
+            "orthogonality_score": 0.2975845036,
+            "objective": 0.0604433688,
+            "components": [
+              {
+                "descriptor": "introverted",
+                "weight": 0.14063796,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "extroverted",
+                "weight": 0.11611986,
+                "similarity_to_seed": 0.90866115,
+                "support": 0
+              },
+              {
+                "descriptor": "sociable",
+                "weight": 0.08646762,
+                "similarity_to_seed": 0.78410724,
+                "support": 0
+              },
+              {
+                "descriptor": "outgoing",
+                "weight": 0.08408718,
+                "similarity_to_seed": 0.77323877,
+                "support": 0
+              },
+              {
+                "descriptor": "unsocial",
+                "weight": 0.07465134,
+                "similarity_to_seed": 0.72856371,
+                "support": 0
+              },
+              {
+                "descriptor": "shy",
+                "weight": 0.07456224,
+                "similarity_to_seed": 0.72812875,
+                "support": 1
+              },
+              {
+                "descriptor": "easygoing",
+                "weight": 0.07409189,
+                "similarity_to_seed": 0.72582855,
+                "support": 0
+              },
+              {
+                "descriptor": "antisocial",
+                "weight": 0.07235485,
+                "similarity_to_seed": 0.71726979,
+                "support": 0
+              },
+              {
+                "descriptor": "asocial",
+                "weight": 0.07063995,
+                "similarity_to_seed": 0.70871871,
+                "support": 0
+              },
+              {
+                "descriptor": "empathetic",
+                "weight": 0.06977954,
+                "similarity_to_seed": 0.70438931,
+                "support": 0
+              },
+              {
+                "descriptor": "laid-back",
+                "weight": 0.06930238,
+                "similarity_to_seed": 0.70197685,
+                "support": 0
+              },
+              {
+                "descriptor": "solitary",
+                "weight": 0.0673052,
+                "similarity_to_seed": 0.691788,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 295642,
+            "name": "Noel Stollen",
+            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+            "site_url": "https://anilist.co/character/295642",
+            "favourites": 313,
+            "anilist_favourites": 313,
+            "bangumi_collects": 6,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 156047,
+            "bangumi_url": "https://bgm.tv/character/156047",
+            "combined_favourites": 319,
+            "role_edge_count": 2,
+            "descriptors": [
+              "merciless",
+              "persistent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.6015997,
+            "row_weight": 1.83960879,
+            "unweighted_row_norm": 1.77445433,
+            "x_raw_score": 1.3354966574,
+            "x_score": -0.4026134226,
+            "amplitude": -0.4026134226,
+            "x_direct": false
+          },
+          {
+            "character_id": 272395,
+            "name": "Shiori Goshiki",
+            "anime": "A Galaxy Next Door",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
+            "site_url": "https://anilist.co/character/272395",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 21,
+            "bangumi_comments": 13,
+            "bangumi_character_id": 124323,
+            "bangumi_url": "https://bgm.tv/character/124323",
+            "combined_favourites": 321,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent",
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.60279687,
+            "row_weight": 2.60279687,
+            "unweighted_row_norm": 1.80807535,
+            "x_raw_score": 1.4103526611,
+            "x_score": -0.3277574188,
+            "amplitude": -0.3277574188,
+            "x_direct": false
+          },
+          {
+            "character_id": 88522,
+            "name": "Sumire\r\n Hikami",
+            "anime": "Aikatsu! Movie",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
+            "site_url": "https://anilist.co/character/88522",
+            "favourites": 143,
+            "anilist_favourites": 143,
+            "bangumi_collects": 16,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 27134,
+            "bangumi_url": "https://bgm.tv/character/27134",
+            "combined_favourites": 159,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "polite",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46478677,
+            "row_weight": 2.46478677,
+            "unweighted_row_norm": 2.63240033,
+            "x_raw_score": 2.4684809214,
+            "x_score": 0.7303708414,
+            "amplitude": 0.7303708414,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 1.73811008
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "polite / kind / innocent / +4",
+        "support": 3,
+        "variance": 0.2376340154,
+        "seed_descriptor": "polite",
+        "components": [
+          {
+            "descriptor": "polite",
+            "weight": 0.30191066,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.14895429,
+            "similarity_to_seed": 0.70240449,
+            "support": 1
+          },
+          {
+            "descriptor": "innocent",
+            "weight": 0.13685467,
+            "similarity_to_seed": 0.67327205,
+            "support": 1
+          },
+          {
+            "descriptor": "shy",
+            "weight": 0.13287119,
+            "similarity_to_seed": 0.6634011,
+            "support": 1
+          },
+          {
+            "descriptor": "merciless",
+            "weight": 0.09687252,
+            "similarity_to_seed": 0.56644933,
+            "support": 1
+          },
+          {
+            "descriptor": "persistent",
+            "weight": 0.09569997,
+            "similarity_to_seed": 0.56301072,
+            "support": 1
+          },
+          {
+            "descriptor": "mysterious",
+            "weight": 0.08683671,
+            "similarity_to_seed": 0.53630577,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 0.2376340154,
+        "minimum_y_projection_variance": 0.0594085039,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 7,
+        "x_component_count": 7,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0237634015,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.0594085039,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.1188170077,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 295642,
+          "name": "Noel Stollen",
+          "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+          "site_url": "https://anilist.co/character/295642",
+          "favourites": 313,
+          "anilist_favourites": 313,
+          "bangumi_collects": 6,
+          "bangumi_comments": 9,
+          "bangumi_character_id": 156047,
+          "bangumi_url": "https://bgm.tv/character/156047",
+          "combined_favourites": 319,
+          "role_edge_count": 2,
+          "descriptors": [
+            "merciless",
+            "persistent"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.6015997,
+          "row_weight": 1.83960879,
+          "unweighted_row_norm": 1.77445433,
+          "x_raw_score": 1.4854922085,
+          "x_score": -0.3958884242,
+          "amplitude": -0.3958884242,
+          "x_direct": true
+        },
+        {
+          "character_id": 272395,
+          "name": "Shiori Goshiki",
+          "anime": "A Galaxy Next Door",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
+          "site_url": "https://anilist.co/character/272395",
+          "favourites": 300,
+          "anilist_favourites": 300,
+          "bangumi_collects": 21,
+          "bangumi_comments": 13,
+          "bangumi_character_id": 124323,
+          "bangumi_url": "https://bgm.tv/character/124323",
+          "combined_favourites": 321,
+          "role_edge_count": 1,
+          "descriptors": [
+            "innocent",
+            "mysterious"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.60279687,
+          "row_weight": 2.60279687,
+          "unweighted_row_norm": 1.80807535,
+          "x_raw_score": 1.5905454571,
+          "x_score": -0.2908351756,
+          "amplitude": -0.2908351756,
+          "x_direct": true
+        },
+        {
+          "character_id": 88522,
+          "name": "Sumire\r\n Hikami",
+          "anime": "Aikatsu! Movie",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
+          "site_url": "https://anilist.co/character/88522",
+          "favourites": 143,
+          "anilist_favourites": 143,
+          "bangumi_collects": 16,
+          "bangumi_comments": 6,
+          "bangumi_character_id": 27134,
+          "bangumi_url": "https://bgm.tv/character/27134",
+          "combined_favourites": 159,
+          "role_edge_count": 1,
+          "descriptors": [
+            "kind",
+            "polite",
+            "shy"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.46478677,
+          "row_weight": 2.46478677,
+          "unweighted_row_norm": 2.63240033,
+          "x_raw_score": 2.5681042324,
+          "x_score": 0.6867235998,
+          "amplitude": 0.6867235998,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 1.8813806327
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.1711846395,
+      "mass_percent": 8.449446,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 33.226492,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "mysterious",
+            "amplitude": 0.2639985446,
+            "abs_amplitude": 0.2639985446,
+            "percent": 73.596104
+          },
+          {
+            "rank": 2,
+            "descriptor": "innocent",
+            "amplitude": 0.094714118,
+            "abs_amplitude": 0.094714118,
+            "percent": 26.403896
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "mysterious",
+            "fit_percent": 32.410111,
+            "residual_gain_percent": 10.504153
+          },
+          {
+            "step": 2,
+            "descriptor": "innocent",
+            "fit_percent": 33.226492,
+            "residual_gain_percent": 0.598737
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 272395,
+            "name": "Shiori Goshiki",
+            "anime": "A Galaxy Next Door",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
+            "site_url": "https://anilist.co/character/272395",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 21,
+            "bangumi_comments": 13,
+            "bangumi_character_id": 124323,
+            "bangumi_url": "https://bgm.tv/character/124323",
+            "combined_favourites": 321,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent",
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.60279687,
+            "row_weight": 2.60279687,
+            "unweighted_row_norm": 1.80807535,
+            "amplitude": 0.7206894164,
+            "abs_amplitude": 0.7206894164,
+            "percent": 51.939323
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 38.951835,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "persistent",
+            "amplitude": 0.3302097717,
+            "abs_amplitude": 0.3302097717,
+            "percent": 78.432726
+          },
+          {
+            "rank": 2,
+            "descriptor": "merciless",
+            "amplitude": 0.0908004198,
+            "abs_amplitude": 0.0908004198,
+            "percent": 21.567274
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "persistent",
+            "fit_percent": 38.236046,
+            "residual_gain_percent": 14.619952
+          },
+          {
+            "step": 2,
+            "descriptor": "merciless",
+            "fit_percent": 38.951835,
+            "residual_gain_percent": 0.647109
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 295642,
+            "name": "Noel Stollen",
+            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+            "site_url": "https://anilist.co/character/295642",
+            "favourites": 313,
+            "anilist_favourites": 313,
+            "bangumi_collects": 6,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 156047,
+            "bangumi_url": "https://bgm.tv/character/156047",
+            "combined_favourites": 319,
+            "role_edge_count": 2,
+            "descriptors": [
+              "merciless",
+              "persistent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.6015997,
+            "row_weight": 1.83960879,
+            "unweighted_row_norm": 1.77445433,
+            "amplitude": -0.5867154825,
+            "abs_amplitude": 0.5867154825,
+            "percent": 34.423506
+          },
+          {
+            "character_id": 88522,
+            "name": "Sumire\r\n Hikami",
+            "anime": "Aikatsu! Movie",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
+            "site_url": "https://anilist.co/character/88522",
+            "favourites": 143,
+            "anilist_favourites": 143,
+            "bangumi_collects": 16,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 27134,
+            "bangumi_url": "https://bgm.tv/character/27134",
+            "combined_favourites": 159,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "polite",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46478677,
+            "row_weight": 2.46478677,
+            "unweighted_row_norm": 2.63240033,
+            "amplitude": -0.3692854015,
+            "abs_amplitude": 0.3692854015,
+            "percent": 13.637171
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "kind": "variation_axis",
+      "singular_value": 1.0250354624,
+      "mass_percent": 6.47225,
+      "relative_to_sv2_percent": 87.521252,
+      "positive_pole": {
+        "descriptor_fit_percent": 38.882695,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "merciless",
+            "amplitude": 0.2622441428,
+            "abs_amplitude": 0.2622441428,
+            "percent": 60.172922
+          },
+          {
+            "rank": 2,
+            "descriptor": "persistent",
+            "amplitude": 0.1735733866,
+            "abs_amplitude": 0.1735733866,
+            "percent": 39.827078
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "merciless",
+            "fit_percent": 36.193499,
+            "residual_gain_percent": 13.099694
+          },
+          {
+            "step": 2,
+            "descriptor": "persistent",
+            "fit_percent": 38.882695,
+            "residual_gain_percent": 2.323289
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 295642,
+            "name": "Noel Stollen",
+            "anime": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b295642-av5p13ENw6wn.png",
+            "site_url": "https://anilist.co/character/295642",
+            "favourites": 313,
+            "anilist_favourites": 313,
+            "bangumi_collects": 6,
+            "bangumi_comments": 9,
+            "bangumi_character_id": 156047,
+            "bangumi_url": "https://bgm.tv/character/156047",
+            "combined_favourites": 319,
+            "role_edge_count": 2,
+            "descriptors": [
+              "merciless",
+              "persistent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.6015997,
+            "row_weight": 1.83960879,
+            "unweighted_row_norm": 1.77445433,
+            "amplitude": 0.6939466941,
+            "abs_amplitude": 0.6939466941,
+            "percent": 48.156201
+          },
+          {
+            "character_id": 272395,
+            "name": "Shiori Goshiki",
+            "anime": "A Galaxy Next Door",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b272395-kGGIYJUg0pyM.png",
+            "site_url": "https://anilist.co/character/272395",
+            "favourites": 300,
+            "anilist_favourites": 300,
+            "bangumi_collects": 21,
+            "bangumi_comments": 13,
+            "bangumi_character_id": 124323,
+            "bangumi_url": "https://bgm.tv/character/124323",
+            "combined_favourites": 321,
+            "role_edge_count": 1,
+            "descriptors": [
+              "innocent",
+              "mysterious"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.60279687,
+            "row_weight": 2.60279687,
+            "unweighted_row_norm": 1.80807535,
+            "amplitude": 0.2124194308,
+            "abs_amplitude": 0.2124194308,
+            "percent": 4.512201
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 33.32675,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "polite",
+            "amplitude": 0.3271697283,
+            "abs_amplitude": 0.3271697283,
+            "percent": 97.438368
+          },
+          {
+            "rank": 2,
+            "descriptor": "kind",
+            "amplitude": 0.0086012153,
+            "abs_amplitude": 0.0086012153,
+            "percent": 2.561632
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "polite",
+            "fit_percent": 33.321126,
+            "residual_gain_percent": 11.102975
+          },
+          {
+            "step": 2,
+            "descriptor": "kind",
+            "fit_percent": 33.32675,
+            "residual_gain_percent": 0.004216
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 88522,
+            "name": "Sumire\r\n Hikami",
+            "anime": "Aikatsu! Movie",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b88522-nGiM6Va6FS6d.png",
+            "site_url": "https://anilist.co/character/88522",
+            "favourites": 143,
+            "anilist_favourites": 143,
+            "bangumi_collects": 16,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 27134,
+            "bangumi_url": "https://bgm.tv/character/27134",
+            "combined_favourites": 159,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind",
+              "polite",
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.46478677,
+            "row_weight": 2.46478677,
+            "unweighted_row_norm": 2.63240033,
+            "amplitude": -0.6879796299,
+            "abs_amplitude": 0.6879796299,
+            "percent": 47.331597
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.7163846275,
+      "mass_percent": 85.078304,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.1711846395,
+      "mass_percent": 8.449446,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.0250354624,
+      "mass_percent": 6.47225,
+      "relative_to_sv2_percent": 87.521252
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,502 +11,102 @@
     "mihoko nakamichi",
     "nakamichi mihoko"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/mihoko_nakamichi.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.1130945142,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.1130945142,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 241.646412,
-      "normalized_entanglement": 0.629288,
-      "top5_mass_percent": 4.565637,
-      "top10_mass_percent": 8.410923
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "cute / adorable / sweet",
-        "descriptor_index": 1556,
-        "amplitude": 0.1349142569,
-        "abs_amplitude": 0.1349142569,
-        "raw_amplitude": 0.4047427706,
-        "percent": 40.474277,
-        "raw_percent": 40.474277,
-        "coverage_percent": 40.474277,
-        "member_count": 3,
-        "members": [
-          "cute",
-          "adorable",
-          "sweet"
-        ],
+        "descriptor": "cute",
+        "amplitude": 0.5462276452,
+        "abs_amplitude": 0.5462276452,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 54963,
             "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
             "anime": "Chihayafuru",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
             "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.4047427706,
-            "similarity": 1.0,
-            "matched_descriptor": "cute"
+            "combined_favourites": 672
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "left-handed / right-handed",
-        "descriptor_index": 4256,
-        "amplitude": 0.1051860218,
-        "abs_amplitude": 0.1051860218,
-        "raw_amplitude": 0.3155580655,
-        "percent": 31.555807,
-        "raw_percent": 31.555807,
-        "coverage_percent": 72.030084,
-        "member_count": 2,
-        "members": [
-          "left-handed",
-          "right-handed"
-        ],
+        "descriptor": "left-handed",
+        "amplitude": 0.5462276447,
+        "abs_amplitude": 0.5462276447,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 54963,
             "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
             "anime": "Chihayafuru",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
             "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.3155580655,
-            "similarity": 1.0,
-            "matched_descriptor": "left-handed"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "right-hand",
-        "descriptor_index": 6313,
-        "amplitude": 0.0379189936,
-        "abs_amplitude": 0.0379189936,
-        "raw_amplitude": 0.1137569807,
-        "percent": 11.375698,
-        "raw_percent": 11.375698,
-        "coverage_percent": 83.405782,
-        "member_count": 1,
-        "members": [
-          "right-hand"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.1137569807,
-            "similarity": 0.891912,
-            "matched_descriptor": "left-handed"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "cheeky / coquettish / flirtatious",
-        "descriptor_index": 1034,
-        "amplitude": 0.0224802399,
-        "abs_amplitude": 0.0224802399,
-        "raw_amplitude": 0.0674407198,
-        "percent": 6.744072,
-        "raw_percent": 6.744072,
-        "coverage_percent": 90.149854,
-        "member_count": 3,
-        "members": [
-          "cheeky",
-          "coquettish",
-          "flirtatious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.0674407198,
-            "similarity": 0.869797,
-            "matched_descriptor": "cute"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "captivating / seductive / charming",
-        "descriptor_index": 936,
-        "amplitude": 0.0149263064,
-        "abs_amplitude": 0.0149263064,
-        "raw_amplitude": 0.0447789193,
-        "percent": 4.477892,
-        "raw_percent": 4.477892,
-        "coverage_percent": 94.627746,
-        "member_count": 3,
-        "members": [
-          "captivating",
-          "seductive",
-          "charming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.0447789193,
-            "similarity": 0.859075,
-            "matched_descriptor": "cute"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "attractive / suave",
-        "descriptor_index": 466,
-        "amplitude": 0.0131138598,
-        "abs_amplitude": 0.0131138598,
-        "raw_amplitude": 0.0393415793,
-        "percent": 3.934158,
-        "raw_percent": 3.934158,
-        "coverage_percent": 98.561904,
-        "member_count": 2,
-        "members": [
-          "attractive",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.0393415793,
-            "similarity": 0.885898,
-            "matched_descriptor": "cute"
+            "combined_favourites": 672
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "cute / adorable / sweet",
-        "descriptor_index": 1556,
-        "amplitude": 0.1349142569,
-        "abs_amplitude": 0.1349142569,
-        "raw_amplitude": 0.4047427706,
-        "percent": 40.474277,
-        "raw_percent": 40.474277,
-        "coverage_percent": 40.474277,
-        "member_count": 3,
-        "members": [
-          "cute",
-          "adorable",
-          "sweet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.4047427706,
-            "similarity": 1.0,
-            "matched_descriptor": "cute"
-          }
-        ]
+        "step": 1,
+        "descriptor": "cute",
+        "fit_percent": 91.536927,
+        "residual_gain_percent": 83.79009
       },
       {
-        "rank": 2,
-        "descriptor": "left-handed / right-handed",
-        "descriptor_index": 4256,
-        "amplitude": 0.1051860218,
-        "abs_amplitude": 0.1051860218,
-        "raw_amplitude": 0.3155580655,
-        "percent": 31.555807,
-        "raw_percent": 31.555807,
-        "coverage_percent": 72.030084,
-        "member_count": 2,
-        "members": [
-          "left-handed",
-          "right-handed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.3155580655,
-            "similarity": 1.0,
-            "matched_descriptor": "left-handed"
-          }
-        ]
+        "step": 2,
+        "descriptor": "left-handed",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 3,
-        "descriptor": "right-hand",
-        "descriptor_index": 6313,
-        "amplitude": 0.0379189936,
-        "abs_amplitude": 0.0379189936,
-        "raw_amplitude": 0.1137569807,
-        "percent": 11.375698,
-        "raw_percent": 11.375698,
-        "coverage_percent": 83.405782,
-        "member_count": 1,
-        "members": [
-          "right-hand"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.1137569807,
-            "similarity": 0.891912,
-            "matched_descriptor": "left-handed"
-          }
-        ]
+        "step": 3,
+        "descriptor": "maniacal",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -682591187742244.9
       },
       {
-        "rank": 4,
-        "descriptor": "cheeky / coquettish / flirtatious",
-        "descriptor_index": 1034,
-        "amplitude": 0.0224802399,
-        "abs_amplitude": 0.0224802399,
-        "raw_amplitude": 0.0674407198,
-        "percent": 6.744072,
-        "raw_percent": 6.744072,
-        "coverage_percent": 90.149854,
-        "member_count": 3,
-        "members": [
-          "cheeky",
-          "coquettish",
-          "flirtatious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.0674407198,
-            "similarity": 0.869797,
-            "matched_descriptor": "cute"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "captivating / seductive / charming",
-        "descriptor_index": 936,
-        "amplitude": 0.0149263064,
-        "abs_amplitude": 0.0149263064,
-        "raw_amplitude": 0.0447789193,
-        "percent": 4.477892,
-        "raw_percent": 4.477892,
-        "coverage_percent": 94.627746,
-        "member_count": 3,
-        "members": [
-          "captivating",
-          "seductive",
-          "charming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.0447789193,
-            "similarity": 0.859075,
-            "matched_descriptor": "cute"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "attractive / suave",
-        "descriptor_index": 466,
-        "amplitude": 0.0131138598,
-        "abs_amplitude": 0.0131138598,
-        "raw_amplitude": 0.0393415793,
-        "percent": 3.934158,
-        "raw_percent": 3.934158,
-        "coverage_percent": 98.561904,
-        "member_count": 2,
-        "members": [
-          "attractive",
-          "suave"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 54963,
-            "name": "Shinobu Wakamiya",
-            "native_name": "若宮詩暢",
-            "anime": "Chihayafuru",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
-            "site_url": "https://anilist.co/character/54963",
-            "anime_url": "https://myanimelist.net/anime/10800",
-            "role": "SUPPORTING",
-            "favourites": 578,
-            "row_weight": 2.71317203,
-            "projection": 0.0393415793,
-            "similarity": 0.885898,
-            "matched_descriptor": "cute"
-          }
-        ]
+        "step": 4,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 54963,
         "name": "Shinobu Wakamiya",
-        "native_name": "若宮詩暢",
         "anime": "Chihayafuru",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
         "site_url": "https://anilist.co/character/54963",
-        "anime_url": "https://myanimelist.net/anime/10800",
-        "role": "SUPPORTING",
         "favourites": 578,
-        "row_weight": 2.71317203,
+        "anilist_favourites": 578,
+        "bangumi_collects": 94,
+        "bangumi_comments": 25,
+        "bangumi_character_id": 13423,
+        "bangumi_url": "https://bgm.tv/character/13423",
+        "combined_favourites": 672,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cute",
+          "left-handed"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.83073854,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -516,19 +116,63 @@
       {
         "character_id": 54963,
         "name": "Shinobu Wakamiya",
-        "native_name": "若宮詩暢",
         "anime": "Chihayafuru",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b54963-GDcdo1GZ79YV.jpg",
         "site_url": "https://anilist.co/character/54963",
-        "anime_url": "https://myanimelist.net/anime/10800",
-        "role": "SUPPORTING",
         "favourites": 578,
-        "row_weight": 2.71317203,
+        "anilist_favourites": 578,
+        "bangumi_collects": 94,
+        "bangumi_comments": 25,
+        "bangumi_character_id": 13423,
+        "bangumi_url": "https://bgm.tv/character/13423",
+        "combined_favourites": 672,
+        "role_edge_count": 1,
+        "descriptors": [
+          "cute",
+          "left-handed"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.83073854,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 1501,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

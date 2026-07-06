@@ -11,1083 +11,375 @@
     "izumi kitta",
     "kitta izumi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/izumi_kitta.json",
+  "sv1_mass_percent": 85.267333,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 6.7480536267,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 6.7480536267,
-        "mass_percent": 90.486053
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.188104509,
-        "mass_percent": 9.513947
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 281.098444,
-      "normalized_entanglement": 0.732027,
-      "top5_mass_percent": 4.084783,
-      "top10_mass_percent": 7.498643
-    },
-    "character_participation": {
-      "effective_count": 1.277551,
-      "normalized_entanglement": 0.638775,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.564744,
-      "semantic_spread": 2.564744,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.293392,
-      "direction_spread": 1.293392,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 90.486053,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.3126325055,
+    "mass_percent": 91.282646,
+    "descriptor_fit_percent": 99.001829,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "strong-minded / unyielding / stubborn / strong-willed / +1",
-        "descriptor_index": 7372,
-        "amplitude": 0.1156364458,
-        "abs_amplitude": 0.1156364458,
-        "raw_amplitude": 0.3469093375,
-        "percent": 37.065055,
-        "raw_percent": 37.065055,
-        "coverage_percent": 37.065055,
-        "member_count": 5,
-        "members": [
-          "strong-minded",
-          "unyielding",
-          "stubborn",
-          "strong-willed",
-          "resolute"
-        ],
+        "descriptor": "unpopular",
+        "amplitude": 0.3455271144,
+        "abs_amplitude": 0.3455271144,
+        "percent": 30.543246,
+        "weighted_support": 3.02473534,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 50057,
             "name": "Tomoko Kuroki",
-            "native_name": "黒木智子",
             "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
             "site_url": "https://anilist.co/character/50057",
-            "anime_url": "https://myanimelist.net/anime/16742",
-            "role": "MAIN",
-            "favourites": 3179,
-            "row_weight": 3.01075347,
-            "projection": 0.3469093375,
-            "similarity": 0.897799,
-            "matched_descriptor": "determined"
+            "combined_favourites": 3459
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "determined",
-        "descriptor_index": 1778,
-        "amplitude": 0.1074986241,
-        "abs_amplitude": 0.1074986241,
-        "raw_amplitude": 0.3224958723,
-        "percent": 34.456632,
-        "raw_percent": 34.456632,
-        "coverage_percent": 71.521687,
-        "member_count": 1,
-        "members": [
-          "determined"
-        ],
+        "descriptor": "pessimistic",
+        "amplitude": 0.3622697451,
+        "abs_amplitude": 0.3622697451,
+        "percent": 32.023229,
+        "weighted_support": 3.02473534,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 50057,
             "name": "Tomoko Kuroki",
-            "native_name": "黒木智子",
             "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
             "site_url": "https://anilist.co/character/50057",
-            "anime_url": "https://myanimelist.net/anime/16742",
-            "role": "MAIN",
-            "favourites": 3179,
-            "row_weight": 3.01075347,
-            "projection": 0.3224958723,
-            "similarity": 1.0,
-            "matched_descriptor": "determined"
+            "combined_favourites": 3459
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "persevering / relentless",
-        "descriptor_index": 5541,
-        "amplitude": 0.0217528798,
-        "abs_amplitude": 0.0217528798,
-        "raw_amplitude": 0.0652586394,
-        "percent": 6.97247,
-        "raw_percent": 6.97247,
-        "coverage_percent": 78.494157,
-        "member_count": 2,
-        "members": [
-          "persevering",
-          "relentless"
-        ],
+        "descriptor": "awkward",
+        "amplitude": 0.4234748836,
+        "abs_amplitude": 0.4234748836,
+        "percent": 37.433524,
+        "weighted_support": 3.02473534,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 50057,
             "name": "Tomoko Kuroki",
-            "native_name": "黒木智子",
             "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
             "site_url": "https://anilist.co/character/50057",
-            "anime_url": "https://myanimelist.net/anime/16742",
-            "role": "MAIN",
-            "favourites": 3179,
-            "row_weight": 3.01075347,
-            "projection": 0.0652586394,
-            "similarity": 0.87553,
-            "matched_descriptor": "determined"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "unshakable",
-        "descriptor_index": 8220,
-        "amplitude": 0.0196227818,
-        "abs_amplitude": 0.0196227818,
-        "raw_amplitude": 0.0588683455,
-        "percent": 6.289708,
-        "raw_percent": 6.289708,
-        "coverage_percent": 84.783866,
-        "member_count": 1,
-        "members": [
-          "unshakable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50057,
-            "name": "Tomoko Kuroki",
-            "native_name": "黒木智子",
-            "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
-            "site_url": "https://anilist.co/character/50057",
-            "anime_url": "https://myanimelist.net/anime/16742",
-            "role": "MAIN",
-            "favourites": 3179,
-            "row_weight": 3.01075347,
-            "projection": 0.0588683455,
-            "similarity": 0.866371,
-            "matched_descriptor": "determined"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "asocial",
-        "descriptor_index": 384,
-        "amplitude": 0.0180385779,
-        "abs_amplitude": 0.0180385779,
-        "raw_amplitude": 0.0541157336,
-        "percent": 5.781922,
-        "raw_percent": 5.781922,
-        "coverage_percent": 90.565787,
-        "member_count": 1,
-        "members": [
-          "asocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50057,
-            "name": "Tomoko Kuroki",
-            "native_name": "黒木智子",
-            "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
-            "site_url": "https://anilist.co/character/50057",
-            "anime_url": "https://myanimelist.net/anime/16742",
-            "role": "MAIN",
-            "favourites": 3179,
-            "row_weight": 3.01075347,
-            "projection": 0.0541157336,
-            "similarity": 0.871366,
-            "matched_descriptor": "unpopular girl"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "friendless / reclusive",
-        "descriptor_index": 2819,
-        "amplitude": 0.0152036962,
-        "abs_amplitude": 0.0152036962,
-        "raw_amplitude": 0.0456110886,
-        "percent": 4.873255,
-        "raw_percent": 4.873255,
-        "coverage_percent": 95.439042,
-        "member_count": 2,
-        "members": [
-          "friendless",
-          "reclusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 50057,
-            "name": "Tomoko Kuroki",
-            "native_name": "黒木智子",
-            "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
-            "site_url": "https://anilist.co/character/50057",
-            "anime_url": "https://myanimelist.net/anime/16742",
-            "role": "MAIN",
-            "favourites": 3179,
-            "row_weight": 3.01075347,
-            "projection": 0.0456110886,
-            "similarity": 0.836224,
-            "matched_descriptor": "unpopular girl"
+            "combined_favourites": 3459
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "hot-tempered / quick-tempered / hot-headed / prone-to-anger / +8",
-        "descriptor_index": 3588,
-        "amplitude": 0.0426920839,
-        "abs_amplitude": 0.0426920839,
-        "raw_amplitude": 0.1280762516,
-        "percent": 36.370788,
-        "raw_percent": 36.370788,
-        "coverage_percent": 36.370788,
-        "member_count": 12,
-        "members": [
-          "hot-tempered",
-          "quick-tempered",
-          "hot-headed",
-          "prone-to-anger",
-          "short-tempered",
-          "short-temperedness",
-          "friction-prone",
-          "annoyed-prone",
-          "cranky",
-          "irritable",
-          "ill-tempered",
-          "temperamental"
-        ],
+        "step": 1,
+        "descriptor": "unpopular",
+        "weighted_support": 3.02473534,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.1280762516,
-            "similarity": 0.974934,
-            "matched_descriptor": "strong temper"
-          }
-        ]
+        "fit_percent": 85.732421,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0313103288,
-        "abs_amplitude": 0.0313103288,
-        "raw_amplitude": 0.0939309864,
-        "percent": 26.674297,
-        "raw_percent": 26.674297,
-        "coverage_percent": 63.045086,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "step": 2,
+        "descriptor": "pessimistic",
+        "weighted_support": 3.02473534,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0939309865,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 94.40978,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "enraged / furious / mad / indignant / +1",
-        "descriptor_index": 2197,
-        "amplitude": 0.0083834073,
-        "abs_amplitude": 0.0083834073,
-        "raw_amplitude": 0.025150222,
-        "percent": 7.1421,
-        "raw_percent": 7.1421,
-        "coverage_percent": 70.187186,
-        "member_count": 5,
-        "members": [
-          "enraged",
-          "furious",
-          "mad",
-          "indignant",
-          "angry"
-        ],
+        "step": 3,
+        "descriptor": "awkward",
+        "weighted_support": 3.02473534,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.025150222,
-            "similarity": 0.903666,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "irritated / aggravated / impatient / annoyed / +1",
-        "descriptor_index": 4015,
-        "amplitude": 0.003667662,
-        "abs_amplitude": 0.003667662,
-        "raw_amplitude": 0.0110029859,
-        "percent": 3.124602,
-        "raw_percent": 3.124602,
-        "coverage_percent": 73.311787,
-        "member_count": 5,
-        "members": [
-          "irritated",
-          "aggravated",
-          "impatient",
-          "annoyed",
-          "frustrated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0110029858,
-            "similarity": 0.868104,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "unsocial / standoffish / aloof / stand-offish / +1",
-        "descriptor_index": 8223,
-        "amplitude": 0.00338856,
-        "abs_amplitude": 0.00338856,
-        "raw_amplitude": 0.01016568,
-        "percent": 2.886826,
-        "raw_percent": 2.886826,
-        "coverage_percent": 76.198613,
-        "member_count": 5,
-        "members": [
-          "unsocial",
-          "standoffish",
-          "aloof",
-          "stand-offish",
-          "non-interfering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0101656801,
-            "similarity": 0.892744,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "timid / withdrawn",
-        "descriptor_index": 7851,
-        "amplitude": 0.002574867,
-        "abs_amplitude": 0.002574867,
-        "raw_amplitude": 0.0077246011,
-        "percent": 2.193614,
-        "raw_percent": 2.193614,
-        "coverage_percent": 78.392227,
-        "member_count": 2,
-        "members": [
-          "timid",
-          "withdrawn"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0077246011,
-            "similarity": 0.899131,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "fortune-teller",
-        "descriptor_index": 2744,
-        "amplitude": 0.0024058563,
-        "abs_amplitude": 0.0024058563,
-        "raw_amplitude": 0.0072175688,
-        "percent": 2.049628,
-        "raw_percent": 2.049628,
-        "coverage_percent": 80.441855,
-        "member_count": 1,
-        "members": [
-          "fortune-teller"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0072175688,
-            "similarity": 0.898274,
-            "matched_descriptor": "oracle deck"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "silent-looking / aloof-looking",
-        "descriptor_index": 6861,
-        "amplitude": 0.0020223354,
-        "abs_amplitude": 0.0020223354,
-        "raw_amplitude": 0.0060670063,
-        "percent": 1.722894,
-        "raw_percent": 1.722894,
-        "coverage_percent": 82.164749,
-        "member_count": 2,
-        "members": [
-          "silent-looking",
-          "aloof-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0060670063,
-            "similarity": 0.899456,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "bad-tempered / grumpy",
-        "descriptor_index": 532,
-        "amplitude": 0.0019545388,
-        "abs_amplitude": 0.0019545388,
-        "raw_amplitude": 0.0058636165,
-        "percent": 1.665136,
-        "raw_percent": 1.665136,
-        "coverage_percent": 83.829884,
-        "member_count": 2,
-        "members": [
-          "bad-tempered",
-          "grumpy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0058636165,
-            "similarity": 0.904052,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "berserk",
-        "descriptor_index": 616,
-        "amplitude": 0.0017071101,
-        "abs_amplitude": 0.0017071101,
-        "raw_amplitude": 0.0051213304,
-        "percent": 1.454343,
-        "raw_percent": 1.454343,
-        "coverage_percent": 85.284228,
-        "member_count": 1,
-        "members": [
-          "berserk"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0051213304,
-            "similarity": 0.883205,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "resentful / spiteful",
-        "descriptor_index": 6249,
-        "amplitude": 0.0015800502,
-        "abs_amplitude": 0.0015800502,
-        "raw_amplitude": 0.0047401505,
-        "percent": 1.346097,
-        "raw_percent": 1.346097,
-        "coverage_percent": 86.630324,
-        "member_count": 2,
-        "members": [
-          "resentful",
-          "spiteful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0047401504,
-            "similarity": 0.871797,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "semi-aggressive",
-        "descriptor_index": 6685,
-        "amplitude": 0.0013383324,
-        "abs_amplitude": 0.0013383324,
-        "raw_amplitude": 0.0040149971,
-        "percent": 1.140169,
-        "raw_percent": 1.140169,
-        "coverage_percent": 87.770493,
-        "member_count": 1,
-        "members": [
-          "semi-aggressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0040149971,
-            "similarity": 0.876267,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "ladylike",
-        "descriptor_index": 4196,
-        "amplitude": 0.0012189747,
-        "abs_amplitude": 0.0012189747,
-        "raw_amplitude": 0.0036569242,
-        "percent": 1.038485,
-        "raw_percent": 1.038485,
-        "coverage_percent": 88.808978,
-        "member_count": 1,
-        "members": [
-          "ladylike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0036569242,
-            "similarity": 0.868413,
-            "matched_descriptor": "calm quiet girl"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "path-seer",
-        "descriptor_index": 5490,
-        "amplitude": 0.0011522332,
-        "abs_amplitude": 0.0011522332,
-        "raw_amplitude": 0.0034566996,
-        "percent": 0.981625,
-        "raw_percent": 0.981625,
-        "coverage_percent": 89.790603,
-        "member_count": 1,
-        "members": [
-          "path-seer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0034566996,
-            "similarity": 0.850741,
-            "matched_descriptor": "oracle deck"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "cry-prone / stress-prone",
-        "descriptor_index": 1527,
-        "amplitude": 0.0011347772,
-        "abs_amplitude": 0.0011347772,
-        "raw_amplitude": 0.0034043317,
-        "percent": 0.966754,
-        "raw_percent": 0.966754,
-        "coverage_percent": 90.757357,
-        "member_count": 2,
-        "members": [
-          "cry-prone",
-          "stress-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0034043318,
-            "similarity": 0.863136,
-            "matched_descriptor": "strong temper"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "low-energy / cool-headed",
-        "descriptor_index": 4439,
-        "amplitude": 0.0011155761,
-        "abs_amplitude": 0.0011155761,
-        "raw_amplitude": 0.0033467282,
-        "percent": 0.950396,
-        "raw_percent": 0.950396,
-        "coverage_percent": 91.707753,
-        "member_count": 2,
-        "members": [
-          "low-energy",
-          "cool-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0033467283,
-            "similarity": 0.886262,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "guarded",
-        "descriptor_index": 3227,
-        "amplitude": 0.0010860899,
-        "abs_amplitude": 0.0010860899,
-        "raw_amplitude": 0.0032582698,
-        "percent": 0.925276,
-        "raw_percent": 0.925276,
-        "coverage_percent": 92.633029,
-        "member_count": 1,
-        "members": [
-          "guarded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0032582698,
-            "similarity": 0.893444,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "quiet",
-        "descriptor_index": 6084,
-        "amplitude": 0.0010244081,
-        "abs_amplitude": 0.0010244081,
-        "raw_amplitude": 0.0030732244,
-        "percent": 0.872727,
-        "raw_percent": 0.872727,
-        "coverage_percent": 93.505756,
-        "member_count": 1,
-        "members": [
-          "quiet"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0030732244,
-            "similarity": 0.892012,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "unobtrusive",
-        "descriptor_index": 8190,
-        "amplitude": 0.0009531416,
-        "abs_amplitude": 0.0009531416,
-        "raw_amplitude": 0.0028594247,
-        "percent": 0.812013,
-        "raw_percent": 0.812013,
-        "coverage_percent": 94.317768,
-        "member_count": 1,
-        "members": [
-          "unobtrusive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0028594247,
-            "similarity": 0.890358,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "anti-fighting",
-        "descriptor_index": 276,
-        "amplitude": 0.0008555838,
-        "abs_amplitude": 0.0008555838,
-        "raw_amplitude": 0.0025667515,
-        "percent": 0.7289,
-        "raw_percent": 0.7289,
-        "coverage_percent": 95.046668,
-        "member_count": 1,
-        "members": [
-          "anti-fighting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39494,
-            "name": "Misaki Tokura",
-            "native_name": "戸倉ミサキ",
-            "anime": "Cardfight Vanguard",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
-            "site_url": "https://anilist.co/character/39494",
-            "anime_url": "https://myanimelist.net/anime/9539",
-            "role": "MAIN",
-            "favourites": 114,
-            "row_weight": 1.69483511,
-            "projection": 0.0025667515,
-            "similarity": 0.867119,
-            "matched_descriptor": "vanguard player"
-          }
-        ]
+        "fit_percent": 99.001829,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 50057,
         "name": "Tomoko Kuroki",
-        "native_name": "黒木智子",
         "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
         "site_url": "https://anilist.co/character/50057",
-        "anime_url": "https://myanimelist.net/anime/16742",
-        "role": "MAIN",
         "favourites": 3179,
-        "row_weight": 3.01075347,
-        "amplitude": 0.9359471751,
-        "abs_amplitude": 0.9359471751,
-        "percent": 87.599711
+        "anilist_favourites": 3179,
+        "bangumi_collects": 280,
+        "bangumi_comments": 47,
+        "bangumi_character_id": 18105,
+        "bangumi_url": "https://bgm.tv/character/18105",
+        "combined_favourites": 3459,
+        "role_edge_count": 1,
+        "descriptors": [
+          "awkward",
+          "pessimistic",
+          "unpopular"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 3.02473534,
+        "row_weight": 3.02473534,
+        "unweighted_row_norm": 2.62420548,
+        "amplitude": 0.9034273422,
+        "abs_amplitude": 0.9034273422,
+        "percent": 81.618096
       },
       {
         "character_id": 39494,
         "name": "Misaki Tokura",
-        "native_name": "戸倉ミサキ",
         "anime": "Cardfight Vanguard",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
         "site_url": "https://anilist.co/character/39494",
-        "anime_url": "https://myanimelist.net/anime/9539",
-        "role": "MAIN",
         "favourites": 114,
+        "anilist_favourites": 114,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": null,
+        "bangumi_url": "",
+        "combined_favourites": 114,
+        "role_edge_count": 2,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.3968588,
         "row_weight": 1.69483511,
-        "amplitude": -0.3521404343,
-        "abs_amplitude": 0.3521404343,
-        "percent": 12.400289
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4287412242,
+        "abs_amplitude": 0.4287412242,
+        "percent": 18.381904
       }
     ],
     "positive_characters": [
       {
         "character_id": 50057,
         "name": "Tomoko Kuroki",
-        "native_name": "黒木智子",
         "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
         "site_url": "https://anilist.co/character/50057",
-        "anime_url": "https://myanimelist.net/anime/16742",
-        "role": "MAIN",
         "favourites": 3179,
-        "row_weight": 3.01075347,
-        "amplitude": 0.9359471751,
-        "abs_amplitude": 0.9359471751,
-        "percent": 87.599711
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 3179,
+        "bangumi_collects": 280,
+        "bangumi_comments": 47,
+        "bangumi_character_id": 18105,
+        "bangumi_url": "https://bgm.tv/character/18105",
+        "combined_favourites": 3459,
+        "role_edge_count": 1,
+        "descriptors": [
+          "awkward",
+          "pessimistic",
+          "unpopular"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 3.02473534,
+        "row_weight": 3.02473534,
+        "unweighted_row_norm": 2.62420548,
+        "amplitude": 0.9034273422,
+        "abs_amplitude": 0.9034273422,
+        "percent": 81.618096
+      },
       {
         "character_id": 39494,
         "name": "Misaki Tokura",
-        "native_name": "戸倉ミサキ",
         "anime": "Cardfight Vanguard",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
         "site_url": "https://anilist.co/character/39494",
-        "anime_url": "https://myanimelist.net/anime/9539",
-        "role": "MAIN",
         "favourites": 114,
+        "anilist_favourites": 114,
+        "bangumi_collects": 0,
+        "bangumi_comments": 0,
+        "bangumi_character_id": null,
+        "bangumi_url": "",
+        "combined_favourites": 114,
+        "role_edge_count": 2,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.3968588,
         "row_weight": 1.69483511,
-        "amplitude": -0.3521404343,
-        "abs_amplitude": 0.3521404343,
-        "percent": 12.400289
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.4287412242,
+        "abs_amplitude": 0.4287412242,
+        "percent": 18.381904
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.428692,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.0236971308,
+      "mass_percent": 8.717354,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 54.567903,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "shy",
+            "amplitude": 0.5456790282,
+            "abs_amplitude": 0.5456790282,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "shy",
+            "fit_percent": 54.567903,
+            "residual_gain_percent": 29.77656
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 39494,
+            "name": "Misaki Tokura",
+            "anime": "Cardfight Vanguard",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b39494-n4kL5PXeO1wD.jpg",
+            "site_url": "https://anilist.co/character/39494",
+            "favourites": 114,
+            "anilist_favourites": 114,
+            "bangumi_collects": 0,
+            "bangumi_comments": 0,
+            "bangumi_character_id": null,
+            "bangumi_url": "",
+            "combined_favourites": 114,
+            "role_edge_count": 2,
+            "descriptors": [
+              "shy"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.3968588,
+            "row_weight": 1.69483511,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.9034273422,
+            "abs_amplitude": 0.9034273422,
+            "percent": 81.618096
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 21.475132,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "unpopular",
+            "amplitude": 0.1500630296,
+            "abs_amplitude": 0.1500630296,
+            "percent": 62.526118
+          },
+          {
+            "rank": 2,
+            "descriptor": "pedantic",
+            "amplitude": 0.0899375234,
+            "abs_amplitude": 0.0899375234,
+            "percent": 37.473882
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "unpopular",
+            "fit_percent": 20.174284,
+            "residual_gain_percent": 4.070017
+          },
+          {
+            "step": 2,
+            "descriptor": "pedantic",
+            "fit_percent": 21.475132,
+            "residual_gain_percent": 0.564782
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 50057,
+            "name": "Tomoko Kuroki",
+            "anime": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/n50057-BiD7X42rU5H1.jpg",
+            "site_url": "https://anilist.co/character/50057",
+            "favourites": 3179,
+            "anilist_favourites": 3179,
+            "bangumi_collects": 280,
+            "bangumi_comments": 47,
+            "bangumi_character_id": 18105,
+            "bangumi_url": "https://bgm.tv/character/18105",
+            "combined_favourites": 3459,
+            "role_edge_count": 1,
+            "descriptors": [
+              "awkward",
+              "pessimistic",
+              "unpopular"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 3.02473534,
+            "row_weight": 3.02473534,
+            "unweighted_row_norm": 2.62420548,
+            "amplitude": -0.4287412242,
+            "abs_amplitude": 0.4287412242,
+            "percent": 18.381904
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.3126325055,
+      "mass_percent": 91.282646,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.0236971308,
+      "mass_percent": 8.717354,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1966 +11,158 @@
     "shun takagi",
     "takagi shun"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/shun_takagi.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 16.0642023514,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 16.0642023514,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 260.906043,
-      "normalized_entanglement": 0.679443,
-      "top5_mass_percent": 4.720094,
-      "top10_mass_percent": 8.820693
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.4375484452,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 96.210866,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0468963147,
-        "abs_amplitude": 0.0468963147,
-        "raw_amplitude": 0.1406889441,
-        "percent": 14.06899,
-        "raw_percent": 14.068894,
-        "coverage_percent": 14.06899,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "temperamental",
-          "irritable",
-          "semi-aggressive"
-        ],
+        "descriptor": "violent",
+        "amplitude": 0.3080204128,
+        "abs_amplitude": 0.3080204128,
+        "percent": 26.235628,
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 24505,
             "name": "Noda",
-            "native_name": "野田",
             "anime": "Angel Beats!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
             "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1406889441,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
+            "combined_favourites": 139
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "self-reliant / self-sufficient / lone / independent / +5",
-        "descriptor_index": 6664,
-        "amplitude": 0.037510002,
-        "abs_amplitude": 0.037510002,
-        "raw_amplitude": 0.1125300061,
-        "percent": 11.253077,
-        "raw_percent": 11.253001,
-        "coverage_percent": 25.322067,
-        "member_count": 9,
-        "members": [
-          "self-reliant",
-          "self-sufficient",
-          "lone",
-          "independent",
-          "solitary",
-          "self-motivated",
-          "works-alone",
-          "hands-off",
-          "free-willed"
-        ],
+        "descriptor": "tsundere",
+        "amplitude": 0.2332558172,
+        "abs_amplitude": 0.2332558172,
+        "percent": 19.867557,
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 24505,
             "name": "Noda",
-            "native_name": "野田",
             "anime": "Angel Beats!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
             "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1125300062,
-            "similarity": 1.0,
-            "matched_descriptor": "self-reliant / loner"
+            "combined_favourites": 139
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.0332567924,
-        "abs_amplitude": 0.0332567924,
-        "raw_amplitude": 0.0997703773,
-        "percent": 9.977105,
-        "raw_percent": 9.977038,
-        "coverage_percent": 35.299172,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
+        "descriptor": "short-tempered",
+        "amplitude": 0.3101779259,
+        "abs_amplitude": 0.3101779259,
+        "percent": 26.419395,
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 24505,
             "name": "Noda",
-            "native_name": "野田",
             "anime": "Angel Beats!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
             "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0997703774,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
+            "combined_favourites": 139
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "idiotic / brainless / stupid",
-        "descriptor_index": 3692,
-        "amplitude": 0.0156073773,
-        "abs_amplitude": 0.0156073773,
-        "raw_amplitude": 0.046822132,
-        "percent": 4.682245,
-        "raw_percent": 4.682213,
-        "coverage_percent": 39.981417,
-        "member_count": 3,
-        "members": [
-          "idiotic",
-          "brainless",
-          "stupid"
-        ],
+        "descriptor": "reliant",
+        "amplitude": 0.32259972,
+        "abs_amplitude": 0.32259972,
+        "percent": 27.47742,
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 24505,
             "name": "Noda",
-            "native_name": "野田",
             "anime": "Angel Beats!",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
             "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.046822132,
-            "similarity": 1.0,
-            "matched_descriptor": "idiotic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "violent / abusive / bullying",
-        "descriptor_index": 8372,
-        "amplitude": 0.0147987752,
-        "abs_amplitude": 0.0147987752,
-        "raw_amplitude": 0.0443963255,
-        "percent": 4.439663,
-        "raw_percent": 4.439633,
-        "coverage_percent": 44.42108,
-        "member_count": 3,
-        "members": [
-          "violent",
-          "abusive",
-          "bullying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0443963255,
-            "similarity": 1.0,
-            "matched_descriptor": "violent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "foolish / unintelligent / clueless / mindless / +2",
-        "descriptor_index": 2646,
-        "amplitude": 0.0128706662,
-        "abs_amplitude": 0.0128706662,
-        "raw_amplitude": 0.0386119985,
-        "percent": 3.861226,
-        "raw_percent": 3.8612,
-        "coverage_percent": 48.282306,
-        "member_count": 6,
-        "members": [
-          "foolish",
-          "unintelligent",
-          "clueless",
-          "mindless",
-          "empty-headed",
-          "daft"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0386119985,
-            "similarity": 0.896143,
-            "matched_descriptor": "idiotic / idiot"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "furious / indignant / berserk / spiteful / +5",
-        "descriptor_index": 2860,
-        "amplitude": 0.0117757703,
-        "abs_amplitude": 0.0117757703,
-        "raw_amplitude": 0.035327311,
-        "percent": 3.532755,
-        "raw_percent": 3.532731,
-        "coverage_percent": 51.815061,
-        "member_count": 9,
-        "members": [
-          "furious",
-          "indignant",
-          "berserk",
-          "spiteful",
-          "ill-tempered",
-          "mad",
-          "enraged",
-          "angry",
-          "resentful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0353273111,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "adoring / affectionate",
-        "descriptor_index": 96,
-        "amplitude": 0.0091776724,
-        "abs_amplitude": 0.0091776724,
-        "raw_amplitude": 0.0275330173,
-        "percent": 2.75332,
-        "raw_percent": 2.753302,
-        "coverage_percent": 54.568381,
-        "member_count": 2,
-        "members": [
-          "adoring",
-          "affectionate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0275330172,
-            "similarity": 1.0,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "confrontational / combative / pushy / resistant / +5",
-        "descriptor_index": 1368,
-        "amplitude": 0.0091333002,
-        "abs_amplitude": 0.0091333002,
-        "raw_amplitude": 0.0273999006,
-        "percent": 2.740009,
-        "raw_percent": 2.73999,
-        "coverage_percent": 57.30839,
-        "member_count": 9,
-        "members": [
-          "confrontational",
-          "combative",
-          "pushy",
-          "resistant",
-          "aggressive",
-          "hostile",
-          "belligerent",
-          "threatening",
-          "offensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0273999006,
-            "similarity": 0.891616,
-            "matched_descriptor": "antagonistic / violent / short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "isolated / friendless / disconnected",
-        "descriptor_index": 4019,
-        "amplitude": 0.006959904,
-        "abs_amplitude": 0.006959904,
-        "raw_amplitude": 0.0208797119,
-        "percent": 2.087985,
-        "raw_percent": 2.087971,
-        "coverage_percent": 59.396375,
-        "member_count": 3,
-        "members": [
-          "isolated",
-          "friendless",
-          "disconnected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0208797119,
-            "similarity": 0.915161,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "antagonistic",
-        "descriptor_index": 269,
-        "amplitude": 0.006707105,
-        "abs_amplitude": 0.006707105,
-        "raw_amplitude": 0.0201213149,
-        "percent": 2.012145,
-        "raw_percent": 2.012131,
-        "coverage_percent": 61.40852,
-        "member_count": 1,
-        "members": [
-          "antagonistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0201213149,
-            "similarity": 1.0,
-            "matched_descriptor": "antagonistic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0067071036,
-        "abs_amplitude": 0.0067071036,
-        "raw_amplitude": 0.0201213107,
-        "percent": 2.012145,
-        "raw_percent": 2.012131,
-        "coverage_percent": 63.420665,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0201213107,
-            "similarity": 1.0,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "tsundere-like",
-        "descriptor_index": 8027,
-        "amplitude": 0.0064005297,
-        "abs_amplitude": 0.0064005297,
-        "raw_amplitude": 0.019201589,
-        "percent": 1.920172,
-        "raw_percent": 1.920159,
-        "coverage_percent": 65.340837,
-        "member_count": 1,
-        "members": [
-          "tsundere-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.019201589,
-            "similarity": 0.993592,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cranky / bad-tempered / grouchy / grumpy / +1",
-        "descriptor_index": 1483,
-        "amplitude": 0.0059026062,
-        "abs_amplitude": 0.0059026062,
-        "raw_amplitude": 0.0177078187,
-        "percent": 1.770794,
-        "raw_percent": 1.770782,
-        "coverage_percent": 67.111631,
-        "member_count": 5,
-        "members": [
-          "cranky",
-          "bad-tempered",
-          "grouchy",
-          "grumpy",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0177078187,
-            "similarity": 0.89975,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "recluse / asocial",
-        "descriptor_index": 6159,
-        "amplitude": 0.0054147168,
-        "abs_amplitude": 0.0054147168,
-        "raw_amplitude": 0.0162441503,
-        "percent": 1.624426,
-        "raw_percent": 1.624415,
-        "coverage_percent": 68.736057,
-        "member_count": 2,
-        "members": [
-          "recluse",
-          "asocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0162441503,
-            "similarity": 0.916381,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "reclusive / antisocial",
-        "descriptor_index": 6160,
-        "amplitude": 0.004863249,
-        "abs_amplitude": 0.004863249,
-        "raw_amplitude": 0.0145897471,
-        "percent": 1.458985,
-        "raw_percent": 1.458975,
-        "coverage_percent": 70.195041,
-        "member_count": 2,
-        "members": [
-          "reclusive",
-          "antisocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0145897471,
-            "similarity": 0.913703,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fervent / passionate / zealous / enthusiastic",
-        "descriptor_index": 2512,
-        "amplitude": 0.0043140347,
-        "abs_amplitude": 0.0043140347,
-        "raw_amplitude": 0.0129421042,
-        "percent": 1.294219,
-        "raw_percent": 1.29421,
-        "coverage_percent": 71.489261,
-        "member_count": 4,
-        "members": [
-          "fervent",
-          "passionate",
-          "zealous",
-          "enthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0129421042,
-            "similarity": 0.891608,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "stress-prone / cry-prone / pressure-susceptible",
-        "descriptor_index": 7317,
-        "amplitude": 0.0035690618,
-        "abs_amplitude": 0.0035690618,
-        "raw_amplitude": 0.0107071855,
-        "percent": 1.070726,
-        "raw_percent": 1.070719,
-        "coverage_percent": 72.559986,
-        "member_count": 3,
-        "members": [
-          "stress-prone",
-          "cry-prone",
-          "pressure-susceptible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0107071855,
-            "similarity": 0.891274,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "romantic / amorous / loving / caring",
-        "descriptor_index": 6354,
-        "amplitude": 0.0032183209,
-        "abs_amplitude": 0.0032183209,
-        "raw_amplitude": 0.0096549626,
-        "percent": 0.965503,
-        "raw_percent": 0.965496,
-        "coverage_percent": 73.525489,
-        "member_count": 4,
-        "members": [
-          "romantic",
-          "amorous",
-          "loving",
-          "caring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0096549627,
-            "similarity": 0.885616,
-            "matched_descriptor": "tsundere / adoring"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "idolized / admired / respected / revered",
-        "descriptor_index": 3713,
-        "amplitude": 0.0031572253,
-        "abs_amplitude": 0.0031572253,
-        "raw_amplitude": 0.0094716758,
-        "percent": 0.947174,
-        "raw_percent": 0.947168,
-        "coverage_percent": 74.472663,
-        "member_count": 4,
-        "members": [
-          "idolized",
-          "admired",
-          "respected",
-          "revered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0094716758,
-            "similarity": 0.867514,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "rivalrous / cut-throat",
-        "descriptor_index": 6336,
-        "amplitude": 0.0031429059,
-        "abs_amplitude": 0.0031429059,
-        "raw_amplitude": 0.0094287176,
-        "percent": 0.942878,
-        "raw_percent": 0.942872,
-        "coverage_percent": 75.415541,
-        "member_count": 2,
-        "members": [
-          "rivalrous",
-          "cut-throat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0094287177,
-            "similarity": 0.874251,
-            "matched_descriptor": "antagonistic"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0028312614,
-        "abs_amplitude": 0.0028312614,
-        "raw_amplitude": 0.0084937843,
-        "percent": 0.849384,
-        "raw_percent": 0.849378,
-        "coverage_percent": 76.264926,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0084937843,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "shut-in",
-        "descriptor_index": 6836,
-        "amplitude": 0.0026588312,
-        "abs_amplitude": 0.0026588312,
-        "raw_amplitude": 0.0079764935,
-        "percent": 0.797655,
-        "raw_percent": 0.797649,
-        "coverage_percent": 77.06258,
-        "member_count": 1,
-        "members": [
-          "shut-in"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0079764935,
-            "similarity": 0.892015,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "swoon-inducing / gorgeous",
-        "descriptor_index": 7598,
-        "amplitude": 0.0026047672,
-        "abs_amplitude": 0.0026047672,
-        "raw_amplitude": 0.0078143016,
-        "percent": 0.781435,
-        "raw_percent": 0.78143,
-        "coverage_percent": 77.844016,
-        "member_count": 2,
-        "members": [
-          "swoon-inducing",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0078143016,
-            "similarity": 0.87101,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "battle-hungry / battle-loving / conflict-prone",
-        "descriptor_index": 580,
-        "amplitude": 0.0024681523,
-        "abs_amplitude": 0.0024681523,
-        "raw_amplitude": 0.0074044568,
-        "percent": 0.740451,
-        "raw_percent": 0.740446,
-        "coverage_percent": 78.584467,
-        "member_count": 3,
-        "members": [
-          "battle-hungry",
-          "battle-loving",
-          "conflict-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0074044567,
-            "similarity": 0.868373,
-            "matched_descriptor": "competitive / antagonistic"
+            "combined_favourites": 139
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "short-tempered / short-temperedness / prone-to-anger / hot-tempered / +7",
-        "descriptor_index": 6822,
-        "amplitude": 0.0468963147,
-        "abs_amplitude": 0.0468963147,
-        "raw_amplitude": 0.1406889441,
-        "percent": 14.06899,
-        "raw_percent": 14.068894,
-        "coverage_percent": 14.06899,
-        "member_count": 11,
-        "members": [
-          "short-tempered",
-          "short-temperedness",
-          "prone-to-anger",
-          "hot-tempered",
-          "annoyed-prone",
-          "quick-tempered",
-          "friction-prone",
-          "hot-headed",
-          "temperamental",
-          "irritable",
-          "semi-aggressive"
-        ],
+        "step": 1,
+        "descriptor": "violent",
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1406889441,
-            "similarity": 1.0,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
+        "fit_percent": 79.941656,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "self-reliant / self-sufficient / lone / independent / +5",
-        "descriptor_index": 6664,
-        "amplitude": 0.037510002,
-        "abs_amplitude": 0.037510002,
-        "raw_amplitude": 0.1125300061,
-        "percent": 11.253077,
-        "raw_percent": 11.253001,
-        "coverage_percent": 25.322067,
-        "member_count": 9,
-        "members": [
-          "self-reliant",
-          "self-sufficient",
-          "lone",
-          "independent",
-          "solitary",
-          "self-motivated",
-          "works-alone",
-          "hands-off",
-          "free-willed"
-        ],
+        "step": 2,
+        "descriptor": "tsundere",
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.1125300062,
-            "similarity": 1.0,
-            "matched_descriptor": "self-reliant / loner"
-          }
-        ]
+        "fit_percent": 87.913126,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.0332567924,
-        "abs_amplitude": 0.0332567924,
-        "raw_amplitude": 0.0997703773,
-        "percent": 9.977105,
-        "raw_percent": 9.977038,
-        "coverage_percent": 35.299172,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
+        "step": 3,
+        "descriptor": "short-tempered",
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0997703774,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
+        "fit_percent": 93.158272,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "idiotic / brainless / stupid",
-        "descriptor_index": 3692,
-        "amplitude": 0.0156073773,
-        "abs_amplitude": 0.0156073773,
-        "raw_amplitude": 0.046822132,
-        "percent": 4.682245,
-        "raw_percent": 4.682213,
-        "coverage_percent": 39.981417,
-        "member_count": 3,
-        "members": [
-          "idiotic",
-          "brainless",
-          "stupid"
-        ],
+        "step": 4,
+        "descriptor": "reliant",
+        "weighted_support": 2.43754845,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.046822132,
-            "similarity": 1.0,
-            "matched_descriptor": "idiotic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "violent / abusive / bullying",
-        "descriptor_index": 8372,
-        "amplitude": 0.0147987752,
-        "abs_amplitude": 0.0147987752,
-        "raw_amplitude": 0.0443963255,
-        "percent": 4.439663,
-        "raw_percent": 4.439633,
-        "coverage_percent": 44.42108,
-        "member_count": 3,
-        "members": [
-          "violent",
-          "abusive",
-          "bullying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0443963255,
-            "similarity": 1.0,
-            "matched_descriptor": "violent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "foolish / unintelligent / clueless / mindless / +2",
-        "descriptor_index": 2646,
-        "amplitude": 0.0128706662,
-        "abs_amplitude": 0.0128706662,
-        "raw_amplitude": 0.0386119985,
-        "percent": 3.861226,
-        "raw_percent": 3.8612,
-        "coverage_percent": 48.282306,
-        "member_count": 6,
-        "members": [
-          "foolish",
-          "unintelligent",
-          "clueless",
-          "mindless",
-          "empty-headed",
-          "daft"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0386119985,
-            "similarity": 0.896143,
-            "matched_descriptor": "idiotic / idiot"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "furious / indignant / berserk / spiteful / +5",
-        "descriptor_index": 2860,
-        "amplitude": 0.0117757703,
-        "abs_amplitude": 0.0117757703,
-        "raw_amplitude": 0.035327311,
-        "percent": 3.532755,
-        "raw_percent": 3.532731,
-        "coverage_percent": 51.815061,
-        "member_count": 9,
-        "members": [
-          "furious",
-          "indignant",
-          "berserk",
-          "spiteful",
-          "ill-tempered",
-          "mad",
-          "enraged",
-          "angry",
-          "resentful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0353273111,
-            "similarity": 0.892165,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "adoring / affectionate",
-        "descriptor_index": 96,
-        "amplitude": 0.0091776724,
-        "abs_amplitude": 0.0091776724,
-        "raw_amplitude": 0.0275330173,
-        "percent": 2.75332,
-        "raw_percent": 2.753302,
-        "coverage_percent": 54.568381,
-        "member_count": 2,
-        "members": [
-          "adoring",
-          "affectionate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0275330172,
-            "similarity": 1.0,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "confrontational / combative / pushy / resistant / +5",
-        "descriptor_index": 1368,
-        "amplitude": 0.0091333002,
-        "abs_amplitude": 0.0091333002,
-        "raw_amplitude": 0.0273999006,
-        "percent": 2.740009,
-        "raw_percent": 2.73999,
-        "coverage_percent": 57.30839,
-        "member_count": 9,
-        "members": [
-          "confrontational",
-          "combative",
-          "pushy",
-          "resistant",
-          "aggressive",
-          "hostile",
-          "belligerent",
-          "threatening",
-          "offensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0273999006,
-            "similarity": 0.891616,
-            "matched_descriptor": "antagonistic / violent / short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "isolated / friendless / disconnected",
-        "descriptor_index": 4019,
-        "amplitude": 0.006959904,
-        "abs_amplitude": 0.006959904,
-        "raw_amplitude": 0.0208797119,
-        "percent": 2.087985,
-        "raw_percent": 2.087971,
-        "coverage_percent": 59.396375,
-        "member_count": 3,
-        "members": [
-          "isolated",
-          "friendless",
-          "disconnected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0208797119,
-            "similarity": 0.915161,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "antagonistic",
-        "descriptor_index": 269,
-        "amplitude": 0.006707105,
-        "abs_amplitude": 0.006707105,
-        "raw_amplitude": 0.0201213149,
-        "percent": 2.012145,
-        "raw_percent": 2.012131,
-        "coverage_percent": 61.40852,
-        "member_count": 1,
-        "members": [
-          "antagonistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0201213149,
-            "similarity": 1.0,
-            "matched_descriptor": "antagonistic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0067071036,
-        "abs_amplitude": 0.0067071036,
-        "raw_amplitude": 0.0201213107,
-        "percent": 2.012145,
-        "raw_percent": 2.012131,
-        "coverage_percent": 63.420665,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0201213107,
-            "similarity": 1.0,
-            "matched_descriptor": "competitive"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "tsundere-like",
-        "descriptor_index": 8027,
-        "amplitude": 0.0064005297,
-        "abs_amplitude": 0.0064005297,
-        "raw_amplitude": 0.019201589,
-        "percent": 1.920172,
-        "raw_percent": 1.920159,
-        "coverage_percent": 65.340837,
-        "member_count": 1,
-        "members": [
-          "tsundere-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.019201589,
-            "similarity": 0.993592,
-            "matched_descriptor": "tsundere"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "cranky / bad-tempered / grouchy / grumpy / +1",
-        "descriptor_index": 1483,
-        "amplitude": 0.0059026062,
-        "abs_amplitude": 0.0059026062,
-        "raw_amplitude": 0.0177078187,
-        "percent": 1.770794,
-        "raw_percent": 1.770782,
-        "coverage_percent": 67.111631,
-        "member_count": 5,
-        "members": [
-          "cranky",
-          "bad-tempered",
-          "grouchy",
-          "grumpy",
-          "aggravated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0177078187,
-            "similarity": 0.89975,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "recluse / asocial",
-        "descriptor_index": 6159,
-        "amplitude": 0.0054147168,
-        "abs_amplitude": 0.0054147168,
-        "raw_amplitude": 0.0162441503,
-        "percent": 1.624426,
-        "raw_percent": 1.624415,
-        "coverage_percent": 68.736057,
-        "member_count": 2,
-        "members": [
-          "recluse",
-          "asocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0162441503,
-            "similarity": 0.916381,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "reclusive / antisocial",
-        "descriptor_index": 6160,
-        "amplitude": 0.004863249,
-        "abs_amplitude": 0.004863249,
-        "raw_amplitude": 0.0145897471,
-        "percent": 1.458985,
-        "raw_percent": 1.458975,
-        "coverage_percent": 70.195041,
-        "member_count": 2,
-        "members": [
-          "reclusive",
-          "antisocial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0145897471,
-            "similarity": 0.913703,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fervent / passionate / zealous / enthusiastic",
-        "descriptor_index": 2512,
-        "amplitude": 0.0043140347,
-        "abs_amplitude": 0.0043140347,
-        "raw_amplitude": 0.0129421042,
-        "percent": 1.294219,
-        "raw_percent": 1.29421,
-        "coverage_percent": 71.489261,
-        "member_count": 4,
-        "members": [
-          "fervent",
-          "passionate",
-          "zealous",
-          "enthusiastic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0129421042,
-            "similarity": 0.891608,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "stress-prone / cry-prone / pressure-susceptible",
-        "descriptor_index": 7317,
-        "amplitude": 0.0035690618,
-        "abs_amplitude": 0.0035690618,
-        "raw_amplitude": 0.0107071855,
-        "percent": 1.070726,
-        "raw_percent": 1.070719,
-        "coverage_percent": 72.559986,
-        "member_count": 3,
-        "members": [
-          "stress-prone",
-          "cry-prone",
-          "pressure-susceptible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0107071855,
-            "similarity": 0.891274,
-            "matched_descriptor": "short-tempered"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "romantic / amorous / loving / caring",
-        "descriptor_index": 6354,
-        "amplitude": 0.0032183209,
-        "abs_amplitude": 0.0032183209,
-        "raw_amplitude": 0.0096549626,
-        "percent": 0.965503,
-        "raw_percent": 0.965496,
-        "coverage_percent": 73.525489,
-        "member_count": 4,
-        "members": [
-          "romantic",
-          "amorous",
-          "loving",
-          "caring"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0096549627,
-            "similarity": 0.885616,
-            "matched_descriptor": "tsundere / adoring"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "idolized / admired / respected / revered",
-        "descriptor_index": 3713,
-        "amplitude": 0.0031572253,
-        "abs_amplitude": 0.0031572253,
-        "raw_amplitude": 0.0094716758,
-        "percent": 0.947174,
-        "raw_percent": 0.947168,
-        "coverage_percent": 74.472663,
-        "member_count": 4,
-        "members": [
-          "idolized",
-          "admired",
-          "respected",
-          "revered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0094716758,
-            "similarity": 0.867514,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "rivalrous / cut-throat",
-        "descriptor_index": 6336,
-        "amplitude": 0.0031429059,
-        "abs_amplitude": 0.0031429059,
-        "raw_amplitude": 0.0094287176,
-        "percent": 0.942878,
-        "raw_percent": 0.942872,
-        "coverage_percent": 75.415541,
-        "member_count": 2,
-        "members": [
-          "rivalrous",
-          "cut-throat"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0094287177,
-            "similarity": 0.874251,
-            "matched_descriptor": "antagonistic"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0028312614,
-        "abs_amplitude": 0.0028312614,
-        "raw_amplitude": 0.0084937843,
-        "percent": 0.849384,
-        "raw_percent": 0.849378,
-        "coverage_percent": 76.264926,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0084937843,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "shut-in",
-        "descriptor_index": 6836,
-        "amplitude": 0.0026588312,
-        "abs_amplitude": 0.0026588312,
-        "raw_amplitude": 0.0079764935,
-        "percent": 0.797655,
-        "raw_percent": 0.797649,
-        "coverage_percent": 77.06258,
-        "member_count": 1,
-        "members": [
-          "shut-in"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0079764935,
-            "similarity": 0.892015,
-            "matched_descriptor": "loner"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "swoon-inducing / gorgeous",
-        "descriptor_index": 7598,
-        "amplitude": 0.0026047672,
-        "abs_amplitude": 0.0026047672,
-        "raw_amplitude": 0.0078143016,
-        "percent": 0.781435,
-        "raw_percent": 0.78143,
-        "coverage_percent": 77.844016,
-        "member_count": 2,
-        "members": [
-          "swoon-inducing",
-          "gorgeous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0078143016,
-            "similarity": 0.87101,
-            "matched_descriptor": "adoring"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "battle-hungry / battle-loving / conflict-prone",
-        "descriptor_index": 580,
-        "amplitude": 0.0024681523,
-        "abs_amplitude": 0.0024681523,
-        "raw_amplitude": 0.0074044568,
-        "percent": 0.740451,
-        "raw_percent": 0.740446,
-        "coverage_percent": 78.584467,
-        "member_count": 3,
-        "members": [
-          "battle-hungry",
-          "battle-loving",
-          "conflict-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 24505,
-            "name": "Noda",
-            "native_name": "野田",
-            "anime": "Angel Beats!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
-            "site_url": "https://anilist.co/character/24505",
-            "anime_url": "https://myanimelist.net/anime/6547",
-            "role": "SUPPORTING",
-            "favourites": 137,
-            "row_weight": 2.43459518,
-            "projection": 0.0074044567,
-            "similarity": 0.868373,
-            "matched_descriptor": "competitive / antagonistic"
-          }
-        ]
+        "fit_percent": 96.210866,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 24505,
         "name": "Noda",
-        "native_name": "野田",
         "anime": "Angel Beats!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
         "site_url": "https://anilist.co/character/24505",
-        "anime_url": "https://myanimelist.net/anime/6547",
-        "role": "SUPPORTING",
         "favourites": 137,
-        "row_weight": 2.43459518,
+        "anilist_favourites": 137,
+        "bangumi_collects": 2,
+        "bangumi_comments": 2,
+        "bangumi_character_id": 32005,
+        "bangumi_url": "https://bgm.tv/character/32005",
+        "combined_favourites": 139,
+        "role_edge_count": 1,
+        "descriptors": [
+          "adoring",
+          "antagonistic",
+          "idiotic",
+          "loyal",
+          "reliant",
+          "short-tempered",
+          "tsundere",
+          "violent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.43754845,
+        "row_weight": 2.43754845,
+        "unweighted_row_norm": 6.30664944,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1980,19 +172,74 @@
       {
         "character_id": 24505,
         "name": "Noda",
-        "native_name": "野田",
         "anime": "Angel Beats!",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/24505.jpg",
         "site_url": "https://anilist.co/character/24505",
-        "anime_url": "https://myanimelist.net/anime/6547",
-        "role": "SUPPORTING",
         "favourites": 137,
-        "row_weight": 2.43459518,
+        "anilist_favourites": 137,
+        "bangumi_collects": 2,
+        "bangumi_comments": 2,
+        "bangumi_character_id": 32005,
+        "bangumi_url": "https://bgm.tv/character/32005",
+        "combined_favourites": 139,
+        "role_edge_count": 1,
+        "descriptors": [
+          "adoring",
+          "antagonistic",
+          "idiotic",
+          "loyal",
+          "reliant",
+          "short-tempered",
+          "tsundere",
+          "violent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.43754845,
+        "row_weight": 2.43754845,
+        "unweighted_row_norm": 6.30664944,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.4375484452,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

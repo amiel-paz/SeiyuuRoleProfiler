@@ -11,1171 +11,367 @@
     "ai furihata",
     "furihata ai"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/ai_furihata.json",
+  "sv1_mass_percent": 82.868836,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 15.1967827306,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 15.1967827306,
-        "mass_percent": 97.4601
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.4532767176,
-        "mass_percent": 2.5399
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 307.802665,
-      "normalized_entanglement": 0.801569,
-      "top5_mass_percent": 4.192568,
-      "top10_mass_percent": 7.062867
-    },
-    "character_participation": {
-      "effective_count": 1.621696,
-      "normalized_entanglement": 0.810848,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 5.615683,
-      "semantic_spread": 5.615683,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.391122,
-      "direction_spread": 1.391122,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 97.4601,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.5488519927,
+    "mass_percent": 87.516582,
+    "descriptor_fit_percent": 97.462839,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "headstrong / strong-minded / strong-willed / stubborn / +11",
-        "descriptor_index": 3392,
-        "amplitude": 0.0639017486,
-        "abs_amplitude": 0.0639017486,
-        "raw_amplitude": 0.1917052459,
-        "percent": 22.263827,
-        "raw_percent": 22.262828,
-        "coverage_percent": 22.263827,
-        "member_count": 15,
-        "members": [
-          "headstrong",
-          "strong-minded",
-          "strong-willed",
-          "stubborn",
-          "refractory",
-          "tenacious",
-          "unyielding",
-          "tough",
-          "unbending",
-          "persistent",
-          "inflexible",
-          "assertive",
-          "resistant",
-          "resolute",
-          "persevering"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.7685723224,
+        "abs_amplitude": 0.7685723224,
+        "percent": 72.189515,
+        "weighted_support": 2.77075503,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.1917052458,
-            "similarity": 1.0,
-            "matched_descriptor": "headstrong / strong-minded"
+            "character_id": 89852,
+            "name": "Ruby Kurosawa",
+            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
+            "site_url": "https://anilist.co/character/89852",
+            "combined_favourites": 793
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "moody / grouchy / grumpy / grim / +3",
-        "descriptor_index": 4925,
-        "amplitude": 0.0284032828,
-        "abs_amplitude": 0.0284032828,
-        "raw_amplitude": 0.0852098485,
-        "percent": 9.895907,
-        "raw_percent": 9.895463,
-        "coverage_percent": 32.159735,
-        "member_count": 7,
-        "members": [
-          "moody",
-          "grouchy",
-          "grumpy",
-          "grim",
-          "sullen",
-          "disapproving",
-          "unsmiling"
-        ],
+        "descriptor": "strong-minded",
+        "amplitude": 0.2960868906,
+        "abs_amplitude": 0.2960868906,
+        "percent": 27.810485,
+        "weighted_support": 2.59108719,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 262415,
             "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
             "anime": "Puchi Seka",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
             "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0852098486,
-            "similarity": 1.0,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "pushy / confrontational / belligerent / hostile / +2",
-        "descriptor_index": 6047,
-        "amplitude": 0.0193127077,
-        "abs_amplitude": 0.0193127077,
-        "raw_amplitude": 0.0579381231,
-        "percent": 6.728686,
-        "raw_percent": 6.728384,
-        "coverage_percent": 38.88842,
-        "member_count": 6,
-        "members": [
-          "pushy",
-          "confrontational",
-          "belligerent",
-          "hostile",
-          "aggressive",
-          "offensive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0579381231,
-            "similarity": 1.0,
-            "matched_descriptor": "pushy"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "reliable / dependable / trustworthy / steady",
-        "descriptor_index": 6210,
-        "amplitude": 0.0155852341,
-        "abs_amplitude": 0.0155852341,
-        "raw_amplitude": 0.0467557023,
-        "percent": 5.430007,
-        "raw_percent": 5.429763,
-        "coverage_percent": 44.318428,
-        "member_count": 4,
-        "members": [
-          "reliable",
-          "dependable",
-          "trustworthy",
-          "steady"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0467557023,
-            "similarity": 1.0,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "tomboyish / effeminate",
-        "descriptor_index": 7864,
-        "amplitude": 0.0091741649,
-        "abs_amplitude": 0.0091741649,
-        "raw_amplitude": 0.0275224946,
-        "percent": 3.196345,
-        "raw_percent": 3.196201,
-        "coverage_percent": 47.514773,
-        "member_count": 2,
-        "members": [
-          "tomboyish",
-          "effeminate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0275224946,
-            "similarity": 1.0,
-            "matched_descriptor": "tomboyish"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "mature / matured",
-        "descriptor_index": 4666,
-        "amplitude": 0.009104515,
-        "abs_amplitude": 0.009104515,
-        "raw_amplitude": 0.027313545,
-        "percent": 3.172078,
-        "raw_percent": 3.171936,
-        "coverage_percent": 50.686851,
-        "member_count": 2,
-        "members": [
-          "mature",
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0273135449,
-            "similarity": 1.0,
-            "matched_descriptor": "mature"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "bad-tempered / ill-tempered / cranky / annoyed-prone",
-        "descriptor_index": 532,
-        "amplitude": 0.007420653,
-        "abs_amplitude": 0.007420653,
-        "raw_amplitude": 0.0222619589,
-        "percent": 2.585409,
-        "raw_percent": 2.585293,
-        "coverage_percent": 53.27226,
-        "member_count": 4,
-        "members": [
-          "bad-tempered",
-          "ill-tempered",
-          "cranky",
-          "annoyed-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0222619589,
-            "similarity": 0.897752,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "compliant / principled / by-the-book / disciplined / +1",
-        "descriptor_index": 1330,
-        "amplitude": 0.0072440791,
-        "abs_amplitude": 0.0072440791,
-        "raw_amplitude": 0.0217322374,
-        "percent": 2.523889,
-        "raw_percent": 2.523776,
-        "coverage_percent": 55.796149,
-        "member_count": 5,
-        "members": [
-          "compliant",
-          "principled",
-          "by-the-book",
-          "disciplined",
-          "submissive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0217322374,
-            "similarity": 0.897737,
-            "matched_descriptor": "strict"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0065119954,
-        "abs_amplitude": 0.0065119954,
-        "raw_amplitude": 0.0195359863,
-        "percent": 2.268826,
-        "raw_percent": 2.268724,
-        "coverage_percent": 58.064975,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0195359863,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "strict",
-        "descriptor_index": 7319,
-        "amplitude": 0.0065119939,
-        "abs_amplitude": 0.0065119939,
-        "raw_amplitude": 0.0195359817,
-        "percent": 2.268825,
-        "raw_percent": 2.268723,
-        "coverage_percent": 60.3338,
-        "member_count": 1,
-        "members": [
-          "strict"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0195359817,
-            "similarity": 1.0,
-            "matched_descriptor": "strict"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "displeased / irritable / aggravated / sad / +2",
-        "descriptor_index": 1874,
-        "amplitude": 0.0050726141,
-        "abs_amplitude": 0.0050726141,
-        "raw_amplitude": 0.0152178422,
-        "percent": 1.767335,
-        "raw_percent": 1.767256,
-        "coverage_percent": 62.101135,
-        "member_count": 6,
-        "members": [
-          "displeased",
-          "irritable",
-          "aggravated",
-          "sad",
-          "irritated",
-          "impatient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0152178422,
-            "similarity": 0.899562,
-            "matched_descriptor": "moody / pushy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rude stubborn / rude / rebellious / ill-mannered / +2",
-        "descriptor_index": 6387,
-        "amplitude": 0.0046833465,
-        "abs_amplitude": 0.0046833465,
-        "raw_amplitude": 0.0140500394,
-        "percent": 1.631711,
-        "raw_percent": 1.631638,
-        "coverage_percent": 63.732846,
-        "member_count": 6,
-        "members": [
-          "rude stubborn",
-          "rude",
-          "rebellious",
-          "ill-mannered",
-          "irreverent",
-          "spiteful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0140500394,
-            "similarity": 0.883212,
-            "matched_descriptor": "pushy"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "temperamental / short-tempered / short-temperedness",
-        "descriptor_index": 7760,
-        "amplitude": 0.0043997087,
-        "abs_amplitude": 0.0043997087,
-        "raw_amplitude": 0.013199126,
-        "percent": 1.53289,
-        "raw_percent": 1.532821,
-        "coverage_percent": 65.265736,
-        "member_count": 3,
-        "members": [
-          "temperamental",
-          "short-tempered",
-          "short-temperedness"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0131991259,
-            "similarity": 0.890083,
-            "matched_descriptor": "moody / pushy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "go-getter / self-motivated / motivated",
-        "descriptor_index": 3022,
-        "amplitude": 0.0038075586,
-        "abs_amplitude": 0.0038075586,
-        "raw_amplitude": 0.0114226757,
-        "percent": 1.326581,
-        "raw_percent": 1.326521,
-        "coverage_percent": 66.592317,
-        "member_count": 3,
-        "members": [
-          "go-getter",
-          "self-motivated",
-          "motivated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0114226757,
-            "similarity": 0.901663,
-            "matched_descriptor": "strong-minded"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0036402249,
-        "abs_amplitude": 0.0036402249,
-        "raw_amplitude": 0.0109206747,
-        "percent": 1.26828,
-        "raw_percent": 1.268224,
-        "coverage_percent": 67.860598,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0109206747,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "willful / bullheaded",
-        "descriptor_index": 8561,
-        "amplitude": 0.003259647,
-        "abs_amplitude": 0.003259647,
-        "raw_amplitude": 0.009778941,
-        "percent": 1.135684,
-        "raw_percent": 1.135633,
-        "coverage_percent": 68.996282,
-        "member_count": 2,
-        "members": [
-          "willful",
-          "bullheaded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0097789409,
-            "similarity": 0.894342,
-            "matched_descriptor": "headstrong"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "demanding / stringent",
-        "descriptor_index": 1688,
-        "amplitude": 0.0029652557,
-        "abs_amplitude": 0.0029652557,
-        "raw_amplitude": 0.0088957672,
-        "percent": 1.033116,
-        "raw_percent": 1.03307,
-        "coverage_percent": 70.029398,
-        "member_count": 2,
-        "members": [
-          "demanding",
-          "stringent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0088957672,
-            "similarity": 0.891095,
-            "matched_descriptor": "strict / pushy"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "dejected / downhearted / dismayed / miserable",
-        "descriptor_index": 1663,
-        "amplitude": 0.0028850256,
-        "abs_amplitude": 0.0028850256,
-        "raw_amplitude": 0.0086550768,
-        "percent": 1.005164,
-        "raw_percent": 1.005118,
-        "coverage_percent": 71.034562,
-        "member_count": 4,
-        "members": [
-          "dejected",
-          "downhearted",
-          "dismayed",
-          "miserable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0086550767,
-            "similarity": 0.877275,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "threatening / vicious",
-        "descriptor_index": 7825,
-        "amplitude": 0.0026494913,
-        "abs_amplitude": 0.0026494913,
-        "raw_amplitude": 0.0079484739,
-        "percent": 0.923102,
-        "raw_percent": 0.92306,
-        "coverage_percent": 71.957664,
-        "member_count": 2,
-        "members": [
-          "threatening",
-          "vicious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0079484739,
-            "similarity": 0.889488,
-            "matched_descriptor": "pushy"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "head-strong / thick-skinned",
-        "descriptor_index": 3387,
-        "amplitude": 0.0026050784,
-        "abs_amplitude": 0.0026050784,
-        "raw_amplitude": 0.0078152351,
-        "percent": 0.907628,
-        "raw_percent": 0.907587,
-        "coverage_percent": 72.865292,
-        "member_count": 2,
-        "members": [
-          "head-strong",
-          "thick-skinned"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0078152351,
-            "similarity": 0.899124,
-            "matched_descriptor": "headstrong"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "upset / tearful",
-        "descriptor_index": 8259,
-        "amplitude": 0.0024655446,
-        "abs_amplitude": 0.0024655446,
-        "raw_amplitude": 0.0073966337,
-        "percent": 0.859013,
-        "raw_percent": 0.858975,
-        "coverage_percent": 73.724305,
-        "member_count": 2,
-        "members": [
-          "upset",
-          "tearful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0073966337,
-            "similarity": 0.895957,
-            "matched_descriptor": "moody"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "non-criminal / non-combatant / goody-two-shoes",
-        "descriptor_index": 5178,
-        "amplitude": 0.0023657625,
-        "abs_amplitude": 0.0023657625,
-        "raw_amplitude": 0.0070972876,
-        "percent": 0.824249,
-        "raw_percent": 0.824212,
-        "coverage_percent": 74.548554,
-        "member_count": 3,
-        "members": [
-          "non-criminal",
-          "non-combatant",
-          "goody-two-shoes"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0070972876,
-            "similarity": 0.89566,
-            "matched_descriptor": "reliable"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "self-discipline / self-disciplined",
-        "descriptor_index": 6630,
-        "amplitude": 0.0022115525,
-        "abs_amplitude": 0.0022115525,
-        "raw_amplitude": 0.0066346575,
-        "percent": 0.770521,
-        "raw_percent": 0.770486,
-        "coverage_percent": 75.319074,
-        "member_count": 2,
-        "members": [
-          "self-discipline",
-          "self-disciplined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0066346575,
-            "similarity": 0.878899,
-            "matched_descriptor": "strict"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "forceful / durable",
-        "descriptor_index": 2651,
-        "amplitude": 0.0020279134,
-        "abs_amplitude": 0.0020279134,
-        "raw_amplitude": 0.0060837401,
-        "percent": 0.70654,
-        "raw_percent": 0.706508,
-        "coverage_percent": 76.025614,
-        "member_count": 2,
-        "members": [
-          "forceful",
-          "durable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0060837402,
-            "similarity": 0.883781,
-            "matched_descriptor": "pushy / headstrong"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "restrained / composed",
-        "descriptor_index": 6272,
-        "amplitude": 0.0020082504,
-        "abs_amplitude": 0.0020082504,
-        "raw_amplitude": 0.0060247512,
-        "percent": 0.699689,
-        "raw_percent": 0.699657,
-        "coverage_percent": 76.725303,
-        "member_count": 2,
-        "members": [
-          "restrained",
-          "composed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 262415,
-            "name": "Airi Momoi",
-            "native_name": "桃井愛莉",
-            "anime": "Puchi Seka",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-            "site_url": "https://anilist.co/character/262415",
-            "anime_url": "https://myanimelist.net/anime/49939",
-            "role": "MAIN",
-            "favourites": 246,
-            "row_weight": 2.5513503,
-            "projection": 0.0060247512,
-            "similarity": 0.89759,
-            "matched_descriptor": "mature"
+            "combined_favourites": 302
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "uninitiated / inexperienced / untrained",
-        "descriptor_index": 8149,
-        "amplitude": 0.1288843106,
-        "abs_amplitude": 0.1288843106,
-        "raw_amplitude": 0.3866529317,
-        "percent": 76.047609,
-        "raw_percent": 76.047609,
-        "coverage_percent": 76.047609,
-        "member_count": 3,
-        "members": [
-          "uninitiated",
-          "inexperienced",
-          "untrained"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.77075503,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89852,
-            "name": "Ruby Kurosawa",
-            "native_name": "黒澤ルビィ",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
-            "site_url": "https://anilist.co/character/89852",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "MAIN",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.3866529317,
-            "similarity": 0.972984,
-            "matched_descriptor": "first-year student"
-          }
-        ]
+        "fit_percent": 94.521779,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "freshman",
-        "descriptor_index": 2806,
-        "amplitude": 0.0257042537,
-        "abs_amplitude": 0.0257042537,
-        "raw_amplitude": 0.0771127612,
-        "percent": 15.16668,
-        "raw_percent": 15.16668,
-        "coverage_percent": 91.214289,
-        "member_count": 1,
-        "members": [
-          "freshman"
-        ],
+        "step": 2,
+        "descriptor": "strong-minded",
+        "weighted_support": 2.59108719,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89852,
-            "name": "Ruby Kurosawa",
-            "native_name": "黒澤ルビィ",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
-            "site_url": "https://anilist.co/character/89852",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "MAIN",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0771127612,
-            "similarity": 0.878009,
-            "matched_descriptor": "first-year student"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "sophomore",
-        "descriptor_index": 7098,
-        "amplitude": 0.0126436632,
-        "abs_amplitude": 0.0126436632,
-        "raw_amplitude": 0.0379309897,
-        "percent": 7.460337,
-        "raw_percent": 7.460337,
-        "coverage_percent": 98.674626,
-        "member_count": 1,
-        "members": [
-          "sophomore"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 89852,
-            "name": "Ruby Kurosawa",
-            "native_name": "黒澤ルビィ",
-            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
-            "site_url": "https://anilist.co/character/89852",
-            "anime_url": "https://myanimelist.net/anime/31780",
-            "role": "MAIN",
-            "favourites": 714,
-            "row_weight": 2.75177807,
-            "projection": 0.0379309897,
-            "similarity": 0.841234,
-            "matched_descriptor": "first-year student"
-          }
-        ]
+        "fit_percent": 97.462839,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 262415,
-        "name": "Airi Momoi",
-        "native_name": "桃井愛莉",
-        "anime": "Puchi Seka",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-        "site_url": "https://anilist.co/character/262415",
-        "anime_url": "https://myanimelist.net/anime/49939",
-        "role": "MAIN",
-        "favourites": 246,
-        "row_weight": 2.5513503,
-        "amplitude": 0.8611001628,
-        "abs_amplitude": 0.8611001628,
-        "percent": 74.149349
-      },
-      {
         "character_id": 89852,
         "name": "Ruby Kurosawa",
-        "native_name": "黒澤ルビィ",
         "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
         "site_url": "https://anilist.co/character/89852",
-        "anime_url": "https://myanimelist.net/anime/31780",
-        "role": "MAIN",
         "favourites": 714,
-        "row_weight": 2.75177807,
-        "amplitude": -0.5084353545,
-        "abs_amplitude": 0.5084353545,
-        "percent": 25.850651
+        "anilist_favourites": 714,
+        "bangumi_collects": 79,
+        "bangumi_comments": 30,
+        "bangumi_character_id": 37809,
+        "bangumi_url": "https://bgm.tv/character/37809",
+        "combined_favourites": 793,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.77075503,
+        "row_weight": 2.77075503,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7379758157,
+        "abs_amplitude": 0.7379758157,
+        "percent": 54.46083
+      },
+      {
+        "character_id": 262415,
+        "name": "Airi Momoi",
+        "anime": "Puchi Seka",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
+        "site_url": "https://anilist.co/character/262415",
+        "favourites": 246,
+        "anilist_favourites": 246,
+        "bangumi_collects": 56,
+        "bangumi_comments": 12,
+        "bangumi_character_id": 77909,
+        "bangumi_url": "https://bgm.tv/character/77909",
+        "combined_favourites": 302,
+        "role_edge_count": 1,
+        "descriptors": [
+          "forceful",
+          "headstrong",
+          "moody",
+          "pushy",
+          "strong-minded"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.59108719,
+        "row_weight": 2.59108719,
+        "unweighted_row_norm": 4.11989437,
+        "amplitude": 0.6748271597,
+        "abs_amplitude": 0.6748271597,
+        "percent": 45.53917
       }
     ],
     "positive_characters": [
       {
-        "character_id": 262415,
-        "name": "Airi Momoi",
-        "native_name": "桃井愛莉",
-        "anime": "Puchi Seka",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
-        "site_url": "https://anilist.co/character/262415",
-        "anime_url": "https://myanimelist.net/anime/49939",
-        "role": "MAIN",
-        "favourites": 246,
-        "row_weight": 2.5513503,
-        "amplitude": 0.8611001628,
-        "abs_amplitude": 0.8611001628,
-        "percent": 74.149349
-      }
-    ],
-    "negative_characters": [
-      {
         "character_id": 89852,
         "name": "Ruby Kurosawa",
-        "native_name": "黒澤ルビィ",
         "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
         "site_url": "https://anilist.co/character/89852",
-        "anime_url": "https://myanimelist.net/anime/31780",
-        "role": "MAIN",
         "favourites": 714,
-        "row_weight": 2.75177807,
-        "amplitude": -0.5084353545,
-        "abs_amplitude": 0.5084353545,
-        "percent": 25.850651
+        "anilist_favourites": 714,
+        "bangumi_collects": 79,
+        "bangumi_comments": 30,
+        "bangumi_character_id": 37809,
+        "bangumi_url": "https://bgm.tv/character/37809",
+        "combined_favourites": 793,
+        "role_edge_count": 1,
+        "descriptors": [
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.77075503,
+        "row_weight": 2.77075503,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7379758157,
+        "abs_amplitude": 0.7379758157,
+        "percent": 54.46083
+      },
+      {
+        "character_id": 262415,
+        "name": "Airi Momoi",
+        "anime": "Puchi Seka",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
+        "site_url": "https://anilist.co/character/262415",
+        "favourites": 246,
+        "anilist_favourites": 246,
+        "bangumi_collects": 56,
+        "bangumi_comments": 12,
+        "bangumi_character_id": 77909,
+        "bangumi_url": "https://bgm.tv/character/77909",
+        "combined_favourites": 302,
+        "role_edge_count": 1,
+        "descriptors": [
+          "forceful",
+          "headstrong",
+          "moody",
+          "pushy",
+          "strong-minded"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.59108719,
+        "row_weight": 2.59108719,
+        "unweighted_row_norm": 4.11989437,
+        "amplitude": 0.6748271597,
+        "abs_amplitude": 0.6748271597,
+        "percent": 45.53917
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.984207,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3403230211,
+      "mass_percent": 12.483418,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 32.64404,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "shy",
+            "amplitude": 0.3264403984,
+            "abs_amplitude": 0.3264403984,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "shy",
+            "fit_percent": 32.64404,
+            "residual_gain_percent": 10.656333
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 89852,
+            "name": "Ruby Kurosawa",
+            "anime": "Kimi no Kokoro wa Kagayaiteru kai?",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b89852-HMeqdRlxVyWM.png",
+            "site_url": "https://anilist.co/character/89852",
+            "favourites": 714,
+            "anilist_favourites": 714,
+            "bangumi_collects": 79,
+            "bangumi_comments": 30,
+            "bangumi_character_id": 37809,
+            "bangumi_url": "https://bgm.tv/character/37809",
+            "combined_favourites": 793,
+            "role_edge_count": 1,
+            "descriptors": [
+              "shy"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.77075503,
+            "row_weight": 2.77075503,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6748271597,
+            "abs_amplitude": 0.6748271597,
+            "percent": 45.53917
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 44.343544,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "headstrong",
+            "amplitude": 0.2571313044,
+            "abs_amplitude": 0.2571313044,
+            "percent": 49.488147
+          },
+          {
+            "rank": 2,
+            "descriptor": "serious-minded",
+            "amplitude": 0.172438888,
+            "abs_amplitude": 0.172438888,
+            "percent": 33.188029
+          },
+          {
+            "rank": 3,
+            "descriptor": "furious",
+            "amplitude": 0.0900114015,
+            "abs_amplitude": 0.0900114015,
+            "percent": 17.323824
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "headstrong",
+            "fit_percent": 40.556823,
+            "residual_gain_percent": 16.448559
+          },
+          {
+            "step": 2,
+            "descriptor": "serious-minded",
+            "fit_percent": 43.724314,
+            "residual_gain_percent": 3.195154
+          },
+          {
+            "step": 3,
+            "descriptor": "furious",
+            "fit_percent": 44.343544,
+            "residual_gain_percent": 0.674247
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 262415,
+            "name": "Airi Momoi",
+            "anime": "Puchi Seka",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b262415-SbFadLSAb2MX.png",
+            "site_url": "https://anilist.co/character/262415",
+            "favourites": 246,
+            "anilist_favourites": 246,
+            "bangumi_collects": 56,
+            "bangumi_comments": 12,
+            "bangumi_character_id": 77909,
+            "bangumi_url": "https://bgm.tv/character/77909",
+            "combined_favourites": 302,
+            "role_edge_count": 1,
+            "descriptors": [
+              "forceful",
+              "headstrong",
+              "moody",
+              "pushy",
+              "strong-minded"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.59108719,
+            "row_weight": 2.59108719,
+            "unweighted_row_norm": 4.11989437,
+            "amplitude": -0.7379758157,
+            "abs_amplitude": 0.7379758157,
+            "percent": 54.46083
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.5488519927,
+      "mass_percent": 87.516582,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3403230211,
+      "mass_percent": 12.483418,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1281 +11,349 @@
     "hoshino takanori",
     "takanori hoshino"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/takanori_hoshino.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 8.2694131359,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 8.2694131359,
-        "mass_percent": 92.637562
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.3312665955,
-        "mass_percent": 7.362438
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 313.23292,
-      "normalized_entanglement": 0.815711,
-      "top5_mass_percent": 3.33071,
-      "top10_mass_percent": 6.152753
-    },
-    "character_participation": {
-      "effective_count": 1.283504,
-      "normalized_entanglement": 0.641752,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.477655,
-      "semantic_spread": 1.477655,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.514427,
-      "direction_spread": 0.514427,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 92.637562,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.4675975941,
+    "mass_percent": 86.469918,
+    "descriptor_fit_percent": 97.661294,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "psychic / telepathic",
-        "descriptor_index": 5987,
-        "amplitude": 0.204125097,
-        "abs_amplitude": 0.204125097,
-        "raw_amplitude": 0.6123752909,
-        "percent": 47.46304,
-        "raw_percent": 47.46304,
-        "coverage_percent": 47.46304,
-        "member_count": 2,
-        "members": [
-          "psychic",
-          "telepathic"
-        ],
+        "descriptor": "reclusive",
+        "amplitude": 0.7173143826,
+        "abs_amplitude": 0.7173143826,
+        "percent": 66.939178,
+        "weighted_support": 2.68488175,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 133399,
             "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
             "anime": "Mob Psycho 100 II",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
             "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.6123752909,
-            "similarity": 0.90482,
-            "matched_descriptor": "esper"
+            "combined_favourites": 496
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "sage / sage-like",
-        "descriptor_index": 6441,
-        "amplitude": 0.0872943666,
-        "abs_amplitude": 0.0872943666,
-        "raw_amplitude": 0.2618830999,
-        "percent": 20.297632,
-        "raw_percent": 20.297632,
-        "coverage_percent": 67.760672,
-        "member_count": 2,
-        "members": [
-          "sage",
-          "sage-like"
-        ],
+        "descriptor": "overconfident",
+        "amplitude": 0.3542768827,
+        "abs_amplitude": 0.3542768827,
+        "percent": 33.060822,
+        "weighted_support": 2.58787432,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.2618830999,
-            "similarity": 0.870672,
-            "matched_descriptor": "esper"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.0439897974,
-        "abs_amplitude": 0.0439897974,
-        "raw_amplitude": 0.1319693921,
-        "percent": 10.22848,
-        "raw_percent": 10.22848,
-        "coverage_percent": 77.989152,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 10235,
             "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
             "anime": "Yu-Gi-Oh! 5D's",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
             "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.1319693921,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "psychic-powered",
-        "descriptor_index": 5991,
-        "amplitude": 0.0172280644,
-        "abs_amplitude": 0.0172280644,
-        "raw_amplitude": 0.0516841932,
-        "percent": 4.005859,
-        "raw_percent": 4.005859,
-        "coverage_percent": 81.995011,
-        "member_count": 1,
-        "members": [
-          "psychic-powered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.0516841932,
-            "similarity": 0.843057,
-            "matched_descriptor": "esper"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "overconfident / vain / cocky",
-        "descriptor_index": 5414,
-        "amplitude": 0.0161121191,
-        "abs_amplitude": 0.0161121191,
-        "raw_amplitude": 0.0483363572,
-        "percent": 3.74638,
-        "raw_percent": 3.74638,
-        "coverage_percent": 85.741391,
-        "member_count": 3,
-        "members": [
-          "overconfident",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0483363572,
-            "similarity": 1.0,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "self confident / self-confident / self-assured",
-        "descriptor_index": 6606,
-        "amplitude": 0.0072638817,
-        "abs_amplitude": 0.0072638817,
-        "raw_amplitude": 0.021791645,
-        "percent": 1.688993,
-        "raw_percent": 1.688993,
-        "coverage_percent": 87.430384,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-confident",
-          "self-assured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.021791645,
-            "similarity": 0.898076,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "moral / principled",
-        "descriptor_index": 4927,
-        "amplitude": 0.0056649523,
-        "abs_amplitude": 0.0056649523,
-        "raw_amplitude": 0.0169948568,
-        "percent": 1.317211,
-        "raw_percent": 1.317211,
-        "coverage_percent": 88.747595,
-        "member_count": 2,
-        "members": [
-          "moral",
-          "principled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0169948569,
-            "similarity": 0.914977,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "boastful / bragging",
-        "descriptor_index": 735,
-        "amplitude": 0.0048130597,
-        "abs_amplitude": 0.0048130597,
-        "raw_amplitude": 0.014439179,
-        "percent": 1.11913,
-        "raw_percent": 1.11913,
-        "coverage_percent": 89.866725,
-        "member_count": 2,
-        "members": [
-          "boastful",
-          "bragging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.014439179,
-            "similarity": 0.894133,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "humanistic",
-        "descriptor_index": 3631,
-        "amplitude": 0.0042002806,
-        "abs_amplitude": 0.0042002806,
-        "raw_amplitude": 0.0126008417,
-        "percent": 0.976647,
-        "raw_percent": 0.976647,
-        "coverage_percent": 90.843371,
-        "member_count": 1,
-        "members": [
-          "humanistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0126008417,
-            "similarity": 0.909627,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "provocative / brash",
-        "descriptor_index": 5981,
-        "amplitude": 0.0030667753,
-        "abs_amplitude": 0.0030667753,
-        "raw_amplitude": 0.0092003259,
-        "percent": 0.713085,
-        "raw_percent": 0.713085,
-        "coverage_percent": 91.556456,
-        "member_count": 2,
-        "members": [
-          "provocative",
-          "brash"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0092003259,
-            "similarity": 0.878761,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0029265835,
-        "abs_amplitude": 0.0029265835,
-        "raw_amplitude": 0.0087797505,
-        "percent": 0.680487,
-        "raw_percent": 0.680487,
-        "coverage_percent": 92.236943,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0087797505,
-            "similarity": 0.899785,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "fortune-teller",
-        "descriptor_index": 2744,
-        "amplitude": 0.0029032972,
-        "abs_amplitude": 0.0029032972,
-        "raw_amplitude": 0.0087098916,
-        "percent": 0.675073,
-        "raw_percent": 0.675073,
-        "coverage_percent": 92.912016,
-        "member_count": 1,
-        "members": [
-          "fortune-teller"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.0087098916,
-            "similarity": 0.835533,
-            "matched_descriptor": "esper"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "vanity-prone",
-        "descriptor_index": 8293,
-        "amplitude": 0.0028940137,
-        "abs_amplitude": 0.0028940137,
-        "raw_amplitude": 0.008682041,
-        "percent": 0.672914,
-        "raw_percent": 0.672914,
-        "coverage_percent": 93.58493,
-        "member_count": 1,
-        "members": [
-          "vanity-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.008682041,
-            "similarity": 0.892105,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "principle-driven",
-        "descriptor_index": 5863,
-        "amplitude": 0.0024763086,
-        "abs_amplitude": 0.0024763086,
-        "raw_amplitude": 0.0074289258,
-        "percent": 0.57579,
-        "raw_percent": 0.57579,
-        "coverage_percent": 94.16072,
-        "member_count": 1,
-        "members": [
-          "principle-driven"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0074289258,
-            "similarity": 0.873888,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "upstanding",
-        "descriptor_index": 8260,
-        "amplitude": 0.0024224411,
-        "abs_amplitude": 0.0024224411,
-        "raw_amplitude": 0.0072673233,
-        "percent": 0.563264,
-        "raw_percent": 0.563264,
-        "coverage_percent": 94.723985,
-        "member_count": 1,
-        "members": [
-          "upstanding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0072673233,
-            "similarity": 0.880186,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "justified",
-        "descriptor_index": 4089,
-        "amplitude": 0.002110389,
-        "abs_amplitude": 0.002110389,
-        "raw_amplitude": 0.0063311669,
-        "percent": 0.490706,
-        "raw_percent": 0.490706,
-        "coverage_percent": 95.214691,
-        "member_count": 1,
-        "members": [
-          "justified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0063311669,
-            "similarity": 0.86705,
-            "matched_descriptor": "strong conscience"
+            "combined_favourites": 297
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "psychic / telepathic",
-        "descriptor_index": 5987,
-        "amplitude": 0.204125097,
-        "abs_amplitude": 0.204125097,
-        "raw_amplitude": 0.6123752909,
-        "percent": 47.46304,
-        "raw_percent": 47.46304,
-        "coverage_percent": 47.46304,
-        "member_count": 2,
-        "members": [
-          "psychic",
-          "telepathic"
-        ],
+        "step": 1,
+        "descriptor": "reclusive",
+        "weighted_support": 2.68488175,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.6123752909,
-            "similarity": 0.90482,
-            "matched_descriptor": "esper"
-          }
-        ]
+        "fit_percent": 93.599172,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "sage / sage-like",
-        "descriptor_index": 6441,
-        "amplitude": 0.0872943666,
-        "abs_amplitude": 0.0872943666,
-        "raw_amplitude": 0.2618830999,
-        "percent": 20.297632,
-        "raw_percent": 20.297632,
-        "coverage_percent": 67.760672,
-        "member_count": 2,
-        "members": [
-          "sage",
-          "sage-like"
-        ],
+        "step": 2,
+        "descriptor": "overconfident",
+        "weighted_support": 2.58787432,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.2618830999,
-            "similarity": 0.870672,
-            "matched_descriptor": "esper"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.0439897974,
-        "abs_amplitude": 0.0439897974,
-        "raw_amplitude": 0.1319693921,
-        "percent": 10.22848,
-        "raw_percent": 10.22848,
-        "coverage_percent": 77.989152,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "haughty",
-          "holier-than-thou",
-          "smug",
-          "disdainful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.1319693921,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "psychic-powered",
-        "descriptor_index": 5991,
-        "amplitude": 0.0172280644,
-        "abs_amplitude": 0.0172280644,
-        "raw_amplitude": 0.0516841932,
-        "percent": 4.005859,
-        "raw_percent": 4.005859,
-        "coverage_percent": 81.995011,
-        "member_count": 1,
-        "members": [
-          "psychic-powered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.0516841932,
-            "similarity": 0.843057,
-            "matched_descriptor": "esper"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "overconfident / vain / cocky",
-        "descriptor_index": 5414,
-        "amplitude": 0.0161121191,
-        "abs_amplitude": 0.0161121191,
-        "raw_amplitude": 0.0483363572,
-        "percent": 3.74638,
-        "raw_percent": 3.74638,
-        "coverage_percent": 85.741391,
-        "member_count": 3,
-        "members": [
-          "overconfident",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0483363572,
-            "similarity": 1.0,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "self confident / self-confident / self-assured",
-        "descriptor_index": 6606,
-        "amplitude": 0.0072638817,
-        "abs_amplitude": 0.0072638817,
-        "raw_amplitude": 0.021791645,
-        "percent": 1.688993,
-        "raw_percent": 1.688993,
-        "coverage_percent": 87.430384,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-confident",
-          "self-assured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.021791645,
-            "similarity": 0.898076,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "moral / principled",
-        "descriptor_index": 4927,
-        "amplitude": 0.0056649523,
-        "abs_amplitude": 0.0056649523,
-        "raw_amplitude": 0.0169948568,
-        "percent": 1.317211,
-        "raw_percent": 1.317211,
-        "coverage_percent": 88.747595,
-        "member_count": 2,
-        "members": [
-          "moral",
-          "principled"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0169948569,
-            "similarity": 0.914977,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "boastful / bragging",
-        "descriptor_index": 735,
-        "amplitude": 0.0048130597,
-        "abs_amplitude": 0.0048130597,
-        "raw_amplitude": 0.014439179,
-        "percent": 1.11913,
-        "raw_percent": 1.11913,
-        "coverage_percent": 89.866725,
-        "member_count": 2,
-        "members": [
-          "boastful",
-          "bragging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.014439179,
-            "similarity": 0.894133,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "humanistic",
-        "descriptor_index": 3631,
-        "amplitude": 0.0042002806,
-        "abs_amplitude": 0.0042002806,
-        "raw_amplitude": 0.0126008417,
-        "percent": 0.976647,
-        "raw_percent": 0.976647,
-        "coverage_percent": 90.843371,
-        "member_count": 1,
-        "members": [
-          "humanistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0126008417,
-            "similarity": 0.909627,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "provocative / brash",
-        "descriptor_index": 5981,
-        "amplitude": 0.0030667753,
-        "abs_amplitude": 0.0030667753,
-        "raw_amplitude": 0.0092003259,
-        "percent": 0.713085,
-        "raw_percent": 0.713085,
-        "coverage_percent": 91.556456,
-        "member_count": 2,
-        "members": [
-          "provocative",
-          "brash"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0092003259,
-            "similarity": 0.878761,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "prissy / mannered",
-        "descriptor_index": 5870,
-        "amplitude": 0.0029265835,
-        "abs_amplitude": 0.0029265835,
-        "raw_amplitude": 0.0087797505,
-        "percent": 0.680487,
-        "raw_percent": 0.680487,
-        "coverage_percent": 92.236943,
-        "member_count": 2,
-        "members": [
-          "prissy",
-          "mannered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0087797505,
-            "similarity": 0.899785,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "fortune-teller",
-        "descriptor_index": 2744,
-        "amplitude": 0.0029032972,
-        "abs_amplitude": 0.0029032972,
-        "raw_amplitude": 0.0087098916,
-        "percent": 0.675073,
-        "raw_percent": 0.675073,
-        "coverage_percent": 92.912016,
-        "member_count": 1,
-        "members": [
-          "fortune-teller"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 133399,
-            "name": "Katsuya Serizawa",
-            "native_name": "芹沢克也",
-            "anime": "Mob Psycho 100 II",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
-            "site_url": "https://anilist.co/character/133399",
-            "anime_url": "https://myanimelist.net/anime/37510",
-            "role": "SUPPORTING",
-            "favourites": 487,
-            "row_weight": 2.68147635,
-            "projection": 0.0087098916,
-            "similarity": 0.835533,
-            "matched_descriptor": "esper"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "vanity-prone",
-        "descriptor_index": 8293,
-        "amplitude": 0.0028940137,
-        "abs_amplitude": 0.0028940137,
-        "raw_amplitude": 0.008682041,
-        "percent": 0.672914,
-        "raw_percent": 0.672914,
-        "coverage_percent": 93.58493,
-        "member_count": 1,
-        "members": [
-          "vanity-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.008682041,
-            "similarity": 0.892105,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "principle-driven",
-        "descriptor_index": 5863,
-        "amplitude": 0.0024763086,
-        "abs_amplitude": 0.0024763086,
-        "raw_amplitude": 0.0074289258,
-        "percent": 0.57579,
-        "raw_percent": 0.57579,
-        "coverage_percent": 94.16072,
-        "member_count": 1,
-        "members": [
-          "principle-driven"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0074289258,
-            "similarity": 0.873888,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "upstanding",
-        "descriptor_index": 8260,
-        "amplitude": 0.0024224411,
-        "abs_amplitude": 0.0024224411,
-        "raw_amplitude": 0.0072673233,
-        "percent": 0.563264,
-        "raw_percent": 0.563264,
-        "coverage_percent": 94.723985,
-        "member_count": 1,
-        "members": [
-          "upstanding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0072673233,
-            "similarity": 0.880186,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "justified",
-        "descriptor_index": 4089,
-        "amplitude": 0.002110389,
-        "abs_amplitude": 0.002110389,
-        "raw_amplitude": 0.0063311669,
-        "percent": 0.490706,
-        "raw_percent": 0.490706,
-        "coverage_percent": 95.214691,
-        "member_count": 1,
-        "members": [
-          "justified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 10235,
-            "name": "Jack Atlas",
-            "native_name": "ジャック・アトラス",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
-            "site_url": "https://anilist.co/character/10235",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 283,
-            "row_weight": 2.5785605,
-            "projection": 0.0063311669,
-            "similarity": 0.86705,
-            "matched_descriptor": "strong conscience"
-          }
-        ]
+        "fit_percent": 97.661294,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 133399,
         "name": "Katsuya Serizawa",
-        "native_name": "芹沢克也",
         "anime": "Mob Psycho 100 II",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
         "site_url": "https://anilist.co/character/133399",
-        "anime_url": "https://myanimelist.net/anime/37510",
-        "role": "SUPPORTING",
         "favourites": 487,
-        "row_weight": 2.68147635,
-        "amplitude": 0.9346524757,
-        "abs_amplitude": 0.9346524757,
-        "percent": 87.357525
+        "anilist_favourites": 487,
+        "bangumi_collects": 9,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 69583,
+        "bangumi_url": "https://bgm.tv/character/69583",
+        "combined_favourites": 496,
+        "role_edge_count": 1,
+        "descriptors": [
+          "reclusive"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.68488175,
+        "row_weight": 2.68488175,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7247170506,
+        "abs_amplitude": 0.7247170506,
+        "percent": 52.52148
       },
       {
         "character_id": 10235,
         "name": "Jack Atlas",
-        "native_name": "ジャック・アトラス",
         "anime": "Yu-Gi-Oh! 5D's",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
         "site_url": "https://anilist.co/character/10235",
-        "anime_url": "https://myanimelist.net/anime/3972",
-        "role": "MAIN",
         "favourites": 283,
-        "row_weight": 2.5785605,
-        "amplitude": 0.355562582,
-        "abs_amplitude": 0.355562582,
-        "percent": 12.642475
+        "anilist_favourites": 283,
+        "bangumi_collects": 14,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 791,
+        "bangumi_url": "https://bgm.tv/character/791",
+        "combined_favourites": 297,
+        "role_edge_count": 1,
+        "descriptors": [
+          "dominant",
+          "overconfident"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.58787432,
+        "row_weight": 2.58787432,
+        "unweighted_row_norm": 1.75281342,
+        "amplitude": 0.6890465852,
+        "abs_amplitude": 0.6890465852,
+        "percent": 47.47852
       }
     ],
     "positive_characters": [
       {
         "character_id": 133399,
         "name": "Katsuya Serizawa",
-        "native_name": "芹沢克也",
         "anime": "Mob Psycho 100 II",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
         "site_url": "https://anilist.co/character/133399",
-        "anime_url": "https://myanimelist.net/anime/37510",
-        "role": "SUPPORTING",
         "favourites": 487,
-        "row_weight": 2.68147635,
-        "amplitude": 0.9346524757,
-        "abs_amplitude": 0.9346524757,
-        "percent": 87.357525
+        "anilist_favourites": 487,
+        "bangumi_collects": 9,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 69583,
+        "bangumi_url": "https://bgm.tv/character/69583",
+        "combined_favourites": 496,
+        "role_edge_count": 1,
+        "descriptors": [
+          "reclusive"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.68488175,
+        "row_weight": 2.68488175,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7247170506,
+        "abs_amplitude": 0.7247170506,
+        "percent": 52.52148
       },
       {
         "character_id": 10235,
         "name": "Jack Atlas",
-        "native_name": "ジャック・アトラス",
         "anime": "Yu-Gi-Oh! 5D's",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
         "site_url": "https://anilist.co/character/10235",
-        "anime_url": "https://myanimelist.net/anime/3972",
-        "role": "MAIN",
         "favourites": 283,
-        "row_weight": 2.5785605,
-        "amplitude": 0.355562582,
-        "abs_amplitude": 0.355562582,
-        "percent": 12.642475
+        "anilist_favourites": 283,
+        "bangumi_collects": 14,
+        "bangumi_comments": 13,
+        "bangumi_character_id": 791,
+        "bangumi_url": "https://bgm.tv/character/791",
+        "combined_favourites": 297,
+        "role_edge_count": 1,
+        "descriptors": [
+          "dominant",
+          "overconfident"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.58787432,
+        "row_weight": 2.58787432,
+        "unweighted_row_norm": 1.75281342,
+        "amplitude": 0.6890465852,
+        "abs_amplitude": 0.6890465852,
+        "percent": 47.47852
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.994927,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3716597385,
+      "mass_percent": 13.530082,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 35.202201,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "reclusive",
+            "amplitude": 0.3520220054,
+            "abs_amplitude": 0.3520220054,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "reclusive",
+            "fit_percent": 35.202201,
+            "residual_gain_percent": 12.391949
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 133399,
+            "name": "Katsuya Serizawa",
+            "anime": "Mob Psycho 100 II",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b133399-saG7XStPZy71.png",
+            "site_url": "https://anilist.co/character/133399",
+            "favourites": 487,
+            "anilist_favourites": 487,
+            "bangumi_collects": 9,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 69583,
+            "bangumi_url": "https://bgm.tv/character/69583",
+            "combined_favourites": 496,
+            "role_edge_count": 1,
+            "descriptors": [
+              "reclusive"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.68488175,
+            "row_weight": 2.68488175,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6890465852,
+            "abs_amplitude": 0.6890465852,
+            "percent": 47.47852
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 38.886686,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "overconfident",
+            "amplitude": 0.282011868,
+            "abs_amplitude": 0.282011868,
+            "percent": 64.343012
+          },
+          {
+            "rank": 2,
+            "descriptor": "dominant",
+            "amplitude": 0.1562826063,
+            "abs_amplitude": 0.1562826063,
+            "percent": 35.656988
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "overconfident",
+            "fit_percent": 36.580708,
+            "residual_gain_percent": 13.381482
+          },
+          {
+            "step": 2,
+            "descriptor": "dominant",
+            "fit_percent": 38.886686,
+            "residual_gain_percent": 2.00911
+          },
+          {
+            "step": 3,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 10235,
+            "name": "Jack Atlas",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/10235.jpg",
+            "site_url": "https://anilist.co/character/10235",
+            "favourites": 283,
+            "anilist_favourites": 283,
+            "bangumi_collects": 14,
+            "bangumi_comments": 13,
+            "bangumi_character_id": 791,
+            "bangumi_url": "https://bgm.tv/character/791",
+            "combined_favourites": 297,
+            "role_edge_count": 1,
+            "descriptors": [
+              "dominant",
+              "overconfident"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.58787432,
+            "row_weight": 2.58787432,
+            "unweighted_row_norm": 1.75281342,
+            "amplitude": -0.7247170506,
+            "abs_amplitude": 0.7247170506,
+            "percent": 52.52148
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.4675975941,
+      "mass_percent": 86.469918,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3716597385,
+      "mass_percent": 13.530082,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -19,23 +19,23 @@
   },
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.3477089528,
+    "singular_value": 5.3046612517,
     "singular_spectrum": [
       {
         "rank": 1,
-        "singular_value": 3.3477089528,
+        "singular_value": 5.3046612517,
         "mass_percent": 100.0
       }
     ],
-    "row_weight_mode": "sqrt_log_favourites",
+    "row_weight_mode": "none",
     "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
+    "profile_center": "none",
     "character_space": "raw",
     "basis_participation": {
-      "effective_count": 131.373456,
-      "normalized_entanglement": 0.342118,
-      "top5_mass_percent": 9.940989,
-      "top10_mass_percent": 16.743563
+      "effective_count": 245.511175,
+      "normalized_entanglement": 0.639352,
+      "top5_mass_percent": 5.714901,
+      "top10_mass_percent": 9.588102
     },
     "character_participation": {
       "effective_count": 1.0,
@@ -58,23 +58,23 @@
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "cool / dandy / clean-cut / beautiful / +9",
-        "descriptor_index": 1421,
-        "amplitude": 0.085432845,
-        "abs_amplitude": 0.085432845,
-        "raw_amplitude": 0.2562985349,
-        "percent": 25.629853,
-        "raw_percent": 25.629853,
-        "coverage_percent": 25.629853,
+        "descriptor": "cool / dandy / beautiful / clean-cut / +9",
+        "descriptor_index": 1025,
+        "amplitude": 0.085827218,
+        "abs_amplitude": 0.085827218,
+        "raw_amplitude": 0.2574816539,
+        "percent": 25.748165,
+        "raw_percent": 25.748165,
+        "coverage_percent": 25.748165,
         "member_count": 13,
         "members": [
           "cool",
           "dandy",
-          "clean-cut",
           "beautiful",
+          "clean-cut",
           "flashy",
-          "good-looking",
           "nice",
+          "good-looking",
           "sophisticated",
           "seductive",
           "handsome",
@@ -96,8 +96,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.2562985351,
+            "row_weight": 1.0,
+            "projection": 0.2574816538,
             "similarity": 1.0,
             "matched_descriptor": "cool"
           }
@@ -106,13 +106,13 @@
       {
         "rank": 2,
         "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0766135646,
-        "abs_amplitude": 0.0766135646,
-        "raw_amplitude": 0.2298406938,
-        "percent": 22.984069,
-        "raw_percent": 22.984069,
-        "coverage_percent": 48.613923,
+        "descriptor_index": 5187,
+        "amplitude": 0.0808838459,
+        "abs_amplitude": 0.0808838459,
+        "raw_amplitude": 0.2426515376,
+        "percent": 24.265154,
+        "raw_percent": 24.265154,
+        "coverage_percent": 50.013319,
         "member_count": 9,
         "members": [
           "smart",
@@ -139,8 +139,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.2298406938,
+            "row_weight": 1.0,
+            "projection": 0.2426515377,
             "similarity": 1.0,
             "matched_descriptor": "smart"
           }
@@ -149,13 +149,13 @@
       {
         "rank": 3,
         "descriptor": "friend-oriented / sociable / extroverted / social / +1",
-        "descriptor_index": 2818,
-        "amplitude": 0.0336221195,
-        "abs_amplitude": 0.0336221195,
-        "raw_amplitude": 0.1008663586,
-        "percent": 10.086636,
-        "raw_percent": 10.086636,
-        "coverage_percent": 58.700559,
+        "descriptor_index": 2048,
+        "amplitude": 0.0346066391,
+        "abs_amplitude": 0.0346066391,
+        "raw_amplitude": 0.1038199174,
+        "percent": 10.381992,
+        "raw_percent": 10.381992,
+        "coverage_percent": 60.395311,
         "member_count": 5,
         "members": [
           "friend-oriented",
@@ -178,8 +178,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.1008663587,
+            "row_weight": 1.0,
+            "projection": 0.1038199175,
             "similarity": 1.0,
             "matched_descriptor": "friend-oriented"
           }
@@ -187,21 +187,18 @@
       },
       {
         "rank": 4,
-        "descriptor": "sensible / prudent / deliberative / careful / +1",
-        "descriptor_index": 6701,
-        "amplitude": 0.0107120571,
-        "abs_amplitude": 0.0107120571,
-        "raw_amplitude": 0.0321361712,
-        "percent": 3.213617,
-        "raw_percent": 3.213617,
-        "coverage_percent": 61.914176,
-        "member_count": 5,
+        "descriptor": "fighting / combatant",
+        "descriptor_index": 1866,
+        "amplitude": 0.0174252112,
+        "abs_amplitude": 0.0174252112,
+        "raw_amplitude": 0.0522756337,
+        "percent": 5.227563,
+        "raw_percent": 5.227563,
+        "coverage_percent": 65.622874,
+        "member_count": 2,
         "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "careful",
-          "no-nonsense"
+          "fighting",
+          "combatant"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -217,23 +214,61 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0321361711,
+            "row_weight": 1.0,
+            "projection": 0.0522756337,
+            "similarity": 0.969441,
+            "matched_descriptor": "duelist"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "descriptor": "sensible / prudent / deliberative / careful",
+        "descriptor_index": 4945,
+        "amplitude": 0.008993014,
+        "abs_amplitude": 0.008993014,
+        "raw_amplitude": 0.0269790419,
+        "percent": 2.697904,
+        "raw_percent": 2.697904,
+        "coverage_percent": 68.320778,
+        "member_count": 4,
+        "members": [
+          "sensible",
+          "prudent",
+          "deliberative",
+          "careful"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0269790419,
             "similarity": 0.898538,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0098673581,
-        "abs_amplitude": 0.0098673581,
-        "raw_amplitude": 0.0296020744,
-        "percent": 2.960207,
-        "raw_percent": 2.960207,
-        "coverage_percent": 64.874383,
+        "descriptor_index": 4500,
+        "amplitude": 0.008534754,
+        "abs_amplitude": 0.008534754,
+        "raw_amplitude": 0.0256042621,
+        "percent": 2.560426,
+        "raw_percent": 2.560426,
+        "coverage_percent": 70.881205,
         "member_count": 3,
         "members": [
           "quick-minded",
@@ -254,23 +289,23 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0296020743,
+            "row_weight": 1.0,
+            "projection": 0.0256042621,
             "similarity": 0.889074,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0094526238,
-        "abs_amplitude": 0.0094526238,
-        "raw_amplitude": 0.0283578713,
-        "percent": 2.835787,
-        "raw_percent": 2.835787,
-        "coverage_percent": 67.71017,
+        "descriptor_index": 2169,
+        "amplitude": 0.0083346884,
+        "abs_amplitude": 0.0083346884,
+        "raw_amplitude": 0.0250040652,
+        "percent": 2.500407,
+        "raw_percent": 2.500407,
+        "coverage_percent": 73.381611,
         "member_count": 3,
         "members": [
           "gifted",
@@ -291,23 +326,59 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0283578713,
+            "row_weight": 1.0,
+            "projection": 0.0250040652,
             "similarity": 0.887839,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "descriptor": "suave / attractive",
+        "descriptor_index": 5482,
+        "amplitude": 0.0067093375,
+        "abs_amplitude": 0.0067093375,
+        "raw_amplitude": 0.0201280125,
+        "percent": 2.012801,
+        "raw_percent": 2.012801,
+        "coverage_percent": 75.394412,
+        "member_count": 2,
+        "members": [
+          "suave",
+          "attractive"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0201280125,
+            "similarity": 0.899319,
+            "matched_descriptor": "cool"
+          }
+        ]
+      },
+      {
+        "rank": 9,
         "descriptor": "approachable / warm / amiable",
-        "descriptor_index": 316,
-        "amplitude": 0.0086432902,
-        "abs_amplitude": 0.0086432902,
-        "raw_amplitude": 0.0259298706,
-        "percent": 2.592987,
-        "raw_percent": 2.592987,
-        "coverage_percent": 70.303157,
+        "descriptor_index": 235,
+        "amplitude": 0.0065350958,
+        "abs_amplitude": 0.0065350958,
+        "raw_amplitude": 0.0196052875,
+        "percent": 1.960529,
+        "raw_percent": 1.960529,
+        "coverage_percent": 77.354941,
         "member_count": 3,
         "members": [
           "approachable",
@@ -328,98 +399,23 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0259298706,
+            "row_weight": 1.0,
+            "projection": 0.0196052875,
             "similarity": 0.902822,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 8,
-        "descriptor": "friendlier / agreeable / pleasant / open-hearted",
-        "descriptor_index": 2820,
-        "amplitude": 0.0079398201,
-        "abs_amplitude": 0.0079398201,
-        "raw_amplitude": 0.0238194602,
-        "percent": 2.381946,
-        "raw_percent": 2.381946,
-        "coverage_percent": 72.685103,
-        "member_count": 4,
-        "members": [
-          "friendlier",
-          "agreeable",
-          "pleasant",
-          "open-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0238194602,
-            "similarity": 0.903195,
-            "matched_descriptor": "friend-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "suave / attractive / cheeky",
-        "descriptor_index": 7444,
-        "amplitude": 0.0077528506,
-        "abs_amplitude": 0.0077528506,
-        "raw_amplitude": 0.0232585519,
-        "percent": 2.325855,
-        "raw_percent": 2.325855,
-        "coverage_percent": 75.010959,
-        "member_count": 3,
-        "members": [
-          "suave",
-          "attractive",
-          "cheeky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.023258552,
-            "similarity": 0.899319,
-            "matched_descriptor": "cool"
-          }
-        ]
-      },
-      {
         "rank": 10,
         "descriptor": "charming / charismatic / likable",
-        "descriptor_index": 1023,
-        "amplitude": 0.0076929429,
-        "abs_amplitude": 0.0076929429,
-        "raw_amplitude": 0.0230788286,
-        "percent": 2.307883,
-        "raw_percent": 2.307883,
-        "coverage_percent": 77.318842,
+        "descriptor_index": 751,
+        "amplitude": 0.0064609935,
+        "abs_amplitude": 0.0064609935,
+        "raw_amplitude": 0.0193829804,
+        "percent": 1.938298,
+        "raw_percent": 1.938298,
+        "coverage_percent": 79.293239,
         "member_count": 3,
         "members": [
           "charming",
@@ -440,8 +436,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0230788286,
+            "row_weight": 1.0,
+            "projection": 0.0193829804,
             "similarity": 0.895544,
             "matched_descriptor": "cool / friend-oriented"
           }
@@ -450,13 +446,13 @@
       {
         "rank": 11,
         "descriptor": "aesthetic / realistic",
-        "descriptor_index": 105,
-        "amplitude": 0.0073251359,
-        "abs_amplitude": 0.0073251359,
-        "raw_amplitude": 0.0219754077,
-        "percent": 2.197541,
-        "raw_percent": 2.197541,
-        "coverage_percent": 79.516382,
+        "descriptor_index": 69,
+        "amplitude": 0.0063421216,
+        "abs_amplitude": 0.0063421216,
+        "raw_amplitude": 0.0190263648,
+        "percent": 1.902636,
+        "raw_percent": 1.902636,
+        "coverage_percent": 81.195876,
         "member_count": 2,
         "members": [
           "aesthetic",
@@ -476,23 +472,95 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0219754078,
-            "similarity": 0.894847,
+            "row_weight": 1.0,
+            "projection": 0.0190263649,
+            "similarity": 0.894846,
             "matched_descriptor": "cool"
           }
         ]
       },
       {
         "rank": 12,
+        "descriptor": "informed / well-read",
+        "descriptor_index": 2870,
+        "amplitude": 0.0062023102,
+        "abs_amplitude": 0.0062023102,
+        "raw_amplitude": 0.0186069306,
+        "percent": 1.860693,
+        "raw_percent": 1.860693,
+        "coverage_percent": 83.056569,
+        "member_count": 2,
+        "members": [
+          "informed",
+          "well-read"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0186069305,
+            "similarity": 0.884867,
+            "matched_descriptor": "smart"
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "descriptor": "inventive / crafty",
+        "descriptor_index": 2955,
+        "amplitude": 0.0057618169,
+        "abs_amplitude": 0.0057618169,
+        "raw_amplitude": 0.0172854506,
+        "percent": 1.728545,
+        "raw_percent": 1.728545,
+        "coverage_percent": 84.785114,
+        "member_count": 2,
+        "members": [
+          "inventive",
+          "crafty"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0172854506,
+            "similarity": 0.890893,
+            "matched_descriptor": "smart"
+          }
+        ]
+      },
+      {
+        "rank": 14,
         "descriptor": "gorgeous / glamorous / swoon-inducing",
-        "descriptor_index": 3113,
-        "amplitude": 0.0072500301,
-        "abs_amplitude": 0.0072500301,
-        "raw_amplitude": 0.0217500904,
-        "percent": 2.175009,
-        "raw_percent": 2.175009,
-        "coverage_percent": 81.691391,
+        "descriptor_index": 2274,
+        "amplitude": 0.0053060332,
+        "abs_amplitude": 0.0053060332,
+        "raw_amplitude": 0.0159180996,
+        "percent": 1.59181,
+        "raw_percent": 1.59181,
+        "coverage_percent": 86.376924,
         "member_count": 3,
         "members": [
           "gorgeous",
@@ -513,30 +581,28 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0217500904,
+            "row_weight": 1.0,
+            "projection": 0.0159180997,
             "similarity": 0.888114,
             "matched_descriptor": "cool"
           }
         ]
       },
       {
-        "rank": 13,
-        "descriptor": "good / affable / good-natured / polite / +1",
-        "descriptor_index": 3047,
-        "amplitude": 0.0071963897,
-        "abs_amplitude": 0.0071963897,
-        "raw_amplitude": 0.0215891692,
-        "percent": 2.158917,
-        "raw_percent": 2.158917,
-        "coverage_percent": 83.850308,
-        "member_count": 5,
+        "rank": 15,
+        "descriptor": "friendlier / agreeable / pleasant",
+        "descriptor_index": 2050,
+        "amplitude": 0.0049728259,
+        "abs_amplitude": 0.0049728259,
+        "raw_amplitude": 0.0149184778,
+        "percent": 1.491848,
+        "raw_percent": 1.491848,
+        "coverage_percent": 87.868772,
+        "member_count": 3,
         "members": [
-          "good",
-          "affable",
-          "good-natured",
-          "polite",
-          "cordial"
+          "friendlier",
+          "agreeable",
+          "pleasant"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -552,95 +618,58 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0215891692,
-            "similarity": 0.890471,
+            "row_weight": 1.0,
+            "projection": 0.0149184778,
+            "similarity": 0.903195,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 14,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0068631972,
-        "abs_amplitude": 0.0068631972,
-        "raw_amplitude": 0.0205895915,
-        "percent": 2.058959,
-        "raw_percent": 2.058959,
-        "coverage_percent": 85.909267,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0205895915,
-            "similarity": 0.884867,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "inventive / crafty",
-        "descriptor_index": 3986,
-        "amplitude": 0.0064802698,
-        "abs_amplitude": 0.0064802698,
-        "raw_amplitude": 0.0194408095,
-        "percent": 1.944081,
-        "raw_percent": 1.944081,
-        "coverage_percent": 87.853348,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0194408096,
-            "similarity": 0.890893,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
         "rank": 16,
+        "descriptor": "legendary",
+        "descriptor_index": 3154,
+        "amplitude": 0.0043789053,
+        "abs_amplitude": 0.0043789053,
+        "raw_amplitude": 0.0131367159,
+        "percent": 1.313672,
+        "raw_percent": 1.313672,
+        "coverage_percent": 89.182443,
+        "member_count": 1,
+        "members": [
+          "legendary"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0131367159,
+            "similarity": 0.884124,
+            "matched_descriptor": "main character"
+          }
+        ]
+      },
+      {
+        "rank": 17,
         "descriptor": "gregarious / outgoing",
-        "descriptor_index": 3194,
-        "amplitude": 0.0050493383,
-        "abs_amplitude": 0.0050493383,
-        "raw_amplitude": 0.0151480148,
-        "percent": 1.514801,
-        "raw_percent": 1.514801,
-        "coverage_percent": 89.36815,
+        "descriptor_index": 2333,
+        "amplitude": 0.0041980602,
+        "abs_amplitude": 0.0041980602,
+        "raw_amplitude": 0.0125941805,
+        "percent": 1.259418,
+        "raw_percent": 1.259418,
+        "coverage_percent": 90.441861,
         "member_count": 2,
         "members": [
           "gregarious",
@@ -660,23 +689,23 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0151480147,
+            "row_weight": 1.0,
+            "projection": 0.0125941805,
             "similarity": 0.892967,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 17,
+        "rank": 18,
         "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0049812229,
-        "abs_amplitude": 0.0049812229,
-        "raw_amplitude": 0.0149436686,
-        "percent": 1.494367,
-        "raw_percent": 1.494367,
-        "coverage_percent": 90.862517,
+        "descriptor_index": 593,
+        "amplitude": 0.0040374162,
+        "abs_amplitude": 0.0040374162,
+        "raw_amplitude": 0.0121122485,
+        "percent": 1.211225,
+        "raw_percent": 1.211225,
+        "coverage_percent": 91.653086,
         "member_count": 2,
         "members": [
           "brilliant",
@@ -696,29 +725,28 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0149436686,
+            "row_weight": 1.0,
+            "projection": 0.0121122485,
             "similarity": 0.872835,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 18,
-        "descriptor": "non-criminal / noble-spirited / non-combatant / virtuous",
-        "descriptor_index": 5178,
-        "amplitude": 0.0044304911,
-        "abs_amplitude": 0.0044304911,
-        "raw_amplitude": 0.0132914733,
-        "percent": 1.329147,
-        "raw_percent": 1.329147,
-        "coverage_percent": 92.191664,
-        "member_count": 4,
+        "rank": 19,
+        "descriptor": "good / affable / polite",
+        "descriptor_index": 2210,
+        "amplitude": 0.0032351039,
+        "abs_amplitude": 0.0032351039,
+        "raw_amplitude": 0.0097053117,
+        "percent": 0.970531,
+        "raw_percent": 0.970531,
+        "coverage_percent": 92.623617,
+        "member_count": 3,
         "members": [
-          "non-criminal",
-          "noble-spirited",
-          "non-combatant",
-          "virtuous"
+          "good",
+          "affable",
+          "polite"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -734,27 +762,61 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0132914733,
+            "row_weight": 1.0,
+            "projection": 0.0097053116,
+            "similarity": 0.890471,
+            "matched_descriptor": "friend-oriented"
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "descriptor": "non-criminal",
+        "descriptor_index": 3819,
+        "amplitude": 0.0031231474,
+        "abs_amplitude": 0.0031231474,
+        "raw_amplitude": 0.0093694421,
+        "percent": 0.936944,
+        "raw_percent": 0.936944,
+        "coverage_percent": 93.560561,
+        "member_count": 1,
+        "members": [
+          "non-criminal"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0093694421,
             "similarity": 0.899391,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 19,
-        "descriptor": "insightful / discerning",
-        "descriptor_index": 3919,
-        "amplitude": 0.0039072498,
-        "abs_amplitude": 0.0039072498,
-        "raw_amplitude": 0.0117217494,
-        "percent": 1.172175,
-        "raw_percent": 1.172175,
-        "coverage_percent": 93.363839,
-        "member_count": 2,
+        "rank": 21,
+        "descriptor": "insightful",
+        "descriptor_index": 2900,
+        "amplitude": 0.0029783748,
+        "abs_amplitude": 0.0029783748,
+        "raw_amplitude": 0.0089351243,
+        "percent": 0.893512,
+        "raw_percent": 0.893512,
+        "coverage_percent": 94.454074,
+        "member_count": 1,
         "members": [
-          "insightful",
-          "discerning"
+          "insightful"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -770,62 +832,26 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0117217494,
+            "row_weight": 1.0,
+            "projection": 0.0089351243,
             "similarity": 0.896591,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 20,
-        "descriptor": "trustworthy / trusted",
-        "descriptor_index": 8016,
-        "amplitude": 0.0029383594,
-        "abs_amplitude": 0.0029383594,
-        "raw_amplitude": 0.0088150781,
-        "percent": 0.881508,
-        "raw_percent": 0.881508,
-        "coverage_percent": 94.245347,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "trusted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0088150781,
-            "similarity": 0.894607,
-            "matched_descriptor": "friend-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "stylish",
-        "descriptor_index": 7442,
-        "amplitude": 0.0027923436,
-        "abs_amplitude": 0.0027923436,
-        "raw_amplitude": 0.0083770308,
-        "percent": 0.837703,
-        "raw_percent": 0.837703,
-        "coverage_percent": 95.08305,
+        "rank": 22,
+        "descriptor": "trustworthy",
+        "descriptor_index": 5889,
+        "amplitude": 0.0025453174,
+        "abs_amplitude": 0.0025453174,
+        "raw_amplitude": 0.0076359522,
+        "percent": 0.763595,
+        "raw_percent": 0.763595,
+        "coverage_percent": 95.217669,
         "member_count": 1,
         "members": [
-          "stylish"
+          "trustworthy"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -841,10 +867,10 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0083770308,
-            "similarity": 0.879946,
-            "matched_descriptor": "cool"
+            "row_weight": 1.0,
+            "projection": 0.0076359522,
+            "similarity": 0.894607,
+            "matched_descriptor": "friend-oriented"
           }
         ]
       }
@@ -852,23 +878,23 @@
     "opposite_display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "cool / dandy / clean-cut / beautiful / +9",
-        "descriptor_index": 1421,
-        "amplitude": 0.085432845,
-        "abs_amplitude": 0.085432845,
-        "raw_amplitude": 0.2562985349,
-        "percent": 25.629853,
-        "raw_percent": 25.629853,
-        "coverage_percent": 25.629853,
+        "descriptor": "cool / dandy / beautiful / clean-cut / +9",
+        "descriptor_index": 1025,
+        "amplitude": 0.085827218,
+        "abs_amplitude": 0.085827218,
+        "raw_amplitude": 0.2574816539,
+        "percent": 25.748165,
+        "raw_percent": 25.748165,
+        "coverage_percent": 25.748165,
         "member_count": 13,
         "members": [
           "cool",
           "dandy",
-          "clean-cut",
           "beautiful",
+          "clean-cut",
           "flashy",
-          "good-looking",
           "nice",
+          "good-looking",
           "sophisticated",
           "seductive",
           "handsome",
@@ -890,8 +916,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.2562985351,
+            "row_weight": 1.0,
+            "projection": 0.2574816538,
             "similarity": 1.0,
             "matched_descriptor": "cool"
           }
@@ -900,13 +926,13 @@
       {
         "rank": 2,
         "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0766135646,
-        "abs_amplitude": 0.0766135646,
-        "raw_amplitude": 0.2298406938,
-        "percent": 22.984069,
-        "raw_percent": 22.984069,
-        "coverage_percent": 48.613923,
+        "descriptor_index": 5187,
+        "amplitude": 0.0808838459,
+        "abs_amplitude": 0.0808838459,
+        "raw_amplitude": 0.2426515376,
+        "percent": 24.265154,
+        "raw_percent": 24.265154,
+        "coverage_percent": 50.013319,
         "member_count": 9,
         "members": [
           "smart",
@@ -933,8 +959,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.2298406938,
+            "row_weight": 1.0,
+            "projection": 0.2426515377,
             "similarity": 1.0,
             "matched_descriptor": "smart"
           }
@@ -943,13 +969,13 @@
       {
         "rank": 3,
         "descriptor": "friend-oriented / sociable / extroverted / social / +1",
-        "descriptor_index": 2818,
-        "amplitude": 0.0336221195,
-        "abs_amplitude": 0.0336221195,
-        "raw_amplitude": 0.1008663586,
-        "percent": 10.086636,
-        "raw_percent": 10.086636,
-        "coverage_percent": 58.700559,
+        "descriptor_index": 2048,
+        "amplitude": 0.0346066391,
+        "abs_amplitude": 0.0346066391,
+        "raw_amplitude": 0.1038199174,
+        "percent": 10.381992,
+        "raw_percent": 10.381992,
+        "coverage_percent": 60.395311,
         "member_count": 5,
         "members": [
           "friend-oriented",
@@ -972,8 +998,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.1008663587,
+            "row_weight": 1.0,
+            "projection": 0.1038199175,
             "similarity": 1.0,
             "matched_descriptor": "friend-oriented"
           }
@@ -981,21 +1007,18 @@
       },
       {
         "rank": 4,
-        "descriptor": "sensible / prudent / deliberative / careful / +1",
-        "descriptor_index": 6701,
-        "amplitude": 0.0107120571,
-        "abs_amplitude": 0.0107120571,
-        "raw_amplitude": 0.0321361712,
-        "percent": 3.213617,
-        "raw_percent": 3.213617,
-        "coverage_percent": 61.914176,
-        "member_count": 5,
+        "descriptor": "fighting / combatant",
+        "descriptor_index": 1866,
+        "amplitude": 0.0174252112,
+        "abs_amplitude": 0.0174252112,
+        "raw_amplitude": 0.0522756337,
+        "percent": 5.227563,
+        "raw_percent": 5.227563,
+        "coverage_percent": 65.622874,
+        "member_count": 2,
         "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "careful",
-          "no-nonsense"
+          "fighting",
+          "combatant"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1011,23 +1034,61 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0321361711,
+            "row_weight": 1.0,
+            "projection": 0.0522756337,
+            "similarity": 0.969441,
+            "matched_descriptor": "duelist"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "descriptor": "sensible / prudent / deliberative / careful",
+        "descriptor_index": 4945,
+        "amplitude": 0.008993014,
+        "abs_amplitude": 0.008993014,
+        "raw_amplitude": 0.0269790419,
+        "percent": 2.697904,
+        "raw_percent": 2.697904,
+        "coverage_percent": 68.320778,
+        "member_count": 4,
+        "members": [
+          "sensible",
+          "prudent",
+          "deliberative",
+          "careful"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0269790419,
             "similarity": 0.898538,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0098673581,
-        "abs_amplitude": 0.0098673581,
-        "raw_amplitude": 0.0296020744,
-        "percent": 2.960207,
-        "raw_percent": 2.960207,
-        "coverage_percent": 64.874383,
+        "descriptor_index": 4500,
+        "amplitude": 0.008534754,
+        "abs_amplitude": 0.008534754,
+        "raw_amplitude": 0.0256042621,
+        "percent": 2.560426,
+        "raw_percent": 2.560426,
+        "coverage_percent": 70.881205,
         "member_count": 3,
         "members": [
           "quick-minded",
@@ -1048,23 +1109,23 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0296020743,
+            "row_weight": 1.0,
+            "projection": 0.0256042621,
             "similarity": 0.889074,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0094526238,
-        "abs_amplitude": 0.0094526238,
-        "raw_amplitude": 0.0283578713,
-        "percent": 2.835787,
-        "raw_percent": 2.835787,
-        "coverage_percent": 67.71017,
+        "descriptor_index": 2169,
+        "amplitude": 0.0083346884,
+        "abs_amplitude": 0.0083346884,
+        "raw_amplitude": 0.0250040652,
+        "percent": 2.500407,
+        "raw_percent": 2.500407,
+        "coverage_percent": 73.381611,
         "member_count": 3,
         "members": [
           "gifted",
@@ -1085,23 +1146,59 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0283578713,
+            "row_weight": 1.0,
+            "projection": 0.0250040652,
             "similarity": 0.887839,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "descriptor": "suave / attractive",
+        "descriptor_index": 5482,
+        "amplitude": 0.0067093375,
+        "abs_amplitude": 0.0067093375,
+        "raw_amplitude": 0.0201280125,
+        "percent": 2.012801,
+        "raw_percent": 2.012801,
+        "coverage_percent": 75.394412,
+        "member_count": 2,
+        "members": [
+          "suave",
+          "attractive"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0201280125,
+            "similarity": 0.899319,
+            "matched_descriptor": "cool"
+          }
+        ]
+      },
+      {
+        "rank": 9,
         "descriptor": "approachable / warm / amiable",
-        "descriptor_index": 316,
-        "amplitude": 0.0086432902,
-        "abs_amplitude": 0.0086432902,
-        "raw_amplitude": 0.0259298706,
-        "percent": 2.592987,
-        "raw_percent": 2.592987,
-        "coverage_percent": 70.303157,
+        "descriptor_index": 235,
+        "amplitude": 0.0065350958,
+        "abs_amplitude": 0.0065350958,
+        "raw_amplitude": 0.0196052875,
+        "percent": 1.960529,
+        "raw_percent": 1.960529,
+        "coverage_percent": 77.354941,
         "member_count": 3,
         "members": [
           "approachable",
@@ -1122,98 +1219,23 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0259298706,
+            "row_weight": 1.0,
+            "projection": 0.0196052875,
             "similarity": 0.902822,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 8,
-        "descriptor": "friendlier / agreeable / pleasant / open-hearted",
-        "descriptor_index": 2820,
-        "amplitude": 0.0079398201,
-        "abs_amplitude": 0.0079398201,
-        "raw_amplitude": 0.0238194602,
-        "percent": 2.381946,
-        "raw_percent": 2.381946,
-        "coverage_percent": 72.685103,
-        "member_count": 4,
-        "members": [
-          "friendlier",
-          "agreeable",
-          "pleasant",
-          "open-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0238194602,
-            "similarity": 0.903195,
-            "matched_descriptor": "friend-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "suave / attractive / cheeky",
-        "descriptor_index": 7444,
-        "amplitude": 0.0077528506,
-        "abs_amplitude": 0.0077528506,
-        "raw_amplitude": 0.0232585519,
-        "percent": 2.325855,
-        "raw_percent": 2.325855,
-        "coverage_percent": 75.010959,
-        "member_count": 3,
-        "members": [
-          "suave",
-          "attractive",
-          "cheeky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.023258552,
-            "similarity": 0.899319,
-            "matched_descriptor": "cool"
-          }
-        ]
-      },
-      {
         "rank": 10,
         "descriptor": "charming / charismatic / likable",
-        "descriptor_index": 1023,
-        "amplitude": 0.0076929429,
-        "abs_amplitude": 0.0076929429,
-        "raw_amplitude": 0.0230788286,
-        "percent": 2.307883,
-        "raw_percent": 2.307883,
-        "coverage_percent": 77.318842,
+        "descriptor_index": 751,
+        "amplitude": 0.0064609935,
+        "abs_amplitude": 0.0064609935,
+        "raw_amplitude": 0.0193829804,
+        "percent": 1.938298,
+        "raw_percent": 1.938298,
+        "coverage_percent": 79.293239,
         "member_count": 3,
         "members": [
           "charming",
@@ -1234,8 +1256,8 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0230788286,
+            "row_weight": 1.0,
+            "projection": 0.0193829804,
             "similarity": 0.895544,
             "matched_descriptor": "cool / friend-oriented"
           }
@@ -1244,13 +1266,13 @@
       {
         "rank": 11,
         "descriptor": "aesthetic / realistic",
-        "descriptor_index": 105,
-        "amplitude": 0.0073251359,
-        "abs_amplitude": 0.0073251359,
-        "raw_amplitude": 0.0219754077,
-        "percent": 2.197541,
-        "raw_percent": 2.197541,
-        "coverage_percent": 79.516382,
+        "descriptor_index": 69,
+        "amplitude": 0.0063421216,
+        "abs_amplitude": 0.0063421216,
+        "raw_amplitude": 0.0190263648,
+        "percent": 1.902636,
+        "raw_percent": 1.902636,
+        "coverage_percent": 81.195876,
         "member_count": 2,
         "members": [
           "aesthetic",
@@ -1270,23 +1292,95 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0219754078,
-            "similarity": 0.894847,
+            "row_weight": 1.0,
+            "projection": 0.0190263649,
+            "similarity": 0.894846,
             "matched_descriptor": "cool"
           }
         ]
       },
       {
         "rank": 12,
+        "descriptor": "informed / well-read",
+        "descriptor_index": 2870,
+        "amplitude": 0.0062023102,
+        "abs_amplitude": 0.0062023102,
+        "raw_amplitude": 0.0186069306,
+        "percent": 1.860693,
+        "raw_percent": 1.860693,
+        "coverage_percent": 83.056569,
+        "member_count": 2,
+        "members": [
+          "informed",
+          "well-read"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0186069305,
+            "similarity": 0.884867,
+            "matched_descriptor": "smart"
+          }
+        ]
+      },
+      {
+        "rank": 13,
+        "descriptor": "inventive / crafty",
+        "descriptor_index": 2955,
+        "amplitude": 0.0057618169,
+        "abs_amplitude": 0.0057618169,
+        "raw_amplitude": 0.0172854506,
+        "percent": 1.728545,
+        "raw_percent": 1.728545,
+        "coverage_percent": 84.785114,
+        "member_count": 2,
+        "members": [
+          "inventive",
+          "crafty"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0172854506,
+            "similarity": 0.890893,
+            "matched_descriptor": "smart"
+          }
+        ]
+      },
+      {
+        "rank": 14,
         "descriptor": "gorgeous / glamorous / swoon-inducing",
-        "descriptor_index": 3113,
-        "amplitude": 0.0072500301,
-        "abs_amplitude": 0.0072500301,
-        "raw_amplitude": 0.0217500904,
-        "percent": 2.175009,
-        "raw_percent": 2.175009,
-        "coverage_percent": 81.691391,
+        "descriptor_index": 2274,
+        "amplitude": 0.0053060332,
+        "abs_amplitude": 0.0053060332,
+        "raw_amplitude": 0.0159180996,
+        "percent": 1.59181,
+        "raw_percent": 1.59181,
+        "coverage_percent": 86.376924,
         "member_count": 3,
         "members": [
           "gorgeous",
@@ -1307,30 +1401,28 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0217500904,
+            "row_weight": 1.0,
+            "projection": 0.0159180997,
             "similarity": 0.888114,
             "matched_descriptor": "cool"
           }
         ]
       },
       {
-        "rank": 13,
-        "descriptor": "good / affable / good-natured / polite / +1",
-        "descriptor_index": 3047,
-        "amplitude": 0.0071963897,
-        "abs_amplitude": 0.0071963897,
-        "raw_amplitude": 0.0215891692,
-        "percent": 2.158917,
-        "raw_percent": 2.158917,
-        "coverage_percent": 83.850308,
-        "member_count": 5,
+        "rank": 15,
+        "descriptor": "friendlier / agreeable / pleasant",
+        "descriptor_index": 2050,
+        "amplitude": 0.0049728259,
+        "abs_amplitude": 0.0049728259,
+        "raw_amplitude": 0.0149184778,
+        "percent": 1.491848,
+        "raw_percent": 1.491848,
+        "coverage_percent": 87.868772,
+        "member_count": 3,
         "members": [
-          "good",
-          "affable",
-          "good-natured",
-          "polite",
-          "cordial"
+          "friendlier",
+          "agreeable",
+          "pleasant"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1346,95 +1438,58 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0215891692,
-            "similarity": 0.890471,
+            "row_weight": 1.0,
+            "projection": 0.0149184778,
+            "similarity": 0.903195,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 14,
-        "descriptor": "informed / well-read",
-        "descriptor_index": 3881,
-        "amplitude": 0.0068631972,
-        "abs_amplitude": 0.0068631972,
-        "raw_amplitude": 0.0205895915,
-        "percent": 2.058959,
-        "raw_percent": 2.058959,
-        "coverage_percent": 85.909267,
-        "member_count": 2,
-        "members": [
-          "informed",
-          "well-read"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0205895915,
-            "similarity": 0.884867,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "inventive / crafty",
-        "descriptor_index": 3986,
-        "amplitude": 0.0064802698,
-        "abs_amplitude": 0.0064802698,
-        "raw_amplitude": 0.0194408095,
-        "percent": 1.944081,
-        "raw_percent": 1.944081,
-        "coverage_percent": 87.853348,
-        "member_count": 2,
-        "members": [
-          "inventive",
-          "crafty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0194408096,
-            "similarity": 0.890893,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
         "rank": 16,
+        "descriptor": "legendary",
+        "descriptor_index": 3154,
+        "amplitude": 0.0043789053,
+        "abs_amplitude": 0.0043789053,
+        "raw_amplitude": 0.0131367159,
+        "percent": 1.313672,
+        "raw_percent": 1.313672,
+        "coverage_percent": 89.182443,
+        "member_count": 1,
+        "members": [
+          "legendary"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0131367159,
+            "similarity": 0.884124,
+            "matched_descriptor": "main character"
+          }
+        ]
+      },
+      {
+        "rank": 17,
         "descriptor": "gregarious / outgoing",
-        "descriptor_index": 3194,
-        "amplitude": 0.0050493383,
-        "abs_amplitude": 0.0050493383,
-        "raw_amplitude": 0.0151480148,
-        "percent": 1.514801,
-        "raw_percent": 1.514801,
-        "coverage_percent": 89.36815,
+        "descriptor_index": 2333,
+        "amplitude": 0.0041980602,
+        "abs_amplitude": 0.0041980602,
+        "raw_amplitude": 0.0125941805,
+        "percent": 1.259418,
+        "raw_percent": 1.259418,
+        "coverage_percent": 90.441861,
         "member_count": 2,
         "members": [
           "gregarious",
@@ -1454,23 +1509,23 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0151480147,
+            "row_weight": 1.0,
+            "projection": 0.0125941805,
             "similarity": 0.892967,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 17,
+        "rank": 18,
         "descriptor": "brilliant / smartest",
-        "descriptor_index": 819,
-        "amplitude": 0.0049812229,
-        "abs_amplitude": 0.0049812229,
-        "raw_amplitude": 0.0149436686,
-        "percent": 1.494367,
-        "raw_percent": 1.494367,
-        "coverage_percent": 90.862517,
+        "descriptor_index": 593,
+        "amplitude": 0.0040374162,
+        "abs_amplitude": 0.0040374162,
+        "raw_amplitude": 0.0121122485,
+        "percent": 1.211225,
+        "raw_percent": 1.211225,
+        "coverage_percent": 91.653086,
         "member_count": 2,
         "members": [
           "brilliant",
@@ -1490,29 +1545,28 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0149436686,
+            "row_weight": 1.0,
+            "projection": 0.0121122485,
             "similarity": 0.872835,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 18,
-        "descriptor": "non-criminal / noble-spirited / non-combatant / virtuous",
-        "descriptor_index": 5178,
-        "amplitude": 0.0044304911,
-        "abs_amplitude": 0.0044304911,
-        "raw_amplitude": 0.0132914733,
-        "percent": 1.329147,
-        "raw_percent": 1.329147,
-        "coverage_percent": 92.191664,
-        "member_count": 4,
+        "rank": 19,
+        "descriptor": "good / affable / polite",
+        "descriptor_index": 2210,
+        "amplitude": 0.0032351039,
+        "abs_amplitude": 0.0032351039,
+        "raw_amplitude": 0.0097053117,
+        "percent": 0.970531,
+        "raw_percent": 0.970531,
+        "coverage_percent": 92.623617,
+        "member_count": 3,
         "members": [
-          "non-criminal",
-          "noble-spirited",
-          "non-combatant",
-          "virtuous"
+          "good",
+          "affable",
+          "polite"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1528,27 +1582,61 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0132914733,
+            "row_weight": 1.0,
+            "projection": 0.0097053116,
+            "similarity": 0.890471,
+            "matched_descriptor": "friend-oriented"
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "descriptor": "non-criminal",
+        "descriptor_index": 3819,
+        "amplitude": 0.0031231474,
+        "abs_amplitude": 0.0031231474,
+        "raw_amplitude": 0.0093694421,
+        "percent": 0.936944,
+        "raw_percent": 0.936944,
+        "coverage_percent": 93.560561,
+        "member_count": 1,
+        "members": [
+          "non-criminal"
+        ],
+        "support": 1,
+        "effective_support": 1.0,
+        "support_factor": 0.333333,
+        "top_characters": [
+          {
+            "character_id": 9700,
+            "name": "Yusei Fudou",
+            "native_name": "不動遊星",
+            "anime": "Yu-Gi-Oh! 5D's",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
+            "site_url": "https://anilist.co/character/9700",
+            "anime_url": "https://myanimelist.net/anime/3972",
+            "role": "MAIN",
+            "favourites": 673,
+            "row_weight": 1.0,
+            "projection": 0.0093694421,
             "similarity": 0.899391,
             "matched_descriptor": "friend-oriented"
           }
         ]
       },
       {
-        "rank": 19,
-        "descriptor": "insightful / discerning",
-        "descriptor_index": 3919,
-        "amplitude": 0.0039072498,
-        "abs_amplitude": 0.0039072498,
-        "raw_amplitude": 0.0117217494,
-        "percent": 1.172175,
-        "raw_percent": 1.172175,
-        "coverage_percent": 93.363839,
-        "member_count": 2,
+        "rank": 21,
+        "descriptor": "insightful",
+        "descriptor_index": 2900,
+        "amplitude": 0.0029783748,
+        "abs_amplitude": 0.0029783748,
+        "raw_amplitude": 0.0089351243,
+        "percent": 0.893512,
+        "raw_percent": 0.893512,
+        "coverage_percent": 94.454074,
+        "member_count": 1,
         "members": [
-          "insightful",
-          "discerning"
+          "insightful"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1564,62 +1652,26 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0117217494,
+            "row_weight": 1.0,
+            "projection": 0.0089351243,
             "similarity": 0.896591,
             "matched_descriptor": "smart"
           }
         ]
       },
       {
-        "rank": 20,
-        "descriptor": "trustworthy / trusted",
-        "descriptor_index": 8016,
-        "amplitude": 0.0029383594,
-        "abs_amplitude": 0.0029383594,
-        "raw_amplitude": 0.0088150781,
-        "percent": 0.881508,
-        "raw_percent": 0.881508,
-        "coverage_percent": 94.245347,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "trusted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 9700,
-            "name": "Yusei Fudou",
-            "native_name": "不動遊星",
-            "anime": "Yu-Gi-Oh! 5D's",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b9700-5cbgNJYOtiOc.jpg",
-            "site_url": "https://anilist.co/character/9700",
-            "anime_url": "https://myanimelist.net/anime/3972",
-            "role": "MAIN",
-            "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0088150781,
-            "similarity": 0.894607,
-            "matched_descriptor": "friend-oriented"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "stylish",
-        "descriptor_index": 7442,
-        "amplitude": 0.0027923436,
-        "abs_amplitude": 0.0027923436,
-        "raw_amplitude": 0.0083770308,
-        "percent": 0.837703,
-        "raw_percent": 0.837703,
-        "coverage_percent": 95.08305,
+        "rank": 22,
+        "descriptor": "trustworthy",
+        "descriptor_index": 5889,
+        "amplitude": 0.0025453174,
+        "abs_amplitude": 0.0025453174,
+        "raw_amplitude": 0.0076359522,
+        "percent": 0.763595,
+        "raw_percent": 0.763595,
+        "coverage_percent": 95.217669,
         "member_count": 1,
         "members": [
-          "stylish"
+          "trustworthy"
         ],
         "support": 1,
         "effective_support": 1.0,
@@ -1635,10 +1687,10 @@
             "anime_url": "https://myanimelist.net/anime/3972",
             "role": "MAIN",
             "favourites": 673,
-            "row_weight": 2.7410272,
-            "projection": 0.0083770308,
-            "similarity": 0.879946,
-            "matched_descriptor": "cool"
+            "row_weight": 1.0,
+            "projection": 0.0076359522,
+            "similarity": 0.894607,
+            "matched_descriptor": "friend-oriented"
           }
         ]
       }
@@ -1654,7 +1706,7 @@
         "anime_url": "https://myanimelist.net/anime/3972",
         "role": "MAIN",
         "favourites": 673,
-        "row_weight": 2.7410272,
+        "row_weight": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1671,7 +1723,7 @@
         "anime_url": "https://myanimelist.net/anime/3972",
         "role": "MAIN",
         "favourites": 673,
-        "row_weight": 2.7410272,
+        "row_weight": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0

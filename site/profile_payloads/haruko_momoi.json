@@ -11,1399 +11,361 @@
     "haruko momoi",
     "momoi haruko"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/haruko_momoi.json",
+  "sv1_mass_percent": 88.718802,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 16.5512602051,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 16.5512602051,
-        "mass_percent": 97.77568
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.4964003228,
-        "mass_percent": 2.22432
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 215.154044,
-      "normalized_entanglement": 0.560297,
-      "top5_mass_percent": 6.561374,
-      "top10_mass_percent": 11.286222
-    },
-    "character_participation": {
-      "effective_count": 1.184096,
-      "normalized_entanglement": 0.592048,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 5.43932,
-      "semantic_spread": 5.43932,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 1.369269,
-      "direction_spread": 1.369269,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 97.77568,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.409225125,
+    "mass_percent": 79.206941,
+    "descriptor_fit_percent": 97.262462,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "funny / comical / humorous / amusing / +4",
-        "descriptor_index": 2859,
-        "amplitude": 0.0738007987,
-        "abs_amplitude": 0.0738007987,
-        "raw_amplitude": 0.221402396,
-        "percent": 23.1452,
-        "raw_percent": 23.1452,
-        "coverage_percent": 23.1452,
-        "member_count": 8,
-        "members": [
-          "funny",
-          "comical",
-          "humorous",
-          "amusing",
-          "pun-loving",
-          "witty",
-          "sardonic",
-          "amused"
-        ],
+        "descriptor": "chuunibyou",
+        "amplitude": 0.7375906209,
+        "abs_amplitude": 0.7375906209,
+        "percent": 66.315993,
+        "weighted_support": 2.82374627,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 35256,
             "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
             "anime": "Steins;Gate",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
             "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.221402396,
-            "similarity": 1.0,
-            "matched_descriptor": "funny"
+            "combined_favourites": 1067
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0584704162,
-        "abs_amplitude": 0.0584704162,
-        "raw_amplitude": 0.1754112485,
-        "percent": 18.337328,
-        "raw_percent": 18.337328,
-        "coverage_percent": 41.482528,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
+        "descriptor": "innocent",
+        "amplitude": 0.374645789,
+        "abs_amplitude": 0.374645789,
+        "percent": 33.684007,
+        "weighted_support": 2.5885215,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.1754112485,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "child-like / boyish / youthful / young-appearing / +2",
-        "descriptor_index": 1079,
-        "amplitude": 0.0445398362,
-        "abs_amplitude": 0.0445398362,
-        "raw_amplitude": 0.1336195085,
-        "percent": 13.968459,
-        "raw_percent": 13.968459,
-        "coverage_percent": 55.450987,
-        "member_count": 6,
-        "members": [
-          "child-like",
-          "boyish",
-          "youthful",
-          "young-appearing",
-          "childish",
-          "childlike"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.1336195086,
-            "similarity": 1.0,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "mischievous / mischief-causing / joker-like",
-        "descriptor_index": 4847,
-        "amplitude": 0.012303255,
-        "abs_amplitude": 0.012303255,
-        "raw_amplitude": 0.0369097651,
-        "percent": 3.858512,
-        "raw_percent": 3.858512,
-        "coverage_percent": 59.3095,
-        "member_count": 3,
-        "members": [
-          "mischievous",
-          "mischief-causing",
-          "joker-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0369097651,
-            "similarity": 0.888813,
-            "matched_descriptor": "childish devil"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "clownish / goofy",
-        "descriptor_index": 1189,
-        "amplitude": 0.0089955429,
-        "abs_amplitude": 0.0089955429,
-        "raw_amplitude": 0.0269866287,
-        "percent": 2.821157,
-        "raw_percent": 2.821157,
-        "coverage_percent": 62.130657,
-        "member_count": 2,
-        "members": [
-          "clownish",
-          "goofy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0269866287,
-            "similarity": 0.884045,
-            "matched_descriptor": "funny"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "joking / sarcastic / teasing",
-        "descriptor_index": 4062,
-        "amplitude": 0.0079326496,
-        "abs_amplitude": 0.0079326496,
-        "raw_amplitude": 0.0237979487,
-        "percent": 2.487815,
-        "raw_percent": 2.487815,
-        "coverage_percent": 64.618472,
-        "member_count": 3,
-        "members": [
-          "joking",
-          "sarcastic",
-          "teasing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0237979487,
-            "similarity": 0.873141,
-            "matched_descriptor": "funny"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "empathic / empathetic",
-        "descriptor_index": 2150,
-        "amplitude": 0.0077895649,
-        "abs_amplitude": 0.0077895649,
-        "raw_amplitude": 0.0233686946,
-        "percent": 2.442942,
-        "raw_percent": 2.442942,
-        "coverage_percent": 67.061414,
-        "member_count": 2,
-        "members": [
-          "empathic",
-          "empathetic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0233686946,
-            "similarity": 0.89104,
-            "matched_descriptor": "heart reader"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "enthusiastic / fervent / zealous",
-        "descriptor_index": 2207,
-        "amplitude": 0.0067110432,
-        "abs_amplitude": 0.0067110432,
-        "raw_amplitude": 0.0201331295,
-        "percent": 2.104699,
-        "raw_percent": 2.104699,
-        "coverage_percent": 69.166112,
-        "member_count": 3,
-        "members": [
-          "enthusiastic",
-          "fervent",
-          "zealous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0201331295,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic / otaku"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "boisterous / perky",
-        "descriptor_index": 743,
-        "amplitude": 0.006601812,
-        "abs_amplitude": 0.006601812,
-        "raw_amplitude": 0.019805436,
-        "percent": 2.070442,
-        "raw_percent": 2.070442,
-        "coverage_percent": 71.236554,
-        "member_count": 2,
-        "members": [
-          "boisterous",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0198054359,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "hyperactive / active",
-        "descriptor_index": 3662,
-        "amplitude": 0.0065053568,
-        "abs_amplitude": 0.0065053568,
-        "raw_amplitude": 0.0195160704,
-        "percent": 2.040192,
-        "raw_percent": 2.040192,
-        "coverage_percent": 73.276746,
-        "member_count": 2,
-        "members": [
-          "hyperactive",
-          "active"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0195160703,
-            "similarity": 0.875966,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "young / girlish",
-        "descriptor_index": 8652,
-        "amplitude": 0.0055150676,
-        "abs_amplitude": 0.0055150676,
-        "raw_amplitude": 0.0165452028,
-        "percent": 1.72962,
-        "raw_percent": 1.72962,
-        "coverage_percent": 75.006366,
-        "member_count": 2,
-        "members": [
-          "young",
-          "girlish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0165452029,
-            "similarity": 0.877264,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "problem-child",
-        "descriptor_index": 5887,
-        "amplitude": 0.0053125512,
-        "abs_amplitude": 0.0053125512,
-        "raw_amplitude": 0.0159376536,
-        "percent": 1.666107,
-        "raw_percent": 1.666107,
-        "coverage_percent": 76.672473,
-        "member_count": 1,
-        "members": [
-          "problem-child"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0159376536,
-            "similarity": 0.878822,
-            "matched_descriptor": "chuunibyou"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "impish",
-        "descriptor_index": 3783,
-        "amplitude": 0.0047441718,
-        "abs_amplitude": 0.0047441718,
-        "raw_amplitude": 0.0142325154,
-        "percent": 1.487854,
-        "raw_percent": 1.487854,
-        "coverage_percent": 78.160327,
-        "member_count": 1,
-        "members": [
-          "impish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0142325154,
-            "similarity": 0.895619,
-            "matched_descriptor": "childish devil"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "hero-worshipper",
-        "descriptor_index": 3470,
-        "amplitude": 0.0045135005,
-        "abs_amplitude": 0.0045135005,
-        "raw_amplitude": 0.0135405014,
-        "percent": 1.415511,
-        "raw_percent": 1.415511,
-        "coverage_percent": 79.575839,
-        "member_count": 1,
-        "members": [
-          "hero-worshipper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0135405014,
-            "similarity": 0.888744,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "catholic / religious",
-        "descriptor_index": 992,
-        "amplitude": 0.0043770228,
-        "abs_amplitude": 0.0043770228,
-        "raw_amplitude": 0.0131310684,
-        "percent": 1.37271,
-        "raw_percent": 1.37271,
-        "coverage_percent": 80.948548,
-        "member_count": 2,
-        "members": [
-          "catholic",
-          "religious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0131310684,
-            "similarity": 0.843289,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "loud / tough-talking",
-        "descriptor_index": 4401,
-        "amplitude": 0.004094299,
-        "abs_amplitude": 0.004094299,
-        "raw_amplitude": 0.0122828971,
-        "percent": 1.284043,
-        "raw_percent": 1.284043,
-        "coverage_percent": 82.232591,
-        "member_count": 2,
-        "members": [
-          "loud",
-          "tough-talking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0122828971,
-            "similarity": 0.866884,
-            "matched_descriptor": "embarrassing meows"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "fanatic",
-        "descriptor_index": 2434,
-        "amplitude": 0.0035910469,
-        "abs_amplitude": 0.0035910469,
-        "raw_amplitude": 0.0107731408,
-        "percent": 1.126214,
-        "raw_percent": 1.126214,
-        "coverage_percent": 83.358805,
-        "member_count": 1,
-        "members": [
-          "fanatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0107731408,
-            "similarity": 0.864642,
-            "matched_descriptor": "otaku"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.003195459,
-        "abs_amplitude": 0.003195459,
-        "raw_amplitude": 0.0095863769,
-        "percent": 1.002151,
-        "raw_percent": 1.002151,
-        "coverage_percent": 84.360956,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0095863769,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "matured",
-        "descriptor_index": 4675,
-        "amplitude": 0.003056841,
-        "abs_amplitude": 0.003056841,
-        "raw_amplitude": 0.0091705231,
-        "percent": 0.958678,
-        "raw_percent": 0.958678,
-        "coverage_percent": 85.319634,
-        "member_count": 1,
-        "members": [
-          "matured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0091705231,
-            "similarity": 0.881018,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "telepathic / psychic",
-        "descriptor_index": 7750,
-        "amplitude": 0.0029677058,
-        "abs_amplitude": 0.0029677058,
-        "raw_amplitude": 0.0089031175,
-        "percent": 0.930724,
-        "raw_percent": 0.930724,
-        "coverage_percent": 86.250357,
-        "member_count": 2,
-        "members": [
-          "telepathic",
-          "psychic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0089031175,
-            "similarity": 0.880987,
-            "matched_descriptor": "heart reader"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0027851864,
-        "abs_amplitude": 0.0027851864,
-        "raw_amplitude": 0.0083555593,
-        "percent": 0.873482,
-        "raw_percent": 0.873482,
-        "coverage_percent": 87.12384,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0083555593,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "flatulent",
-        "descriptor_index": 2602,
-        "amplitude": 0.0027555571,
-        "abs_amplitude": 0.0027555571,
-        "raw_amplitude": 0.0082666712,
-        "percent": 0.86419,
-        "raw_percent": 0.86419,
-        "coverage_percent": 87.98803,
-        "member_count": 1,
-        "members": [
-          "flatulent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0082666712,
-            "similarity": 0.843227,
-            "matched_descriptor": "embarrassing meows"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "daft / empty-headed",
-        "descriptor_index": 1568,
-        "amplitude": 0.0026892016,
-        "abs_amplitude": 0.0026892016,
-        "raw_amplitude": 0.0080676047,
-        "percent": 0.84338,
-        "raw_percent": 0.84338,
-        "coverage_percent": 88.83141,
-        "member_count": 2,
-        "members": [
-          "daft",
-          "empty-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0080676047,
-            "similarity": 0.85018,
-            "matched_descriptor": "funny"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "simple-minded",
-        "descriptor_index": 6870,
-        "amplitude": 0.0026443856,
-        "abs_amplitude": 0.0026443856,
-        "raw_amplitude": 0.0079331568,
-        "percent": 0.829325,
-        "raw_percent": 0.829325,
-        "coverage_percent": 89.660734,
-        "member_count": 1,
-        "members": [
-          "simple-minded"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0079331568,
-            "similarity": 0.888187,
-            "matched_descriptor": "child-like"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "excitable",
-        "descriptor_index": 2294,
-        "amplitude": 0.0023559314,
-        "abs_amplitude": 0.0023559314,
-        "raw_amplitude": 0.0070677943,
-        "percent": 0.738861,
-        "raw_percent": 0.738861,
-        "coverage_percent": 90.399595,
-        "member_count": 1,
-        "members": [
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 35256,
-            "name": "Rumiho Akiha",
-            "native_name": "秋葉留美穂",
-            "anime": "Steins;Gate",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
-            "site_url": "https://anilist.co/character/35256",
-            "anime_url": "https://myanimelist.net/anime/9253",
-            "role": "SUPPORTING",
-            "favourites": 778,
-            "row_weight": 2.76731116,
-            "projection": 0.0070677943,
-            "similarity": 0.867799,
-            "matched_descriptor": "energetic"
+            "character_id": 2567,
+            "name": "Sun Seto",
+            "anime": "My Bride is a Mermaid",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
+            "site_url": "https://anilist.co/character/2567",
+            "combined_favourites": 298
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "devoted / faithful / loyal / trusted / +5",
-        "descriptor_index": 1791,
-        "amplitude": 0.0519286828,
-        "abs_amplitude": 0.0519286828,
-        "raw_amplitude": 0.1557860484,
-        "percent": 53.448525,
-        "raw_percent": 53.448525,
-        "coverage_percent": 53.448525,
-        "member_count": 9,
-        "members": [
-          "devoted",
-          "faithful",
-          "loyal",
-          "trusted",
-          "committed",
-          "trustful",
-          "steadfast",
-          "trusting",
-          "friendship-oriented"
-        ],
+        "step": 1,
+        "descriptor": "chuunibyou",
+        "weighted_support": 2.82374627,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.1557860484,
-            "similarity": 1.0,
-            "matched_descriptor": "devoted"
-          }
-        ]
+        "fit_percent": 91.492427,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "religious / catholic / pious / christian",
-        "descriptor_index": 6220,
-        "amplitude": 0.0153802516,
-        "abs_amplitude": 0.0153802516,
-        "raw_amplitude": 0.0461407547,
-        "percent": 15.830399,
-        "raw_percent": 15.830399,
-        "coverage_percent": 69.278924,
-        "member_count": 4,
-        "members": [
-          "religious",
-          "catholic",
-          "pious",
-          "christian"
-        ],
+        "step": 2,
+        "descriptor": "innocent",
+        "weighted_support": 2.5885215,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0461407547,
-            "similarity": 0.917138,
-            "matched_descriptor": "chivalrous believer"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "hero-worshipper",
-        "descriptor_index": 3470,
-        "amplitude": 0.0052693729,
-        "abs_amplitude": 0.0052693729,
-        "raw_amplitude": 0.0158081186,
-        "percent": 5.423596,
-        "raw_percent": 5.423596,
-        "coverage_percent": 74.70252,
-        "member_count": 1,
-        "members": [
-          "hero-worshipper"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0158081186,
-            "similarity": 0.919994,
-            "matched_descriptor": "chivalrous believer"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "dutiful / subservient / servile",
-        "descriptor_index": 2015,
-        "amplitude": 0.0050830425,
-        "abs_amplitude": 0.0050830425,
-        "raw_amplitude": 0.0152491276,
-        "percent": 5.231812,
-        "raw_percent": 5.231812,
-        "coverage_percent": 79.934333,
-        "member_count": 3,
-        "members": [
-          "dutiful",
-          "subservient",
-          "servile"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0152491276,
-            "similarity": 0.883167,
-            "matched_descriptor": "chivalrous believer / devoted"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "monogamous",
-        "descriptor_index": 4908,
-        "amplitude": 0.0033665866,
-        "abs_amplitude": 0.0033665866,
-        "raw_amplitude": 0.0100997597,
-        "percent": 3.465119,
-        "raw_percent": 3.465119,
-        "coverage_percent": 83.399452,
-        "member_count": 1,
-        "members": [
-          "monogamous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0100997597,
-            "similarity": 0.893808,
-            "matched_descriptor": "devoted"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0032103846,
-        "abs_amplitude": 0.0032103846,
-        "raw_amplitude": 0.0096311537,
-        "percent": 3.304346,
-        "raw_percent": 3.304346,
-        "coverage_percent": 86.703798,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0096311537,
-            "similarity": 0.881895,
-            "matched_descriptor": "devoted"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "chivalrous / heroic",
-        "descriptor_index": 1107,
-        "amplitude": 0.0028980558,
-        "abs_amplitude": 0.0028980558,
-        "raw_amplitude": 0.0086941674,
-        "percent": 2.982876,
-        "raw_percent": 2.982876,
-        "coverage_percent": 89.686673,
-        "member_count": 2,
-        "members": [
-          "chivalrous",
-          "heroic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0086941675,
-            "similarity": 0.870894,
-            "matched_descriptor": "chivalrous believer"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "devout",
-        "descriptor_index": 1792,
-        "amplitude": 0.0027917357,
-        "abs_amplitude": 0.0027917357,
-        "raw_amplitude": 0.0083752072,
-        "percent": 2.873444,
-        "raw_percent": 2.873444,
-        "coverage_percent": 92.560117,
-        "member_count": 1,
-        "members": [
-          "devout"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0083752072,
-            "similarity": 0.870117,
-            "matched_descriptor": "chivalrous believer"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "saint-like / righteous",
-        "descriptor_index": 6445,
-        "amplitude": 0.0022168896,
-        "abs_amplitude": 0.0022168896,
-        "raw_amplitude": 0.0066506689,
-        "percent": 2.281773,
-        "raw_percent": 2.281773,
-        "coverage_percent": 94.841891,
-        "member_count": 2,
-        "members": [
-          "saint-like",
-          "righteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0066506689,
-            "similarity": 0.862921,
-            "matched_descriptor": "chivalrous believer"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "upstanding",
-        "descriptor_index": 8260,
-        "amplitude": 0.0014182109,
-        "abs_amplitude": 0.0014182109,
-        "raw_amplitude": 0.0042546326,
-        "percent": 1.459719,
-        "raw_percent": 1.459719,
-        "coverage_percent": 96.30161,
-        "member_count": 1,
-        "members": [
-          "upstanding"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2567,
-            "name": "Sun Seto",
-            "native_name": "瀬戸燦",
-            "anime": "My Bride is a Mermaid",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
-            "site_url": "https://anilist.co/character/2567",
-            "anime_url": "https://myanimelist.net/anime/2104",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 2.48744564,
-            "projection": 0.0042546326,
-            "similarity": 0.856331,
-            "matched_descriptor": "chivalrous believer"
-          }
-        ]
+        "fit_percent": 97.262462,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 35256,
         "name": "Rumiho Akiha",
-        "native_name": "秋葉留美穂",
         "anime": "Steins;Gate",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
         "site_url": "https://anilist.co/character/35256",
-        "anime_url": "https://myanimelist.net/anime/9253",
-        "role": "SUPPORTING",
         "favourites": 778,
-        "row_weight": 2.76731116,
-        "amplitude": 0.9565801797,
-        "abs_amplitude": 0.9565801797,
-        "percent": 91.504564
+        "anilist_favourites": 778,
+        "bangumi_collects": 289,
+        "bangumi_comments": 37,
+        "bangumi_character_id": 12398,
+        "bangumi_url": "https://bgm.tv/character/12398",
+        "combined_favourites": 1067,
+        "role_edge_count": 1,
+        "descriptors": [
+          "chuunibyou"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.82374627,
+        "row_weight": 2.82374627,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7578009346,
+        "abs_amplitude": 0.7578009346,
+        "percent": 57.426226
       },
       {
         "character_id": 2567,
         "name": "Sun Seto",
-        "native_name": "瀬戸燦",
         "anime": "My Bride is a Mermaid",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
         "site_url": "https://anilist.co/character/2567",
-        "anime_url": "https://myanimelist.net/anime/2104",
-        "role": "MAIN",
         "favourites": 178,
-        "row_weight": 2.48744564,
-        "amplitude": -0.291469312,
-        "abs_amplitude": 0.291469312,
-        "percent": 8.495436
+        "anilist_favourites": 178,
+        "bangumi_collects": 120,
+        "bangumi_comments": 23,
+        "bangumi_character_id": 227,
+        "bangumi_url": "https://bgm.tv/character/227",
+        "combined_favourites": 298,
+        "role_edge_count": 1,
+        "descriptors": [
+          "chivalrous",
+          "devoted",
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.5885215,
+        "row_weight": 2.5885215,
+        "unweighted_row_norm": 2.55093722,
+        "amplitude": 0.6524858186,
+        "abs_amplitude": 0.6524858186,
+        "percent": 42.573774
       }
     ],
     "positive_characters": [
       {
         "character_id": 35256,
         "name": "Rumiho Akiha",
-        "native_name": "秋葉留美穂",
         "anime": "Steins;Gate",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
         "site_url": "https://anilist.co/character/35256",
-        "anime_url": "https://myanimelist.net/anime/9253",
-        "role": "SUPPORTING",
         "favourites": 778,
-        "row_weight": 2.76731116,
-        "amplitude": 0.9565801797,
-        "abs_amplitude": 0.9565801797,
-        "percent": 91.504564
-      }
-    ],
-    "negative_characters": [
+        "anilist_favourites": 778,
+        "bangumi_collects": 289,
+        "bangumi_comments": 37,
+        "bangumi_character_id": 12398,
+        "bangumi_url": "https://bgm.tv/character/12398",
+        "combined_favourites": 1067,
+        "role_edge_count": 1,
+        "descriptors": [
+          "chuunibyou"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.82374627,
+        "row_weight": 2.82374627,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7578009346,
+        "abs_amplitude": 0.7578009346,
+        "percent": 57.426226
+      },
       {
         "character_id": 2567,
         "name": "Sun Seto",
-        "native_name": "瀬戸燦",
         "anime": "My Bride is a Mermaid",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
         "site_url": "https://anilist.co/character/2567",
-        "anime_url": "https://myanimelist.net/anime/2104",
-        "role": "MAIN",
         "favourites": 178,
-        "row_weight": 2.48744564,
-        "amplitude": -0.291469312,
-        "abs_amplitude": 0.291469312,
-        "percent": 8.495436
+        "anilist_favourites": 178,
+        "bangumi_collects": 120,
+        "bangumi_comments": 23,
+        "bangumi_character_id": 227,
+        "bangumi_url": "https://bgm.tv/character/227",
+        "combined_favourites": 298,
+        "role_edge_count": 1,
+        "descriptors": [
+          "chivalrous",
+          "devoted",
+          "innocent"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.5885215,
+        "row_weight": 2.5885215,
+        "unweighted_row_norm": 2.55093722,
+        "amplitude": 0.6524858186,
+        "abs_amplitude": 0.6524858186,
+        "percent": 42.573774
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.956833,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.7467600408,
+      "mass_percent": 20.793059,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 40.362555,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "chuunibyou",
+            "amplitude": 0.4036255543,
+            "abs_amplitude": 0.4036255543,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "chuunibyou",
+            "fit_percent": 40.362555,
+            "residual_gain_percent": 16.291359
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 35256,
+            "name": "Rumiho Akiha",
+            "anime": "Steins;Gate",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b35256-A729dmHEgSYQ.png",
+            "site_url": "https://anilist.co/character/35256",
+            "favourites": 778,
+            "anilist_favourites": 778,
+            "bangumi_collects": 289,
+            "bangumi_comments": 37,
+            "bangumi_character_id": 12398,
+            "bangumi_url": "https://bgm.tv/character/12398",
+            "combined_favourites": 1067,
+            "role_edge_count": 1,
+            "descriptors": [
+              "chuunibyou"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.82374627,
+            "row_weight": 2.82374627,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6524858186,
+            "abs_amplitude": 0.6524858186,
+            "percent": 42.573774
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 51.881036,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "innocent",
+            "amplitude": 0.2753879801,
+            "abs_amplitude": 0.2753879801,
+            "percent": 45.818514
+          },
+          {
+            "rank": 2,
+            "descriptor": "devoted",
+            "amplitude": 0.2359944273,
+            "abs_amplitude": 0.2359944273,
+            "percent": 39.264291
+          },
+          {
+            "rank": 3,
+            "descriptor": "chivalrous",
+            "amplitude": 0.089658435,
+            "abs_amplitude": 0.089658435,
+            "percent": 14.917195
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "innocent",
+            "fit_percent": 46.791417,
+            "residual_gain_percent": 21.894367
+          },
+          {
+            "step": 2,
+            "descriptor": "devoted",
+            "fit_percent": 51.44354,
+            "residual_gain_percent": 5.851066
+          },
+          {
+            "step": 3,
+            "descriptor": "chivalrous",
+            "fit_percent": 51.881036,
+            "residual_gain_percent": 0.614723
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 2567,
+            "name": "Sun Seto",
+            "anime": "My Bride is a Mermaid",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2567-LYfdGHEXcxQg.jpg",
+            "site_url": "https://anilist.co/character/2567",
+            "favourites": 178,
+            "anilist_favourites": 178,
+            "bangumi_collects": 120,
+            "bangumi_comments": 23,
+            "bangumi_character_id": 227,
+            "bangumi_url": "https://bgm.tv/character/227",
+            "combined_favourites": 298,
+            "role_edge_count": 1,
+            "descriptors": [
+              "chivalrous",
+              "devoted",
+              "innocent"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.5885215,
+            "row_weight": 2.5885215,
+            "unweighted_row_norm": 2.55093722,
+            "amplitude": -0.7578009346,
+            "abs_amplitude": 0.7578009346,
+            "percent": 57.426226
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.409225125,
+      "mass_percent": 79.206941,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.7467600408,
+      "mass_percent": 20.793059,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1428 +11,98 @@
     "omaru polka",
     "polka omaru"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/polka_omaru.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.3711469993,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.3711469993,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 137.605444,
-      "normalized_entanglement": 0.358348,
-      "top5_mass_percent": 9.161091,
-      "top10_mass_percent": 16.084709
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5267558376,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "acrobatic / proficient",
-        "descriptor_index": 51,
-        "amplitude": 0.0477483306,
-        "abs_amplitude": 0.0477483306,
-        "raw_amplitude": 0.1432449919,
-        "percent": 14.324499,
-        "raw_percent": 14.324499,
-        "coverage_percent": 14.324499,
-        "member_count": 2,
-        "members": [
-          "acrobatic",
-          "proficient"
-        ],
+        "descriptor": "entertaining",
+        "amplitude": 0.5442355541,
+        "abs_amplitude": 0.5442355541,
+        "percent": 50.0,
+        "weighted_support": 2.52675584,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 201428,
             "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
             "anime": "Holo no Graffiti",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
             "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1432449919,
-            "similarity": 1.0,
-            "matched_descriptor": "acrobatic"
+            "combined_favourites": 217
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "failure-prone / mistake-prone",
-        "descriptor_index": 2362,
-        "amplitude": 0.0436961176,
-        "abs_amplitude": 0.0436961176,
-        "raw_amplitude": 0.1310883529,
-        "percent": 13.108835,
-        "raw_percent": 13.108835,
-        "coverage_percent": 27.433334,
-        "member_count": 2,
-        "members": [
-          "failure-prone",
-          "mistake-prone"
-        ],
+        "descriptor": "charming",
+        "amplitude": 0.5442355541,
+        "abs_amplitude": 0.5442355541,
+        "percent": 50.0,
+        "weighted_support": 2.52675584,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 201428,
             "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
             "anime": "Holo no Graffiti",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
             "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1310883529,
-            "similarity": 0.923129,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "entertaining",
-        "descriptor_index": 2201,
-        "amplitude": 0.0351963946,
-        "abs_amplitude": 0.0351963946,
-        "raw_amplitude": 0.1055891838,
-        "percent": 10.558918,
-        "raw_percent": 10.558918,
-        "coverage_percent": 37.992253,
-        "member_count": 1,
-        "members": [
-          "entertaining"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1055891838,
-            "similarity": 1.0,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "resilient",
-        "descriptor_index": 6252,
-        "amplitude": 0.0351963421,
-        "abs_amplitude": 0.0351963421,
-        "raw_amplitude": 0.1055890264,
-        "percent": 10.558903,
-        "raw_percent": 10.558903,
-        "coverage_percent": 48.551156,
-        "member_count": 1,
-        "members": [
-          "resilient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1055890264,
-            "similarity": 1.0,
-            "matched_descriptor": "resilient"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "screw-up-prone",
-        "descriptor_index": 6528,
-        "amplitude": 0.0206594356,
-        "abs_amplitude": 0.0206594356,
-        "raw_amplitude": 0.0619783067,
-        "percent": 6.197831,
-        "raw_percent": 6.197831,
-        "coverage_percent": 54.748986,
-        "member_count": 1,
-        "members": [
-          "screw-up-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0619783067,
-            "similarity": 0.915647,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "engaging / fascinated",
-        "descriptor_index": 2184,
-        "amplitude": 0.018395235,
-        "abs_amplitude": 0.018395235,
-        "raw_amplitude": 0.0551857049,
-        "percent": 5.51857,
-        "raw_percent": 5.51857,
-        "coverage_percent": 60.267557,
-        "member_count": 2,
-        "members": [
-          "engaging",
-          "fascinated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0551857049,
-            "similarity": 0.838322,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "exceptional / outstanding / excellent",
-        "descriptor_index": 2278,
-        "amplitude": 0.016330797,
-        "abs_amplitude": 0.016330797,
-        "raw_amplitude": 0.048992391,
-        "percent": 4.899239,
-        "raw_percent": 4.899239,
-        "coverage_percent": 65.166796,
-        "member_count": 3,
-        "members": [
-          "exceptional",
-          "outstanding",
-          "excellent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.048992391,
-            "similarity": 0.881158,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "dextrous / accomplished",
-        "descriptor_index": 1795,
-        "amplitude": 0.0160050643,
-        "abs_amplitude": 0.0160050643,
-        "raw_amplitude": 0.0480151928,
-        "percent": 4.801519,
-        "raw_percent": 4.801519,
-        "coverage_percent": 69.968315,
-        "member_count": 2,
-        "members": [
-          "dextrous",
-          "accomplished"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0480151928,
-            "similarity": 0.893457,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "skill-oriented / skilled / expert / competent / +1",
-        "descriptor_index": 6905,
-        "amplitude": 0.0154280552,
-        "abs_amplitude": 0.0154280552,
-        "raw_amplitude": 0.0462841656,
-        "percent": 4.628417,
-        "raw_percent": 4.628417,
-        "coverage_percent": 74.596732,
-        "member_count": 5,
-        "members": [
-          "skill-oriented",
-          "skilled",
-          "expert",
-          "competent",
-          "talented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0462841656,
-            "similarity": 0.880292,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "sloppy undependable / unreliable / irresponsible",
-        "descriptor_index": 6975,
-        "amplitude": 0.0110217091,
-        "abs_amplitude": 0.0110217091,
-        "raw_amplitude": 0.0330651272,
-        "percent": 3.306513,
-        "raw_percent": 3.306513,
-        "coverage_percent": 77.903244,
-        "member_count": 3,
-        "members": [
-          "sloppy undependable",
-          "unreliable",
-          "irresponsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0330651272,
-            "similarity": 0.860058,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "whimsical",
-        "descriptor_index": 8539,
-        "amplitude": 0.0102778188,
-        "abs_amplitude": 0.0102778188,
-        "raw_amplitude": 0.0308334563,
-        "percent": 3.083346,
-        "raw_percent": 3.083346,
-        "coverage_percent": 80.98659,
-        "member_count": 1,
-        "members": [
-          "whimsical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0308334563,
-            "similarity": 0.842443,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "entertained",
-        "descriptor_index": 2199,
-        "amplitude": 0.0097983869,
-        "abs_amplitude": 0.0097983869,
-        "raw_amplitude": 0.0293951606,
-        "percent": 2.939516,
-        "raw_percent": 2.939516,
-        "coverage_percent": 83.926106,
-        "member_count": 1,
-        "members": [
-          "entertained"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0293951606,
-            "similarity": 0.877477,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "erratic / fickle",
-        "descriptor_index": 2218,
-        "amplitude": 0.0085987081,
-        "abs_amplitude": 0.0085987081,
-        "raw_amplitude": 0.0257961244,
-        "percent": 2.579612,
-        "raw_percent": 2.579612,
-        "coverage_percent": 86.505718,
-        "member_count": 2,
-        "members": [
-          "erratic",
-          "fickle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0257961244,
-            "similarity": 0.834979,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "corrupted",
-        "descriptor_index": 1448,
-        "amplitude": 0.0071286094,
-        "abs_amplitude": 0.0071286094,
-        "raw_amplitude": 0.0213858281,
-        "percent": 2.138583,
-        "raw_percent": 2.138583,
-        "coverage_percent": 88.644301,
-        "member_count": 1,
-        "members": [
-          "corrupted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0213858281,
-            "similarity": 0.822044,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "captivating / beguiling",
-        "descriptor_index": 936,
-        "amplitude": 0.0066110793,
-        "abs_amplitude": 0.0066110793,
-        "raw_amplitude": 0.0198332378,
-        "percent": 1.983324,
-        "raw_percent": 1.983324,
-        "coverage_percent": 90.627625,
-        "member_count": 2,
-        "members": [
-          "captivating",
-          "beguiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0198332378,
-            "similarity": 0.831731,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "nagging",
-        "descriptor_index": 5024,
-        "amplitude": 0.0052914536,
-        "abs_amplitude": 0.0052914536,
-        "raw_amplitude": 0.0158743607,
-        "percent": 1.587436,
-        "raw_percent": 1.587436,
-        "coverage_percent": 92.215061,
-        "member_count": 1,
-        "members": [
-          "nagging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0158743607,
-            "similarity": 0.828089,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "amusing / witty / funny",
-        "descriptor_index": 212,
-        "amplitude": 0.0041792238,
-        "abs_amplitude": 0.0041792238,
-        "raw_amplitude": 0.0125376715,
-        "percent": 1.253767,
-        "raw_percent": 1.253767,
-        "coverage_percent": 93.468828,
-        "member_count": 3,
-        "members": [
-          "amusing",
-          "witty",
-          "funny"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0125376716,
-            "similarity": 0.83415,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "unpredictable",
-        "descriptor_index": 8201,
-        "amplitude": 0.0039494899,
-        "abs_amplitude": 0.0039494899,
-        "raw_amplitude": 0.0118484698,
-        "percent": 1.184847,
-        "raw_percent": 1.184847,
-        "coverage_percent": 94.653675,
-        "member_count": 1,
-        "members": [
-          "unpredictable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0118484698,
-            "similarity": 0.842362,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "ace",
-        "descriptor_index": 47,
-        "amplitude": 0.0037944838,
-        "abs_amplitude": 0.0037944838,
-        "raw_amplitude": 0.0113834513,
-        "percent": 1.138345,
-        "raw_percent": 1.138345,
-        "coverage_percent": 95.79202,
-        "member_count": 1,
-        "members": [
-          "ace"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0113834513,
-            "similarity": 0.866322,
-            "matched_descriptor": "acrobatic"
+            "combined_favourites": 217
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "acrobatic / proficient",
-        "descriptor_index": 51,
-        "amplitude": 0.0477483306,
-        "abs_amplitude": 0.0477483306,
-        "raw_amplitude": 0.1432449919,
-        "percent": 14.324499,
-        "raw_percent": 14.324499,
-        "coverage_percent": 14.324499,
-        "member_count": 2,
-        "members": [
-          "acrobatic",
-          "proficient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1432449919,
-            "similarity": 1.0,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "failure-prone / mistake-prone",
-        "descriptor_index": 2362,
-        "amplitude": 0.0436961176,
-        "abs_amplitude": 0.0436961176,
-        "raw_amplitude": 0.1310883529,
-        "percent": 13.108835,
-        "raw_percent": 13.108835,
-        "coverage_percent": 27.433334,
-        "member_count": 2,
-        "members": [
-          "failure-prone",
-          "mistake-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1310883529,
-            "similarity": 0.923129,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 3,
+        "step": 1,
         "descriptor": "entertaining",
-        "descriptor_index": 2201,
-        "amplitude": 0.0351963946,
-        "abs_amplitude": 0.0351963946,
-        "raw_amplitude": 0.1055891838,
-        "percent": 10.558918,
-        "raw_percent": 10.558918,
-        "coverage_percent": 37.992253,
-        "member_count": 1,
-        "members": [
-          "entertaining"
-        ],
+        "weighted_support": 2.52675584,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1055891838,
-            "similarity": 1.0,
-            "matched_descriptor": "entertaining"
-          }
-        ]
+        "fit_percent": 91.871984,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "resilient",
-        "descriptor_index": 6252,
-        "amplitude": 0.0351963421,
-        "abs_amplitude": 0.0351963421,
-        "raw_amplitude": 0.1055890264,
-        "percent": 10.558903,
-        "raw_percent": 10.558903,
-        "coverage_percent": 48.551156,
-        "member_count": 1,
-        "members": [
-          "resilient"
-        ],
+        "step": 2,
+        "descriptor": "charming",
+        "weighted_support": 2.52675584,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.1055890264,
-            "similarity": 1.0,
-            "matched_descriptor": "resilient"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "screw-up-prone",
-        "descriptor_index": 6528,
-        "amplitude": 0.0206594356,
-        "abs_amplitude": 0.0206594356,
-        "raw_amplitude": 0.0619783067,
-        "percent": 6.197831,
-        "raw_percent": 6.197831,
-        "coverage_percent": 54.748986,
-        "member_count": 1,
-        "members": [
-          "screw-up-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0619783067,
-            "similarity": 0.915647,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "engaging / fascinated",
-        "descriptor_index": 2184,
-        "amplitude": 0.018395235,
-        "abs_amplitude": 0.018395235,
-        "raw_amplitude": 0.0551857049,
-        "percent": 5.51857,
-        "raw_percent": 5.51857,
-        "coverage_percent": 60.267557,
-        "member_count": 2,
-        "members": [
-          "engaging",
-          "fascinated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0551857049,
-            "similarity": 0.838322,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "exceptional / outstanding / excellent",
-        "descriptor_index": 2278,
-        "amplitude": 0.016330797,
-        "abs_amplitude": 0.016330797,
-        "raw_amplitude": 0.048992391,
-        "percent": 4.899239,
-        "raw_percent": 4.899239,
-        "coverage_percent": 65.166796,
-        "member_count": 3,
-        "members": [
-          "exceptional",
-          "outstanding",
-          "excellent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.048992391,
-            "similarity": 0.881158,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "dextrous / accomplished",
-        "descriptor_index": 1795,
-        "amplitude": 0.0160050643,
-        "abs_amplitude": 0.0160050643,
-        "raw_amplitude": 0.0480151928,
-        "percent": 4.801519,
-        "raw_percent": 4.801519,
-        "coverage_percent": 69.968315,
-        "member_count": 2,
-        "members": [
-          "dextrous",
-          "accomplished"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0480151928,
-            "similarity": 0.893457,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "skill-oriented / skilled / expert / competent / +1",
-        "descriptor_index": 6905,
-        "amplitude": 0.0154280552,
-        "abs_amplitude": 0.0154280552,
-        "raw_amplitude": 0.0462841656,
-        "percent": 4.628417,
-        "raw_percent": 4.628417,
-        "coverage_percent": 74.596732,
-        "member_count": 5,
-        "members": [
-          "skill-oriented",
-          "skilled",
-          "expert",
-          "competent",
-          "talented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0462841656,
-            "similarity": 0.880292,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "sloppy undependable / unreliable / irresponsible",
-        "descriptor_index": 6975,
-        "amplitude": 0.0110217091,
-        "abs_amplitude": 0.0110217091,
-        "raw_amplitude": 0.0330651272,
-        "percent": 3.306513,
-        "raw_percent": 3.306513,
-        "coverage_percent": 77.903244,
-        "member_count": 3,
-        "members": [
-          "sloppy undependable",
-          "unreliable",
-          "irresponsible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0330651272,
-            "similarity": 0.860058,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "whimsical",
-        "descriptor_index": 8539,
-        "amplitude": 0.0102778188,
-        "abs_amplitude": 0.0102778188,
-        "raw_amplitude": 0.0308334563,
-        "percent": 3.083346,
-        "raw_percent": 3.083346,
-        "coverage_percent": 80.98659,
-        "member_count": 1,
-        "members": [
-          "whimsical"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0308334563,
-            "similarity": 0.842443,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "entertained",
-        "descriptor_index": 2199,
-        "amplitude": 0.0097983869,
-        "abs_amplitude": 0.0097983869,
-        "raw_amplitude": 0.0293951606,
-        "percent": 2.939516,
-        "raw_percent": 2.939516,
-        "coverage_percent": 83.926106,
-        "member_count": 1,
-        "members": [
-          "entertained"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0293951606,
-            "similarity": 0.877477,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "erratic / fickle",
-        "descriptor_index": 2218,
-        "amplitude": 0.0085987081,
-        "abs_amplitude": 0.0085987081,
-        "raw_amplitude": 0.0257961244,
-        "percent": 2.579612,
-        "raw_percent": 2.579612,
-        "coverage_percent": 86.505718,
-        "member_count": 2,
-        "members": [
-          "erratic",
-          "fickle"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0257961244,
-            "similarity": 0.834979,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "corrupted",
-        "descriptor_index": 1448,
-        "amplitude": 0.0071286094,
-        "abs_amplitude": 0.0071286094,
-        "raw_amplitude": 0.0213858281,
-        "percent": 2.138583,
-        "raw_percent": 2.138583,
-        "coverage_percent": 88.644301,
-        "member_count": 1,
-        "members": [
-          "corrupted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0213858281,
-            "similarity": 0.822044,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "captivating / beguiling",
-        "descriptor_index": 936,
-        "amplitude": 0.0066110793,
-        "abs_amplitude": 0.0066110793,
-        "raw_amplitude": 0.0198332378,
-        "percent": 1.983324,
-        "raw_percent": 1.983324,
-        "coverage_percent": 90.627625,
-        "member_count": 2,
-        "members": [
-          "captivating",
-          "beguiling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0198332378,
-            "similarity": 0.831731,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "nagging",
-        "descriptor_index": 5024,
-        "amplitude": 0.0052914536,
-        "abs_amplitude": 0.0052914536,
-        "raw_amplitude": 0.0158743607,
-        "percent": 1.587436,
-        "raw_percent": 1.587436,
-        "coverage_percent": 92.215061,
-        "member_count": 1,
-        "members": [
-          "nagging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0158743607,
-            "similarity": 0.828089,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "amusing / witty / funny",
-        "descriptor_index": 212,
-        "amplitude": 0.0041792238,
-        "abs_amplitude": 0.0041792238,
-        "raw_amplitude": 0.0125376715,
-        "percent": 1.253767,
-        "raw_percent": 1.253767,
-        "coverage_percent": 93.468828,
-        "member_count": 3,
-        "members": [
-          "amusing",
-          "witty",
-          "funny"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0125376716,
-            "similarity": 0.83415,
-            "matched_descriptor": "entertaining"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "unpredictable",
-        "descriptor_index": 8201,
-        "amplitude": 0.0039494899,
-        "abs_amplitude": 0.0039494899,
-        "raw_amplitude": 0.0118484698,
-        "percent": 1.184847,
-        "raw_percent": 1.184847,
-        "coverage_percent": 94.653675,
-        "member_count": 1,
-        "members": [
-          "unpredictable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0118484698,
-            "similarity": 0.842362,
-            "matched_descriptor": "occasional mess ups"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "ace",
-        "descriptor_index": 47,
-        "amplitude": 0.0037944838,
-        "abs_amplitude": 0.0037944838,
-        "raw_amplitude": 0.0113834513,
-        "percent": 1.138345,
-        "raw_percent": 1.138345,
-        "coverage_percent": 95.79202,
-        "member_count": 1,
-        "members": [
-          "ace"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201428,
-            "name": "Polka Omaru",
-            "native_name": "尾丸ポルカ",
-            "anime": "Holo no Graffiti",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
-            "site_url": "https://anilist.co/character/201428",
-            "anime_url": "https://myanimelist.net/anime/44042",
-            "role": "MAIN",
-            "favourites": 210,
-            "row_weight": 2.5202893,
-            "projection": 0.0113834513,
-            "similarity": 0.866322,
-            "matched_descriptor": "acrobatic"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 201428,
         "name": "Polka Omaru",
-        "native_name": "尾丸ポルカ",
         "anime": "Holo no Graffiti",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
         "site_url": "https://anilist.co/character/201428",
-        "anime_url": "https://myanimelist.net/anime/44042",
-        "role": "MAIN",
         "favourites": 210,
-        "row_weight": 2.5202893,
+        "anilist_favourites": 210,
+        "bangumi_collects": 7,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 80813,
+        "bangumi_url": "https://bgm.tv/character/80813",
+        "combined_favourites": 217,
+        "role_edge_count": 1,
+        "descriptors": [
+          "charming",
+          "entertaining"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52675584,
+        "row_weight": 2.52675584,
+        "unweighted_row_norm": 1.83743968,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1442,19 +112,68 @@
       {
         "character_id": 201428,
         "name": "Polka Omaru",
-        "native_name": "尾丸ポルカ",
         "anime": "Holo no Graffiti",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201428-aeJpOw6HZY7Q.png",
         "site_url": "https://anilist.co/character/201428",
-        "anime_url": "https://myanimelist.net/anime/44042",
-        "role": "MAIN",
         "favourites": 210,
-        "row_weight": 2.5202893,
+        "anilist_favourites": 210,
+        "bangumi_collects": 7,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 80813,
+        "bangumi_url": "https://bgm.tv/character/80813",
+        "combined_favourites": 217,
+        "role_edge_count": 1,
+        "descriptors": [
+          "charming",
+          "entertaining"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52675584,
+        "row_weight": 2.52675584,
+        "unweighted_row_norm": 1.83743968,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5267558376,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1352 +11,83 @@
     "wakai yuuki",
     "yuuki wakai"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yuuki_wakai.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 4.085404602,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 4.085404602,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 190.042059,
-      "normalized_entanglement": 0.494901,
-      "top5_mass_percent": 5.752925,
-      "top10_mass_percent": 10.892402
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 1.0,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.1601986808,
-        "abs_amplitude": 0.1601986808,
-        "raw_amplitude": 0.4805960425,
-        "percent": 48.059604,
-        "raw_percent": 48.059604,
-        "coverage_percent": 48.059604,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.4805960425,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 2,
         "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.032308228,
-        "abs_amplitude": 0.032308228,
-        "raw_amplitude": 0.0969246839,
-        "percent": 9.692468,
-        "raw_percent": 9.692468,
-        "coverage_percent": 57.752073,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
+        "amplitude": 1.0000000002,
+        "abs_amplitude": 1.0000000002,
+        "percent": 100.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 122696,
             "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
             "anime": "Kakegurui",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
             "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0969246839,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.018060396,
-        "abs_amplitude": 0.018060396,
-        "raw_amplitude": 0.0541811881,
-        "percent": 5.418119,
-        "raw_percent": 5.418119,
-        "coverage_percent": 63.170191,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0541811881,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "rich / wealthy",
-        "descriptor_index": 6301,
-        "amplitude": 0.017366156,
-        "abs_amplitude": 0.017366156,
-        "raw_amplitude": 0.0520984679,
-        "percent": 5.209847,
-        "raw_percent": 5.209847,
-        "coverage_percent": 68.380038,
-        "member_count": 2,
-        "members": [
-          "rich",
-          "wealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0520984679,
-            "similarity": 0.869532,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0136382469,
-        "abs_amplitude": 0.0136382469,
-        "raw_amplitude": 0.0409147407,
-        "percent": 4.091474,
-        "raw_percent": 4.091474,
-        "coverage_percent": 72.471512,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0409147407,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0116413322,
-        "abs_amplitude": 0.0116413322,
-        "raw_amplitude": 0.0349239967,
-        "percent": 3.4924,
-        "raw_percent": 3.4924,
-        "coverage_percent": 75.963912,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0349239967,
-            "similarity": 0.893527,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "money-obsessed / money-oriented / avaricious",
-        "descriptor_index": 4902,
-        "amplitude": 0.0113448569,
-        "abs_amplitude": 0.0113448569,
-        "raw_amplitude": 0.0340345706,
-        "percent": 3.403457,
-        "raw_percent": 3.403457,
-        "coverage_percent": 79.367369,
-        "member_count": 3,
-        "members": [
-          "money-obsessed",
-          "money-oriented",
-          "avaricious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0340345707,
-            "similarity": 0.826633,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0073859185,
-        "abs_amplitude": 0.0073859185,
-        "raw_amplitude": 0.0221577555,
-        "percent": 2.215776,
-        "raw_percent": 2.215776,
-        "coverage_percent": 81.583145,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0221577555,
-            "similarity": 0.871604,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0066373152,
-        "abs_amplitude": 0.0066373152,
-        "raw_amplitude": 0.0199119455,
-        "percent": 1.991195,
-        "raw_percent": 1.991195,
-        "coverage_percent": 83.574339,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0199119455,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0065585517,
-        "abs_amplitude": 0.0065585517,
-        "raw_amplitude": 0.0196756552,
-        "percent": 1.967566,
-        "raw_percent": 1.967566,
-        "coverage_percent": 85.541905,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0196756552,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0058203696,
-        "abs_amplitude": 0.0058203696,
-        "raw_amplitude": 0.0174611089,
-        "percent": 1.746111,
-        "raw_percent": 1.746111,
-        "coverage_percent": 87.288016,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0174611089,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "raffish",
-        "descriptor_index": 6106,
-        "amplitude": 0.0046295504,
-        "abs_amplitude": 0.0046295504,
-        "raw_amplitude": 0.0138886512,
-        "percent": 1.388865,
-        "raw_percent": 1.388865,
-        "coverage_percent": 88.676881,
-        "member_count": 1,
-        "members": [
-          "raffish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0138886512,
-            "similarity": 0.805822,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "pedigree / pure-blood",
-        "descriptor_index": 5513,
-        "amplitude": 0.0043882587,
-        "abs_amplitude": 0.0043882587,
-        "raw_amplitude": 0.013164776,
-        "percent": 1.316478,
-        "raw_percent": 1.316478,
-        "coverage_percent": 89.993358,
-        "member_count": 2,
-        "members": [
-          "pedigree",
-          "pure-blood"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.013164776,
-            "similarity": 0.79212,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0038307338,
-        "abs_amplitude": 0.0038307338,
-        "raw_amplitude": 0.0114922013,
-        "percent": 1.14922,
-        "raw_percent": 1.14922,
-        "coverage_percent": 91.142578,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0114922013,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "noble",
-        "descriptor_index": 5156,
-        "amplitude": 0.0038124786,
-        "abs_amplitude": 0.0038124786,
-        "raw_amplitude": 0.0114374358,
-        "percent": 1.143744,
-        "raw_percent": 1.143744,
-        "coverage_percent": 92.286322,
-        "member_count": 1,
-        "members": [
-          "noble"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0114374358,
-            "similarity": 0.823106,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "monogamous",
-        "descriptor_index": 4908,
-        "amplitude": 0.00374987,
-        "abs_amplitude": 0.00374987,
-        "raw_amplitude": 0.0112496099,
-        "percent": 1.124961,
-        "raw_percent": 1.124961,
-        "coverage_percent": 93.411283,
-        "member_count": 1,
-        "members": [
-          "monogamous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0112496099,
-            "similarity": 0.852871,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "dutiful",
-        "descriptor_index": 2015,
-        "amplitude": 0.0027184894,
-        "abs_amplitude": 0.0027184894,
-        "raw_amplitude": 0.0081554682,
-        "percent": 0.815547,
-        "raw_percent": 0.815547,
-        "coverage_percent": 94.22683,
-        "member_count": 1,
-        "members": [
-          "dutiful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0081554682,
-            "similarity": 0.847558,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0027161992,
-        "abs_amplitude": 0.0027161992,
-        "raw_amplitude": 0.0081485975,
-        "percent": 0.81486,
-        "raw_percent": 0.81486,
-        "coverage_percent": 95.04169,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0081485975,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
+            "combined_favourites": 518
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.1601986808,
-        "abs_amplitude": 0.1601986808,
-        "raw_amplitude": 0.4805960425,
-        "percent": 48.059604,
-        "raw_percent": 48.059604,
-        "coverage_percent": 48.059604,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.4805960425,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 2,
+        "step": 1,
         "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.032308228,
-        "abs_amplitude": 0.032308228,
-        "raw_amplitude": 0.0969246839,
-        "percent": 9.692468,
-        "raw_percent": 9.692468,
-        "coverage_percent": 57.752073,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0969246839,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 3,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.018060396,
-        "abs_amplitude": 0.018060396,
-        "raw_amplitude": 0.0541811881,
-        "percent": 5.418119,
-        "raw_percent": 5.418119,
-        "coverage_percent": 63.170191,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0541811881,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "step": 2,
+        "descriptor": "neurotic",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -4963253737473653.0
       },
       {
-        "rank": 4,
-        "descriptor": "rich / wealthy",
-        "descriptor_index": 6301,
-        "amplitude": 0.017366156,
-        "abs_amplitude": 0.017366156,
-        "raw_amplitude": 0.0520984679,
-        "percent": 5.209847,
-        "raw_percent": 5.209847,
-        "coverage_percent": 68.380038,
-        "member_count": 2,
-        "members": [
-          "rich",
-          "wealthy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0520984679,
-            "similarity": 0.869532,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
+        "step": 3,
+        "descriptor": "relentless",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 62.960747
       },
       {
-        "rank": 5,
-        "descriptor": "trustworthy / dependable",
-        "descriptor_index": 8016,
-        "amplitude": 0.0136382469,
-        "abs_amplitude": 0.0136382469,
-        "raw_amplitude": 0.0409147407,
-        "percent": 4.091474,
-        "raw_percent": 4.091474,
-        "coverage_percent": 72.471512,
-        "member_count": 2,
-        "members": [
-          "trustworthy",
-          "dependable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0409147407,
-            "similarity": 0.892975,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "supportive",
-        "descriptor_index": 7537,
-        "amplitude": 0.0116413322,
-        "abs_amplitude": 0.0116413322,
-        "raw_amplitude": 0.0349239967,
-        "percent": 3.4924,
-        "raw_percent": 3.4924,
-        "coverage_percent": 75.963912,
-        "member_count": 1,
-        "members": [
-          "supportive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0349239967,
-            "similarity": 0.893527,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "money-obsessed / money-oriented / avaricious",
-        "descriptor_index": 4902,
-        "amplitude": 0.0113448569,
-        "abs_amplitude": 0.0113448569,
-        "raw_amplitude": 0.0340345706,
-        "percent": 3.403457,
-        "raw_percent": 3.403457,
-        "coverage_percent": 79.367369,
-        "member_count": 3,
-        "members": [
-          "money-obsessed",
-          "money-oriented",
-          "avaricious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0340345707,
-            "similarity": 0.826633,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "steadfast",
-        "descriptor_index": 7238,
-        "amplitude": 0.0073859185,
-        "abs_amplitude": 0.0073859185,
-        "raw_amplitude": 0.0221577555,
-        "percent": 2.215776,
-        "raw_percent": 2.215776,
-        "coverage_percent": 81.583145,
-        "member_count": 1,
-        "members": [
-          "steadfast"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0221577555,
-            "similarity": 0.871604,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0066373152,
-        "abs_amplitude": 0.0066373152,
-        "raw_amplitude": 0.0199119455,
-        "percent": 1.991195,
-        "raw_percent": 1.991195,
-        "coverage_percent": 83.574339,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0199119455,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0065585517,
-        "abs_amplitude": 0.0065585517,
-        "raw_amplitude": 0.0196756552,
-        "percent": 1.967566,
-        "raw_percent": 1.967566,
-        "coverage_percent": 85.541905,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0196756552,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0058203696,
-        "abs_amplitude": 0.0058203696,
-        "raw_amplitude": 0.0174611089,
-        "percent": 1.746111,
-        "raw_percent": 1.746111,
-        "coverage_percent": 87.288016,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0174611089,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "raffish",
-        "descriptor_index": 6106,
-        "amplitude": 0.0046295504,
-        "abs_amplitude": 0.0046295504,
-        "raw_amplitude": 0.0138886512,
-        "percent": 1.388865,
-        "raw_percent": 1.388865,
-        "coverage_percent": 88.676881,
-        "member_count": 1,
-        "members": [
-          "raffish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0138886512,
-            "similarity": 0.805822,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "pedigree / pure-blood",
-        "descriptor_index": 5513,
-        "amplitude": 0.0043882587,
-        "abs_amplitude": 0.0043882587,
-        "raw_amplitude": 0.013164776,
-        "percent": 1.316478,
-        "raw_percent": 1.316478,
-        "coverage_percent": 89.993358,
-        "member_count": 2,
-        "members": [
-          "pedigree",
-          "pure-blood"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.013164776,
-            "similarity": 0.79212,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0038307338,
-        "abs_amplitude": 0.0038307338,
-        "raw_amplitude": 0.0114922013,
-        "percent": 1.14922,
-        "raw_percent": 1.14922,
-        "coverage_percent": 91.142578,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0114922013,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "noble",
-        "descriptor_index": 5156,
-        "amplitude": 0.0038124786,
-        "abs_amplitude": 0.0038124786,
-        "raw_amplitude": 0.0114374358,
-        "percent": 1.143744,
-        "raw_percent": 1.143744,
-        "coverage_percent": 92.286322,
-        "member_count": 1,
-        "members": [
-          "noble"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0114374358,
-            "similarity": 0.823106,
-            "matched_descriptor": "wealthy background"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "monogamous",
-        "descriptor_index": 4908,
-        "amplitude": 0.00374987,
-        "abs_amplitude": 0.00374987,
-        "raw_amplitude": 0.0112496099,
-        "percent": 1.124961,
-        "raw_percent": 1.124961,
-        "coverage_percent": 93.411283,
-        "member_count": 1,
-        "members": [
-          "monogamous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0112496099,
-            "similarity": 0.852871,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "dutiful",
-        "descriptor_index": 2015,
-        "amplitude": 0.0027184894,
-        "abs_amplitude": 0.0027184894,
-        "raw_amplitude": 0.0081554682,
-        "percent": 0.815547,
-        "raw_percent": 0.815547,
-        "coverage_percent": 94.22683,
-        "member_count": 1,
-        "members": [
-          "dutiful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0081554682,
-            "similarity": 0.847558,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.0027161992,
-        "abs_amplitude": 0.0027161992,
-        "raw_amplitude": 0.0081485975,
-        "percent": 0.81486,
-        "raw_percent": 0.81486,
-        "coverage_percent": 95.04169,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122696,
-            "name": "Itsuki Sumeragi",
-            "native_name": "皇伊月",
-            "anime": "Kakegurui",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
-            "site_url": "https://anilist.co/character/122696",
-            "anime_url": "https://myanimelist.net/anime/34933",
-            "role": "SUPPORTING",
-            "favourites": 500,
-            "row_weight": 2.68637416,
-            "projection": 0.0081485975,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "step": 4,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 122696,
         "name": "Itsuki Sumeragi",
-        "native_name": "皇伊月",
         "anime": "Kakegurui",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
         "site_url": "https://anilist.co/character/122696",
-        "anime_url": "https://myanimelist.net/anime/34933",
-        "role": "SUPPORTING",
         "favourites": 500,
-        "row_weight": 2.68637416,
+        "anilist_favourites": 500,
+        "bangumi_collects": 18,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 27647,
+        "bangumi_url": "https://bgm.tv/character/27647",
+        "combined_favourites": 518,
+        "role_edge_count": 1,
+        "descriptors": [
+          "protective"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1366,19 +97,62 @@
       {
         "character_id": 122696,
         "name": "Itsuki Sumeragi",
-        "native_name": "皇伊月",
         "anime": "Kakegurui",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b122696-Ap3xm4l14BPQ.jpg",
         "site_url": "https://anilist.co/character/122696",
-        "anime_url": "https://myanimelist.net/anime/34933",
-        "role": "SUPPORTING",
         "favourites": 500,
-        "row_weight": 2.68637416,
+        "anilist_favourites": 500,
+        "bangumi_collects": 18,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 27647,
+        "bangumi_url": "https://bgm.tv/character/27647",
+        "combined_favourites": 518,
+        "role_edge_count": 1,
+        "descriptors": [
+          "protective"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 1.0,
+        "row_weight": 1.0,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 1.0,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 1501,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

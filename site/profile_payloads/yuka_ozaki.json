@@ -11,1358 +11,126 @@
     "ozaki yuka",
     "yuka ozaki"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yuka_ozaki.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.7000975267,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.7000975267,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 294.014663,
-      "normalized_entanglement": 0.765663,
-      "top5_mass_percent": 3.455458,
-      "top10_mass_percent": 6.55828
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 0.7071067812,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.1308551109,
-        "abs_amplitude": 0.1308551109,
-        "raw_amplitude": 0.3925653327,
-        "percent": 39.256533,
-        "raw_percent": 39.256533,
-        "coverage_percent": 39.256533,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
+        "descriptor": "energetic",
+        "amplitude": 0.5567108585,
+        "abs_amplitude": 0.5567108585,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 122324,
             "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
+            "anime": "Welcome to the JAPARI PARK",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
             "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.3925653328,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
+            "combined_favourites": 294
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0507049521,
-        "abs_amplitude": 0.0507049521,
-        "raw_amplitude": 0.1521148562,
-        "percent": 15.211486,
-        "raw_percent": 15.211486,
-        "coverage_percent": 54.468019,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
+        "descriptor": "curious",
+        "amplitude": 0.5567108577,
+        "abs_amplitude": 0.5567108577,
+        "percent": 50.0,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 122324,
             "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
+            "anime": "Welcome to the JAPARI PARK",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
             "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.1521148562,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "enthusiastic / fervent",
-        "descriptor_index": 2207,
-        "amplitude": 0.0148030825,
-        "abs_amplitude": 0.0148030825,
-        "raw_amplitude": 0.0444092476,
-        "percent": 4.440925,
-        "raw_percent": 4.440925,
-        "coverage_percent": 58.908944,
-        "member_count": 2,
-        "members": [
-          "enthusiastic",
-          "fervent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0444092476,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "boisterous / perky",
-        "descriptor_index": 743,
-        "amplitude": 0.0147746655,
-        "abs_amplitude": 0.0147746655,
-        "raw_amplitude": 0.0443239965,
-        "percent": 4.4324,
-        "raw_percent": 4.4324,
-        "coverage_percent": 63.341343,
-        "member_count": 2,
-        "members": [
-          "boisterous",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0443239965,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "hyperactive / active",
-        "descriptor_index": 3662,
-        "amplitude": 0.0145588015,
-        "abs_amplitude": 0.0145588015,
-        "raw_amplitude": 0.0436764046,
-        "percent": 4.36764,
-        "raw_percent": 4.36764,
-        "coverage_percent": 67.708984,
-        "member_count": 2,
-        "members": [
-          "hyperactive",
-          "active"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0436764046,
-            "similarity": 0.875966,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "searching",
-        "descriptor_index": 6536,
-        "amplitude": 0.012198921,
-        "abs_amplitude": 0.012198921,
-        "raw_amplitude": 0.036596763,
-        "percent": 3.659676,
-        "raw_percent": 3.659676,
-        "coverage_percent": 71.36866,
-        "member_count": 1,
-        "members": [
-          "searching"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.036596763,
-            "similarity": 0.883101,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "inquisitive",
-        "descriptor_index": 3908,
-        "amplitude": 0.0111274534,
-        "abs_amplitude": 0.0111274534,
-        "raw_amplitude": 0.0333823603,
-        "percent": 3.338236,
-        "raw_percent": 3.338236,
-        "coverage_percent": 74.706896,
-        "member_count": 1,
-        "members": [
-          "inquisitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0333823603,
-            "similarity": 0.89419,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "informed / well-read / well-versed / knowledgeable",
-        "descriptor_index": 3881,
-        "amplitude": 0.0097364317,
-        "abs_amplitude": 0.0097364317,
-        "raw_amplitude": 0.0292092952,
-        "percent": 2.92093,
-        "raw_percent": 2.92093,
-        "coverage_percent": 77.627826,
-        "member_count": 4,
-        "members": [
-          "informed",
-          "well-read",
-          "well-versed",
-          "knowledgeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0292092952,
-            "similarity": 0.86032,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "interested",
-        "descriptor_index": 3956,
-        "amplitude": 0.0095617122,
-        "abs_amplitude": 0.0095617122,
-        "raw_amplitude": 0.0286851367,
-        "percent": 2.868514,
-        "raw_percent": 2.868514,
-        "coverage_percent": 80.496339,
-        "member_count": 1,
-        "members": [
-          "interested"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0286851367,
-            "similarity": 0.876043,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "doubtful / doubting",
-        "descriptor_index": 1938,
-        "amplitude": 0.0073372276,
-        "abs_amplitude": 0.0073372276,
-        "raw_amplitude": 0.0220116827,
-        "percent": 2.201168,
-        "raw_percent": 2.201168,
-        "coverage_percent": 82.697508,
-        "member_count": 2,
-        "members": [
-          "doubtful",
-          "doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0220116827,
-            "similarity": 0.842921,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0071513453,
-        "abs_amplitude": 0.0071513453,
-        "raw_amplitude": 0.0214540359,
-        "percent": 2.145404,
-        "raw_percent": 2.145404,
-        "coverage_percent": 84.842911,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0214540359,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "nosy",
-        "descriptor_index": 5208,
-        "amplitude": 0.007027827,
-        "abs_amplitude": 0.007027827,
-        "raw_amplitude": 0.0210834811,
-        "percent": 2.108348,
-        "raw_percent": 2.108348,
-        "coverage_percent": 86.951259,
-        "member_count": 1,
-        "members": [
-          "nosy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0210834811,
-            "similarity": 0.877923,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0062331672,
-        "abs_amplitude": 0.0062331672,
-        "raw_amplitude": 0.0186995017,
-        "percent": 1.86995,
-        "raw_percent": 1.86995,
-        "coverage_percent": 88.821209,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0186995017,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "excitable",
-        "descriptor_index": 2294,
-        "amplitude": 0.0052725068,
-        "abs_amplitude": 0.0052725068,
-        "raw_amplitude": 0.0158175204,
-        "percent": 1.581752,
-        "raw_percent": 1.581752,
-        "coverage_percent": 90.402961,
-        "member_count": 1,
-        "members": [
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0158175204,
-            "similarity": 0.867799,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "passionate / intense",
-        "descriptor_index": 5478,
-        "amplitude": 0.0047141668,
-        "abs_amplitude": 0.0047141668,
-        "raw_amplitude": 0.0141425003,
-        "percent": 1.41425,
-        "raw_percent": 1.41425,
-        "coverage_percent": 91.817211,
-        "member_count": 2,
-        "members": [
-          "passionate",
-          "intense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0141425003,
-            "similarity": 0.849707,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.0044353518,
-        "abs_amplitude": 0.0044353518,
-        "raw_amplitude": 0.0133060553,
-        "percent": 1.330606,
-        "raw_percent": 1.330606,
-        "coverage_percent": 93.147817,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0133060553,
-            "similarity": 0.855438,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0042005095,
-        "abs_amplitude": 0.0042005095,
-        "raw_amplitude": 0.0126015285,
-        "percent": 1.260153,
-        "raw_percent": 1.260153,
-        "coverage_percent": 94.40797,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0126015285,
-            "similarity": 0.856006,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "sparkling",
-        "descriptor_index": 7119,
-        "amplitude": 0.0039458511,
-        "abs_amplitude": 0.0039458511,
-        "raw_amplitude": 0.0118375532,
-        "percent": 1.183755,
-        "raw_percent": 1.183755,
-        "coverage_percent": 95.591725,
-        "member_count": 1,
-        "members": [
-          "sparkling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0118375532,
-            "similarity": 0.852617,
-            "matched_descriptor": "energetic"
+            "combined_favourites": 294
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.1308551109,
-        "abs_amplitude": 0.1308551109,
-        "raw_amplitude": 0.3925653327,
-        "percent": 39.256533,
-        "raw_percent": 39.256533,
-        "coverage_percent": 39.256533,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.3925653328,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 1,
+        "descriptor": "energetic",
+        "fit_percent": 89.813229,
+        "residual_gain_percent": 80.664162
       },
       {
-        "rank": 2,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0507049521,
-        "abs_amplitude": 0.0507049521,
-        "raw_amplitude": 0.1521148562,
-        "percent": 15.211486,
-        "raw_percent": 15.211486,
-        "coverage_percent": 54.468019,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.1521148562,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
+        "step": 2,
+        "descriptor": "curious",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 100.0
       },
       {
-        "rank": 3,
-        "descriptor": "enthusiastic / fervent",
-        "descriptor_index": 2207,
-        "amplitude": 0.0148030825,
-        "abs_amplitude": 0.0148030825,
-        "raw_amplitude": 0.0444092476,
-        "percent": 4.440925,
-        "raw_percent": 4.440925,
-        "coverage_percent": 58.908944,
-        "member_count": 2,
-        "members": [
-          "enthusiastic",
-          "fervent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0444092476,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 3,
+        "descriptor": "inconstant",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -2414785711696190.0
       },
       {
-        "rank": 4,
-        "descriptor": "boisterous / perky",
-        "descriptor_index": 743,
-        "amplitude": 0.0147746655,
-        "abs_amplitude": 0.0147746655,
-        "raw_amplitude": 0.0443239965,
-        "percent": 4.4324,
-        "raw_percent": 4.4324,
-        "coverage_percent": 63.341343,
-        "member_count": 2,
-        "members": [
-          "boisterous",
-          "perky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0443239965,
-            "similarity": 0.880217,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 4,
+        "descriptor": "overthinking",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -86.00311
       },
       {
-        "rank": 5,
-        "descriptor": "hyperactive / active",
-        "descriptor_index": 3662,
-        "amplitude": 0.0145588015,
-        "abs_amplitude": 0.0145588015,
-        "raw_amplitude": 0.0436764046,
-        "percent": 4.36764,
-        "raw_percent": 4.36764,
-        "coverage_percent": 67.708984,
-        "member_count": 2,
-        "members": [
-          "hyperactive",
-          "active"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0436764046,
-            "similarity": 0.875966,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 5,
+        "descriptor": "predatory",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 73.124776
       },
       {
-        "rank": 6,
-        "descriptor": "searching",
-        "descriptor_index": 6536,
-        "amplitude": 0.012198921,
-        "abs_amplitude": 0.012198921,
-        "raw_amplitude": 0.036596763,
-        "percent": 3.659676,
-        "raw_percent": 3.659676,
-        "coverage_percent": 71.36866,
-        "member_count": 1,
-        "members": [
-          "searching"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.036596763,
-            "similarity": 0.883101,
-            "matched_descriptor": "curious"
-          }
-        ]
+        "step": 6,
+        "descriptor": "unselfish",
+        "fit_percent": 100.0,
+        "residual_gain_percent": -70.272512
       },
       {
-        "rank": 7,
-        "descriptor": "inquisitive",
-        "descriptor_index": 3908,
-        "amplitude": 0.0111274534,
-        "abs_amplitude": 0.0111274534,
-        "raw_amplitude": 0.0333823603,
-        "percent": 3.338236,
-        "raw_percent": 3.338236,
-        "coverage_percent": 74.706896,
-        "member_count": 1,
-        "members": [
-          "inquisitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0333823603,
-            "similarity": 0.89419,
-            "matched_descriptor": "curious"
-          }
-        ]
+        "step": 7,
+        "descriptor": "sociable",
+        "fit_percent": 100.0,
+        "residual_gain_percent": 58.678521
       },
       {
-        "rank": 8,
-        "descriptor": "informed / well-read / well-versed / knowledgeable",
-        "descriptor_index": 3881,
-        "amplitude": 0.0097364317,
-        "abs_amplitude": 0.0097364317,
-        "raw_amplitude": 0.0292092952,
-        "percent": 2.92093,
-        "raw_percent": 2.92093,
-        "coverage_percent": 77.627826,
-        "member_count": 4,
-        "members": [
-          "informed",
-          "well-read",
-          "well-versed",
-          "knowledgeable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0292092952,
-            "similarity": 0.86032,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "interested",
-        "descriptor_index": 3956,
-        "amplitude": 0.0095617122,
-        "abs_amplitude": 0.0095617122,
-        "raw_amplitude": 0.0286851367,
-        "percent": 2.868514,
-        "raw_percent": 2.868514,
-        "coverage_percent": 80.496339,
-        "member_count": 1,
-        "members": [
-          "interested"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0286851367,
-            "similarity": 0.876043,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "doubtful / doubting",
-        "descriptor_index": 1938,
-        "amplitude": 0.0073372276,
-        "abs_amplitude": 0.0073372276,
-        "raw_amplitude": 0.0220116827,
-        "percent": 2.201168,
-        "raw_percent": 2.201168,
-        "coverage_percent": 82.697508,
-        "member_count": 2,
-        "members": [
-          "doubtful",
-          "doubting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0220116827,
-            "similarity": 0.842921,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "feisty",
-        "descriptor_index": 2495,
-        "amplitude": 0.0071513453,
-        "abs_amplitude": 0.0071513453,
-        "raw_amplitude": 0.0214540359,
-        "percent": 2.145404,
-        "raw_percent": 2.145404,
-        "coverage_percent": 84.842911,
-        "member_count": 1,
-        "members": [
-          "feisty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0214540359,
-            "similarity": 0.893208,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "nosy",
-        "descriptor_index": 5208,
-        "amplitude": 0.007027827,
-        "abs_amplitude": 0.007027827,
-        "raw_amplitude": 0.0210834811,
-        "percent": 2.108348,
-        "raw_percent": 2.108348,
-        "coverage_percent": 86.951259,
-        "member_count": 1,
-        "members": [
-          "nosy"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0210834811,
-            "similarity": 0.877923,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "resonant",
-        "descriptor_index": 6258,
-        "amplitude": 0.0062331672,
-        "abs_amplitude": 0.0062331672,
-        "raw_amplitude": 0.0186995017,
-        "percent": 1.86995,
-        "raw_percent": 1.86995,
-        "coverage_percent": 88.821209,
-        "member_count": 1,
-        "members": [
-          "resonant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0186995017,
-            "similarity": 0.873876,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "excitable",
-        "descriptor_index": 2294,
-        "amplitude": 0.0052725068,
-        "abs_amplitude": 0.0052725068,
-        "raw_amplitude": 0.0158175204,
-        "percent": 1.581752,
-        "raw_percent": 1.581752,
-        "coverage_percent": 90.402961,
-        "member_count": 1,
-        "members": [
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0158175204,
-            "similarity": 0.867799,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "passionate / intense",
-        "descriptor_index": 5478,
-        "amplitude": 0.0047141668,
-        "abs_amplitude": 0.0047141668,
-        "raw_amplitude": 0.0141425003,
-        "percent": 1.41425,
-        "raw_percent": 1.41425,
-        "coverage_percent": 91.817211,
-        "member_count": 2,
-        "members": [
-          "passionate",
-          "intense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0141425003,
-            "similarity": 0.849707,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "brimming",
-        "descriptor_index": 828,
-        "amplitude": 0.0044353518,
-        "abs_amplitude": 0.0044353518,
-        "raw_amplitude": 0.0133060553,
-        "percent": 1.330606,
-        "raw_percent": 1.330606,
-        "coverage_percent": 93.147817,
-        "member_count": 1,
-        "members": [
-          "brimming"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0133060553,
-            "similarity": 0.855438,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "hearty",
-        "descriptor_index": 3427,
-        "amplitude": 0.0042005095,
-        "abs_amplitude": 0.0042005095,
-        "raw_amplitude": 0.0126015285,
-        "percent": 1.260153,
-        "raw_percent": 1.260153,
-        "coverage_percent": 94.40797,
-        "member_count": 1,
-        "members": [
-          "hearty"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0126015285,
-            "similarity": 0.856006,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "sparkling",
-        "descriptor_index": 7119,
-        "amplitude": 0.0039458511,
-        "abs_amplitude": 0.0039458511,
-        "raw_amplitude": 0.0118375532,
-        "percent": 1.183755,
-        "raw_percent": 1.183755,
-        "coverage_percent": 95.591725,
-        "member_count": 1,
-        "members": [
-          "sparkling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 122324,
-            "name": "Serval",
-            "native_name": "サーバル",
-            "anime": "Kemono Friends",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
-            "site_url": "https://anilist.co/character/122324",
-            "anime_url": "https://myanimelist.net/anime/36119",
-            "role": "MAIN",
-            "favourites": 170,
-            "row_weight": 1.75237889,
-            "projection": 0.0118375532,
-            "similarity": 0.852617,
-            "matched_descriptor": "energetic"
-          }
-        ]
+        "step": 8,
+        "stop": "no_positive_residual_descriptor"
       }
     ],
     "characters": [
       {
         "character_id": 122324,
         "name": "Serval",
-        "native_name": "サーバル",
-        "anime": "Kemono Friends",
+        "anime": "Welcome to the JAPARI PARK",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
         "site_url": "https://anilist.co/character/122324",
-        "anime_url": "https://myanimelist.net/anime/36119",
-        "role": "MAIN",
         "favourites": 170,
-        "row_weight": 1.75237889,
+        "anilist_favourites": 170,
+        "bangumi_collects": 124,
+        "bangumi_comments": 29,
+        "bangumi_character_id": 50824,
+        "bangumi_url": "https://bgm.tv/character/50824",
+        "combined_favourites": 294,
+        "role_edge_count": 2,
+        "descriptors": [
+          "curious",
+          "energetic"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.79626459,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1372,19 +140,63 @@
       {
         "character_id": 122324,
         "name": "Serval",
-        "native_name": "サーバル",
-        "anime": "Kemono Friends",
+        "anime": "Welcome to the JAPARI PARK",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/122324-sYmcOVD85B4O.png",
         "site_url": "https://anilist.co/character/122324",
-        "anime_url": "https://myanimelist.net/anime/36119",
-        "role": "MAIN",
         "favourites": 170,
-        "row_weight": 1.75237889,
+        "anilist_favourites": 170,
+        "bangumi_collects": 124,
+        "bangumi_comments": 29,
+        "bangumi_character_id": 50824,
+        "bangumi_url": "https://bgm.tv/character/50824",
+        "combined_favourites": 294,
+        "role_edge_count": 2,
+        "descriptors": [
+          "curious",
+          "energetic"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 1.0,
+        "row_weight": 0.70710678,
+        "unweighted_row_norm": 1.79626459,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 0.7071067812,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 1501,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 10,
+    "sv1_max_terms": 10,
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "none",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

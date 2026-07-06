@@ -11,916 +11,99 @@
     "nagano yuki",
     "yuki nagano"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yuki_nagano.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 5.3700526399,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 5.3700526399,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 263.021938,
-      "normalized_entanglement": 0.684953,
-      "top5_mass_percent": 4.133601,
-      "top10_mass_percent": 7.597265
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5321228351,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 96.143349,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0692613028,
-        "abs_amplitude": 0.0692613028,
-        "raw_amplitude": 0.2077839084,
-        "percent": 20.778391,
-        "raw_percent": 20.778391,
-        "coverage_percent": 20.778391,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.523255095,
+        "abs_amplitude": 0.523255095,
+        "percent": 48.363302,
+        "weighted_support": 2.53212284,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 201420,
             "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
             "anime": "The Hidden Dungeon Only I Can Enter",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
             "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.2077839084,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
+            "combined_favourites": 223
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0692611918,
-        "abs_amplitude": 0.0692611918,
-        "raw_amplitude": 0.2077835754,
-        "percent": 20.778358,
-        "raw_percent": 20.778358,
-        "coverage_percent": 41.556748,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
+        "descriptor": "clingy",
+        "amplitude": 0.5586708194,
+        "abs_amplitude": 0.5586708194,
+        "percent": 51.636698,
+        "weighted_support": 2.53212284,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 201420,
             "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
             "anime": "The Hidden Dungeon Only I Can Enter",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
             "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.2077835754,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-reliant / solitary / self-sufficient / lone / +1",
-        "descriptor_index": 6664,
-        "amplitude": 0.0614141401,
-        "abs_amplitude": 0.0614141401,
-        "raw_amplitude": 0.1842424202,
-        "percent": 18.424242,
-        "raw_percent": 18.424242,
-        "coverage_percent": 59.98099,
-        "member_count": 5,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "lone",
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.1842424202,
-            "similarity": 0.855444,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0387172133,
-        "abs_amplitude": 0.0387172133,
-        "raw_amplitude": 0.1161516398,
-        "percent": 11.615164,
-        "raw_percent": 11.615164,
-        "coverage_percent": 71.596154,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.1161516398,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0142288323,
-        "abs_amplitude": 0.0142288323,
-        "raw_amplitude": 0.042686497,
-        "percent": 4.26865,
-        "raw_percent": 4.26865,
-        "coverage_percent": 75.864804,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.042686497,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0140599822,
-        "abs_amplitude": 0.0140599822,
-        "raw_amplitude": 0.0421799466,
-        "percent": 4.217995,
-        "raw_percent": 4.217995,
-        "coverage_percent": 80.082799,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0421799466,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0124774945,
-        "abs_amplitude": 0.0124774945,
-        "raw_amplitude": 0.0374324835,
-        "percent": 3.743248,
-        "raw_percent": 3.743248,
-        "coverage_percent": 83.826047,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0374324835,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "collected",
-        "descriptor_index": 1242,
-        "amplitude": 0.0114912579,
-        "abs_amplitude": 0.0114912579,
-        "raw_amplitude": 0.0344737738,
-        "percent": 3.447377,
-        "raw_percent": 3.447377,
-        "coverage_percent": 87.273424,
-        "member_count": 1,
-        "members": [
-          "collected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0344737738,
-            "similarity": 0.816196,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0082121863,
-        "abs_amplitude": 0.0082121863,
-        "raw_amplitude": 0.0246365589,
-        "percent": 2.463656,
-        "raw_percent": 2.463656,
-        "coverage_percent": 89.73708,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0246365589,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "isolated",
-        "descriptor_index": 4019,
-        "amplitude": 0.0082058369,
-        "abs_amplitude": 0.0082058369,
-        "raw_amplitude": 0.0246175108,
-        "percent": 2.461751,
-        "raw_percent": 2.461751,
-        "coverage_percent": 92.198831,
-        "member_count": 1,
-        "members": [
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0246175108,
-            "similarity": 0.834537,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "solo",
-        "descriptor_index": 7081,
-        "amplitude": 0.0074118809,
-        "abs_amplitude": 0.0074118809,
-        "raw_amplitude": 0.0222356428,
-        "percent": 2.223564,
-        "raw_percent": 2.223564,
-        "coverage_percent": 94.422396,
-        "member_count": 1,
-        "members": [
-          "solo"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0222356428,
-            "similarity": 0.802118,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.005822888,
-        "abs_amplitude": 0.005822888,
-        "raw_amplitude": 0.0174686639,
-        "percent": 1.746866,
-        "raw_percent": 1.746866,
-        "coverage_percent": 96.169262,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0174686639,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
+            "combined_favourites": 223
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0692613028,
-        "abs_amplitude": 0.0692613028,
-        "raw_amplitude": 0.2077839084,
-        "percent": 20.778391,
-        "raw_percent": 20.778391,
-        "coverage_percent": 20.778391,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
+        "step": 1,
+        "descriptor": "jealous",
+        "weighted_support": 2.53212284,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.2077839084,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
-          }
-        ]
+        "fit_percent": 84.665889,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.0692611918,
-        "abs_amplitude": 0.0692611918,
-        "raw_amplitude": 0.2077835754,
-        "percent": 20.778358,
-        "raw_percent": 20.778358,
-        "coverage_percent": 41.556748,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
+        "step": 2,
+        "descriptor": "clingy",
+        "weighted_support": 2.53212284,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.2077835754,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "self-reliant / solitary / self-sufficient / lone / +1",
-        "descriptor_index": 6664,
-        "amplitude": 0.0614141401,
-        "abs_amplitude": 0.0614141401,
-        "raw_amplitude": 0.1842424202,
-        "percent": 18.424242,
-        "raw_percent": 18.424242,
-        "coverage_percent": 59.98099,
-        "member_count": 5,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "lone",
-          "works-alone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.1842424202,
-            "similarity": 0.855444,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "over-protective / paranoid",
-        "descriptor_index": 5406,
-        "amplitude": 0.0387172133,
-        "abs_amplitude": 0.0387172133,
-        "raw_amplitude": 0.1161516398,
-        "percent": 11.615164,
-        "raw_percent": 11.615164,
-        "coverage_percent": 71.596154,
-        "member_count": 2,
-        "members": [
-          "over-protective",
-          "paranoid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.1161516398,
-            "similarity": 0.886986,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "saved",
-        "descriptor_index": 6469,
-        "amplitude": 0.0142288323,
-        "abs_amplitude": 0.0142288323,
-        "raw_amplitude": 0.042686497,
-        "percent": 4.26865,
-        "raw_percent": 4.26865,
-        "coverage_percent": 75.864804,
-        "member_count": 1,
-        "members": [
-          "saved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.042686497,
-            "similarity": 0.852241,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "justice-oriented",
-        "descriptor_index": 4088,
-        "amplitude": 0.0140599822,
-        "abs_amplitude": 0.0140599822,
-        "raw_amplitude": 0.0421799466,
-        "percent": 4.217995,
-        "raw_percent": 4.217995,
-        "coverage_percent": 80.082799,
-        "member_count": 1,
-        "members": [
-          "justice-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0421799466,
-            "similarity": 0.851788,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "sheltered",
-        "descriptor_index": 6780,
-        "amplitude": 0.0124774945,
-        "abs_amplitude": 0.0124774945,
-        "raw_amplitude": 0.0374324835,
-        "percent": 3.743248,
-        "raw_percent": 3.743248,
-        "coverage_percent": 83.826047,
-        "member_count": 1,
-        "members": [
-          "sheltered"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0374324835,
-            "similarity": 0.852004,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "collected",
-        "descriptor_index": 1242,
-        "amplitude": 0.0114912579,
-        "abs_amplitude": 0.0114912579,
-        "raw_amplitude": 0.0344737738,
-        "percent": 3.447377,
-        "raw_percent": 3.447377,
-        "coverage_percent": 87.273424,
-        "member_count": 1,
-        "members": [
-          "collected"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0344737738,
-            "similarity": 0.816196,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "territorial",
-        "descriptor_index": 7779,
-        "amplitude": 0.0082121863,
-        "abs_amplitude": 0.0082121863,
-        "raw_amplitude": 0.0246365589,
-        "percent": 2.463656,
-        "raw_percent": 2.463656,
-        "coverage_percent": 89.73708,
-        "member_count": 1,
-        "members": [
-          "territorial"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0246365589,
-            "similarity": 0.836087,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "isolated",
-        "descriptor_index": 4019,
-        "amplitude": 0.0082058369,
-        "abs_amplitude": 0.0082058369,
-        "raw_amplitude": 0.0246175108,
-        "percent": 2.461751,
-        "raw_percent": 2.461751,
-        "coverage_percent": 92.198831,
-        "member_count": 1,
-        "members": [
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0246175108,
-            "similarity": 0.834537,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "solo",
-        "descriptor_index": 7081,
-        "amplitude": 0.0074118809,
-        "abs_amplitude": 0.0074118809,
-        "raw_amplitude": 0.0222356428,
-        "percent": 2.223564,
-        "raw_percent": 2.223564,
-        "coverage_percent": 94.422396,
-        "member_count": 1,
-        "members": [
-          "solo"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0222356428,
-            "similarity": 0.802118,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rescue-oriented",
-        "descriptor_index": 6240,
-        "amplitude": 0.005822888,
-        "abs_amplitude": 0.005822888,
-        "raw_amplitude": 0.0174686639,
-        "percent": 1.746866,
-        "raw_percent": 1.746866,
-        "coverage_percent": 96.169262,
-        "member_count": 1,
-        "members": [
-          "rescue-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 201420,
-            "name": "Alice Stardia",
-            "native_name": "アリス・スタルジア",
-            "anime": "The Hidden Dungeon Only I Can Enter",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
-            "site_url": "https://anilist.co/character/201420",
-            "anime_url": "https://myanimelist.net/anime/45658",
-            "role": "SUPPORTING",
-            "favourites": 200,
-            "row_weight": 2.51063835,
-            "projection": 0.0174686639,
-            "similarity": 0.829672,
-            "matched_descriptor": "protective"
-          }
-        ]
+        "fit_percent": 96.143349,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 201420,
         "name": "Alice Stardia",
-        "native_name": "アリス・スタルジア",
         "anime": "The Hidden Dungeon Only I Can Enter",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
         "site_url": "https://anilist.co/character/201420",
-        "anime_url": "https://myanimelist.net/anime/45658",
-        "role": "SUPPORTING",
         "favourites": 200,
-        "row_weight": 2.51063835,
+        "anilist_favourites": 200,
+        "bangumi_collects": 23,
+        "bangumi_comments": 5,
+        "bangumi_character_id": 87820,
+        "bangumi_url": "https://bgm.tv/character/87820",
+        "combined_favourites": 223,
+        "role_edge_count": 1,
+        "descriptors": [
+          "affectionate",
+          "clingy",
+          "jealous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53212284,
+        "row_weight": 2.53212284,
+        "unweighted_row_norm": 2.58018106,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -930,19 +113,69 @@
       {
         "character_id": 201420,
         "name": "Alice Stardia",
-        "native_name": "アリス・スタルジア",
         "anime": "The Hidden Dungeon Only I Can Enter",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b201420-zunmk2vh5qnQ.png",
         "site_url": "https://anilist.co/character/201420",
-        "anime_url": "https://myanimelist.net/anime/45658",
-        "role": "SUPPORTING",
         "favourites": 200,
-        "row_weight": 2.51063835,
+        "anilist_favourites": 200,
+        "bangumi_collects": 23,
+        "bangumi_comments": 5,
+        "bangumi_character_id": 87820,
+        "bangumi_url": "https://bgm.tv/character/87820",
+        "combined_favourites": 223,
+        "role_edge_count": 1,
+        "descriptors": [
+          "affectionate",
+          "clingy",
+          "jealous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.53212284,
+        "row_weight": 2.53212284,
+        "unweighted_row_norm": 2.58018106,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5321228351,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

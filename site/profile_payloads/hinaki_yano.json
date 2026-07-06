@@ -5,1586 +5,337 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n143887-M4a4hO3mxDm6.png",
   "site_url": "https://anilist.co/staff/143887",
   "role_count": 20,
-  "character_count": 3,
+  "character_count": 2,
   "first_year": 2020,
   "aliases": [
     "hinaki yano",
     "yano hinaki"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/hinaki_yano.json",
+  "sv1_mass_percent": 79.379923,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 7.3156037347,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 7.3156037347,
-        "mass_percent": 78.557151
-      },
-      {
-        "rank": 2,
-        "singular_value": 2.9239847247,
-        "mass_percent": 12.549765
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.4614074196,
-        "mass_percent": 8.893084
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 219.178518,
-      "normalized_entanglement": 0.570777,
-      "top5_mass_percent": 6.153877,
-      "top10_mass_percent": 10.611249
-    },
-    "character_participation": {
-      "effective_count": 1.999458,
-      "normalized_entanglement": 0.666486,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.922859,
-      "semantic_spread": 2.041469,
-      "axis_concentration_percent": 88.717536,
-      "lane_count": 1.42245,
-      "direction_range": 0.953585,
-      "direction_spread": 1.103901,
-      "direction_axis_concentration_percent": 74.620617,
-      "direction_lane_count": 1.762027
-    },
-    "explained_sv_l2_percent": 78.557151,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 3.4235171728,
+    "mass_percent": 87.153773,
+    "descriptor_fit_percent": 95.354547,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "sophomore",
-        "descriptor_index": 7098,
-        "amplitude": 0.1171427714,
-        "abs_amplitude": 0.1171427714,
-        "raw_amplitude": 0.3514283143,
-        "percent": 39.430438,
-        "raw_percent": 39.430437,
-        "coverage_percent": 39.430438,
-        "member_count": 1,
-        "members": [
-          "sophomore"
-        ],
+        "descriptor": "kind",
+        "amplitude": 0.9535454719,
+        "abs_amplitude": 0.9535454719,
+        "percent": 100.0,
+        "weighted_support": 2.77233853,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.3514283143,
-            "similarity": 0.953975,
-            "matched_descriptor": "second year student"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "freshman",
-        "descriptor_index": 2806,
-        "amplitude": 0.0703506572,
-        "abs_amplitude": 0.0703506572,
-        "raw_amplitude": 0.2110519716,
-        "percent": 23.68014,
-        "raw_percent": 23.68014,
-        "coverage_percent": 63.110577,
-        "member_count": 1,
-        "members": [
-          "freshman"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.2110519716,
-            "similarity": 0.884727,
-            "matched_descriptor": "second year student"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "beloved",
-        "descriptor_index": 610,
-        "amplitude": 0.0162579169,
-        "abs_amplitude": 0.0162579169,
-        "raw_amplitude": 0.0487737508,
-        "percent": 5.47244,
-        "raw_percent": 5.47244,
-        "coverage_percent": 68.583017,
-        "member_count": 1,
-        "members": [
-          "beloved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.0487737508,
-            "similarity": 0.840968,
-            "matched_descriptor": "childhood friend"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "elite-educated",
-        "descriptor_index": 2126,
-        "amplitude": 0.0162552905,
-        "abs_amplitude": 0.0162552905,
-        "raw_amplitude": 0.0487658715,
-        "percent": 5.471556,
-        "raw_percent": 5.471556,
-        "coverage_percent": 74.054573,
-        "member_count": 1,
-        "members": [
-          "elite-educated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.0487658715,
-            "similarity": 0.812605,
-            "matched_descriptor": "second year student"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "junior",
-        "descriptor_index": 4077,
-        "amplitude": 0.016168633,
-        "abs_amplitude": 0.016168633,
-        "raw_amplitude": 0.048505899,
-        "percent": 5.442387,
-        "raw_percent": 5.442387,
-        "coverage_percent": 79.49696,
-        "member_count": 1,
-        "members": [
-          "junior"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.048505899,
-            "similarity": 0.808255,
-            "matched_descriptor": "second year student"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "studious",
-        "descriptor_index": 7434,
-        "amplitude": 0.0140959871,
-        "abs_amplitude": 0.0140959871,
-        "raw_amplitude": 0.0422879612,
-        "percent": 4.744731,
-        "raw_percent": 4.744731,
-        "coverage_percent": 84.241691,
-        "member_count": 1,
-        "members": [
-          "studious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.0422879612,
-            "similarity": 0.809774,
-            "matched_descriptor": "second year student"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "hard-working / hardworking",
-        "descriptor_index": 3350,
-        "amplitude": 0.0134860566,
-        "abs_amplitude": 0.0134860566,
-        "raw_amplitude": 0.0404581699,
-        "percent": 4.539427,
-        "raw_percent": 4.539427,
-        "coverage_percent": 88.781118,
-        "member_count": 2,
-        "members": [
-          "hard-working",
-          "hardworking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248384,
-            "name": "Akane Sakuramori",
-            "native_name": "桜森朱音",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-            "site_url": "https://anilist.co/character/248384",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "MAIN",
-            "favourites": 306,
-            "row_weight": 2.59361673,
-            "projection": 0.04045817,
-            "similarity": 1.0,
-            "matched_descriptor": "hardworking"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "family-oriented / family-conscious",
-        "descriptor_index": 2420,
-        "amplitude": 0.0041580971,
-        "abs_amplitude": 0.0041580971,
-        "raw_amplitude": 0.0124742912,
-        "percent": 1.399622,
-        "raw_percent": 1.399622,
-        "coverage_percent": 90.18074,
-        "member_count": 2,
-        "members": [
-          "family-oriented",
-          "family-conscious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248384,
-            "name": "Akane Sakuramori",
-            "native_name": "桜森朱音",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-            "site_url": "https://anilist.co/character/248384",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "MAIN",
-            "favourites": 306,
-            "row_weight": 2.59361673,
-            "projection": 0.0124742912,
-            "similarity": 0.88553,
-            "matched_descriptor": "family-oriented side"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "oldest",
-        "descriptor_index": 5304,
-        "amplitude": 0.0039389772,
-        "abs_amplitude": 0.0039389772,
-        "raw_amplitude": 0.0118169316,
-        "percent": 1.325866,
-        "raw_percent": 1.325866,
-        "coverage_percent": 91.506606,
-        "member_count": 1,
-        "members": [
-          "oldest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 170349,
-            "name": "Yuu Takasaki",
-            "native_name": "高咲侑",
-            "anime": "Love Live! Nijigasaki High School Idol Club",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-            "site_url": "https://anilist.co/character/170349",
-            "anime_url": "https://myanimelist.net/anime/40879",
-            "role": "SUPPORTING",
-            "favourites": 322,
-            "row_weight": 2.60339246,
-            "projection": 0.0118169316,
-            "similarity": 0.807692,
-            "matched_descriptor": "childhood friend"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "flawless",
-        "descriptor_index": 2603,
-        "amplitude": 0.0032694176,
-        "abs_amplitude": 0.0032694176,
-        "raw_amplitude": 0.0098082529,
-        "percent": 1.100491,
-        "raw_percent": 1.100491,
-        "coverage_percent": 92.607097,
-        "member_count": 1,
-        "members": [
-          "flawless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248384,
-            "name": "Akane Sakuramori",
-            "native_name": "桜森朱音",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-            "site_url": "https://anilist.co/character/248384",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "MAIN",
-            "favourites": 306,
-            "row_weight": 2.59361673,
-            "projection": 0.0098082529,
-            "similarity": 0.905776,
-            "matched_descriptor": "model-class beauty"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "mother-focused",
-        "descriptor_index": 4943,
-        "amplitude": 0.0028798482,
-        "abs_amplitude": 0.0028798482,
-        "raw_amplitude": 0.0086395445,
-        "percent": 0.969361,
-        "raw_percent": 0.969361,
-        "coverage_percent": 93.576459,
-        "member_count": 1,
-        "members": [
-          "mother-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248384,
-            "name": "Akane Sakuramori",
-            "native_name": "桜森朱音",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-            "site_url": "https://anilist.co/character/248384",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "MAIN",
-            "favourites": 306,
-            "row_weight": 2.59361673,
-            "projection": 0.0086395445,
-            "similarity": 0.895273,
-            "matched_descriptor": "family-oriented side"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "competitive",
-        "descriptor_index": 1313,
-        "amplitude": 0.0027730258,
-        "abs_amplitude": 0.0027730258,
-        "raw_amplitude": 0.0083190773,
-        "percent": 0.933405,
-        "raw_percent": 0.933405,
-        "coverage_percent": 94.509863,
-        "member_count": 1,
-        "members": [
-          "competitive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248384,
-            "name": "Akane Sakuramori",
-            "native_name": "桜森朱音",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-            "site_url": "https://anilist.co/character/248384",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "MAIN",
-            "favourites": 306,
-            "row_weight": 2.59361673,
-            "projection": 0.0083190773,
-            "similarity": 0.883871,
-            "matched_descriptor": "competitive spirit"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.0024127821,
-        "abs_amplitude": 0.0024127821,
-        "raw_amplitude": 0.0072383463,
-        "percent": 0.812146,
-        "raw_percent": 0.812146,
-        "coverage_percent": 95.322009,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 248384,
-            "name": "Akane Sakuramori",
-            "native_name": "桜森朱音",
-            "anime": "I'm Getting Married to a Girl I Hate in My Class",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-            "site_url": "https://anilist.co/character/248384",
-            "anime_url": "https://myanimelist.net/anime/59135",
-            "role": "MAIN",
-            "favourites": 306,
-            "row_weight": 2.59361673,
-            "projection": 0.0072383463,
-            "similarity": 0.89985,
-            "matched_descriptor": "model-class beauty"
+            "character_id": 200355,
+            "name": "Kitasan Black",
+            "anime": "Umamusume: Pretty Derby Season 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
+            "site_url": "https://anilist.co/character/200355",
+            "combined_favourites": 800
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "cheerful / energetic / upbeat / exuberant / +17",
-        "descriptor_index": 1036,
-        "amplitude": 0.0538607117,
-        "abs_amplitude": 0.0538607117,
-        "raw_amplitude": 0.161582135,
-        "percent": 25.496132,
-        "raw_percent": 25.495719,
-        "coverage_percent": 25.496132,
-        "member_count": 21,
-        "members": [
-          "cheerful",
-          "energetic",
-          "upbeat",
-          "exuberant",
-          "cheery",
-          "joyous",
-          "spirited",
-          "vivacious",
-          "happy",
-          "smiling",
-          "gleeful",
-          "joyful",
-          "giddy",
-          "encouraging",
-          "jocular",
-          "cheerful-looking",
-          "sunny",
-          "jovial",
-          "perky",
-          "lighthearted",
-          "happiness-experiencing"
-        ],
+        "step": 1,
+        "descriptor": "kind",
+        "weighted_support": 2.77233853,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.1615821349,
-            "similarity": 1.0,
-            "matched_descriptor": "cheerful / energetic"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "belligerent / aggressive / confrontational / combative / +5",
-        "descriptor_index": 609,
-        "amplitude": 0.0273135979,
-        "abs_amplitude": 0.0273135979,
-        "raw_amplitude": 0.0819407938,
-        "percent": 12.929482,
-        "raw_percent": 12.929273,
-        "coverage_percent": 38.425614,
-        "member_count": 9,
-        "members": [
-          "belligerent",
-          "aggressive",
-          "confrontational",
-          "combative",
-          "hostile",
-          "offensive",
-          "threatening",
-          "pushy",
-          "vicious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0819407939,
-            "similarity": 1.0,
-            "matched_descriptor": "belligerent"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0269740225,
-        "abs_amplitude": 0.0269740225,
-        "raw_amplitude": 0.0809220675,
-        "percent": 12.768737,
-        "raw_percent": 12.76853,
-        "coverage_percent": 51.19435,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0809220675,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "loud / loud-voiced / noisy / tough-talking",
-        "descriptor_index": 4401,
-        "amplitude": 0.0127122898,
-        "abs_amplitude": 0.0127122898,
-        "raw_amplitude": 0.0381368695,
-        "percent": 6.017637,
-        "raw_percent": 6.01754,
-        "coverage_percent": 57.211987,
-        "member_count": 4,
-        "members": [
-          "loud",
-          "loud-voiced",
-          "noisy",
-          "tough-talking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0381368695,
-            "similarity": 1.0,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "hyper-active / rambunctious / vigorous / hyperactive / +2",
-        "descriptor_index": 3661,
-        "amplitude": 0.0099297975,
-        "abs_amplitude": 0.0099297975,
-        "raw_amplitude": 0.0297893925,
-        "percent": 4.700484,
-        "raw_percent": 4.700408,
-        "coverage_percent": 61.912472,
-        "member_count": 6,
-        "members": [
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "hyperactive",
-          "active",
-          "excitable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0297893924,
-            "similarity": 0.913947,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "helpful",
-        "descriptor_index": 3444,
-        "amplitude": 0.0050925824,
-        "abs_amplitude": 0.0050925824,
-        "raw_amplitude": 0.0152777473,
-        "percent": 2.410684,
-        "raw_percent": 2.410645,
-        "coverage_percent": 64.323156,
-        "member_count": 1,
-        "members": [
-          "helpful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0152777473,
-            "similarity": 1.0,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "resistant / persistent / defiant / inflexible / +4",
-        "descriptor_index": 6256,
-        "amplitude": 0.0048550081,
-        "abs_amplitude": 0.0048550081,
-        "raw_amplitude": 0.0145650244,
-        "percent": 2.298223,
-        "raw_percent": 2.298186,
-        "coverage_percent": 66.621379,
-        "member_count": 8,
-        "members": [
-          "resistant",
-          "persistent",
-          "defiant",
-          "inflexible",
-          "rebellious",
-          "refractory",
-          "headstrong",
-          "strong-willed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0145650243,
-            "similarity": 0.893565,
-            "matched_descriptor": "belligerent"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "playful / fun-loving / light-hearted / amused / +2",
-        "descriptor_index": 5645,
-        "amplitude": 0.0038601528,
-        "abs_amplitude": 0.0038601528,
-        "raw_amplitude": 0.0115804585,
-        "percent": 1.827287,
-        "raw_percent": 1.827257,
-        "coverage_percent": 68.448665,
-        "member_count": 6,
-        "members": [
-          "playful",
-          "fun-loving",
-          "light-hearted",
-          "amused",
-          "good-humoured",
-          "good-humored"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0115804585,
-            "similarity": 0.895205,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +2",
-        "descriptor_index": 648,
-        "amplitude": 0.0034170209,
-        "abs_amplitude": 0.0034170209,
-        "raw_amplitude": 0.0102510626,
-        "percent": 1.617521,
-        "raw_percent": 1.617494,
-        "coverage_percent": 70.066186,
-        "member_count": 6,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "kindhearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0102510625,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind / cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "vocal / outspoken",
-        "descriptor_index": 8396,
-        "amplitude": 0.0032266105,
-        "abs_amplitude": 0.0032266105,
-        "raw_amplitude": 0.0096798316,
-        "percent": 1.527386,
-        "raw_percent": 1.527361,
-        "coverage_percent": 71.593572,
-        "member_count": 2,
-        "members": [
-          "vocal",
-          "outspoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0096798317,
-            "similarity": 0.896227,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "volunteer / humanitarian",
-        "descriptor_index": 8411,
-        "amplitude": 0.0031261509,
-        "abs_amplitude": 0.0031261509,
-        "raw_amplitude": 0.0093784526,
-        "percent": 1.479831,
-        "raw_percent": 1.479807,
-        "coverage_percent": 73.073403,
-        "member_count": 2,
-        "members": [
-          "volunteer",
-          "humanitarian"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0093784526,
-            "similarity": 0.861211,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "ill-tempered / mad / angry / furious / +1",
-        "descriptor_index": 3723,
-        "amplitude": 0.0028144446,
-        "abs_amplitude": 0.0028144446,
-        "raw_amplitude": 0.0084433337,
-        "percent": 1.332278,
-        "raw_percent": 1.332257,
-        "coverage_percent": 74.405681,
-        "member_count": 5,
-        "members": [
-          "ill-tempered",
-          "mad",
-          "angry",
-          "furious",
-          "hot-headed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0084433338,
-            "similarity": 0.880618,
-            "matched_descriptor": "belligerent"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0027960168,
-        "abs_amplitude": 0.0027960168,
-        "raw_amplitude": 0.0083880504,
-        "percent": 1.323555,
-        "raw_percent": 1.323534,
-        "coverage_percent": 75.729236,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0083880505,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "good / openhearted / pleasant / open-hearted / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0025857805,
-        "abs_amplitude": 0.0025857805,
-        "raw_amplitude": 0.0077573414,
-        "percent": 1.224035,
-        "raw_percent": 1.224015,
-        "coverage_percent": 76.953271,
-        "member_count": 6,
-        "members": [
-          "good",
-          "openhearted",
-          "pleasant",
-          "open-hearted",
-          "polite",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0077573414,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "enthusiastic / fervent",
-        "descriptor_index": 2207,
-        "amplitude": 0.0025539932,
-        "abs_amplitude": 0.0025539932,
-        "raw_amplitude": 0.0076619796,
-        "percent": 1.208988,
-        "raw_percent": 1.208968,
-        "coverage_percent": 78.162259,
-        "member_count": 2,
-        "members": [
-          "enthusiastic",
-          "fervent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0076619796,
-            "similarity": 0.886782,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "useful",
-        "descriptor_index": 8262,
-        "amplitude": 0.0020789991,
-        "abs_amplitude": 0.0020789991,
-        "raw_amplitude": 0.0062369974,
-        "percent": 0.984139,
-        "raw_percent": 0.984123,
-        "coverage_percent": 79.146398,
-        "member_count": 1,
-        "members": [
-          "useful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0062369974,
-            "similarity": 0.882858,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "thrilled / delighted / ecstatic",
-        "descriptor_index": 7830,
-        "amplitude": 0.0020774648,
-        "abs_amplitude": 0.0020774648,
-        "raw_amplitude": 0.0062323945,
-        "percent": 0.983413,
-        "raw_percent": 0.983397,
-        "coverage_percent": 80.129811,
-        "member_count": 3,
-        "members": [
-          "thrilled",
-          "delighted",
-          "ecstatic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0062323945,
-            "similarity": 0.891479,
-            "matched_descriptor": "cheerful"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "flatulent",
-        "descriptor_index": 2602,
-        "amplitude": 0.0020607773,
-        "abs_amplitude": 0.0020607773,
-        "raw_amplitude": 0.0061823318,
-        "percent": 0.975513,
-        "raw_percent": 0.975498,
-        "coverage_percent": 81.105325,
-        "member_count": 1,
-        "members": [
-          "flatulent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0061823318,
-            "similarity": 0.891084,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "delicate-voice / soft-spoken",
-        "descriptor_index": 1668,
-        "amplitude": 0.0020344673,
-        "abs_amplitude": 0.0020344673,
-        "raw_amplitude": 0.0061034019,
-        "percent": 0.963059,
-        "raw_percent": 0.963043,
-        "coverage_percent": 82.068384,
-        "member_count": 2,
-        "members": [
-          "delicate-voice",
-          "soft-spoken"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0061034018,
-            "similarity": 0.87806,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "whiney",
-        "descriptor_index": 8541,
-        "amplitude": 0.0018545038,
-        "abs_amplitude": 0.0018545038,
-        "raw_amplitude": 0.0055635113,
-        "percent": 0.877869,
-        "raw_percent": 0.877855,
-        "coverage_percent": 82.946253,
-        "member_count": 1,
-        "members": [
-          "whiney"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0055635113,
-            "similarity": 0.899097,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "silent / voiceless / mute",
-        "descriptor_index": 6854,
-        "amplitude": 0.0017862228,
-        "abs_amplitude": 0.0017862228,
-        "raw_amplitude": 0.0053586683,
-        "percent": 0.845547,
-        "raw_percent": 0.845533,
-        "coverage_percent": 83.7918,
-        "member_count": 3,
-        "members": [
-          "silent",
-          "voiceless",
-          "mute"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0053586684,
-            "similarity": 0.851427,
-            "matched_descriptor": "loud"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "favor-seeking",
-        "descriptor_index": 2476,
-        "amplitude": 0.001652546,
-        "abs_amplitude": 0.001652546,
-        "raw_amplitude": 0.0049576379,
-        "percent": 0.782268,
-        "raw_percent": 0.782256,
-        "coverage_percent": 84.574069,
-        "member_count": 1,
-        "members": [
-          "favor-seeking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0049576379,
-            "similarity": 0.864875,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "fierce / brash / fiery",
-        "descriptor_index": 2527,
-        "amplitude": 0.0016237044,
-        "abs_amplitude": 0.0016237044,
-        "raw_amplitude": 0.0048711132,
-        "percent": 0.768616,
-        "raw_percent": 0.768603,
-        "coverage_percent": 85.342684,
-        "member_count": 3,
-        "members": [
-          "fierce",
-          "brash",
-          "fiery"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0048711132,
-            "similarity": 0.875543,
-            "matched_descriptor": "belligerent"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "receptive / accepting",
-        "descriptor_index": 6156,
-        "amplitude": 0.0015872922,
-        "abs_amplitude": 0.0015872922,
-        "raw_amplitude": 0.0047618766,
-        "percent": 0.751379,
-        "raw_percent": 0.751367,
-        "coverage_percent": 86.094063,
-        "member_count": 2,
-        "members": [
-          "receptive",
-          "accepting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.0047618766,
-            "similarity": 0.864486,
-            "matched_descriptor": "helpful"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "strong / macho / durable",
-        "descriptor_index": 7332,
-        "amplitude": 0.001533671,
-        "abs_amplitude": 0.001533671,
-        "raw_amplitude": 0.004601013,
-        "percent": 0.725996,
-        "raw_percent": 0.725985,
-        "coverage_percent": 86.82006,
-        "member_count": 3,
-        "members": [
-          "strong",
-          "macho",
-          "durable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 200355,
-            "name": "Kitasan Black",
-            "native_name": "キタサンブラック",
-            "anime": "Umamusume: Pretty Derby Season 2",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
-            "site_url": "https://anilist.co/character/200355",
-            "anime_url": "https://myanimelist.net/anime/42941",
-            "role": "SUPPORTING",
-            "favourites": 657,
-            "row_weight": 2.73664118,
-            "projection": 0.004601013,
-            "similarity": 0.877628,
-            "matched_descriptor": "belligerent"
-          }
-        ]
+        "fit_percent": 95.354547,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
-        "character_id": 170349,
-        "name": "Yuu Takasaki",
-        "native_name": "高咲侑",
-        "anime": "Love Live! Nijigasaki High School Idol Club",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-        "site_url": "https://anilist.co/character/170349",
-        "anime_url": "https://myanimelist.net/anime/40879",
-        "role": "SUPPORTING",
-        "favourites": 322,
-        "row_weight": 2.60339246,
-        "amplitude": 0.762784036,
-        "abs_amplitude": 0.762784036,
-        "percent": 58.183949
-      },
-      {
         "character_id": 200355,
         "name": "Kitasan Black",
-        "native_name": "キタサンブラック",
         "anime": "Umamusume: Pretty Derby Season 2",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
         "site_url": "https://anilist.co/character/200355",
-        "anime_url": "https://myanimelist.net/anime/42941",
-        "role": "SUPPORTING",
         "favourites": 657,
-        "row_weight": 2.73664118,
-        "amplitude": -0.6337618252,
-        "abs_amplitude": 0.6337618252,
-        "percent": 40.165405
+        "anilist_favourites": 657,
+        "bangumi_collects": 143,
+        "bangumi_comments": 53,
+        "bangumi_character_id": 89568,
+        "bangumi_url": "https://bgm.tv/character/89568",
+        "combined_favourites": 800,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.77233853,
+        "row_weight": 2.77233853,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7721739726,
+        "abs_amplitude": 0.7721739726,
+        "percent": 59.625264
       },
       {
-        "character_id": 248384,
-        "name": "Akane Sakuramori",
-        "native_name": "桜森朱音",
-        "anime": "I'm Getting Married to a Girl I Hate in My Class",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-        "site_url": "https://anilist.co/character/248384",
-        "anime_url": "https://myanimelist.net/anime/59135",
-        "role": "MAIN",
-        "favourites": 306,
-        "row_weight": 2.59361673,
-        "amplitude": 0.1284774818,
-        "abs_amplitude": 0.1284774818,
-        "percent": 1.650646
+        "character_id": 300902,
+        "name": "Shizuku",
+        "anime": "The Elusive Samurai",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b300902-KUbST43hFFnH.jpg",
+        "site_url": "https://anilist.co/character/300902",
+        "favourites": 111,
+        "anilist_favourites": 111,
+        "bangumi_collects": 5,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 41597,
+        "bangumi_url": "https://bgm.tv/character/41597",
+        "combined_favourites": 116,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "mischievous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.40045286,
+        "row_weight": 2.40045286,
+        "unweighted_row_norm": 1.77216162,
+        "amplitude": 0.6354111709,
+        "abs_amplitude": 0.6354111709,
+        "percent": 40.374736
       }
     ],
     "positive_characters": [
       {
-        "character_id": 170349,
-        "name": "Yuu Takasaki",
-        "native_name": "高咲侑",
-        "anime": "Love Live! Nijigasaki High School Idol Club",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b170349-1hYaNLYsApgn.png",
-        "site_url": "https://anilist.co/character/170349",
-        "anime_url": "https://myanimelist.net/anime/40879",
-        "role": "SUPPORTING",
-        "favourites": 322,
-        "row_weight": 2.60339246,
-        "amplitude": 0.762784036,
-        "abs_amplitude": 0.762784036,
-        "percent": 58.183949
-      },
-      {
-        "character_id": 248384,
-        "name": "Akane Sakuramori",
-        "native_name": "桜森朱音",
-        "anime": "I'm Getting Married to a Girl I Hate in My Class",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b248384-BrzjgyQ3MDs5.png",
-        "site_url": "https://anilist.co/character/248384",
-        "anime_url": "https://myanimelist.net/anime/59135",
-        "role": "MAIN",
-        "favourites": 306,
-        "row_weight": 2.59361673,
-        "amplitude": 0.1284774818,
-        "abs_amplitude": 0.1284774818,
-        "percent": 1.650646
-      }
-    ],
-    "negative_characters": [
-      {
         "character_id": 200355,
         "name": "Kitasan Black",
-        "native_name": "キタサンブラック",
         "anime": "Umamusume: Pretty Derby Season 2",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
         "site_url": "https://anilist.co/character/200355",
-        "anime_url": "https://myanimelist.net/anime/42941",
-        "role": "SUPPORTING",
         "favourites": 657,
-        "row_weight": 2.73664118,
-        "amplitude": -0.6337618252,
-        "abs_amplitude": 0.6337618252,
-        "percent": 40.165405
+        "anilist_favourites": 657,
+        "bangumi_collects": 143,
+        "bangumi_comments": 53,
+        "bangumi_character_id": 89568,
+        "bangumi_url": "https://bgm.tv/character/89568",
+        "combined_favourites": 800,
+        "role_edge_count": 1,
+        "descriptors": [
+          "kind"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.77233853,
+        "row_weight": 2.77233853,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.7721739726,
+        "abs_amplitude": 0.7721739726,
+        "percent": 59.625264
+      },
+      {
+        "character_id": 300902,
+        "name": "Shizuku",
+        "anime": "The Elusive Samurai",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b300902-KUbST43hFFnH.jpg",
+        "site_url": "https://anilist.co/character/300902",
+        "favourites": 111,
+        "anilist_favourites": 111,
+        "bangumi_collects": 5,
+        "bangumi_comments": 1,
+        "bangumi_character_id": 41597,
+        "bangumi_url": "https://bgm.tv/character/41597",
+        "combined_favourites": 116,
+        "role_edge_count": 1,
+        "descriptors": [
+          "loyal",
+          "mischievous"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.40045286,
+        "row_weight": 2.40045286,
+        "unweighted_row_norm": 1.77216162,
+        "amplitude": 0.6354111709,
+        "abs_amplitude": 0.6354111709,
+        "percent": 40.374736
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.928532,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.3143686886,
+      "mass_percent": 12.846227,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 30.124912,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "kind",
+            "amplitude": 0.3012491213,
+            "abs_amplitude": 0.3012491213,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "kind",
+            "fit_percent": 30.124912,
+            "residual_gain_percent": 9.075103
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 200355,
+            "name": "Kitasan Black",
+            "anime": "Umamusume: Pretty Derby Season 2",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b200355-q8gVdS2habto.png",
+            "site_url": "https://anilist.co/character/200355",
+            "favourites": 657,
+            "anilist_favourites": 657,
+            "bangumi_collects": 143,
+            "bangumi_comments": 53,
+            "bangumi_character_id": 89568,
+            "bangumi_url": "https://bgm.tv/character/89568",
+            "combined_favourites": 800,
+            "role_edge_count": 1,
+            "descriptors": [
+              "kind"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.77233853,
+            "row_weight": 2.77233853,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.6354111709,
+            "abs_amplitude": 0.6354111709,
+            "percent": 40.374736
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 42.773798,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "loyal",
+            "amplitude": 0.3034578295,
+            "abs_amplitude": 0.3034578295,
+            "percent": 63.363825
+          },
+          {
+            "rank": 2,
+            "descriptor": "mischievous",
+            "amplitude": 0.16336608,
+            "abs_amplitude": 0.16336608,
+            "percent": 34.111823
+          },
+          {
+            "rank": 3,
+            "descriptor": "rebellious",
+            "amplitude": 0.0120894603,
+            "abs_amplitude": 0.0120894603,
+            "percent": 2.524352
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "loyal",
+            "fit_percent": 40.444418,
+            "residual_gain_percent": 16.357509
+          },
+          {
+            "step": 2,
+            "descriptor": "mischievous",
+            "fit_percent": 42.766569,
+            "residual_gain_percent": 2.310172
+          },
+          {
+            "step": 3,
+            "descriptor": "rebellious",
+            "fit_percent": 42.773798,
+            "residual_gain_percent": 0.007568
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 300902,
+            "name": "Shizuku",
+            "anime": "The Elusive Samurai",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b300902-KUbST43hFFnH.jpg",
+            "site_url": "https://anilist.co/character/300902",
+            "favourites": 111,
+            "anilist_favourites": 111,
+            "bangumi_collects": 5,
+            "bangumi_comments": 1,
+            "bangumi_character_id": 41597,
+            "bangumi_url": "https://bgm.tv/character/41597",
+            "combined_favourites": 116,
+            "role_edge_count": 1,
+            "descriptors": [
+              "loyal",
+              "mischievous"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.40045286,
+            "row_weight": 2.40045286,
+            "unweighted_row_norm": 1.77216162,
+            "amplitude": -0.7721739726,
+            "abs_amplitude": 0.7721739726,
+            "percent": 59.625264
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 3.4235171728,
+      "mass_percent": 87.153773,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.3143686886,
+      "mass_percent": 12.846227,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

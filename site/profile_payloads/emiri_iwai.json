@@ -11,2036 +11,158 @@
     "emiri iwai",
     "iwai emiri"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/emiri_iwai.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 99.33241,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 27.6712786123,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 27.6712786123,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 295.792769,
-      "normalized_entanglement": 0.770294,
-      "top5_mass_percent": 3.911359,
-      "top10_mass_percent": 6.963263
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.7188080317,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 95.405957,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.0277715934,
-        "abs_amplitude": 0.0277715934,
-        "raw_amplitude": 0.0833147801,
-        "percent": 8.331621,
-        "raw_percent": 8.331478,
-        "coverage_percent": 8.331621,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
+        "descriptor": "strange",
+        "amplitude": 0.3057989732,
+        "abs_amplitude": 0.3057989732,
+        "percent": 27.287686,
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 280053,
             "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
             "anime": "Summer Pockets",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
             "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.08331478,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
+            "combined_favourites": 596
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "strange / odd / peculiar / unusual / +4",
-        "descriptor_index": 7287,
-        "amplitude": 0.0269191034,
-        "abs_amplitude": 0.0269191034,
-        "raw_amplitude": 0.0807573101,
-        "percent": 8.075869,
-        "raw_percent": 8.075731,
-        "coverage_percent": 16.40749,
-        "member_count": 8,
-        "members": [
-          "strange",
-          "odd",
-          "peculiar",
-          "unusual",
-          "weird",
-          "outlandish",
-          "kooky",
-          "bizarre"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.2767954342,
+        "abs_amplitude": 0.2767954342,
+        "percent": 24.699583,
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 280053,
             "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
             "anime": "Summer Pockets",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
             "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.08075731,
-            "similarity": 1.0,
-            "matched_descriptor": "strange"
+            "combined_favourites": 596
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0228822426,
-        "abs_amplitude": 0.0228822426,
-        "raw_amplitude": 0.0686467279,
-        "percent": 6.86479,
-        "raw_percent": 6.864673,
-        "coverage_percent": 23.27228,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "descriptor": "rational",
+        "amplitude": 0.2898526856,
+        "abs_amplitude": 0.2898526856,
+        "percent": 25.864734,
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 280053,
             "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
             "anime": "Summer Pockets",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
             "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0686467279,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
+            "combined_favourites": 596
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "shy / reticent / bashful / discreet / +10",
-        "descriptor_index": 6837,
-        "amplitude": 0.0227722669,
-        "abs_amplitude": 0.0227722669,
-        "raw_amplitude": 0.0683168008,
-        "percent": 6.831797,
-        "raw_percent": 6.83168,
-        "coverage_percent": 30.104077,
-        "member_count": 14,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "subdued"
-        ],
+        "descriptor": "naive",
+        "amplitude": 0.2482011364,
+        "abs_amplitude": 0.2482011364,
+        "percent": 22.147997,
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 280053,
             "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
             "anime": "Summer Pockets",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
             "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0683168008,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0191518678,
-        "abs_amplitude": 0.0191518678,
-        "raw_amplitude": 0.0574556035,
-        "percent": 5.745659,
-        "raw_percent": 5.74556,
-        "coverage_percent": 35.849736,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0574556036,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "rational / logical / logic-oriented / deductive / +1",
-        "descriptor_index": 6129,
-        "amplitude": 0.0137169558,
-        "abs_amplitude": 0.0137169558,
-        "raw_amplitude": 0.0411508673,
-        "percent": 4.115157,
-        "raw_percent": 4.115087,
-        "coverage_percent": 39.964893,
-        "member_count": 5,
-        "members": [
-          "rational",
-          "logical",
-          "logic-oriented",
-          "deductive",
-          "normal-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0411508674,
-            "similarity": 1.0,
-            "matched_descriptor": "rational"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "honest / direct / forthright / blunt / +1",
-        "descriptor_index": 3549,
-        "amplitude": 0.0130211294,
-        "abs_amplitude": 0.0130211294,
-        "raw_amplitude": 0.0390633883,
-        "percent": 3.906406,
-        "raw_percent": 3.906339,
-        "coverage_percent": 43.871299,
-        "member_count": 5,
-        "members": [
-          "honest",
-          "direct",
-          "forthright",
-          "blunt",
-          "no-nonsense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0390633883,
-            "similarity": 1.0,
-            "matched_descriptor": "honest"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "lenient / accommodating / grudge-free / refractory",
-        "descriptor_index": 4273,
-        "amplitude": 0.0094945761,
-        "abs_amplitude": 0.0094945761,
-        "raw_amplitude": 0.0284837282,
-        "percent": 2.848422,
-        "raw_percent": 2.848373,
-        "coverage_percent": 46.71972,
-        "member_count": 4,
-        "members": [
-          "lenient",
-          "accommodating",
-          "grudge-free",
-          "refractory"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0284837283,
-            "similarity": 1.0,
-            "matched_descriptor": "lenient"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "docile / yielding / servile / well-behaved",
-        "descriptor_index": 1900,
-        "amplitude": 0.0093192984,
-        "abs_amplitude": 0.0093192984,
-        "raw_amplitude": 0.0279578953,
-        "percent": 2.795837,
-        "raw_percent": 2.79579,
-        "coverage_percent": 49.515558,
-        "member_count": 4,
-        "members": [
-          "docile",
-          "yielding",
-          "servile",
-          "well-behaved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0279578954,
-            "similarity": 1.0,
-            "matched_descriptor": "docile"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "naive / simple-minded / clueless",
-        "descriptor_index": 5027,
-        "amplitude": 0.0083847142,
-        "abs_amplitude": 0.0083847142,
-        "raw_amplitude": 0.0251541427,
-        "percent": 2.515457,
-        "raw_percent": 2.515414,
-        "coverage_percent": 52.031015,
-        "member_count": 3,
-        "members": [
-          "naive",
-          "simple-minded",
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0251541428,
-            "similarity": 1.0,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "clumsy / uncoordinated / awkward",
-        "descriptor_index": 1203,
-        "amplitude": 0.0083501129,
-        "abs_amplitude": 0.0083501129,
-        "raw_amplitude": 0.0250503386,
-        "percent": 2.505077,
-        "raw_percent": 2.505034,
-        "coverage_percent": 54.536092,
-        "member_count": 3,
-        "members": [
-          "clumsy",
-          "uncoordinated",
-          "awkward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0250503386,
-            "similarity": 1.0,
-            "matched_descriptor": "clumsy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0074211434,
-        "abs_amplitude": 0.0074211434,
-        "raw_amplitude": 0.0222634301,
-        "percent": 2.226381,
-        "raw_percent": 2.226343,
-        "coverage_percent": 56.762473,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0222634301,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "disinterested / rigid / indifferent / uncaring / +4",
-        "descriptor_index": 1861,
-        "amplitude": 0.0054457333,
-        "abs_amplitude": 0.0054457333,
-        "raw_amplitude": 0.0163371998,
-        "percent": 1.633748,
-        "raw_percent": 1.63372,
-        "coverage_percent": 58.396221,
-        "member_count": 8,
-        "members": [
-          "disinterested",
-          "rigid",
-          "indifferent",
-          "uncaring",
-          "unsocial",
-          "standoffish",
-          "unconcerned",
-          "cold"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0163371997,
-            "similarity": 0.892744,
-            "matched_descriptor": "naive / lenient / shy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unyielding / unbending / headstrong / unshakable / +4",
-        "descriptor_index": 8250,
-        "amplitude": 0.0051409878,
-        "abs_amplitude": 0.0051409878,
-        "raw_amplitude": 0.0154229633,
-        "percent": 1.542323,
-        "raw_percent": 1.542296,
-        "coverage_percent": 59.938543,
-        "member_count": 8,
-        "members": [
-          "unyielding",
-          "unbending",
-          "headstrong",
-          "unshakable",
-          "tenacious",
-          "persistent",
-          "strong-willed",
-          "inflexible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0154229633,
-            "similarity": 0.897099,
-            "matched_descriptor": "lenient"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "half-german",
-        "descriptor_index": 3308,
-        "amplitude": 0.0043200727,
-        "abs_amplitude": 0.0043200727,
-        "raw_amplitude": 0.0129602182,
-        "percent": 1.296044,
-        "raw_percent": 1.296022,
-        "coverage_percent": 61.234587,
-        "member_count": 1,
-        "members": [
-          "half-german"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0129602182,
-            "similarity": 1.0,
-            "matched_descriptor": "half-german"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "zany / quirky",
-        "descriptor_index": 8691,
-        "amplitude": 0.0038515333,
-        "abs_amplitude": 0.0038515333,
-        "raw_amplitude": 0.0115545999,
-        "percent": 1.15548,
-        "raw_percent": 1.15546,
-        "coverage_percent": 62.390067,
-        "member_count": 2,
-        "members": [
-          "zany",
-          "quirky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0115545999,
-            "similarity": 0.900783,
-            "matched_descriptor": "strange"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "analytic / analytical / over-thinker",
-        "descriptor_index": 216,
-        "amplitude": 0.0033460421,
-        "abs_amplitude": 0.0033460421,
-        "raw_amplitude": 0.0100381263,
-        "percent": 1.00383,
-        "raw_percent": 1.003813,
-        "coverage_percent": 63.393897,
-        "member_count": 3,
-        "members": [
-          "analytic",
-          "analytical",
-          "over-thinker"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0100381263,
-            "similarity": 0.898394,
-            "matched_descriptor": "rational"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "idiotic / brainless / stupid",
-        "descriptor_index": 3692,
-        "amplitude": 0.0032504062,
-        "abs_amplitude": 0.0032504062,
-        "raw_amplitude": 0.0097512186,
-        "percent": 0.975139,
-        "raw_percent": 0.975122,
-        "coverage_percent": 64.369036,
-        "member_count": 3,
-        "members": [
-          "idiotic",
-          "brainless",
-          "stupid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0097512187,
-            "similarity": 0.894983,
-            "matched_descriptor": "airhead / naive"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "casual / easy-going / care-free / carefree / +1",
-        "descriptor_index": 975,
-        "amplitude": 0.0030979399,
-        "abs_amplitude": 0.0030979399,
-        "raw_amplitude": 0.0092938196,
-        "percent": 0.929398,
-        "raw_percent": 0.929382,
-        "coverage_percent": 65.298433,
-        "member_count": 5,
-        "members": [
-          "casual",
-          "easy-going",
-          "care-free",
-          "carefree",
-          "informal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0092938197,
-            "similarity": 0.894347,
-            "matched_descriptor": "lenient / calm / honest"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "careless / mindless / scatterbrained / inattentive",
-        "descriptor_index": 956,
-        "amplitude": 0.0029723057,
-        "abs_amplitude": 0.0029723057,
-        "raw_amplitude": 0.0089169172,
-        "percent": 0.891707,
-        "raw_percent": 0.891692,
-        "coverage_percent": 66.19014,
-        "member_count": 4,
-        "members": [
-          "careless",
-          "mindless",
-          "scatterbrained",
-          "inattentive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0089169172,
-            "similarity": 0.886027,
-            "matched_descriptor": "naive / clumsy"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0025244177,
-        "abs_amplitude": 0.0025244177,
-        "raw_amplitude": 0.007573253,
-        "percent": 0.757338,
-        "raw_percent": 0.757325,
-        "coverage_percent": 66.947479,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0075732531,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0023718797,
-        "abs_amplitude": 0.0023718797,
-        "raw_amplitude": 0.007115639,
-        "percent": 0.711576,
-        "raw_percent": 0.711564,
-        "coverage_percent": 67.659055,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0071156389,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "durable / forceful / thick-skinned / tough / +1",
-        "descriptor_index": 2014,
-        "amplitude": 0.0022817494,
-        "abs_amplitude": 0.0022817494,
-        "raw_amplitude": 0.0068452483,
-        "percent": 0.684537,
-        "raw_percent": 0.684525,
-        "coverage_percent": 68.343591,
-        "member_count": 5,
-        "members": [
-          "durable",
-          "forceful",
-          "thick-skinned",
-          "tough",
-          "strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0068452482,
-            "similarity": 0.882874,
-            "matched_descriptor": "docile / lenient"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "well-mannered / polite / formal / courteous",
-        "descriptor_index": 8529,
-        "amplitude": 0.0022480906,
-        "abs_amplitude": 0.0022480906,
-        "raw_amplitude": 0.0067442718,
-        "percent": 0.674439,
-        "raw_percent": 0.674427,
-        "coverage_percent": 69.01803,
-        "member_count": 4,
-        "members": [
-          "well-mannered",
-          "polite",
-          "formal",
-          "courteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0067442717,
-            "similarity": 0.890839,
-            "matched_descriptor": "docile / honest"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "passive / meek",
-        "descriptor_index": 5484,
-        "amplitude": 0.0022125252,
-        "abs_amplitude": 0.0022125252,
-        "raw_amplitude": 0.0066375757,
-        "percent": 0.663769,
-        "raw_percent": 0.663758,
-        "coverage_percent": 69.681799,
-        "member_count": 2,
-        "members": [
-          "passive",
-          "meek"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0066375757,
-            "similarity": 0.900339,
-            "matched_descriptor": "docile / shy"
+            "combined_favourites": 596
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "calm / soothing / calmest / serene / +9",
-        "descriptor_index": 904,
-        "amplitude": 0.0277715934,
-        "abs_amplitude": 0.0277715934,
-        "raw_amplitude": 0.0833147801,
-        "percent": 8.331621,
-        "raw_percent": 8.331478,
-        "coverage_percent": 8.331621,
-        "member_count": 13,
-        "members": [
-          "calm",
-          "soothing",
-          "calmest",
-          "serene",
-          "chilling",
-          "tranquil",
-          "untroubled",
-          "cool-headed",
-          "peaceful",
-          "non-violent",
-          "low-energy",
-          "non-hostile",
-          "mild-mannered"
-        ],
+        "step": 1,
+        "descriptor": "strange",
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.08331478,
-            "similarity": 1.0,
-            "matched_descriptor": "calm"
-          }
-        ]
+        "fit_percent": 79.517707,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "strange / odd / peculiar / unusual / +4",
-        "descriptor_index": 7287,
-        "amplitude": 0.0269191034,
-        "abs_amplitude": 0.0269191034,
-        "raw_amplitude": 0.0807573101,
-        "percent": 8.075869,
-        "raw_percent": 8.075731,
-        "coverage_percent": 16.40749,
-        "member_count": 8,
-        "members": [
-          "strange",
-          "odd",
-          "peculiar",
-          "unusual",
-          "weird",
-          "outlandish",
-          "kooky",
-          "bizarre"
-        ],
+        "step": 2,
+        "descriptor": "shy",
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.08075731,
-            "similarity": 1.0,
-            "matched_descriptor": "strange"
-          }
-        ]
+        "fit_percent": 88.898884,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0228822426,
-        "abs_amplitude": 0.0228822426,
-        "raw_amplitude": 0.0686467279,
-        "percent": 6.86479,
-        "raw_percent": 6.864673,
-        "coverage_percent": 23.27228,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "step": 3,
+        "descriptor": "rational",
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0686467279,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
+        "fit_percent": 94.467458,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "shy / reticent / bashful / discreet / +10",
-        "descriptor_index": 6837,
-        "amplitude": 0.0227722669,
-        "abs_amplitude": 0.0227722669,
-        "raw_amplitude": 0.0683168008,
-        "percent": 6.831797,
-        "raw_percent": 6.83168,
-        "coverage_percent": 30.104077,
-        "member_count": 14,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "subdued"
-        ],
+        "step": 4,
+        "descriptor": "naive",
+        "weighted_support": 2.71880803,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0683168008,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "energetic / exuberant / spirited / vivacious / +4",
-        "descriptor_index": 2170,
-        "amplitude": 0.0191518678,
-        "abs_amplitude": 0.0191518678,
-        "raw_amplitude": 0.0574556035,
-        "percent": 5.745659,
-        "raw_percent": 5.74556,
-        "coverage_percent": 35.849736,
-        "member_count": 8,
-        "members": [
-          "energetic",
-          "exuberant",
-          "spirited",
-          "vivacious",
-          "hyper-active",
-          "rambunctious",
-          "vigorous",
-          "cheerful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0574556036,
-            "similarity": 1.0,
-            "matched_descriptor": "energetic"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "rational / logical / logic-oriented / deductive / +1",
-        "descriptor_index": 6129,
-        "amplitude": 0.0137169558,
-        "abs_amplitude": 0.0137169558,
-        "raw_amplitude": 0.0411508673,
-        "percent": 4.115157,
-        "raw_percent": 4.115087,
-        "coverage_percent": 39.964893,
-        "member_count": 5,
-        "members": [
-          "rational",
-          "logical",
-          "logic-oriented",
-          "deductive",
-          "normal-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0411508674,
-            "similarity": 1.0,
-            "matched_descriptor": "rational"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "honest / direct / forthright / blunt / +1",
-        "descriptor_index": 3549,
-        "amplitude": 0.0130211294,
-        "abs_amplitude": 0.0130211294,
-        "raw_amplitude": 0.0390633883,
-        "percent": 3.906406,
-        "raw_percent": 3.906339,
-        "coverage_percent": 43.871299,
-        "member_count": 5,
-        "members": [
-          "honest",
-          "direct",
-          "forthright",
-          "blunt",
-          "no-nonsense"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0390633883,
-            "similarity": 1.0,
-            "matched_descriptor": "honest"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "lenient / accommodating / grudge-free / refractory",
-        "descriptor_index": 4273,
-        "amplitude": 0.0094945761,
-        "abs_amplitude": 0.0094945761,
-        "raw_amplitude": 0.0284837282,
-        "percent": 2.848422,
-        "raw_percent": 2.848373,
-        "coverage_percent": 46.71972,
-        "member_count": 4,
-        "members": [
-          "lenient",
-          "accommodating",
-          "grudge-free",
-          "refractory"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0284837283,
-            "similarity": 1.0,
-            "matched_descriptor": "lenient"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "docile / yielding / servile / well-behaved",
-        "descriptor_index": 1900,
-        "amplitude": 0.0093192984,
-        "abs_amplitude": 0.0093192984,
-        "raw_amplitude": 0.0279578953,
-        "percent": 2.795837,
-        "raw_percent": 2.79579,
-        "coverage_percent": 49.515558,
-        "member_count": 4,
-        "members": [
-          "docile",
-          "yielding",
-          "servile",
-          "well-behaved"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0279578954,
-            "similarity": 1.0,
-            "matched_descriptor": "docile"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "naive / simple-minded / clueless",
-        "descriptor_index": 5027,
-        "amplitude": 0.0083847142,
-        "abs_amplitude": 0.0083847142,
-        "raw_amplitude": 0.0251541427,
-        "percent": 2.515457,
-        "raw_percent": 2.515414,
-        "coverage_percent": 52.031015,
-        "member_count": 3,
-        "members": [
-          "naive",
-          "simple-minded",
-          "clueless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0251541428,
-            "similarity": 1.0,
-            "matched_descriptor": "naive"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "clumsy / uncoordinated / awkward",
-        "descriptor_index": 1203,
-        "amplitude": 0.0083501129,
-        "abs_amplitude": 0.0083501129,
-        "raw_amplitude": 0.0250503386,
-        "percent": 2.505077,
-        "raw_percent": 2.505034,
-        "coverage_percent": 54.536092,
-        "member_count": 3,
-        "members": [
-          "clumsy",
-          "uncoordinated",
-          "awkward"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0250503386,
-            "similarity": 1.0,
-            "matched_descriptor": "clumsy"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "curious / questioning",
-        "descriptor_index": 1541,
-        "amplitude": 0.0074211434,
-        "abs_amplitude": 0.0074211434,
-        "raw_amplitude": 0.0222634301,
-        "percent": 2.226381,
-        "raw_percent": 2.226343,
-        "coverage_percent": 56.762473,
-        "member_count": 2,
-        "members": [
-          "curious",
-          "questioning"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0222634301,
-            "similarity": 1.0,
-            "matched_descriptor": "curious"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "disinterested / rigid / indifferent / uncaring / +4",
-        "descriptor_index": 1861,
-        "amplitude": 0.0054457333,
-        "abs_amplitude": 0.0054457333,
-        "raw_amplitude": 0.0163371998,
-        "percent": 1.633748,
-        "raw_percent": 1.63372,
-        "coverage_percent": 58.396221,
-        "member_count": 8,
-        "members": [
-          "disinterested",
-          "rigid",
-          "indifferent",
-          "uncaring",
-          "unsocial",
-          "standoffish",
-          "unconcerned",
-          "cold"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0163371997,
-            "similarity": 0.892744,
-            "matched_descriptor": "naive / lenient / shy"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "unyielding / unbending / headstrong / unshakable / +4",
-        "descriptor_index": 8250,
-        "amplitude": 0.0051409878,
-        "abs_amplitude": 0.0051409878,
-        "raw_amplitude": 0.0154229633,
-        "percent": 1.542323,
-        "raw_percent": 1.542296,
-        "coverage_percent": 59.938543,
-        "member_count": 8,
-        "members": [
-          "unyielding",
-          "unbending",
-          "headstrong",
-          "unshakable",
-          "tenacious",
-          "persistent",
-          "strong-willed",
-          "inflexible"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0154229633,
-            "similarity": 0.897099,
-            "matched_descriptor": "lenient"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "half-german",
-        "descriptor_index": 3308,
-        "amplitude": 0.0043200727,
-        "abs_amplitude": 0.0043200727,
-        "raw_amplitude": 0.0129602182,
-        "percent": 1.296044,
-        "raw_percent": 1.296022,
-        "coverage_percent": 61.234587,
-        "member_count": 1,
-        "members": [
-          "half-german"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0129602182,
-            "similarity": 1.0,
-            "matched_descriptor": "half-german"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "zany / quirky",
-        "descriptor_index": 8691,
-        "amplitude": 0.0038515333,
-        "abs_amplitude": 0.0038515333,
-        "raw_amplitude": 0.0115545999,
-        "percent": 1.15548,
-        "raw_percent": 1.15546,
-        "coverage_percent": 62.390067,
-        "member_count": 2,
-        "members": [
-          "zany",
-          "quirky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0115545999,
-            "similarity": 0.900783,
-            "matched_descriptor": "strange"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "analytic / analytical / over-thinker",
-        "descriptor_index": 216,
-        "amplitude": 0.0033460421,
-        "abs_amplitude": 0.0033460421,
-        "raw_amplitude": 0.0100381263,
-        "percent": 1.00383,
-        "raw_percent": 1.003813,
-        "coverage_percent": 63.393897,
-        "member_count": 3,
-        "members": [
-          "analytic",
-          "analytical",
-          "over-thinker"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0100381263,
-            "similarity": 0.898394,
-            "matched_descriptor": "rational"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "idiotic / brainless / stupid",
-        "descriptor_index": 3692,
-        "amplitude": 0.0032504062,
-        "abs_amplitude": 0.0032504062,
-        "raw_amplitude": 0.0097512186,
-        "percent": 0.975139,
-        "raw_percent": 0.975122,
-        "coverage_percent": 64.369036,
-        "member_count": 3,
-        "members": [
-          "idiotic",
-          "brainless",
-          "stupid"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0097512187,
-            "similarity": 0.894983,
-            "matched_descriptor": "airhead / naive"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "casual / easy-going / care-free / carefree / +1",
-        "descriptor_index": 975,
-        "amplitude": 0.0030979399,
-        "abs_amplitude": 0.0030979399,
-        "raw_amplitude": 0.0092938196,
-        "percent": 0.929398,
-        "raw_percent": 0.929382,
-        "coverage_percent": 65.298433,
-        "member_count": 5,
-        "members": [
-          "casual",
-          "easy-going",
-          "care-free",
-          "carefree",
-          "informal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0092938197,
-            "similarity": 0.894347,
-            "matched_descriptor": "lenient / calm / honest"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "careless / mindless / scatterbrained / inattentive",
-        "descriptor_index": 956,
-        "amplitude": 0.0029723057,
-        "abs_amplitude": 0.0029723057,
-        "raw_amplitude": 0.0089169172,
-        "percent": 0.891707,
-        "raw_percent": 0.891692,
-        "coverage_percent": 66.19014,
-        "member_count": 4,
-        "members": [
-          "careless",
-          "mindless",
-          "scatterbrained",
-          "inattentive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0089169172,
-            "similarity": 0.886027,
-            "matched_descriptor": "naive / clumsy"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0025244177,
-        "abs_amplitude": 0.0025244177,
-        "raw_amplitude": 0.007573253,
-        "percent": 0.757338,
-        "raw_percent": 0.757325,
-        "coverage_percent": 66.947479,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0075732531,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0023718797,
-        "abs_amplitude": 0.0023718797,
-        "raw_amplitude": 0.007115639,
-        "percent": 0.711576,
-        "raw_percent": 0.711564,
-        "coverage_percent": 67.659055,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0071156389,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "durable / forceful / thick-skinned / tough / +1",
-        "descriptor_index": 2014,
-        "amplitude": 0.0022817494,
-        "abs_amplitude": 0.0022817494,
-        "raw_amplitude": 0.0068452483,
-        "percent": 0.684537,
-        "raw_percent": 0.684525,
-        "coverage_percent": 68.343591,
-        "member_count": 5,
-        "members": [
-          "durable",
-          "forceful",
-          "thick-skinned",
-          "tough",
-          "strong"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0068452482,
-            "similarity": 0.882874,
-            "matched_descriptor": "docile / lenient"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "well-mannered / polite / formal / courteous",
-        "descriptor_index": 8529,
-        "amplitude": 0.0022480906,
-        "abs_amplitude": 0.0022480906,
-        "raw_amplitude": 0.0067442718,
-        "percent": 0.674439,
-        "raw_percent": 0.674427,
-        "coverage_percent": 69.01803,
-        "member_count": 4,
-        "members": [
-          "well-mannered",
-          "polite",
-          "formal",
-          "courteous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0067442717,
-            "similarity": 0.890839,
-            "matched_descriptor": "docile / honest"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "passive / meek",
-        "descriptor_index": 5484,
-        "amplitude": 0.0022125252,
-        "abs_amplitude": 0.0022125252,
-        "raw_amplitude": 0.0066375757,
-        "percent": 0.663769,
-        "raw_percent": 0.663758,
-        "coverage_percent": 69.681799,
-        "member_count": 2,
-        "members": [
-          "passive",
-          "meek"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 280053,
-            "name": "Tsumugi Wenders",
-            "native_name": "紬ヴェンダース",
-            "anime": "Summer Pockets",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
-            "site_url": "https://anilist.co/character/280053",
-            "anime_url": "https://myanimelist.net/anime/50694",
-            "role": "MAIN",
-            "favourites": 126,
-            "row_weight": 2.41747535,
-            "projection": 0.0066375757,
-            "similarity": 0.900339,
-            "matched_descriptor": "docile / shy"
-          }
-        ]
+        "fit_percent": 95.405957,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 280053,
         "name": "Tsumugi Wenders",
-        "native_name": "紬ヴェンダース",
         "anime": "Summer Pockets",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
         "site_url": "https://anilist.co/character/280053",
-        "anime_url": "https://myanimelist.net/anime/50694",
-        "role": "MAIN",
         "favourites": 126,
-        "row_weight": 2.41747535,
+        "anilist_favourites": 126,
+        "bangumi_collects": 470,
+        "bangumi_comments": 200,
+        "bangumi_character_id": 59849,
+        "bangumi_url": "https://bgm.tv/character/59849",
+        "combined_favourites": 596,
+        "role_edge_count": 1,
+        "descriptors": [
+          "docile",
+          "honest",
+          "kind",
+          "lenient",
+          "naive",
+          "rational",
+          "shy",
+          "strange"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.71880803,
+        "row_weight": 2.71880803,
+        "unweighted_row_norm": 6.476678,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -2050,19 +172,74 @@
       {
         "character_id": 280053,
         "name": "Tsumugi Wenders",
-        "native_name": "紬ヴェンダース",
         "anime": "Summer Pockets",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b280053-2BEt7PvETZo4.png",
         "site_url": "https://anilist.co/character/280053",
-        "anime_url": "https://myanimelist.net/anime/50694",
-        "role": "MAIN",
         "favourites": 126,
-        "row_weight": 2.41747535,
+        "anilist_favourites": 126,
+        "bangumi_collects": 470,
+        "bangumi_comments": 200,
+        "bangumi_character_id": 59849,
+        "bangumi_url": "https://bgm.tv/character/59849",
+        "combined_favourites": 596,
+        "role_edge_count": 1,
+        "descriptors": [
+          "docile",
+          "honest",
+          "kind",
+          "lenient",
+          "naive",
+          "rational",
+          "shy",
+          "strange"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.71880803,
+        "row_weight": 2.71880803,
+        "unweighted_row_norm": 6.476678,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.7188080317,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

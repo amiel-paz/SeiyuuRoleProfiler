@@ -5,2712 +5,1364 @@
   "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95539-vFLypMio70hC.png",
   "site_url": "https://anilist.co/staff/95539",
   "role_count": 16,
-  "character_count": 7,
+  "character_count": 4,
   "first_year": 2008,
   "aliases": [
     "kobayashi yumiko",
     "yumiko kobayashi"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/yumiko_kobayashi.json",
+  "sv1_mass_percent": 72.363225,
+  "sv1_descriptor_fit_percent": 99.911734,
+  "variation_axis_count": 1,
+  "supported_character_count": 4,
   "major_lane": {
     "rank": 1,
-    "singular_value": 13.6109495653,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 13.6109495653,
-        "mass_percent": 85.590007
-      },
-      {
-        "rank": 2,
-        "singular_value": 3.7615714088,
-        "mass_percent": 6.537096
-      },
-      {
-        "rank": 3,
-        "singular_value": 2.5632538968,
-        "mass_percent": 3.035495
-      },
-      {
-        "rank": 4,
-        "singular_value": 2.2885141836,
-        "mass_percent": 2.419655
-      },
-      {
-        "rank": 5,
-        "singular_value": 1.6584878548,
-        "mass_percent": 1.270781
-      },
-      {
-        "rank": 6,
-        "singular_value": 1.273555181,
-        "mass_percent": 0.749345
-      },
-      {
-        "rank": 7,
-        "singular_value": 0.927709631,
-        "mass_percent": 0.397622
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 339.388634,
-      "normalized_entanglement": 0.883825,
-      "top5_mass_percent": 2.820049,
-      "top10_mass_percent": 5.264391
-    },
-    "character_participation": {
-      "effective_count": 3.153497,
-      "normalized_entanglement": 0.4505,
-      "top5_mass_percent": 99.51791,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 2.486889,
-      "semantic_spread": 2.671317,
-      "axis_concentration_percent": 86.668607,
-      "lane_count": 1.737911,
-      "direction_range": 0.811447,
-      "direction_spread": 1.007082,
-      "direction_axis_concentration_percent": 64.921831,
-      "direction_lane_count": 2.959231
-    },
-    "explained_sv_l2_percent": 85.590007,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 4.1654815482,
+    "mass_percent": 78.562239,
+    "descriptor_fit_percent": 97.731765,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "self-centered / egotistic / egotistical / narcissistic",
-        "descriptor_index": 6614,
-        "amplitude": 0.1247602929,
-        "abs_amplitude": 0.1247602929,
-        "raw_amplitude": 0.3735642554,
-        "percent": 26.956782,
-        "raw_percent": 28.17102,
-        "coverage_percent": 26.956782,
-        "member_count": 4,
-        "members": [
-          "self-centered",
-          "egotistic",
-          "egotistical",
-          "narcissistic"
-        ],
-        "support": 2,
-        "effective_support": 1.001918,
-        "support_factor": 0.333973,
-        "top_characters": [
+        "descriptor": "self-centered",
+        "amplitude": 0.5906958564,
+        "abs_amplitude": 0.5906958564,
+        "percent": 55.488737,
+        "weighted_support": 2.98858562,
+        "support": 1,
+        "supporting_characters": [
           {
             "character_id": 8464,
             "name": "Black☆Star",
-            "native_name": "ブラック☆スター",
             "anime": "Soul Eater",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
             "site_url": "https://anilist.co/character/8464",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "MAIN",
-            "favourites": 2754,
-            "row_weight": 2.98683323,
-            "projection": 0.3732062866,
-            "similarity": 1.0,
-            "matched_descriptor": "self-centered"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0003579686,
-            "similarity": 0.85953,
-            "matched_descriptor": "selfless"
+            "combined_favourites": 2783
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "affectionate / loving / adoring / warm-hearted",
-        "descriptor_index": 107,
-        "amplitude": 0.0631195692,
-        "abs_amplitude": 0.0631195692,
-        "raw_amplitude": 0.1867273477,
-        "percent": 13.638157,
-        "raw_percent": 14.081379,
-        "coverage_percent": 40.59494,
-        "member_count": 4,
-        "members": [
-          "affectionate",
-          "loving",
-          "adoring",
-          "warm-hearted"
-        ],
-        "support": 3,
-        "effective_support": 1.014092,
-        "support_factor": 0.338031,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.185422046,
-            "similarity": 1.0,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0010977905,
-            "similarity": 0.927141,
-            "matched_descriptor": "kindhearted"
-          },
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0002075112,
-            "similarity": 0.860022,
-            "matched_descriptor": "proud"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "stubborn / strong-willed / strong-minded / tenacious / +10",
-        "descriptor_index": 7402,
-        "amplitude": 0.0417179464,
-        "abs_amplitude": 0.0417179464,
-        "raw_amplitude": 0.1250838185,
-        "percent": 9.013938,
-        "raw_percent": 9.432752,
-        "coverage_percent": 49.608878,
-        "member_count": 14,
-        "members": [
-          "stubborn",
-          "strong-willed",
-          "strong-minded",
-          "tenacious",
-          "unyielding",
-          "refractory",
-          "headstrong",
-          "tough",
-          "resolute",
-          "persistent",
-          "unbending",
-          "unshakable",
-          "persevering",
-          "inflexible"
-        ],
-        "support": 2,
-        "effective_support": 1.00056,
-        "support_factor": 0.33352,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.125048818,
-            "similarity": 1.0,
-            "matched_descriptor": "stubborn"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 3.50006e-05,
-            "similarity": 0.847271,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "prideful / snooty / smug / pompous / +2",
-        "descriptor_index": 5840,
-        "amplitude": 0.0369231552,
-        "abs_amplitude": 0.0369231552,
-        "raw_amplitude": 0.1076638331,
-        "percent": 7.977935,
-        "raw_percent": 8.119085,
-        "coverage_percent": 57.586813,
-        "member_count": 6,
-        "members": [
-          "prideful",
-          "snooty",
-          "smug",
-          "pompous",
-          "haughty",
-          "vain"
-        ],
-        "support": 3,
-        "effective_support": 1.028846,
-        "support_factor": 0.342949,
-        "top_characters": [
-          {
-            "character_id": 8464,
-            "name": "Black☆Star",
-            "native_name": "ブラック☆スター",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
-            "site_url": "https://anilist.co/character/8464",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "MAIN",
-            "favourites": 2754,
-            "row_weight": 2.98683323,
-            "projection": 0.1061329176,
-            "similarity": 0.888316,
-            "matched_descriptor": "self-centered"
-          },
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0015214809,
-            "similarity": 0.871615,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 9.4346e-06,
-            "similarity": 0.860358,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "kindhearted / good-hearted / caring / soft-spotted / +10",
-        "descriptor_index": 4146,
-        "amplitude": 0.0293574555,
-        "abs_amplitude": 0.0293574555,
-        "raw_amplitude": 0.0669473149,
-        "percent": 6.343224,
-        "raw_percent": 5.048594,
-        "coverage_percent": 63.930037,
-        "member_count": 14,
-        "members": [
-          "kindhearted",
-          "good-hearted",
-          "caring",
-          "soft-spotted",
-          "compassionate",
-          "big-hearted",
-          "bighearted",
-          "gentle-hearted",
-          "soft-hearted",
-          "benevolent",
-          "tender-hearted",
-          "humane",
-          "kind-hearted",
-          "soft"
-        ],
-        "support": 2,
-        "effective_support": 1.315547,
-        "support_factor": 0.438516,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0576183457,
-            "similarity": 0.896873,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0093289692,
-            "similarity": 1.0,
-            "matched_descriptor": "kindhearted"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "self-centred / self-absorbed / ego-centric",
-        "descriptor_index": 6615,
-        "amplitude": 0.026241638,
-        "abs_amplitude": 0.026241638,
-        "raw_amplitude": 0.0785765186,
-        "percent": 5.669994,
-        "raw_percent": 5.925569,
-        "coverage_percent": 69.600031,
-        "member_count": 3,
-        "members": [
-          "self-centred",
-          "self-absorbed",
-          "ego-centric"
-        ],
-        "support": 2,
-        "effective_support": 1.001889,
-        "support_factor": 0.333963,
-        "top_characters": [
-          {
-            "character_id": 8464,
-            "name": "Black☆Star",
-            "native_name": "ブラック☆スター",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
-            "site_url": "https://anilist.co/character/8464",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "MAIN",
-            "favourites": 2754,
-            "row_weight": 2.98683323,
-            "projection": 0.0785023907,
-            "similarity": 0.894081,
-            "matched_descriptor": "self-centered"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 7.41278e-05,
-            "similarity": 0.849211,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "egoistic",
-        "descriptor_index": 2067,
-        "amplitude": 0.0178299461,
-        "abs_amplitude": 0.0178299461,
-        "raw_amplitude": 0.0524996961,
-        "percent": 3.852492,
-        "raw_percent": 3.959078,
-        "coverage_percent": 73.452523,
-        "member_count": 1,
-        "members": [
-          "egoistic"
-        ],
-        "support": 2,
-        "effective_support": 1.01886,
-        "support_factor": 0.33962,
-        "top_characters": [
-          {
-            "character_id": 8464,
-            "name": "Black☆Star",
-            "native_name": "ブラック☆スター",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
-            "site_url": "https://anilist.co/character/8464",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "MAIN",
-            "favourites": 2754,
-            "row_weight": 2.98683323,
-            "projection": 0.0520092067,
-            "similarity": 0.897311,
-            "matched_descriptor": "self-centered"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0004904894,
-            "similarity": 0.89491,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "romantic / amorous",
-        "descriptor_index": 6354,
-        "amplitude": 0.0120309593,
-        "abs_amplitude": 0.0120309593,
-        "raw_amplitude": 0.0360928779,
-        "percent": 2.599513,
-        "raw_percent": 2.721816,
-        "coverage_percent": 76.052035,
-        "member_count": 2,
-        "members": [
-          "romantic",
-          "amorous"
-        ],
+        "descriptor": "selfless",
+        "amplitude": 0.4738370315,
+        "abs_amplitude": 0.4738370315,
+        "percent": 44.511263,
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0360928779,
-            "similarity": 0.89862,
-            "matched_descriptor": "affectionate"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "proud / self-confident / suave",
-        "descriptor_index": 5976,
-        "amplitude": 0.0101432991,
-        "abs_amplitude": 0.0101432991,
-        "raw_amplitude": 0.027054435,
-        "percent": 2.191648,
-        "raw_percent": 2.040214,
-        "coverage_percent": 78.243684,
-        "member_count": 3,
-        "members": [
-          "proud",
-          "self-confident",
-          "suave"
-        ],
-        "support": 3,
-        "effective_support": 1.124766,
-        "support_factor": 0.374922,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0254794468,
-            "similarity": 1.0,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0011803091,
-            "similarity": 0.860022,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0003946791,
-            "similarity": 0.873951,
-            "matched_descriptor": "shameless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "heartfelt / empathic",
-        "descriptor_index": 3422,
-        "amplitude": 0.0101406696,
-        "abs_amplitude": 0.0101406696,
-        "raw_amplitude": 0.0304220088,
-        "percent": 2.19108,
-        "raw_percent": 2.294168,
-        "coverage_percent": 80.434764,
-        "member_count": 2,
-        "members": [
-          "heartfelt",
-          "empathic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0304220088,
-            "similarity": 0.89239,
-            "matched_descriptor": "affectionate"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "smiling / cheery / cheerful-looking / sunny / +8",
-        "descriptor_index": 7007,
-        "amplitude": 0.0090631202,
-        "abs_amplitude": 0.0090631202,
-        "raw_amplitude": 0.0269290309,
-        "percent": 1.958256,
-        "raw_percent": 2.030757,
-        "coverage_percent": 82.39302,
-        "member_count": 12,
-        "members": [
-          "smiling",
-          "cheery",
-          "cheerful-looking",
-          "sunny",
-          "joyous",
-          "joyful",
-          "happiness-experiencing",
-          "giddy",
-          "happy",
-          "contented",
-          "cheerful",
-          "frequent-smiler"
-        ],
-        "support": 2,
-        "effective_support": 1.009667,
-        "support_factor": 0.336556,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0267994893,
-            "similarity": 0.904983,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0001295417,
-            "similarity": 0.880078,
-            "matched_descriptor": "kindhearted"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "encouraging",
-        "descriptor_index": 2163,
-        "amplitude": 0.007998635,
-        "abs_amplitude": 0.007998635,
-        "raw_amplitude": 0.0206468717,
-        "percent": 1.728254,
-        "raw_percent": 1.55701,
-        "coverage_percent": 84.121274,
-        "member_count": 1,
-        "members": [
-          "encouraging"
-        ],
-        "support": 3,
-        "effective_support": 1.162205,
-        "support_factor": 0.387402,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.019092324,
-            "similarity": 0.887598,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0015093069,
-            "similarity": 0.871507,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 4.52408e-05,
-            "similarity": 0.872676,
-            "matched_descriptor": "kindhearted"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "doting",
-        "descriptor_index": 1933,
-        "amplitude": 0.0072829485,
-        "abs_amplitude": 0.0072829485,
-        "raw_amplitude": 0.0218488456,
-        "percent": 1.573617,
-        "raw_percent": 1.647653,
-        "coverage_percent": 85.69489,
-        "member_count": 1,
-        "members": [
-          "doting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0218488456,
-            "similarity": 0.893278,
-            "matched_descriptor": "affectionate"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "open-hearted / pure-hearted / amicable / good-natured / +2",
-        "descriptor_index": 5331,
-        "amplitude": 0.0071923316,
-        "abs_amplitude": 0.0071923316,
-        "raw_amplitude": 0.0108155892,
-        "percent": 1.554037,
-        "raw_percent": 0.815619,
-        "coverage_percent": 87.248927,
-        "member_count": 6,
-        "members": [
-          "open-hearted",
-          "pure-hearted",
-          "amicable",
-          "good-natured",
-          "cordial",
-          "well-meaning"
-        ],
-        "support": 3,
-        "effective_support": 1.99499,
-        "support_factor": 0.664997,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0071139627,
-            "similarity": 0.880658,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0026175841,
-            "similarity": 0.894987,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0010840424,
-            "similarity": 0.908454,
-            "matched_descriptor": "kindhearted"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "selfish-hating",
-        "descriptor_index": 6677,
-        "amplitude": 0.0067521291,
-        "abs_amplitude": 0.0067521291,
-        "raw_amplitude": 0.0202563872,
-        "percent": 1.458923,
-        "raw_percent": 1.527563,
-        "coverage_percent": 88.707851,
-        "member_count": 1,
-        "members": [
-          "selfish-hating"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 8464,
-            "name": "Black☆Star",
-            "native_name": "ブラック☆スター",
-            "anime": "Soul Eater",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
-            "site_url": "https://anilist.co/character/8464",
-            "anime_url": "https://myanimelist.net/anime/3588",
-            "role": "MAIN",
-            "favourites": 2754,
-            "row_weight": 2.98683323,
-            "projection": 0.0202563872,
-            "similarity": 0.863043,
-            "matched_descriptor": "self-centered"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "romanticist",
-        "descriptor_index": 6362,
-        "amplitude": 0.0049065653,
-        "abs_amplitude": 0.0049065653,
-        "raw_amplitude": 0.014719696,
-        "percent": 1.060155,
-        "raw_percent": 1.110034,
-        "coverage_percent": 89.768005,
-        "member_count": 1,
-        "members": [
-          "romanticist"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.014719696,
-            "similarity": 0.879131,
-            "matched_descriptor": "affectionate"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "considerate",
-        "descriptor_index": 1383,
-        "amplitude": 0.0048309237,
-        "abs_amplitude": 0.0048309237,
-        "raw_amplitude": 0.0144927711,
-        "percent": 1.043811,
-        "raw_percent": 1.092921,
-        "coverage_percent": 90.811816,
-        "member_count": 1,
-        "members": [
-          "considerate"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0144927711,
-            "similarity": 0.880464,
-            "matched_descriptor": "affectionate"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "seductive / charismatic / charming / captivating",
-        "descriptor_index": 6598,
-        "amplitude": 0.0041983366,
-        "abs_amplitude": 0.0041983366,
-        "raw_amplitude": 0.0063505371,
-        "percent": 0.907129,
-        "raw_percent": 0.478903,
-        "coverage_percent": 91.718945,
-        "member_count": 4,
-        "members": [
-          "seductive",
-          "charismatic",
-          "charming",
-          "captivating"
-        ],
-        "support": 3,
-        "effective_support": 1.983298,
-        "support_factor": 0.661099,
-        "top_characters": [
-          {
-            "character_id": 66969,
-            "name": "Souta Hori",
-            "native_name": "堀創太",
-            "anime": "Hori-san to Miyamura-kun",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-            "site_url": "https://anilist.co/character/66969",
-            "anime_url": "https://myanimelist.net/anime/14753",
-            "role": "SUPPORTING",
-            "favourites": 557,
-            "row_weight": 1.91368218,
-            "projection": 0.0035818344,
-            "similarity": 0.86158,
-            "matched_descriptor": "affectionate"
-          },
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.002739356,
-            "similarity": 0.876335,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 2.93467e-05,
-            "similarity": 0.824495,
-            "matched_descriptor": "shameless"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "shameless / brazen",
-        "descriptor_index": 6755,
-        "amplitude": 0.0038889743,
-        "abs_amplitude": 0.0038889743,
-        "raw_amplitude": 0.0061403994,
-        "percent": 0.840285,
-        "raw_percent": 0.463056,
-        "coverage_percent": 92.55923,
-        "member_count": 2,
-        "members": [
-          "shameless",
-          "brazen"
-        ],
-        "support": 2,
-        "effective_support": 1.900027,
-        "support_factor": 0.633342,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0037744529,
-            "similarity": 0.875732,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0023659466,
-            "similarity": 1.0,
-            "matched_descriptor": "shameless"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "self confident / self-assured",
-        "descriptor_index": 6606,
-        "amplitude": 0.0029307359,
-        "abs_amplitude": 0.0029307359,
-        "raw_amplitude": 0.0086161736,
-        "percent": 0.63324,
-        "raw_percent": 0.649758,
-        "coverage_percent": 93.19247,
-        "member_count": 2,
-        "members": [
-          "self confident",
-          "self-assured"
-        ],
-        "support": 2,
-        "effective_support": 1.020431,
-        "support_factor": 0.340144,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0085290375,
-            "similarity": 0.898831,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 8.71361e-05,
-            "similarity": 0.843384,
-            "matched_descriptor": "shameless"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "aloof / unsociable / non-interfering / unsocial / +3",
-        "descriptor_index": 177,
-        "amplitude": 0.0029084147,
-        "abs_amplitude": 0.0029084147,
-        "raw_amplitude": 0.008725244,
-        "percent": 0.628417,
-        "raw_percent": 0.657983,
-        "coverage_percent": 93.820887,
-        "member_count": 7,
-        "members": [
-          "aloof",
-          "unsociable",
-          "non-interfering",
-          "unsocial",
-          "standoffish",
-          "detached",
-          "modest"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0087252439,
-            "similarity": 0.878663,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "go-getter / assertive / self-motivated",
-        "descriptor_index": 3022,
-        "amplitude": 0.0028433244,
-        "abs_amplitude": 0.0028433244,
-        "raw_amplitude": 0.0085299731,
-        "percent": 0.614353,
-        "raw_percent": 0.643258,
-        "coverage_percent": 94.43524,
-        "member_count": 3,
-        "members": [
-          "go-getter",
-          "assertive",
-          "self-motivated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0085299731,
-            "similarity": 0.885452,
-            "matched_descriptor": "stubborn"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "brave-faced / unashamed / bold",
-        "descriptor_index": 807,
-        "amplitude": 0.0017619487,
-        "abs_amplitude": 0.0017619487,
-        "raw_amplitude": 0.0046749822,
-        "percent": 0.380702,
-        "raw_percent": 0.352547,
-        "coverage_percent": 94.815942,
-        "member_count": 3,
-        "members": [
-          "brave-faced",
-          "unashamed",
-          "bold"
-        ],
-        "support": 2,
-        "effective_support": 1.130667,
-        "support_factor": 0.376889,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.004387123,
-            "similarity": 0.879857,
-            "matched_descriptor": "proud"
-          },
-          {
-            "character_id": 2951,
-            "name": "Shinnosuke Nohara",
-            "native_name": "野原しんのすけ",
-            "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-            "site_url": "https://anilist.co/character/2951",
-            "anime_url": "https://myanimelist.net/anime/38629",
-            "role": "MAIN",
-            "favourites": 526,
-            "row_weight": 1.90620048,
-            "projection": 0.0002878592,
-            "similarity": 0.866964,
-            "matched_descriptor": "shameless"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "determined",
-        "descriptor_index": 1778,
-        "amplitude": 0.0011883421,
-        "abs_amplitude": 0.0011883421,
-        "raw_amplitude": 0.0035650262,
-        "percent": 0.256763,
-        "raw_percent": 0.268844,
-        "coverage_percent": 95.072706,
-        "member_count": 1,
-        "members": [
-          "determined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 85781,
-            "name": "Koujirou Shinomiya",
-            "native_name": "四宮小次郎",
-            "anime": "Food Wars!",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-            "site_url": "https://anilist.co/character/85781",
-            "anime_url": "https://myanimelist.net/anime/28171",
-            "role": "SUPPORTING",
-            "favourites": 585,
-            "row_weight": 1.92006768,
-            "projection": 0.0035650262,
-            "similarity": 0.885428,
-            "matched_descriptor": "stubborn"
+            "character_id": 21837,
+            "name": "Yuuki Onozawa",
+            "anime": "Tokyo Magnitude 8.0",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
+            "site_url": "https://anilist.co/character/21837",
+            "combined_favourites": 164
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "intelligent / brainy / smart / clever / +4",
-        "descriptor_index": 3945,
-        "amplitude": 0.0302158859,
-        "abs_amplitude": 0.0302158859,
-        "raw_amplitude": 0.0486093285,
-        "percent": 10.721738,
-        "raw_percent": 6.41124,
-        "coverage_percent": 10.721738,
-        "member_count": 8,
-        "members": [
-          "intelligent",
-          "brainy",
-          "smart",
-          "clever",
-          "quick-witted",
-          "astute",
-          "shrewd",
-          "inventive"
-        ],
-        "support": 3,
-        "effective_support": 1.86482,
-        "support_factor": 0.621607,
-        "top_characters": [
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.032576878,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.0142332244,
-            "similarity": 1.0,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0017992261,
-            "similarity": 0.857021,
-            "matched_descriptor": "honest"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "playful / light-hearted / good-humored / jocular / +11",
-        "descriptor_index": 5645,
-        "amplitude": 0.0282049811,
-        "abs_amplitude": 0.0282049811,
-        "raw_amplitude": 0.0846149433,
-        "percent": 10.008193,
-        "raw_percent": 11.160136,
-        "coverage_percent": 20.729932,
-        "member_count": 15,
-        "members": [
-          "playful",
-          "light-hearted",
-          "good-humored",
-          "jocular",
-          "good-humoured",
-          "jovial",
-          "giddy",
-          "lighthearted",
-          "gleeful",
-          "amused",
-          "fun-loving",
-          "happy-go-lucky",
-          "happy",
-          "care-free",
-          "carefree"
-        ],
+        "step": 1,
+        "descriptor": "self-centered",
+        "weighted_support": 2.98858562,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0846149432,
-            "similarity": 1.0,
-            "matched_descriptor": "playful"
-          }
-        ]
+        "fit_percent": 91.3795,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "kind / humane / well-meaning / kind-hearted / +8",
-        "descriptor_index": 4133,
-        "amplitude": 0.0205804562,
-        "abs_amplitude": 0.0205804562,
-        "raw_amplitude": 0.0617413687,
-        "percent": 7.302724,
-        "raw_percent": 8.143267,
-        "coverage_percent": 28.032655,
-        "member_count": 12,
-        "members": [
-          "kind",
-          "humane",
-          "well-meaning",
-          "kind-hearted",
-          "benevolent",
-          "virtuous",
-          "good-hearted",
-          "good-natured",
-          "pure-hearted",
-          "noble-spirited",
-          "compassionate",
-          "soft-spotted"
-        ],
+        "step": 2,
+        "descriptor": "selfless",
+        "weighted_support": 2.47102114,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0617413686,
-            "similarity": 1.0,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "arrogant / pompous / snobbish / snooty / +6",
-        "descriptor_index": 358,
-        "amplitude": 0.0203140286,
-        "abs_amplitude": 0.0203140286,
-        "raw_amplitude": 0.0604359501,
-        "percent": 7.208185,
-        "raw_percent": 7.971091,
-        "coverage_percent": 35.24084,
-        "member_count": 10,
-        "members": [
-          "arrogant",
-          "pompous",
-          "snobbish",
-          "snooty",
-          "condescending",
-          "prideful",
-          "holier-than-thou",
-          "haughty",
-          "smug",
-          "disdainful"
-        ],
-        "support": 2,
-        "effective_support": 1.008375,
-        "support_factor": 0.336125,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0601839331,
-            "similarity": 1.0,
-            "matched_descriptor": "arrogant"
-          },
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.000252017,
-            "similarity": 0.860358,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "honest / direct / forthright / blunt / +1",
-        "descriptor_index": 3549,
-        "amplitude": 0.0122850901,
-        "abs_amplitude": 0.0122850901,
-        "raw_amplitude": 0.0357003481,
-        "percent": 4.359214,
-        "raw_percent": 4.708633,
-        "coverage_percent": 39.600055,
-        "member_count": 5,
-        "members": [
-          "honest",
-          "direct",
-          "forthright",
-          "blunt",
-          "no-nonsense"
-        ],
-        "support": 3,
-        "effective_support": 1.03235,
-        "support_factor": 0.344117,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0351338969,
-            "similarity": 1.0,
-            "matched_descriptor": "honest"
-          },
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0003942144,
-            "similarity": 0.855443,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.0001722369,
-            "similarity": 0.855443,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "cruel / brutal / merciless / harsh",
-        "descriptor_index": 1520,
-        "amplitude": 0.0108200098,
-        "abs_amplitude": 0.0108200098,
-        "raw_amplitude": 0.0324600293,
-        "percent": 3.839348,
-        "raw_percent": 4.281257,
-        "coverage_percent": 43.439403,
-        "member_count": 4,
-        "members": [
-          "cruel",
-          "brutal",
-          "merciless",
-          "harsh"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0324600293,
-            "similarity": 1.0,
-            "matched_descriptor": "cruel"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "violent / abusive / bullying",
-        "descriptor_index": 8372,
-        "amplitude": 0.0085731019,
-        "abs_amplitude": 0.0085731019,
-        "raw_amplitude": 0.0257193056,
-        "percent": 3.042061,
-        "raw_percent": 3.392202,
-        "coverage_percent": 46.481464,
-        "member_count": 3,
-        "members": [
-          "violent",
-          "abusive",
-          "bullying"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0257193057,
-            "similarity": 1.0,
-            "matched_descriptor": "violent"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "overconfident / vain / cocky",
-        "descriptor_index": 5414,
-        "amplitude": 0.0073478454,
-        "abs_amplitude": 0.0073478454,
-        "raw_amplitude": 0.0220435363,
-        "percent": 2.607293,
-        "raw_percent": 2.907393,
-        "coverage_percent": 49.088757,
-        "member_count": 3,
-        "members": [
-          "overconfident",
-          "vain",
-          "cocky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0220435362,
-            "similarity": 1.0,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "joyful / upbeat / cheery / cheerful / +5",
-        "descriptor_index": 4069,
-        "amplitude": 0.0065255904,
-        "abs_amplitude": 0.0065255904,
-        "raw_amplitude": 0.0195767711,
-        "percent": 2.315526,
-        "raw_percent": 2.582043,
-        "coverage_percent": 51.404283,
-        "member_count": 9,
-        "members": [
-          "joyful",
-          "upbeat",
-          "cheery",
-          "cheerful",
-          "joyous",
-          "smiling",
-          "sunny",
-          "happiness-experiencing",
-          "cheerful-looking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.019576771,
-            "similarity": 0.900268,
-            "matched_descriptor": "playful"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0054593978,
-        "abs_amplitude": 0.0054593978,
-        "raw_amplitude": 0.0163781933,
-        "percent": 1.937201,
-        "raw_percent": 2.160172,
-        "coverage_percent": 53.341484,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0163781933,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "sensible / prudent / deliberative",
-        "descriptor_index": 6701,
-        "amplitude": 0.004665593,
-        "abs_amplitude": 0.004665593,
-        "raw_amplitude": 0.0055103288,
-        "percent": 1.655529,
-        "raw_percent": 0.726775,
-        "coverage_percent": 54.997012,
-        "member_count": 3,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative"
-        ],
-        "support": 3,
-        "effective_support": 2.540099,
-        "support_factor": 0.8467,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0027484921,
-            "similarity": 0.885626,
-            "matched_descriptor": "honest"
-          },
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0019220641,
-            "similarity": 0.878601,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.0008397726,
-            "similarity": 0.878601,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "anemic",
-        "descriptor_index": 234,
-        "amplitude": 0.003885505,
-        "abs_amplitude": 0.003885505,
-        "raw_amplitude": 0.011656515,
-        "percent": 1.378724,
-        "raw_percent": 1.537415,
-        "coverage_percent": 56.375736,
-        "member_count": 1,
-        "members": [
-          "anemic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.011656515,
-            "similarity": 1.0,
-            "matched_descriptor": "anemic"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "quick-thinking / quick-minded",
-        "descriptor_index": 6082,
-        "amplitude": 0.0037948296,
-        "abs_amplitude": 0.0037948296,
-        "raw_amplitude": 0.0065663745,
-        "percent": 1.346549,
-        "raw_percent": 0.86606,
-        "coverage_percent": 57.722285,
-        "member_count": 2,
-        "members": [
-          "quick-thinking",
-          "quick-minded"
-        ],
-        "support": 2,
-        "effective_support": 1.733756,
-        "support_factor": 0.577919,
-        "top_characters": [
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0045697824,
-            "similarity": 0.895359,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.0019965921,
-            "similarity": 0.895359,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "bright / sparkling",
-        "descriptor_index": 813,
-        "amplitude": 0.0035334759,
-        "abs_amplitude": 0.0035334759,
-        "raw_amplitude": 0.0106004276,
-        "percent": 1.253811,
-        "raw_percent": 1.398124,
-        "coverage_percent": 58.976096,
-        "member_count": 2,
-        "members": [
-          "bright",
-          "sparkling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0106004275,
-            "similarity": 1.0,
-            "matched_descriptor": "bright"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "self confident / self-confident / self-assured",
-        "descriptor_index": 6606,
-        "amplitude": 0.0033126543,
-        "abs_amplitude": 0.0033126543,
-        "raw_amplitude": 0.0099379628,
-        "percent": 1.175455,
-        "raw_percent": 1.31075,
-        "coverage_percent": 60.151551,
-        "member_count": 3,
-        "members": [
-          "self confident",
-          "self-confident",
-          "self-assured"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0099379628,
-            "similarity": 0.898076,
-            "matched_descriptor": "overconfident"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "selfless / unselfish",
-        "descriptor_index": 6679,
-        "amplitude": 0.0031016223,
-        "abs_amplitude": 0.0031016223,
-        "raw_amplitude": 0.009304867,
-        "percent": 1.100573,
-        "raw_percent": 1.227249,
-        "coverage_percent": 61.252124,
-        "member_count": 2,
-        "members": [
-          "selfless",
-          "unselfish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.009304867,
-            "similarity": 1.0,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "egoistic / egotistic / egotistical / narcissistic",
-        "descriptor_index": 2067,
-        "amplitude": 0.0027914923,
-        "abs_amplitude": 0.0027914923,
-        "raw_amplitude": 0.0050732791,
-        "percent": 0.990527,
-        "raw_percent": 0.669131,
-        "coverage_percent": 62.242651,
-        "member_count": 4,
-        "members": [
-          "egoistic",
-          "egotistic",
-          "egotistical",
-          "narcissistic"
-        ],
-        "support": 2,
-        "effective_support": 1.650703,
-        "support_factor": 0.550234,
-        "top_characters": [
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0037035076,
-            "similarity": 0.89491,
-            "matched_descriptor": "selfless"
-          },
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0013697716,
-            "similarity": 0.880209,
-            "matched_descriptor": "arrogant"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "uncaring / apathetic / unimpressed / unconcerned / +2",
-        "descriptor_index": 8070,
-        "amplitude": 0.0025993042,
-        "abs_amplitude": 0.0025993042,
-        "raw_amplitude": 0.0039001939,
-        "percent": 0.922331,
-        "raw_percent": 0.514409,
-        "coverage_percent": 63.164982,
-        "member_count": 6,
-        "members": [
-          "uncaring",
-          "apathetic",
-          "unimpressed",
-          "unconcerned",
-          "indifferent",
-          "unenthusiastic"
-        ],
-        "support": 2,
-        "effective_support": 1.999365,
-        "support_factor": 0.666455,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0019848415,
-            "similarity": 0.863944,
-            "matched_descriptor": "anemic"
-          },
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0019153526,
-            "similarity": 0.872752,
-            "matched_descriptor": "selfless"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "righteous / goody-two-shoes / upstanding / saint-like",
-        "descriptor_index": 6317,
-        "amplitude": 0.0025140219,
-        "abs_amplitude": 0.0025140219,
-        "raw_amplitude": 0.0067673752,
-        "percent": 0.89207,
-        "raw_percent": 0.892571,
-        "coverage_percent": 64.057052,
-        "member_count": 4,
-        "members": [
-          "righteous",
-          "goody-two-shoes",
-          "upstanding",
-          "saint-like"
-        ],
-        "support": 2,
-        "effective_support": 1.114474,
-        "support_factor": 0.371491,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0063998576,
-            "similarity": 0.897654,
-            "matched_descriptor": "kind"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.0003675176,
-            "similarity": 0.854162,
-            "matched_descriptor": "dutiful"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "crude / crass / messy / coarse",
-        "descriptor_index": 1519,
-        "amplitude": 0.0025083303,
-        "abs_amplitude": 0.0025083303,
-        "raw_amplitude": 0.007524991,
-        "percent": 0.89005,
-        "raw_percent": 0.992495,
-        "coverage_percent": 64.947103,
-        "member_count": 4,
-        "members": [
-          "crude",
-          "crass",
-          "messy",
-          "coarse"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.007524991,
-            "similarity": 0.883071,
-            "matched_descriptor": "anemic"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "smartest / brilliant",
-        "descriptor_index": 7002,
-        "amplitude": 0.0024351834,
-        "abs_amplitude": 0.0024351834,
-        "raw_amplitude": 0.0042137138,
-        "percent": 0.864095,
-        "raw_percent": 0.55576,
-        "coverage_percent": 65.811198,
-        "member_count": 2,
-        "members": [
-          "smartest",
-          "brilliant"
-        ],
-        "support": 2,
-        "effective_support": 1.733756,
-        "support_factor": 0.577919,
-        "top_characters": [
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.002932479,
-            "similarity": 0.87172,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.0012812349,
-            "similarity": 0.87172,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "good / cordial / openhearted / pleasant / +2",
-        "descriptor_index": 3047,
-        "amplitude": 0.0024238363,
-        "abs_amplitude": 0.0024238363,
-        "raw_amplitude": 0.0072715089,
-        "percent": 0.860069,
-        "raw_percent": 0.959063,
-        "coverage_percent": 66.671266,
-        "member_count": 6,
-        "members": [
-          "good",
-          "cordial",
-          "openhearted",
-          "pleasant",
-          "open-hearted",
-          "amicable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0072715089,
-            "similarity": 0.895141,
-            "matched_descriptor": "kind / playful"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "perfect",
-        "descriptor_index": 5523,
-        "amplitude": 0.0023287647,
-        "abs_amplitude": 0.0023287647,
-        "raw_amplitude": 0.0042825139,
-        "percent": 0.826334,
-        "raw_percent": 0.564834,
-        "coverage_percent": 67.4976,
-        "member_count": 1,
-        "members": [
-          "perfect"
-        ],
-        "support": 3,
-        "effective_support": 1.631354,
-        "support_factor": 0.543785,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0032621532,
-            "similarity": 0.890783,
-            "matched_descriptor": "honest"
-          },
-          {
-            "character_id": 21837,
-            "name": "Yuuki Onozawa",
-            "native_name": "小野沢悠貴",
-            "anime": "Tokyo Magnitude 8.0",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
-            "site_url": "https://anilist.co/character/21837",
-            "anime_url": "https://myanimelist.net/anime/6211",
-            "role": "MAIN",
-            "favourites": 150,
-            "row_weight": 2.45301444,
-            "projection": 0.0007101067,
-            "similarity": 0.861014,
-            "matched_descriptor": "intelligent"
-          },
-          {
-            "character_id": 2277,
-            "name": "Koushirou Izumi",
-            "native_name": "泉光子郎",
-            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
-            "site_url": "https://anilist.co/character/2277",
-            "anime_url": "https://myanimelist.net/anime/41074",
-            "role": "MAIN",
-            "favourites": 178,
-            "row_weight": 1.75888968,
-            "projection": 0.000310254,
-            "similarity": 0.861014,
-            "matched_descriptor": "intelligent"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "big-hearted / bighearted / warm-hearted / soft-hearted / +1",
-        "descriptor_index": 648,
-        "amplitude": 0.0022704797,
-        "abs_amplitude": 0.0022704797,
-        "raw_amplitude": 0.0068114391,
-        "percent": 0.805652,
-        "raw_percent": 0.898383,
-        "coverage_percent": 68.303252,
-        "member_count": 5,
-        "members": [
-          "big-hearted",
-          "bighearted",
-          "warm-hearted",
-          "soft-hearted",
-          "tender-hearted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0068114391,
-            "similarity": 0.892939,
-            "matched_descriptor": "kind"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "boastful / bragging",
-        "descriptor_index": 735,
-        "amplitude": 0.00219497,
-        "abs_amplitude": 0.00219497,
-        "raw_amplitude": 0.0065849101,
-        "percent": 0.778858,
-        "raw_percent": 0.868505,
-        "coverage_percent": 69.08211,
-        "member_count": 2,
-        "members": [
-          "boastful",
-          "bragging"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 2212,
-            "name": "Shiki Tohno",
-            "native_name": "遠野志貴",
-            "anime": "Carnival Phantasm",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-            "site_url": "https://anilist.co/character/2212",
-            "anime_url": "https://myanimelist.net/anime/12187",
-            "role": "MAIN",
-            "favourites": 755,
-            "row_weight": 1.95295179,
-            "projection": 0.0065849101,
-            "similarity": 0.894133,
-            "matched_descriptor": "overconfident"
-          }
-        ]
+        "fit_percent": 97.731765,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 8464,
         "name": "Black☆Star",
-        "native_name": "ブラック☆スター",
         "anime": "Soul Eater",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
         "site_url": "https://anilist.co/character/8464",
-        "anime_url": "https://myanimelist.net/anime/3588",
-        "role": "MAIN",
         "favourites": 2754,
-        "row_weight": 2.98683323,
-        "amplitude": 0.6306860453,
-        "abs_amplitude": 0.6306860453,
-        "percent": 39.776489
-      },
-      {
-        "character_id": 2212,
-        "name": "Shiki Tohno",
-        "native_name": "遠野志貴",
-        "anime": "Carnival Phantasm",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-        "site_url": "https://anilist.co/character/2212",
-        "anime_url": "https://myanimelist.net/anime/12187",
-        "role": "MAIN",
-        "favourites": 755,
-        "row_weight": 1.95295179,
-        "amplitude": -0.599616935,
-        "abs_amplitude": 0.599616935,
-        "percent": 35.954047
-      },
-      {
-        "character_id": 66969,
-        "name": "Souta Hori",
-        "native_name": "堀創太",
-        "anime": "Hori-san to Miyamura-kun",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-        "site_url": "https://anilist.co/character/66969",
-        "anime_url": "https://myanimelist.net/anime/14753",
-        "role": "SUPPORTING",
-        "favourites": 557,
-        "row_weight": 1.91368218,
-        "amplitude": 0.394299129,
-        "abs_amplitude": 0.394299129,
-        "percent": 15.54718
-      },
-      {
-        "character_id": 85781,
-        "name": "Koujirou Shinomiya",
-        "native_name": "四宮小次郎",
-        "anime": "Food Wars!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-        "site_url": "https://anilist.co/character/85781",
-        "anime_url": "https://myanimelist.net/anime/28171",
-        "role": "SUPPORTING",
-        "favourites": 585,
-        "row_weight": 1.92006768,
-        "amplitude": 0.2704347455,
-        "abs_amplitude": 0.2704347455,
-        "percent": 7.313495
+        "anilist_favourites": 2754,
+        "bangumi_collects": 29,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 162,
+        "bangumi_url": "https://bgm.tv/character/162",
+        "combined_favourites": 2783,
+        "role_edge_count": 1,
+        "descriptors": [
+          "self-centered"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.98858562,
+        "row_weight": 2.98858562,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.6556155824,
+        "abs_amplitude": 0.6556155824,
+        "percent": 42.983179
       },
       {
         "character_id": 21837,
         "name": "Yuuki Onozawa",
-        "native_name": "小野沢悠貴",
         "anime": "Tokyo Magnitude 8.0",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
         "site_url": "https://anilist.co/character/21837",
-        "anime_url": "https://myanimelist.net/anime/6211",
-        "role": "MAIN",
         "favourites": 150,
-        "row_weight": 2.45301444,
-        "amplitude": -0.0962651922,
-        "abs_amplitude": 0.0962651922,
-        "percent": 0.926699
+        "anilist_favourites": 150,
+        "bangumi_collects": 14,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 14513,
+        "bangumi_url": "https://bgm.tv/character/14513",
+        "combined_favourites": 164,
+        "role_edge_count": 1,
+        "descriptors": [
+          "selfless"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47102114,
+        "row_weight": 2.47102114,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5200228802,
+        "abs_amplitude": 0.5200228802,
+        "percent": 27.04238
+      },
+      {
+        "character_id": 2212,
+        "name": "Shiki Tohno",
+        "anime": "Carnival Phantasm",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
+        "site_url": "https://anilist.co/character/2212",
+        "favourites": 755,
+        "anilist_favourites": 755,
+        "bangumi_collects": 136,
+        "bangumi_comments": 34,
+        "bangumi_character_id": 856,
+        "bangumi_url": "https://bgm.tv/character/856",
+        "combined_favourites": 891,
+        "role_edge_count": 2,
+        "descriptors": [
+          "cruel",
+          "easygoing",
+          "honest",
+          "jealous",
+          "kind",
+          "overconfident",
+          "violent"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.79167801,
+        "row_weight": 1.97401445,
+        "unweighted_row_norm": 5.65419788,
+        "amplitude": 0.4149795827,
+        "abs_amplitude": 0.4149795827,
+        "percent": 17.220805
       },
       {
         "character_id": 2277,
         "name": "Koushirou Izumi",
-        "native_name": "泉光子郎",
         "anime": "Digimon Adventure tri. Chapter 1: Reunion",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
         "site_url": "https://anilist.co/character/2277",
-        "anime_url": "https://myanimelist.net/anime/41074",
-        "role": "MAIN",
         "favourites": 178,
-        "row_weight": 1.75888968,
-        "amplitude": -0.0623070564,
-        "abs_amplitude": 0.0623070564,
-        "percent": 0.388217
-      },
-      {
-        "character_id": 2951,
-        "name": "Shinnosuke Nohara",
-        "native_name": "野原しんのすけ",
-        "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-        "site_url": "https://anilist.co/character/2951",
-        "anime_url": "https://myanimelist.net/anime/38629",
-        "role": "MAIN",
-        "favourites": 526,
-        "row_weight": 1.90620048,
-        "amplitude": 0.0306387408,
-        "abs_amplitude": 0.0306387408,
-        "percent": 0.093873
+        "anilist_favourites": 178,
+        "bangumi_collects": 22,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 5154,
+        "bangumi_url": "https://bgm.tv/character/5154",
+        "combined_favourites": 200,
+        "role_edge_count": 2,
+        "descriptors": [
+          "brave",
+          "loyal",
+          "resourceful"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.51063835,
+        "row_weight": 1.7752894,
+        "unweighted_row_norm": 2.5721938,
+        "amplitude": 0.3571223292,
+        "abs_amplitude": 0.3571223292,
+        "percent": 12.753636
       }
     ],
     "positive_characters": [
       {
         "character_id": 8464,
         "name": "Black☆Star",
-        "native_name": "ブラック☆スター",
         "anime": "Soul Eater",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
         "site_url": "https://anilist.co/character/8464",
-        "anime_url": "https://myanimelist.net/anime/3588",
-        "role": "MAIN",
         "favourites": 2754,
-        "row_weight": 2.98683323,
-        "amplitude": 0.6306860453,
-        "abs_amplitude": 0.6306860453,
-        "percent": 39.776489
-      },
-      {
-        "character_id": 66969,
-        "name": "Souta Hori",
-        "native_name": "堀創太",
-        "anime": "Hori-san to Miyamura-kun",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b66969-w9HNa7igeTeF.png",
-        "site_url": "https://anilist.co/character/66969",
-        "anime_url": "https://myanimelist.net/anime/14753",
-        "role": "SUPPORTING",
-        "favourites": 557,
-        "row_weight": 1.91368218,
-        "amplitude": 0.394299129,
-        "abs_amplitude": 0.394299129,
-        "percent": 15.54718
-      },
-      {
-        "character_id": 85781,
-        "name": "Koujirou Shinomiya",
-        "native_name": "四宮小次郎",
-        "anime": "Food Wars!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/85781.jpg",
-        "site_url": "https://anilist.co/character/85781",
-        "anime_url": "https://myanimelist.net/anime/28171",
-        "role": "SUPPORTING",
-        "favourites": 585,
-        "row_weight": 1.92006768,
-        "amplitude": 0.2704347455,
-        "abs_amplitude": 0.2704347455,
-        "percent": 7.313495
-      },
-      {
-        "character_id": 2951,
-        "name": "Shinnosuke Nohara",
-        "native_name": "野原しんのすけ",
-        "anime": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2951-Bs571jmT5Xym.png",
-        "site_url": "https://anilist.co/character/2951",
-        "anime_url": "https://myanimelist.net/anime/38629",
-        "role": "MAIN",
-        "favourites": 526,
-        "row_weight": 1.90620048,
-        "amplitude": 0.0306387408,
-        "abs_amplitude": 0.0306387408,
-        "percent": 0.093873
-      }
-    ],
-    "negative_characters": [
-      {
-        "character_id": 2212,
-        "name": "Shiki Tohno",
-        "native_name": "遠野志貴",
-        "anime": "Carnival Phantasm",
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
-        "site_url": "https://anilist.co/character/2212",
-        "anime_url": "https://myanimelist.net/anime/12187",
-        "role": "MAIN",
-        "favourites": 755,
-        "row_weight": 1.95295179,
-        "amplitude": -0.599616935,
-        "abs_amplitude": 0.599616935,
-        "percent": 35.954047
+        "anilist_favourites": 2754,
+        "bangumi_collects": 29,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 162,
+        "bangumi_url": "https://bgm.tv/character/162",
+        "combined_favourites": 2783,
+        "role_edge_count": 1,
+        "descriptors": [
+          "self-centered"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.98858562,
+        "row_weight": 2.98858562,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.6556155824,
+        "abs_amplitude": 0.6556155824,
+        "percent": 42.983179
       },
       {
         "character_id": 21837,
         "name": "Yuuki Onozawa",
-        "native_name": "小野沢悠貴",
         "anime": "Tokyo Magnitude 8.0",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
         "site_url": "https://anilist.co/character/21837",
-        "anime_url": "https://myanimelist.net/anime/6211",
-        "role": "MAIN",
         "favourites": 150,
-        "row_weight": 2.45301444,
-        "amplitude": -0.0962651922,
-        "abs_amplitude": 0.0962651922,
-        "percent": 0.926699
+        "anilist_favourites": 150,
+        "bangumi_collects": 14,
+        "bangumi_comments": 6,
+        "bangumi_character_id": 14513,
+        "bangumi_url": "https://bgm.tv/character/14513",
+        "combined_favourites": 164,
+        "role_edge_count": 1,
+        "descriptors": [
+          "selfless"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.47102114,
+        "row_weight": 2.47102114,
+        "unweighted_row_norm": 1.0,
+        "amplitude": 0.5200228802,
+        "abs_amplitude": 0.5200228802,
+        "percent": 27.04238
+      },
+      {
+        "character_id": 2212,
+        "name": "Shiki Tohno",
+        "anime": "Carnival Phantasm",
+        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
+        "site_url": "https://anilist.co/character/2212",
+        "favourites": 755,
+        "anilist_favourites": 755,
+        "bangumi_collects": 136,
+        "bangumi_comments": 34,
+        "bangumi_character_id": 856,
+        "bangumi_url": "https://bgm.tv/character/856",
+        "combined_favourites": 891,
+        "role_edge_count": 2,
+        "descriptors": [
+          "cruel",
+          "easygoing",
+          "honest",
+          "jealous",
+          "kind",
+          "overconfident",
+          "violent"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.79167801,
+        "row_weight": 1.97401445,
+        "unweighted_row_norm": 5.65419788,
+        "amplitude": 0.4149795827,
+        "abs_amplitude": 0.4149795827,
+        "percent": 17.220805
       },
       {
         "character_id": 2277,
         "name": "Koushirou Izumi",
-        "native_name": "泉光子郎",
         "anime": "Digimon Adventure tri. Chapter 1: Reunion",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
         "site_url": "https://anilist.co/character/2277",
-        "anime_url": "https://myanimelist.net/anime/41074",
-        "role": "MAIN",
         "favourites": 178,
-        "row_weight": 1.75888968,
-        "amplitude": -0.0623070564,
-        "abs_amplitude": 0.0623070564,
-        "percent": 0.388217
+        "anilist_favourites": 178,
+        "bangumi_collects": 22,
+        "bangumi_comments": 4,
+        "bangumi_character_id": 5154,
+        "bangumi_url": "https://bgm.tv/character/5154",
+        "combined_favourites": 200,
+        "role_edge_count": 2,
+        "descriptors": [
+          "brave",
+          "loyal",
+          "resourceful"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.51063835,
+        "row_weight": 1.7752894,
+        "unweighted_row_norm": 2.5721938,
+        "amplitude": 0.3571223292,
+        "abs_amplitude": 0.3571223292,
+        "percent": 12.753636
       }
-    ]
+    ],
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 3.291579,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "violent / cruel / brave / +9",
+          "support": 4,
+          "variance": 3.8767231405,
+          "seed_descriptor": "violent",
+          "components": [
+            {
+              "descriptor": "violent",
+              "weight": 0.21744679,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "cruel",
+              "weight": 0.11606323,
+              "similarity_to_seed": 0.73058511,
+              "support": 1
+            },
+            {
+              "descriptor": "brave",
+              "weight": 0.078127,
+              "similarity_to_seed": 0.59941012,
+              "support": 1
+            },
+            {
+              "descriptor": "jealous",
+              "weight": 0.07336782,
+              "similarity_to_seed": 0.58086647,
+              "support": 1
+            },
+            {
+              "descriptor": "kind",
+              "weight": 0.07201863,
+              "similarity_to_seed": 0.57550077,
+              "support": 1
+            },
+            {
+              "descriptor": "overconfident",
+              "weight": 0.06919305,
+              "similarity_to_seed": 0.56409823,
+              "support": 1
+            },
+            {
+              "descriptor": "honest",
+              "weight": 0.06661211,
+              "similarity_to_seed": 0.55347764,
+              "support": 1
+            },
+            {
+              "descriptor": "easygoing",
+              "weight": 0.06497688,
+              "similarity_to_seed": 0.54664189,
+              "support": 1
+            },
+            {
+              "descriptor": "selfless",
+              "weight": 0.06414457,
+              "similarity_to_seed": 0.54312955,
+              "support": 1
+            },
+            {
+              "descriptor": "resourceful",
+              "weight": 0.06151765,
+              "similarity_to_seed": 0.53189189,
+              "support": 1
+            },
+            {
+              "descriptor": "loyal",
+              "weight": 0.06024609,
+              "similarity_to_seed": 0.52636611,
+              "support": 1
+            },
+            {
+              "descriptor": "self-centered",
+              "weight": 0.05628619,
+              "similarity_to_seed": 0.50877344,
+              "support": 1
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "local_supported",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 3.8767231405,
+          "minimum_y_projection_variance": 0.9691807851,
+          "best_rejected_correlation": null,
+          "best_rejected_lane_cosine": null,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": null,
+          "candidate_count": 12,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 0,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.3876723141,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.9691807851,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.9383615703,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": null,
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 8464,
+            "name": "Black☆Star",
+            "anime": "Soul Eater",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
+            "site_url": "https://anilist.co/character/8464",
+            "favourites": 2754,
+            "anilist_favourites": 2754,
+            "bangumi_collects": 29,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 162,
+            "bangumi_url": "https://bgm.tv/character/162",
+            "combined_favourites": 2783,
+            "role_edge_count": 1,
+            "descriptors": [
+              "self-centered"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.98858562,
+            "row_weight": 2.98858562,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7233473567,
+            "x_score": -1.6240746132,
+            "amplitude": -1.6240746132,
+            "x_direct": true
+          },
+          {
+            "character_id": 2212,
+            "name": "Shiki Tohno",
+            "anime": "Carnival Phantasm",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
+            "site_url": "https://anilist.co/character/2212",
+            "favourites": 755,
+            "anilist_favourites": 755,
+            "bangumi_collects": 136,
+            "bangumi_comments": 34,
+            "bangumi_character_id": 856,
+            "bangumi_url": "https://bgm.tv/character/856",
+            "combined_favourites": 891,
+            "role_edge_count": 2,
+            "descriptors": [
+              "cruel",
+              "easygoing",
+              "honest",
+              "jealous",
+              "kind",
+              "overconfident",
+              "violent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.79167801,
+            "row_weight": 1.97401445,
+            "unweighted_row_norm": 5.65419788,
+            "x_raw_score": 5.5713670977,
+            "x_score": 3.2239451279,
+            "amplitude": 3.2239451279,
+            "x_direct": true
+          },
+          {
+            "character_id": 2277,
+            "name": "Koushirou Izumi",
+            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
+            "site_url": "https://anilist.co/character/2277",
+            "favourites": 178,
+            "anilist_favourites": 178,
+            "bangumi_collects": 22,
+            "bangumi_comments": 4,
+            "bangumi_character_id": 5154,
+            "bangumi_url": "https://bgm.tv/character/5154",
+            "combined_favourites": 200,
+            "role_edge_count": 2,
+            "descriptors": [
+              "brave",
+              "loyal",
+              "resourceful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.51063835,
+            "row_weight": 1.7752894,
+            "unweighted_row_norm": 2.5721938,
+            "x_raw_score": 2.3206811231,
+            "x_score": -0.0267408467,
+            "amplitude": -0.0267408467,
+            "x_direct": true
+          },
+          {
+            "character_id": 21837,
+            "name": "Yuuki Onozawa",
+            "anime": "Tokyo Magnitude 8.0",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
+            "site_url": "https://anilist.co/character/21837",
+            "favourites": 150,
+            "anilist_favourites": 150,
+            "bangumi_collects": 14,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 14513,
+            "bangumi_url": "https://bgm.tv/character/14513",
+            "combined_favourites": 164,
+            "role_edge_count": 1,
+            "descriptors": [
+              "selfless"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.47102114,
+            "row_weight": 2.47102114,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7742923018,
+            "x_score": -1.573129668,
+            "amplitude": -1.573129668,
+            "x_direct": true
+          }
+        ],
+        "center": {
+          "x_raw_mean": 2.3474219698
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      },
+      "universal_515": {
+        "dimension_count": 1,
+        "x_axis": {
+          "descriptor": "jealous / savage / cynical / +9",
+          "support": 1,
+          "variance": 3.6709667167,
+          "seed_descriptor": "jealous",
+          "components": [
+            {
+              "descriptor": "jealous",
+              "weight": 0.1546166,
+              "similarity_to_seed": 1.0,
+              "support": 1
+            },
+            {
+              "descriptor": "savage",
+              "weight": 0.0813476,
+              "similarity_to_seed": 0.72534449,
+              "support": 0
+            },
+            {
+              "descriptor": "cynical",
+              "weight": 0.07891445,
+              "similarity_to_seed": 0.71441444,
+              "support": 0
+            },
+            {
+              "descriptor": "irritated",
+              "weight": 0.0784145,
+              "similarity_to_seed": 0.71214781,
+              "support": 0
+            },
+            {
+              "descriptor": "ruthless",
+              "weight": 0.0783086,
+              "similarity_to_seed": 0.71166677,
+              "support": 0
+            },
+            {
+              "descriptor": "obsessed",
+              "weight": 0.07823379,
+              "similarity_to_seed": 0.71132673,
+              "support": 0
+            },
+            {
+              "descriptor": "spiteful",
+              "weight": 0.07657671,
+              "similarity_to_seed": 0.70375307,
+              "support": 0
+            },
+            {
+              "descriptor": "teasing",
+              "weight": 0.07628903,
+              "similarity_to_seed": 0.70242989,
+              "support": 0
+            },
+            {
+              "descriptor": "selfish",
+              "weight": 0.07470315,
+              "similarity_to_seed": 0.69509059,
+              "support": 0
+            },
+            {
+              "descriptor": "passionate",
+              "weight": 0.07445487,
+              "similarity_to_seed": 0.69393454,
+              "support": 0
+            },
+            {
+              "descriptor": "admired",
+              "weight": 0.07410196,
+              "similarity_to_seed": 0.69228798,
+              "support": 0
+            },
+            {
+              "descriptor": "petty",
+              "weight": 0.07403873,
+              "similarity_to_seed": 0.69199258,
+              "support": 0
+            }
+          ]
+        },
+        "axis_selection": {
+          "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+          "component_scope": "universal_515",
+          "correlation_threshold_for_2d": 0.5,
+          "minimum_y_variance_fraction_of_x": 0.25,
+          "x_projection_variance": 3.6709667167,
+          "minimum_y_projection_variance": 0.9177416792,
+          "best_rejected_correlation": 0.9985895277,
+          "best_rejected_lane_cosine": 0.903754126,
+          "best_low_correlation_y_variance": null,
+          "best_high_variance_y_correlation": 0.9985895277,
+          "candidate_count": 80,
+          "x_component_count": 12,
+          "y_candidates_after_component_exclusion": 79,
+          "threshold_diagnostics": {
+            "correlation_threshold": 0.7,
+            "variance_floors": {
+              "10pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.3670966717,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "25pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 0.9177416792,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              },
+              "50pct": {
+                "passes": false,
+                "passing_count": 0,
+                "minimum_y_projection_variance": 1.8354833584,
+                "best_y_descriptor": null,
+                "best_y_variance": null,
+                "best_correlation": null,
+                "best_lane_cosine": null
+              }
+            }
+          },
+          "orthogonal_variance_lane": {
+            "descriptor": "hot-blooded / cold-blooded / hot-tempered / +7",
+            "variance": 3.2585047999,
+            "correlation": 0.9994984796,
+            "abs_correlation": 0.9994984796,
+            "lane_cosine": 0.8639682184,
+            "orthogonality_score": 0.2535589176,
+            "objective": 0.8262229501,
+            "components": [
+              {
+                "descriptor": "hot-blooded",
+                "weight": 0.16624097,
+                "similarity_to_seed": 1.0,
+                "support": 0
+              },
+              {
+                "descriptor": "cold-blooded",
+                "weight": 0.12399993,
+                "similarity_to_seed": 0.86365779,
+                "support": 0
+              },
+              {
+                "descriptor": "hot-tempered",
+                "weight": 0.11757464,
+                "similarity_to_seed": 0.84098412,
+                "support": 0
+              },
+              {
+                "descriptor": "hotheaded",
+                "weight": 0.0904686,
+                "similarity_to_seed": 0.7377002,
+                "support": 0
+              },
+              {
+                "descriptor": "aggressive",
+                "weight": 0.08557535,
+                "similarity_to_seed": 0.71747255,
+                "support": 0
+              },
+              {
+                "descriptor": "vicious",
+                "weight": 0.08538237,
+                "similarity_to_seed": 0.71666315,
+                "support": 0
+              },
+              {
+                "descriptor": "fierce",
+                "weight": 0.08390302,
+                "similarity_to_seed": 0.71042751,
+                "support": 0
+              },
+              {
+                "descriptor": "even-tempered",
+                "weight": 0.0830972,
+                "similarity_to_seed": 0.70700775,
+                "support": 0
+              },
+              {
+                "descriptor": "feisty",
+                "weight": 0.08288548,
+                "similarity_to_seed": 0.70610646,
+                "support": 0
+              },
+              {
+                "descriptor": "warm",
+                "weight": 0.08087244,
+                "similarity_to_seed": 0.69747914,
+                "support": 0
+              }
+            ]
+          },
+          "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+        },
+        "characters": [
+          {
+            "character_id": 8464,
+            "name": "Black☆Star",
+            "anime": "Soul Eater",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
+            "site_url": "https://anilist.co/character/8464",
+            "favourites": 2754,
+            "anilist_favourites": 2754,
+            "bangumi_collects": 29,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 162,
+            "bangumi_url": "https://bgm.tv/character/162",
+            "combined_favourites": 2783,
+            "role_edge_count": 1,
+            "descriptors": [
+              "self-centered"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.98858562,
+            "row_weight": 2.98858562,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.6427166636,
+            "x_score": -1.5817116467,
+            "amplitude": -1.5817116467,
+            "x_direct": false
+          },
+          {
+            "character_id": 2212,
+            "name": "Shiki Tohno",
+            "anime": "Carnival Phantasm",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
+            "site_url": "https://anilist.co/character/2212",
+            "favourites": 755,
+            "anilist_favourites": 755,
+            "bangumi_collects": 136,
+            "bangumi_comments": 34,
+            "bangumi_character_id": 856,
+            "bangumi_url": "https://bgm.tv/character/856",
+            "combined_favourites": 891,
+            "role_edge_count": 2,
+            "descriptors": [
+              "cruel",
+              "easygoing",
+              "honest",
+              "jealous",
+              "kind",
+              "overconfident",
+              "violent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.79167801,
+            "row_weight": 1.97401445,
+            "unweighted_row_norm": 5.65419788,
+            "x_raw_score": 5.3716763292,
+            "x_score": 3.1472480189,
+            "amplitude": 3.1472480189,
+            "x_direct": true
+          },
+          {
+            "character_id": 2277,
+            "name": "Koushirou Izumi",
+            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
+            "site_url": "https://anilist.co/character/2277",
+            "favourites": 178,
+            "anilist_favourites": 178,
+            "bangumi_collects": 22,
+            "bangumi_comments": 4,
+            "bangumi_character_id": 5154,
+            "bangumi_url": "https://bgm.tv/character/5154",
+            "combined_favourites": 200,
+            "role_edge_count": 2,
+            "descriptors": [
+              "brave",
+              "loyal",
+              "resourceful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.51063835,
+            "row_weight": 1.7752894,
+            "unweighted_row_norm": 2.5721938,
+            "x_raw_score": 2.166723216,
+            "x_score": -0.0577050942,
+            "amplitude": -0.0577050942,
+            "x_direct": false
+          },
+          {
+            "character_id": 21837,
+            "name": "Yuuki Onozawa",
+            "anime": "Tokyo Magnitude 8.0",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
+            "site_url": "https://anilist.co/character/21837",
+            "favourites": 150,
+            "anilist_favourites": 150,
+            "bangumi_collects": 14,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 14513,
+            "bangumi_url": "https://bgm.tv/character/14513",
+            "combined_favourites": 164,
+            "role_edge_count": 1,
+            "descriptors": [
+              "selfless"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.47102114,
+            "row_weight": 2.47102114,
+            "unweighted_row_norm": 1.0,
+            "x_raw_score": 0.7165970322,
+            "x_score": -1.5078312781,
+            "amplitude": -1.5078312781,
+            "x_direct": false
+          }
+        ],
+        "center": {
+          "x_raw_mean": 2.2244283102
+        },
+        "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+      }
+    },
+    "direct_descriptor_plane": {
+      "dimension_count": 1,
+      "x_axis": {
+        "descriptor": "violent / cruel / brave / +9",
+        "support": 4,
+        "variance": 3.8767231405,
+        "seed_descriptor": "violent",
+        "components": [
+          {
+            "descriptor": "violent",
+            "weight": 0.21744679,
+            "similarity_to_seed": 1.0,
+            "support": 1
+          },
+          {
+            "descriptor": "cruel",
+            "weight": 0.11606323,
+            "similarity_to_seed": 0.73058511,
+            "support": 1
+          },
+          {
+            "descriptor": "brave",
+            "weight": 0.078127,
+            "similarity_to_seed": 0.59941012,
+            "support": 1
+          },
+          {
+            "descriptor": "jealous",
+            "weight": 0.07336782,
+            "similarity_to_seed": 0.58086647,
+            "support": 1
+          },
+          {
+            "descriptor": "kind",
+            "weight": 0.07201863,
+            "similarity_to_seed": 0.57550077,
+            "support": 1
+          },
+          {
+            "descriptor": "overconfident",
+            "weight": 0.06919305,
+            "similarity_to_seed": 0.56409823,
+            "support": 1
+          },
+          {
+            "descriptor": "honest",
+            "weight": 0.06661211,
+            "similarity_to_seed": 0.55347764,
+            "support": 1
+          },
+          {
+            "descriptor": "easygoing",
+            "weight": 0.06497688,
+            "similarity_to_seed": 0.54664189,
+            "support": 1
+          },
+          {
+            "descriptor": "selfless",
+            "weight": 0.06414457,
+            "similarity_to_seed": 0.54312955,
+            "support": 1
+          },
+          {
+            "descriptor": "resourceful",
+            "weight": 0.06151765,
+            "similarity_to_seed": 0.53189189,
+            "support": 1
+          },
+          {
+            "descriptor": "loyal",
+            "weight": 0.06024609,
+            "similarity_to_seed": 0.52636611,
+            "support": 1
+          },
+          {
+            "descriptor": "self-centered",
+            "weight": 0.05628619,
+            "similarity_to_seed": 0.50877344,
+            "support": 1
+          }
+        ]
+      },
+      "axis_selection": {
+        "criterion": "No exact-component-disjoint second lane had character-score correlation below 0.5 while retaining at least 25% of lane 1 variation, so this seiyuu is shown on the single highest-variance positive descriptor lane.",
+        "component_scope": "local_supported",
+        "correlation_threshold_for_2d": 0.5,
+        "minimum_y_variance_fraction_of_x": 0.25,
+        "x_projection_variance": 3.8767231405,
+        "minimum_y_projection_variance": 0.9691807851,
+        "best_rejected_correlation": null,
+        "best_rejected_lane_cosine": null,
+        "best_low_correlation_y_variance": null,
+        "best_high_variance_y_correlation": null,
+        "candidate_count": 12,
+        "x_component_count": 12,
+        "y_candidates_after_component_exclusion": 0,
+        "threshold_diagnostics": {
+          "correlation_threshold": 0.7,
+          "variance_floors": {
+            "10pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.3876723141,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "25pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 0.9691807851,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            },
+            "50pct": {
+              "passes": false,
+              "passing_count": 0,
+              "minimum_y_projection_variance": 1.9383615703,
+              "best_y_descriptor": null,
+              "best_y_variance": null,
+              "best_correlation": null,
+              "best_lane_cosine": null
+            }
+          }
+        },
+        "orthogonal_variance_lane": null,
+        "component_exclusion": "Lane 2 candidate mixtures are recomputed after stripping exact descriptor components used by lane 1."
+      },
+      "characters": [
+        {
+          "character_id": 8464,
+          "name": "Black☆Star",
+          "anime": "Soul Eater",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
+          "site_url": "https://anilist.co/character/8464",
+          "favourites": 2754,
+          "anilist_favourites": 2754,
+          "bangumi_collects": 29,
+          "bangumi_comments": 6,
+          "bangumi_character_id": 162,
+          "bangumi_url": "https://bgm.tv/character/162",
+          "combined_favourites": 2783,
+          "role_edge_count": 1,
+          "descriptors": [
+            "self-centered"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.98858562,
+          "row_weight": 2.98858562,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7233473567,
+          "x_score": -1.6240746132,
+          "amplitude": -1.6240746132,
+          "x_direct": true
+        },
+        {
+          "character_id": 2212,
+          "name": "Shiki Tohno",
+          "anime": "Carnival Phantasm",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
+          "site_url": "https://anilist.co/character/2212",
+          "favourites": 755,
+          "anilist_favourites": 755,
+          "bangumi_collects": 136,
+          "bangumi_comments": 34,
+          "bangumi_character_id": 856,
+          "bangumi_url": "https://bgm.tv/character/856",
+          "combined_favourites": 891,
+          "role_edge_count": 2,
+          "descriptors": [
+            "cruel",
+            "easygoing",
+            "honest",
+            "jealous",
+            "kind",
+            "overconfident",
+            "violent"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.79167801,
+          "row_weight": 1.97401445,
+          "unweighted_row_norm": 5.65419788,
+          "x_raw_score": 5.5713670977,
+          "x_score": 3.2239451279,
+          "amplitude": 3.2239451279,
+          "x_direct": true
+        },
+        {
+          "character_id": 2277,
+          "name": "Koushirou Izumi",
+          "anime": "Digimon Adventure tri. Chapter 1: Reunion",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
+          "site_url": "https://anilist.co/character/2277",
+          "favourites": 178,
+          "anilist_favourites": 178,
+          "bangumi_collects": 22,
+          "bangumi_comments": 4,
+          "bangumi_character_id": 5154,
+          "bangumi_url": "https://bgm.tv/character/5154",
+          "combined_favourites": 200,
+          "role_edge_count": 2,
+          "descriptors": [
+            "brave",
+            "loyal",
+            "resourceful"
+          ],
+          "shared_role_weight": 0.70710678,
+          "popularity_row_weight": 2.51063835,
+          "row_weight": 1.7752894,
+          "unweighted_row_norm": 2.5721938,
+          "x_raw_score": 2.3206811231,
+          "x_score": -0.0267408467,
+          "amplitude": -0.0267408467,
+          "x_direct": true
+        },
+        {
+          "character_id": 21837,
+          "name": "Yuuki Onozawa",
+          "anime": "Tokyo Magnitude 8.0",
+          "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
+          "site_url": "https://anilist.co/character/21837",
+          "favourites": 150,
+          "anilist_favourites": 150,
+          "bangumi_collects": 14,
+          "bangumi_comments": 6,
+          "bangumi_character_id": 14513,
+          "bangumi_url": "https://bgm.tv/character/14513",
+          "combined_favourites": 164,
+          "role_edge_count": 1,
+          "descriptors": [
+            "selfless"
+          ],
+          "shared_role_weight": 1.0,
+          "popularity_row_weight": 2.47102114,
+          "row_weight": 2.47102114,
+          "unweighted_row_norm": 1.0,
+          "x_raw_score": 0.7742923018,
+          "x_score": -1.573129668,
+          "amplitude": -1.573129668,
+          "x_direct": true
+        }
+      ],
+      "center": {
+        "x_raw_mean": 2.3474219698
+      },
+      "method": "Each character is the unnormalized sum of its canonical descriptor vectors; x is the dot product onto the highest-variance positive descriptor-mixture lane, centered by subtracting this seiyuu's mean projection."
+    }
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.6079904683,
+      "mass_percent": 11.707128,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 40.615018,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "self-centered",
+            "amplitude": 0.4061501765,
+            "abs_amplitude": 0.4061501765,
+            "percent": 100.0
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "self-centered",
+            "fit_percent": 40.615018,
+            "residual_gain_percent": 16.495797
+          },
+          {
+            "step": 2,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 8464,
+            "name": "Black☆Star",
+            "anime": "Soul Eater",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b8464-oKu98OyJ3eZt.png",
+            "site_url": "https://anilist.co/character/8464",
+            "favourites": 2754,
+            "anilist_favourites": 2754,
+            "bangumi_collects": 29,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 162,
+            "bangumi_url": "https://bgm.tv/character/162",
+            "combined_favourites": 2783,
+            "role_edge_count": 1,
+            "descriptors": [
+              "self-centered"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.98858562,
+            "row_weight": 2.98858562,
+            "unweighted_row_norm": 1.0,
+            "amplitude": 0.7548642867,
+            "abs_amplitude": 0.7548642867,
+            "percent": 56.982009
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 40.508734,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "cruel",
+            "amplitude": 0.2257909463,
+            "abs_amplitude": 0.2257909463,
+            "percent": 47.905045
+          },
+          {
+            "rank": 2,
+            "descriptor": "brave",
+            "amplitude": 0.1544052626,
+            "abs_amplitude": 0.1544052626,
+            "percent": 32.759467
+          },
+          {
+            "rank": 3,
+            "descriptor": "clueless",
+            "amplitude": 0.091133993,
+            "abs_amplitude": 0.091133993,
+            "percent": 19.335488
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "cruel",
+            "fit_percent": 37.191336,
+            "residual_gain_percent": 13.831955
+          },
+          {
+            "step": 2,
+            "descriptor": "brave",
+            "fit_percent": 39.884735,
+            "residual_gain_percent": 2.409206
+          },
+          {
+            "step": 3,
+            "descriptor": "clueless",
+            "fit_percent": 40.508734,
+            "residual_gain_percent": 0.596554
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 21837,
+            "name": "Yuuki Onozawa",
+            "anime": "Tokyo Magnitude 8.0",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b21837-m3PCWkC2rXcI.png",
+            "site_url": "https://anilist.co/character/21837",
+            "favourites": 150,
+            "anilist_favourites": 150,
+            "bangumi_collects": 14,
+            "bangumi_comments": 6,
+            "bangumi_character_id": 14513,
+            "bangumi_url": "https://bgm.tv/character/14513",
+            "combined_favourites": 164,
+            "role_edge_count": 1,
+            "descriptors": [
+              "selfless"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.47102114,
+            "row_weight": 2.47102114,
+            "unweighted_row_norm": 1.0,
+            "amplitude": -0.4481190235,
+            "abs_amplitude": 0.4481190235,
+            "percent": 20.081066
+          },
+          {
+            "character_id": 2212,
+            "name": "Shiki Tohno",
+            "anime": "Carnival Phantasm",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2212-pgKYEq8gGCsY.jpg",
+            "site_url": "https://anilist.co/character/2212",
+            "favourites": 755,
+            "anilist_favourites": 755,
+            "bangumi_collects": 136,
+            "bangumi_comments": 34,
+            "bangumi_character_id": 856,
+            "bangumi_url": "https://bgm.tv/character/856",
+            "combined_favourites": 891,
+            "role_edge_count": 2,
+            "descriptors": [
+              "cruel",
+              "easygoing",
+              "honest",
+              "jealous",
+              "kind",
+              "overconfident",
+              "violent"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.79167801,
+            "row_weight": 1.97401445,
+            "unweighted_row_norm": 5.65419788,
+            "amplitude": -0.3466934232,
+            "abs_amplitude": 0.3466934232,
+            "percent": 12.019633
+          },
+          {
+            "character_id": 2277,
+            "name": "Koushirou Izumi",
+            "anime": "Digimon Adventure tri. Chapter 1: Reunion",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b2277-4iS5JyV5uyjS.png",
+            "site_url": "https://anilist.co/character/2277",
+            "favourites": 178,
+            "anilist_favourites": 178,
+            "bangumi_collects": 22,
+            "bangumi_comments": 4,
+            "bangumi_character_id": 5154,
+            "bangumi_url": "https://bgm.tv/character/5154",
+            "combined_favourites": 200,
+            "role_edge_count": 2,
+            "descriptors": [
+              "brave",
+              "loyal",
+              "resourceful"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.51063835,
+            "row_weight": 1.7752894,
+            "unweighted_row_norm": 2.5721938,
+            "amplitude": -0.330413256,
+            "abs_amplitude": 0.330413256,
+            "percent": 10.917292
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 4.1654815482,
+      "mass_percent": 78.562239,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.6079904683,
+      "mass_percent": 11.707128,
+      "relative_to_sv2_percent": 100.0
+    },
+    {
+      "rank": 3,
+      "singular_value": 1.3021597913,
+      "mass_percent": 7.677361,
+      "relative_to_sv2_percent": 80.980567
+    },
+    {
+      "rank": 4,
+      "singular_value": 0.673412963,
+      "mass_percent": 2.053271,
+      "relative_to_sv2_percent": 41.879164
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

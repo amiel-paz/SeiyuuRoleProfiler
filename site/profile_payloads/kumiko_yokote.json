@@ -11,2026 +11,158 @@
     "kumiko yokote",
     "yokote kumiko"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/kumiko_yokote.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 28.039601759,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 28.039601759,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 305.305483,
-      "normalized_entanglement": 0.795066,
-      "top5_mass_percent": 3.69017,
-      "top10_mass_percent": 6.589125
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.5276613163,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 96.636107,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +12",
-        "descriptor_index": 944,
-        "amplitude": 0.0278139202,
-        "abs_amplitude": 0.0278139202,
-        "raw_amplitude": 0.0834417605,
-        "percent": 8.344322,
-        "raw_percent": 8.344176,
-        "coverage_percent": 8.344322,
-        "member_count": 16,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "good-humored",
-          "laid-back",
-          "easy-going",
-          "permissive",
-          "flighty",
-          "chilling",
-          "playful",
-          "accommodating",
-          "mild-mannered",
-          "relaxed",
-          "mellow"
-        ],
+        "descriptor": "shy",
+        "amplitude": 0.3337144065,
+        "abs_amplitude": 0.3337144065,
+        "percent": 29.16864,
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 39755,
             "name": "Miyako Shiina",
-            "native_name": "椎名京",
             "anime": "Majikoi: Oh! Samurai Girls",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
             "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0834417606,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
+            "combined_favourites": 218
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0246141121,
-        "abs_amplitude": 0.0246141121,
-        "raw_amplitude": 0.0738423364,
-        "percent": 7.384363,
-        "raw_percent": 7.384234,
-        "coverage_percent": 15.728685,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "descriptor": "loyal",
+        "amplitude": 0.308592001,
+        "abs_amplitude": 0.308592001,
+        "percent": 26.972791,
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 39755,
             "name": "Miyako Shiina",
-            "native_name": "椎名京",
             "anime": "Majikoi: Oh! Samurai Girls",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
             "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0738423364,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
+            "combined_favourites": 218
           }
         ]
       },
       {
         "rank": 3,
-        "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0243973497,
-        "abs_amplitude": 0.0243973497,
-        "raw_amplitude": 0.073192049,
-        "percent": 7.319333,
-        "raw_percent": 7.319205,
-        "coverage_percent": 23.048018,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "astute",
-          "clever",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
+        "descriptor": "jealous",
+        "amplitude": 0.2296459424,
+        "abs_amplitude": 0.2296459424,
+        "percent": 20.072432,
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 39755,
             "name": "Miyako Shiina",
-            "native_name": "椎名京",
             "anime": "Majikoi: Oh! Samurai Girls",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
             "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.073192049,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
+            "combined_favourites": 218
           }
         ]
       },
       {
         "rank": 4,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.022130507,
-        "abs_amplitude": 0.022130507,
-        "raw_amplitude": 0.066391521,
-        "percent": 6.639268,
-        "raw_percent": 6.639152,
-        "coverage_percent": 29.687286,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
+        "descriptor": "gloomy",
+        "amplitude": 0.2721339407,
+        "abs_amplitude": 0.2721339407,
+        "percent": 23.786138,
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 39755,
             "name": "Miyako Shiina",
-            "native_name": "椎名京",
             "anime": "Majikoi: Oh! Samurai Girls",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
             "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0663915211,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0194183867,
-        "abs_amplitude": 0.0194183867,
-        "raw_amplitude": 0.0582551602,
-        "percent": 5.825618,
-        "raw_percent": 5.825516,
-        "coverage_percent": 35.512904,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0582551601,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "assertive / forceful / tough / strong-minded / +3",
-        "descriptor_index": 425,
-        "amplitude": 0.0164812372,
-        "abs_amplitude": 0.0164812372,
-        "raw_amplitude": 0.0494437116,
-        "percent": 4.944458,
-        "raw_percent": 4.944371,
-        "coverage_percent": 40.457362,
-        "member_count": 7,
-        "members": [
-          "assertive",
-          "forceful",
-          "tough",
-          "strong-minded",
-          "go-getter",
-          "headstrong",
-          "tenacious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0494437117,
-            "similarity": 1.0,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "antisocial / anti-social / reclusive / uninterested-in-friendship",
-        "descriptor_index": 290,
-        "amplitude": 0.0136700311,
-        "abs_amplitude": 0.0136700311,
-        "raw_amplitude": 0.0410100933,
-        "percent": 4.101081,
-        "raw_percent": 4.101009,
-        "coverage_percent": 44.558443,
-        "member_count": 4,
-        "members": [
-          "antisocial",
-          "anti-social",
-          "reclusive",
-          "uninterested-in-friendship"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0410100933,
-            "similarity": 1.0,
-            "matched_descriptor": "antisocial"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "downhearted / depressed / sorrowful / sad / +4",
-        "descriptor_index": 1946,
-        "amplitude": 0.0103092979,
-        "abs_amplitude": 0.0103092979,
-        "raw_amplitude": 0.0309278938,
-        "percent": 3.092843,
-        "raw_percent": 3.092789,
-        "coverage_percent": 47.651286,
-        "member_count": 8,
-        "members": [
-          "downhearted",
-          "depressed",
-          "sorrowful",
-          "sad",
-          "dejected",
-          "upset",
-          "miserable",
-          "despairing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0309278937,
-            "similarity": 0.894495,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "gloomy / grim / melancholic",
-        "descriptor_index": 3015,
-        "amplitude": 0.0090549944,
-        "abs_amplitude": 0.0090549944,
-        "raw_amplitude": 0.0271649832,
-        "percent": 2.716546,
-        "raw_percent": 2.716498,
-        "coverage_percent": 50.367832,
-        "member_count": 3,
-        "members": [
-          "gloomy",
-          "grim",
-          "melancholic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0271649832,
-            "similarity": 1.0,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "ambitious / driven / proactive",
-        "descriptor_index": 193,
-        "amplitude": 0.008522617,
-        "abs_amplitude": 0.008522617,
-        "raw_amplitude": 0.0255678511,
-        "percent": 2.55683,
-        "raw_percent": 2.556785,
-        "coverage_percent": 52.924662,
-        "member_count": 3,
-        "members": [
-          "ambitious",
-          "driven",
-          "proactive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.025567851,
-            "similarity": 1.0,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "strong-willed / resolute / unyielding / unbending / +4",
-        "descriptor_index": 7373,
-        "amplitude": 0.0068985868,
-        "abs_amplitude": 0.0068985868,
-        "raw_amplitude": 0.0206957604,
-        "percent": 2.069612,
-        "raw_percent": 2.069576,
-        "coverage_percent": 54.994274,
-        "member_count": 8,
-        "members": [
-          "strong-willed",
-          "resolute",
-          "unyielding",
-          "unbending",
-          "refractory",
-          "stubborn",
-          "persistent",
-          "resistant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0206957604,
-            "similarity": 0.897915,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0062710972,
-        "abs_amplitude": 0.0062710972,
-        "raw_amplitude": 0.0188132915,
-        "percent": 1.881362,
-        "raw_percent": 1.881329,
-        "coverage_percent": 56.875636,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0188132915,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "self-reliant / solitary / self-sufficient / self-motivated / +3",
-        "descriptor_index": 6664,
-        "amplitude": 0.0049988548,
-        "abs_amplitude": 0.0049988548,
-        "raw_amplitude": 0.0149965645,
-        "percent": 1.499683,
-        "raw_percent": 1.499656,
-        "coverage_percent": 58.375319,
-        "member_count": 7,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "self-motivated",
-          "lone",
-          "hands-off",
-          "free-willed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0149965645,
-            "similarity": 0.873828,
-            "matched_descriptor": "possessive / assertive / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0044631991,
-        "abs_amplitude": 0.0044631991,
-        "raw_amplitude": 0.0133895973,
-        "percent": 1.338983,
-        "raw_percent": 1.33896,
-        "coverage_percent": 59.714302,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0133895973,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.004463192,
-        "abs_amplitude": 0.004463192,
-        "raw_amplitude": 0.0133895759,
-        "percent": 1.338981,
-        "raw_percent": 1.338958,
-        "coverage_percent": 61.053283,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0133895759,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.0044631904,
-        "abs_amplitude": 0.0044631904,
-        "raw_amplitude": 0.0133895712,
-        "percent": 1.338981,
-        "raw_percent": 1.338957,
-        "coverage_percent": 62.392264,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0133895712,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "convinced / self-assured / confident",
-        "descriptor_index": 1414,
-        "amplitude": 0.0043509717,
-        "abs_amplitude": 0.0043509717,
-        "raw_amplitude": 0.0130529151,
-        "percent": 1.305314,
-        "raw_percent": 1.305292,
-        "coverage_percent": 63.697578,
-        "member_count": 3,
-        "members": [
-          "convinced",
-          "self-assured",
-          "confident"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0130529151,
-            "similarity": 0.899243,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "oversexed / sex-maniac",
-        "descriptor_index": 5424,
-        "amplitude": 0.0039649202,
-        "abs_amplitude": 0.0039649202,
-        "raw_amplitude": 0.0118947606,
-        "percent": 1.189497,
-        "raw_percent": 1.189476,
-        "coverage_percent": 64.887075,
-        "member_count": 2,
-        "members": [
-          "oversexed",
-          "sex-maniac"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0118947606,
-            "similarity": 0.885959,
-            "matched_descriptor": "pervert"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0031422293,
-        "abs_amplitude": 0.0031422293,
-        "raw_amplitude": 0.0094266879,
-        "percent": 0.942685,
-        "raw_percent": 0.942669,
-        "coverage_percent": 65.82976,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0094266878,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "sensible / prudent / deliberative / reasonable",
-        "descriptor_index": 6701,
-        "amplitude": 0.0031104723,
-        "abs_amplitude": 0.0031104723,
-        "raw_amplitude": 0.009331417,
-        "percent": 0.933158,
-        "raw_percent": 0.933142,
-        "coverage_percent": 66.762918,
-        "member_count": 4,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "reasonable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0093314169,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "stand-offish / unsocial / standoffish / unapproachable",
-        "descriptor_index": 7221,
-        "amplitude": 0.0030566862,
-        "abs_amplitude": 0.0030566862,
-        "raw_amplitude": 0.0091700585,
-        "percent": 0.917022,
-        "raw_percent": 0.917006,
-        "coverage_percent": 67.67994,
-        "member_count": 4,
-        "members": [
-          "stand-offish",
-          "unsocial",
-          "standoffish",
-          "unapproachable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0091700585,
-            "similarity": 0.899413,
-            "matched_descriptor": "antisocial / shy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0030101584,
-        "abs_amplitude": 0.0030101584,
-        "raw_amplitude": 0.0090304753,
-        "percent": 0.903063,
-        "raw_percent": 0.903048,
-        "coverage_percent": 68.583004,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0090304754,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "low-energy / non-violent / cool-headed / soothing / +2",
-        "descriptor_index": 4439,
-        "amplitude": 0.0027621905,
-        "abs_amplitude": 0.0027621905,
-        "raw_amplitude": 0.0082865714,
-        "percent": 0.828672,
-        "raw_percent": 0.828657,
-        "coverage_percent": 69.411675,
-        "member_count": 6,
-        "members": [
-          "low-energy",
-          "non-violent",
-          "cool-headed",
-          "soothing",
-          "calmest",
-          "calmer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0082865714,
-            "similarity": 0.902036,
-            "matched_descriptor": "carefree / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "friendless / disconnected / isolated",
-        "descriptor_index": 2819,
-        "amplitude": 0.0025829834,
-        "abs_amplitude": 0.0025829834,
-        "raw_amplitude": 0.0077489502,
-        "percent": 0.774909,
-        "raw_percent": 0.774895,
-        "coverage_percent": 70.186584,
-        "member_count": 3,
-        "members": [
-          "friendless",
-          "disconnected",
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0077489503,
-            "similarity": 0.883761,
-            "matched_descriptor": "antisocial"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "perverted",
-        "descriptor_index": 5561,
-        "amplitude": 0.0025325116,
-        "abs_amplitude": 0.0025325116,
-        "raw_amplitude": 0.0075975347,
-        "percent": 0.759767,
-        "raw_percent": 0.759753,
-        "coverage_percent": 70.946351,
-        "member_count": 1,
-        "members": [
-          "perverted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0075975347,
-            "similarity": 0.91509,
-            "matched_descriptor": "pervert"
+            "combined_favourites": 218
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "care-free / carefree / happy-go-lucky / casual / +12",
-        "descriptor_index": 944,
-        "amplitude": 0.0278139202,
-        "abs_amplitude": 0.0278139202,
-        "raw_amplitude": 0.0834417605,
-        "percent": 8.344322,
-        "raw_percent": 8.344176,
-        "coverage_percent": 8.344322,
-        "member_count": 16,
-        "members": [
-          "care-free",
-          "carefree",
-          "happy-go-lucky",
-          "casual",
-          "affable",
-          "good-humored",
-          "laid-back",
-          "easy-going",
-          "permissive",
-          "flighty",
-          "chilling",
-          "playful",
-          "accommodating",
-          "mild-mannered",
-          "relaxed",
-          "mellow"
-        ],
+        "step": 1,
+        "descriptor": "shy",
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0834417606,
-            "similarity": 1.0,
-            "matched_descriptor": "carefree"
-          }
-        ]
+        "fit_percent": 84.444174,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "shy / reticent / bashful / discreet / +11",
-        "descriptor_index": 6837,
-        "amplitude": 0.0246141121,
-        "abs_amplitude": 0.0246141121,
-        "raw_amplitude": 0.0738423364,
-        "percent": 7.384363,
-        "raw_percent": 7.384234,
-        "coverage_percent": 15.728685,
-        "member_count": 15,
-        "members": [
-          "shy",
-          "reticent",
-          "bashful",
-          "discreet",
-          "introverted",
-          "coy",
-          "untalkative",
-          "unassertive",
-          "unsociable",
-          "taciturn",
-          "modest",
-          "faint-hearted",
-          "demure",
-          "meek",
-          "subdued"
-        ],
+        "step": 2,
+        "descriptor": "loyal",
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0738423364,
-            "similarity": 1.0,
-            "matched_descriptor": "shy"
-          }
-        ]
+        "fit_percent": 92.57247,
+        "selection": "weighted_support"
       },
       {
-        "rank": 3,
-        "descriptor": "smart / brainy / intelligent / astute / +5",
-        "descriptor_index": 6995,
-        "amplitude": 0.0243973497,
-        "abs_amplitude": 0.0243973497,
-        "raw_amplitude": 0.073192049,
-        "percent": 7.319333,
-        "raw_percent": 7.319205,
-        "coverage_percent": 23.048018,
-        "member_count": 9,
-        "members": [
-          "smart",
-          "brainy",
-          "intelligent",
-          "astute",
-          "clever",
-          "wise",
-          "shrewd",
-          "quick-witted",
-          "well-versed"
-        ],
+        "step": 3,
+        "descriptor": "jealous",
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.073192049,
-            "similarity": 1.0,
-            "matched_descriptor": "smart"
-          }
-        ]
+        "fit_percent": 94.672857,
+        "selection": "weighted_support"
       },
       {
-        "rank": 4,
-        "descriptor": "loyal / devoted / faithful / trusted / +4",
-        "descriptor_index": 4442,
-        "amplitude": 0.022130507,
-        "abs_amplitude": 0.022130507,
-        "raw_amplitude": 0.066391521,
-        "percent": 6.639268,
-        "raw_percent": 6.639152,
-        "coverage_percent": 29.687286,
-        "member_count": 8,
-        "members": [
-          "loyal",
-          "devoted",
-          "faithful",
-          "trusted",
-          "friendship-oriented",
-          "trustful",
-          "trusting",
-          "committed"
-        ],
+        "step": 4,
+        "descriptor": "gloomy",
+        "weighted_support": 2.52766132,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0663915211,
-            "similarity": 1.0,
-            "matched_descriptor": "loyal"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "blunt / forthright / direct / no-nonsense / +4",
-        "descriptor_index": 727,
-        "amplitude": 0.0194183867,
-        "abs_amplitude": 0.0194183867,
-        "raw_amplitude": 0.0582551602,
-        "percent": 5.825618,
-        "raw_percent": 5.825516,
-        "coverage_percent": 35.512904,
-        "member_count": 8,
-        "members": [
-          "blunt",
-          "forthright",
-          "direct",
-          "no-nonsense",
-          "fair-minded",
-          "guileless",
-          "honest",
-          "frank"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0582551601,
-            "similarity": 1.0,
-            "matched_descriptor": "blunt"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "assertive / forceful / tough / strong-minded / +3",
-        "descriptor_index": 425,
-        "amplitude": 0.0164812372,
-        "abs_amplitude": 0.0164812372,
-        "raw_amplitude": 0.0494437116,
-        "percent": 4.944458,
-        "raw_percent": 4.944371,
-        "coverage_percent": 40.457362,
-        "member_count": 7,
-        "members": [
-          "assertive",
-          "forceful",
-          "tough",
-          "strong-minded",
-          "go-getter",
-          "headstrong",
-          "tenacious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0494437117,
-            "similarity": 1.0,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "antisocial / anti-social / reclusive / uninterested-in-friendship",
-        "descriptor_index": 290,
-        "amplitude": 0.0136700311,
-        "abs_amplitude": 0.0136700311,
-        "raw_amplitude": 0.0410100933,
-        "percent": 4.101081,
-        "raw_percent": 4.101009,
-        "coverage_percent": 44.558443,
-        "member_count": 4,
-        "members": [
-          "antisocial",
-          "anti-social",
-          "reclusive",
-          "uninterested-in-friendship"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0410100933,
-            "similarity": 1.0,
-            "matched_descriptor": "antisocial"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "downhearted / depressed / sorrowful / sad / +4",
-        "descriptor_index": 1946,
-        "amplitude": 0.0103092979,
-        "abs_amplitude": 0.0103092979,
-        "raw_amplitude": 0.0309278938,
-        "percent": 3.092843,
-        "raw_percent": 3.092789,
-        "coverage_percent": 47.651286,
-        "member_count": 8,
-        "members": [
-          "downhearted",
-          "depressed",
-          "sorrowful",
-          "sad",
-          "dejected",
-          "upset",
-          "miserable",
-          "despairing"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0309278937,
-            "similarity": 0.894495,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "gloomy / grim / melancholic",
-        "descriptor_index": 3015,
-        "amplitude": 0.0090549944,
-        "abs_amplitude": 0.0090549944,
-        "raw_amplitude": 0.0271649832,
-        "percent": 2.716546,
-        "raw_percent": 2.716498,
-        "coverage_percent": 50.367832,
-        "member_count": 3,
-        "members": [
-          "gloomy",
-          "grim",
-          "melancholic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0271649832,
-            "similarity": 1.0,
-            "matched_descriptor": "gloomy"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "ambitious / driven / proactive",
-        "descriptor_index": 193,
-        "amplitude": 0.008522617,
-        "abs_amplitude": 0.008522617,
-        "raw_amplitude": 0.0255678511,
-        "percent": 2.55683,
-        "raw_percent": 2.556785,
-        "coverage_percent": 52.924662,
-        "member_count": 3,
-        "members": [
-          "ambitious",
-          "driven",
-          "proactive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.025567851,
-            "similarity": 1.0,
-            "matched_descriptor": "ambitious"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "strong-willed / resolute / unyielding / unbending / +4",
-        "descriptor_index": 7373,
-        "amplitude": 0.0068985868,
-        "abs_amplitude": 0.0068985868,
-        "raw_amplitude": 0.0206957604,
-        "percent": 2.069612,
-        "raw_percent": 2.069576,
-        "coverage_percent": 54.994274,
-        "member_count": 8,
-        "members": [
-          "strong-willed",
-          "resolute",
-          "unyielding",
-          "unbending",
-          "refractory",
-          "stubborn",
-          "persistent",
-          "resistant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0206957604,
-            "similarity": 0.897915,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "jealous / jealousy-prone",
-        "descriptor_index": 4040,
-        "amplitude": 0.0062710972,
-        "abs_amplitude": 0.0062710972,
-        "raw_amplitude": 0.0188132915,
-        "percent": 1.881362,
-        "raw_percent": 1.881329,
-        "coverage_percent": 56.875636,
-        "member_count": 2,
-        "members": [
-          "jealous",
-          "jealousy-prone"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0188132915,
-            "similarity": 1.0,
-            "matched_descriptor": "jealous"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "self-reliant / solitary / self-sufficient / self-motivated / +3",
-        "descriptor_index": 6664,
-        "amplitude": 0.0049988548,
-        "abs_amplitude": 0.0049988548,
-        "raw_amplitude": 0.0149965645,
-        "percent": 1.499683,
-        "raw_percent": 1.499656,
-        "coverage_percent": 58.375319,
-        "member_count": 7,
-        "members": [
-          "self-reliant",
-          "solitary",
-          "self-sufficient",
-          "self-motivated",
-          "lone",
-          "hands-off",
-          "free-willed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0149965645,
-            "similarity": 0.873828,
-            "matched_descriptor": "possessive / assertive / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "possessive",
-        "descriptor_index": 5743,
-        "amplitude": 0.0044631991,
-        "abs_amplitude": 0.0044631991,
-        "raw_amplitude": 0.0133895973,
-        "percent": 1.338983,
-        "raw_percent": 1.33896,
-        "coverage_percent": 59.714302,
-        "member_count": 1,
-        "members": [
-          "possessive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0133895973,
-            "similarity": 1.0,
-            "matched_descriptor": "possessive"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "protective",
-        "descriptor_index": 5963,
-        "amplitude": 0.004463192,
-        "abs_amplitude": 0.004463192,
-        "raw_amplitude": 0.0133895759,
-        "percent": 1.338981,
-        "raw_percent": 1.338958,
-        "coverage_percent": 61.053283,
-        "member_count": 1,
-        "members": [
-          "protective"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0133895759,
-            "similarity": 1.0,
-            "matched_descriptor": "protective"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "serious",
-        "descriptor_index": 6710,
-        "amplitude": 0.0044631904,
-        "abs_amplitude": 0.0044631904,
-        "raw_amplitude": 0.0133895712,
-        "percent": 1.338981,
-        "raw_percent": 1.338957,
-        "coverage_percent": 62.392264,
-        "member_count": 1,
-        "members": [
-          "serious"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0133895712,
-            "similarity": 1.0,
-            "matched_descriptor": "serious"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "convinced / self-assured / confident",
-        "descriptor_index": 1414,
-        "amplitude": 0.0043509717,
-        "abs_amplitude": 0.0043509717,
-        "raw_amplitude": 0.0130529151,
-        "percent": 1.305314,
-        "raw_percent": 1.305292,
-        "coverage_percent": 63.697578,
-        "member_count": 3,
-        "members": [
-          "convinced",
-          "self-assured",
-          "confident"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0130529151,
-            "similarity": 0.899243,
-            "matched_descriptor": "assertive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "oversexed / sex-maniac",
-        "descriptor_index": 5424,
-        "amplitude": 0.0039649202,
-        "abs_amplitude": 0.0039649202,
-        "raw_amplitude": 0.0118947606,
-        "percent": 1.189497,
-        "raw_percent": 1.189476,
-        "coverage_percent": 64.887075,
-        "member_count": 2,
-        "members": [
-          "oversexed",
-          "sex-maniac"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0118947606,
-            "similarity": 0.885959,
-            "matched_descriptor": "pervert"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "quick-minded / sharp-minded / quick-thinking",
-        "descriptor_index": 6080,
-        "amplitude": 0.0031422293,
-        "abs_amplitude": 0.0031422293,
-        "raw_amplitude": 0.0094266879,
-        "percent": 0.942685,
-        "raw_percent": 0.942669,
-        "coverage_percent": 65.82976,
-        "member_count": 3,
-        "members": [
-          "quick-minded",
-          "sharp-minded",
-          "quick-thinking"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0094266878,
-            "similarity": 0.889074,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "sensible / prudent / deliberative / reasonable",
-        "descriptor_index": 6701,
-        "amplitude": 0.0031104723,
-        "abs_amplitude": 0.0031104723,
-        "raw_amplitude": 0.009331417,
-        "percent": 0.933158,
-        "raw_percent": 0.933142,
-        "coverage_percent": 66.762918,
-        "member_count": 4,
-        "members": [
-          "sensible",
-          "prudent",
-          "deliberative",
-          "reasonable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0093314169,
-            "similarity": 0.898538,
-            "matched_descriptor": "smart / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "stand-offish / unsocial / standoffish / unapproachable",
-        "descriptor_index": 7221,
-        "amplitude": 0.0030566862,
-        "abs_amplitude": 0.0030566862,
-        "raw_amplitude": 0.0091700585,
-        "percent": 0.917022,
-        "raw_percent": 0.917006,
-        "coverage_percent": 67.67994,
-        "member_count": 4,
-        "members": [
-          "stand-offish",
-          "unsocial",
-          "standoffish",
-          "unapproachable"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0091700585,
-            "similarity": 0.899413,
-            "matched_descriptor": "antisocial / shy"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "gifted / capable / competent",
-        "descriptor_index": 2995,
-        "amplitude": 0.0030101584,
-        "abs_amplitude": 0.0030101584,
-        "raw_amplitude": 0.0090304753,
-        "percent": 0.903063,
-        "raw_percent": 0.903048,
-        "coverage_percent": 68.583004,
-        "member_count": 3,
-        "members": [
-          "gifted",
-          "capable",
-          "competent"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0090304754,
-            "similarity": 0.887839,
-            "matched_descriptor": "smart"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "low-energy / non-violent / cool-headed / soothing / +2",
-        "descriptor_index": 4439,
-        "amplitude": 0.0027621905,
-        "abs_amplitude": 0.0027621905,
-        "raw_amplitude": 0.0082865714,
-        "percent": 0.828672,
-        "raw_percent": 0.828657,
-        "coverage_percent": 69.411675,
-        "member_count": 6,
-        "members": [
-          "low-energy",
-          "non-violent",
-          "cool-headed",
-          "soothing",
-          "calmest",
-          "calmer"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0082865714,
-            "similarity": 0.902036,
-            "matched_descriptor": "carefree / blunt"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "friendless / disconnected / isolated",
-        "descriptor_index": 2819,
-        "amplitude": 0.0025829834,
-        "abs_amplitude": 0.0025829834,
-        "raw_amplitude": 0.0077489502,
-        "percent": 0.774909,
-        "raw_percent": 0.774895,
-        "coverage_percent": 70.186584,
-        "member_count": 3,
-        "members": [
-          "friendless",
-          "disconnected",
-          "isolated"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0077489503,
-            "similarity": 0.883761,
-            "matched_descriptor": "antisocial"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "perverted",
-        "descriptor_index": 5561,
-        "amplitude": 0.0025325116,
-        "abs_amplitude": 0.0025325116,
-        "raw_amplitude": 0.0075975347,
-        "percent": 0.759767,
-        "raw_percent": 0.759753,
-        "coverage_percent": 70.946351,
-        "member_count": 1,
-        "members": [
-          "perverted"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 39755,
-            "name": "Miyako Shiina",
-            "native_name": "椎名京",
-            "anime": "Majikoi: Oh! Samurai Girls",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
-            "site_url": "https://anilist.co/character/39755",
-            "anime_url": "https://myanimelist.net/anime/10213",
-            "role": "MAIN",
-            "favourites": 158,
-            "row_weight": 2.4635146,
-            "projection": 0.0075975347,
-            "similarity": 0.91509,
-            "matched_descriptor": "pervert"
-          }
-        ]
+        "fit_percent": 96.636107,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 39755,
         "name": "Miyako Shiina",
-        "native_name": "椎名京",
         "anime": "Majikoi: Oh! Samurai Girls",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
         "site_url": "https://anilist.co/character/39755",
-        "anime_url": "https://myanimelist.net/anime/10213",
-        "role": "MAIN",
         "favourites": 158,
-        "row_weight": 2.4635146,
+        "anilist_favourites": 158,
+        "bangumi_collects": 60,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 11732,
+        "bangumi_url": "https://bgm.tv/character/11732",
+        "combined_favourites": 218,
+        "role_edge_count": 1,
+        "descriptors": [
+          "ambitious",
+          "antisocial",
+          "assertive",
+          "blunt",
+          "gloomy",
+          "jealous",
+          "loyal",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52766132,
+        "row_weight": 2.52766132,
+        "unweighted_row_norm": 6.47659452,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -2040,19 +172,74 @@
       {
         "character_id": 39755,
         "name": "Miyako Shiina",
-        "native_name": "椎名京",
         "anime": "Majikoi: Oh! Samurai Girls",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/39755-MD7GWrObVY39.jpg",
         "site_url": "https://anilist.co/character/39755",
-        "anime_url": "https://myanimelist.net/anime/10213",
-        "role": "MAIN",
         "favourites": 158,
-        "row_weight": 2.4635146,
+        "anilist_favourites": 158,
+        "bangumi_collects": 60,
+        "bangumi_comments": 21,
+        "bangumi_character_id": 11732,
+        "bangumi_url": "https://bgm.tv/character/11732",
+        "combined_favourites": 218,
+        "role_edge_count": 1,
+        "descriptors": [
+          "ambitious",
+          "antisocial",
+          "assertive",
+          "blunt",
+          "gloomy",
+          "jealous",
+          "loyal",
+          "shy"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.52766132,
+        "row_weight": 2.52766132,
+        "unweighted_row_norm": 6.47659452,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.5276613163,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

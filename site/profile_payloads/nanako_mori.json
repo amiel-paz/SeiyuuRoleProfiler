@@ -11,1975 +11,377 @@
     "mori nanako",
     "nanako mori"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/nanako_mori.json",
+  "sv1_mass_percent": 86.827319,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 1,
+  "supported_character_count": 2,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.8526457267,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.8526457267,
-        "mass_percent": 81.650927
-      },
-      {
-        "rank": 2,
-        "singular_value": 1.8263566248,
-        "mass_percent": 18.349073
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 181.217427,
-      "normalized_entanglement": 0.47192,
-      "top5_mass_percent": 6.393099,
-      "top10_mass_percent": 11.447858
-    },
-    "character_participation": {
-      "effective_count": 1.043709,
-      "normalized_entanglement": 0.521855,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 1.184062,
-      "semantic_spread": 1.184062,
-      "axis_concentration_percent": 100.0,
-      "lane_count": 1.0,
-      "direction_range": 0.87733,
-      "direction_spread": 0.87733,
-      "direction_axis_concentration_percent": 100.0,
-      "direction_lane_count": 1.0
-    },
-    "explained_sv_l2_percent": 81.650927,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.8986941515,
+    "mass_percent": 87.417638,
+    "descriptor_fit_percent": 97.240667,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "authoritative / bossy / leader-like / dominant / +2",
-        "descriptor_index": 476,
-        "amplitude": 0.1191665824,
-        "abs_amplitude": 0.1191665824,
-        "raw_amplitude": 0.3574997473,
-        "percent": 30.925249,
-        "raw_percent": 31.483314,
-        "coverage_percent": 30.925249,
-        "member_count": 6,
-        "members": [
-          "authoritative",
-          "bossy",
-          "leader-like",
-          "dominant",
-          "commanding",
-          "domineering"
-        ],
+        "descriptor": "stoic",
+        "amplitude": 0.5522671275,
+        "abs_amplitude": 0.5522671275,
+        "percent": 50.443473,
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 350172,
             "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
             "anime": "Genshin Impact: The Song Burning in the Embers",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
             "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.3574997472,
-            "similarity": 1.0,
-            "matched_descriptor": "authoritative"
+            "combined_favourites": 209
           }
         ]
       },
       {
         "rank": 2,
-        "descriptor": "maternal / daughter-focused",
-        "descriptor_index": 4656,
-        "amplitude": 0.0494384542,
-        "abs_amplitude": 0.0494384542,
-        "raw_amplitude": 0.1483153626,
-        "percent": 12.82991,
-        "raw_percent": 13.061434,
-        "coverage_percent": 43.755159,
-        "member_count": 2,
-        "members": [
-          "maternal",
-          "daughter-focused"
-        ],
+        "descriptor": "resolute",
+        "amplitude": 0.5425566273,
+        "abs_amplitude": 0.5425566273,
+        "percent": 49.556527,
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 350172,
             "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
             "anime": "Genshin Impact: The Song Burning in the Embers",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
             "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.1483153625,
-            "similarity": 1.0,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "headstrong / tough / refractory / tenacious / +10",
-        "descriptor_index": 3392,
-        "amplitude": 0.0167205709,
-        "abs_amplitude": 0.0167205709,
-        "raw_amplitude": 0.0501617127,
-        "percent": 4.339202,
-        "raw_percent": 4.417505,
-        "coverage_percent": 48.094361,
-        "member_count": 14,
-        "members": [
-          "headstrong",
-          "tough",
-          "refractory",
-          "tenacious",
-          "strong-willed",
-          "strong-minded",
-          "unbending",
-          "unyielding",
-          "persistent",
-          "inflexible",
-          "stubborn",
-          "resistant",
-          "resolute",
-          "persevering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0501617126,
-            "similarity": 1.0,
-            "matched_descriptor": "headstrong / tough"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "forceful / assertive / durable",
-        "descriptor_index": 2651,
-        "amplitude": 0.0147387636,
-        "abs_amplitude": 0.0147387636,
-        "raw_amplitude": 0.0249770991,
-        "percent": 3.824897,
-        "raw_percent": 2.199615,
-        "coverage_percent": 51.919258,
-        "member_count": 3,
-        "members": [
-          "forceful",
-          "assertive",
-          "durable"
-        ],
-        "support": 2,
-        "effective_support": 1.770273,
-        "support_factor": 0.590091,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0169873592,
-            "similarity": 0.872913,
-            "matched_descriptor": "authoritative"
-          },
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0079897399,
-            "similarity": 0.93434,
-            "matched_descriptor": "tough"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "family-conscious / family-oriented",
-        "descriptor_index": 2419,
-        "amplitude": 0.0139753098,
-        "abs_amplitude": 0.0139753098,
-        "raw_amplitude": 0.0419259293,
-        "percent": 3.626771,
-        "raw_percent": 3.692219,
-        "coverage_percent": 55.546029,
-        "member_count": 2,
-        "members": [
-          "family-conscious",
-          "family-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0419259294,
-            "similarity": 0.874392,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "authoritarian / despotic",
-        "descriptor_index": 475,
-        "amplitude": 0.0137244807,
-        "abs_amplitude": 0.0137244807,
-        "raw_amplitude": 0.0411734422,
-        "percent": 3.561678,
-        "raw_percent": 3.625951,
-        "coverage_percent": 59.107707,
-        "member_count": 2,
-        "members": [
-          "authoritarian",
-          "despotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0411734422,
-            "similarity": 0.89046,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "mother-focused",
-        "descriptor_index": 4943,
-        "amplitude": 0.0123906654,
-        "abs_amplitude": 0.0123906654,
-        "raw_amplitude": 0.0371719963,
-        "percent": 3.215536,
-        "raw_percent": 3.273562,
-        "coverage_percent": 62.323243,
-        "member_count": 1,
-        "members": [
-          "mother-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0371719963,
-            "similarity": 0.885455,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "power-seeking / power-hungry",
-        "descriptor_index": 5769,
-        "amplitude": 0.0120517846,
-        "abs_amplitude": 0.0120517846,
-        "raw_amplitude": 0.0361553537,
-        "percent": 3.127592,
-        "raw_percent": 3.184031,
-        "coverage_percent": 65.450835,
-        "member_count": 2,
-        "members": [
-          "power-seeking",
-          "power-hungry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0361553537,
-            "similarity": 0.876831,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "antagonistic",
-        "descriptor_index": 269,
-        "amplitude": 0.0112669145,
-        "abs_amplitude": 0.0112669145,
-        "raw_amplitude": 0.0338007435,
-        "percent": 2.923908,
-        "raw_percent": 2.976672,
-        "coverage_percent": 68.374743,
-        "member_count": 1,
-        "members": [
-          "antagonistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0338007435,
-            "similarity": 0.892253,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "commanding skillful",
-        "descriptor_index": 1283,
-        "amplitude": 0.0093418703,
-        "abs_amplitude": 0.0093418703,
-        "raw_amplitude": 0.0280256109,
-        "percent": 2.424335,
-        "raw_percent": 2.468083,
-        "coverage_percent": 70.799078,
-        "member_count": 1,
-        "members": [
-          "commanding skillful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0280256109,
-            "similarity": 0.890857,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "oppressive",
-        "descriptor_index": 5342,
-        "amplitude": 0.0087075818,
-        "abs_amplitude": 0.0087075818,
-        "raw_amplitude": 0.0261227454,
-        "percent": 2.259729,
-        "raw_percent": 2.300507,
-        "coverage_percent": 73.058806,
-        "member_count": 1,
-        "members": [
-          "oppressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0261227454,
-            "similarity": 0.8837,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rule-abiding / subservient",
-        "descriptor_index": 6391,
-        "amplitude": 0.0071127292,
-        "abs_amplitude": 0.0071127292,
-        "raw_amplitude": 0.0213381876,
-        "percent": 1.845844,
-        "raw_percent": 1.879153,
-        "coverage_percent": 74.90465,
-        "member_count": 2,
-        "members": [
-          "rule-abiding",
-          "subservient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0213381876,
-            "similarity": 0.877622,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "initiative",
-        "descriptor_index": 3886,
-        "amplitude": 0.0064556491,
-        "abs_amplitude": 0.0064556491,
-        "raw_amplitude": 0.0193669472,
-        "percent": 1.675323,
-        "raw_percent": 1.705556,
-        "coverage_percent": 76.579974,
-        "member_count": 1,
-        "members": [
-          "initiative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0193669472,
-            "similarity": 0.87298,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "arch-nemesis",
-        "descriptor_index": 325,
-        "amplitude": 0.0063320242,
-        "abs_amplitude": 0.0063320242,
-        "raw_amplitude": 0.0189960727,
-        "percent": 1.643241,
-        "raw_percent": 1.672894,
-        "coverage_percent": 78.223215,
-        "member_count": 1,
-        "members": [
-          "arch-nemesis"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0189960727,
-            "similarity": 0.867943,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "paternal",
-        "descriptor_index": 5489,
-        "amplitude": 0.0058919305,
-        "abs_amplitude": 0.0058919305,
-        "raw_amplitude": 0.0176757915,
-        "percent": 1.529031,
-        "raw_percent": 1.556623,
-        "coverage_percent": 79.752246,
-        "member_count": 1,
-        "members": [
-          "paternal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0176757915,
-            "similarity": 0.846671,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "daring / brave / courageous / valiant / +4",
-        "descriptor_index": 1588,
-        "amplitude": 0.0053258081,
-        "abs_amplitude": 0.0053258081,
-        "raw_amplitude": 0.0159774244,
-        "percent": 1.382115,
-        "raw_percent": 1.407056,
-        "coverage_percent": 81.134361,
-        "member_count": 8,
-        "members": [
-          "daring",
-          "brave",
-          "courageous",
-          "valiant",
-          "fearless",
-          "audacious",
-          "unafraid",
-          "plucky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0159774245,
-            "similarity": 0.915708,
-            "matched_descriptor": "bold risk taker"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "impulsive / impetuous / spontaneous / wild",
-        "descriptor_index": 3797,
-        "amplitude": 0.0050373276,
-        "abs_amplitude": 0.0050373276,
-        "raw_amplitude": 0.0151119829,
-        "percent": 1.307251,
-        "raw_percent": 1.330841,
-        "coverage_percent": 82.441612,
-        "member_count": 4,
-        "members": [
-          "impulsive",
-          "impetuous",
-          "spontaneous",
-          "wild"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0151119829,
-            "similarity": 1.0,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "pregnant",
-        "descriptor_index": 5828,
-        "amplitude": 0.0048119904,
-        "abs_amplitude": 0.0048119904,
-        "raw_amplitude": 0.0144359712,
-        "percent": 1.248773,
-        "raw_percent": 1.271308,
-        "coverage_percent": 83.690385,
-        "member_count": 1,
-        "members": [
-          "pregnant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0144359712,
-            "similarity": 0.840594,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "anti-fighting",
-        "descriptor_index": 276,
-        "amplitude": 0.0041513484,
-        "abs_amplitude": 0.0041513484,
-        "raw_amplitude": 0.0124540453,
-        "percent": 1.077328,
-        "raw_percent": 1.096769,
-        "coverage_percent": 84.767713,
-        "member_count": 1,
-        "members": [
-          "anti-fighting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0124540453,
-            "similarity": 0.86314,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "overbearing / controlling",
-        "descriptor_index": 5412,
-        "amplitude": 0.0039075974,
-        "abs_amplitude": 0.0039075974,
-        "raw_amplitude": 0.0117227921,
-        "percent": 1.014071,
-        "raw_percent": 1.032371,
-        "coverage_percent": 85.781784,
-        "member_count": 2,
-        "members": [
-          "overbearing",
-          "controlling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0117227921,
-            "similarity": 0.860634,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "anti-hero",
-        "descriptor_index": 277,
-        "amplitude": 0.0037064675,
-        "abs_amplitude": 0.0037064675,
-        "raw_amplitude": 0.0111194026,
-        "percent": 0.961876,
-        "raw_percent": 0.979233,
-        "coverage_percent": 86.74366,
-        "member_count": 1,
-        "members": [
-          "anti-hero"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0111194026,
-            "similarity": 0.85501,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "disciplined",
-        "descriptor_index": 1844,
-        "amplitude": 0.0036282196,
-        "abs_amplitude": 0.0036282196,
-        "raw_amplitude": 0.0108846589,
-        "percent": 0.941569,
-        "raw_percent": 0.958561,
-        "coverage_percent": 87.685229,
-        "member_count": 1,
-        "members": [
-          "disciplined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0108846589,
-            "similarity": 0.864847,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "dignified",
-        "descriptor_index": 1810,
-        "amplitude": 0.0034128974,
-        "abs_amplitude": 0.0034128974,
-        "raw_amplitude": 0.0102386922,
-        "percent": 0.88569,
-        "raw_percent": 0.901673,
-        "coverage_percent": 88.57092,
-        "member_count": 1,
-        "members": [
-          "dignified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0102386922,
-            "similarity": 0.875972,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "battle-assistant",
-        "descriptor_index": 578,
-        "amplitude": 0.0031943757,
-        "abs_amplitude": 0.0031943757,
-        "raw_amplitude": 0.0095831272,
-        "percent": 0.828981,
-        "raw_percent": 0.843941,
-        "coverage_percent": 89.399901,
-        "member_count": 1,
-        "members": [
-          "battle-assistant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0095831272,
-            "similarity": 0.858207,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "doting",
-        "descriptor_index": 1933,
-        "amplitude": 0.0029584979,
-        "abs_amplitude": 0.0029584979,
-        "raw_amplitude": 0.0088754936,
-        "percent": 0.767768,
-        "raw_percent": 0.781623,
-        "coverage_percent": 90.167669,
-        "member_count": 1,
-        "members": [
-          "doting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0088754936,
-            "similarity": 0.872283,
-            "matched_descriptor": "maternal"
+            "combined_favourites": 209
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "authoritative / bossy / leader-like / dominant / +2",
-        "descriptor_index": 476,
-        "amplitude": 0.1191665824,
-        "abs_amplitude": 0.1191665824,
-        "raw_amplitude": 0.3574997473,
-        "percent": 30.925249,
-        "raw_percent": 31.483314,
-        "coverage_percent": 30.925249,
-        "member_count": 6,
-        "members": [
-          "authoritative",
-          "bossy",
-          "leader-like",
-          "dominant",
-          "commanding",
-          "domineering"
-        ],
+        "step": 1,
+        "descriptor": "stoic",
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.3574997472,
-            "similarity": 1.0,
-            "matched_descriptor": "authoritative"
-          }
-        ]
+        "fit_percent": 86.570969,
+        "selection": "weighted_support"
       },
       {
-        "rank": 2,
-        "descriptor": "maternal / daughter-focused",
-        "descriptor_index": 4656,
-        "amplitude": 0.0494384542,
-        "abs_amplitude": 0.0494384542,
-        "raw_amplitude": 0.1483153626,
-        "percent": 12.82991,
-        "raw_percent": 13.061434,
-        "coverage_percent": 43.755159,
-        "member_count": 2,
-        "members": [
-          "maternal",
-          "daughter-focused"
-        ],
+        "step": 2,
+        "descriptor": "resolute",
+        "weighted_support": 2.51934665,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.1483153625,
-            "similarity": 1.0,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "headstrong / tough / refractory / tenacious / +10",
-        "descriptor_index": 3392,
-        "amplitude": 0.0167205709,
-        "abs_amplitude": 0.0167205709,
-        "raw_amplitude": 0.0501617127,
-        "percent": 4.339202,
-        "raw_percent": 4.417505,
-        "coverage_percent": 48.094361,
-        "member_count": 14,
-        "members": [
-          "headstrong",
-          "tough",
-          "refractory",
-          "tenacious",
-          "strong-willed",
-          "strong-minded",
-          "unbending",
-          "unyielding",
-          "persistent",
-          "inflexible",
-          "stubborn",
-          "resistant",
-          "resolute",
-          "persevering"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0501617126,
-            "similarity": 1.0,
-            "matched_descriptor": "headstrong / tough"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "forceful / assertive / durable",
-        "descriptor_index": 2651,
-        "amplitude": 0.0147387636,
-        "abs_amplitude": 0.0147387636,
-        "raw_amplitude": 0.0249770991,
-        "percent": 3.824897,
-        "raw_percent": 2.199615,
-        "coverage_percent": 51.919258,
-        "member_count": 3,
-        "members": [
-          "forceful",
-          "assertive",
-          "durable"
-        ],
-        "support": 2,
-        "effective_support": 1.770273,
-        "support_factor": 0.590091,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0169873592,
-            "similarity": 0.872913,
-            "matched_descriptor": "authoritative"
-          },
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0079897399,
-            "similarity": 0.93434,
-            "matched_descriptor": "tough"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "family-conscious / family-oriented",
-        "descriptor_index": 2419,
-        "amplitude": 0.0139753098,
-        "abs_amplitude": 0.0139753098,
-        "raw_amplitude": 0.0419259293,
-        "percent": 3.626771,
-        "raw_percent": 3.692219,
-        "coverage_percent": 55.546029,
-        "member_count": 2,
-        "members": [
-          "family-conscious",
-          "family-oriented"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0419259294,
-            "similarity": 0.874392,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "authoritarian / despotic",
-        "descriptor_index": 475,
-        "amplitude": 0.0137244807,
-        "abs_amplitude": 0.0137244807,
-        "raw_amplitude": 0.0411734422,
-        "percent": 3.561678,
-        "raw_percent": 3.625951,
-        "coverage_percent": 59.107707,
-        "member_count": 2,
-        "members": [
-          "authoritarian",
-          "despotic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0411734422,
-            "similarity": 0.89046,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "mother-focused",
-        "descriptor_index": 4943,
-        "amplitude": 0.0123906654,
-        "abs_amplitude": 0.0123906654,
-        "raw_amplitude": 0.0371719963,
-        "percent": 3.215536,
-        "raw_percent": 3.273562,
-        "coverage_percent": 62.323243,
-        "member_count": 1,
-        "members": [
-          "mother-focused"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0371719963,
-            "similarity": 0.885455,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "power-seeking / power-hungry",
-        "descriptor_index": 5769,
-        "amplitude": 0.0120517846,
-        "abs_amplitude": 0.0120517846,
-        "raw_amplitude": 0.0361553537,
-        "percent": 3.127592,
-        "raw_percent": 3.184031,
-        "coverage_percent": 65.450835,
-        "member_count": 2,
-        "members": [
-          "power-seeking",
-          "power-hungry"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0361553537,
-            "similarity": 0.876831,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "antagonistic",
-        "descriptor_index": 269,
-        "amplitude": 0.0112669145,
-        "abs_amplitude": 0.0112669145,
-        "raw_amplitude": 0.0338007435,
-        "percent": 2.923908,
-        "raw_percent": 2.976672,
-        "coverage_percent": 68.374743,
-        "member_count": 1,
-        "members": [
-          "antagonistic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0338007435,
-            "similarity": 0.892253,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "commanding skillful",
-        "descriptor_index": 1283,
-        "amplitude": 0.0093418703,
-        "abs_amplitude": 0.0093418703,
-        "raw_amplitude": 0.0280256109,
-        "percent": 2.424335,
-        "raw_percent": 2.468083,
-        "coverage_percent": 70.799078,
-        "member_count": 1,
-        "members": [
-          "commanding skillful"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0280256109,
-            "similarity": 0.890857,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "oppressive",
-        "descriptor_index": 5342,
-        "amplitude": 0.0087075818,
-        "abs_amplitude": 0.0087075818,
-        "raw_amplitude": 0.0261227454,
-        "percent": 2.259729,
-        "raw_percent": 2.300507,
-        "coverage_percent": 73.058806,
-        "member_count": 1,
-        "members": [
-          "oppressive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0261227454,
-            "similarity": 0.8837,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "rule-abiding / subservient",
-        "descriptor_index": 6391,
-        "amplitude": 0.0071127292,
-        "abs_amplitude": 0.0071127292,
-        "raw_amplitude": 0.0213381876,
-        "percent": 1.845844,
-        "raw_percent": 1.879153,
-        "coverage_percent": 74.90465,
-        "member_count": 2,
-        "members": [
-          "rule-abiding",
-          "subservient"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0213381876,
-            "similarity": 0.877622,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "initiative",
-        "descriptor_index": 3886,
-        "amplitude": 0.0064556491,
-        "abs_amplitude": 0.0064556491,
-        "raw_amplitude": 0.0193669472,
-        "percent": 1.675323,
-        "raw_percent": 1.705556,
-        "coverage_percent": 76.579974,
-        "member_count": 1,
-        "members": [
-          "initiative"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0193669472,
-            "similarity": 0.87298,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "descriptor": "arch-nemesis",
-        "descriptor_index": 325,
-        "amplitude": 0.0063320242,
-        "abs_amplitude": 0.0063320242,
-        "raw_amplitude": 0.0189960727,
-        "percent": 1.643241,
-        "raw_percent": 1.672894,
-        "coverage_percent": 78.223215,
-        "member_count": 1,
-        "members": [
-          "arch-nemesis"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0189960727,
-            "similarity": 0.867943,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 15,
-        "descriptor": "paternal",
-        "descriptor_index": 5489,
-        "amplitude": 0.0058919305,
-        "abs_amplitude": 0.0058919305,
-        "raw_amplitude": 0.0176757915,
-        "percent": 1.529031,
-        "raw_percent": 1.556623,
-        "coverage_percent": 79.752246,
-        "member_count": 1,
-        "members": [
-          "paternal"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0176757915,
-            "similarity": 0.846671,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 16,
-        "descriptor": "daring / brave / courageous / valiant / +4",
-        "descriptor_index": 1588,
-        "amplitude": 0.0053258081,
-        "abs_amplitude": 0.0053258081,
-        "raw_amplitude": 0.0159774244,
-        "percent": 1.382115,
-        "raw_percent": 1.407056,
-        "coverage_percent": 81.134361,
-        "member_count": 8,
-        "members": [
-          "daring",
-          "brave",
-          "courageous",
-          "valiant",
-          "fearless",
-          "audacious",
-          "unafraid",
-          "plucky"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0159774245,
-            "similarity": 0.915708,
-            "matched_descriptor": "bold risk taker"
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "descriptor": "impulsive / impetuous / spontaneous / wild",
-        "descriptor_index": 3797,
-        "amplitude": 0.0050373276,
-        "abs_amplitude": 0.0050373276,
-        "raw_amplitude": 0.0151119829,
-        "percent": 1.307251,
-        "raw_percent": 1.330841,
-        "coverage_percent": 82.441612,
-        "member_count": 4,
-        "members": [
-          "impulsive",
-          "impetuous",
-          "spontaneous",
-          "wild"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 115,
-            "name": "Cagalli Yula Athha",
-            "native_name": "カガリ・ユラ・アスハ",
-            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
-            "site_url": "https://anilist.co/character/115",
-            "anime_url": "https://myanimelist.net/anime/2743",
-            "role": "MAIN",
-            "favourites": 109,
-            "row_weight": 1.68826544,
-            "projection": 0.0151119829,
-            "similarity": 1.0,
-            "matched_descriptor": "impulsive"
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "descriptor": "pregnant",
-        "descriptor_index": 5828,
-        "amplitude": 0.0048119904,
-        "abs_amplitude": 0.0048119904,
-        "raw_amplitude": 0.0144359712,
-        "percent": 1.248773,
-        "raw_percent": 1.271308,
-        "coverage_percent": 83.690385,
-        "member_count": 1,
-        "members": [
-          "pregnant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0144359712,
-            "similarity": 0.840594,
-            "matched_descriptor": "maternal"
-          }
-        ]
-      },
-      {
-        "rank": 19,
-        "descriptor": "anti-fighting",
-        "descriptor_index": 276,
-        "amplitude": 0.0041513484,
-        "abs_amplitude": 0.0041513484,
-        "raw_amplitude": 0.0124540453,
-        "percent": 1.077328,
-        "raw_percent": 1.096769,
-        "coverage_percent": 84.767713,
-        "member_count": 1,
-        "members": [
-          "anti-fighting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0124540453,
-            "similarity": 0.86314,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 20,
-        "descriptor": "overbearing / controlling",
-        "descriptor_index": 5412,
-        "amplitude": 0.0039075974,
-        "abs_amplitude": 0.0039075974,
-        "raw_amplitude": 0.0117227921,
-        "percent": 1.014071,
-        "raw_percent": 1.032371,
-        "coverage_percent": 85.781784,
-        "member_count": 2,
-        "members": [
-          "overbearing",
-          "controlling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0117227921,
-            "similarity": 0.860634,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 21,
-        "descriptor": "anti-hero",
-        "descriptor_index": 277,
-        "amplitude": 0.0037064675,
-        "abs_amplitude": 0.0037064675,
-        "raw_amplitude": 0.0111194026,
-        "percent": 0.961876,
-        "raw_percent": 0.979233,
-        "coverage_percent": 86.74366,
-        "member_count": 1,
-        "members": [
-          "anti-hero"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0111194026,
-            "similarity": 0.85501,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 22,
-        "descriptor": "disciplined",
-        "descriptor_index": 1844,
-        "amplitude": 0.0036282196,
-        "abs_amplitude": 0.0036282196,
-        "raw_amplitude": 0.0108846589,
-        "percent": 0.941569,
-        "raw_percent": 0.958561,
-        "coverage_percent": 87.685229,
-        "member_count": 1,
-        "members": [
-          "disciplined"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0108846589,
-            "similarity": 0.864847,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 23,
-        "descriptor": "dignified",
-        "descriptor_index": 1810,
-        "amplitude": 0.0034128974,
-        "abs_amplitude": 0.0034128974,
-        "raw_amplitude": 0.0102386922,
-        "percent": 0.88569,
-        "raw_percent": 0.901673,
-        "coverage_percent": 88.57092,
-        "member_count": 1,
-        "members": [
-          "dignified"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0102386922,
-            "similarity": 0.875972,
-            "matched_descriptor": "authoritative"
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "descriptor": "battle-assistant",
-        "descriptor_index": 578,
-        "amplitude": 0.0031943757,
-        "abs_amplitude": 0.0031943757,
-        "raw_amplitude": 0.0095831272,
-        "percent": 0.828981,
-        "raw_percent": 0.843941,
-        "coverage_percent": 89.399901,
-        "member_count": 1,
-        "members": [
-          "battle-assistant"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0095831272,
-            "similarity": 0.858207,
-            "matched_descriptor": "fatui harbinger"
-          }
-        ]
-      },
-      {
-        "rank": 25,
-        "descriptor": "doting",
-        "descriptor_index": 1933,
-        "amplitude": 0.0029584979,
-        "abs_amplitude": 0.0029584979,
-        "raw_amplitude": 0.0088754936,
-        "percent": 0.767768,
-        "raw_percent": 0.781623,
-        "coverage_percent": 90.167669,
-        "member_count": 1,
-        "members": [
-          "doting"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 350172,
-            "name": "Arlecchino",
-            "native_name": "阿蕾奇诺",
-            "anime": "Genshin Impact: The Song Burning in the Embers",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
-            "site_url": "https://anilist.co/character/350172",
-            "anime_url": "https://myanimelist.net/anime/58689",
-            "role": "MAIN",
-            "favourites": 189,
-            "row_weight": 2.49940474,
-            "projection": 0.0088754936,
-            "similarity": 0.872283,
-            "matched_descriptor": "maternal"
-          }
-        ]
+        "fit_percent": 97.240667,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 350172,
         "name": "Arlecchino",
-        "native_name": "阿蕾奇诺",
         "anime": "Genshin Impact: The Song Burning in the Embers",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
         "site_url": "https://anilist.co/character/350172",
-        "anime_url": "https://myanimelist.net/anime/58689",
-        "role": "MAIN",
         "favourites": 189,
-        "row_weight": 2.49940474,
-        "amplitude": 0.989243557,
-        "abs_amplitude": 0.989243557,
-        "percent": 97.860282
+        "anilist_favourites": 189,
+        "bangumi_collects": 20,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 113132,
+        "bangumi_url": "https://bgm.tv/character/113132",
+        "combined_favourites": 209,
+        "role_edge_count": 1,
+        "descriptors": [
+          "resolute",
+          "stoic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.51934665,
+        "row_weight": 2.51934665,
+        "unweighted_row_norm": 1.77635245,
+        "amplitude": 0.8451404513,
+        "abs_amplitude": 0.8451404513,
+        "percent": 71.426238
       },
       {
         "character_id": 115,
         "name": "Cagalli Yula Athha",
-        "native_name": "カガリ・ユラ・アスハ",
         "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
         "site_url": "https://anilist.co/character/115",
-        "anime_url": "https://myanimelist.net/anime/2743",
-        "role": "MAIN",
         "favourites": 109,
-        "row_weight": 1.68826544,
-        "amplitude": 0.1462777661,
-        "abs_amplitude": 0.1462777661,
-        "percent": 2.139718
+        "anilist_favourites": 109,
+        "bangumi_collects": 142,
+        "bangumi_comments": 32,
+        "bangumi_character_id": 2218,
+        "bangumi_url": "https://bgm.tv/character/2218",
+        "combined_favourites": 251,
+        "role_edge_count": 2,
+        "descriptors": [
+          "headstrong",
+          "reckless",
+          "tough"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.55527476,
+        "row_weight": 1.80685211,
+        "unweighted_row_norm": 2.52043533,
+        "amplitude": 0.5345443083,
+        "abs_amplitude": 0.5345443083,
+        "percent": 28.573762
       }
     ],
     "positive_characters": [
       {
         "character_id": 350172,
         "name": "Arlecchino",
-        "native_name": "阿蕾奇诺",
         "anime": "Genshin Impact: The Song Burning in the Embers",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
         "site_url": "https://anilist.co/character/350172",
-        "anime_url": "https://myanimelist.net/anime/58689",
-        "role": "MAIN",
         "favourites": 189,
-        "row_weight": 2.49940474,
-        "amplitude": 0.989243557,
-        "abs_amplitude": 0.989243557,
-        "percent": 97.860282
+        "anilist_favourites": 189,
+        "bangumi_collects": 20,
+        "bangumi_comments": 11,
+        "bangumi_character_id": 113132,
+        "bangumi_url": "https://bgm.tv/character/113132",
+        "combined_favourites": 209,
+        "role_edge_count": 1,
+        "descriptors": [
+          "resolute",
+          "stoic"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.51934665,
+        "row_weight": 2.51934665,
+        "unweighted_row_norm": 1.77635245,
+        "amplitude": 0.8451404513,
+        "abs_amplitude": 0.8451404513,
+        "percent": 71.426238
       },
       {
         "character_id": 115,
         "name": "Cagalli Yula Athha",
-        "native_name": "カガリ・ユラ・アスハ",
         "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
         "site_url": "https://anilist.co/character/115",
-        "anime_url": "https://myanimelist.net/anime/2743",
-        "role": "MAIN",
         "favourites": 109,
-        "row_weight": 1.68826544,
-        "amplitude": 0.1462777661,
-        "abs_amplitude": 0.1462777661,
-        "percent": 2.139718
+        "anilist_favourites": 109,
+        "bangumi_collects": 142,
+        "bangumi_comments": 32,
+        "bangumi_character_id": 2218,
+        "bangumi_url": "https://bgm.tv/character/2218",
+        "combined_favourites": 251,
+        "role_edge_count": 2,
+        "descriptors": [
+          "headstrong",
+          "reckless",
+          "tough"
+        ],
+        "shared_role_weight": 0.70710678,
+        "popularity_row_weight": 2.55527476,
+        "row_weight": 1.80685211,
+        "unweighted_row_norm": 2.52043533,
+        "amplitude": 0.5345443083,
+        "abs_amplitude": 0.5345443083,
+        "percent": 28.573762
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.689712,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [
+    {
+      "rank": 2,
+      "kind": "variation_axis",
+      "singular_value": 1.0997246431,
+      "mass_percent": 12.582362,
+      "relative_to_sv2_percent": 100.0,
+      "positive_pole": {
+        "descriptor_fit_percent": 51.746659,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "tough",
+            "amplitude": 0.2700810342,
+            "abs_amplitude": 0.2700810342,
+            "percent": 44.199919
+          },
+          {
+            "rank": 2,
+            "descriptor": "headstrong",
+            "amplitude": 0.1994943919,
+            "abs_amplitude": 0.1994943919,
+            "percent": 32.648112
+          },
+          {
+            "rank": 3,
+            "descriptor": "reckless",
+            "amplitude": 0.1414687575,
+            "abs_amplitude": 0.1414687575,
+            "percent": 23.151969
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "tough",
+            "fit_percent": 46.639244,
+            "residual_gain_percent": 21.752191
+          },
+          {
+            "step": 2,
+            "descriptor": "headstrong",
+            "fit_percent": 50.618008,
+            "residual_gain_percent": 4.945361
+          },
+          {
+            "step": 3,
+            "descriptor": "reckless",
+            "fit_percent": 51.746659,
+            "residual_gain_percent": 1.553331
+          },
+          {
+            "step": 4,
+            "stop": "no_positive_residual_descriptor"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 115,
+            "name": "Cagalli Yula Athha",
+            "anime": "Kidou Senshi Gundam SEED: Seed Supernova - Tanekyara Gekijo",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b115-wOR0jAKl5GY7.png",
+            "site_url": "https://anilist.co/character/115",
+            "favourites": 109,
+            "anilist_favourites": 109,
+            "bangumi_collects": 142,
+            "bangumi_comments": 32,
+            "bangumi_character_id": 2218,
+            "bangumi_url": "https://bgm.tv/character/2218",
+            "combined_favourites": 251,
+            "role_edge_count": 2,
+            "descriptors": [
+              "headstrong",
+              "reckless",
+              "tough"
+            ],
+            "shared_role_weight": 0.70710678,
+            "popularity_row_weight": 2.55527476,
+            "row_weight": 1.80685211,
+            "unweighted_row_norm": 2.52043533,
+            "amplitude": 0.8451404513,
+            "abs_amplitude": 0.8451404513,
+            "percent": 71.426238
+          }
+        ]
+      },
+      "negative_pole": {
+        "descriptor_fit_percent": 23.407468,
+        "display_descriptor_components": [
+          {
+            "rank": 1,
+            "descriptor": "resolute",
+            "amplitude": 0.1515899031,
+            "abs_amplitude": 0.1515899031,
+            "percent": 57.701842
+          },
+          {
+            "rank": 2,
+            "descriptor": "stoic",
+            "amplitude": 0.111122511,
+            "abs_amplitude": 0.111122511,
+            "percent": 42.298158
+          }
+        ],
+        "descriptor_steps": [
+          {
+            "step": 1,
+            "descriptor": "resolute",
+            "fit_percent": 21.578693,
+            "residual_gain_percent": 4.6564
+          },
+          {
+            "step": 2,
+            "descriptor": "stoic",
+            "fit_percent": 23.407468,
+            "residual_gain_percent": 0.862874
+          }
+        ],
+        "characters": [
+          {
+            "character_id": 350172,
+            "name": "Arlecchino",
+            "anime": "Genshin Impact: The Song Burning in the Embers",
+            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b350172-xFva2PNL6aUw.jpg",
+            "site_url": "https://anilist.co/character/350172",
+            "favourites": 189,
+            "anilist_favourites": 189,
+            "bangumi_collects": 20,
+            "bangumi_comments": 11,
+            "bangumi_character_id": 113132,
+            "bangumi_url": "https://bgm.tv/character/113132",
+            "combined_favourites": 209,
+            "role_edge_count": 1,
+            "descriptors": [
+              "resolute",
+              "stoic"
+            ],
+            "shared_role_weight": 1.0,
+            "popularity_row_weight": 2.51934665,
+            "row_weight": 2.51934665,
+            "unweighted_row_norm": 1.77635245,
+            "amplitude": -0.5345443083,
+            "abs_amplitude": 0.5345443083,
+            "percent": 28.573762
+          }
+        ]
+      }
+    }
+  ],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.8986941515,
+      "mass_percent": 87.417638,
+      "relative_to_sv2_percent": null
+    },
+    {
+      "rank": 2,
+      "singular_value": 1.0997246431,
+      "mass_percent": 12.582362,
+      "relative_to_sv2_percent": 100.0
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }

@@ -11,1008 +11,70 @@
     "hika tsukishiro",
     "tsukishiro hika"
   ],
-  "favourite_metadata": {
-    "source": "AniList",
-    "field": "character.favourites",
-    "cached_at": "2026-06-24T07:46:30.064635Z",
-    "tag_cache_generated_at": "2026-06-30T04:47:21.933158Z"
-  },
+  "profile_path": "profile_payloads/hika_tsukishiro.json",
+  "sv1_mass_percent": 100.0,
+  "sv1_descriptor_fit_percent": 100.0,
+  "variation_axis_count": 0,
+  "supported_character_count": 1,
   "major_lane": {
     "rank": 1,
-    "singular_value": 3.9537937182,
-    "singular_spectrum": [
-      {
-        "rank": 1,
-        "singular_value": 3.9537937182,
-        "mass_percent": 100.0
-      }
-    ],
-    "row_weight_mode": "sqrt_log_favourites",
-    "shared_role_weight_mode": "inverse_sqrt",
-    "profile_center": "global_weighted",
-    "character_space": "raw",
-    "basis_participation": {
-      "effective_count": 201.006795,
-      "normalized_entanglement": 0.523455,
-      "top5_mass_percent": 6.212104,
-      "top10_mass_percent": 10.958112
-    },
-    "character_participation": {
-      "effective_count": 1.0,
-      "normalized_entanglement": 1.0,
-      "top5_mass_percent": 100.0,
-      "top10_mass_percent": 100.0
-    },
-    "range_metrics": {
-      "role_range": 0.0,
-      "semantic_spread": 0.0,
-      "axis_concentration_percent": 0.0,
-      "lane_count": 0.0,
-      "direction_range": 0.0,
-      "direction_spread": 0.0,
-      "direction_axis_concentration_percent": 0.0,
-      "direction_lane_count": 0.0
-    },
-    "explained_sv_l2_percent": 100.0,
-    "component_basis": "per-seiyuu semantic descriptor clusters built from sparse original descriptors supported by mutual local 99th-percentile semantic matches to character-owned descriptors; each character's display contribution is conserved, clusters are penalized when support comes from too few effective characters, and clusters are reported to 95% descriptor-mass coverage",
+    "kind": "broad_cluster",
+    "singular_value": 2.7865819523,
+    "mass_percent": 100.0,
+    "descriptor_fit_percent": 100.0,
     "display_descriptor_components": [
       {
         "rank": 1,
-        "descriptor": "childish / childlike / child-like / simple-minded / +1",
-        "descriptor_index": 1091,
-        "amplitude": 0.0987536326,
-        "abs_amplitude": 0.0987536326,
-        "raw_amplitude": 0.2962608978,
-        "percent": 29.62609,
-        "raw_percent": 29.62609,
-        "coverage_percent": 29.62609,
-        "member_count": 5,
-        "members": [
-          "childish",
-          "childlike",
-          "child-like",
-          "simple-minded",
-          "youthful"
-        ],
+        "descriptor": "childish",
+        "amplitude": 1.0,
+        "abs_amplitude": 1.0,
+        "percent": 100.0,
+        "weighted_support": 2.78658195,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
+        "supporting_characters": [
           {
             "character_id": 129838,
             "name": "Richeh",
-            "native_name": "リチェ",
             "anime": "Witch Hat Atelier",
             "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
             "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.2962608979,
-            "similarity": 1.0,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "emotionless / expressionless / unemotional",
-        "descriptor_index": 2148,
-        "amplitude": 0.0739009588,
-        "abs_amplitude": 0.0739009588,
-        "raw_amplitude": 0.2217028764,
-        "percent": 22.170288,
-        "raw_percent": 22.170288,
-        "coverage_percent": 51.796377,
-        "member_count": 3,
-        "members": [
-          "emotionless",
-          "expressionless",
-          "unemotional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.2217028765,
-            "similarity": 1.0,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "dispassionate / cold-hearted / frigid / numb / +4",
-        "descriptor_index": 1872,
-        "amplitude": 0.0376930774,
-        "abs_amplitude": 0.0376930774,
-        "raw_amplitude": 0.1130792321,
-        "percent": 11.307923,
-        "raw_percent": 11.307923,
-        "coverage_percent": 63.104301,
-        "member_count": 8,
-        "members": [
-          "dispassionate",
-          "cold-hearted",
-          "frigid",
-          "numb",
-          "insensitive",
-          "apathetic",
-          "cold",
-          "stoic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.1130792321,
-            "similarity": 0.889973,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "innocent / ingenuous",
-        "descriptor_index": 3899,
-        "amplitude": 0.0239837539,
-        "abs_amplitude": 0.0239837539,
-        "raw_amplitude": 0.0719512616,
-        "percent": 7.195126,
-        "raw_percent": 7.195126,
-        "coverage_percent": 70.299427,
-        "member_count": 2,
-        "members": [
-          "innocent",
-          "ingenuous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0719512615,
-            "similarity": 0.898214,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "empathy-less / heartless",
-        "descriptor_index": 2152,
-        "amplitude": 0.0181880525,
-        "abs_amplitude": 0.0181880525,
-        "raw_amplitude": 0.0545641576,
-        "percent": 5.456416,
-        "raw_percent": 5.456416,
-        "coverage_percent": 75.755843,
-        "member_count": 2,
-        "members": [
-          "empathy-less",
-          "heartless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0545641575,
-            "similarity": 0.880929,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "straight-faced / impassive",
-        "descriptor_index": 7280,
-        "amplitude": 0.0117786402,
-        "abs_amplitude": 0.0117786402,
-        "raw_amplitude": 0.0353359206,
-        "percent": 3.533592,
-        "raw_percent": 3.533592,
-        "coverage_percent": 79.289435,
-        "member_count": 2,
-        "members": [
-          "straight-faced",
-          "impassive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0353359206,
-            "similarity": 0.894301,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "mouthless",
-        "descriptor_index": 4959,
-        "amplitude": 0.0104150721,
-        "abs_amplitude": 0.0104150721,
-        "raw_amplitude": 0.0312452162,
-        "percent": 3.124522,
-        "raw_percent": 3.124522,
-        "coverage_percent": 82.413956,
-        "member_count": 1,
-        "members": [
-          "mouthless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0312452162,
-            "similarity": 0.873743,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "immature",
-        "descriptor_index": 3746,
-        "amplitude": 0.0093420909,
-        "abs_amplitude": 0.0093420909,
-        "raw_amplitude": 0.0280262726,
-        "percent": 2.802627,
-        "raw_percent": 2.802627,
-        "coverage_percent": 85.216583,
-        "member_count": 1,
-        "members": [
-          "immature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0280262726,
-            "similarity": 0.89137,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "vacant-eyed",
-        "descriptor_index": 8266,
-        "amplitude": 0.0091118455,
-        "abs_amplitude": 0.0091118455,
-        "raw_amplitude": 0.0273355365,
-        "percent": 2.733554,
-        "raw_percent": 2.733554,
-        "coverage_percent": 87.950137,
-        "member_count": 1,
-        "members": [
-          "vacant-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0273355365,
-            "similarity": 0.867188,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "unfeeling",
-        "descriptor_index": 8136,
-        "amplitude": 0.0082863419,
-        "abs_amplitude": 0.0082863419,
-        "raw_amplitude": 0.0248590256,
-        "percent": 2.485903,
-        "raw_percent": 2.485903,
-        "coverage_percent": 90.43604,
-        "member_count": 1,
-        "members": [
-          "unfeeling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0248590256,
-            "similarity": 0.862991,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "boyish",
-        "descriptor_index": 789,
-        "amplitude": 0.0079508883,
-        "abs_amplitude": 0.0079508883,
-        "raw_amplitude": 0.0238526649,
-        "percent": 2.385266,
-        "raw_percent": 2.385266,
-        "coverage_percent": 92.821306,
-        "member_count": 1,
-        "members": [
-          "boyish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0238526649,
-            "similarity": 0.88524,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "guileless",
-        "descriptor_index": 3249,
-        "amplitude": 0.005611827,
-        "abs_amplitude": 0.005611827,
-        "raw_amplitude": 0.0168354811,
-        "percent": 1.683548,
-        "raw_percent": 1.683548,
-        "coverage_percent": 94.504854,
-        "member_count": 1,
-        "members": [
-          "guileless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0168354811,
-            "similarity": 0.863979,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "deadpan",
-        "descriptor_index": 1612,
-        "amplitude": 0.0045015745,
-        "abs_amplitude": 0.0045015745,
-        "raw_amplitude": 0.0135047236,
-        "percent": 1.350472,
-        "raw_percent": 1.350472,
-        "coverage_percent": 95.855327,
-        "member_count": 1,
-        "members": [
-          "deadpan"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0135047236,
-            "similarity": 0.88012,
-            "matched_descriptor": "emotionless"
+            "combined_favourites": 866
           }
         ]
       }
     ],
-    "opposite_display_descriptor_components": [
+    "descriptor_steps": [
       {
-        "rank": 1,
-        "descriptor": "childish / childlike / child-like / simple-minded / +1",
-        "descriptor_index": 1091,
-        "amplitude": 0.0987536326,
-        "abs_amplitude": 0.0987536326,
-        "raw_amplitude": 0.2962608978,
-        "percent": 29.62609,
-        "raw_percent": 29.62609,
-        "coverage_percent": 29.62609,
-        "member_count": 5,
-        "members": [
-          "childish",
-          "childlike",
-          "child-like",
-          "simple-minded",
-          "youthful"
-        ],
+        "step": 1,
+        "descriptor": "childish",
+        "weighted_support": 2.78658195,
         "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.2962608979,
-            "similarity": 1.0,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "descriptor": "emotionless / expressionless / unemotional",
-        "descriptor_index": 2148,
-        "amplitude": 0.0739009588,
-        "abs_amplitude": 0.0739009588,
-        "raw_amplitude": 0.2217028764,
-        "percent": 22.170288,
-        "raw_percent": 22.170288,
-        "coverage_percent": 51.796377,
-        "member_count": 3,
-        "members": [
-          "emotionless",
-          "expressionless",
-          "unemotional"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.2217028765,
-            "similarity": 1.0,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "descriptor": "dispassionate / cold-hearted / frigid / numb / +4",
-        "descriptor_index": 1872,
-        "amplitude": 0.0376930774,
-        "abs_amplitude": 0.0376930774,
-        "raw_amplitude": 0.1130792321,
-        "percent": 11.307923,
-        "raw_percent": 11.307923,
-        "coverage_percent": 63.104301,
-        "member_count": 8,
-        "members": [
-          "dispassionate",
-          "cold-hearted",
-          "frigid",
-          "numb",
-          "insensitive",
-          "apathetic",
-          "cold",
-          "stoic"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.1130792321,
-            "similarity": 0.889973,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "descriptor": "innocent / ingenuous",
-        "descriptor_index": 3899,
-        "amplitude": 0.0239837539,
-        "abs_amplitude": 0.0239837539,
-        "raw_amplitude": 0.0719512616,
-        "percent": 7.195126,
-        "raw_percent": 7.195126,
-        "coverage_percent": 70.299427,
-        "member_count": 2,
-        "members": [
-          "innocent",
-          "ingenuous"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0719512615,
-            "similarity": 0.898214,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "descriptor": "empathy-less / heartless",
-        "descriptor_index": 2152,
-        "amplitude": 0.0181880525,
-        "abs_amplitude": 0.0181880525,
-        "raw_amplitude": 0.0545641576,
-        "percent": 5.456416,
-        "raw_percent": 5.456416,
-        "coverage_percent": 75.755843,
-        "member_count": 2,
-        "members": [
-          "empathy-less",
-          "heartless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0545641575,
-            "similarity": 0.880929,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "descriptor": "straight-faced / impassive",
-        "descriptor_index": 7280,
-        "amplitude": 0.0117786402,
-        "abs_amplitude": 0.0117786402,
-        "raw_amplitude": 0.0353359206,
-        "percent": 3.533592,
-        "raw_percent": 3.533592,
-        "coverage_percent": 79.289435,
-        "member_count": 2,
-        "members": [
-          "straight-faced",
-          "impassive"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0353359206,
-            "similarity": 0.894301,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "descriptor": "mouthless",
-        "descriptor_index": 4959,
-        "amplitude": 0.0104150721,
-        "abs_amplitude": 0.0104150721,
-        "raw_amplitude": 0.0312452162,
-        "percent": 3.124522,
-        "raw_percent": 3.124522,
-        "coverage_percent": 82.413956,
-        "member_count": 1,
-        "members": [
-          "mouthless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0312452162,
-            "similarity": 0.873743,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "descriptor": "immature",
-        "descriptor_index": 3746,
-        "amplitude": 0.0093420909,
-        "abs_amplitude": 0.0093420909,
-        "raw_amplitude": 0.0280262726,
-        "percent": 2.802627,
-        "raw_percent": 2.802627,
-        "coverage_percent": 85.216583,
-        "member_count": 1,
-        "members": [
-          "immature"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0280262726,
-            "similarity": 0.89137,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "descriptor": "vacant-eyed",
-        "descriptor_index": 8266,
-        "amplitude": 0.0091118455,
-        "abs_amplitude": 0.0091118455,
-        "raw_amplitude": 0.0273355365,
-        "percent": 2.733554,
-        "raw_percent": 2.733554,
-        "coverage_percent": 87.950137,
-        "member_count": 1,
-        "members": [
-          "vacant-eyed"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0273355365,
-            "similarity": 0.867188,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "descriptor": "unfeeling",
-        "descriptor_index": 8136,
-        "amplitude": 0.0082863419,
-        "abs_amplitude": 0.0082863419,
-        "raw_amplitude": 0.0248590256,
-        "percent": 2.485903,
-        "raw_percent": 2.485903,
-        "coverage_percent": 90.43604,
-        "member_count": 1,
-        "members": [
-          "unfeeling"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0248590256,
-            "similarity": 0.862991,
-            "matched_descriptor": "emotionless"
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "descriptor": "boyish",
-        "descriptor_index": 789,
-        "amplitude": 0.0079508883,
-        "abs_amplitude": 0.0079508883,
-        "raw_amplitude": 0.0238526649,
-        "percent": 2.385266,
-        "raw_percent": 2.385266,
-        "coverage_percent": 92.821306,
-        "member_count": 1,
-        "members": [
-          "boyish"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0238526649,
-            "similarity": 0.88524,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "descriptor": "guileless",
-        "descriptor_index": 3249,
-        "amplitude": 0.005611827,
-        "abs_amplitude": 0.005611827,
-        "raw_amplitude": 0.0168354811,
-        "percent": 1.683548,
-        "raw_percent": 1.683548,
-        "coverage_percent": 94.504854,
-        "member_count": 1,
-        "members": [
-          "guileless"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0168354811,
-            "similarity": 0.863979,
-            "matched_descriptor": "childish"
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "descriptor": "deadpan",
-        "descriptor_index": 1612,
-        "amplitude": 0.0045015745,
-        "abs_amplitude": 0.0045015745,
-        "raw_amplitude": 0.0135047236,
-        "percent": 1.350472,
-        "raw_percent": 1.350472,
-        "coverage_percent": 95.855327,
-        "member_count": 1,
-        "members": [
-          "deadpan"
-        ],
-        "support": 1,
-        "effective_support": 1.0,
-        "support_factor": 0.333333,
-        "top_characters": [
-          {
-            "character_id": 129838,
-            "name": "Richeh",
-            "native_name": "リチェ",
-            "anime": "Witch Hat Atelier",
-            "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
-            "site_url": "https://anilist.co/character/129838",
-            "anime_url": "https://myanimelist.net/anime/51553",
-            "role": "SUPPORTING",
-            "favourites": 825,
-            "row_weight": 2.77787595,
-            "projection": 0.0135047236,
-            "similarity": 0.88012,
-            "matched_descriptor": "emotionless"
-          }
-        ]
+        "fit_percent": 100.0,
+        "selection": "weighted_support"
       }
     ],
     "characters": [
       {
         "character_id": 129838,
         "name": "Richeh",
-        "native_name": "リチェ",
         "anime": "Witch Hat Atelier",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
         "site_url": "https://anilist.co/character/129838",
-        "anime_url": "https://myanimelist.net/anime/51553",
-        "role": "SUPPORTING",
         "favourites": 825,
-        "row_weight": 2.77787595,
+        "anilist_favourites": 825,
+        "bangumi_collects": 41,
+        "bangumi_comments": 8,
+        "bangumi_character_id": 61338,
+        "bangumi_url": "https://bgm.tv/character/61338",
+        "combined_favourites": 866,
+        "role_edge_count": 1,
+        "descriptors": [
+          "childish"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.78658195,
+        "row_weight": 2.78658195,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
@@ -1022,19 +84,67 @@
       {
         "character_id": 129838,
         "name": "Richeh",
-        "native_name": "リチェ",
         "anime": "Witch Hat Atelier",
         "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b129838-DRjxUa0u7Lyg.jpg",
         "site_url": "https://anilist.co/character/129838",
-        "anime_url": "https://myanimelist.net/anime/51553",
-        "role": "SUPPORTING",
         "favourites": 825,
-        "row_weight": 2.77787595,
+        "anilist_favourites": 825,
+        "bangumi_collects": 41,
+        "bangumi_comments": 8,
+        "bangumi_character_id": 61338,
+        "bangumi_url": "https://bgm.tv/character/61338",
+        "combined_favourites": 866,
+        "role_edge_count": 1,
+        "descriptors": [
+          "childish"
+        ],
+        "shared_role_weight": 1.0,
+        "popularity_row_weight": 2.78658195,
+        "row_weight": 2.78658195,
+        "unweighted_row_norm": 1.0,
         "amplitude": 1.0,
         "abs_amplitude": 1.0,
         "percent": 100.0
       }
     ],
-    "negative_characters": []
+    "negative_characters": [],
+    "character_participation": {
+      "effective_count": 1.0,
+      "top5_mass_percent": 100.0,
+      "top10_mass_percent": 100.0
+    },
+    "direct_descriptor_planes": {
+      "local_supported": null,
+      "universal_515": null
+    },
+    "direct_descriptor_plane": null
+  },
+  "variation_axes": [],
+  "singular_spectrum": [
+    {
+      "rank": 1,
+      "singular_value": 2.7865819523,
+      "mass_percent": 100.0,
+      "relative_to_sv2_percent": null
+    }
+  ],
+  "model": {
+    "name": "redundant_descriptor_svd",
+    "description": "Uncentered B @ G @ X SVD over the full adjectival personality descriptor pool; SV1 is decoded as the broad role cluster, later singular vectors are shown as variation axes.",
+    "descriptor_count": 483,
+    "descriptor_shape": "single_word_or_hyphenated",
+    "orthogonal_rank": 384,
+    "sv_relative_cutoff": 0.85,
+    "sv1_fit_target": 0.95,
+    "sv1_min_terms": 1,
+    "sv1_max_terms": 10,
+    "sv1_fit_order": "weighted_support",
+    "variation_gain_cutoff": 0.01,
+    "shared_role_weight": "inverse_sqrt",
+    "row_weight": "sqrt_log_combined_favourites",
+    "svd_matrix": "z",
+    "row_weight_field": "ignored by z_unit after final row normalization; otherwise multiplied by shared-role weight",
+    "normalize_character_rows": true,
+    "bangumi_collects_source": "data/external/safe_enrichment/raw/bangumi"
   }
 }
