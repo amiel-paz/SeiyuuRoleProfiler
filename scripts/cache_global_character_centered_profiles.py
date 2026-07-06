@@ -28,6 +28,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--fit-target", type=float, default=0.85)
     parser.add_argument("--min-fit-terms", type=int, default=1)
     parser.add_argument("--max-fit-terms", type=int, default=200)
+    parser.add_argument("--signed-fit-target", type=float, default=0.80)
+    parser.add_argument("--max-signed-fit-terms", type=int, default=20)
     parser.add_argument("--round-digits", type=int, default=6)
     return parser.parse_args()
 
@@ -154,6 +156,101 @@ def supported_fit(
     )
 
 
+def signed_supported_fit(
+    builder,
+    target: np.ndarray,
+    descriptor_atoms: np.ndarray,
+    descriptors: list[str],
+    descriptor_index: dict[str, int],
+    character_labels: list[dict],
+    *,
+    fit_target: float,
+    max_terms: int,
+    digits: int,
+) -> dict:
+    support = builder.descriptor_weighted_support(character_labels)
+    supported = [descriptor for descriptor in descriptors if descriptor in support]
+    if not supported:
+        return {"fit_percent": 0.0, "descriptors": [], "more": [], "less": [], "steps": []}
+
+    supported_atoms = descriptor_atoms[[descriptor_index[descriptor] for descriptor in supported]]
+    active: list[int] = []
+    active_set: set[int] = set()
+    coefficients = np.zeros(0, dtype=np.float64)
+    approximation = np.zeros_like(target)
+    steps = []
+
+    for step in range(1, max_terms + 1):
+        residual = target - approximation
+        scores = supported_atoms @ residual
+        for index in active_set:
+            scores[index] = 0.0
+        chosen = int(np.argmax(np.abs(scores)))
+        if abs(float(scores[chosen])) <= 1.0e-12:
+            break
+
+        active.append(chosen)
+        active_set.add(chosen)
+        active_atoms = supported_atoms[active].T
+        coefficients, *_ = np.linalg.lstsq(active_atoms, target, rcond=None)
+        approximation = active_atoms @ coefficients
+        fit = float(approximation @ target / max(float(np.linalg.norm(approximation)), 1.0e-12))
+        support_row = support.get(supported[chosen]) or {}
+        steps.append(
+            {
+                "step": step,
+                "descriptor": supported[chosen],
+                "residual_score": rounded(float(scores[chosen]), digits),
+                "fit_percent": rounded(fit * 100.0, digits),
+                "support": int(support_row.get("support") or 0),
+                "weighted_support": rounded(float(support_row.get("weighted_support") or 0.0), digits),
+                "selection": "max_abs_residual_projection",
+            }
+        )
+        if fit >= fit_target:
+            break
+
+    if len(active) == 0:
+        return {"fit_percent": 0.0, "descriptors": [], "more": [], "less": [], "steps": steps}
+
+    total_abs = max(float(np.sum(np.abs(coefficients))), 1.0e-12)
+    rows = []
+    for order, (index, coefficient) in enumerate(zip(active, coefficients, strict=True), start=1):
+        descriptor = supported[index]
+        support_row = support.get(descriptor) or {}
+        rows.append(
+            {
+                "selection_order": order,
+                "descriptor": descriptor,
+                "coefficient": rounded(float(coefficient), digits),
+                "abs_percent": rounded(abs(float(coefficient)) / total_abs * 100.0, digits),
+                "support": int(support_row.get("support") or 0),
+                "weighted_support": rounded(float(support_row.get("weighted_support") or 0.0), digits),
+                "combined_favourites": int(support_row.get("combined_favourites") or 0),
+            }
+        )
+    rows.sort(
+        key=lambda row: (
+            abs(float(row["coefficient"])),
+            float(row["weighted_support"]),
+            int(row["support"]),
+            row["descriptor"],
+        ),
+        reverse=True,
+    )
+    for rank, row in enumerate(rows, start=1):
+        row["rank"] = rank
+
+    final_fit = float(approximation @ target / max(float(np.linalg.norm(approximation)), 1.0e-12))
+    return {
+        "fit_percent": rounded(final_fit * 100.0, digits),
+        "descriptors": rows,
+        "more": [row for row in rows if float(row["coefficient"]) > 1.0e-10],
+        "less": [row for row in rows if float(row["coefficient"]) < -1.0e-10],
+        "steps": steps,
+    }
+
+
 def main() -> None:
     args = parse_args()
     builder = load_module("redundant_svd_builder", args.builder)
@@ -216,6 +313,17 @@ def main() -> None:
             min_fit_terms=args.min_fit_terms,
             max_fit_terms=args.max_fit_terms,
         )
+        signed_fit = signed_supported_fit(
+            builder,
+            centered_target,
+            descriptor_atoms,
+            descriptors,
+            descriptor_index,
+            character_labels,
+            fit_target=args.signed_fit_target,
+            max_terms=args.max_signed_fit_terms,
+            digits=args.round_digits,
+        )
 
         profile_rows.append(
             {
@@ -230,6 +338,7 @@ def main() -> None:
                 "first_year": profile.get("first_year"),
                 "global_centered_norm_before_renormalization": rounded(float(np.linalg.norm(centered_raw)), args.round_digits),
                 "descriptor_fit": fit,
+                "signed_descriptor_fit": signed_fit,
                 "descriptor_support": descriptor_support_rows(builder, character_labels, digits=args.round_digits),
                 "character_projections": character_projection_rows(
                     matrix,
@@ -265,6 +374,16 @@ def main() -> None:
             "descriptor_fit_target": args.fit_target,
             "min_fit_terms": args.min_fit_terms,
             "max_fit_terms": args.max_fit_terms,
+            "signed_descriptor_fit": {
+                "description": (
+                    "Signed least-squares fit over supported descriptors. Terms are selected greedily by the "
+                    "largest absolute residual projection; positive coefficients mean more than global "
+                    "character background and negative coefficients mean less."
+                ),
+                "fit_target": args.signed_fit_target,
+                "max_terms": args.max_signed_fit_terms,
+                "selection": "greedy_max_abs_residual_projection",
+            },
         },
         "descriptors": descriptors,
         "profiles": profile_rows,
