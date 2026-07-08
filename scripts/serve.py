@@ -20,15 +20,98 @@ class NoCacheHTTPRequestHandler(SimpleHTTPRequestHandler):
         if parsed.path == "/api/semantic-clusters":
             self.serve_semantic_clusters(parsed.query)
             return
+        if parsed.path == "/api/query-expansion":
+            self.serve_query_expansion(parsed.query)
+            return
         super().do_GET()
 
     def send_json(self, status: int, payload: dict) -> None:
         body = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
+
+    def serve_query_expansion(self, query: str) -> None:
+        params = parse_qs(query)
+        descriptor_query = (params.get("q") or [""])[0].strip()
+        mode = (params.get("mode") or ["unit"])[0].strip()
+        if not descriptor_query:
+            self.send_json(400, {"error": "missing q"})
+            return
+        if mode not in {"unit", "favorites_weighted"}:
+            self.send_json(400, {"error": "mode must be unit or favorites_weighted"})
+            return
+
+        descriptor_source = self.repo_root / "site" / "mvp_visualizer" / f"rankings_{mode}.json"
+        if not descriptor_source.exists():
+            self.send_json(500, {"error": f"missing descriptor source: {descriptor_source}"})
+            return
+
+        python = self.repo_root / ".venv" / "bin" / "python"
+        if not python.exists():
+            python = Path(sys.executable)
+        command = [
+            str(python),
+            "scripts/cache_query_expansions.py",
+            descriptor_query,
+            "--descriptor-source",
+            str(descriptor_source),
+        ]
+        try:
+            subprocess.run(
+                command,
+                cwd=self.repo_root,
+                check=True,
+                text=True,
+                capture_output=True,
+                timeout=300,
+            )
+        except subprocess.CalledProcessError as error:
+            self.send_json(
+                500,
+                {
+                    "error": "query expansion failed",
+                    "stdout": error.stdout[-4000:],
+                    "stderr": error.stderr[-4000:],
+                },
+            )
+            return
+        except subprocess.TimeoutExpired:
+            self.send_json(504, {"error": "query expansion timed out"})
+            return
+
+        query_key = " ".join(descriptor_query.strip().lower().replace("_", " ").split())
+        cache_path = self.repo_root / "run" / "query_expansions" / "query_expansions.jsonl"
+        best = None
+        if cache_path.exists():
+            with cache_path.open(encoding="utf-8") as handle:
+                for line in handle:
+                    if not line.strip():
+                        continue
+                    row = json.loads(line)
+                    if row.get("query") == query_key and row.get("descriptor_source") == str(descriptor_source):
+                        best = row
+        if not best:
+            self.send_json(500, {"error": "query expansion completed but cache row was not found"})
+            return
+        self.send_json(
+            200,
+            {
+                "query": best.get("query"),
+                "expanded": best.get("expanded") or [],
+                "model": best.get("model"),
+                "model_digest": best.get("model_digest"),
+                "temperature": best.get("temperature"),
+                "seed": best.get("seed"),
+                "think": best.get("think"),
+                "prompt_version": best.get("prompt_version"),
+                "descriptor_source": best.get("descriptor_source"),
+                "descriptor_sha256": best.get("descriptor_sha256"),
+            },
+        )
 
     def serve_semantic_clusters(self, query: str) -> None:
         params = parse_qs(query)
@@ -102,6 +185,7 @@ class NoCacheHTTPRequestHandler(SimpleHTTPRequestHandler):
         self.send_header("Cache-Control", "no-store, max-age=0")
         self.send_header("Pragma", "no-cache")
         self.send_header("Expires", "0")
+        self.send_header("Access-Control-Allow-Origin", "*")
         super().end_headers()
 
 

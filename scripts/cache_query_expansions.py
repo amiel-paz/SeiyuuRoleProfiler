@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 
-PROMPT_VERSION = "query_expansion_v1"
+PROMPT_VERSION = "query_expansion_v2"
 
 PROMPT_TEMPLATE = """Expand one anime character-personality query into reusable descriptor words.
 
@@ -24,6 +24,7 @@ Goal:
 - Prefer specific descriptors over generic hubs.
 - Include near-synonyms and trope-equivalent personality descriptors.
 - Do not include occupations, roles, appearance terms, nationalities, species, temporary moods, or ability words.
+- Keep emotional reserve, aloofness, shyness, and stoicism separate from moral coldness, cruelty, hostility, or malice unless the query explicitly asks for that darker meaning.
 - If the exact query appears in the allowed vocabulary and is personality-like, include it with weight 1.0.
 - Return 3 to 8 descriptors when possible.
 
@@ -187,6 +188,10 @@ def clean_expansion(parsed: dict[str, Any], allowed: set[str]) -> list[dict[str,
         if not isinstance(row, dict):
             continue
         descriptor = canonical_query(str(row.get("descriptor") or ""))
+        if descriptor not in allowed:
+            dehyphenated = descriptor.replace("-", "")
+            if dehyphenated in allowed:
+                descriptor = dehyphenated
         if descriptor not in allowed or descriptor in seen:
             continue
         seen.add(descriptor)
@@ -203,6 +208,21 @@ def clean_expansion(parsed: dict[str, Any], allowed: set[str]) -> list[dict[str,
         )
     cleaned.sort(key=lambda row: (-row["weight"], row["descriptor"]))
     return cleaned
+
+
+def ensure_exact_query(expanded: list[dict[str, Any]], query: str, allowed: set[str]) -> list[dict[str, Any]]:
+    if query not in allowed:
+        return expanded
+    if any(row.get("descriptor") == query for row in expanded):
+        return expanded
+    return [
+        {
+            "descriptor": query,
+            "weight": 1.0,
+            "reason": "Exact query exists in the descriptor vocabulary.",
+        },
+        *expanded,
+    ]
 
 
 def main() -> None:
@@ -225,7 +245,7 @@ def main() -> None:
             print(f"{query}: cached -> {terms}")
             continue
         parsed, raw_response = call_ollama(args, prompt)
-        expanded = clean_expansion(parsed, allowed)
+        expanded = ensure_exact_query(clean_expansion(parsed, allowed), query, allowed)
         row = {
             "cache_key": key,
             "created_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),

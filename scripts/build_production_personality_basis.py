@@ -38,6 +38,52 @@ DEFAULT_COMMON_ADJECTIVES = Path(
     "models/simple_adjective_basis/simple_common_adjectives_en_c5000_r384_centernone_baai_bge-small-en-v1.5.json"
 )
 DEFAULT_GLOBAL_CANONICALIZATION = Path("models/global_descriptor_canonicalization/descriptor_canonicalization.json")
+DEFAULT_CURATION = Path("config/personality_descriptor_curation.json")
+DEFAULT_LLM_DECISIONS = Path("run/production_personality_basis/llm_personality_decisions_v4.jsonl")
+
+HARD_NEGATIVE_ANCHORS = {
+    "time frequency or schedule",
+    "daily routine or ordinary activity",
+    "temporal adjective",
+    "physical disability or impairment",
+    "bodily limitation",
+    "injury or disability status",
+    "health limitation or medical impairment",
+    "disabled physical state",
+    "personal pronoun or self-reference",
+    "first-person pronoun",
+    "speech register or verbal tic",
+    "grammatical pronoun",
+    "domain adjective requiring a head noun",
+    "relational domain modifier",
+    "interpersonal domain label",
+    "communication-domain label",
+    "abstract category label",
+    "incomplete relational adjective",
+    "requires an object or complement",
+    "directional relation or preference",
+    "orientation toward another object",
+    "fragment of a phrasal adjective",
+    "participle state fragment",
+    "past tense action fragment",
+    "physical posture or position",
+    "result of an action",
+    "lying down physical position",
+    "passive participle of action verb",
+    "orientation or alignment word",
+    "political or directional orientation",
+    "bare suffix of a compound adjective",
+    "compound adjective tail fragment",
+    "generic tail word requiring a compound modifier",
+}
+
+MARGIN_HARD_NEGATIVE_ANCHORS = {
+    "domain adjective requiring a head noun",
+    "relational domain modifier",
+    "interpersonal domain label",
+    "communication-domain label",
+    "abstract category label",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -64,6 +110,21 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_GLOBAL_CANONICALIZATION,
         help="Existing raw-to-canonical descriptor map applied before the compact adjective gate.",
+    )
+    parser.add_argument(
+        "--curation",
+        type=Path,
+        default=DEFAULT_CURATION,
+        help="Descriptor rejection lockouts. Used to preserve accepted curation decisions across rebuilds.",
+    )
+    parser.add_argument(
+        "--llm-decisions",
+        type=Path,
+        default=DEFAULT_LLM_DECISIONS,
+        help=(
+            "Cached deterministic LLM descriptor decisions. When present, this is the semantic keep/reject "
+            "gate; anchor hard negatives remain broad non-personality overrides."
+        ),
     )
     parser.add_argument("--common-adjective-count", type=int, default=5000)
     parser.add_argument("--output-dir", type=Path, default=Path("run/production_personality_basis"))
@@ -100,6 +161,124 @@ def now() -> str:
 
 def compact_shape(value: str) -> bool:
     return re.fullmatch(r"[a-z]+(?:-[a-z]+)*", value or "") is not None
+
+
+def hyphen_bundle_fragment(value: str) -> bool:
+    """Reject glued lists like a-b-c; keep ordinary two-part compounds."""
+    return len([part for part in normalize_tag(value).split("-") if part]) >= 3
+
+
+def load_curation_rejections(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    payload = read_json(path)
+    raw_rejections = payload.get("reject_descriptors") or {}
+    if isinstance(raw_rejections, list):
+        return {normalize_tag(str(descriptor)): "curated reject" for descriptor in raw_rejections}
+    return {
+        normalize_tag(str(descriptor)): str(reason or "curated reject")
+        for descriptor, reason in raw_rejections.items()
+        if normalize_tag(str(descriptor))
+    }
+
+
+def curated_keep(base_keep: bool, descriptor: str, rejection_reasons: dict[str, str]) -> tuple[bool, str]:
+    reason = rejection_reasons.get(normalize_tag(descriptor))
+    if reason:
+        return False, reason
+    return bool(base_keep), ""
+
+
+def load_llm_decisions(path: Path) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+    decisions: dict[str, dict[str, Any]] = {}
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            descriptor = normalize_tag(str(row.get("descriptor") or ""))
+            if not descriptor:
+                continue
+            decisions[descriptor] = {
+                "llm_keep": bool(row.get("llm_keep")),
+                "llm_reason": str(row.get("llm_reason") or ""),
+                "llm_model": str(row.get("llm_model") or ""),
+            }
+    return decisions
+
+
+def anchor_hard_reject(best_negative_anchor: str, score_mean: float) -> bool:
+    if best_negative_anchor in MARGIN_HARD_NEGATIVE_ANCHORS:
+        return score_mean < -0.05
+    return best_negative_anchor in HARD_NEGATIVE_ANCHORS and score_mean < 0.0
+
+
+def compound_tail_fragments(descriptors: list[str]) -> set[str]:
+    descriptor_set = set(descriptors)
+    tails: set[str] = set()
+    for descriptor in descriptor_set:
+        if "-" not in descriptor:
+            continue
+        tail = descriptor.rsplit("-", 1)[-1]
+        if tail in descriptor_set:
+            tails.add(tail)
+    return tails
+
+
+def semantic_keep(
+    descriptor: str,
+    anchor_keep: bool,
+    best_negative_anchor: str,
+    score_mean: float,
+    llm_decisions: dict[str, dict[str, Any]],
+    tail_fragments: set[str] | None = None,
+) -> tuple[bool, dict[str, Any]]:
+    if hyphen_bundle_fragment(descriptor):
+        return False, {
+            "anchor_keep": anchor_keep,
+            "llm_keep": llm_decisions.get(normalize_tag(descriptor), {}).get("llm_keep", ""),
+            "llm_reason": llm_decisions.get(normalize_tag(descriptor), {}).get("llm_reason", ""),
+            "llm_model": llm_decisions.get(normalize_tag(descriptor), {}).get("llm_model", ""),
+            "anchor_hard_reject": True,
+            "decision_reason": "hyphen_bundle_fragment",
+        }
+    if normalize_tag(descriptor) in (tail_fragments or set()):
+        return False, {
+            "anchor_keep": anchor_keep,
+            "llm_keep": llm_decisions.get(normalize_tag(descriptor), {}).get("llm_keep", ""),
+            "llm_reason": llm_decisions.get(normalize_tag(descriptor), {}).get("llm_reason", ""),
+            "llm_model": llm_decisions.get(normalize_tag(descriptor), {}).get("llm_model", ""),
+            "anchor_hard_reject": True,
+            "decision_reason": "compound_tail_fragment",
+        }
+    decision = llm_decisions.get(normalize_tag(descriptor))
+    hard_reject = anchor_hard_reject(best_negative_anchor, score_mean)
+    if decision is not None:
+        keep = bool(decision["llm_keep"]) and not hard_reject
+        reason = "llm_decision"
+        if hard_reject:
+            reason = "hard_negative_anchor"
+        elif not decision["llm_keep"]:
+            reason = "llm_reject"
+        return keep, {
+            "anchor_keep": anchor_keep,
+            "llm_keep": decision["llm_keep"],
+            "llm_reason": decision["llm_reason"],
+            "llm_model": decision["llm_model"],
+            "anchor_hard_reject": hard_reject,
+            "decision_reason": reason,
+        }
+    keep = bool(anchor_keep) and not hard_reject
+    return keep, {
+        "anchor_keep": anchor_keep,
+        "llm_keep": "",
+        "llm_reason": "",
+        "llm_model": "",
+        "anchor_hard_reject": hard_reject,
+        "decision_reason": "anchor_score" if not hard_reject else "hard_negative_anchor",
+    }
 
 
 def iter_common_adjectives(path: Path, limit: int) -> list[dict[str, Any]]:
@@ -295,6 +474,8 @@ def score_contexts(texts: list[str], model_name: str, batch_size: int) -> list[d
 def main() -> None:
     args = parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    curation_rejections = load_curation_rejections(args.curation)
+    llm_decisions = load_llm_decisions(args.llm_decisions)
 
     raw_rows = []
     raw_rows.extend(iter_common_adjectives(args.common_adjectives, args.common_adjective_count))
@@ -364,6 +545,7 @@ def main() -> None:
         score_rows_by_descriptor[descriptor].append({**source_row, **score_row})
 
     output_rows = []
+    tail_fragments = compound_tail_fragments(sorted(rows_by_canonical))
     for descriptor in sorted(rows_by_canonical):
         all_rows = rows_by_canonical[descriptor]
         scored = score_rows_by_descriptor[descriptor]
@@ -375,18 +557,39 @@ def main() -> None:
         characters = {int(row["character_id"]) for row in all_rows if row.get("character_id") is not None}
         common_rows = [row for row in all_rows if row.get("source") == "wordfreq_wordnet_common_adjective"]
         examples = sorted(scored, key=lambda row: row["personality_score"], reverse=True)[: args.examples_per_descriptor]
+        score_mean = float(np.mean(scores))
+        best_negative_anchor = examples[0]["negative_anchor"] if examples else ""
+        anchor_keep = bool(score_mean >= args.min_personality_score and len(characters) >= args.min_character_count)
+        base_keep, decision_details = semantic_keep(
+            descriptor,
+            anchor_keep,
+            best_negative_anchor,
+            score_mean,
+            llm_decisions,
+            tail_fragments,
+        )
+        keep, curation_reason = curated_keep(base_keep, descriptor, curation_rejections)
+        if curation_reason:
+            decision_details = {**decision_details, "decision_reason": "curated_reject"}
         output_rows.append(
             {
                 "descriptor": descriptor,
-                "keep": bool(float(np.mean(scores)) >= args.min_personality_score and len(characters) >= args.min_character_count),
-                "personality_score_mean": round(float(np.mean(scores)), 8),
+                "keep": keep,
+                "curation_reason": curation_reason,
+                "decision_reason": decision_details["decision_reason"],
+                "anchor_keep": decision_details["anchor_keep"],
+                "llm_keep": decision_details["llm_keep"],
+                "anchor_hard_reject": decision_details["anchor_hard_reject"],
+                "llm_model": decision_details["llm_model"],
+                "llm_reason": decision_details["llm_reason"],
+                "personality_score_mean": round(score_mean, 8),
                 "personality_score_median": round(float(np.median(scores)), 8),
                 "personality_score_min": round(float(np.min(scores)), 8),
                 "personality_score_max": round(float(np.max(scores)), 8),
                 "positive_score_mean": round(float(np.mean(positive)), 8),
                 "negative_score_mean": round(float(np.mean(negative)), 8),
                 "best_positive_anchor": examples[0]["positive_anchor"] if examples else "",
-                "best_negative_anchor": examples[0]["negative_anchor"] if examples else "",
+                "best_negative_anchor": best_negative_anchor,
                 "assignment_count": len(all_rows),
                 "scored_context_count": len(scored),
                 "character_count": len(characters),
@@ -445,6 +648,8 @@ def main() -> None:
                 "bangumi_tags": [str(path) for path in args.bangumi_tags],
                 "common_adjectives": str(args.common_adjectives),
                 "global_canonicalization": str(args.global_canonicalization),
+                "curation": str(args.curation),
+                "llm_decisions": str(args.llm_decisions),
                 "common_adjective_count": args.common_adjective_count,
                 "embedding_model": args.embedding_model,
                 "max_words": args.max_words,
@@ -453,9 +658,15 @@ def main() -> None:
                 "canonicalize_contained_distance_threshold": args.canonicalize_contained_distance_threshold,
                 "min_personality_score": args.min_personality_score,
                 "min_character_count": args.min_character_count,
+                "curated_reject_count": len(curation_rejections),
+                "llm_decision_count": len(llm_decisions),
                 "positive_anchors": POSITIVE_ANCHORS,
                 "negative_anchors": NEGATIVE_ANCHORS,
-                "decider": "contextual BGE anchor score: max positive-anchor cosine minus max negative-anchor cosine",
+                "hard_negative_anchors": sorted(HARD_NEGATIVE_ANCHORS),
+                "decider": (
+                    "cached deterministic LLM descriptor decision when available; otherwise contextual BGE "
+                    "anchor score; broad hard-negative anchors override both"
+                ),
             },
             "counts": {
                 "raw_candidates": len(raw_rows),

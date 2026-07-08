@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seiyuu Role Profiler</title>
+	<style>
+	    :root {
+	      color-scheme: dark;
+	      --ink: #eefcff;
+	      --muted: #8aa2a8;
+	      --line: #263943;
+	      --soft: #101923;
+	      --panel: #0c1219;
+	      --panel-strong: #111d27;
+	      --accent: #ff3b8d;
+	      --deep: #18dff2;
+	      --bg: #060a0f;
+	    }
+	    * { box-sizing: border-box; border-radius: 0 !important; }
+	    body {
+	      margin: 0;
+	      background:
+	        linear-gradient(180deg, rgba(24, 223, 242, .06), transparent 280px),
+	        var(--bg);
+	      color: var(--ink);
+	      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	    }
+	    a { color: inherit; text-decoration: none; }
+	    button, input { font: inherit; }
+    .shell { width: min(1180px, calc(100vw - 40px)); margin: 0 auto; padding: 34px 0 80px; }
+    .home { min-height: 78vh; display: grid; place-items: center; }
+    .searchBox { width: min(760px, 100%); position: relative; }
+    h1 { margin: 0 0 22px; font-size: clamp(42px, 8vw, 92px); line-height: .92; letter-spacing: 0; }
+	    .searchInput {
+	      width: 100%;
+	      border: 0;
+	      background: var(--panel);
+	      color: var(--ink);
+	      padding: 20px 22px;
+	      font-size: clamp(24px, 4vw, 34px);
+	      font-weight: 800;
+	      outline: none;
+	    }
+	    .searchInput:focus { box-shadow: 0 0 0 3px rgba(24, 223, 242, .18); }
+	    .suggestions {
+	      position: absolute;
+	      z-index: 10;
+      left: 0;
+      right: 0;
+	      top: calc(100% + 8px);
+	      background: var(--panel);
+	      box-shadow: 0 18px 50px rgba(0, 0, 0, .4);
+	    }
+    .suggestion {
+      display: grid;
+      grid-template-columns: 46px 1fr;
+      gap: 12px;
+      align-items: center;
+      width: 100%;
+	      border: 0;
+	      background: var(--panel);
+	      text-align: left;
+      padding: 10px 12px;
+      cursor: pointer;
+    }
+	    .suggestion:hover { background: var(--panel-strong); }
+	    .suggestion img { width: 46px; height: 46px; object-fit: cover; background: var(--soft); }
+    .suggestion strong { display: block; font-size: 18px; line-height: 1.1; }
+    .suggestion span { display: block; color: var(--muted); margin-top: 2px; }
+    .samples { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .sample {
+	      border: 0;
+	      background: var(--panel);
+	      color: var(--muted);
+	      padding: 7px 12px;
+	      cursor: pointer;
+	    }
+	    .sample:hover { color: var(--deep); background: var(--panel-strong); }
+    .modeSwitch, .rankBox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin: 14px 0 0;
+    }
+	    .modeButton {
+	      border: 0;
+	      background: var(--panel);
+	      color: var(--muted);
+	      padding: 7px 12px;
+	      cursor: pointer;
+	      font-weight: 800;
+	    }
+	    .modeButton.active { color: #031116; background: var(--deep); }
+	    .rankInput {
+      flex: 1 1 220px;
+	      min-width: 0;
+	      border: 0;
+	      background: var(--panel);
+	      color: var(--ink);
+      padding: 10px 12px;
+      font-weight: 800;
+      outline: none;
+    }
+	    .rankButton {
+	      border: 0;
+	      background: var(--accent);
+	      color: #16040d;
+	      padding: 10px 14px;
+	      cursor: pointer;
+	      font-weight: 900;
+	    }
+    .rankHint {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+	    .topbar { margin-bottom: 28px; }
+	    .topbar button { border: 0; background: var(--panel); padding: 9px 13px; color: var(--muted); cursor: pointer; }
+	    .topbar button:hover { color: var(--deep); background: var(--panel-strong); }
+    .head {
+      display: grid;
+      grid-template-columns: 136px 1fr;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+	    .head img { width: 136px; height: 136px; object-fit: cover; background: var(--soft); }
+    .head h2 { margin: 0 0 12px; font-size: clamp(42px, 7vw, 76px); line-height: .94; letter-spacing: 0; }
+    .native { color: var(--muted); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+	    .chip { background: var(--soft); color: var(--muted); padding: 8px 12px; font-size: 18px; }
+    .summary {
+	      padding: 28px 0;
+      margin-bottom: 26px;
+    }
+    .summaryText {
+      margin: 0;
+      font-size: clamp(30px, 4.4vw, 56px);
+      line-height: 1.08;
+      font-weight: 760;
+      letter-spacing: 0;
+    }
+	    .summaryText strong { color: var(--deep); }
+	    .summaryText .less { color: var(--accent); }
+    .fitLine { color: var(--muted); font-size: 16px; margin-top: 12px; }
+    .descriptorRail { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 20px 0 30px; }
+    .descriptorRail h3 { margin: 0 0 10px; color: var(--muted); font-size: 16px; text-transform: uppercase; letter-spacing: .05em; }
+    .tokens { display: flex; flex-wrap: wrap; gap: 8px; }
+	    .token { border: 0; background: var(--panel); padding: 8px 12px; font-weight: 800; }
+	    .token.more { color: var(--deep); }
+	    .token.less { color: var(--accent); }
+    .sectionHead { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin: 30px 0 12px; }
+    .sectionHead h3 { margin: 0; font-size: clamp(30px, 4vw, 46px); line-height: 1; }
+    .sectionHead span { color: var(--muted); }
+	    .rankingList { margin-top: 18px; }
+    .rankingRow {
+      display: grid;
+      grid-template-columns: 54px 74px minmax(200px, 1fr) minmax(240px, 1.1fr);
+      gap: 14px;
+      align-items: center;
+      padding: 13px 0;
+	      background: rgba(255, 255, 255, .015);
+    }
+    .rankNum { font-size: 24px; font-weight: 900; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .rankingRow img {
+      width: 74px;
+      height: 74px;
+      object-fit: cover;
+	      background: var(--soft);
+    }
+    .rankScore { color: var(--accent); font-size: 24px; font-weight: 900; font-variant-numeric: tabular-nums; }
+    .roleBits { color: var(--muted); font-size: 14px; line-height: 1.25; }
+	    .characterList { display: grid; gap: 8px; }
+    .characterRow {
+      display: grid;
+      grid-template-columns: 74px minmax(180px, 1.5fr) minmax(160px, 1fr) 110px 170px;
+      gap: 16px;
+      align-items: center;
+      padding: 13px 0;
+	      background: rgba(255, 255, 255, .015);
+    }
+    .characterRow img, .fallback {
+      width: 74px;
+      height: 74px;
+      object-fit: cover;
+	      background: var(--soft);
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 28px;
+      font-weight: 900;
+    }
+    .charName { font-size: 22px; font-weight: 900; line-height: 1.05; overflow-wrap: anywhere; }
+    .anime { color: var(--muted); margin-top: 4px; line-height: 1.15; }
+    .descriptorMini { color: var(--muted); font-size: 13px; line-height: 1.25; }
+    .projection { color: var(--accent); font-size: 24px; font-weight: 900; font-variant-numeric: tabular-nums; }
+	    .barTrack { height: 10px; background: #0d151d; margin-top: 6px; }
+	    .bar { height: 100%; width: calc(var(--value) * 1%); background: var(--accent); }
+    .favorites { font-weight: 900; font-variant-numeric: tabular-nums; }
+    .subFavs { color: var(--muted); font-size: 13px; line-height: 1.25; margin-top: 3px; }
+	    .empty { color: var(--muted); font-size: 22px; padding: 20px 0; }
+	    .loadingPanel {
+	      min-height: 68vh;
+	      display: grid;
+	      place-items: center;
+	      text-align: center;
+	    }
+	    .loadingPanel h2 {
+	      margin: 0;
+	      color: var(--deep);
+	      font-size: clamp(40px, 7vw, 82px);
+	      line-height: .95;
+	    }
+	    .loadingPanel p { margin: 16px 0 0; color: var(--muted); font-size: 20px; }
+	    .blink { color: var(--accent); animation: pulse 1s steps(2, jump-none) infinite; }
+	    @keyframes pulse { 50% { opacity: .25; } }
+	    .tooltip {
+      position: fixed;
+      z-index: 1000;
+      display: none;
+      max-width: min(360px, calc(100vw - 24px));
+	      background: #05080c;
+	      color: var(--ink);
+	      padding: 10px 12px;
+	      pointer-events: none;
+	      box-shadow: 0 12px 35px rgba(0, 0, 0, .5);
+      font-size: 14px;
+      line-height: 1.3;
+    }
+    .tooltip strong { display: block; font-size: 17px; margin-bottom: 3px; }
+    @media (max-width: 820px) {
+      .shell { width: min(100vw - 28px, 1180px); }
+      .head { grid-template-columns: 94px 1fr; gap: 15px; }
+      .head img { width: 94px; height: 94px; }
+      .descriptorRail { grid-template-columns: 1fr; gap: 14px; }
+      .characterRow { grid-template-columns: 62px 1fr; gap: 12px; }
+      .characterRow img, .fallback { width: 62px; height: 62px; }
+      .descriptorMini, .projectionCell, .favoriteCell { grid-column: 2; }
+      .rankingRow { grid-template-columns: 44px 62px 1fr; }
+      .rankingMeta { grid-column: 3; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell" id="app"></main>
+  <div class="tooltip" id="tooltip"></div>
+  <script>
+    const app = document.getElementById('app');
+    const tooltip = document.getElementById('tooltip');
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
+    const norm = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    const fmtInt = new Intl.NumberFormat('en-US');
+    const pct = value => `${Math.round(Number(value || 0) * 100)}%`;
+    let indexPayload;
+    const rankingCache = {};
+    const profileCache = {};
+
+    function currentMode() {
+      const params = new URLSearchParams(location.search);
+      const wanted = params.get('mode') || indexPayload?.model?.default_mode || 'unit';
+      return indexPayload?.model?.modes?.[wanted] ? wanted : (indexPayload?.model?.default_mode || 'unit');
+    }
+
+    function setModeParam(mode) {
+      const url = new URL(location.href);
+      url.searchParams.set('mode', mode);
+      history.replaceState(null, '', url);
+    }
+
+    function modeSwitchMarkup() {
+      const mode = currentMode();
+      const modes = indexPayload?.model?.modes || {};
+      return `<div class="modeSwitch" aria-label="character weighting mode">
+        ${Object.entries(modes).map(([key, row]) => `<button class="modeButton ${key === mode ? 'active' : ''}" data-mode="${esc(key)}">${esc(row.label)}</button>`).join('')}
+      </div>`;
+    }
+
+    function findProfile(query) {
+      const nq = norm(query);
+      if (!nq) return null;
+      return indexPayload.profiles.find(profile => profile.aliases.includes(nq))
+        || indexPayload.profiles.find(profile => profile.aliases.some(alias => alias.includes(nq) || nq.includes(alias)));
+    }
+
+    async function loadProfile(row) {
+      const path = row.profile_paths?.[currentMode()] || row.profile_path;
+      const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Could not load ${path}`);
+      return response.json();
+    }
+
+    async function loadProfileForRanking(row) {
+      const indexRow = indexPayload.profiles.find(profile => profile.seiyuu_id === row.seiyuu_id)
+        || indexPayload.profiles.find(profile => profile.name === row.name);
+      if (!indexRow) return null;
+      const path = indexRow.profile_paths?.[currentMode()] || indexRow.profile_path;
+      if (!path) return null;
+      if (!profileCache[path]) {
+        profileCache[path] = fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' }).then(response => {
+          if (!response.ok) throw new Error(`Could not load ${path}`);
+          return response.json();
+        });
+      }
+      return profileCache[path];
+    }
+
+    async function loadRankingPayload() {
+      const mode = currentMode();
+      if (rankingCache[mode]) return rankingCache[mode];
+      const path = indexPayload.model.modes[mode].ranking_path;
+      const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Could not load ${path}`);
+      rankingCache[mode] = await response.json();
+      return rankingCache[mode];
+    }
+
+    function descriptorPhrase(rows) {
+      return (rows || []).slice(0, 3).map(row => row.descriptor).join(', ');
+    }
+
+    function tokenRows(rows, tone) {
+      if (!rows || !rows.length) return '<span class="token">none</span>';
+      return rows.map(row => {
+        const title = `${row.descriptor}\\ncoef ${Number(row.coefficient || row.score || 0).toFixed(4)}\\n${row.characters || 0} supporting character${row.characters === 1 ? '' : 's'}\\n${fmtInt.format(row.anilist_favorites || 0)} AniList favs`;
+        return `<span class="token ${tone}" data-tip="${esc(title)}">${esc(row.descriptor)}</span>`;
+      }).join('');
+    }
+
+    function homeMarkup() {
+      return `<section class="home">
+        <div class="searchBox">
+          <h1>Seiyuu Role Profiler</h1>
+          ${modeSwitchMarkup()}
+          <input class="searchInput" id="search" autocomplete="off" placeholder="Seiyuu name" autofocus>
+          <div class="suggestions" id="suggestions" hidden></div>
+          <div class="rankBox">
+            <select class="rankInput" id="rankSearch">
+              <option value="">Rank seiyuu by descriptor</option>
+            </select>
+            <span class="rankHint">min characters</span>
+            <input class="rankInput" id="minChars" type="number" min="1" step="1" value="${esc(new URLSearchParams(location.search).get('min_chars') || '10')}" style="flex:0 0 120px">
+            <button class="rankButton" id="rankButton" type="button">Rank</button>
+          </div>
+          <div class="samples">
+            ${indexPayload.samples.slice(0, 18).map(row => `<button class="sample" data-name="${esc(row.name)}">${esc(row.name)}</button>`).join('')}
+          </div>
+        </div>
+      </section>`;
+    }
+
+    function wireSearch() {
+      const input = document.getElementById('search');
+      const suggestions = document.getElementById('suggestions');
+      const update = () => {
+        const nq = norm(input.value);
+        const rows = nq ? indexPayload.profiles.filter(row => row.aliases.some(alias => alias.includes(nq))).slice(0, 9) : [];
+        suggestions.hidden = rows.length === 0;
+        suggestions.innerHTML = rows.map(row => `<button class="suggestion" data-name="${esc(row.name)}">
+          <img src="${esc(row.image)}" alt="">
+          <span><strong>${esc(row.name)}</strong><span>${esc(row.native_name || '')}</span></span>
+        </button>`).join('');
+      };
+      input.addEventListener('input', update);
+      input.addEventListener('keydown', event => {
+        if (event.key !== 'Enter') return;
+        const profile = findProfile(input.value);
+        if (profile) setProfile(profile.name);
+      });
+      const rankInput = document.getElementById('rankSearch');
+      const rankButton = document.getElementById('rankButton');
+      const minChars = document.getElementById('minChars');
+      loadRankingPayload().then(payload => {
+        rankInput.innerHTML = `<option value="">Rank seiyuu by descriptor</option>${
+          payload.descriptors.map(descriptor => `<option value="${esc(descriptor)}">${esc(descriptor)}</option>`).join('')
+        }`;
+        const requestedRank = new URLSearchParams(location.search).get('rank') || '';
+        const exact = exactDescriptor(requestedRank, payload.descriptors);
+        if (exact) rankInput.value = exact;
+      });
+      const rank = () => {
+        if (!rankInput.value.trim()) return;
+        setRanking(rankInput.value.trim(), minChars.value);
+      };
+      rankButton.addEventListener('click', rank);
+      rankInput.addEventListener('keydown', event => {
+        if (event.key === 'Enter') rank();
+      });
+    }
+
+    function characterImage(character) {
+      if (character.image) return `<img src="${esc(character.image)}" alt="${esc(character.name)}">`;
+      return `<div class="fallback">${esc((character.name || '?').slice(0, 1))}</div>`;
+    }
+
+    function characterRows(profile) {
+      const maxProjection = Math.max(...profile.characters.map(row => Number(row.projection || 0)), 1e-9);
+      return profile.characters.map(character => {
+        const bar = Number(character.projection || 0) / maxProjection * 100;
+        const links = [
+          character.site_url ? `AniList: ${character.site_url}` : '',
+          character.bangumi_url ? `Bangumi: ${character.bangumi_url}` : '',
+        ].filter(Boolean).join('\\n');
+        const tip = `${character.name}\\n${character.anime}\\nprojection ${Number(character.projection || 0).toFixed(3)}\\nAniList ${fmtInt.format(character.anilist_favorites || 0)} · Bangumi ${fmtInt.format(character.bangumi_favorites || 0)}\\n${links}`;
+        const href = character.site_url || character.bangumi_url || '#';
+        const descriptors = (character.descriptors || []).slice(0, 10).join(' · ');
+        return `<a class="characterRow" href="${esc(href)}" target="_blank" rel="noreferrer" data-tip="${esc(tip)}">
+          ${characterImage(character)}
+          <div>
+            <div class="charName">${esc(character.name)}</div>
+            <div class="anime">${esc(character.anime)}</div>
+          </div>
+          <div class="descriptorMini">${esc(descriptors)}</div>
+          <div class="projectionCell">
+            <div class="projection">${pct(character.projection)}</div>
+            <div class="barTrack"><div class="bar" style="--value:${bar}"></div></div>
+          </div>
+          <div class="favoriteCell">
+            <div class="favorites">${fmtInt.format(character.aggregate_favorites || 0)} favs</div>
+            <div class="subFavs">AniList ${fmtInt.format(character.anilist_favorites || 0)}<br>Bangumi ${fmtInt.format(character.bangumi_favorites || 0)}</div>
+          </div>
+        </a>`;
+      }).join('');
+    }
+
+    function profileMarkup(profile) {
+      const more = profile.summary_fit?.more || profile.positive_descriptors || [];
+      const less = profile.summary_fit?.less || profile.negative_descriptors || [];
+      return `<div class="topbar"><button id="back">Search</button></div>
+        ${modeSwitchMarkup()}
+        <section class="head">
+          <a href="${esc(profile.site_url || '#')}" target="_blank" rel="noreferrer"><img src="${esc(profile.image)}" alt="${esc(profile.name)}"></a>
+          <div>
+            <h2>${esc(profile.name)} ${profile.native_name ? `<span class="native">${esc(profile.native_name)}</span>` : ''}</h2>
+            <div class="chips">
+              <span class="chip">roles ${fmtInt.format(profile.role_count || 0)}</span>
+              <span class="chip">supported characters ${fmtInt.format(profile.supported_character_count || 0)}</span>
+              ${profile.first_year ? `<span class="chip">first year ${esc(profile.first_year)}</span>` : ''}
+            </div>
+          </div>
+        </section>
+        <section class="summary">
+          <p class="summaryText">Compared to the average seiyuu, <strong>${esc(profile.name)}</strong> has roles who are more <strong>${esc(descriptorPhrase(more) || 'unclear')}</strong>${less.length ? ` and less <strong class="less">${esc(descriptorPhrase(less))}</strong>` : ''}.</p>
+          <div class="fitLine">These descriptors support ${Number(profile.summary_fit?.signed_fit_percent || 0).toFixed(1)}% of ${esc(profile.name)}'s role archetype.</div>
+        </section>
+        <section class="descriptorRail">
+          <div><h3>More</h3><div class="tokens">${tokenRows(more, 'more')}</div></div>
+          <div><h3>Less</h3><div class="tokens">${tokenRows(less, 'less')}</div></div>
+        </section>
+        <section>
+          <div class="sectionHead">
+            <h3>Supported Characters</h3>
+            <span>sorted by how much they align with ${esc(profile.name)}'s dominant role archetype</span>
+          </div>
+          <div class="characterList">${profile.characters.length ? characterRows(profile) : '<div class="empty">No supported characters.</div>'}</div>
+        </section>
+        <p class="subFavs" style="margin-top:18px;">${esc(profile.favorite_note || '')}</p>`;
+    }
+
+    async function setProfile(name) {
+      const row = findProfile(name);
+      if (!row) return renderHome();
+      history.pushState(null, '', `?q=${encodeURIComponent(row.name)}&mode=${encodeURIComponent(currentMode())}`);
+      const profile = await loadProfile(row);
+      app.innerHTML = profileMarkup(profile);
+      document.getElementById('back').addEventListener('click', () => {
+        history.pushState(null, '', location.pathname);
+        renderHome();
+      });
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+
+	    function exactDescriptor(value, descriptors) {
+	      const wanted = norm(value).replaceAll(' ', '-');
+	      if (!wanted) return '';
+	      return descriptors.find(descriptor => descriptor.toLowerCase() === wanted)
+	        || descriptors.find(descriptor => descriptor.toLowerCase() === norm(value))
+	        || '';
+	    }
+
+	    function rankRows(rows, descriptorIndex, minChars) {
+	      return rows
+	        .filter(row => Number(row.character_count || 0) >= minChars)
+	        .map(row => ({ ...row, score: Number(row.descriptor_scores?.[descriptorIndex] || 0) }))
+	        .sort((a, b) => b.score - a.score || b.character_count - a.character_count || a.name.localeCompare(b.name));
+	    }
+
+	    function roleMatchesForTerms(profile, weightedDescriptors, descriptorLookup) {
+	      const terms = weightedDescriptors
+	        .map(row => ({ descriptor: row.descriptor, weight: Number(row.weight || 1), index: descriptorLookup.get(row.descriptor) }))
+	        .filter(row => row.descriptor && row.weight > 0 && Number.isInteger(row.index));
+	      if (!terms.length) return [];
+	      const totalWeight = terms.reduce((sum, term) => sum + term.weight, 0) || 1;
+	      return (profile.characters || [])
+	        .map(character => {
+	          const score = terms.reduce((sum, term) => (
+	            sum + term.weight * Number(character.descriptor_scores?.[term.index] || 0)
+	          ), 0) / totalWeight;
+	          return {
+	            ...character,
+	            query_score: score,
+	            query_descriptors: terms
+	              .map(term => ({ descriptor: term.descriptor, score: Number(character.descriptor_scores?.[term.index] || 0) }))
+	              .sort((a, b) => b.score - a.score)
+	              .slice(0, 3)
+	              .filter(term => term.score > 0)
+	              .map(term => term.descriptor),
+	          };
+	        })
+	        .filter(character => character.query_score > 0)
+	        .sort((a, b) => (
+	          b.query_score - a.query_score
+	          || Number(b.aggregate_favorites || 0) - Number(a.aggregate_favorites || 0)
+	          || a.name.localeCompare(b.name)
+	        ));
+	    }
+
+	    async function attachQueryRoles(rows, weightedDescriptors, descriptorLookup) {
+	      const visibleRows = rows.slice(0, 40);
+	      await Promise.all(visibleRows.map(async row => {
+	        try {
+	          const profile = await loadProfileForRanking(row);
+	          row.query_roles = profile ? roleMatchesForTerms(profile, weightedDescriptors, descriptorLookup).slice(0, 5) : [];
+	        } catch (error) {
+	          row.query_roles = [];
+	          console.warn(error);
+	        }
+	      }));
+	      return rows;
+	    }
+
+	    function rankingMarkup(payload, descriptor, rows, minChars) {
+	      const mode = indexPayload.model.modes[currentMode()];
+	      return `<div class="topbar"><button id="back">Search</button></div>
+	        ${modeSwitchMarkup()}
+	        <section class="summary">
+	          <p class="summaryText">Seiyuu most associated with <strong>${esc(descriptor)}</strong>.</p>
+	          <div class="fitLine">${esc(mode.label)} mode · ${rows.length.toLocaleString()} seiyuu with at least ${fmtInt.format(minChars)} supported characters</div>
+	        </section>
+	        <section class="rankingList">
+          ${rows.slice(0, 40).map((row, index) => {
+            const roleRows = row.query_roles?.length ? row.query_roles : (row.notable_roles || []).slice(0, 4);
+            const roles = roleRows.map(role => {
+              const favs = role.aggregate_favorites ?? role.favourites ?? 0;
+              const via = role.query_descriptors?.length ? ` via ${role.query_descriptors.join('/')}` : '';
+              const projection = Number.isFinite(role.query_score) ? ` ${role.query_score >= 0 ? '+' : ''}${role.query_score.toFixed(3)}` : '';
+              return `${role.name}${projection}${via}${favs ? ` (${fmtInt.format(favs)})` : ''}`;
+            }).join(' · ');
+            return `<article class="rankingRow" data-name="${esc(row.name)}">
+              <div class="rankNum">${index + 1}</div>
+              <img src="${esc(row.image || '')}" alt="">
+              <div>
+                <div class="charName">${esc(row.name)}</div>
+                <div class="anime">${esc(row.native_name || '')}</div>
+                <div class="rankScore">${row.score >= 0 ? '+' : ''}${row.score.toFixed(4)}</div>
+              </div>
+              <div class="rankingMeta roleBits">${row.query_roles?.length ? 'matching roles: ' : 'notable roles: '}${esc(roles)}</div>
+            </article>`;
+          }).join('')}
+        </section>`;
+    }
+
+	    async function setRanking(rawDescriptor, minCharsValue) {
+	      const payload = await loadRankingPayload();
+	      const minChars = Math.max(1, Number.parseInt(minCharsValue || '10', 10));
+	      const descriptorLookup = new Map(payload.descriptors.map((descriptor, index) => [descriptor, index]));
+	      const exact = exactDescriptor(rawDescriptor, payload.descriptors);
+	      if (!exact) {
+	        app.innerHTML = `<div class="topbar"><button id="back">Search</button></div>
+	          ${modeSwitchMarkup()}
+	          <p class="empty">${esc(rawDescriptor)} is not in the supported descriptor menu.</p>`;
+	        document.getElementById('back').addEventListener('click', () => {
+	          history.pushState(null, '', `${location.pathname}?mode=${encodeURIComponent(currentMode())}`);
+	          renderHome();
+	        });
+	        return;
+	      }
+	      history.pushState(null, '', `?rank=${encodeURIComponent(rawDescriptor)}&mode=${encodeURIComponent(currentMode())}&min_chars=${minChars}`);
+	      let rows = rankRows(payload.seiyuu, descriptorLookup.get(exact), minChars);
+	      rows = await attachQueryRoles(rows, [{ descriptor: exact, weight: 1 }], descriptorLookup);
+	      app.innerHTML = rankingMarkup(payload, exact, rows, minChars);
+	      document.getElementById('back').addEventListener('click', () => {
+	        history.pushState(null, '', `${location.pathname}?mode=${encodeURIComponent(currentMode())}`);
+	        renderHome();
+      });
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+
+    function renderHome() {
+      app.innerHTML = homeMarkup();
+      wireSearch();
+    }
+
+    document.addEventListener('click', event => {
+      const button = event.target.closest('[data-name]');
+      if (button) setProfile(button.dataset.name);
+      const modeButton = event.target.closest('[data-mode]');
+      if (modeButton) {
+        setModeParam(modeButton.dataset.mode);
+        const params = new URLSearchParams(location.search);
+        if (params.get('q')) setProfile(params.get('q'));
+        else if (params.get('rank')) setRanking(params.get('rank'), params.get('min_chars') || '10');
+        else renderHome();
+      }
+    });
+
+    document.addEventListener('mousemove', event => {
+      const target = event.target.closest('[data-tip]');
+      if (!target) {
+        tooltip.style.display = 'none';
+        return;
+      }
+      const [first, ...rest] = target.dataset.tip.split('\\n');
+      tooltip.innerHTML = `<strong>${esc(first)}</strong>${esc(rest.join('\\n'))}`.replaceAll('\\n', '<br>');
+      tooltip.style.display = 'block';
+      const margin = 12;
+      const rect = tooltip.getBoundingClientRect();
+      let left = event.clientX + 16;
+      let top = event.clientY + 16;
+      if (left + rect.width + margin > window.innerWidth) left = event.clientX - rect.width - 16;
+      if (top + rect.height + margin > window.innerHeight) top = event.clientY - rect.height - 16;
+      tooltip.style.left = `${Math.max(margin, left)}px`;
+      tooltip.style.top = `${Math.max(margin, top)}px`;
+    });
+
+    window.addEventListener('popstate', () => {
+      const q = new URLSearchParams(location.search).get('q');
+      const rank = new URLSearchParams(location.search).get('rank');
+      if (q) setProfile(q);
+      else if (rank) setRanking(rank, new URLSearchParams(location.search).get('min_chars') || '10');
+      else renderHome();
+    });
+
+    (async function init() {
+      const response = await fetch(`mvp_visualizer/index.json?v=${Date.now()}`, { cache: 'no-store' });
+      indexPayload = await response.json();
+      const q = new URLSearchParams(location.search).get('q');
+      const rank = new URLSearchParams(location.search).get('rank');
+      if (q) await setProfile(q);
+      else if (rank) await setRanking(rank, new URLSearchParams(location.search).get('min_chars') || '10');
+      else renderHome();
+    })().catch(error => {
+      app.innerHTML = `<p class="empty">${esc(error.message)}</p>`;
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
