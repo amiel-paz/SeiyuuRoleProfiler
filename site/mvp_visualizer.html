@@ -91,12 +91,10 @@
     .carouselTrack {
       display: flex;
       gap: 12px;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-      scrollbar-width: none;
+      width: max-content;
       padding: 3px 0;
+      will-change: transform;
     }
-    .carouselTrack::-webkit-scrollbar { display: none; }
     .carouselArrow,
     .samplePortrait {
 	      border: 0;
@@ -323,6 +321,7 @@
     const rankingCache = {};
     const profileCache = {};
     let sampleCarouselTimer = null;
+    let sampleCarouselCleanup = null;
 
     function currentMode() {
       const params = new URLSearchParams(location.search);
@@ -417,9 +416,10 @@
     }
 
     function clearSampleCarousel() {
-      if (!sampleCarouselTimer) return;
-      clearInterval(sampleCarouselTimer);
+      if (sampleCarouselTimer) cancelAnimationFrame(sampleCarouselTimer);
       sampleCarouselTimer = null;
+      if (sampleCarouselCleanup) sampleCarouselCleanup();
+      sampleCarouselCleanup = null;
     }
 
     function wireSampleCarousel() {
@@ -427,28 +427,48 @@
       const track = document.getElementById('sampleCarousel');
       if (!track) return;
       let paused = false;
-      const resetIfNeeded = () => {
-        const half = track.scrollWidth / 2;
-        if (track.scrollLeft >= half) track.scrollLeft -= half;
-        if (track.scrollLeft <= 0) track.scrollLeft += half;
+      let halfWidth = 0;
+      let offset = 0;
+      let lastTime = 0;
+      const setOffset = () => {
+        track.style.transform = `translate3d(${offset}px, 0, 0)`;
+      };
+      const measure = () => {
+        halfWidth = Math.max(1, track.scrollWidth / 2);
+        offset = -halfWidth;
+        setOffset();
+      };
+      const wrap = () => {
+        while (offset >= 0) offset -= halfWidth;
+        while (offset <= -halfWidth * 2) offset += halfWidth;
+      };
+      const tick = time => {
+        if (!lastTime) lastTime = time;
+        const delta = Math.min(40, time - lastTime);
+        lastTime = time;
+        if (!paused) {
+          offset += delta * 0.035;
+          wrap();
+          setOffset();
+        }
+        sampleCarouselTimer = requestAnimationFrame(tick);
       };
       requestAnimationFrame(() => {
-        track.scrollLeft = Math.max(0, track.scrollWidth / 4);
+        measure();
+        sampleCarouselTimer = requestAnimationFrame(tick);
       });
-      sampleCarouselTimer = setInterval(() => {
-        if (paused) return;
-        track.scrollLeft -= 0.8;
-        resetIfNeeded();
-      }, 24);
       track.addEventListener('mouseenter', () => { paused = true; });
       track.addEventListener('mouseleave', () => { paused = false; });
       track.addEventListener('focusin', () => { paused = true; });
       track.addEventListener('focusout', () => { paused = false; });
+      window.addEventListener('resize', measure);
+      sampleCarouselCleanup = () => window.removeEventListener('resize', measure);
       document.querySelectorAll('[data-carousel-step]').forEach(button => {
         button.addEventListener('click', () => {
           paused = true;
-          track.scrollBy({ left: Number(button.dataset.carouselStep || 1) * 320, behavior: 'smooth' });
-          window.setTimeout(resetIfNeeded, 360);
+          offset -= Number(button.dataset.carouselStep || 1) * 320;
+          wrap();
+          setOffset();
         });
       });
     }
