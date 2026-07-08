@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-07-07T01:14:33.713509Z",
+  "generated_at": "2026-07-08T20:26:24.990373Z",
   "source": "merge_role_edges_with_targeted_full.py",
   "counts": {
-    "credit_edges": 30609,
-    "seiyuu_character_pairs": 9520,
+    "credit_edges": 30607,
+    "seiyuu_character_pairs": 9519,
     "seiyuu": 1791,
     "characters": 8045,
     "target_staff_ids": 204,
     "base_roles_removed": 2839,
-    "targeted_roles_added": 3246
+    "targeted_roles_added": 3246,
+    "role_edges_excluded": 1
   },
   "roles": [
     {
@@ -395124,52 +395125,6 @@
         "first_year": 2002
       },
       "character": {
-        "character_id": 497,
-        "name": "Artoria Pendragon",
-        "native_name": "アルトリア・ペンドラゴン",
-        "gender": "Female",
-        "favourites": 12386,
-        "image": "https://s4.anilist.co/file/anilistcdn/character/medium/b497-Yg5pNmC8kxzs.png",
-        "site_url": "https://anilist.co/character/497",
-        "first_anime": "Fate/Prototype"
-      },
-      "character_role": "MAIN",
-      "anime": [
-        {
-          "anime_id": 12565,
-          "title": "Fate/Prototype",
-          "year": 2011,
-          "site_url": "https://anilist.co/anime/12565",
-          "mal_url": "https://myanimelist.net/anime/12565"
-        },
-        {
-          "anime_id": 179991,
-          "title": "You’ve Lost Ritsuka Fujimaru Season 2",
-          "year": 2024,
-          "site_url": "https://anilist.co/anime/179991",
-          "mal_url": "https://myanimelist.net/anime/59465"
-        }
-      ],
-      "first_year": 2011,
-      "latest_year": 2024,
-      "credit_count": 2,
-      "splits": [
-        "current_seiyuu_full_anilist"
-      ]
-    },
-    {
-      "seiyuu": {
-        "seiyuu_id": 95079,
-        "name": "Takahiro Sakurai",
-        "native_name": "櫻井孝宏",
-        "language": "Japanese",
-        "image": "https://s4.anilist.co/file/anilistcdn/staff/medium/n95079-MdbWTLxPUvFf.jpg",
-        "site_url": "https://anilist.co/staff/95079",
-        "role_count": 263,
-        "character_count": 71,
-        "first_year": 2002
-      },
-      "character": {
         "character_id": 40594,
         "name": "Atsumu Matsuyuki",
         "native_name": "松雪集",
@@ -500454,6 +500409,20 @@
     "base": "data/role_edges.json",
     "targeted": "data/role_edges_left_censored_full.json",
     "target_staff_ids": "run/left_censored_staff_ids.txt",
+    "exclusions": "data/role_edge_exclusions.json",
     "merge_rule": "replace all base rows for target staff ids with full-career targeted rows"
-  }
+  },
+  "role_edge_exclusions": [
+    {
+      "seiyuu_id": 95079,
+      "seiyuu_name": "Takahiro Sakurai",
+      "character_id": 497,
+      "character_name": "Artoria Pendragon",
+      "anime_ids": [
+        12565,
+        179991
+      ],
+      "reason": "AniList merges Fate/Prototype Saber/Arthur Pendragon into Artoria Pendragon, causing Takahiro Sakurai to inherit Artoria's favorites and descriptors."
+    }
+  ]
 }

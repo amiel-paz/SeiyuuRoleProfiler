@@ -8,6 +8,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from role_edge_exclusions import DEFAULT_EXCLUSIONS_PATH, filter_excluded_role_edges, load_role_edge_exclusions
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -17,6 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--targeted", type=Path, default=Path("data/role_edges_left_censored_full.json"))
     parser.add_argument("--output", type=Path, default=Path("data/role_edges_current_seiyuu_expanded.json"))
     parser.add_argument("--target-staff-ids", type=Path, required=True)
+    parser.add_argument("--exclusions", type=Path, default=DEFAULT_EXCLUSIONS_PATH)
     return parser.parse_args()
 
 
@@ -70,7 +73,9 @@ def main() -> None:
         for role in targeted_roles
         if int((role.get("seiyuu") or {}).get("seiyuu_id") or 0) in target_ids
     ]
-    roles = sorted(kept_base + replacement, key=lambda row: (row["seiyuu"]["name"], row["character"]["name"]))
+    exclusions = load_role_edge_exclusions(args.exclusions)
+    roles, removed = filter_excluded_role_edges(kept_base + replacement, exclusions)
+    roles = sorted(roles, key=lambda row: (row["seiyuu"]["name"], row["character"]["name"]))
 
     output = {
         **base,
@@ -80,6 +85,7 @@ def main() -> None:
             "base": str(args.base),
             "targeted": str(args.targeted),
             "target_staff_ids": str(args.target_staff_ids),
+            "exclusions": str(args.exclusions),
             "merge_rule": "replace all base rows for target staff ids with full-career targeted rows",
         },
         "counts": recompute_counts(roles),
@@ -88,6 +94,18 @@ def main() -> None:
     output["counts"]["target_staff_ids"] = len(target_ids)
     output["counts"]["base_roles_removed"] = len(base_roles) - len(kept_base)
     output["counts"]["targeted_roles_added"] = len(replacement)
+    output["counts"]["role_edges_excluded"] = len(removed)
+    output["role_edge_exclusions"] = [
+        {
+            "seiyuu_id": item["role"]["seiyuu"]["seiyuu_id"],
+            "seiyuu_name": item["role"]["seiyuu"]["name"],
+            "character_id": item["role"]["character"]["character_id"],
+            "character_name": item["role"]["character"]["name"],
+            "anime_ids": [anime.get("anime_id") for anime in item["role"].get("anime") or []],
+            "reason": item["exclusion"].get("reason") or "",
+        }
+        for item in removed
+    ]
     write_json(args.output, output)
     print(json.dumps(output["counts"], indent=2))
     print(f"wrote {args.output}")

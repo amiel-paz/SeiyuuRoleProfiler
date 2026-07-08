@@ -20,6 +20,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from analyze_sv1_diffusivity import candidate_descriptor_values, lowdin_from_global_gram  # noqa: E402
+from role_edge_exclusions import DEFAULT_EXCLUSIONS_PATH, filter_excluded_role_edges, load_role_edge_exclusions  # noqa: E402
 from seiyuu_local_nmf_lane_svd import load_or_create_embeddings  # noqa: E402
 
 
@@ -42,6 +43,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--basis", type=Path, default=Path("run/production_personality_basis/production_personality_basis_kept.tsv"))
     parser.add_argument("--role-edges", type=Path, default=Path("data/role_edges_current_seiyuu_expanded.json"))
+    parser.add_argument("--role-edge-exclusions", type=Path, default=DEFAULT_EXCLUSIONS_PATH)
     parser.add_argument("--merged-tags", type=Path, default=Path("data/external/merged/all_characters_llm_vndb_personality_tags.json"))
     parser.add_argument("--safe-tags", nargs="*", type=Path, default=DEFAULT_SAFE_TAGS)
     parser.add_argument("--canonicalization", type=Path, default=Path("models/global_descriptor_canonicalization/descriptor_canonicalization.json"))
@@ -279,15 +281,19 @@ def main() -> None:
     _, _, descriptor_atoms, _ = lowdin_from_global_gram(embeddings.astype(np.float64))
 
     roles_payload = read_json(args.role_edges)
+    roles, excluded_roles = filter_excluded_role_edges(
+        roles_payload.get("roles") or [],
+        load_role_edge_exclusions(args.role_edge_exclusions),
+    )
     role_edge_count_by_character: dict[int, int] = defaultdict(int)
-    for role in roles_payload.get("roles") or []:
+    for role in roles:
         role_edge_count_by_character[int(role["character"]["character_id"])] += 1
 
     seiyuu_by_id: dict[int, dict] = {}
     characters_by_seiyuu: dict[int, dict[int, dict]] = defaultdict(dict)
     unique_characters: dict[int, dict] = {}
 
-    for role in roles_payload.get("roles") or []:
+    for role in roles:
         seiyuu = role["seiyuu"]
         character = role["character"]
         seiyuu_id = int(seiyuu["seiyuu_id"])
@@ -372,6 +378,8 @@ def main() -> None:
             ),
             "basis": str(args.basis),
             "role_edges": str(args.role_edges),
+            "role_edge_exclusions": str(args.role_edge_exclusions),
+            "excluded_role_edge_count": len(excluded_roles),
             "merged_tags": str(args.merged_tags),
             "safe_tags": [str(path) for path in args.safe_tags],
             "canonicalization": str(args.canonicalization),
