@@ -76,15 +76,68 @@
 	    .suggestion img { width: 46px; height: 46px; object-fit: cover; background: var(--soft); }
     .suggestion strong { display: block; font-size: 18px; line-height: 1.1; }
     .suggestion span { display: block; color: var(--muted); margin-top: 2px; }
-    .samples { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
-    .sample {
+    .sampleCarousel {
+      display: grid;
+      grid-template-columns: 42px 1fr 42px;
+      gap: 10px;
+      align-items: center;
+      margin-top: 24px;
+    }
+    .carouselViewport {
+      overflow: hidden;
+      min-width: 0;
+      mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+    }
+    .carouselTrack {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      padding: 3px 0;
+    }
+    .carouselTrack::-webkit-scrollbar { display: none; }
+    .carouselArrow,
+    .samplePortrait {
 	      border: 0;
-	      background: var(--panel);
+	      background: transparent;
 	      color: var(--muted);
-	      padding: 7px 12px;
 	      cursor: pointer;
 	    }
-	    .sample:hover { color: var(--deep); background: var(--panel-strong); }
+    .carouselArrow {
+      width: 42px;
+      height: 70px;
+      color: var(--ink);
+      background: rgba(16, 25, 35, .78);
+      font-size: 32px;
+      font-weight: 900;
+      line-height: 1;
+    }
+    .carouselArrow:hover { color: var(--deep); background: var(--panel-strong); }
+    .samplePortrait {
+      flex: 0 0 auto;
+      width: 66px;
+      height: 66px;
+      padding: 0;
+      opacity: .55;
+      filter: grayscale(.95) saturate(.35);
+      transition: opacity .15s ease, filter .15s ease, transform .15s ease;
+    }
+    .samplePortrait:hover,
+    .samplePortrait:focus-visible {
+      opacity: 1;
+      filter: none;
+      transform: translateY(-3px);
+      outline: 2px solid var(--deep);
+      outline-offset: 3px;
+    }
+    .samplePortrait img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      background: var(--panel);
+    }
     .modeSwitch, .rankBox {
       display: flex;
       flex-wrap: wrap;
@@ -250,6 +303,9 @@
       .descriptorMini, .projectionCell, .favoriteCell { grid-column: 2; }
       .rankingRow { grid-template-columns: 44px 62px 1fr; }
       .rankingMeta { grid-column: 3; }
+      .sampleCarousel { grid-template-columns: 34px 1fr 34px; gap: 7px; }
+      .carouselArrow { width: 34px; height: 58px; font-size: 26px; }
+      .samplePortrait { width: 54px; height: 54px; }
     }
   </style>
 </head>
@@ -266,6 +322,7 @@
     let indexPayload;
     const rankingCache = {};
     const profileCache = {};
+    let sampleCarouselTimer = null;
 
     function currentMode() {
       const params = new URLSearchParams(location.search);
@@ -338,6 +395,64 @@
       }).join('');
     }
 
+    function sampleCarouselMarkup() {
+      const rows = (indexPayload.samples || indexPayload.profiles || [])
+        .filter(row => row.image)
+        .slice(0, 40);
+      const loopRows = [...rows, ...rows];
+      return `<div class="sampleCarousel" aria-label="Sample seiyuu">
+        <button class="carouselArrow" type="button" data-carousel-step="-1" aria-label="Show previous seiyuu">‹</button>
+        <div class="carouselViewport">
+          <div class="carouselTrack" id="sampleCarousel">
+            ${loopRows.map(row => {
+              const tip = `${row.name}${row.native_name ? `\\n${row.native_name}` : ''}\\n${fmtInt.format(row.role_count || 0)} roles\\n${fmtInt.format(row.supported_character_count || row.character_count || 0)} supported characters`;
+              return `<button class="samplePortrait" type="button" data-name="${esc(row.name)}" data-tip="${esc(tip)}" aria-label="${esc(row.name)}">
+                <img src="${esc(row.image)}" alt="">
+              </button>`;
+            }).join('')}
+          </div>
+        </div>
+        <button class="carouselArrow" type="button" data-carousel-step="1" aria-label="Show more seiyuu">›</button>
+      </div>`;
+    }
+
+    function clearSampleCarousel() {
+      if (!sampleCarouselTimer) return;
+      clearInterval(sampleCarouselTimer);
+      sampleCarouselTimer = null;
+    }
+
+    function wireSampleCarousel() {
+      clearSampleCarousel();
+      const track = document.getElementById('sampleCarousel');
+      if (!track) return;
+      let paused = false;
+      const resetIfNeeded = () => {
+        const half = track.scrollWidth / 2;
+        if (track.scrollLeft >= half) track.scrollLeft -= half;
+        if (track.scrollLeft <= 0) track.scrollLeft += half;
+      };
+      requestAnimationFrame(() => {
+        track.scrollLeft = Math.max(0, track.scrollWidth / 4);
+      });
+      sampleCarouselTimer = setInterval(() => {
+        if (paused) return;
+        track.scrollLeft -= 0.8;
+        resetIfNeeded();
+      }, 24);
+      track.addEventListener('mouseenter', () => { paused = true; });
+      track.addEventListener('mouseleave', () => { paused = false; });
+      track.addEventListener('focusin', () => { paused = true; });
+      track.addEventListener('focusout', () => { paused = false; });
+      document.querySelectorAll('[data-carousel-step]').forEach(button => {
+        button.addEventListener('click', () => {
+          paused = true;
+          track.scrollBy({ left: Number(button.dataset.carouselStep || 1) * 320, behavior: 'smooth' });
+          window.setTimeout(resetIfNeeded, 360);
+        });
+      });
+    }
+
     function homeMarkup() {
       return `<section class="home">
         <div class="searchBox">
@@ -354,9 +469,7 @@
             <input class="rankInput" id="minChars" type="number" min="1" step="1" value="${esc(new URLSearchParams(location.search).get('min_chars') || '10')}" style="flex:0 0 120px">
             <button class="rankButton" id="rankButton" type="button">Rank</button>
           </div>
-          <div class="samples">
-            ${indexPayload.samples.slice(0, 18).map(row => `<button class="sample" data-name="${esc(row.name)}">${esc(row.name)}</button>`).join('')}
-          </div>
+          ${sampleCarouselMarkup()}
         </div>
       </section>`;
     }
@@ -398,6 +511,7 @@
       rankInput.addEventListener('keydown', event => {
         if (event.key === 'Enter') rank();
       });
+      wireSampleCarousel();
     }
 
     function characterImage(character) {
@@ -470,6 +584,7 @@
     }
 
     async function setProfile(name) {
+      clearSampleCarousel();
       const row = findProfile(name);
       if (!row) return renderHome();
       history.pushState(null, '', `?q=${encodeURIComponent(row.name)}&mode=${encodeURIComponent(currentMode())}`);
@@ -573,6 +688,7 @@
     }
 
 	    async function setRanking(rawDescriptor, minCharsValue) {
+	      clearSampleCarousel();
 	      const payload = await loadRankingPayload();
 	      const minChars = Math.max(1, Number.parseInt(minCharsValue || '10', 10));
 	      const descriptorLookup = new Map(payload.descriptors.map((descriptor, index) => [descriptor, index]));
