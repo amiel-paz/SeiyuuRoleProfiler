@@ -31,7 +31,15 @@
     .shell { width: min(1180px, calc(100vw - 40px)); margin: 0 auto; padding: 34px 0 80px; }
     .home { min-height: 78vh; display: grid; place-items: center; }
     .searchBox { width: min(760px, 100%); position: relative; }
-    h1 { margin: 0 0 22px; font-size: clamp(42px, 8vw, 92px); line-height: .92; letter-spacing: 0; }
+    h1 { margin: 0; font-size: clamp(42px, 8vw, 92px); line-height: .92; letter-spacing: 0; }
+    .subtitle {
+      margin: 18px 0 30px;
+      color: var(--muted);
+      font-size: clamp(19px, 2.4vw, 30px);
+      font-weight: 700;
+      line-height: 1.15;
+      max-width: 760px;
+    }
 	    .searchInput {
 	      width: 100%;
 	      border: 0;
@@ -334,6 +342,7 @@
       return `<section class="home">
         <div class="searchBox">
           <h1>Seiyuu Role Profiler</h1>
+          <p class="subtitle">How distinct are a certain Japanese anime voice actor's roles?</p>
           ${modeSwitchMarkup()}
           <input class="searchInput" id="search" autocomplete="off" placeholder="Seiyuu name" autofocus>
           <div class="suggestions" id="suggestions" hidden></div>
