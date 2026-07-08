@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: seiyuu-role-profiler
+    runtime: static
+    buildCommand: bash scripts/render_build.sh
+    staticPublishPath: ./site
