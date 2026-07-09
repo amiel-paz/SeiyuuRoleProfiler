@@ -447,7 +447,7 @@
         const delta = Math.min(40, time - lastTime);
         lastTime = time;
         if (!paused) {
-          offset += delta * 0.035;
+          offset -= delta * 0.035;
           wrap();
           setOffset();
         }
