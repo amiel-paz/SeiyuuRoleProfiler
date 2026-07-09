@@ -293,6 +293,12 @@
       font-size: 18px;
       line-height: 1;
     }
+    .stabilityTauLabel {
+      fill: var(--accent);
+      font-size: 18px;
+      color: var(--accent);
+      font-weight: 900;
+    }
     .sectionHead { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin: 30px 0 12px; }
     .sectionHead h3 { margin: 0; font-size: clamp(30px, 4vw, 46px); line-height: 1; }
     .sectionHead span { color: var(--muted); }
@@ -488,6 +494,24 @@
       );
     }
 
+    function stabilityTauText(curve, axis, minimumCharacters) {
+      const fit = curve?.exponential_fit_candidates?.[axis]?.[String(minimumCharacters)];
+      const rate = axis === 'count' ? Number(fit?.decay_rate_per_role || 0) : Number(fit?.decay_rate_per_year || 0);
+      const tau = Number.isFinite(rate) && rate > 0 ? 1 / rate : null;
+      if (tau === null) return 'τ unavailable';
+      const unit = axis === 'count' ? 'roles' : 'years';
+      const value = tau.toFixed(tau < 10 ? 1 : 0);
+      return `τ = ${value} ${unit}`;
+    }
+
+    function stabilitySelectionSummary(payload) {
+      const mode = currentMode();
+      const selection = payload?.model?.exponential_fit?.selection?.[mode] || {};
+      const timeStart = Number(selection.time?.selected_minimum_supported_characters || 5);
+      const countStart = Number(selection.count?.selected_minimum_supported_characters || 5);
+      return `The time curve uses six-month checkpoints; larger blue circles mean more new supported roles entered at that date. The count curve advances one supported role at a time. Dashed curves are exponential fits; start offsets are chosen globally by sweeping 1-10 supported roles and using the offset with the best average fit: ${fmtInt.format(timeStart)} roles for time, ${fmtInt.format(countStart)} roles for count.`;
+    }
+
     function descriptorPhrase(rows) {
       return (rows || []).slice(0, 3).map(row => row.descriptor).join(', ');
     }
@@ -583,7 +607,7 @@
       return `<section class="home">
         <div class="searchBox">
           <h1>Seiyuu Role Profiler</h1>
-          <p class="subtitle">How distinct are a certain Japanese anime voice actor's roles?</p>
+          <p class="subtitle">How distinct are a certain anime voice actor's roles?</p>
           ${modeSwitchMarkup()}
           <input class="searchInput" id="search" autocomplete="off" placeholder="Seiyuu name" autofocus>
           <div class="suggestions" id="suggestions" hidden></div>
@@ -676,12 +700,12 @@
     }
 
     function stabilityChart(curve, axis, minimumCharacters) {
-      const points = curve?.points || [];
+      const points = axis === 'count' ? (curve?.count_points || curve?.points || []) : (curve?.points || []);
       const rows = stabilityRows(points, minimumCharacters);
       if (!rows.length) return '<div class="empty">Not enough dated role support for a stability curve.</div>';
       const width = 760;
       const height = 240;
-      const pad = { left: 54, right: 18, top: 22, bottom: 38 };
+      const pad = { left: 72, right: 18, top: 22, bottom: 38 };
       const axisValue = row => axis === 'count'
         ? Number(row.cumulative_supported_characters || 0)
         : Number(row.months_since_first_role || 0);
@@ -692,6 +716,7 @@
       const startCount = Number(rows[0].cumulative_supported_characters || 0);
       const startLabel = `${fmtInt.format(startCount)} supported roles`;
       const endLabel = axis === 'count' ? `${fmtInt.format(Number(rows[rows.length - 1].cumulative_supported_characters || 0))} roles` : 'current role';
+      const tauText = stabilityTauText(curve, axis, minimumCharacters);
       const x = row => pad.left + (axisValue(row) - startValue) / axisSpan * (width - pad.left - pad.right);
       const y = row => height - pad.bottom - Number(row.cosine_distance_from_current_profile || 0) / maxDistance * (height - pad.top - pad.bottom);
       const path = rows.map((row, index) => `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${y(row).toFixed(2)}`).join(' ');
@@ -712,11 +737,15 @@
         }).join(' ');
       }
       const dots = rows
-        .filter(row => Number(row.new_supported_characters || 0) > 0)
+        .filter(row => axis === 'count' || Number(row.new_supported_characters || 0) > 0)
         .map(row => {
           const newCount = Number(row.new_supported_characters || 0);
-          return `<circle class="stabilityDot" cx="${x(row).toFixed(2)}" cy="${y(row).toFixed(2)}" r="${Math.min(9, 3 + newCount)}">
-            <title>${esc(row.date)} · ${fmtInt.format(newCount)} new supported role${newCount === 1 ? '' : 's'} · distance ${Number(row.cosine_distance_from_current_profile || 0).toFixed(4)}</title>
+          const radius = axis === 'count' ? 3.5 : Math.min(9, 3 + newCount);
+          const titlePrefix = axis === 'count'
+            ? `${fmtInt.format(Number(row.cumulative_supported_characters || 0))} supported roles`
+            : `${esc(row.date)} · ${fmtInt.format(newCount)} new supported role${newCount === 1 ? '' : 's'}`;
+          return `<circle class="stabilityDot" cx="${x(row).toFixed(2)}" cy="${y(row).toFixed(2)}" r="${radius}">
+            <title>${titlePrefix} · distance ${Number(row.cosine_distance_from_current_profile || 0).toFixed(4)}</title>
           </circle>`;
         })
         .join('');
@@ -730,10 +759,8 @@
         ${dots}
         <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">${startLabel}</text>
         <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">${endLabel}</text>
-        <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">distance to current profile</text>
-        <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">0</text>
-        <circle class="stabilityDot" cx="${width - pad.right - 115}" cy="${pad.top + 2}" r="5"></circle>
-        <text class="stabilityLabel" x="${width - pad.right - 104}" y="${pad.top + 7}">new supported roles</text>
+        <text class="stabilityLabel" transform="translate(${pad.left - 42} ${(pad.top + height - pad.bottom) / 2}) rotate(-90)" text-anchor="middle">distance to current profile</text>
+        <text class="stabilityTauLabel" x="${width - pad.right}" y="${pad.top + 12}" text-anchor="end">${esc(tauText)}</text>
       </svg>`;
     }
 
@@ -748,7 +775,7 @@
         <h3>Role stability</h3>
         <span>distance from current role profile</span>
       </div>
-      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. Dashed lines are exponential fits; start offsets are chosen from a 1-10 role sweep.</div>
+      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. ${esc(stabilitySelectionSummary(payload))}</div>
       <div class="stabilityChartGrid">
         <div class="stabilityChartBlock">
           <h4>Role stability (time)</h4>

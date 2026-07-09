@@ -327,6 +327,64 @@ def build_curve(
     return points
 
 
+def build_count_curve(
+    characters: list[dict[str, Any]],
+    vectors: dict[int, np.ndarray],
+    start_month: int,
+    weight_fn,
+    round_digits: int,
+) -> list[dict[str, Any]]:
+    points: list[dict[str, Any]] = []
+    ordered_characters = sorted(
+        characters,
+        key=lambda row: (int(row["first_role_month"]), row["name"], int(row["character_id"])),
+    )
+    final_vector, final_norm = cumulative_vector(ordered_characters, vectors, weight_fn)
+    for index in range(1, len(ordered_characters) + 1):
+        current_characters = ordered_characters[:index]
+        current_vector, current_norm = cumulative_vector(current_characters, vectors, weight_fn)
+        final_overlap = None
+        final_distance = None
+        if current_vector.size and final_vector.size and current_norm > 0.0 and final_norm > 0.0:
+            final_overlap_value = float(np.clip(current_vector @ final_vector, -1.0, 1.0))
+            final_overlap = rounded(final_overlap_value, round_digits)
+            final_distance = rounded(1.0 - final_overlap_value, round_digits)
+        character = ordered_characters[index - 1]
+        points.append(
+            {
+                "date": month_index_to_date(int(character["first_role_month"])),
+                "months_since_first_role": int(character["first_role_month"]) - start_month,
+                "cumulative_supported_characters": index,
+                "new_supported_characters": 1,
+                "cumulative_vector_norm_before_normalize": rounded(current_norm, round_digits),
+                "overlap_with_previous_6mo": None,
+                "cosine_distance_from_previous_6mo": None,
+                "overlap_with_current_profile": final_overlap,
+                "cosine_distance_from_current_profile": final_distance,
+            }
+        )
+    return points
+
+
+def exponential_fit_candidates_by_axis(
+    time_points: list[dict[str, Any]],
+    count_points: list[dict[str, Any]],
+    round_digits: int,
+) -> dict[str, dict[str, Any]]:
+    return {
+        "time": {
+            str(threshold): fit
+            for threshold in range(1, 11)
+            if (fit := exponential_fit(time_points, threshold, "time", round_digits)) is not None
+        },
+        "count": {
+            str(threshold): fit
+            for threshold in range(1, 11)
+            if (fit := exponential_fit(count_points, threshold, "count", round_digits)) is not None
+        },
+    }
+
+
 def main() -> None:
     args = parse_args()
     descriptors = read_basis(args.basis)
@@ -445,6 +503,13 @@ def main() -> None:
                 mode["weight_fn"],
                 args.round_digits,
             )
+            count_points = build_count_curve(
+                characters,
+                character_vectors,
+                start_month,
+                mode["weight_fn"],
+                args.round_digits,
+            )
             valid_step_distances = [
                 float(point["cosine_distance_from_previous_6mo"])
                 for point in points
@@ -457,7 +522,8 @@ def main() -> None:
             ]
             mode_curves[mode_key] = {
                 "points": points,
-                "exponential_fit_candidates": exponential_fit_candidates(points, args.round_digits),
+                "count_points": count_points,
+                "exponential_fit_candidates": exponential_fit_candidates_by_axis(points, count_points, args.round_digits),
                 "summary": {
                     "max_step_cosine_distance": rounded(max(valid_step_distances), args.round_digits) if valid_step_distances else None,
                     "mean_step_cosine_distance": rounded(float(np.mean(valid_step_distances)), args.round_digits) if valid_step_distances else None,
