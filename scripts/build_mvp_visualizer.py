@@ -169,6 +169,8 @@ def supported_descriptor_fit(
     support_rows: list[dict[str, Any]],
     descriptor_index: dict[str, int],
     *,
+    descriptor_similarity: np.ndarray | None = None,
+    semantic_conflict_threshold: float = 0.78,
     fit_target: float = 0.80,
     max_terms: int = 80,
     limit: int = 5,
@@ -221,20 +223,40 @@ def supported_descriptor_fit(
             continue
         positive_rows.append(row_for(active[int(offset)], coefficient, coefficient / positive_total))
 
-    signed_positive = []
-    signed_negative = []
+    signed_rows = []
     signed_total = max(float(np.sum(np.abs(signed_coefficients))), 1.0e-12)
     for offset in np.argsort(np.abs(signed_coefficients))[::-1]:
         coefficient = float(signed_coefficients[int(offset)])
         if abs(coefficient) <= 1.0e-9:
             continue
-        row = row_for(signed_active[int(offset)], coefficient, abs(coefficient) / signed_total)
-        if coefficient >= 0 and len(signed_positive) < limit:
-            signed_positive.append(row)
-        elif coefficient < 0 and len(signed_negative) < limit:
+        descriptor_id = signed_active[int(offset)]
+        row = row_for(descriptor_id, coefficient, abs(coefficient) / signed_total)
+        row["_descriptor_id"] = descriptor_id
+        signed_rows.append(row)
+
+    def conflicts_with_opposite_pole(row: dict[str, Any], opposite_rows: list[dict[str, Any]]) -> bool:
+        if descriptor_similarity is None:
+            return False
+        row_id = int(row["_descriptor_id"])
+        for opposite in opposite_rows:
+            opposite_id = int(opposite["_descriptor_id"])
+            if float(descriptor_similarity[row_id, opposite_id]) >= semantic_conflict_threshold:
+                return True
+        return False
+
+    signed_positive = []
+    signed_negative = []
+    for row in signed_rows:
+        if row["coefficient"] >= 0:
+            if len(signed_positive) < limit and not conflicts_with_opposite_pole(row, signed_negative):
+                signed_positive.append(row)
+        elif len(signed_negative) < limit and not conflicts_with_opposite_pole(row, signed_positive):
             signed_negative.append(row)
         if len(signed_positive) >= limit and len(signed_negative) >= limit:
             break
+
+    for row in signed_positive + signed_negative:
+        row.pop("_descriptor_id", None)
 
     return {
         "positive_fit_percent": rounded(float(positive_fit * 100.0), digits),
@@ -294,6 +316,9 @@ def main() -> None:
 
     embeddings = load_or_create_embeddings(descriptors, args.embedding_cache_dir, args.embedding_model)
     _, _, descriptor_atoms, _ = lowdin_from_global_gram(embeddings.astype(np.float64))
+    embedding_norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
+    normalized_embeddings = embeddings / np.maximum(embedding_norms, 1.0e-12)
+    descriptor_similarity = normalized_embeddings @ normalized_embeddings.T
 
     roles_payload = read_json(args.role_edges)
     roles, excluded_roles = filter_excluded_role_edges(
@@ -426,6 +451,7 @@ def main() -> None:
                 centered_vector,
                 support_rows,
                 descriptor_index,
+                descriptor_similarity=descriptor_similarity,
                 limit=args.top_descriptors,
                 digits=args.round_digits,
             )

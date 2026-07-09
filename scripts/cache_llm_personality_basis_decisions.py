@@ -14,9 +14,11 @@ from typing import Any
 
 PROMPT_HEADER = """Judge whether each descriptor is suitable as a stable fictional-character PERSONALITY descriptor for an anime/seiyuu profiler.
 
-KEEP descriptors that name stable temperament, demeanor, interpersonal style, moral disposition, recurring social attitude, or anime personality archetype. Anime archetypes such as tsundere, yandere, kuudere, dandere, chuunibyou, flirtatious, seductive, blunt, frank, kind, arrogant are valid if they describe how the character tends to behave. Stable temperaments such as bad-tempered, irritable, grouchy, guarded, reserved, shy, cheerful, and hot-headed are valid.
+KEEP descriptors that name stable temperament, demeanor, interpersonal style, moral disposition, recurring social attitude, or anime personality archetype. Anime archetypes such as tsundere, yandere, kuudere, dandere, chuunibyou, flirtatious, seductive, blunt, frank, kind, good-hearted, kindhearted, arrogant are valid if they describe how the character tends to behave. Stable temperaments such as bad-tempered, irritable, grouchy, guarded, reserved, shy, cheerful, and hot-headed are valid.
 
-REJECT physical appearance/body descriptors, occupations, species, story roles, relationship labels, abilities/skills, nationalities/demonyms, ancestry/lineage/origin words (e.g. ancestral, hereditary), legal/status words, settings, age groups, generic meta words, audience-evaluation words (e.g. enjoyable, interesting, popular, worthy), moral/story-status words (e.g. redeemed, fallen, chosen) unless they directly name a stable way the character behaves, pure competence words (e.g. proficient, fluent), relational/structural words (e.g. constituent, voluntary), domain-only adjectives (e.g. forte, oral), and temporary emotions/reactions/states (e.g. angered, infuriated, ashamed, horrified, pleased, warmed).
+REJECT physical appearance/body descriptors, occupations, species, story roles, relationship labels, abilities/skills, nationalities/demonyms, ancestry/lineage/origin words (e.g. ancestral, hereditary), legal/status words, settings, age groups, generic meta words, broad evaluation or audience-approval words (e.g. good, bad, nice, pleasant, enjoyable, interesting, popular, admirable, desirable, worthy), moral/story-status words (e.g. redeemed, fallen, chosen) unless they directly name a stable way the character behaves, pure competence words (e.g. proficient, fluent), relational/structural words (e.g. constituent, voluntary), domain-only adjectives (e.g. forte, oral), and temporary emotions/reactions/states (e.g. angered, infuriated, ashamed, horrified, pleased, warmed).
+
+A kept word should tell us what the character tends to do socially/emotionally, not merely whether the audience approves of them. Keep specific interpersonal-benevolence descriptors such as kind, kindhearted, good-hearted, compassionate, and caring; reject vague approval labels such as good, nice, and pleasant.
 
 The descriptor does NOT need to already appear on a character. Judge whether it is a reusable personality-basis word in the abstract, not whether it has current character support.
 
@@ -41,7 +43,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--request-timeout", type=int, default=240)
     parser.add_argument("--retry-count", type=int, default=3)
     parser.add_argument("--limit", type=int, default=0)
-    parser.add_argument("--cache-name", default="llm_personality_decisions_v4.jsonl")
+    parser.add_argument("--cache-name", default="llm_personality_decisions_v5.jsonl")
     return parser.parse_args()
 
 

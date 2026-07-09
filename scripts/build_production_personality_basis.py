@@ -39,7 +39,7 @@ DEFAULT_COMMON_ADJECTIVES = Path(
 )
 DEFAULT_GLOBAL_CANONICALIZATION = Path("models/global_descriptor_canonicalization/descriptor_canonicalization.json")
 DEFAULT_CURATION = Path("config/personality_descriptor_curation.json")
-DEFAULT_LLM_DECISIONS = Path("run/production_personality_basis/llm_personality_decisions_v4.jsonl")
+DEFAULT_LLM_DECISIONS = Path("run/production_personality_basis/llm_personality_decisions_v5.jsonl")
 
 HARD_NEGATIVE_ANCHORS = {
     "time frequency or schedule",
