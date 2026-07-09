@@ -192,6 +192,18 @@
     .native { color: var(--muted); }
     .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 	    .chip { background: var(--soft); color: var(--muted); padding: 8px 12px; font-size: 18px; }
+    .chipButton {
+      border: 0;
+      cursor: pointer;
+      color: #031116;
+      background: var(--deep);
+      font-weight: 900;
+    }
+    .chipButton:hover,
+    .chipButton.active {
+      color: #210511;
+      background: var(--accent);
+    }
     .summary {
 	      padding: 28px 0;
       margin-bottom: 26px;
@@ -212,6 +224,68 @@
 	    .token { border: 0; background: var(--panel); padding: 8px 12px; font-weight: 800; }
 	    .token.more { color: var(--deep); }
 	    .token.less { color: var(--accent); }
+    .stabilityPanel {
+      display: none;
+      margin: -4px 0 30px;
+      padding: 20px 0 4px;
+      background: rgba(255, 255, 255, .012);
+    }
+    .stabilityPanel.open { display: block; }
+    .stabilityHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .stabilityHeader h3 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1;
+    }
+    .stabilityHeader span {
+      color: var(--muted);
+      font-weight: 800;
+    }
+    .stabilityStats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 0;
+    }
+    .stabilityStat {
+      background: var(--panel);
+      color: var(--muted);
+      padding: 8px 10px;
+      font-weight: 800;
+    }
+    .stabilityStat strong {
+      color: var(--ink);
+      font-variant-numeric: tabular-nums;
+    }
+    .stabilityChart {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: var(--panel);
+    }
+    .stabilityAxis { stroke: #496368; stroke-width: 2; }
+    .stabilityGrid { stroke: #16262c; stroke-width: 1; }
+    .stabilityLine {
+      fill: none;
+      stroke: var(--accent);
+      stroke-width: 3;
+      vector-effect: non-scaling-stroke;
+    }
+    .stabilityDot {
+      fill: var(--deep);
+      opacity: .85;
+    }
+    .stabilityLabel {
+      fill: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
     .sectionHead { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin: 30px 0 12px; }
     .sectionHead h3 { margin: 0; font-size: clamp(30px, 4vw, 46px); line-height: 1; }
     .sectionHead span { color: var(--muted); }
@@ -320,6 +394,7 @@
     let indexPayload;
     const rankingCache = {};
     const profileCache = {};
+    let stabilityPayloadPromise = null;
     let sampleCarouselTimer = null;
     let sampleCarouselCleanup = null;
 
@@ -380,6 +455,28 @@
       if (!response.ok) throw new Error(`Could not load ${path}`);
       rankingCache[mode] = await response.json();
       return rankingCache[mode];
+    }
+
+    async function loadStabilityPayload() {
+      if (!stabilityPayloadPromise) {
+        stabilityPayloadPromise = fetch(`mvp_visualizer/stability_curves.json?v=${Date.now()}`, { cache: 'no-store' }).then(response => {
+          if (!response.ok) throw new Error('Could not load role stability curves');
+          return response.json();
+        });
+      }
+      return stabilityPayloadPromise;
+    }
+
+    function monthsLabel(months) {
+      const value = Number(months);
+      if (!Number.isFinite(value)) return 'unknown';
+      const years = value / 12;
+      return years >= 1 ? `${years.toFixed(years < 10 ? 1 : 0)}y` : `${value}mo`;
+    }
+
+    function stabilitySummaryText(summary, thresholdKey) {
+      const months = summary?.[thresholdKey];
+      return months === null || months === undefined ? 'not reached' : monthsLabel(months);
     }
 
     function descriptorPhrase(rows) {
@@ -569,6 +666,56 @@
       }).join('');
     }
 
+    function stabilityChart(points) {
+      const rows = (points || []).filter(point => point.cosine_distance_from_previous_6mo !== null);
+      if (!rows.length) return '<div class="empty">Not enough dated role support for a stability curve.</div>';
+      const width = 760;
+      const height = 240;
+      const pad = { left: 54, right: 18, top: 22, bottom: 38 };
+      const maxMonth = Math.max(...rows.map(row => Number(row.months_since_first_role || 0)), 1);
+      const maxDistance = Math.max(...rows.map(row => Number(row.cosine_distance_from_previous_6mo || 0)), 0.01);
+      const x = row => pad.left + Number(row.months_since_first_role || 0) / maxMonth * (width - pad.left - pad.right);
+      const y = row => height - pad.bottom - Number(row.cosine_distance_from_previous_6mo || 0) / maxDistance * (height - pad.top - pad.bottom);
+      const path = rows.map((row, index) => `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${y(row).toFixed(2)}`).join(' ');
+      const dots = rows
+        .filter(row => Number(row.new_supported_characters || 0) > 0)
+        .map(row => `<circle class="stabilityDot" cx="${x(row).toFixed(2)}" cy="${y(row).toFixed(2)}" r="${Math.min(7, 3 + Number(row.new_supported_characters || 0))}">
+          <title>${esc(row.date)} · distance ${Number(row.cosine_distance_from_previous_6mo || 0).toFixed(4)} · ${fmtInt.format(row.new_supported_characters || 0)} new characters</title>
+        </circle>`)
+        .join('');
+      return `<svg class="stabilityChart" viewBox="0 0 ${width} ${height}" role="img" aria-label="six-month role stability curve">
+        <line class="stabilityGrid" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
+        <line class="stabilityGrid" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
+        <line class="stabilityAxis" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
+        <line class="stabilityAxis" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
+        <path class="stabilityLine" d="${path}"></path>
+        ${dots}
+        <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">first role</text>
+        <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">${monthsLabel(maxMonth)}</text>
+        <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">distance ${maxDistance.toFixed(3)}</text>
+        <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">0</text>
+      </svg>`;
+    }
+
+    function stabilityMarkup(profile, row) {
+      if (!row) return '<div class="empty">No role stability curve for this seiyuu yet.</div>';
+      const mode = currentMode();
+      const curve = row.curves?.[mode] || row.curves?.unit;
+      if (!curve) return '<div class="empty">No role stability curve for the current mode.</div>';
+      const summary = curve.summary || {};
+      return `<div class="stabilityHeader">
+        <h3>Role stability</h3>
+        <span>six-month profile drift</span>
+      </div>
+      ${stabilityChart(curve.points || [])}
+      <div class="stabilityStats">
+        <span class="stabilityStat">max drift <strong>${Number(summary.max_cosine_distance || 0).toFixed(4)}</strong></span>
+        <span class="stabilityStat">mean drift <strong>${Number(summary.mean_cosine_distance || 0).toFixed(4)}</strong></span>
+        <span class="stabilityStat">under 0.10 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_lte_0_10'))}</strong></span>
+        <span class="stabilityStat">under 0.05 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_lte_0_05'))}</strong></span>
+      </div>`;
+    }
+
     function profileMarkup(profile) {
       const more = profile.summary_fit?.more || profile.positive_descriptors || [];
       const less = profile.summary_fit?.less || profile.negative_descriptors || [];
@@ -582,9 +729,11 @@
               <span class="chip">roles ${fmtInt.format(profile.role_count || 0)}</span>
               <span class="chip">supported characters ${fmtInt.format(profile.supported_character_count || 0)}</span>
               ${profile.first_year ? `<span class="chip">first year ${esc(profile.first_year)}</span>` : ''}
+              <button class="chip chipButton" type="button" data-stability-toggle="${esc(profile.seiyuu_id)}">Role stability</button>
             </div>
           </div>
         </section>
+        <section class="stabilityPanel" id="stabilityPanel" aria-live="polite"></section>
         <section class="summary">
           <p class="summaryText">Compared to the average seiyuu, <strong>${esc(profile.name)}</strong> has roles who are more <strong>${esc(descriptorPhrase(more) || 'unclear')}</strong>${less.length ? ` and less <strong class="less">${esc(descriptorPhrase(less))}</strong>` : ''}.</p>
           <div class="fitLine">These descriptors support ${Number(profile.summary_fit?.signed_fit_percent || 0).toFixed(1)}% of ${esc(profile.name)}'s role archetype.</div>
@@ -615,6 +764,27 @@
         renderHome();
       });
       window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+
+    async function toggleStability(seiyuuId) {
+      const panel = document.getElementById('stabilityPanel');
+      const button = document.querySelector('[data-stability-toggle]');
+      if (!panel) return;
+      if (panel.classList.contains('open')) {
+        panel.classList.remove('open');
+        if (button) button.classList.remove('active');
+        return;
+      }
+      panel.classList.add('open');
+      if (button) button.classList.add('active');
+      panel.innerHTML = '<div class="empty">Loading role stability…</div>';
+      try {
+        const payload = await loadStabilityPayload();
+        const row = (payload.profiles || []).find(profile => Number(profile.seiyuu_id) === Number(seiyuuId));
+        panel.innerHTML = stabilityMarkup(null, row);
+      } catch (error) {
+        panel.innerHTML = `<div class="empty">${esc(error.message)}</div>`;
+      }
     }
 
 	    function exactDescriptor(value, descriptors) {
@@ -750,6 +920,8 @@
         else if (params.get('rank')) setRanking(params.get('rank'), params.get('min_chars') || '10');
         else renderHome();
       }
+      const stabilityButton = event.target.closest('[data-stability-toggle]');
+      if (stabilityButton) toggleStability(stabilityButton.dataset.stabilityToggle);
     });
 
     document.addEventListener('mousemove', event => {

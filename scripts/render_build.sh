@@ -10,6 +10,7 @@ required_files=(
   "site/mvp_visualizer/index.json"
   "site/mvp_visualizer/rankings_unit.json"
   "site/mvp_visualizer/rankings_favorites_weighted.json"
+  "site/mvp_visualizer/stability_curves.json"
 )
 
 for file in "${required_files[@]}"; do
@@ -40,11 +41,14 @@ root = Path("site/mvp_visualizer")
 index = json.loads((root / "index.json").read_text())
 unit = json.loads((root / "rankings_unit.json").read_text())
 weighted = json.loads((root / "rankings_favorites_weighted.json").read_text())
+stability = json.loads((root / "stability_curves.json").read_text())
 
 if not index.get("profiles"):
     raise SystemExit("index.json has no profiles")
 if not unit.get("seiyuu") or not weighted.get("seiyuu"):
     raise SystemExit("ranking payloads are empty")
+if not stability.get("profiles"):
+    raise SystemExit("stability_curves.json has no profiles")
 if unit.get("descriptors") != weighted.get("descriptors"):
     raise SystemExit("ranking descriptor vocabularies differ by mode")
 
