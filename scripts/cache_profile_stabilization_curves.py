@@ -134,17 +134,17 @@ def cumulative_vector(
     return normalize(total), norm_before_normalize
 
 
-def settled_after(points: list[dict[str, Any]], threshold: float) -> int | None:
+def settled_after(points: list[dict[str, Any]], threshold: float, distance_key: str) -> int | None:
     distances = [
         (index, point)
         for index, point in enumerate(points)
-        if point.get("cosine_distance_from_previous_6mo") is not None
+        if point.get(distance_key) is not None
     ]
     for index, point in distances:
         future = [
-            item.get("cosine_distance_from_previous_6mo")
+            item.get(distance_key)
             for item in points[index:]
-            if item.get("cosine_distance_from_previous_6mo") is not None
+            if item.get(distance_key) is not None
         ]
         if future and max(float(value) for value in future) <= threshold:
             return int(point["months_since_first_role"])
@@ -160,6 +160,7 @@ def build_curve(
     round_digits: int,
 ) -> list[dict[str, Any]]:
     points: list[dict[str, Any]] = []
+    final_vector, final_norm = cumulative_vector(characters, vectors, weight_fn)
     for checkpoint in range(start_month, end_month + 1, 6):
         previous = checkpoint - 6
         current_characters = [row for row in characters if int(row["first_role_month"]) <= checkpoint]
@@ -172,6 +173,12 @@ def build_curve(
             overlap_value = float(np.clip(current_vector @ previous_vector, -1.0, 1.0))
             overlap = rounded(overlap_value, round_digits)
             distance = rounded(1.0 - overlap_value, round_digits)
+        final_overlap = None
+        final_distance = None
+        if current_vector.size and final_vector.size and current_norm > 0.0 and final_norm > 0.0:
+            final_overlap_value = float(np.clip(current_vector @ final_vector, -1.0, 1.0))
+            final_overlap = rounded(final_overlap_value, round_digits)
+            final_distance = rounded(1.0 - final_overlap_value, round_digits)
         new_characters = [
             row
             for row in characters
@@ -186,6 +193,8 @@ def build_curve(
                 "cumulative_vector_norm_before_normalize": rounded(current_norm, round_digits),
                 "overlap_with_previous_6mo": overlap,
                 "cosine_distance_from_previous_6mo": distance,
+                "overlap_with_current_profile": final_overlap,
+                "cosine_distance_from_current_profile": final_distance,
             }
         )
     return points
@@ -309,18 +318,25 @@ def main() -> None:
                 mode["weight_fn"],
                 args.round_digits,
             )
-            valid_distances = [
+            valid_step_distances = [
                 float(point["cosine_distance_from_previous_6mo"])
                 for point in points
                 if point.get("cosine_distance_from_previous_6mo") is not None
             ]
+            valid_current_distances = [
+                float(point["cosine_distance_from_current_profile"])
+                for point in points
+                if point.get("cosine_distance_from_current_profile") is not None
+            ]
             mode_curves[mode_key] = {
                 "points": points,
                 "summary": {
-                    "max_cosine_distance": rounded(max(valid_distances), args.round_digits) if valid_distances else None,
-                    "mean_cosine_distance": rounded(float(np.mean(valid_distances)), args.round_digits) if valid_distances else None,
-                    "settled_after_months_distance_lte_0_10": settled_after(points, 0.10),
-                    "settled_after_months_distance_lte_0_05": settled_after(points, 0.05),
+                    "max_step_cosine_distance": rounded(max(valid_step_distances), args.round_digits) if valid_step_distances else None,
+                    "mean_step_cosine_distance": rounded(float(np.mean(valid_step_distances)), args.round_digits) if valid_step_distances else None,
+                    "max_distance_to_current_profile": rounded(max(valid_current_distances), args.round_digits) if valid_current_distances else None,
+                    "mean_distance_to_current_profile": rounded(float(np.mean(valid_current_distances)), args.round_digits) if valid_current_distances else None,
+                    "settled_after_months_distance_to_current_lte_0_10": settled_after(points, 0.10, "cosine_distance_from_current_profile"),
+                    "settled_after_months_distance_to_current_lte_0_05": settled_after(points, 0.05, "cosine_distance_from_current_profile"),
                 },
             }
         profiles.append(

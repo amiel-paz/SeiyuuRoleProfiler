@@ -247,6 +247,12 @@
       color: var(--muted);
       font-weight: 800;
     }
+    .stabilityExplainer {
+      margin: -2px 0 12px;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 700;
+    }
     .stabilityStats {
       display: flex;
       flex-wrap: wrap;
@@ -276,10 +282,6 @@
       stroke: var(--accent);
       stroke-width: 3;
       vector-effect: non-scaling-stroke;
-    }
-    .stabilityDot {
-      fill: var(--deep);
-      opacity: .85;
     }
     .stabilityLabel {
       fill: var(--muted);
@@ -667,33 +669,26 @@
     }
 
     function stabilityChart(points) {
-      const rows = (points || []).filter(point => point.cosine_distance_from_previous_6mo !== null);
+      const rows = (points || []).filter(point => point.cosine_distance_from_current_profile !== null);
       if (!rows.length) return '<div class="empty">Not enough dated role support for a stability curve.</div>';
       const width = 760;
       const height = 240;
       const pad = { left: 54, right: 18, top: 22, bottom: 38 };
       const maxMonth = Math.max(...rows.map(row => Number(row.months_since_first_role || 0)), 1);
-      const maxDistance = Math.max(...rows.map(row => Number(row.cosine_distance_from_previous_6mo || 0)), 0.01);
+      const maxDistance = Math.max(...rows.map(row => Number(row.cosine_distance_from_current_profile || 0)), 0.01);
       const x = row => pad.left + Number(row.months_since_first_role || 0) / maxMonth * (width - pad.left - pad.right);
-      const y = row => height - pad.bottom - Number(row.cosine_distance_from_previous_6mo || 0) / maxDistance * (height - pad.top - pad.bottom);
+      const y = row => height - pad.bottom - Number(row.cosine_distance_from_current_profile || 0) / maxDistance * (height - pad.top - pad.bottom);
       const path = rows.map((row, index) => `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${y(row).toFixed(2)}`).join(' ');
-      const dots = rows
-        .filter(row => Number(row.new_supported_characters || 0) > 0)
-        .map(row => `<circle class="stabilityDot" cx="${x(row).toFixed(2)}" cy="${y(row).toFixed(2)}" r="${Math.min(7, 3 + Number(row.new_supported_characters || 0))}">
-          <title>${esc(row.date)} · distance ${Number(row.cosine_distance_from_previous_6mo || 0).toFixed(4)} · ${fmtInt.format(row.new_supported_characters || 0)} new characters</title>
-        </circle>`)
-        .join('');
-      return `<svg class="stabilityChart" viewBox="0 0 ${width} ${height}" role="img" aria-label="six-month role stability curve">
+      return `<svg class="stabilityChart" viewBox="0 0 ${width} ${height}" role="img" aria-label="distance from current role profile over time">
         <line class="stabilityGrid" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
         <line class="stabilityGrid" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
         <line class="stabilityAxis" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
         <line class="stabilityAxis" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
         <path class="stabilityLine" d="${path}"></path>
-        ${dots}
         <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">first role</text>
         <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">${monthsLabel(maxMonth)}</text>
-        <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">distance ${maxDistance.toFixed(3)}</text>
-        <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">0</text>
+        <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">far from current profile</text>
+        <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">current profile</text>
       </svg>`;
     }
 
@@ -705,14 +700,15 @@
       const summary = curve.summary || {};
       return `<div class="stabilityHeader">
         <h3>Role stability</h3>
-        <span>six-month profile drift</span>
+        <span>distance from current role profile</span>
       </div>
+      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. Lower is closer; 0 is identical.</div>
       ${stabilityChart(curve.points || [])}
       <div class="stabilityStats">
-        <span class="stabilityStat">max drift <strong>${Number(summary.max_cosine_distance || 0).toFixed(4)}</strong></span>
-        <span class="stabilityStat">mean drift <strong>${Number(summary.mean_cosine_distance || 0).toFixed(4)}</strong></span>
-        <span class="stabilityStat">under 0.10 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_lte_0_10'))}</strong></span>
-        <span class="stabilityStat">under 0.05 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_lte_0_05'))}</strong></span>
+        <span class="stabilityStat">largest distance <strong>${Number(summary.max_distance_to_current_profile || 0).toFixed(4)}</strong></span>
+        <span class="stabilityStat">average distance <strong>${Number(summary.mean_distance_to_current_profile || 0).toFixed(4)}</strong></span>
+        <span class="stabilityStat">within 0.10 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_to_current_lte_0_10'))}</strong></span>
+        <span class="stabilityStat">within 0.05 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_to_current_lte_0_05'))}</strong></span>
       </div>`;
     }
 
