@@ -248,10 +248,22 @@
       font-weight: 800;
     }
     .stabilityExplainer {
-      margin: -2px 0 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 14px;
+    }
+    .stabilityNote {
+      background: rgba(255, 255, 255, .035);
+      padding: 8px 10px;
       color: var(--muted);
-      font-size: 15px;
+      font-size: 13px;
       font-weight: 700;
+      line-height: 1.15;
+    }
+    .stabilityNote strong {
+      color: var(--ink);
+      font-weight: 900;
     }
     .stabilityChart {
       width: 100%;
@@ -504,12 +516,17 @@
       return `τ = ${value} ${unit}`;
     }
 
-    function stabilitySelectionSummary(payload) {
+    function stabilityNotesMarkup(payload) {
       const mode = currentMode();
       const selection = payload?.model?.exponential_fit?.selection?.[mode] || {};
       const timeStart = Number(selection.time?.selected_minimum_supported_characters || 5);
       const countStart = Number(selection.count?.selected_minimum_supported_characters || 5);
-      return `The time curve uses six-month checkpoints; larger blue circles mean more new supported roles entered at that date. The count curve advances one supported role at a time. Dashed curves are exponential fits; start offsets are chosen globally by sweeping 1-10 supported roles and using the offset with the best average fit: ${fmtInt.format(timeStart)} roles for time, ${fmtInt.format(countStart)} roles for count.`;
+      return [
+        '<span class="stabilityNote"><strong>time</strong> six-month checkpoints</span>',
+        '<span class="stabilityNote"><strong>blue size</strong> new roles at that date</span>',
+        '<span class="stabilityNote"><strong>count</strong> one role per step</span>',
+        `<span class="stabilityNote"><strong>fit start</strong> best 1-10 role sweep: ${fmtInt.format(timeStart)} time, ${fmtInt.format(countStart)} count</span>`,
+      ].join('');
     }
 
     function descriptorPhrase(rows) {
@@ -775,7 +792,7 @@
         <h3>Role stability</h3>
         <span>distance from current role profile</span>
       </div>
-      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. ${esc(stabilitySelectionSummary(payload))}</div>
+      <div class="stabilityExplainer">${stabilityNotesMarkup(payload)}</div>
       <div class="stabilityChartGrid">
         <div class="stabilityChartBlock">
           <h4>Role stability (time)</h4>
