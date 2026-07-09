@@ -253,22 +253,6 @@
       font-size: 15px;
       font-weight: 700;
     }
-    .stabilityStats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 12px 0 0;
-    }
-    .stabilityStat {
-      background: var(--panel);
-      color: var(--muted);
-      padding: 8px 10px;
-      font-weight: 800;
-    }
-    .stabilityStat strong {
-      color: var(--ink);
-      font-variant-numeric: tabular-nums;
-    }
     .stabilityChart {
       width: 100%;
       height: auto;
@@ -473,16 +457,10 @@
       return stabilityPayloadPromise;
     }
 
-    function monthsLabel(months) {
-      const value = Number(months);
-      if (!Number.isFinite(value)) return 'unknown';
-      const years = value / 12;
-      return years >= 1 ? `${years.toFixed(years < 10 ? 1 : 0)}y` : `${value}mo`;
-    }
-
-    function stabilitySummaryText(summary, thresholdKey) {
-      const months = summary?.[thresholdKey];
-      return months === null || months === undefined ? 'not reached' : monthsLabel(months);
+    function stabilityRows(points, minimumCharacters = 5) {
+      const rows = (points || []).filter(point => point.cosine_distance_from_current_profile !== null);
+      const supportedRows = rows.filter(row => Number(row.cumulative_supported_characters || 0) >= minimumCharacters);
+      return supportedRows.length ? supportedRows : rows;
     }
 
     function descriptorPhrase(rows) {
@@ -673,14 +651,17 @@
     }
 
     function stabilityChart(points) {
-      const rows = (points || []).filter(point => point.cosine_distance_from_current_profile !== null);
+      const rows = stabilityRows(points);
       if (!rows.length) return '<div class="empty">Not enough dated role support for a stability curve.</div>';
       const width = 760;
       const height = 240;
       const pad = { left: 54, right: 18, top: 22, bottom: 38 };
-      const maxMonth = Math.max(...rows.map(row => Number(row.months_since_first_role || 0)), 1);
+      const startMonth = Math.min(...rows.map(row => Number(row.months_since_first_role || 0)));
+      const maxMonth = Math.max(...rows.map(row => Number(row.months_since_first_role || 0)), startMonth + 1);
       const maxDistance = Math.max(...rows.map(row => Number(row.cosine_distance_from_current_profile || 0)), 0.01);
-      const x = row => pad.left + Number(row.months_since_first_role || 0) / maxMonth * (width - pad.left - pad.right);
+      const monthSpan = Math.max(1, maxMonth - startMonth);
+      const startLabel = Number(rows[0].cumulative_supported_characters || 0) >= 5 ? '5+ supported roles' : 'first role';
+      const x = row => pad.left + (Number(row.months_since_first_role || 0) - startMonth) / monthSpan * (width - pad.left - pad.right);
       const y = row => height - pad.bottom - Number(row.cosine_distance_from_current_profile || 0) / maxDistance * (height - pad.top - pad.bottom);
       const path = rows.map((row, index) => `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${y(row).toFixed(2)}`).join(' ');
       const dots = rows
@@ -699,10 +680,10 @@
         <line class="stabilityAxis" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
         <path class="stabilityLine" d="${path}"></path>
         ${dots}
-        <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">first role</text>
-        <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">${monthsLabel(maxMonth)}</text>
-        <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">far from current profile</text>
-        <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">current profile</text>
+        <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">${startLabel}</text>
+        <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">current role</text>
+        <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">distance to current profile</text>
+        <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">0</text>
         <circle class="stabilityDot" cx="${width - pad.right - 115}" cy="${pad.top + 2}" r="5"></circle>
         <text class="stabilityLabel" x="${width - pad.right - 104}" y="${pad.top + 7}">new supported roles</text>
       </svg>`;
@@ -713,19 +694,12 @@
       const mode = currentMode();
       const curve = row.curves?.[mode] || row.curves?.unit;
       if (!curve) return '<div class="empty">No role stability curve for the current mode.</div>';
-      const summary = curve.summary || {};
       return `<div class="stabilityHeader">
         <h3>Role stability</h3>
         <span>distance from current role profile</span>
       </div>
-      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. Lower is closer; 0 is identical.</div>
-      ${stabilityChart(curve.points || [])}
-      <div class="stabilityStats">
-        <span class="stabilityStat">largest distance <strong>${Number(summary.max_distance_to_current_profile || 0).toFixed(4)}</strong></span>
-        <span class="stabilityStat">average distance <strong>${Number(summary.mean_distance_to_current_profile || 0).toFixed(4)}</strong></span>
-        <span class="stabilityStat">within 0.10 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_to_current_lte_0_10'))}</strong></span>
-        <span class="stabilityStat">within 0.05 after <strong>${esc(stabilitySummaryText(summary, 'settled_after_months_distance_to_current_lte_0_05'))}</strong></span>
-      </div>`;
+      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. The chart starts once at least 5 supported characters are available.</div>
+      ${stabilityChart(curve.points || [])}`;
     }
 
     function profileMarkup(profile) {
