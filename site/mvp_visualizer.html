@@ -143,6 +143,9 @@
       align-items: center;
       margin: 14px 0 0;
     }
+    .topbar + .modeSwitch {
+      margin: -10px 0 22px;
+    }
 	    .modeButton {
 	      border: 0;
 	      background: var(--panel);
@@ -198,11 +201,17 @@
       color: #031116;
       background: var(--deep);
       font-weight: 900;
+      margin-left: 8px;
+      padding: 10px 16px;
+      letter-spacing: .025em;
+      text-transform: uppercase;
+      box-shadow: 0 0 0 2px rgba(24, 223, 242, .22);
     }
     .chipButton:hover,
     .chipButton.active {
       color: #210511;
       background: var(--accent);
+      box-shadow: 0 0 0 2px rgba(255, 59, 141, .22);
     }
     .summary {
 	      padding: 28px 0;
@@ -818,7 +827,7 @@
               <span class="chip">roles ${fmtInt.format(profile.role_count || 0)}</span>
               <span class="chip">supported characters ${fmtInt.format(profile.supported_character_count || 0)}</span>
               ${profile.first_year ? `<span class="chip">first year ${esc(profile.first_year)}</span>` : ''}
-              <button class="chip chipButton" type="button" data-stability-toggle="${esc(profile.seiyuu_id)}">Role stability</button>
+              <button class="chip chipButton" type="button" data-stability-toggle="${esc(profile.seiyuu_id)}" aria-expanded="false">Show role stability</button>
             </div>
           </div>
         </section>
@@ -861,11 +870,19 @@
       if (!panel) return;
       if (panel.classList.contains('open')) {
         panel.classList.remove('open');
-        if (button) button.classList.remove('active');
+        if (button) {
+          button.classList.remove('active');
+          button.setAttribute('aria-expanded', 'false');
+          button.textContent = 'Show role stability';
+        }
         return;
       }
       panel.classList.add('open');
-      if (button) button.classList.add('active');
+      if (button) {
+        button.classList.add('active');
+        button.setAttribute('aria-expanded', 'true');
+        button.textContent = 'Hide role stability';
+      }
       panel.innerHTML = '<div class="empty">Loading role stability…</div>';
       try {
         const payload = await loadStabilityPayload();
