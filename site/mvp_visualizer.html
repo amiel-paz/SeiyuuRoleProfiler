@@ -267,6 +267,13 @@
       stroke-width: 3;
       vector-effect: non-scaling-stroke;
     }
+    .stabilityFitLine {
+      fill: none;
+      stroke: var(--deep);
+      stroke-width: 2;
+      stroke-dasharray: 7 6;
+      vector-effect: non-scaling-stroke;
+    }
     .stabilityDot {
       fill: var(--deep);
       opacity: .82;
@@ -275,6 +282,16 @@
       fill: var(--muted);
       font-size: 13px;
       font-weight: 800;
+    }
+    .stabilityChartGrid {
+      display: grid;
+      gap: 18px;
+    }
+    .stabilityChartBlock h4 {
+      margin: 0 0 8px;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1;
     }
     .sectionHead { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin: 30px 0 12px; }
     .sectionHead h3 { margin: 0; font-size: clamp(30px, 4vw, 46px); line-height: 1; }
@@ -461,6 +478,14 @@
       const rows = (points || []).filter(point => point.cosine_distance_from_current_profile !== null);
       const supportedRows = rows.filter(row => Number(row.cumulative_supported_characters || 0) >= minimumCharacters);
       return supportedRows.length ? supportedRows : rows;
+    }
+
+    function selectedStabilityMinimum(payload, axis) {
+      const mode = currentMode();
+      return Number(
+        payload?.model?.exponential_fit?.selection?.[mode]?.[axis]?.selected_minimum_supported_characters
+        || 5
+      );
     }
 
     function descriptorPhrase(rows) {
@@ -650,20 +675,42 @@
       }).join('');
     }
 
-    function stabilityChart(points) {
-      const rows = stabilityRows(points);
+    function stabilityChart(curve, axis, minimumCharacters) {
+      const points = curve?.points || [];
+      const rows = stabilityRows(points, minimumCharacters);
       if (!rows.length) return '<div class="empty">Not enough dated role support for a stability curve.</div>';
       const width = 760;
       const height = 240;
       const pad = { left: 54, right: 18, top: 22, bottom: 38 };
-      const startMonth = Math.min(...rows.map(row => Number(row.months_since_first_role || 0)));
-      const maxMonth = Math.max(...rows.map(row => Number(row.months_since_first_role || 0)), startMonth + 1);
+      const axisValue = row => axis === 'count'
+        ? Number(row.cumulative_supported_characters || 0)
+        : Number(row.months_since_first_role || 0);
+      const startValue = Math.min(...rows.map(axisValue));
+      const maxValue = Math.max(...rows.map(axisValue), startValue + 1);
       const maxDistance = Math.max(...rows.map(row => Number(row.cosine_distance_from_current_profile || 0)), 0.01);
-      const monthSpan = Math.max(1, maxMonth - startMonth);
-      const startLabel = Number(rows[0].cumulative_supported_characters || 0) >= 5 ? '5+ supported roles' : 'first role';
-      const x = row => pad.left + (Number(row.months_since_first_role || 0) - startMonth) / monthSpan * (width - pad.left - pad.right);
+      const axisSpan = Math.max(1, maxValue - startValue);
+      const startCount = Number(rows[0].cumulative_supported_characters || 0);
+      const startLabel = `${fmtInt.format(startCount)} supported roles`;
+      const endLabel = axis === 'count' ? `${fmtInt.format(Number(rows[rows.length - 1].cumulative_supported_characters || 0))} roles` : 'current role';
+      const x = row => pad.left + (axisValue(row) - startValue) / axisSpan * (width - pad.left - pad.right);
       const y = row => height - pad.bottom - Number(row.cosine_distance_from_current_profile || 0) / maxDistance * (height - pad.top - pad.bottom);
       const path = rows.map((row, index) => `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${y(row).toFixed(2)}`).join(' ');
+      const fit = curve?.exponential_fit_candidates?.[axis]?.[String(minimumCharacters)];
+      let fitPath = '';
+      if (fit) {
+        const startMonth = Number(fit.start_months_since_first_role || rows[0].months_since_first_role || 0);
+        const startFitCount = Number(fit.start_cumulative_supported_characters || rows[0].cumulative_supported_characters || 0);
+        const amplitude = Number(fit.amplitude || 0);
+        const rate = axis === 'count' ? Number(fit.decay_rate_per_role || 0) : Number(fit.decay_rate_per_year || 0);
+        fitPath = rows.map((row, index) => {
+          const fitX = axis === 'count'
+            ? Math.max(0, Number(row.cumulative_supported_characters || 0) - startFitCount)
+            : Math.max(0, (Number(row.months_since_first_role || 0) - startMonth) / 12);
+          const value = amplitude * Math.exp(-rate * fitX);
+          const fitY = height - pad.bottom - value / maxDistance * (height - pad.top - pad.bottom);
+          return `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${fitY.toFixed(2)}`;
+        }).join(' ');
+      }
       const dots = rows
         .filter(row => Number(row.new_supported_characters || 0) > 0)
         .map(row => {
@@ -679,9 +726,10 @@
         <line class="stabilityAxis" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
         <line class="stabilityAxis" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
         <path class="stabilityLine" d="${path}"></path>
+        ${fitPath ? `<path class="stabilityFitLine" d="${fitPath}"></path>` : ''}
         ${dots}
         <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">${startLabel}</text>
-        <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">current role</text>
+        <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">${endLabel}</text>
         <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">distance to current profile</text>
         <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">0</text>
         <circle class="stabilityDot" cx="${width - pad.right - 115}" cy="${pad.top + 2}" r="5"></circle>
@@ -689,17 +737,28 @@
       </svg>`;
     }
 
-    function stabilityMarkup(profile, row) {
+    function stabilityMarkup(profile, row, payload) {
       if (!row) return '<div class="empty">No role stability curve for this seiyuu yet.</div>';
       const mode = currentMode();
       const curve = row.curves?.[mode] || row.curves?.unit;
       if (!curve) return '<div class="empty">No role stability curve for the current mode.</div>';
+      const timeMinimum = selectedStabilityMinimum(payload, 'time');
+      const countMinimum = selectedStabilityMinimum(payload, 'count');
       return `<div class="stabilityHeader">
         <h3>Role stability</h3>
         <span>distance from current role profile</span>
       </div>
-      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. The chart starts once at least 5 supported characters are available.</div>
-      ${stabilityChart(curve.points || [])}`;
+      <div class="stabilityExplainer">Each point compares roles up to that date with this seiyuu's current role profile. Dashed lines are exponential fits; start offsets are chosen from a 1-10 role sweep.</div>
+      <div class="stabilityChartGrid">
+        <div class="stabilityChartBlock">
+          <h4>Role stability (time)</h4>
+          ${stabilityChart(curve, 'time', timeMinimum)}
+        </div>
+        <div class="stabilityChartBlock">
+          <h4>Role stability (count)</h4>
+          ${stabilityChart(curve, 'count', countMinimum)}
+        </div>
+      </div>`;
     }
 
     function profileMarkup(profile) {
@@ -767,7 +826,7 @@
       try {
         const payload = await loadStabilityPayload();
         const row = (payload.profiles || []).find(profile => Number(profile.seiyuu_id) === Number(seiyuuId));
-        panel.innerHTML = stabilityMarkup(null, row);
+        panel.innerHTML = stabilityMarkup(null, row, payload);
       } catch (error) {
         panel.innerHTML = `<div class="empty">${esc(error.message)}</div>`;
       }

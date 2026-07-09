@@ -151,6 +151,133 @@ def settled_after(points: list[dict[str, Any]], threshold: float, distance_key: 
     return None
 
 
+def exponential_fit(
+    points: list[dict[str, Any]],
+    minimum_supported_characters: int,
+    axis: str,
+    round_digits: int,
+) -> dict[str, Any] | None:
+    rows = [
+        point
+        for point in points
+        if point.get("cosine_distance_from_current_profile") is not None
+        and int(point.get("cumulative_supported_characters") or 0) >= minimum_supported_characters
+    ]
+    if len(rows) < 4:
+        return None
+
+    start_month = int(rows[0]["months_since_first_role"])
+    start_count = int(rows[0]["cumulative_supported_characters"])
+    if axis == "time":
+        x = np.array([(int(row["months_since_first_role"]) - start_month) / 12.0 for row in rows], dtype=np.float64)
+        rate_key = "decay_rate_per_year"
+        half_life_key = "half_life_years"
+    elif axis == "count":
+        x = np.array([int(row["cumulative_supported_characters"]) - start_count for row in rows], dtype=np.float64)
+        rate_key = "decay_rate_per_role"
+        half_life_key = "half_life_roles"
+    else:
+        raise ValueError(f"unknown exponential fit axis: {axis}")
+
+    y = np.array([float(row["cosine_distance_from_current_profile"]) for row in rows], dtype=np.float64)
+    positive = np.isfinite(x) & np.isfinite(y) & (y > 1.0e-10)
+    if int(np.count_nonzero(positive)) < 3 or len(set(float(value) for value in x[positive])) < 3:
+        return None
+
+    slope, intercept = np.polyfit(x[positive], np.log(y[positive]), 1)
+    amplitude = float(np.exp(intercept))
+    rate = float(max(0.0, -slope))
+    predicted = amplitude * np.exp(-rate * x)
+    residuals = y - predicted
+    ss_res = float(np.sum(residuals**2))
+    ss_tot = float(np.sum((y - float(np.mean(y))) ** 2))
+    r2 = 1.0 - ss_res / ss_tot if ss_tot > 1.0e-12 else None
+    rmse = float(np.sqrt(np.mean(residuals**2)))
+    mae = float(np.mean(np.abs(residuals)))
+    half_life = float(np.log(2.0) / rate) if rate > 1.0e-12 else None
+
+    return {
+        "axis": axis,
+        "minimum_supported_characters": minimum_supported_characters,
+        "start_date": rows[0]["date"],
+        "start_months_since_first_role": start_month,
+        "start_cumulative_supported_characters": start_count,
+        "points_used": len(rows),
+        "amplitude": rounded(amplitude, round_digits),
+        rate_key: rounded(rate, round_digits),
+        half_life_key: rounded(half_life, round_digits) if half_life is not None else None,
+        "r2": rounded(r2, round_digits) if r2 is not None else None,
+        "rmse": rounded(rmse, round_digits),
+        "mae": rounded(mae, round_digits),
+    }
+
+
+def exponential_fit_candidates(points: list[dict[str, Any]], round_digits: int) -> dict[str, dict[str, Any]]:
+    return {
+        axis: {
+            str(threshold): fit
+            for threshold in range(1, 11)
+            if (fit := exponential_fit(points, threshold, axis, round_digits)) is not None
+        }
+        for axis in ("time", "count")
+    }
+
+
+def aggregate_exponential_fit_selection(profiles: list[dict[str, Any]], round_digits: int) -> dict[str, Any]:
+    output: dict[str, Any] = {}
+    for mode_key in WEIGHT_MODES:
+        output[mode_key] = {}
+        for axis in ("time", "count"):
+            profiles_with_all_thresholds = []
+            for profile in profiles:
+                candidates = (
+                    (profile.get("curves") or {})
+                    .get(mode_key, {})
+                    .get("exponential_fit_candidates", {})
+                    .get(axis, {})
+                )
+                if all(str(threshold) in candidates for threshold in range(1, 11)):
+                    profiles_with_all_thresholds.append(profile)
+
+            threshold_rows = []
+            for threshold in range(1, 11):
+                fits = []
+                for profile in profiles_with_all_thresholds:
+                    fit = (
+                        (profile.get("curves") or {})
+                        .get(mode_key, {})
+                        .get("exponential_fit_candidates", {})
+                        .get(axis, {})
+                        .get(str(threshold))
+                    )
+                    if fit is not None:
+                        fits.append(fit)
+                r2_values = [float(fit["r2"]) for fit in fits if fit.get("r2") is not None]
+                rmse_values = [float(fit["rmse"]) for fit in fits if fit.get("rmse") is not None]
+                threshold_rows.append(
+                    {
+                        "minimum_supported_characters": threshold,
+                        "fit_count": len(fits),
+                        "mean_r2": rounded(float(np.mean(r2_values)), round_digits) if r2_values else None,
+                        "median_r2": rounded(float(np.median(r2_values)), round_digits) if r2_values else None,
+                        "mean_rmse": rounded(float(np.mean(rmse_values)), round_digits) if rmse_values else None,
+                    }
+                )
+
+            best = max(
+                (row for row in threshold_rows if row["mean_r2"] is not None),
+                key=lambda row: (float(row["mean_r2"]), -int(row["minimum_supported_characters"])),
+                default=None,
+            )
+            output[mode_key][axis] = {
+                "selected_minimum_supported_characters": int(best["minimum_supported_characters"]) if best else 5,
+                "eligible_profile_count": len(profiles_with_all_thresholds),
+                "selection_metric": "highest mean R2 among seiyuu with valid exponential fits at every offset from 1 to 10 supported characters",
+                "thresholds": threshold_rows,
+            }
+    return output
+
+
 def build_curve(
     characters: list[dict[str, Any]],
     vectors: dict[int, np.ndarray],
@@ -330,6 +457,7 @@ def main() -> None:
             ]
             mode_curves[mode_key] = {
                 "points": points,
+                "exponential_fit_candidates": exponential_fit_candidates(points, args.round_digits),
                 "summary": {
                     "max_step_cosine_distance": rounded(max(valid_step_distances), args.round_digits) if valid_step_distances else None,
                     "mean_step_cosine_distance": rounded(float(np.mean(valid_step_distances)), args.round_digits) if valid_step_distances else None,
@@ -357,6 +485,7 @@ def main() -> None:
         )
 
     profiles.sort(key=lambda row: (row["supported_character_count"], row["role_count"], row["name"]), reverse=True)
+    exponential_fit_selection = aggregate_exponential_fit_selection(profiles, args.round_digits)
     payload = {
         "generated_at": utc_now(),
         "source": "cache_profile_stabilization_curves.py",
@@ -366,7 +495,7 @@ def main() -> None:
                 "Each character vector is the sum of supported production personality descriptor atoms "
                 "from the same B @ G @ X/Löwdin orthogonalized basis used by the MVP visualizer. "
                 "The curve reports cosine overlap and cosine distance between the cumulative normalized "
-                "vector at each checkpoint and the cumulative normalized vector six months earlier."
+                "vector at each checkpoint and the final/current normalized profile vector."
             ),
             "date_precision": "year",
             "role_event_date_model": "Each role edge is placed at YYYY-01-01 because the current role cache stores years, not exact dates.",
@@ -386,6 +515,14 @@ def main() -> None:
                 for key, value in WEIGHT_MODES.items()
             },
             "settling_summary": "settled_after_months is the first checkpoint after which all future six-month cosine distances stay under the threshold.",
+            "exponential_fit": {
+                "form": "distance_to_current_profile ~= amplitude * exp(-decay_rate * x)",
+                "axes": {
+                    "time": "x is years elapsed after the chosen supported-character offset.",
+                    "count": "x is cumulative supported-character count after the chosen supported-character offset.",
+                },
+                "selection": exponential_fit_selection,
+            },
         },
         "profiles": profiles,
     }
