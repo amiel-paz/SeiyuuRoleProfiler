@@ -45,7 +45,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--embedding-cache-dir", type=Path, default=Path("run/production_personality_basis/embeddings"))
     parser.add_argument("--embedding-model", default="BAAI/bge-small-en-v1.5")
     parser.add_argument("--output", type=Path, default=Path("run/profile_stabilization_curves.json"))
-    parser.add_argument("--tail-periods", type=int, default=2, help="Six-month periods to append after the latest known role year.")
+    parser.add_argument("--tail-periods", type=int, default=0, help="Optional six-month periods to append after the latest known role year.")
     parser.add_argument("--round-digits", type=int, default=6)
     return parser.parse_args()
 

@@ -283,6 +283,10 @@
       stroke-width: 3;
       vector-effect: non-scaling-stroke;
     }
+    .stabilityDot {
+      fill: var(--deep);
+      opacity: .82;
+    }
     .stabilityLabel {
       fill: var(--muted);
       font-size: 13px;
@@ -679,16 +683,28 @@
       const x = row => pad.left + Number(row.months_since_first_role || 0) / maxMonth * (width - pad.left - pad.right);
       const y = row => height - pad.bottom - Number(row.cosine_distance_from_current_profile || 0) / maxDistance * (height - pad.top - pad.bottom);
       const path = rows.map((row, index) => `${index ? 'L' : 'M'}${x(row).toFixed(2)} ${y(row).toFixed(2)}`).join(' ');
+      const dots = rows
+        .filter(row => Number(row.new_supported_characters || 0) > 0)
+        .map(row => {
+          const newCount = Number(row.new_supported_characters || 0);
+          return `<circle class="stabilityDot" cx="${x(row).toFixed(2)}" cy="${y(row).toFixed(2)}" r="${Math.min(9, 3 + newCount)}">
+            <title>${esc(row.date)} · ${fmtInt.format(newCount)} new supported role${newCount === 1 ? '' : 's'} · distance ${Number(row.cosine_distance_from_current_profile || 0).toFixed(4)}</title>
+          </circle>`;
+        })
+        .join('');
       return `<svg class="stabilityChart" viewBox="0 0 ${width} ${height}" role="img" aria-label="distance from current role profile over time">
         <line class="stabilityGrid" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
         <line class="stabilityGrid" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
         <line class="stabilityAxis" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
         <line class="stabilityAxis" x1="${pad.left}" y1="${pad.top}" x2="${pad.left}" y2="${height - pad.bottom}"></line>
         <path class="stabilityLine" d="${path}"></path>
+        ${dots}
         <text class="stabilityLabel" x="${pad.left}" y="${height - 12}">first role</text>
         <text class="stabilityLabel" x="${width - pad.right}" y="${height - 12}" text-anchor="end">${monthsLabel(maxMonth)}</text>
         <text class="stabilityLabel" x="${pad.left + 7}" y="${pad.top + 13}">far from current profile</text>
         <text class="stabilityLabel" x="${pad.left + 7}" y="${height - pad.bottom - 8}">current profile</text>
+        <circle class="stabilityDot" cx="${width - pad.right - 115}" cy="${pad.top + 2}" r="5"></circle>
+        <text class="stabilityLabel" x="${width - pad.right - 104}" y="${pad.top + 7}">new supported roles</text>
       </svg>`;
     }
 
